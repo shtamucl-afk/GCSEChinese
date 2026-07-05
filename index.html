@@ -23,16 +23,12 @@
   
   <p><small>Milestone 1 — Firebase wired, no data yet</small></p>
 
-  <!-- Firebase SDK (compat version for simple script tag usage) -->
   https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js
-  https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js
-  
-  <!-- Our Firebase config (must load AFTER the SDK) -->
+  ebase-firestore-compat.js"></script>
   js/firebase-config.js
+
   
-  <!-- Our page logic -->
   <script>
-    // Load student names from Firestore into the dropdown
     async function loadStudents() {
       const select = document.getElementById('student-select');
       try {
@@ -53,17 +49,15 @@
         } else {
           select.innerHTML = '<option value="">(studentIndex/list not created)</option>';
         }
-        console.log("✅ Students loaded");
+        console.log("Students loaded");
       } catch (err) {
-        console.error("❌ Error loading students:", err);
-        select.innerHTML = '<option value="">(error loading — see console)</option>';
+        console.error("Error loading students:", err);
+        select.innerHTML = '<option value="">(error loading - see console)</option>';
       }
     }
 
-    // Run on page load
     loadStudents();
 
-    // Start button — placeholder for now
     document.getElementById('start-button').addEventListener('click', () => {
       const selected = document.getElementById('student-select').value;
       if (!selected) {
