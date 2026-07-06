@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Chinese iGCSE Vocabulary Trainer</title>
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <p id="student-info">Loading...</p>
+
+  <hr>
+
+  <p><a href="index.html">Back to student selection</a></p>
+
+  <p><small>Milestone 3 Sub-step 3.1 placeholder. Full dashboard coming in Sub-step 3.2.</small></p>
+
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/student.js"></script>
+
+  <script>
+    const student = getStudentFromUrl();
+    const infoEl = document.getElementById('student-info');
+
+    if (student) {
+      infoEl.textContent = 'Student: ' + student;
+    } else {
+      infoEl.innerHTML = 'No student in URL. <a href="index.html">Go back to student selection</a>.';
+    }
+
+    console.log('Dashboard placeholder loaded. Student:', student);
+  </script>
+</body>
+</html>

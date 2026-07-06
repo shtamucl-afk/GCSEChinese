@@ -7,10 +7,10 @@
 </head>
 <body>
   <h1>Chinese iGCSE Vocabulary Trainer</h1>
-  <p>Welcome! This is a self-learning tool for Traditional Chinese vocabulary.</p>
-  
+  <p>Please select your name to start learning.</p>
+
   <hr>
-  
+
   <label for="student-select">Who are you?</label>
   <br>
   <select id="student-select">
@@ -20,50 +20,46 @@
   <button id="start-button">Start</button>
 
   <hr>
-  
-  <p><small>Milestone 1 — Firebase wired, no data yet</small></p>
 
+  <p><small>Milestone 3 in progress — Sub-step 3.1</small></p>
+
+  <!-- Firebase SDK -->
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
-  
+
+  <!-- Shared student helpers -->
+  <script src="js/student.js"></script>
+
+  <!-- Page logic -->
   <script>
-    async function loadStudents() {
-      const select = document.getElementById('student-select');
-      try {
-        const doc = await db.collection('studentIndex').doc('list').get();
-        if (doc.exists) {
-          const names = doc.data().names || [];
-          if (names.length === 0) {
-            select.innerHTML = '<option value="">(no students yet)</option>';
-          } else {
-            select.innerHTML = '<option value="">-- Select your name --</option>';
-            names.forEach(name => {
-              const opt = document.createElement('option');
-              opt.value = name;
-              opt.textContent = name;
-              select.appendChild(opt);
-            });
-          }
-        } else {
-          select.innerHTML = '<option value="">(studentIndex/list not created)</option>';
-        }
-        console.log("Students loaded");
-      } catch (err) {
-        console.error("Error loading students:", err);
-        select.innerHTML = '<option value="">(error loading - see console)</option>';
-      }
-    }
+    const selectEl = document.getElementById('student-select');
 
-    loadStudents();
+    // Populate dropdown on load
+    populateStudentDropdown(selectEl);
 
+    // "+ Add new student" is handled immediately on change
+    selectEl.addEventListener('change', () => {
+      handleStudentDropdownChange(selectEl);
+    });
+
+    // Start button navigates for real name selections
     document.getElementById('start-button').addEventListener('click', () => {
-      const selected = document.getElementById('student-select').value;
-      if (!selected) {
-        alert('Please select your name first');
-      } else {
-        alert('Hello ' + selected + '! (Dashboard coming in Milestone 3)');
+      const value = selectEl.value;
+
+      if (!value) {
+        alert('Please select your name first.');
+        return;
       }
+
+      if (value === ADD_NEW_SENTINEL) {
+        // Trigger the add-new flow (in case user selected it then clicked Start)
+        handleStudentDropdownChange(selectEl);
+        return;
+      }
+
+      // Real name selected → navigate to their dashboard
+      navigateToDashboard(value);
     });
   </script>
 </body>
