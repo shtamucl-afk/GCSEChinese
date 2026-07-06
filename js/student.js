@@ -170,3 +170,4 @@ async function handleStudentDropdownChange(selectEl) {
         selectEl.value = '';
     }
 }
+
