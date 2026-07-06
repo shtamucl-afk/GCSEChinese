@@ -135,7 +135,6 @@
       text-decoration: underline;
     }
 
-    /* Practice pool */
     .practice-pool {
       margin-bottom: 20px;
     }
@@ -196,21 +195,30 @@
       font-size: 18px;
     }
 
-    .level-pill {
-      display: inline-block;
-      padding: 2px 8px;
+    /* Level dropdown (replaces static pill) */
+    .level-select {
+      padding: 3px 6px;
       border-radius: 10px;
       font-size: 12px;
+      border: 1px solid rgba(0,0,0,0.15);
+      cursor: pointer;
+      font-family: inherit;
       background-color: #eee;
       color: #333;
+      appearance: menulist;
     }
 
-    .level-NotStarted { background-color: #f8d7da; color: #721c24; }
-    .level-L1        { background-color: #e2e3e5; color: #383d41; }
-    .level-L2        { background-color: #fff3cd; color: #856404; }
-    .level-L3        { background-color: #ffe5b4; color: #6d4300; }
-    .level-L4        { background-color: #d4edda; color: #155724; }
-   
+    .level-select:focus {
+      outline: 2px solid rgba(0, 122, 255, 0.3);
+      outline-offset: 1px;
+    }
+
+    .level-select.level-NotStarted { background-color: #f8d7da; color: #721c24; }
+    .level-select.level-L1        { background-color: #e2e3e5; color: #383d41; }
+    .level-select.level-L2        { background-color: #fff3cd; color: #856404; }
+    .level-select.level-L3        { background-color: #ffe5b4; color: #6d4300; }
+    .level-select.level-L4        { background-color: #d4edda; color: #155724; }
+
     .details-btn,
     .audio-btn {
       cursor: pointer;
@@ -255,6 +263,33 @@
     .details-content dd {
       margin: 0;
     }
+
+    /* Toast notification */
+    .toast {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    .toast.visible {
+      opacity: 1;
+    }
+
+    .toast.success {
+      background-color: #28a745;
+    }
+
+    .toast.error {
+      background-color: #dc3545;
+    }
   </style>
 </head>
 <body>
@@ -293,12 +328,12 @@
 
   </div>
 
-  
+  <div id="toast" class="toast"></div>
+
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
   <script src="js/student.js"></script>
-
 
   <script>
     // ------------------------------------------------------------------
@@ -319,6 +354,7 @@
     let studentProgress = {};
     let allChapters = [];
     let chapterVocab = {};
+    let currentChapterId = null;
 
     // ------------------------------------------------------------------
     // Bootstrap
@@ -354,7 +390,8 @@
         const doc = await db.collection('students').doc(student).get();
         if (doc.exists) {
           studentProgress = doc.data().progress || {};
-          console.log('Loaded progress for ' + student + ':', Object.keys(studentProgress).length, 'entries');
+          console.log('Loaded progress for ' + student + ':',
+                      Object.keys(studentProgress).length, 'entries');
         } else {
           studentProgress = {};
           console.log('No progress doc for ' + student + ' - treating all as Not Started');
@@ -389,12 +426,104 @@
     }
 
     function computeLevelCounts(vocabArray) {
-      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0};
+      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
       vocabArray.forEach(word => {
         const level = getLevelForWord(word.id);
         counts[level] = (counts[level] || 0) + 1;
       });
       return counts;
+    }
+
+    // ------------------------------------------------------------------
+    // Toast notifications
+    // ------------------------------------------------------------------
+    let toastTimer = null;
+
+    function showToast(message, type) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.className = 'toast ' + (type || 'success') + ' visible';
+
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove('visible');
+      }, 1500);
+    }
+
+    // ------------------------------------------------------------------
+    // Update word level in Firestore + re-render counts
+    // ------------------------------------------------------------------
+    async function updateWordLevel(wordId, newLevel, selectEl, oldLevel) {
+      try {
+        // Firestore partial update: only touch this word's progress entry.
+        // Note: dot-notation like 'progress.ch01_w001' only works with .update(),
+        // not with .set({merge:true}). Use nested object structure instead.
+        
+        const update = {
+          progress: {
+            [wordId]: newLevel,
+          },
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+
+
+        await db.collection('students').doc(student).set(update, { merge: true });
+
+        // Update local state
+        studentProgress[wordId] = newLevel;
+
+        // Update the dropdown's own color
+        applyLevelClass(selectEl, newLevel);
+
+        // Refresh downstream counts
+        refreshCountsAfterChange();
+
+        showToast('Saved', 'success');
+        console.log('Updated ' + wordId + ' from ' + oldLevel + ' to ' + newLevel);
+      } catch (err) {
+        console.error('Failed to update level:', err);
+        // Revert dropdown
+        selectEl.value = oldLevel;
+        applyLevelClass(selectEl, oldLevel);
+        showToast('Save failed. Please try again.', 'error');
+      }
+    }
+
+    function applyLevelClass(selectEl, level) {
+      LEVEL_ORDER.forEach(l => selectEl.classList.remove('level-' + l));
+      selectEl.classList.add('level-' + level);
+      // Force a repaint to work around browser caching of <select> chrome
+      selectEl.style.display = 'none';
+      selectEl.offsetHeight;
+      selectEl.style.display = '';
+    }
+
+
+    // ------------------------------------------------------------------
+    // Refresh counts across the page after a level change
+    // ------------------------------------------------------------------
+    function refreshCountsAfterChange() {
+      renderOverallProgress();
+      renderChapterList();
+
+      // If a chapter is currently selected, refresh its pool counts
+      if (currentChapterId) {
+        const chapter = allChapters.find(c => c.id === currentChapterId);
+        if (chapter) {
+          refreshPoolCounts(chapter);
+        }
+      }
+    }
+
+    function refreshPoolCounts(chapter) {
+      const vocab = chapterVocab[chapter.id] || [];
+      const counts = computeLevelCounts(vocab);
+      const btns = document.querySelectorAll('.pool-btn');
+      const levels = ['L1', 'L2', 'L3', 'L4'];
+      btns.forEach((btn, i) => {
+        const level = levels[i];
+        btn.textContent = level + ' (' + counts[level] + ')';
+      });
     }
 
     // ------------------------------------------------------------------
@@ -439,6 +568,10 @@
         const li = document.createElement('li');
         li.dataset.chapterId = ch.id;
 
+        if (ch.id === currentChapterId) {
+          li.classList.add('selected');
+        }
+
         const title = document.createElement('span');
         title.className = 'chapter-title';
         title.textContent = 'Chapter ' + ch.id + ': ' + ch.title;
@@ -464,6 +597,8 @@
     // Chapter selection
     // ------------------------------------------------------------------
     function selectChapter(chapter) {
+      currentChapterId = chapter.id;
+
       document.querySelectorAll('#chapter-list li').forEach(li => {
         li.classList.toggle('selected', li.dataset.chapterId === chapter.id);
       });
@@ -477,10 +612,10 @@
     }
 
     // ------------------------------------------------------------------
-    // Practice pool button click (placeholder for M3)
+    // Practice pool button click (placeholder for M4)
     // ------------------------------------------------------------------
     function handlePracticePoolClick(level, chapterId) {
-      alert('Practice pool for ' + LEVEL_META[level].label + ' (Chapter ' + chapterId + ') coming in Milestone 7.');
+      alert('Practice pool for ' + LEVEL_META[level].label + ' (Chapter ' + chapterId + ') coming in Milestone 4+.');
     }
 
     // ------------------------------------------------------------------
@@ -490,7 +625,7 @@
       const rightEl = document.getElementById('right-panel-content');
       rightEl.innerHTML = '';
 
-      // Chapter header with Show Passages link on the right
+      // Chapter header + Show Passages link
       const header = document.createElement('div');
       header.className = 'chapter-header';
 
@@ -507,7 +642,7 @@
 
       rightEl.appendChild(header);
 
-      // Practice Pool section
+      // Practice Pool
       const chapterCounts = computeLevelCounts(chapterData.vocab);
 
       const practicePool = document.createElement('div');
@@ -532,7 +667,7 @@
       practicePool.appendChild(btnRow);
       rightEl.appendChild(practicePool);
 
-      // Master toggle buttons
+      // Master toggles
       const masterToggle = document.createElement('div');
       masterToggle.className = 'master-toggle';
 
@@ -568,20 +703,45 @@
         const row = document.createElement('tr');
         row.dataset.wordId = word.id;
 
+        // Word cell
         const tdWord = document.createElement('td');
         tdWord.className = 'vocab-word';
         tdWord.textContent = word.traditional;
         row.appendChild(tdWord);
 
+        // Level cell - inline dropdown
         const tdLevel = document.createElement('td');
-        const level = getLevelForWord(word.id);
-        const meta = LEVEL_META[level];
-        const pill = document.createElement('span');
-        pill.className = 'level-pill level-' + level;
-        pill.textContent = meta.emoji + ' ' + meta.label;
-        tdLevel.appendChild(pill);
+        const select = document.createElement('select');
+        select.className = 'level-select';
+        select.dataset.wordId = word.id;
+
+        LEVEL_ORDER.forEach(level => {
+          const opt = document.createElement('option');
+          opt.value = level;
+          opt.textContent = LEVEL_META[level].emoji + ' ' + LEVEL_META[level].label;
+          select.appendChild(opt);
+        });
+
+        // Initialize the dropdown to current level. Read from studentProgress
+        // fresh each time to avoid stale closure issues.
+        const initialLevel = getLevelForWord(word.id);
+        select.value = initialLevel;
+        applyLevelClass(select, initialLevel);
+
+        select.addEventListener('change', () => {
+          // Read old level from the state, not from a captured variable
+          const oldLevel = getLevelForWord(word.id);
+          const newLevel = select.value;
+          if (newLevel === oldLevel) {
+            return;
+          }
+          updateWordLevel(word.id, newLevel, select, oldLevel);
+        });
+
+        tdLevel.appendChild(select);
         row.appendChild(tdLevel);
 
+        // Details cell
         const tdDetails = document.createElement('td');
         const detailsBtn = document.createElement('button');
         detailsBtn.className = 'details-btn';
@@ -590,6 +750,7 @@
         tdDetails.appendChild(detailsBtn);
         row.appendChild(tdDetails);
 
+        // Audio cell
         const tdAudio = document.createElement('td');
         const audioBtn = document.createElement('button');
         audioBtn.className = 'audio-btn';
@@ -601,6 +762,7 @@
 
         tbody.appendChild(row);
 
+        // Details row (hidden)
         const detailsRow = document.createElement('tr');
         detailsRow.className = 'details-row';
         detailsRow.dataset.wordId = word.id;
@@ -640,7 +802,7 @@
     }
 
     // ------------------------------------------------------------------
-    // Row toggles + audio (unchanged)
+    // Row toggles + audio
     // ------------------------------------------------------------------
     function toggleRowDetails(wordId, button) {
       const detailsRow = document.getElementById('details-' + wordId);
