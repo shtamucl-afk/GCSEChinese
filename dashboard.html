@@ -102,6 +102,35 @@
       margin-top: 3px;
       line-height: 1.5;
     }
+    .cross-chapter-pool {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+
+    .cross-chapter-pool-label {
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    .cross-chapter-pool-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .cross-pool-btn {
+      padding: 4px 8px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      font-size: 12px;
+    }
+
+    .cross-pool-btn:hover {
+      background-color: #eef;
+    }
 
     .right-panel {
       padding: 20px;
@@ -317,6 +346,8 @@
         <p class="empty-message">Loading...</p>
       </div>
 
+      <div id="cross-chapter-pool" class="cross-chapter-pool"></div>
+
       <h2>Chapters</h2>
       <ul id="chapter-list" class="chapter-list">
         <li>Loading chapters...</li>
@@ -528,11 +559,12 @@
           }
         }
 
-        // Refresh Practice Pool button counts
+        // Refresh Practice Pool button counts (both chapter-scoped and cross-chapter)
         if (currentChapterId) {
           const chapter = allChapters.find(c => c.id === currentChapterId);
           if (chapter) refreshPoolCounts(chapter);
         }
+        renderCrossChapterPool();
 
         showToast('Saved', 'success');
         console.log('Set exclusion for ' + wordId + ': excluded=' + !includeInPool);
@@ -563,11 +595,12 @@
           cb.checked = true;
         });
 
-        // Refresh pool counts
+        // Refresh pool counts (both chapter-scoped and cross-chapter)
         if (currentChapterId) {
           const chapter = allChapters.find(c => c.id === currentChapterId);
           if (chapter) refreshPoolCounts(chapter);
         }
+        renderCrossChapterPool();
 
         showToast('All words included in practice', 'success');
         console.log('Included all ' + wordIds.length + ' words in practice');
@@ -598,11 +631,12 @@
           cb.checked = false;
         });
 
-        // Refresh pool counts
+        // Refresh pool counts (both chapter-scoped and cross-chapter)
         if (currentChapterId) {
           const chapter = allChapters.find(c => c.id === currentChapterId);
           if (chapter) refreshPoolCounts(chapter);
         }
+        renderCrossChapterPool();
 
         showToast('All words excluded from practice', 'success');
         console.log('Excluded all ' + wordIds.length + ' words from practice');
@@ -627,6 +661,7 @@
     // ------------------------------------------------------------------
     function refreshCountsAfterChange() {
       renderOverallProgress();
+      renderCrossChapterPool();
       renderChapterList();
 
       // If a chapter is currently selected, refresh its pool counts
@@ -689,6 +724,51 @@
         line.textContent = meta.emoji + ' ' + meta.label + ': ' + counts[level];
         summaryEl.appendChild(line);
       });
+    }
+
+    function renderCrossChapterPool() {
+      const containerEl = document.getElementById('cross-chapter-pool');
+      containerEl.innerHTML = '';
+
+      // Combine all chapter vocab
+      const allVocab = [];
+      Object.values(chapterVocab).forEach(list => allVocab.push(...list));
+
+      if (allVocab.length === 0) return;
+
+      const counts = computePoolCounts(allVocab);
+
+      const label = document.createElement('div');
+      label.className = 'cross-chapter-pool-label';
+      label.textContent = 'Practice across all chapters:';
+      containerEl.appendChild(label);
+
+      const btnRow = document.createElement('div');
+      btnRow.className = 'cross-chapter-pool-buttons';
+
+      const CROSS_POOL_BUTTONS = [
+        { label: 'NS\u2192L1', sourceLevel: 'NotStarted', targetLevel: 'L1' },
+        { label: 'L1\u2192L2', sourceLevel: 'L1',         targetLevel: 'L2' },
+        { label: 'L2\u2192L3', sourceLevel: 'L2',         targetLevel: 'L3' },
+        { label: 'L3\u2192L4', sourceLevel: 'L3',         targetLevel: 'L4' },
+      ];
+
+      CROSS_POOL_BUTTONS.forEach(cfg => {
+        const btn = document.createElement('button');
+        btn.className = 'cross-pool-btn';
+        btn.dataset.sourceLevel = cfg.sourceLevel;
+        btn.dataset.targetLevel = cfg.targetLevel;
+        btn.textContent = cfg.label + ' (' + counts[cfg.sourceLevel] + ')';
+        btn.addEventListener('click', () => handleCrossPoolClick(cfg.targetLevel));
+        btnRow.appendChild(btn);
+      });
+
+      containerEl.appendChild(btnRow);
+    }
+
+    function handleCrossPoolClick(targetLevel) {
+      alert('Cross-chapter practice pool to reach ' + LEVEL_META[targetLevel].label +
+            ' coming in Milestone 4+.');
     }
 
     function renderChapterList() {
@@ -757,7 +837,7 @@
       alert('Practice pool to reach ' + LEVEL_META[targetLevel].label +
             ' (Chapter ' + chapterId + ') coming in Milestone 4+.');
     }
-    
+
     // ------------------------------------------------------------------
     // Render chapter detail on the right panel
     // ------------------------------------------------------------------
@@ -1021,6 +1101,7 @@
         await loadChaptersIndex();
         await loadAllChapterVocab();
         renderOverallProgress();
+        renderCrossChapterPool();
         renderChapterList();
       } catch (err) {
         console.error('Initialization error:', err);
