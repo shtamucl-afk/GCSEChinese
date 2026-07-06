@@ -187,6 +187,42 @@
     .back-action:hover {
       background-color: #eef;
     }
+
+    .toast {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    .toast.visible {
+      opacity: 1;
+    }
+
+    .toast.success {
+      background-color: #28a745;
+    }
+
+    .toast.error {
+      background-color: #dc3545;
+    }
+
+    .mastered-confirmation {
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: #155724;
+      background-color: #d4edda;
+      padding: 6px 12px;
+      border-radius: 4px;
+      display: inline-block;
+    }
   </style>
 </head>
 <body>
@@ -201,6 +237,8 @@
       <p class="empty-message">Loading...</p>
     </div>
   </div>
+
+  <div id="toast" class="toast"></div>
 
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
@@ -457,6 +495,18 @@
         wireRevealButton();
       }
     }
+
+    function updateSessionCounter() {
+      const headerSecondLine = document.querySelector('.session-header div:last-child');
+      if (!headerSecondLine) return;
+
+      const wordContext = currentWordEntry
+        ? 'Word from Chapter ' + currentWordEntry.chapterId
+        : '';
+      const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
+      headerSecondLine.textContent = (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText;
+    }
+
     function wireRevealButton() {
       const btn = document.getElementById('reveal-btn');
       if (btn) {
@@ -496,15 +546,30 @@
           alert('Next word logic coming in Sub-Step 4.4.');
         });
       }
+      
       const checkbox = document.getElementById('mastered-checkbox');
       if (checkbox) {
-        checkbox.addEventListener('change', () => {
-          if (checkbox.checked) {
-            alert('Mastered L1 logic coming in Sub-Step 4.3.');
+        checkbox.addEventListener('change', async () => {
+          if (!checkbox.checked) return;
+
+          // Optimistic UI: disable immediately to prevent double-clicks
+          checkbox.disabled = true;
+
+          const result = await updateMasteredForCurrentWord();
+
+          if (result.ok) {
+            showToast('Saved', 'success');
+            showMasteredConfirmation();
+            updateSessionCounter();
+          } else {
+            // Revert on failure
             checkbox.checked = false;
+            checkbox.disabled = false;
+            showToast('Save failed. Please try again.', 'error');
           }
         });
       }
+      
       const audioBtn = document.getElementById('reveal-audio-btn');
       if (audioBtn) {
         audioBtn.addEventListener('click', () => {
@@ -523,6 +588,56 @@
       audio.play().catch(err => console.error('Audio playback failed:', err));
     }
 
+    let toastTimer = null;
+
+    function showToast(message, type) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.className = 'toast ' + (type || 'success') + ' visible';
+
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove('visible');
+      }, 1500);
+    }
+
+    async function updateMasteredForCurrentWord() {
+      if (!currentWordEntry) return { ok: false };
+      const wordId = currentWordEntry.word.id;
+
+      try {
+        const update = {
+          progress: {
+            [wordId]: 'L1',
+          },
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+        await db.collection('students').doc(student).set(update, { merge: true });
+
+        // Update local state
+        studentProgress[wordId] = 'L1';
+        sessionMastered.add(wordId);
+
+        console.log('Mastered ' + wordId + ' -> L1');
+        return { ok: true };
+      } catch (err) {
+        console.error('Failed to mark mastered:', err);
+        return { ok: false, error: err };
+      }
+    }
+
+    function showMasteredConfirmation() {
+      const masteredRow = document.querySelector('.mastered-row');
+      if (!masteredRow) return;
+
+      // Avoid duplicate confirmation if it already exists
+      if (document.querySelector('.mastered-confirmation')) return;
+
+      const confirmation = document.createElement('div');
+      confirmation.className = 'mastered-confirmation';
+      confirmation.textContent = '\u2713 This word has moved to L1 Read';
+      masteredRow.after(confirmation);
+    }
 
     // ------------------------------------------------------------------
     // Main initialization
