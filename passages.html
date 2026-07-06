@@ -126,7 +126,6 @@
     .vocab-L2         { background-color: #fff3cd; color: #856404; }
     .vocab-L3         { background-color: #ffe5b4; color: #6d4300; }
     .vocab-L4         { background-color: #d4edda; color: #155724; }
-    .vocab-ExamReady  { background-color: #d1ecf1; color: #0c5460; }
   </style>
 </head>
 <body>
@@ -153,14 +152,13 @@
     // ------------------------------------------------------------------
     // Constants
     // ------------------------------------------------------------------
-    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4', 'ExamReady'];
+    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
       NotStarted: { emoji: '🔴', label: 'Not Started' },
       L1:         { emoji: '⚪', label: 'L1 Read' },
       L2:         { emoji: '🟡', label: 'L2 Listen' },
       L3:         { emoji: '🟠', label: 'L3 Usage' },
       L4:         { emoji: '🟢', label: 'L4 Write' },
-      ExamReady:  { emoji: '✅', label: 'Exam-Ready' },
     };
 
     // ------------------------------------------------------------------

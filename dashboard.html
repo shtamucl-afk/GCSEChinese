@@ -210,8 +210,7 @@
     .level-L2        { background-color: #fff3cd; color: #856404; }
     .level-L3        { background-color: #ffe5b4; color: #6d4300; }
     .level-L4        { background-color: #d4edda; color: #155724; }
-    .level-ExamReady { background-color: #d1ecf1; color: #0c5460; }
-
+   
     .details-btn,
     .audio-btn {
       cursor: pointer;
@@ -305,14 +304,13 @@
     // ------------------------------------------------------------------
     // Constants
     // ------------------------------------------------------------------
-    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4', 'ExamReady'];
+    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
       NotStarted: { emoji: '🔴', label: 'Not Started' },
       L1:         { emoji: '⚪', label: 'L1 Read' },
       L2:         { emoji: '🟡', label: 'L2 Listen' },
       L3:         { emoji: '🟠', label: 'L3 Usage' },
       L4:         { emoji: '🟢', label: 'L4 Write' },
-      ExamReady:  { emoji: '✅', label: 'Exam-Ready' },
     };
 
     // ------------------------------------------------------------------
@@ -391,7 +389,7 @@
     }
 
     function computeLevelCounts(vocabArray) {
-      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0, ExamReady: 0 };
+      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0};
       vocabArray.forEach(word => {
         const level = getLevelForWord(word.id);
         counts[level] = (counts[level] || 0) + 1;
