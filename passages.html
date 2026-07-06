@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passages - Chinese iGCSE Vocabulary Trainer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background-color: #fafafa;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      background-color: #f4f4f4;
+    }
+
+    .top-bar .back-link {
+      font-size: 14px;
+      text-decoration: none;
+      color: #0366d6;
+    }
+
+    .top-bar .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .top-bar .student-label {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .content-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .chapter-title {
+      font-size: 22px;
+      margin: 0 0 20px 0;
+    }
+
+    .empty-message {
+      color: #888;
+      font-style: italic;
+    }
+
+    .passage-box {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 20px 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .passage-heading {
+      font-size: 14px;
+      font-weight: bold;
+      color: #666;
+      margin: 0 0 12px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .passage-body {
+      font-size: 19px;
+      line-height: 1.7;
+      color: #222;
+    }
+
+    .passage-body p {
+      margin: 0 0 12px 0;
+    }
+
+    .passage-body p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <a id="back-link" class="back-link" href="dashboard.html">Back to Dashboard</a>
+    <span id="student-label" class="student-label"></span>
+  </div>
+
+  <div class="content-wrapper">
+    <h1 id="chapter-title" class="chapter-title">Loading...</h1>
+    <div id="passages-container">
+      <p class="empty-message">Loading passages...</p>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/student.js"></script>
+
+  <script>
+    // ------------------------------------------------------------------
+    // Parse URL params
+    // ------------------------------------------------------------------
+    const student = getStudentFromUrl();
+    const params = new URLSearchParams(window.location.search);
+    const chapterId = params.get('chapter');
+
+    // ------------------------------------------------------------------
+    // Guardrails
+    // ------------------------------------------------------------------
+    if (!student) {
+      window.location.href = 'index.html';
+    }
+
+    if (!chapterId) {
+      // No chapter specified - go back to dashboard for this student
+      window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
+    }
+
+    // ------------------------------------------------------------------
+    // Set up static elements (back link + student label)
+    // ------------------------------------------------------------------
+    document.getElementById('back-link').href =
+      'dashboard.html?student=' + encodeURIComponent(student);
+
+    document.getElementById('student-label').textContent = 'Student: ' + student;
+
+    // ------------------------------------------------------------------
+    // Load the chapter JSON and render passages
+    // ------------------------------------------------------------------
+    async function loadAndRender() {
+      const titleEl = document.getElementById('chapter-title');
+      const containerEl = document.getElementById('passages-container');
+
+      try {
+        const response = await fetch('data/chapter' + chapterId + '.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const chapter = await response.json();
+
+        titleEl.textContent = 'Chapter ' + chapter.chapterId + ': ' + chapter.chapterTitle;
+
+        const passages = chapter.passages || [];
+        containerEl.innerHTML = '';
+
+        if (passages.length === 0) {
+          containerEl.innerHTML = '<p class="empty-message">No passages found for this chapter.</p>';
+          return;
+        }
+
+        passages.forEach((passageText, idx) => {
+          const box = document.createElement('div');
+          box.className = 'passage-box';
+
+          const heading = document.createElement('div');
+          heading.className = 'passage-heading';
+          heading.textContent = 'Passage ' + (idx + 1);
+          box.appendChild(heading);
+
+          const body = document.createElement('div');
+          body.className = 'passage-body';
+
+          // Split by \n and render each part as a <p>
+          const parts = passageText.split('\n');
+          parts.forEach(part => {
+            const trimmed = part.trim();
+            if (trimmed) {
+              const p = document.createElement('p');
+              p.textContent = trimmed;
+              body.appendChild(p);
+            }
+          });
+
+          box.appendChild(body);
+          containerEl.appendChild(box);
+        });
+
+        console.log('Rendered ' + passages.length + ' passage(s) for chapter ' + chapterId);
+      } catch (err) {
+        console.error('Error loading chapter ' + chapterId + ':', err);
+        titleEl.textContent = 'Error';
+        containerEl.innerHTML = '<p class="empty-message">Error loading chapter. See console.</p>';
+      }
+    }
+
+    loadAndRender();
+  </script>
+
+</body>
+</html>
