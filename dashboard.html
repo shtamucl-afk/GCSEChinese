@@ -543,7 +543,74 @@
         showToast('Save failed. Please try again.', 'error');
       }
     }
+    
+    async function includeAllInPractice(vocab) {
+      const wordIds = vocab.map(w => w.id);
+      if (wordIds.length === 0) return;
 
+      try {
+        const update = {
+          excluded: firebase.firestore.FieldValue.arrayRemove(...wordIds),
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+        await db.collection('students').doc(student).set(update, { merge: true });
+
+        // Update local state - remove all wordIds from excluded
+        studentExcluded = studentExcluded.filter(id => !wordIds.includes(id));
+
+        // Update all checkboxes in the current view
+        document.querySelectorAll('.vocab-table input[type="checkbox"]').forEach(cb => {
+          cb.checked = true;
+        });
+
+        // Refresh pool counts
+        if (currentChapterId) {
+          const chapter = allChapters.find(c => c.id === currentChapterId);
+          if (chapter) refreshPoolCounts(chapter);
+        }
+
+        showToast('All words included in practice', 'success');
+        console.log('Included all ' + wordIds.length + ' words in practice');
+      } catch (err) {
+        console.error('Failed to include all:', err);
+        showToast('Save failed. Please try again.', 'error');
+      }
+    }
+
+    async function excludeAllFromPractice(vocab) {
+      const wordIds = vocab.map(w => w.id);
+      if (wordIds.length === 0) return;
+
+      try {
+        const update = {
+          excluded: firebase.firestore.FieldValue.arrayUnion(...wordIds),
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+        await db.collection('students').doc(student).set(update, { merge: true });
+
+        // Update local state - add all wordIds to excluded (dedup)
+        wordIds.forEach(id => {
+          if (!studentExcluded.includes(id)) studentExcluded.push(id);
+        });
+
+        // Update all checkboxes in the current view
+        document.querySelectorAll('.vocab-table input[type="checkbox"]').forEach(cb => {
+          cb.checked = false;
+        });
+
+        // Refresh pool counts
+        if (currentChapterId) {
+          const chapter = allChapters.find(c => c.id === currentChapterId);
+          if (chapter) refreshPoolCounts(chapter);
+        }
+
+        showToast('All words excluded from practice', 'success');
+        console.log('Excluded all ' + wordIds.length + ' words from practice');
+      } catch (err) {
+        console.error('Failed to exclude all:', err);
+        showToast('Save failed. Please try again.', 'error');
+      }
+    }
 
     function applyLevelClass(selectEl, level) {
       LEVEL_ORDER.forEach(l => selectEl.classList.remove('level-' + l));
@@ -746,9 +813,20 @@
       hideAllBtn.textContent = 'Hide all details';
       hideAllBtn.addEventListener('click', collapseAll);
 
+      const includeAllBtn = document.createElement('button');
+      includeAllBtn.textContent = 'Include all in practice';
+      includeAllBtn.addEventListener('click', () => includeAllInPractice(chapterData.vocab));
+
+      const excludeAllBtn = document.createElement('button');
+      excludeAllBtn.textContent = 'Exclude all from practice';
+      excludeAllBtn.addEventListener('click', () => excludeAllFromPractice(chapterData.vocab));
+
       masterToggle.appendChild(showAllBtn);
       masterToggle.appendChild(hideAllBtn);
+      masterToggle.appendChild(includeAllBtn);
+      masterToggle.appendChild(excludeAllBtn);
       rightEl.appendChild(masterToggle);
+
 
       // Vocab table
       const table = document.createElement('table');
