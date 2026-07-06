@@ -88,6 +88,106 @@
       color: #888;
       font-style: italic;
     }
+
+    /* Vocab table styles */
+    .chapter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .chapter-header h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .master-toggle {
+      margin-bottom: 10px;
+    }
+
+    .master-toggle button {
+      margin-right: 8px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .vocab-table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .vocab-table th,
+    .vocab-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .vocab-table th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    .vocab-word {
+      font-size: 18px;
+    }
+
+    .level-pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 12px;
+      background-color: #eee;
+      color: #333;
+    }
+
+    .details-btn,
+    .audio-btn {
+      cursor: pointer;
+      background: none;
+      border: 1px solid #ccc;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .details-btn:hover,
+    .audio-btn:hover {
+      background-color: #eef;
+    }
+
+    .details-row {
+      display: none;
+      background-color: #fafafa;
+    }
+
+    .details-row.expanded {
+      display: table-row;
+    }
+
+    .details-row td {
+      padding: 12px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .details-content dl {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 6px 12px;
+    }
+
+    .details-content dt {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .details-content dd {
+      margin: 0;
+    }
   </style>
 </head>
 <body>
@@ -112,9 +212,11 @@
     </div>
 
     <div class="right-panel">
-      <p id="right-panel-content" class="empty-message">
-        Select a chapter from the left panel to view its details.
-      </p>
+      <div id="right-panel-content">
+        <p class="empty-message">
+          Select a chapter from the left panel to view its details.
+        </p>
+      </div>
     </div>
 
   </div>
@@ -147,7 +249,6 @@
         return;
       }
 
-      // Real name selected and different from current → reload page for new student
       if (value && value !== student) {
         navigateToDashboard(value);
       }
@@ -200,19 +301,215 @@
     }
 
     // ------------------------------------------------------------------
-    // Handle chapter selection (3.2 placeholder — real content in 3.3)
+    // Chapter selection: load chapter JSON, render vocab table
     // ------------------------------------------------------------------
-    function selectChapter(chapter) {
-      // Update visual selection state
+    async function selectChapter(chapter) {
+      // Update visual selection state in left panel
       document.querySelectorAll('#chapter-list li').forEach(li => {
         li.classList.toggle('selected', li.dataset.chapterId === chapter.id);
       });
 
-      // Placeholder right panel content
+      // Show loading state
       const rightEl = document.getElementById('right-panel-content');
-      rightEl.className = '';
-      rightEl.textContent = 'You selected: Chapter ' + chapter.id + ' - ' + chapter.title +
-                            ' (' + chapter.wordCount + ' words). Vocab table coming in Sub-step 3.3.';
+      rightEl.innerHTML = '<p class="empty-message">Loading chapter ' + chapter.id + '...</p>';
+
+      // Fetch chapter JSON
+      try {
+        const response = await fetch('data/chapter' + chapter.id + '.json');
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status);
+        }
+        const chapterData = await response.json();
+        renderChapterDetail(chapterData);
+      } catch (err) {
+        console.error('Error loading chapter ' + chapter.id + ':', err);
+        rightEl.innerHTML = '<p class="empty-message">Error loading chapter. See console.</p>';
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Render chapter detail on the right panel
+    // ------------------------------------------------------------------
+    function renderChapterDetail(chapterData) {
+      const rightEl = document.getElementById('right-panel-content');
+      rightEl.innerHTML = '';
+
+      // Chapter header
+      const header = document.createElement('div');
+      header.className = 'chapter-header';
+      const h2 = document.createElement('h2');
+      h2.textContent = 'Chapter ' + chapterData.chapterId + ': ' + chapterData.chapterTitle;
+      header.appendChild(h2);
+      rightEl.appendChild(header);
+
+      // Master toggle buttons
+      const masterToggle = document.createElement('div');
+      masterToggle.className = 'master-toggle';
+
+      const showAllBtn = document.createElement('button');
+      showAllBtn.textContent = 'Show all details';
+      showAllBtn.addEventListener('click', expandAll);
+
+      const hideAllBtn = document.createElement('button');
+      hideAllBtn.textContent = 'Hide all details';
+      hideAllBtn.addEventListener('click', collapseAll);
+
+      masterToggle.appendChild(showAllBtn);
+      masterToggle.appendChild(hideAllBtn);
+      rightEl.appendChild(masterToggle);
+
+      // Vocab table
+      const table = document.createElement('table');
+      table.className = 'vocab-table';
+
+      // Header
+      const thead = document.createElement('thead');
+      const headerRow = document.createElement('tr');
+      ['Word', 'Level', 'Details', 'Audio'].forEach(text => {
+        const th = document.createElement('th');
+        th.textContent = text;
+        headerRow.appendChild(th);
+      });
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+
+      // Body
+      const tbody = document.createElement('tbody');
+
+      chapterData.vocab.forEach(word => {
+        // Main row
+        const row = document.createElement('tr');
+        row.dataset.wordId = word.id;
+
+        // Word cell
+        const tdWord = document.createElement('td');
+        tdWord.className = 'vocab-word';
+        tdWord.textContent = word.traditional;
+        row.appendChild(tdWord);
+
+        // Level cell (placeholder — 3.4 will replace with color-coded pill from Firestore)
+        const tdLevel = document.createElement('td');
+        const pill = document.createElement('span');
+        pill.className = 'level-pill';
+        pill.textContent = 'Not Started';
+        tdLevel.appendChild(pill);
+        row.appendChild(tdLevel);
+
+        // Details cell
+        const tdDetails = document.createElement('td');
+        const detailsBtn = document.createElement('button');
+        detailsBtn.className = 'details-btn';
+        detailsBtn.textContent = '👁 Details';
+        detailsBtn.addEventListener('click', () => toggleRowDetails(word.id, detailsBtn));
+        tdDetails.appendChild(detailsBtn);
+        row.appendChild(tdDetails);
+
+        // Audio cell
+        const tdAudio = document.createElement('td');
+        const audioBtn = document.createElement('button');
+        audioBtn.className = 'audio-btn';
+        audioBtn.textContent = '🔊';
+        audioBtn.title = 'Play word audio';
+        audioBtn.addEventListener('click', () => playAudio(word.audioIsolated));
+        tdAudio.appendChild(audioBtn);
+        row.appendChild(tdAudio);
+
+        tbody.appendChild(row);
+
+        // Hidden details row
+        const detailsRow = document.createElement('tr');
+        detailsRow.className = 'details-row';
+        detailsRow.dataset.wordId = word.id;
+        detailsRow.id = 'details-' + word.id;
+
+        const detailsCell = document.createElement('td');
+        detailsCell.colSpan = 4;
+
+        const detailsContent = document.createElement('div');
+        detailsContent.className = 'details-content';
+
+        const dl = document.createElement('dl');
+
+        const items = [
+          ['Pinyin', word.pinyin],
+          ['English', word.english],
+          ['Context', word.contextSentence || '(none)'],
+        ];
+
+        items.forEach(([label, value]) => {
+          const dt = document.createElement('dt');
+          dt.textContent = label;
+          const dd = document.createElement('dd');
+          dd.textContent = value;
+          dl.appendChild(dt);
+          dl.appendChild(dd);
+        });
+
+        detailsContent.appendChild(dl);
+        detailsCell.appendChild(detailsContent);
+        detailsRow.appendChild(detailsCell);
+        tbody.appendChild(detailsRow);
+      });
+
+      table.appendChild(tbody);
+      rightEl.appendChild(table);
+
+      console.log('Rendered chapter ' + chapterData.chapterId + ' with ' + chapterData.vocab.length + ' words.');
+    }
+
+    // ------------------------------------------------------------------
+    // Row detail toggle (per-row)
+    // ------------------------------------------------------------------
+    function toggleRowDetails(wordId, button) {
+      const detailsRow = document.getElementById('details-' + wordId);
+      if (!detailsRow) return;
+
+      const isExpanded = detailsRow.classList.contains('expanded');
+      if (isExpanded) {
+        detailsRow.classList.remove('expanded');
+        button.textContent = '👁 Details';
+      } else {
+        detailsRow.classList.add('expanded');
+        button.textContent = '🙈 Hide';
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Master toggle: expand all rows
+    // ------------------------------------------------------------------
+    function expandAll() {
+      document.querySelectorAll('.details-row').forEach(row => {
+        row.classList.add('expanded');
+      });
+      document.querySelectorAll('.details-btn').forEach(btn => {
+        btn.textContent = '🙈 Hide';
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // Master toggle: collapse all rows
+    // ------------------------------------------------------------------
+    function collapseAll() {
+      document.querySelectorAll('.details-row').forEach(row => {
+        row.classList.remove('expanded');
+      });
+      document.querySelectorAll('.details-btn').forEach(btn => {
+        btn.textContent = '👁 Details';
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // Audio playback
+    // ------------------------------------------------------------------
+    function playAudio(audioPath) {
+      if (!audioPath) {
+        console.warn('No audio path provided');
+        return;
+      }
+      const audio = new Audio(audioPath);
+      audio.play().catch(err => {
+        console.error('Audio playback failed:', err);
+      });
     }
 
     // Kick off chapter list load
