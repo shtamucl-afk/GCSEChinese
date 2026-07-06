@@ -290,6 +290,11 @@
     .toast.error {
       background-color: #dc3545;
     }
+
+    .vocab-table td input[type="checkbox"] {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
   </style>
 </head>
 <body>
@@ -352,6 +357,7 @@
     // Global state
     // ------------------------------------------------------------------
     let studentProgress = {};
+    let studentExcluded = [];
     let allChapters = [];
     let chapterVocab = {};
     let currentChapterId = null;
@@ -385,20 +391,28 @@
       return studentProgress[wordId] || 'NotStarted';
     }
 
+    function isWordExcluded(wordId) {
+      return studentExcluded.includes(wordId);
+    }
+
     async function loadStudentProgress() {
       try {
         const doc = await db.collection('students').doc(student).get();
         if (doc.exists) {
           studentProgress = doc.data().progress || {};
+          studentExcluded = doc.data().excluded || [];
           console.log('Loaded progress for ' + student + ':',
-                      Object.keys(studentProgress).length, 'entries');
+                      Object.keys(studentProgress).length, 'entries;',
+                      studentExcluded.length, 'excluded');
         } else {
           studentProgress = {};
-          console.log('No progress doc for ' + student + ' - treating all as Not Started');
+          studentExcluded = [];
+          console.log('No progress doc for ' + student + ' - treating all as Not Started, none excluded');
         }
       } catch (err) {
         console.error('Error loading student progress:', err);
         studentProgress = {};
+        studentExcluded = [];
       }
     }
 
@@ -489,6 +503,48 @@
       }
     }
 
+    async function updateWordExclusion(wordId, includeInPool, checkboxEl) {
+      try {
+        const update = {
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+
+        if (includeInPool) {
+          // Remove from excluded array
+          update.excluded = firebase.firestore.FieldValue.arrayRemove(wordId);
+        } else {
+          // Add to excluded array
+          update.excluded = firebase.firestore.FieldValue.arrayUnion(wordId);
+        }
+
+        await db.collection('students').doc(student).set(update, { merge: true });
+
+        // Update local state
+        if (includeInPool) {
+          studentExcluded = studentExcluded.filter(id => id !== wordId);
+        } else {
+          if (!studentExcluded.includes(wordId)) {
+            studentExcluded.push(wordId);
+          }
+        }
+
+        // Refresh Practice Pool button counts
+        if (currentChapterId) {
+          const chapter = allChapters.find(c => c.id === currentChapterId);
+          if (chapter) refreshPoolCounts(chapter);
+        }
+
+        showToast('Saved', 'success');
+        console.log('Set exclusion for ' + wordId + ': excluded=' + !includeInPool);
+      } catch (err) {
+        console.error('Failed to update exclusion:', err);
+        // Revert checkbox
+        checkboxEl.checked = !includeInPool;
+        showToast('Save failed. Please try again.', 'error');
+      }
+    }
+
+
     function applyLevelClass(selectEl, level) {
       LEVEL_ORDER.forEach(l => selectEl.classList.remove('level-' + l));
       selectEl.classList.add('level-' + level);
@@ -517,13 +573,24 @@
 
     function refreshPoolCounts(chapter) {
       const vocab = chapterVocab[chapter.id] || [];
-      const counts = computeLevelCounts(vocab);
+      const counts = computePoolCounts(vocab);
       const btns = document.querySelectorAll('.pool-btn');
       const levels = ['L1', 'L2', 'L3', 'L4'];
       btns.forEach((btn, i) => {
         const level = levels[i];
         btn.textContent = level + ' (' + counts[level] + ')';
       });
+    }
+
+    // Pool counts exclude words marked as excluded (used for Practice Pool buttons)
+    function computePoolCounts(vocabArray) {
+      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
+      vocabArray.forEach(word => {
+        if (isWordExcluded(word.id)) return;
+        const level = getLevelForWord(word.id);
+        counts[level] = (counts[level] || 0) + 1;
+      });
+      return counts;
     }
 
     // ------------------------------------------------------------------
@@ -642,8 +709,8 @@
 
       rightEl.appendChild(header);
 
-      // Practice Pool
-      const chapterCounts = computeLevelCounts(chapterData.vocab);
+      // Practice Pool - uses pool counts (excludes filtered words)
+      const chapterCounts = computePoolCounts(chapterData.vocab);
 
       const practicePool = document.createElement('div');
       practicePool.className = 'practice-pool';
@@ -689,7 +756,7 @@
 
       const thead = document.createElement('thead');
       const headerRow = document.createElement('tr');
-      ['Word', 'Level', 'Details', 'Audio'].forEach(text => {
+      ['Word', 'Level', 'Practice', 'Details', 'Audio'].forEach(text => {
         const th = document.createElement('th');
         th.textContent = text;
         headerRow.appendChild(th);
@@ -741,6 +808,19 @@
         tdLevel.appendChild(select);
         row.appendChild(tdLevel);
 
+        // Practice cell - checkbox for exclusion
+        const tdPractice = document.createElement('td');
+        const practiceCheckbox = document.createElement('input');
+        practiceCheckbox.type = 'checkbox';
+        practiceCheckbox.checked = !isWordExcluded(word.id);
+        practiceCheckbox.dataset.wordId = word.id;
+        practiceCheckbox.title = 'Include in practice pool';
+        practiceCheckbox.addEventListener('change', () => {
+          updateWordExclusion(word.id, practiceCheckbox.checked, practiceCheckbox);
+        });
+        tdPractice.appendChild(practiceCheckbox);
+        row.appendChild(tdPractice);
+
         // Details cell
         const tdDetails = document.createElement('td');
         const detailsBtn = document.createElement('button');
@@ -769,7 +849,7 @@
         detailsRow.id = 'details-' + word.id;
 
         const detailsCell = document.createElement('td');
-        detailsCell.colSpan = 4;
+        detailsCell.colSpan = 5;
 
         const detailsContent = document.createElement('div');
         detailsContent.className = 'details-content';
