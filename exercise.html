@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise - Chinese iGCSE Vocabulary Trainer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background-color: #fafafa;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      background-color: #f4f4f4;
+    }
+
+    .top-bar .back-link {
+      font-size: 14px;
+      text-decoration: none;
+      color: #0366d6;
+    }
+
+    .top-bar .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .top-bar .student-label {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .content-wrapper {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .session-header {
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    .session-header .primary {
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 4px;
+    }
+
+    .word-display {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .word-character {
+      font-size: 72px;
+      font-weight: normal;
+      color: #222;
+      line-height: 1.2;
+      margin-bottom: 40px;
+    }
+
+    .reveal-btn {
+      padding: 12px 32px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid #0366d6;
+      border-radius: 6px;
+      background-color: #fff;
+      color: #0366d6;
+    }
+
+    .reveal-btn:hover {
+      background-color: #eef;
+    }
+
+    .empty-message,
+    .error-message {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .empty-message p,
+    .error-message p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 24px;
+    }
+
+    .back-action {
+      display: inline-block;
+      padding: 10px 24px;
+      font-size: 15px;
+      text-decoration: none;
+      color: #0366d6;
+      border: 1px solid #0366d6;
+      border-radius: 6px;
+    }
+
+    .back-action:hover {
+      background-color: #eef;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <a id="back-link" class="back-link" href="dashboard.html">Back to Dashboard</a>
+    <span id="student-label" class="student-label"></span>
+  </div>
+
+  <div class="content-wrapper">
+    <div id="app-container">
+      <p class="empty-message">Loading...</p>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/student.js"></script>
+
+  <script>
+    // ------------------------------------------------------------------
+    // Constants
+    // ------------------------------------------------------------------
+    const LEVEL_META = {
+      NotStarted: { emoji: '🔴', label: 'Not Started' },
+      L1:         { emoji: '⚪', label: 'L1 Read' },
+      L2:         { emoji: '🟡', label: 'L2 Listen' },
+      L3:         { emoji: '🟠', label: 'L3 Usage' },
+      L4:         { emoji: '🟢', label: 'L4 Write' },
+    };
+
+    // Map exercise level to the source level in the pool
+    const LEVEL_SOURCE = {
+      L1: 'NotStarted',
+      L2: 'L1',
+      L3: 'L2',
+      L4: 'L3',
+    };
+
+    // ------------------------------------------------------------------
+    // URL parameter parsing + defensive redirects
+    // ------------------------------------------------------------------
+    const student = getStudentFromUrl();
+    const params = new URLSearchParams(window.location.search);
+    const level = params.get('level');
+    const chapterScope = params.get('chapter');
+
+    if (!student) {
+      window.location.href = 'index.html';
+    }
+    if (!level || !chapterScope) {
+      window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
+    }
+
+    // Set up top bar
+    document.getElementById('back-link').href =
+      'dashboard.html?student=' + encodeURIComponent(student);
+    document.getElementById('student-label').textContent = 'Student: ' + student;
+
+    // ------------------------------------------------------------------
+    // Global state
+    // ------------------------------------------------------------------
+    let studentProgress = {};
+    let studentExcluded = [];
+    let allChapters = [];
+    let chapterVocab = {};    // { "01": [word, word, ...], ... }
+    let pool = [];            // Array of {word, chapterId}
+    let sessionMastered = new Set();
+    let sessionSeen = new Set();
+    let currentWordEntry = null;   // { word, chapterId }
+
+    // ------------------------------------------------------------------
+    // Load student progress + excluded
+    // ------------------------------------------------------------------
+    async function loadStudentProgress() {
+      try {
+        const doc = await db.collection('students').doc(student).get();
+        if (doc.exists) {
+          studentProgress = doc.data().progress || {};
+          studentExcluded = doc.data().excluded || [];
+        } else {
+          studentProgress = {};
+          studentExcluded = [];
+        }
+        console.log('Loaded progress:', Object.keys(studentProgress).length, 'entries;',
+                    studentExcluded.length, 'excluded');
+      } catch (err) {
+        console.error('Error loading student progress:', err);
+        studentProgress = {};
+        studentExcluded = [];
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Load chapters index + relevant chapter JSON(s)
+    // ------------------------------------------------------------------
+    async function loadChapters() {
+      const idxResponse = await fetch('data/chapters-index.json');
+      if (!idxResponse.ok) throw new Error('HTTP ' + idxResponse.status);
+      const idx = await idxResponse.json();
+      allChapters = idx.chapters || [];
+
+      // Determine which chapters to load
+      const chaptersToLoad = (chapterScope === 'all')
+        ? allChapters
+        : allChapters.filter(c => c.id === chapterScope);
+
+      if (chaptersToLoad.length === 0) {
+        throw new Error('No matching chapter for scope: ' + chapterScope);
+      }
+
+      chapterVocab = {};
+      for (const ch of chaptersToLoad) {
+        const response = await fetch('data/chapter' + ch.id + '.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status + ' loading chapter ' + ch.id);
+        const data = await response.json();
+        chapterVocab[ch.id] = data.vocab || [];
+      }
+
+      console.log('Loaded vocab for', Object.keys(chapterVocab).length, 'chapter(s)');
+    }
+
+    // ------------------------------------------------------------------
+    // Compute pool: source-level words minus excluded, minus session state
+    // ------------------------------------------------------------------
+    function getLevelForWord(wordId) {
+      return studentProgress[wordId] || 'NotStarted';
+    }
+
+    function isWordExcluded(wordId) {
+      return studentExcluded.includes(wordId);
+    }
+
+    function computePool() {
+      const sourceLevel = LEVEL_SOURCE[level];
+      pool = [];
+      Object.keys(chapterVocab).forEach(chapterId => {
+        chapterVocab[chapterId].forEach(word => {
+          if (isWordExcluded(word.id)) return;
+          if (getLevelForWord(word.id) !== sourceLevel) return;
+          pool.push({ word, chapterId });
+        });
+      });
+      console.log('Pool computed: ' + pool.length + ' words at source level ' + sourceLevel);
+    }
+
+    // ------------------------------------------------------------------
+    // Session helpers
+    // ------------------------------------------------------------------
+    function getRemainingPool() {
+      return pool.filter(entry => {
+        return !sessionMastered.has(entry.word.id) && !sessionSeen.has(entry.word.id);
+      });
+    }
+
+    function pickRandomFromPool(entries) {
+      if (entries.length === 0) return null;
+      const idx = Math.floor(Math.random() * entries.length);
+      return entries[idx];
+    }
+
+    // ------------------------------------------------------------------
+    // Rendering
+    // ------------------------------------------------------------------
+    function renderSessionHeader() {
+      const scopeText = (chapterScope === 'all')
+        ? 'All Chapters'
+        : 'Chapter ' + chapterScope;
+      const levelLabel = LEVEL_META[level] ? LEVEL_META[level].label + ' Exercise' : level + ' Exercise';
+
+      const wordContext = currentWordEntry
+        ? 'Word from Chapter ' + currentWordEntry.chapterId
+        : '';
+
+      const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
+
+      return (
+        '<div class="session-header">' +
+          '<div class="primary">' + scopeText + ' \u00b7 ' + levelLabel + '</div>' +
+          '<div>' + (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText + '</div>' +
+        '</div>'
+      );
+    }
+
+    function renderWordDisplay() {
+      const word = currentWordEntry.word;
+      return (
+        '<div class="word-display">' +
+          '<div class="word-character">' + word.traditional + '</div>' +
+          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
+        '</div>'
+      );
+    }
+
+    function renderEmptyPool() {
+      return (
+        '<div class="empty-message">' +
+          '<p>No words to practice at this level.</p>' +
+          '<a class="back-action" href="dashboard.html?student=' + encodeURIComponent(student) + '">Back to Dashboard</a>' +
+        '</div>'
+      );
+    }
+
+    function renderNotImplemented() {
+      return (
+        '<div class="empty-message">' +
+          '<p>The ' + level + ' exercise is coming in a future milestone.</p>' +
+          '<a class="back-action" href="dashboard.html?student=' + encodeURIComponent(student) + '">Back to Dashboard</a>' +
+        '</div>'
+      );
+    }
+
+    function renderErrorMessage(msg) {
+      return (
+        '<div class="error-message">' +
+          '<p>' + msg + '</p>' +
+          '<a class="back-action" href="dashboard.html?student=' + encodeURIComponent(student) + '">Back to Dashboard</a>' +
+        '</div>'
+      );
+    }
+
+    function render() {
+      const container = document.getElementById('app-container');
+
+      // Defensive: only L1 implemented in M4
+      if (level !== 'L1') {
+        container.innerHTML = renderNotImplemented();
+        return;
+      }
+
+      // No current word means the pool started empty (Scenario C)
+      if (!currentWordEntry) {
+        container.innerHTML = renderSessionHeader() + renderEmptyPool();
+        return;
+      }
+
+      // Normal state: session header + word display
+      container.innerHTML = renderSessionHeader() + renderWordDisplay();
+    }
+
+    // ------------------------------------------------------------------
+    // Main initialization
+    // ------------------------------------------------------------------
+    async function init() {
+      try {
+        // Bypass all loading if level isn't implemented (defensive URL handling)
+        if (level !== 'L1') {
+          render();
+          return;
+        }
+
+        await loadStudentProgress();
+        await loadChapters();
+        computePool();
+
+        // Pool empty from the start? Scenario C.
+        const remaining = getRemainingPool();
+        if (remaining.length === 0) {
+          currentWordEntry = null;
+        } else {
+          currentWordEntry = pickRandomFromPool(remaining);
+        }
+
+        render();
+      } catch (err) {
+        console.error('Exercise init error:', err);
+        const container = document.getElementById('app-container');
+        container.innerHTML = renderErrorMessage('Something went wrong loading the exercise. See console.');
+      }
+    }
+
+    init();
+  </script>
+
+</body>
+</html>
