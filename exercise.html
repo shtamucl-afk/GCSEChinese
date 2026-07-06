@@ -297,6 +297,7 @@
     let sessionSeen = new Set();
     let currentWordEntry = null;
     let isRevealed = false;
+    let sessionEnded = null;  // null | 'all' | 'mixed'
 
     // ------------------------------------------------------------------
     // Load student progress + excluded
@@ -471,12 +472,53 @@
       );
     }
 
+    function renderAllMastered() {
+      return (
+        '<div class="empty-message">' +
+          '<p>🎉 You\'ve mastered all words at this level! Great job.</p>' +
+          '<p><small>Session: ' + sessionMastered.size + ' mastered</small></p>' +
+          '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
+            '<div id="all-back-placeholder"></div>' +
+          '</div>' +
+        '</div>'
+      );
+    }
+
+    function renderSessionMixed() {
+      const masteredCount = sessionMastered.size;
+      const seenCount = sessionSeen.size;
+      return (
+        '<div class="empty-message">' +
+          '<p>Session complete.</p>' +
+          '<p>You mastered <strong>' + masteredCount + '</strong> word(s). ' +
+             '<strong>' + seenCount + '</strong> word(s) seen but not mastered.</p>' +
+          '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
+            '<button id="retest-btn" class="action-btn primary">Re-test previous words</button>' +
+            '<div id="end-back-placeholder"></div>' +
+          '</div>' +
+        '</div>'
+      );
+    }
+
     function render() {
       const container = document.getElementById('app-container');
 
       // Defensive: only L1 implemented in M4
       if (level !== 'L1') {
         container.innerHTML = renderNotImplemented();
+        return;
+      }
+
+      // End-of-session scenarios (took precedence over word display)
+      if (sessionEnded === 'all') {
+        container.innerHTML = renderSessionHeader() + renderAllMastered();
+        wireEndOfSessionBack();
+        return;
+      }
+
+      if (sessionEnded === 'mixed') {
+        container.innerHTML = renderSessionHeader() + renderSessionMixed();
+        wireSessionMixedActions();
         return;
       }
 
@@ -505,6 +547,31 @@
         : '';
       const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
       headerSecondLine.textContent = (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText;
+    }
+
+    function moveToNextWord() {
+      const remaining = getRemainingPool();
+
+      if (remaining.length === 0) {
+        // Determine which end-of-session scenario
+        if (sessionSeen.size === 0) {
+          sessionEnded = 'all';    // Scenario A
+        } else {
+          sessionEnded = 'mixed';  // Scenario B
+        }
+        currentWordEntry = null;
+      } else {
+        currentWordEntry = pickRandomFromPool(remaining);
+        isRevealed = false;
+      }
+
+      render();
+    }
+
+    function handleRetest() {
+      sessionSeen.clear();
+      sessionEnded = null;
+      moveToNextWord();
     }
 
     function wireRevealButton() {
@@ -543,7 +610,14 @@
       const nextBtn = document.getElementById('next-word-btn');
       if (nextBtn) {
         nextBtn.addEventListener('click', () => {
-          alert('Next word logic coming in Sub-Step 4.4.');
+          if (currentWordEntry) {
+            const wordId = currentWordEntry.word.id;
+            // If user didn't master this word, add to seen list
+            if (!sessionMastered.has(wordId)) {
+              sessionSeen.add(wordId);
+            }
+          }
+          moveToNextWord();
         });
       }
       
@@ -578,7 +652,35 @@
       }
     }
 
+    function wireEndOfSessionBack() {
+      const placeholder = document.getElementById('all-back-placeholder');
+      if (placeholder) {
+        const backLink = document.createElement('a');
+        backLink.className = 'action-btn';
+        backLink.href = 'dashboard.html?student=' + encodeURIComponent(student);
+        backLink.textContent = 'Back to Dashboard';
+        placeholder.replaceWith(backLink);
+      }
+    }
     
+    function wireSessionMixedActions() {
+      // Wire the Re-test button
+      const retestBtn = document.getElementById('retest-btn');
+      if (retestBtn) {
+        retestBtn.addEventListener('click', handleRetest);
+      }
+
+      // Build and inject the Back to Dashboard link
+      const placeholder = document.getElementById('end-back-placeholder');
+      if (placeholder) {
+        const backLink = document.createElement('a');
+        backLink.className = 'action-btn';
+        backLink.href = 'dashboard.html?student=' + encodeURIComponent(student);
+        backLink.textContent = 'Back to Dashboard';
+        placeholder.replaceWith(backLink);
+      }
+    }
+
     function playAudio(audioPath) {
       if (!audioPath) {
         console.warn('No audio path provided');
