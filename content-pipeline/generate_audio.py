@@ -2,12 +2,21 @@
 generate_audio.py
 -----------------
 Generate MP3 audio files from a chapter's _final.xlsx using edge-tts.
-Produces up to 2 MP3s per vocab word:
-  - {word}_isolated.mp3 - just the word
-  - {word}_sentence.mp3 - the context sentence
 
-Voice: zh-TW-HsiaoChenNeural (Mandarin Taiwan, female neural)
+Produces up to 2 MP3s per vocab word:
+  - {word}_isolated.mp3   - just the word
+  - {word}_sentence.mp3   - the context sentence
+
+Voice: zh-CN-XiaoxiaoNeural
+Rate:  -10% (slightly slower for learner comprehension)
+
 Runs only in GitHub Codespaces (see Project Plan Section 11.8).
+
+Rev 5 (M2.5 T4):
+    - Reads ChapterID + ChapterTitle directly from the Meta sheet.
+    - Filename-regex inference is retained only as a last-resort fallback
+      (in case a resave accidentally strips the Meta sheet).
+    - Reads vocab rows from the Review sheet as before.
 
 Usage:
     python content-pipeline/generate_audio.py --input inputs/chapter00_final.xlsx
@@ -16,49 +25,36 @@ Usage:
 import argparse
 import asyncio
 import os
+import re
 import sys
+
 from openpyxl import load_workbook
 import edge_tts
+
 
 VOICE = "zh-CN-XiaoxiaoNeural"
 RATE = "-10%"  # 10% slower than default for better learner comprehension
 
 
+# ------------------------------------------------------------------
+# Helpers
+# ------------------------------------------------------------------
 def clean_text(text):
     if text is None:
         return ""
     return str(text).replace("\xa0", "").strip()
 
 
-def parse_meta_from_review_header(wb, input_path):
-    """Parse ChapterID from filename and title from Review sheet A1.
-    
-    _final.xlsx files are derived from _review.xlsx which only has a Review sheet.
-    The A1 cell contains: "Chapter 00: Test Chapter - Title"
+def parse_meta(wb, input_path):
+    """Extract ChapterID + ChapterTitle.
+
+    Primary source: the Meta sheet (always present after M2.5 T2).
+    Fallback: infer ChapterID from filename (chapter00_final.xlsx -> "00").
     """
-    import re as _re
     chapter_id = None
     chapter_title = ""
-    
-    # 1. Infer chapter_id from filename: chapter00_final.xlsx -> "00"
-    basename = os.path.basename(input_path)
-    m = _re.search(r"chapter(\d+)", basename, _re.IGNORECASE)
-    if m:
-        chapter_id = m.group(1).zfill(2)
-    
-    # 2. Get title from Review sheet A1 (format: "Chapter 00: Title")
-    if "Review" in wb.sheetnames:
-        ws = wb["Review"]
-        a1 = ws["A1"].value
-        if a1:
-            # Strip "Chapter XX:" prefix if present
-            title_match = _re.match(r"^Chapter\s+\d+:\s*(.+)$", str(a1))
-            if title_match:
-                chapter_title = title_match.group(1).strip()
-            else:
-                chapter_title = str(a1).strip()
-    
-    # 3. Fallback: also check for Meta sheet (backwards compatibility)
+
+    # ---- Primary path: Meta sheet ----
     if "Meta" in wb.sheetnames:
         meta = wb["Meta"]
         for row in meta.iter_rows(min_row=2, values_only=True):
@@ -71,38 +67,47 @@ def parse_meta_from_review_header(wb, input_path):
                     chapter_id = clean_text(value).zfill(2)
             elif field == "ChapterTitle" and value:
                 chapter_title = clean_text(value)
-    
+
+    # ---- Fallback: infer chapter_id from filename ----
+    if not chapter_id:
+        basename = os.path.basename(input_path)
+        m = re.search(r"chapter(\d+)", basename, re.IGNORECASE)
+        if m:
+            chapter_id = m.group(1).zfill(2)
+            print(f"[WARN] ChapterID missing from Meta - inferred '{chapter_id}' from filename.")
+
+    if not chapter_id:
+        print("[ERROR] Could not determine ChapterID from Meta sheet or filename.")
+        sys.exit(1)
+
     return chapter_id, chapter_title
 
 
 def read_final_excel(input_path):
     """Read _final.xlsx. Returns (chapter_id, chapter_title, words list)."""
     wb = load_workbook(input_path)
-    chapter_id, chapter_title = parse_meta_from_review_header(wb, input_path)
-    
-    # Find data sheet: prefer "Review", fall back to first non-Meta sheet
-    ws = None
-    if "Review" in wb.sheetnames:
-        ws = wb["Review"]
-    else:
-        for name in wb.sheetnames:
-            if name not in ("Meta", "Instructions"):
-                ws = wb[name]
-                break
-    if ws is None:
-        print("[ERROR] Could not find data sheet in workbook.")
+    chapter_id, chapter_title = parse_meta(wb, input_path)
+
+    # Vocab data still lives on the Review sheet
+    if "Review" not in wb.sheetnames:
+        print("[ERROR] Workbook is missing the Review sheet.")
         sys.exit(1)
-    
+    ws = wb["Review"]
+
     words = []
-    # Data rows start at row 4 (title row 1, subtitle row 2, header row 3)
+    # Data rows start at row 4 (title r1, subtitle r2, header r3)
     for row in ws.iter_rows(min_row=4, values_only=True):
-        if row[0]: # has traditional character
+        if row and row[0]:  # has traditional character
             traditional = clean_text(row[0])
             context = clean_text(row[3]) if len(row) > 3 and row[3] else ""
             words.append({"traditional": traditional, "context": context})
+
     return chapter_id, chapter_title, words
 
 
+# ------------------------------------------------------------------
+# Audio generation
+# ------------------------------------------------------------------
 async def generate_mp3(text, output_path, voice=VOICE, rate=RATE):
     """Generate one MP3 file using edge-tts."""
     tts = edge_tts.Communicate(text, voice, rate=rate)
@@ -114,25 +119,25 @@ async def generate_chapter_audio(input_path):
     if not os.path.exists(input_path):
         print(f"[ERROR] File not found: {input_path}")
         sys.exit(1)
-    
+
     chapter_id, chapter_title, words = read_final_excel(input_path)
     print(f"[INFO] ChapterID: {chapter_id}")
-    print(f"[INFO] Title: {chapter_title}")
-    print(f"[INFO] Words: {len(words)}")
-    
+    print(f"[INFO] Title:     {chapter_title}")
+    print(f"[INFO] Words:     {len(words)}")
+
     audio_dir = f"audio/chapter{chapter_id}"
     os.makedirs(audio_dir, exist_ok=True)
     print(f"[INFO] Output folder: {audio_dir}/")
     print()
-    
+
     # Count total MP3s to generate
     total = sum(2 if w["context"] else 1 for w in words)
     count = 0
-    
+
     for w in words:
         word = w["traditional"]
         context = w["context"]
-        
+
         # Isolated word MP3
         count += 1
         iso_path = os.path.join(audio_dir, f"{word}_isolated.mp3")
@@ -143,7 +148,7 @@ async def generate_chapter_audio(input_path):
             print(f"OK ({size} bytes)")
         except Exception as e:
             print(f"FAILED: {e}")
-        
+
         # Sentence MP3 (only if context exists)
         if context:
             count += 1
@@ -157,7 +162,7 @@ async def generate_chapter_audio(input_path):
                 print(f"FAILED: {e}")
         else:
             print(f"       (skipping sentence MP3 - no context for {word})")
-    
+
     print()
     print("=" * 60)
     print(f"[OK] Audio generation complete!")
@@ -170,11 +175,11 @@ def main():
     parser = argparse.ArgumentParser(description="Generate MP3 audio via edge-tts.")
     parser.add_argument("--input", required=True, help="Path to chapterXX_final.xlsx")
     args = parser.parse_args()
-    
+
     input_path = args.input
     if not os.path.isabs(input_path):
         input_path = os.path.join("content-pipeline", input_path)
-    
+
     asyncio.run(generate_chapter_audio(input_path))
 
 
