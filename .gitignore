@@ -145,3 +145,14 @@ vite.config.ts.timestamp-*
 # Ignore intermediate pipeline files (only final versions committed)
 content-pipeline/inputs/*_raw.xlsx
 content-pipeline/inputs/*_review.xlsx
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments (defensive - in case you ever create one)
+venv/
+.venv/
+env/
+.env/
