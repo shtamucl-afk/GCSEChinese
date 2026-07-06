@@ -4,16 +4,120 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard - Chinese iGCSE Vocabulary Trainer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      background-color: #f4f4f4;
+    }
+
+    .top-bar h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .top-bar .student-switcher {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .main-body {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      min-height: calc(100vh - 60px);
+    }
+
+    .left-panel {
+      border-right: 1px solid #ccc;
+      padding: 15px;
+      overflow-y: auto;
+    }
+
+    .left-panel h2 {
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .chapter-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .chapter-list li {
+      padding: 8px 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-bottom: 4px;
+    }
+
+    .chapter-list li:hover {
+      background-color: #eef;
+    }
+
+    .chapter-list li.selected {
+      background-color: #dde;
+      font-weight: bold;
+    }
+
+    .chapter-title {
+      display: block;
+    }
+
+    .chapter-meta {
+      display: block;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .right-panel {
+      padding: 20px;
+    }
+
+    .empty-message {
+      color: #888;
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
-  <h1>Dashboard</h1>
-  <p id="student-info">Loading...</p>
 
-  <hr>
+  <div class="top-bar">
+    <h1>Chinese iGCSE Vocab Trainer</h1>
+    <div class="student-switcher">
+      <label for="student-switch">Student:</label>
+      <select id="student-switch">
+        <option value="">Loading...</option>
+      </select>
+    </div>
+  </div>
 
-  <p><a href="index.html">Back to student selection</a></p>
+  <div class="main-body">
 
-  <p><small>Milestone 3 Sub-step 3.1 placeholder. Full dashboard coming in Sub-step 3.2.</small></p>
+    <div class="left-panel">
+      <h2>Chapters</h2>
+      <ul id="chapter-list" class="chapter-list">
+        <li>Loading chapters...</li>
+      </ul>
+    </div>
+
+    <div class="right-panel">
+      <p id="right-panel-content" class="empty-message">
+        Select a chapter from the left panel to view its details.
+      </p>
+    </div>
+
+  </div>
 
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
@@ -21,17 +125,99 @@
   <script src="js/student.js"></script>
 
   <script>
+    // ------------------------------------------------------------------
+    // Bootstrap: verify we have a student, redirect if not
+    // ------------------------------------------------------------------
     const student = getStudentFromUrl();
-    const infoEl = document.getElementById('student-info');
-
-    if (student) {
-      infoEl.textContent = 'Student: ' + student;
-    } else {
-      infoEl.innerHTML = 'No student in URL. <a href="index.html">Go back to student selection</a>.';
+    if (!student) {
+      window.location.href = 'index.html';
     }
 
-    console.log('Dashboard placeholder loaded. Student:', student);
+    // ------------------------------------------------------------------
+    // Populate the top-bar student switcher
+    // ------------------------------------------------------------------
+    const switcher = document.getElementById('student-switch');
+    populateStudentDropdown(switcher, student);
+
+    switcher.addEventListener('change', () => {
+      const value = switcher.value;
+
+      if (value === ADD_NEW_SENTINEL) {
+        handleStudentDropdownChange(switcher);
+        return;
+      }
+
+      // Real name selected and different from current → reload page for new student
+      if (value && value !== student) {
+        navigateToDashboard(value);
+      }
+    });
+
+    // ------------------------------------------------------------------
+    // Load chapters index and render left panel
+    // ------------------------------------------------------------------
+    async function loadChapterList() {
+      const listEl = document.getElementById('chapter-list');
+      try {
+        const response = await fetch('data/chapters-index.json');
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status);
+        }
+        const data = await response.json();
+        const chapters = data.chapters || [];
+
+        if (chapters.length === 0) {
+          listEl.innerHTML = '<li class="empty-message">No chapters yet.</li>';
+          return;
+        }
+
+        listEl.innerHTML = '';
+        chapters.forEach(ch => {
+          const li = document.createElement('li');
+          li.dataset.chapterId = ch.id;
+
+          const title = document.createElement('span');
+          title.className = 'chapter-title';
+          title.textContent = 'Chapter ' + ch.id + ': ' + ch.title;
+
+          const meta = document.createElement('span');
+          meta.className = 'chapter-meta';
+          meta.textContent = ch.wordCount + ' words';
+
+          li.appendChild(title);
+          li.appendChild(meta);
+
+          li.addEventListener('click', () => selectChapter(ch));
+
+          listEl.appendChild(li);
+        });
+
+        console.log('Loaded ' + chapters.length + ' chapter(s).');
+      } catch (err) {
+        console.error('Error loading chapters index:', err);
+        listEl.innerHTML = '<li class="empty-message">Error loading chapters. See console.</li>';
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Handle chapter selection (3.2 placeholder — real content in 3.3)
+    // ------------------------------------------------------------------
+    function selectChapter(chapter) {
+      // Update visual selection state
+      document.querySelectorAll('#chapter-list li').forEach(li => {
+        li.classList.toggle('selected', li.dataset.chapterId === chapter.id);
+      });
+
+      // Placeholder right panel content
+      const rightEl = document.getElementById('right-panel-content');
+      rightEl.className = '';
+      rightEl.textContent = 'You selected: Chapter ' + chapter.id + ' - ' + chapter.title +
+                            ' (' + chapter.wordCount + ' words). Vocab table coming in Sub-step 3.3.';
+    }
+
+    // Kick off chapter list load
+    loadChapterList();
   </script>
+
 </body>
 </html>
-
