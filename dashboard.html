@@ -32,7 +32,7 @@
 
     .main-body {
       display: grid;
-      grid-template-columns: 300px 1fr;
+      grid-template-columns: 320px 1fr;
       min-height: calc(100vh - 60px);
     }
 
@@ -48,6 +48,22 @@
       margin-bottom: 10px;
     }
 
+    .left-panel h2:not(:first-of-type) {
+      margin-top: 20px;
+    }
+
+    /* Overall progress summary */
+    .progress-summary {
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .progress-summary .total-line {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    /* Chapter list */
     .chapter-list {
       list-style: none;
       padding: 0;
@@ -78,6 +94,15 @@
       display: block;
       font-size: 12px;
       color: #666;
+      margin-top: 2px;
+    }
+
+    .chapter-level-counts {
+      display: block;
+      font-size: 11px;
+      color: #555;
+      margin-top: 3px;
+      line-height: 1.5;
     }
 
     .right-panel {
@@ -135,6 +160,7 @@
       font-size: 18px;
     }
 
+    /* Level pill - base + per-level color overrides */
     .level-pill {
       display: inline-block;
       padding: 2px 8px;
@@ -143,6 +169,13 @@
       background-color: #eee;
       color: #333;
     }
+
+    .level-NotStarted { background-color: #f8d7da; color: #721c24; }
+    .level-L1        { background-color: #e2e3e5; color: #383d41; }
+    .level-L2        { background-color: #fff3cd; color: #856404; }
+    .level-L3        { background-color: #ffe5b4; color: #6d4300; }
+    .level-L4        { background-color: #d4edda; color: #155724; }
+    .level-ExamReady { background-color: #d1ecf1; color: #0c5460; }
 
     .details-btn,
     .audio-btn {
@@ -205,6 +238,11 @@
   <div class="main-body">
 
     <div class="left-panel">
+      <h2>Overall Progress</h2>
+      <div id="progress-summary" class="progress-summary">
+        <p class="empty-message">Loading...</p>
+      </div>
+
       <h2>Chapters</h2>
       <ul id="chapter-list" class="chapter-list">
         <li>Loading chapters...</li>
@@ -228,103 +266,195 @@
 
   <script>
     // ------------------------------------------------------------------
-    // Bootstrap: verify we have a student, redirect if not
+    // Constants
+    // ------------------------------------------------------------------
+    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4', 'ExamReady'];
+    const LEVEL_META = {
+      NotStarted: { emoji: '🔴', label: 'Not Started' },
+      L1:         { emoji: '⚪', label: 'L1 Read' },
+      L2:         { emoji: '🟡', label: 'L2 Listen' },
+      L3:         { emoji: '🟠', label: 'L3 Usage' },
+      L4:         { emoji: '🟢', label: 'L4 Write' },
+      ExamReady:  { emoji: '✅', label: 'Exam-Ready' },
+    };
+
+    // ------------------------------------------------------------------
+    // Global state
+    // ------------------------------------------------------------------
+    let studentProgress = {};   // { "ch01_w001": "L2", ... }
+    let allChapters = [];       // [{ id, title, wordCount }, ...] from chapters-index.json
+    let chapterVocab = {};      // { "01": [word, word, ...], "02": [...] }
+
+    // ------------------------------------------------------------------
+    // Bootstrap
     // ------------------------------------------------------------------
     const student = getStudentFromUrl();
     if (!student) {
       window.location.href = 'index.html';
     }
 
-    // ------------------------------------------------------------------
-    // Populate the top-bar student switcher
-    // ------------------------------------------------------------------
     const switcher = document.getElementById('student-switch');
     populateStudentDropdown(switcher, student);
 
     switcher.addEventListener('change', () => {
       const value = switcher.value;
-
       if (value === ADD_NEW_SENTINEL) {
         handleStudentDropdownChange(switcher);
         return;
       }
-
       if (value && value !== student) {
         navigateToDashboard(value);
       }
     });
 
     // ------------------------------------------------------------------
-    // Load chapters index and render left panel
+    // Level classification helper
     // ------------------------------------------------------------------
-    async function loadChapterList() {
-      const listEl = document.getElementById('chapter-list');
+    function getLevelForWord(wordId) {
+      return studentProgress[wordId] || 'NotStarted';
+    }
+
+    // ------------------------------------------------------------------
+    // Load student progress from Firestore
+    // ------------------------------------------------------------------
+    async function loadStudentProgress() {
       try {
-        const response = await fetch('data/chapters-index.json');
-        if (!response.ok) {
-          throw new Error('HTTP ' + response.status);
+        const doc = await db.collection('students').doc(student).get();
+        if (doc.exists) {
+          studentProgress = doc.data().progress || {};
+          console.log('Loaded progress for ' + student + ':', Object.keys(studentProgress).length, 'entries');
+        } else {
+          studentProgress = {};
+          console.log('No progress doc for ' + student + ' - treating all as Not Started');
         }
-        const data = await response.json();
-        const chapters = data.chapters || [];
-
-        if (chapters.length === 0) {
-          listEl.innerHTML = '<li class="empty-message">No chapters yet.</li>';
-          return;
-        }
-
-        listEl.innerHTML = '';
-        chapters.forEach(ch => {
-          const li = document.createElement('li');
-          li.dataset.chapterId = ch.id;
-
-          const title = document.createElement('span');
-          title.className = 'chapter-title';
-          title.textContent = 'Chapter ' + ch.id + ': ' + ch.title;
-
-          const meta = document.createElement('span');
-          meta.className = 'chapter-meta';
-          meta.textContent = ch.wordCount + ' words';
-
-          li.appendChild(title);
-          li.appendChild(meta);
-
-          li.addEventListener('click', () => selectChapter(ch));
-
-          listEl.appendChild(li);
-        });
-
-        console.log('Loaded ' + chapters.length + ' chapter(s).');
       } catch (err) {
-        console.error('Error loading chapters index:', err);
-        listEl.innerHTML = '<li class="empty-message">Error loading chapters. See console.</li>';
+        console.error('Error loading student progress:', err);
+        studentProgress = {};
       }
     }
 
     // ------------------------------------------------------------------
-    // Chapter selection: load chapter JSON, render vocab table
+    // Load chapters index
     // ------------------------------------------------------------------
-    async function selectChapter(chapter) {
-      // Update visual selection state in left panel
+    async function loadChaptersIndex() {
+      const response = await fetch('data/chapters-index.json');
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      const data = await response.json();
+      allChapters = data.chapters || [];
+      console.log('Loaded chapters index:', allChapters.length, 'chapter(s)');
+    }
+
+    // ------------------------------------------------------------------
+    // Load ALL chapter JSONs (needed for cross-chapter stats)
+    // ------------------------------------------------------------------
+    async function loadAllChapterVocab() {
+      chapterVocab = {};
+      for (const ch of allChapters) {
+        try {
+          const response = await fetch('data/chapter' + ch.id + '.json');
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          const data = await response.json();
+          chapterVocab[ch.id] = data.vocab || [];
+        } catch (err) {
+          console.error('Error loading chapter ' + ch.id + ':', err);
+          chapterVocab[ch.id] = [];
+        }
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Compute level counts for a given vocab array
+    // ------------------------------------------------------------------
+    function computeLevelCounts(vocabArray) {
+      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0, ExamReady: 0 };
+      vocabArray.forEach(word => {
+        const level = getLevelForWord(word.id);
+        counts[level] = (counts[level] || 0) + 1;
+      });
+      return counts;
+    }
+
+    // ------------------------------------------------------------------
+    // Render Overall Progress summary (left panel top)
+    // ------------------------------------------------------------------
+    function renderOverallProgress() {
+      const summaryEl = document.getElementById('progress-summary');
+      const allVocab = [];
+      Object.values(chapterVocab).forEach(list => allVocab.push(...list));
+
+      const total = allVocab.length;
+      const counts = computeLevelCounts(allVocab);
+
+      summaryEl.innerHTML = '';
+
+      const totalLine = document.createElement('div');
+      totalLine.className = 'total-line';
+      totalLine.textContent = 'Total: ' + total + ' words';
+      summaryEl.appendChild(totalLine);
+
+      LEVEL_ORDER.forEach(level => {
+        const line = document.createElement('div');
+        const meta = LEVEL_META[level];
+        line.textContent = meta.emoji + ' ' + meta.label + ': ' + counts[level];
+        summaryEl.appendChild(line);
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // Render chapter list (left panel bottom)
+    // ------------------------------------------------------------------
+    function renderChapterList() {
+      const listEl = document.getElementById('chapter-list');
+      listEl.innerHTML = '';
+
+      if (allChapters.length === 0) {
+        listEl.innerHTML = '<li class="empty-message">No chapters yet.</li>';
+        return;
+      }
+
+      allChapters.forEach(ch => {
+        const vocab = chapterVocab[ch.id] || [];
+        const counts = computeLevelCounts(vocab);
+
+        const li = document.createElement('li');
+        li.dataset.chapterId = ch.id;
+
+        const title = document.createElement('span');
+        title.className = 'chapter-title';
+        title.textContent = 'Chapter ' + ch.id + ': ' + ch.title;
+
+        const meta = document.createElement('span');
+        meta.className = 'chapter-meta';
+        meta.textContent = ch.wordCount + ' words';
+
+        const levelCounts = document.createElement('span');
+        levelCounts.className = 'chapter-level-counts';
+        levelCounts.textContent = LEVEL_ORDER.map(l => LEVEL_META[l].emoji + ' ' + counts[l]).join('  ');
+
+        li.appendChild(title);
+        li.appendChild(meta);
+        li.appendChild(levelCounts);
+        li.addEventListener('click', () => selectChapter(ch));
+
+        listEl.appendChild(li);
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // Chapter selection
+    // ------------------------------------------------------------------
+    function selectChapter(chapter) {
       document.querySelectorAll('#chapter-list li').forEach(li => {
         li.classList.toggle('selected', li.dataset.chapterId === chapter.id);
       });
 
-      // Show loading state
-      const rightEl = document.getElementById('right-panel-content');
-      rightEl.innerHTML = '<p class="empty-message">Loading chapter ' + chapter.id + '...</p>';
-
-      // Fetch chapter JSON
-      try {
-        const response = await fetch('data/chapter' + chapter.id + '.json');
-        if (!response.ok) {
-          throw new Error('HTTP ' + response.status);
-        }
-        const chapterData = await response.json();
-        renderChapterDetail(chapterData);
-      } catch (err) {
-        console.error('Error loading chapter ' + chapter.id + ':', err);
-        rightEl.innerHTML = '<p class="empty-message">Error loading chapter. See console.</p>';
-      }
+      // Chapter vocab is already loaded — build render input directly
+      const chapterData = {
+        chapterId: chapter.id,
+        chapterTitle: chapter.title,
+        vocab: chapterVocab[chapter.id] || [],
+      };
+      renderChapterDetail(chapterData);
     }
 
     // ------------------------------------------------------------------
@@ -334,7 +464,6 @@
       const rightEl = document.getElementById('right-panel-content');
       rightEl.innerHTML = '';
 
-      // Chapter header
       const header = document.createElement('div');
       header.className = 'chapter-header';
       const h2 = document.createElement('h2');
@@ -342,7 +471,6 @@
       header.appendChild(h2);
       rightEl.appendChild(header);
 
-      // Master toggle buttons
       const masterToggle = document.createElement('div');
       masterToggle.className = 'master-toggle';
 
@@ -358,11 +486,9 @@
       masterToggle.appendChild(hideAllBtn);
       rightEl.appendChild(masterToggle);
 
-      // Vocab table
       const table = document.createElement('table');
       table.className = 'vocab-table';
 
-      // Header
       const thead = document.createElement('thead');
       const headerRow = document.createElement('tr');
       ['Word', 'Level', 'Details', 'Audio'].forEach(text => {
@@ -373,29 +499,27 @@
       thead.appendChild(headerRow);
       table.appendChild(thead);
 
-      // Body
       const tbody = document.createElement('tbody');
 
       chapterData.vocab.forEach(word => {
-        // Main row
         const row = document.createElement('tr');
         row.dataset.wordId = word.id;
 
-        // Word cell
         const tdWord = document.createElement('td');
         tdWord.className = 'vocab-word';
         tdWord.textContent = word.traditional;
         row.appendChild(tdWord);
 
-        // Level cell (placeholder — 3.4 will replace with color-coded pill from Firestore)
+        // Level cell - color-coded pill from Firestore progress
         const tdLevel = document.createElement('td');
+        const level = getLevelForWord(word.id);
+        const meta = LEVEL_META[level];
         const pill = document.createElement('span');
-        pill.className = 'level-pill';
-        pill.textContent = 'Not Started';
+        pill.className = 'level-pill level-' + level;
+        pill.textContent = meta.emoji + ' ' + meta.label;
         tdLevel.appendChild(pill);
         row.appendChild(tdLevel);
 
-        // Details cell
         const tdDetails = document.createElement('td');
         const detailsBtn = document.createElement('button');
         detailsBtn.className = 'details-btn';
@@ -404,7 +528,6 @@
         tdDetails.appendChild(detailsBtn);
         row.appendChild(tdDetails);
 
-        // Audio cell
         const tdAudio = document.createElement('td');
         const audioBtn = document.createElement('button');
         audioBtn.className = 'audio-btn';
@@ -416,7 +539,6 @@
 
         tbody.appendChild(row);
 
-        // Hidden details row
         const detailsRow = document.createElement('tr');
         detailsRow.className = 'details-row';
         detailsRow.dataset.wordId = word.id;
@@ -429,13 +551,11 @@
         detailsContent.className = 'details-content';
 
         const dl = document.createElement('dl');
-
         const items = [
           ['Pinyin', word.pinyin],
           ['English', word.english],
           ['Context', word.contextSentence || '(none)'],
         ];
-
         items.forEach(([label, value]) => {
           const dt = document.createElement('dt');
           dt.textContent = label;
@@ -458,12 +578,11 @@
     }
 
     // ------------------------------------------------------------------
-    // Row detail toggle (per-row)
+    // Row toggles + audio (unchanged from 3.3)
     // ------------------------------------------------------------------
     function toggleRowDetails(wordId, button) {
       const detailsRow = document.getElementById('details-' + wordId);
       if (!detailsRow) return;
-
       const isExpanded = detailsRow.classList.contains('expanded');
       if (isExpanded) {
         detailsRow.classList.remove('expanded');
@@ -474,46 +593,41 @@
       }
     }
 
-    // ------------------------------------------------------------------
-    // Master toggle: expand all rows
-    // ------------------------------------------------------------------
     function expandAll() {
-      document.querySelectorAll('.details-row').forEach(row => {
-        row.classList.add('expanded');
-      });
-      document.querySelectorAll('.details-btn').forEach(btn => {
-        btn.textContent = '🙈 Hide';
-      });
+      document.querySelectorAll('.details-row').forEach(row => row.classList.add('expanded'));
+      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '🙈 Hide');
     }
 
-    // ------------------------------------------------------------------
-    // Master toggle: collapse all rows
-    // ------------------------------------------------------------------
     function collapseAll() {
-      document.querySelectorAll('.details-row').forEach(row => {
-        row.classList.remove('expanded');
-      });
-      document.querySelectorAll('.details-btn').forEach(btn => {
-        btn.textContent = '👁 Details';
-      });
+      document.querySelectorAll('.details-row').forEach(row => row.classList.remove('expanded'));
+      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '👁 Details');
     }
 
-    // ------------------------------------------------------------------
-    // Audio playback
-    // ------------------------------------------------------------------
     function playAudio(audioPath) {
       if (!audioPath) {
         console.warn('No audio path provided');
         return;
       }
       const audio = new Audio(audioPath);
-      audio.play().catch(err => {
-        console.error('Audio playback failed:', err);
-      });
+      audio.play().catch(err => console.error('Audio playback failed:', err));
     }
 
-    // Kick off chapter list load
-    loadChapterList();
+    // ------------------------------------------------------------------
+    // Main initialization sequence
+    // ------------------------------------------------------------------
+    async function init() {
+      try {
+        await loadStudentProgress();
+        await loadChaptersIndex();
+        await loadAllChapterVocab();
+        renderOverallProgress();
+        renderChapterList();
+      } catch (err) {
+        console.error('Initialization error:', err);
+      }
+    }
+
+    init();
   </script>
 
 </body>
