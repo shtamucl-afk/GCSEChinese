@@ -82,6 +82,85 @@
       background-color: #eef;
     }
 
+    .revealed-details {
+      margin-bottom: 32px;
+    }
+
+    .revealed-pinyin {
+      font-size: 24px;
+      color: #444;
+      margin-bottom: 8px;
+    }
+
+    .reveal-audio-btn {
+      cursor: pointer;
+      background: none;
+      border: 1px solid #ccc;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 18px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    .reveal-audio-btn:hover {
+      background-color: #eef;
+    }
+
+    .revealed-english {
+      font-size: 18px;
+      color: #666;
+    }
+
+    .mastered-row {
+      margin-bottom: 24px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .mastered-row input[type="checkbox"] {
+      transform: scale(1.3);
+      margin-right: 8px;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+    .mastered-row label {
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .action-btn {
+      padding: 10px 24px;
+      font-size: 15px;
+      cursor: pointer;
+      border: 1px solid #0366d6;
+      border-radius: 6px;
+      background-color: #fff;
+      color: #0366d6;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .action-btn:hover {
+      background-color: #eef;
+    }
+
+    .action-btn.primary {
+      background-color: #0366d6;
+      color: #fff;
+    }
+
+    .action-btn.primary:hover {
+      background-color: #024ea8;
+    }
+
     .empty-message,
     .error-message {
       text-align: center;
@@ -174,11 +253,12 @@
     let studentProgress = {};
     let studentExcluded = [];
     let allChapters = [];
-    let chapterVocab = {};    // { "01": [word, word, ...], ... }
-    let pool = [];            // Array of {word, chapterId}
+    let chapterVocab = {};
+    let pool = [];
     let sessionMastered = new Set();
     let sessionSeen = new Set();
-    let currentWordEntry = null;   // { word, chapterId }
+    let currentWordEntry = null;
+    let isRevealed = false;
 
     // ------------------------------------------------------------------
     // Load student progress + excluded
@@ -303,6 +383,29 @@
       );
     }
 
+    function renderWordDisplayRevealed() {
+      const word = currentWordEntry.word;
+      let html = '';
+      html += '<div class="word-display">';
+      html +=   '<div class="word-character">' + word.traditional + '</div>';
+      html +=   '<div class="revealed-details">';
+      html +=     '<div class="revealed-pinyin">';
+      html +=       word.pinyin;
+      html +=       ' <button id="reveal-audio-btn" class="reveal-audio-btn" title="Play word audio">🔊</button>';
+      html +=     '</div>';
+      html +=     '<div class="revealed-english">' + word.english + '</div>';
+      html +=   '</div>';
+      html +=   '<div class="mastered-row">';
+      html +=     '<label>';
+      html +=       '<input type="checkbox" id="mastered-checkbox">';
+      html +=       'Mastered L1 - I know both the pinyin and meaning';
+      html +=     '</label>';
+      html +=   '</div>';
+      html +=   '<div id="action-buttons-placeholder"></div>';
+      html += '</div>';
+      return html;
+    }
+
     function renderEmptyPool() {
       return (
         '<div class="empty-message">' +
@@ -345,9 +448,81 @@
         return;
       }
 
-      // Normal state: session header + word display
-      container.innerHTML = renderSessionHeader() + renderWordDisplay();
+      // Word display: either concealed (Reveal button) or revealed (details + actions)
+      if (isRevealed) {
+        container.innerHTML = renderSessionHeader() + renderWordDisplayRevealed();
+        wireRevealedActions();
+      } else {
+        container.innerHTML = renderSessionHeader() + renderWordDisplay();
+        wireRevealButton();
+      }
     }
+    function wireRevealButton() {
+      const btn = document.getElementById('reveal-btn');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          isRevealed = true;
+          render();
+        });
+      }
+    }
+
+    function wireRevealedActions() {
+      // Build action buttons programmatically to avoid chat/paste corruption
+      const placeholder = document.getElementById('action-buttons-placeholder');
+      if (placeholder) {
+        const btnRow = document.createElement('div');
+        btnRow.className = 'action-buttons';
+
+        const nextBtn = document.createElement('button');
+        nextBtn.id = 'next-word-btn';
+        nextBtn.className = 'action-btn primary';
+        nextBtn.textContent = 'Next word';
+        btnRow.appendChild(nextBtn);
+
+        const backLink = document.createElement('a');
+        backLink.className = 'action-btn';
+        backLink.href = 'dashboard.html?student=' + encodeURIComponent(student);
+        backLink.textContent = 'Back to Dashboard';
+        btnRow.appendChild(backLink);
+
+        placeholder.replaceWith(btnRow);
+      }
+
+      // Placeholder wiring for 4.2 - real logic comes in 4.3 and 4.4
+      const nextBtn = document.getElementById('next-word-btn');
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          alert('Next word logic coming in Sub-Step 4.4.');
+        });
+      }
+      const checkbox = document.getElementById('mastered-checkbox');
+      if (checkbox) {
+        checkbox.addEventListener('change', () => {
+          if (checkbox.checked) {
+            alert('Mastered L1 logic coming in Sub-Step 4.3.');
+            checkbox.checked = false;
+          }
+        });
+      }
+      const audioBtn = document.getElementById('reveal-audio-btn');
+      if (audioBtn) {
+        audioBtn.addEventListener('click', () => {
+          playAudio(currentWordEntry.word.audioIsolated);
+        });
+      }
+    }
+
+    
+    function playAudio(audioPath) {
+      if (!audioPath) {
+        console.warn('No audio path provided');
+        return;
+      }
+      const audio = new Audio(audioPath);
+      audio.play().catch(err => console.error('Audio playback failed:', err));
+    }
+
 
     // ------------------------------------------------------------------
     // Main initialization
