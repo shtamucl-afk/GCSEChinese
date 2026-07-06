@@ -642,10 +642,15 @@
       const vocab = chapterVocab[chapter.id] || [];
       const counts = computePoolCounts(vocab);
       const btns = document.querySelectorAll('.pool-btn');
-      const levels = ['L1', 'L2', 'L3', 'L4'];
-      btns.forEach((btn, i) => {
-        const level = levels[i];
-        btn.textContent = level + ' (' + counts[level] + ')';
+      // Read source level from each button's dataset (set at render time)
+      btns.forEach(btn => {
+        const sourceLevel = btn.dataset.sourceLevel;
+        const targetLevel = btn.dataset.targetLevel;
+        if (!sourceLevel || !targetLevel) return;
+        // Reconstruct the label from source/target
+        const arrow = '\u2192';
+        const labelPart = (sourceLevel === 'NotStarted' ? 'NS' : sourceLevel) + arrow + targetLevel;
+        btn.textContent = labelPart + ' (' + counts[sourceLevel] + ')';
       });
     }
 
@@ -748,10 +753,11 @@
     // ------------------------------------------------------------------
     // Practice pool button click (placeholder for M4)
     // ------------------------------------------------------------------
-    function handlePracticePoolClick(level, chapterId) {
-      alert('Practice pool for ' + LEVEL_META[level].label + ' (Chapter ' + chapterId + ') coming in Milestone 4+.');
+    function handlePracticePoolClick(targetLevel, chapterId) {
+      alert('Practice pool to reach ' + LEVEL_META[targetLevel].label +
+            ' (Chapter ' + chapterId + ') coming in Milestone 4+.');
     }
-
+    
     // ------------------------------------------------------------------
     // Render chapter detail on the right panel
     // ------------------------------------------------------------------
@@ -790,11 +796,23 @@
       const btnRow = document.createElement('div');
       btnRow.className = 'practice-pool-buttons';
 
-      ['L1', 'L2', 'L3', 'L4'].forEach(level => {
+      // Pool button config: { label, targetLevel, sourceLevel }
+      // Source level = which words are in the pool.
+      // Target level = which level the student is trying to achieve.
+      const POOL_BUTTONS = [
+        { label: 'NS\u2192L1', sourceLevel: 'NotStarted', targetLevel: 'L1' },
+        { label: 'L1\u2192L2', sourceLevel: 'L1',         targetLevel: 'L2' },
+        { label: 'L2\u2192L3', sourceLevel: 'L2',         targetLevel: 'L3' },
+        { label: 'L3\u2192L4', sourceLevel: 'L3',         targetLevel: 'L4' },
+      ];
+
+      POOL_BUTTONS.forEach(cfg => {
         const btn = document.createElement('button');
         btn.className = 'pool-btn';
-        btn.textContent = level + ' (' + chapterCounts[level] + ')';
-        btn.addEventListener('click', () => handlePracticePoolClick(level, chapterData.chapterId));
+        btn.dataset.sourceLevel = cfg.sourceLevel;
+        btn.dataset.targetLevel = cfg.targetLevel;
+        btn.textContent = cfg.label + ' (' + chapterCounts[cfg.sourceLevel] + ')';
+        btn.addEventListener('click', () => handlePracticePoolClick(cfg.targetLevel, chapterData.chapterId));
         btnRow.appendChild(btn);
       });
 
