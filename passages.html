@@ -43,7 +43,39 @@
 
     .chapter-title {
       font-size: 22px;
-      margin: 0 0 20px 0;
+      margin: 0 0 15px 0;
+    }
+
+    .legend {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 10px 15px;
+      margin-bottom: 20px;
+      font-size: 13px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .legend-title {
+      font-weight: bold;
+      color: #555;
+      width: 100%;
+      margin-bottom: 4px;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .legend-swatch {
+      display: inline-block;
+      padding: 1px 8px;
+      border-radius: 3px;
+      font-size: 12px;
     }
 
     .empty-message {
@@ -71,7 +103,7 @@
 
     .passage-body {
       font-size: 19px;
-      line-height: 1.7;
+      line-height: 1.9;
       color: #222;
     }
 
@@ -82,6 +114,19 @@
     .passage-body p:last-child {
       margin-bottom: 0;
     }
+
+    /* Vocab highlighting — same palette as dashboard level pills */
+    .vocab {
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+
+    .vocab-NotStarted { background-color: #f8d7da; color: #721c24; }
+    .vocab-L1         { background-color: #e2e3e5; color: #383d41; }
+    .vocab-L2         { background-color: #fff3cd; color: #856404; }
+    .vocab-L3         { background-color: #ffe5b4; color: #6d4300; }
+    .vocab-L4         { background-color: #d4edda; color: #155724; }
+    .vocab-ExamReady  { background-color: #d1ecf1; color: #0c5460; }
   </style>
 </head>
 <body>
@@ -93,6 +138,7 @@
 
   <div class="content-wrapper">
     <h1 id="chapter-title" class="chapter-title">Loading...</h1>
+    <div id="legend-container"></div>
     <div id="passages-container">
       <p class="empty-message">Loading passages...</p>
     </div>
@@ -105,53 +151,191 @@
 
   <script>
     // ------------------------------------------------------------------
-    // Parse URL params
+    // Constants
+    // ------------------------------------------------------------------
+    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4', 'ExamReady'];
+    const LEVEL_META = {
+      NotStarted: { emoji: '🔴', label: 'Not Started' },
+      L1:         { emoji: '⚪', label: 'L1 Read' },
+      L2:         { emoji: '🟡', label: 'L2 Listen' },
+      L3:         { emoji: '🟠', label: 'L3 Usage' },
+      L4:         { emoji: '🟢', label: 'L4 Write' },
+      ExamReady:  { emoji: '✅', label: 'Exam-Ready' },
+    };
+
+    // ------------------------------------------------------------------
+    // Parse URL params + guardrails
     // ------------------------------------------------------------------
     const student = getStudentFromUrl();
     const params = new URLSearchParams(window.location.search);
     const chapterId = params.get('chapter');
 
-    // ------------------------------------------------------------------
-    // Guardrails
-    // ------------------------------------------------------------------
     if (!student) {
       window.location.href = 'index.html';
     }
-
     if (!chapterId) {
-      // No chapter specified - go back to dashboard for this student
       window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
     }
 
-    // ------------------------------------------------------------------
-    // Set up static elements (back link + student label)
-    // ------------------------------------------------------------------
+    // Set up static header elements
     document.getElementById('back-link').href =
       'dashboard.html?student=' + encodeURIComponent(student);
-
     document.getElementById('student-label').textContent = 'Student: ' + student;
 
     // ------------------------------------------------------------------
-    // Load the chapter JSON and render passages
+    // Global state
+    // ------------------------------------------------------------------
+    let studentProgress = {};
+
+    // ------------------------------------------------------------------
+    // Load student progress from Firestore
+    // ------------------------------------------------------------------
+    async function loadStudentProgress() {
+      try {
+        const doc = await db.collection('students').doc(student).get();
+        if (doc.exists) {
+          studentProgress = doc.data().progress || {};
+        } else {
+          studentProgress = {};
+        }
+        console.log('Loaded progress for ' + student + ':',
+                    Object.keys(studentProgress).length, 'entries');
+      } catch (err) {
+        console.error('Error loading student progress:', err);
+        studentProgress = {};
+      }
+    }
+
+    function getLevelForWord(wordId) {
+      return studentProgress[wordId] || 'NotStarted';
+    }
+
+    // ------------------------------------------------------------------
+    // Render color legend
+    // ------------------------------------------------------------------
+    function renderLegend() {
+      const legendEl = document.getElementById('legend-container');
+      legendEl.innerHTML = '';
+
+      const box = document.createElement('div');
+      box.className = 'legend';
+
+      const title = document.createElement('div');
+      title.className = 'legend-title';
+      title.textContent = 'Legend (your current level per word):';
+      box.appendChild(title);
+
+      LEVEL_ORDER.forEach(level => {
+        const meta = LEVEL_META[level];
+        const item = document.createElement('span');
+        item.className = 'legend-item';
+
+        const swatch = document.createElement('span');
+        swatch.className = 'legend-swatch vocab-' + level;
+        swatch.textContent = meta.label;
+
+        item.appendChild(swatch);
+        box.appendChild(item);
+      });
+
+      legendEl.appendChild(box);
+    }
+
+    // ------------------------------------------------------------------
+    // Highlight vocab words in a passage text.
+    //
+    // Strategy:
+    //   - Sort vocab by traditional-length descending (longest first).
+    //     Prevents shorter substrings from being wrapped inside longer ones.
+    //   - Use placeholder markers with unique IDs during wrapping,
+    //     then substitute back to real HTML at the end.
+    //   - Escape HTML in the raw text before injection.
+    // ------------------------------------------------------------------
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function highlightPassageText(passageText, sortedVocab) {
+      // We work on the escaped text so any unusual chars are safe.
+      let working = escapeHtml(passageText);
+
+      // Placeholder registry: numeric id -> replacement HTML
+      const placeholders = [];
+
+      sortedVocab.forEach(word => {
+        const level = getLevelForWord(word.id);
+        const wrapped = '<span class="vocab vocab-' + level + '">' +
+                        escapeHtml(word.traditional) + '</span>';
+
+        // Placeholder token that will never occur in Chinese text or HTML
+        // e.g., \u0001PH12\u0002
+        const token = '\u0001PH' + placeholders.length + '\u0002';
+        placeholders.push(wrapped);
+
+        // Replace ALL occurrences of the escaped word with the placeholder token.
+        const escaped = escapeHtml(word.traditional);
+        // Use split/join to replace all without regex escaping quirks
+        working = working.split(escaped).join(token);
+      });
+
+      // Substitute placeholders back to real HTML
+      placeholders.forEach((html, i) => {
+        const token = '\u0001PH' + i + '\u0002';
+        working = working.split(token).join(html);
+      });
+
+      return working;
+    }
+
+    // ------------------------------------------------------------------
+    // Load and render everything
     // ------------------------------------------------------------------
     async function loadAndRender() {
       const titleEl = document.getElementById('chapter-title');
       const containerEl = document.getElementById('passages-container');
 
       try {
-        const response = await fetch('data/chapter' + chapterId + '.json');
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        const chapter = await response.json();
+        // Load progress + chapter in parallel
+        const [_, chapterResponse] = await Promise.all([
+          loadStudentProgress(),
+          fetch('data/chapter' + chapterId + '.json'),
+        ]);
+
+        if (!chapterResponse.ok) throw new Error('HTTP ' + chapterResponse.status);
+        const chapter = await chapterResponse.json();
 
         titleEl.textContent = 'Chapter ' + chapter.chapterId + ': ' + chapter.chapterTitle;
 
+        renderLegend();
+
         const passages = chapter.passages || [];
+        const vocab = chapter.vocab || [];
+
+        // Sort vocab by length descending (longer words first)
+        const sortedVocab = [...vocab].sort((a, b) => {
+          return b.traditional.length - a.traditional.length;
+        });
+
         containerEl.innerHTML = '';
 
         if (passages.length === 0) {
           containerEl.innerHTML = '<p class="empty-message">No passages found for this chapter.</p>';
           return;
         }
+
+        // Track which vocab appeared at least once across all passages
+        const foundVocabIds = new Set();
+        const combinedText = passages.join('\n');
+        vocab.forEach(w => {
+          if (combinedText.includes(w.traditional)) {
+            foundVocabIds.add(w.id);
+          }
+        });
 
         passages.forEach((passageText, idx) => {
           const box = document.createElement('div');
@@ -165,13 +349,15 @@
           const body = document.createElement('div');
           body.className = 'passage-body';
 
-          // Split by \n and render each part as a <p>
+          // Split by \n for internal paragraph breaks
           const parts = passageText.split('\n');
           parts.forEach(part => {
             const trimmed = part.trim();
             if (trimmed) {
               const p = document.createElement('p');
-              p.textContent = trimmed;
+              // Highlight vocab words within this paragraph.
+              // Using innerHTML because we're producing safe HTML from escaped input.
+              p.innerHTML = highlightPassageText(trimmed, sortedVocab);
               body.appendChild(p);
             }
           });
@@ -180,7 +366,14 @@
           containerEl.appendChild(box);
         });
 
-        console.log('Rendered ' + passages.length + ' passage(s) for chapter ' + chapterId);
+        // Warn about vocab words that don't appear anywhere
+        const missing = vocab.filter(w => !foundVocabIds.has(w.id));
+        if (missing.length > 0) {
+          console.warn(missing.length + ' vocab word(s) not found in any passage:',
+                       missing.map(w => w.traditional));
+        }
+
+        console.log('Rendered ' + passages.length + ' passage(s) with vocab highlighting for chapter ' + chapterId);
       } catch (err) {
         console.error('Error loading chapter ' + chapterId + ':', err);
         titleEl.textContent = 'Error';
