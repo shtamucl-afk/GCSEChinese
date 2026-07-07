@@ -281,6 +281,28 @@
     .progression-btn.demote:hover {
       background-color: #fbeaec;
     }
+    .blank-sentence {
+      font-size: 22px;
+      line-height: 1.8;
+      color: #222;
+      text-align: center;
+      max-width: 500px;
+      margin: 0 auto 24px auto;
+    }
+    .filled-sentence {
+      font-size: 20px;
+      line-height: 1.8;
+      color: #333;
+      text-align: center;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .filled-answer {
+      font-weight: bold;
+      background-color: #cfe2ff;
+      padding: 1px 6px;
+      border-radius: 3px;
+    }
   </style>
 </head>
 <body>
@@ -464,6 +486,37 @@
     // ------------------------------------------------------------------
     // Rendering
     // ------------------------------------------------------------------
+    function escapeHtml(text) {
+      return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+    // Replace every occurrence of wordText in sentence with U+FF3F (\uFF3F)
+    // full-width underscores matching the word's character count.
+    // If the word is not present, warn and return the sentence unchanged.
+    function buildBlankedSentence(sentence, wordText) {
+      if (!sentence || !wordText) return sentence || '';
+      if (sentence.indexOf(wordText) === -1) {
+        console.warn('L3: word "' + wordText + '" not found in context sentence. Displaying sentence unchanged.');
+        return sentence;
+      }
+      const blank = '\uFF3F'.repeat(wordText.length);
+      return sentence.split(wordText).join(blank);
+    }
+    // Return escaped HTML with wordText wrapped in a .filled-answer span.
+    function buildFilledSentenceHtml(sentence, wordText) {
+      if (!sentence) return '';
+      const escapedSentence = escapeHtml(sentence);
+      if (!wordText || sentence.indexOf(wordText) === -1) {
+        return escapedSentence;
+      }
+      const escapedWord = escapeHtml(wordText);
+      const wrapped = '<span class="filled-answer">' + escapedWord + '</span>';
+      return escapedSentence.split(escapedWord).join(wrapped);
+    }
     function renderSessionHeader() {
       const scopeText = (chapterScope === 'all')
         ? 'All Chapters'
@@ -587,6 +640,42 @@
     }
 
 
+    function renderWordDisplayL3() {
+      const word = currentWordEntry.word;
+      const blanked = buildBlankedSentence(word.contextSentence, word.traditional);
+      let html = '';
+      html += '<div class="word-display">';
+      html +=   '<div style="margin-bottom:20px;">';
+      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
+      html +=   '</div>';
+      html +=   '<div class="blank-sentence">' + escapeHtml(blanked) + '</div>';
+      html +=   '<div id="hint-container" style="margin-bottom:16px;"></div>';
+      html +=   '<div style="margin-bottom:16px;">';
+      html +=     '<button id="hint-btn" class="reveal-btn">Hint</button>';
+      html +=   '</div>';
+      html +=   '<button id="reveal-btn" class="reveal-btn">Reveal</button>';
+      html += '</div>';
+      return html;
+    }
+    function renderWordDisplayRevealedL3() {
+      const word = currentWordEntry.word;
+      const filledHtml = buildFilledSentenceHtml(word.contextSentence, word.traditional);
+      let html = '';
+      html += '<div class="word-display">';
+      html +=   '<div class="filled-sentence">' + filledHtml + '</div>';
+      html +=   '<div style="height:24px;"></div>';
+      html +=   '<div class="word-character">' + word.traditional + '</div>';
+      html +=   '<div class="revealed-pinyin">' + word.pinyin + '</div>';
+      html +=   '<div class="revealed-english">' + word.english + '</div>';
+      html +=   '<div style="height:24px;"></div>';
+      html +=   '<div style="display:flex;justify-content:center;gap:12px;margin-bottom:24px;">';
+      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
+      html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
+      html +=   '</div>';
+      html +=   '<div id="action-buttons-placeholder"></div>';
+      html += '</div>';
+      return html;
+    }
     function renderEmptyPool() {
       return (
         '<div class="empty-message">' +
@@ -645,8 +734,8 @@
     function render() {
       const container = document.getElementById('app-container');
 
-      // L1 and L2 currently implemented
-      if (level !== 'L1' && level !== 'L2') {
+      // L1, L2, and L3 currently implemented
+      if (level !== 'L1' && level !== 'L2' && level !== 'L3') {
         container.innerHTML = renderNotImplemented();
         return;
       }
@@ -672,23 +761,23 @@
 
       // Word display: either concealed (Reveal button) or revealed (details + actions)
       if (isRevealed) {
-
         if (level === 'L2') {
           container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL2();
+        } else if (level === 'L3') {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL3();
         } else {
           container.innerHTML = renderSessionHeader() + renderWordDisplayRevealed();
         }
-
         wireRevealedActions();
 
       } else {
-
         if (level === 'L2') {
           container.innerHTML = renderSessionHeader() + renderWordDisplayL2();
+        } else if (level === 'L3') {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayL3();
         } else {
           container.innerHTML = renderSessionHeader() + renderWordDisplay();
         }
-
         wireRevealButton();
       }
     }
@@ -1082,7 +1171,7 @@
     async function init() {
       try {
         // Bypass all loading if level isn't implemented (defensive URL handling)
-        if (level !== 'L1' && level !== 'L2') {
+        if (level !== 'L1' && level !== 'L2' && level !== 'L3') {
           render();
           return;
         }
