@@ -176,8 +176,7 @@
     }
 
     // Set up static header elements
-    document.getElementById('back-link').href =
-      'dashboard.html?student=' + encodeURIComponent(student);
+    document.getElementById('back-link').href = buildBackToDashboardUrl();
     document.getElementById('student-label').textContent = 'Student: ' + student;
 
     // ------------------------------------------------------------------
@@ -185,9 +184,20 @@
     // ------------------------------------------------------------------
     let studentProgress = {};
 
+    function buildBackToDashboardUrl() {
+      let url = 'dashboard.html?student=' + encodeURIComponent(student);
+      if (chapterId) {
+        url += '&chapter=' + encodeURIComponent(chapterId);
+      }
+      return url;
+    }
+    
+    
     // ------------------------------------------------------------------
     // Load student progress from Firestore
     // ------------------------------------------------------------------
+      
+    
     async function loadStudentProgress() {
       try {
         const doc = await db.collection('students').doc(student).get();

@@ -281,17 +281,16 @@
       window.location.href = 'index.html';
     }
     if (!level || !chapterScope) {
-      window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
+      window.location.href = buildBackToDashboardUrl()
     }
     // Validate level is one of the known levels (defensive)
     const VALID_LEVELS = ['L1', 'L2', 'L3', 'L4'];
     if (!VALID_LEVELS.includes(level)) {
-      window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
+      window.location.href = buildBackToDashboardUrl()
     }
 
     // Set up top bar
-    document.getElementById('back-link').href =
-      'dashboard.html?student=' + encodeURIComponent(student);
+    document.getElementById('back-link').href = buildBackToDashboardUrl();
     document.getElementById('student-label').textContent = 'Student: ' + student;
 
     // ------------------------------------------------------------------
@@ -463,7 +462,7 @@
       return (
         '<div class="empty-message">' +
           '<p>No words to practice at this level.</p>' +
-          '<a class="back-action" href="dashboard.html?student=' + encodeURIComponent(student) + '">Back to Dashboard</a>' +
+          '<a class="back-action" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
         '</div>'
       );
     }
@@ -472,7 +471,7 @@
       return (
         '<div class="empty-message">' +
           '<p>The ' + level + ' exercise is coming in a future milestone.</p>' +
-          '<a class="back-action" href="dashboard.html?student=' + encodeURIComponent(student) + '">Back to Dashboard</a>' +
+          '<a class="back-action" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
         '</div>'
       );
     }
@@ -481,7 +480,7 @@
       return (
         '<div class="error-message">' +
           '<p>' + msg + '</p>' +
-          '<a class="back-action" href="dashboard.html?student=' + encodeURIComponent(student) + '">Back to Dashboard</a>' +
+          '<a class="back-action" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
         '</div>'
       );
     }
@@ -613,7 +612,7 @@
 
         const backLink = document.createElement('a');
         backLink.className = 'action-btn';
-        backLink.href = 'dashboard.html?student=' + encodeURIComponent(student);
+        backLink.href = buildBackToDashboardUrl();
         backLink.textContent = 'Back to Dashboard';
         btnRow.appendChild(backLink);
 
@@ -671,7 +670,7 @@
       if (placeholder) {
         const backLink = document.createElement('a');
         backLink.className = 'action-btn';
-        backLink.href = 'dashboard.html?student=' + encodeURIComponent(student);
+        backLink.href = buildBackToDashboardUrl();
         backLink.textContent = 'Back to Dashboard';
         placeholder.replaceWith(backLink);
       }
@@ -689,7 +688,7 @@
       if (placeholder) {
         const backLink = document.createElement('a');
         backLink.className = 'action-btn';
-        backLink.href = 'dashboard.html?student=' + encodeURIComponent(student);
+        backLink.href = buildBackToDashboardUrl();
         backLink.textContent = 'Back to Dashboard';
         placeholder.replaceWith(backLink);
       }
@@ -703,6 +702,15 @@
       const audio = new Audio(audioPath);
       audio.play().catch(err => console.error('Audio playback failed:', err));
     }
+
+    function buildBackToDashboardUrl() {
+      let url = 'dashboard.html?student=' + encodeURIComponent(student);
+      if (chapterScope && chapterScope !== 'all') {
+        url += '&chapter=' + encodeURIComponent(chapterScope);
+      }
+      return url;
+    }
+
 
     let toastTimer = null;
 
