@@ -231,6 +231,56 @@
       border-radius: 4px;
       display: inline-block;
     }
+
+    .progression-confirmation {
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: #155724;
+      background-color: #d4edda;
+      padding: 6px 12px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    .progression-confirmation.demoted {
+      color: #721c24;
+      background-color: #f8d7da;
+    }
+
+    .progression-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .progression-btn {
+      padding: 10px 24px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 6px;
+      border: 1px solid;
+    }
+
+    .progression-btn.mastered {
+      border-color: #28a745;
+      background-color: #fff;
+      color: #28a745;
+    }
+
+    .progression-btn.mastered:hover {
+      background-color: #e6f5ea;
+    }
+
+    .progression-btn.demote {
+      border-color: #dc3545;
+      background-color: #fff;
+      color: #dc3545;
+    }
+
+    .progression-btn.demote:hover {
+      background-color: #fbeaec;
+    }
   </style>
 </head>
 <body>
@@ -519,7 +569,16 @@
       html += '</div>';
       html += '</div>';
 
-      html += '<div style="height:48px;"></div>';
+      html += '<div style="height:32px;"></div>';
+
+      html += '<div class="progression-buttons">';
+      html += '<button id="mastered-l2-btn" class="progression-btn mastered">\u2713 Mastered L2 Listen</button>';
+      html += '<button id="drop-l0-btn" class="progression-btn demote">\u2193 Drop to L0 Discover</button>';
+      html += '</div>';
+
+      html += '<div id="progression-confirmation-container"></div>';
+
+      html += '<div style="height:24px;"></div>';
       html += '<div id="action-buttons-placeholder"></div>';
 
       html += '</div>';
@@ -799,6 +858,43 @@
           playWordThenSentence(currentWordEntry.word);
         });
       }
+
+    
+      const masteredL2Btn = document.getElementById('mastered-l2-btn');
+
+      if (masteredL2Btn) {
+        masteredL2Btn.addEventListener('click', async () => {
+          const result = await updateWordLevelForCurrentWord('L2');
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionSeen.delete(wordId);
+            sessionMastered.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation('L2');
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+      
+      const dropL0Btn = document.getElementById('drop-l0-btn');
+
+      if (dropL0Btn) {
+        dropL0Btn.addEventListener('click', async () => {
+          const result = await updateWordLevelForCurrentWord('L0');
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionMastered.delete(wordId);
+            sessionSeen.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation('L0');
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
     }
 
     function wireEndOfSessionBack() {
@@ -925,6 +1021,30 @@
       }
     }
 
+    async function updateWordLevelForCurrentWord(newLevel) {
+      if (!currentWordEntry) return { ok: false };
+      const wordId = currentWordEntry.word.id;
+
+      try {
+        const update = {
+          progress: {
+            [wordId]: newLevel,
+          },
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+
+        await db.collection('students').doc(student).set(update, { merge: true });
+
+        studentProgress[wordId] = newLevel;
+
+        console.log('Set ' + wordId + ' -> ' + newLevel);
+        return { ok: true };
+      } catch (err) {
+        console.error('Failed to set level:', err);
+        return { ok: false, error: err };
+      }
+    }
+
     function showMasteredConfirmation() {
       const masteredRow = document.querySelector('.mastered-row');
       if (!masteredRow) return;
@@ -936,6 +1056,24 @@
       confirmation.className = 'mastered-confirmation';
       confirmation.textContent = '\u2713 This word has moved to L1 Read';
       masteredRow.after(confirmation);
+    }
+
+    function showProgressionConfirmation(targetLevel) {
+      const container = document.getElementById('progression-confirmation-container');
+      if (!container) return;
+
+      const confirmation = document.createElement('div');
+      confirmation.className = 'progression-confirmation';
+
+      if (targetLevel === 'L2') {
+        confirmation.textContent = '\u2713 This word has moved to L2 Listen';
+      } else if (targetLevel === 'L0') {
+        confirmation.className += ' demoted';
+        confirmation.textContent = '\u2193 This word has moved back to L0 Discover';
+      }
+
+      container.innerHTML = '';
+      container.appendChild(confirmation);
     }
 
     // ------------------------------------------------------------------
