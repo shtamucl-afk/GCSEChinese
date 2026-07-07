@@ -483,9 +483,19 @@
       return entries[idx];
     }
 
-    // ------------------------------------------------------------------
+// ------------------------------------------------------------------
     // Rendering
     // ------------------------------------------------------------------
+    function getChapterTitle(chapterId) {
+      const ch = allChapters.find(c => c.id === chapterId);
+      return ch ? ch.title : '';
+    }
+    function buildWordContextText() {
+      if (!currentWordEntry) return '';
+      const chId = currentWordEntry.chapterId;
+      const chTitle = getChapterTitle(chId);
+      return 'Word from Chapter ' + chId + (chTitle ? ': ' + chTitle : '');
+    }
     function escapeHtml(text) {
       return String(text)
         .replace(/&/g, '&amp;')
@@ -523,12 +533,8 @@
         : 'Chapter ' + chapterScope;
       const levelLabel = LEVEL_META[level] ? LEVEL_META[level].label + ' Exercise' : level + ' Exercise';
 
-      const wordContext = currentWordEntry
-        ? 'Word from Chapter ' + currentWordEntry.chapterId
-        : '';
-
+      const wordContext = buildWordContextText();
       const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
-
       return (
         '<div class="session-header">' +
           '<div class="primary">' + scopeText + ' \u00b7 ' + levelLabel + '</div>' +
@@ -785,10 +791,7 @@
     function updateSessionCounter() {
       const headerSecondLine = document.querySelector('.session-header div:last-child');
       if (!headerSecondLine) return;
-
-      const wordContext = currentWordEntry
-        ? 'Word from Chapter ' + currentWordEntry.chapterId
-        : '';
+      const wordContext = buildWordContextText();
       const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
       headerSecondLine.textContent = (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText;
     }
