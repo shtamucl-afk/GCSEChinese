@@ -534,7 +534,7 @@
       const levelLabel = LEVEL_META[level] ? LEVEL_META[level].label + ' Exercise' : level + ' Exercise';
 
       const wordContext = buildWordContextText();
-      const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
+      const masteredText = 'Session: ' + sessionMastered.size + ' promoted';
       return (
         '<div class="session-header">' +
           '<div class="primary">' + scopeText + ' \u00b7 ' + levelLabel + '</div>' +
@@ -592,7 +592,7 @@
       html +=   '<div class="mastered-row">';
       html +=     '<label>';
       html +=       '<input type="checkbox" id="mastered-checkbox">';
-      html +=       'Mastered L1 - I know both the pinyin and meaning';
+      html +=       'Promote to L1 Read - I know both the pinyin and meaning';
       html +=     '</label>';
       html +=   '</div>';
       html +=   '<div id="action-buttons-placeholder"></div>';
@@ -631,7 +631,7 @@
       html += '<div style="height:32px;"></div>';
 
       html += '<div class="progression-buttons">';
-      html += '<button id="mastered-l2-btn" class="progression-btn mastered">\u2713 Mastered L2 Listen</button>';
+      html += '<button id="mastered-l2-btn" class="progression-btn mastered">\u2713 Promote to L2 Listen</button>';
       html += '<button id="drop-l0-btn" class="progression-btn demote">\u2193 Drop to L0 Discover</button>';
       html += '</div>';
 
@@ -679,7 +679,7 @@
       html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
       html +=   '</div>';
       html +=   '<div class="progression-buttons">';
-      html +=     '<button id="mastered-l3-btn" class="progression-btn mastered">\u2713 Mastered L3 Usage</button>';
+      html +=     '<button id="mastered-l3-btn" class="progression-btn mastered">\u2713 Promote to L3 Usage</button>';
       html +=     '<button id="drop-l1-btn" class="progression-btn demote">\u2193 Drop to L1 Read</button>';
       html +=   '</div>';
       html +=   '<div id="progression-confirmation-container"></div>';
@@ -727,7 +727,7 @@
       html +=   '</div>';
       html +=   '<div style="height:32px;"></div>';
       html +=   '<div class="progression-buttons">';
-      html +=     '<button id="mastered-l4-btn" class="progression-btn mastered">\u2713 Mastered L4 Write</button>';
+      html +=     '<button id="mastered-l4-btn" class="progression-btn mastered">\u2713 Promote to L4 Write</button>';
       html +=     '<button id="drop-l2-btn" class="progression-btn demote">\u2193 Drop to L2 Listen</button>';
       html +=   '</div>';
       html +=   '<div id="progression-confirmation-container"></div>';
@@ -766,8 +766,8 @@
     function renderAllMastered() {
       return (
         '<div class="empty-message">' +
-          '<p>🎉 You\'ve mastered all words at this level! Great job.</p>' +
-          '<p><small>Session: ' + sessionMastered.size + ' mastered</small></p>' +
+          '<p>🎉 You\'ve promoted all words to the next level! Great job.</p>' +
+          '<p><small>Session: ' + sessionMastered.size + ' promoted</small></p>' +
           '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
             '<div id="all-back-placeholder"></div>' +
           '</div>' +
@@ -781,8 +781,8 @@
       return (
         '<div class="empty-message">' +
           '<p>Session complete.</p>' +
-          '<p>You mastered <strong>' + masteredCount + '</strong> word(s). ' +
-             '<strong>' + seenCount + '</strong> word(s) seen but not mastered.</p>' +
+          '<p>You promoted <strong>' + masteredCount + '</strong> word(s). ' +
+             '<strong>' + seenCount + '</strong> word(s) seen but not promoted.</p>' +
           '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
             '<button id="retest-btn" class="action-btn primary">Re-test previous words</button>' +
             '<div id="end-back-placeholder"></div>' +
@@ -850,7 +850,7 @@
       const headerSecondLine = document.querySelector('.session-header div:last-child');
       if (!headerSecondLine) return;
       const wordContext = buildWordContextText();
-      const masteredText = 'Session: ' + sessionMastered.size + ' mastered';
+      const masteredText = 'Session: ' + sessionMastered.size + ' promoted';
       headerSecondLine.textContent = (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText;
     }
 
@@ -1265,7 +1265,7 @@
 
       const confirmation = document.createElement('div');
       confirmation.className = 'mastered-confirmation';
-      confirmation.textContent = '\u2713 This word has moved to L1 Read';
+      confirmation.textContent = '\u2713 This word has been promoted to L1 Read';
       masteredRow.after(confirmation);
     }
 
@@ -1275,17 +1275,17 @@
       const confirmation = document.createElement('div');
       confirmation.className = 'progression-confirmation';
       if (targetLevel === 'L2' && !isDrop) {
-        confirmation.textContent = '\u2713 This word has moved to L2 Listen';
+        confirmation.textContent = '\u2713 This word has been promoted to L2 Listen';
       } else if (targetLevel === 'L0') {
         confirmation.className += ' demoted';
         confirmation.textContent = '\u2193 This word has moved back to L0 Discover';
       } else if (targetLevel === 'L3') {
-        confirmation.textContent = '\u2713 This word has moved to L3 Usage';
+        confirmation.textContent = '\u2713 This word has been promoted to L3 Usage';
       } else if (targetLevel === 'L1') {
         confirmation.className += ' demoted';
         confirmation.textContent = '\u2193 This word has moved back to L1 Read';
       } else if (targetLevel === 'L4') {
-        confirmation.textContent = '\u2713 This word has moved to L4 Write';
+        confirmation.textContent = '\u2713 This word has been promoted to L4 Write';
       } else if (targetLevel === 'L2' && isDrop) {
         confirmation.className += ' demoted';
         confirmation.textContent = '\u2193 This word has moved back to L2 Listen';
