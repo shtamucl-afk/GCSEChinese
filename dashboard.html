@@ -771,12 +771,12 @@
     }
 
     function handleCrossPoolClick(targetLevel) {
-      if (targetLevel === 'L1' || targetLevel === 'L2') {
+      if (targetLevel === 'L1' || targetLevel === 'L2' || targetLevel === 'L3') {
         window.location.href = 'exercise.html?level=' + targetLevel +
           '&chapter=all&student=' + encodeURIComponent(student);
         return;
       }
-      // L3/L4 still placeholder alerts (wired in M6)
+      // L4 still placeholder alert (wired in M6.35)
       alert('Cross-chapter practice pool to reach ' + LEVEL_META[targetLevel].label +
             ' coming in a future milestone.');
     }
@@ -844,13 +844,13 @@
     // Practice pool button click - chapter-scoped
     // ------------------------------------------------------------------
     function handlePracticePoolClick(targetLevel, chapterId) {
-      if (targetLevel === 'L1' || targetLevel === 'L2') {
+      if (targetLevel === 'L1' || targetLevel === 'L2' || targetLevel === 'L3') {
         window.location.href = 'exercise.html?level=' + targetLevel +
           '&chapter=' + encodeURIComponent(chapterId) +
           '&student=' + encodeURIComponent(student);
         return;
       }
-      // L3/L4 still placeholder alerts (wired in M6)
+      // L4 still placeholder alert (wired in M6.35)
       alert('Practice pool to reach ' + LEVEL_META[targetLevel].label +
             ' (Chapter ' + chapterId + ') coming in a future milestone.');
     }
