@@ -401,6 +401,10 @@
       window.location.href = 'index.html';
     }
 
+    // Optional: pre-select a chapter from ?chapter= param
+    const dashboardParams = new URLSearchParams(window.location.search);
+    const preselectChapterId = dashboardParams.get('chapter');
+
     const switcher = document.getElementById('student-switch');
     populateStudentDropdown(switcher, student);
 
@@ -1116,6 +1120,18 @@
         renderOverallProgress();
         renderCrossChapterPool();
         renderChapterList();
+
+        // Auto-select the chapter if ?chapter= param is present
+        if (preselectChapterId) {
+          const target = allChapters.find(c => c.id === preselectChapterId);
+          if (target) {
+            selectChapter(target);
+            console.log('Auto-selected chapter from URL:', preselectChapterId);
+          } else {
+            console.log('URL chapter param "' + preselectChapterId +
+                        '" not found in chapters index; ignoring.');
+          }
+        }
       } catch (err) {
         console.error('Initialization error:', err);
       }
