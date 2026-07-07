@@ -110,6 +110,14 @@
     .revealed-english {
       font-size: 18px;
       color: #666;
+      text-align: center;
+    }
+
+    .revealed-sentence {
+      font-size: 18px;
+      color: #666;
+      text-align: center !important;
+      margin-top: 12px;
     }
 
     .mastered-row {
@@ -306,6 +314,7 @@
     let currentWordEntry = null;
     let isRevealed = false;
     let sessionEnded = null;  // null | 'all' | 'mixed'
+    let currentAudio = null;
 
     // ------------------------------------------------------------------
     // Load student progress + excluded
@@ -435,6 +444,30 @@
       );
     }
 
+    function renderWordDisplayL2() {
+      return (
+        '<div class="word-display">' +
+
+          '<div style="margin-bottom:16px;">' +
+            '<button id="play-word-btn" class="reveal-btn">Play Word</button>' +
+          '</div>' +
+
+          '<div style="margin-bottom:16px;">' +
+            '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>' +
+          '</div>' +
+
+          '<div id="hint-container" style="margin-bottom:16px;"></div>' +
+
+          '<div style="margin-bottom:16px;">' +
+            '<button id="hint-btn" class="reveal-btn">Hint</button>' +
+          '</div>' +
+
+          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
+
+        '</div>'
+      );
+    }
+
     function renderWordDisplayRevealed() {
       const word = currentWordEntry.word;
       let html = '';
@@ -457,6 +490,43 @@
       html += '</div>';
       return html;
     }
+
+    function renderWordDisplayRevealedL2() {
+      const word = currentWordEntry.word;
+
+      let html = '';
+
+      html += '<div class="word-display">';
+
+      html += '<div style="margin-bottom:16px;">';
+      html += '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
+      html += '</div>';
+
+      html += '<div style="margin-bottom:24px;">';
+      html += '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
+      html += '</div>';
+
+      html += '<div class="word-character">' + word.traditional + '</div>';
+
+      html += '<div class="revealed-pinyin">' + word.pinyin + '</div>';
+      html += '<div class="revealed-english">' + word.english + '</div>';
+
+      html += '<div style="height:32px;"></div>';
+
+      html += '<div style="display:flex;justify-content:center;width:100%;">';
+      html += '<div class="revealed-sentence" style="max-width:400px;text-align:center;">';
+      html += word.contextSentence;
+      html += '</div>';
+      html += '</div>';
+
+      html += '<div style="height:48px;"></div>';
+      html += '<div id="action-buttons-placeholder"></div>';
+
+      html += '</div>';
+
+      return html;
+    }
+
 
     function renderEmptyPool() {
       return (
@@ -516,8 +586,8 @@
     function render() {
       const container = document.getElementById('app-container');
 
-      // Defensive: only L1 implemented in M4
-      if (level !== 'L1') {
+      // L1 and L2 currently implemented
+      if (level !== 'L1' && level !== 'L2') {
         container.innerHTML = renderNotImplemented();
         return;
       }
@@ -543,10 +613,23 @@
 
       // Word display: either concealed (Reveal button) or revealed (details + actions)
       if (isRevealed) {
-        container.innerHTML = renderSessionHeader() + renderWordDisplayRevealed();
+
+        if (level === 'L2') {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL2();
+        } else {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealed();
+        }
+
         wireRevealedActions();
+
       } else {
-        container.innerHTML = renderSessionHeader() + renderWordDisplay();
+
+        if (level === 'L2') {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayL2();
+        } else {
+          container.innerHTML = renderSessionHeader() + renderWordDisplay();
+        }
+
         wireRevealButton();
       }
     }
@@ -589,10 +672,46 @@
 
     function wireRevealButton() {
       const btn = document.getElementById('reveal-btn');
+
       if (btn) {
         btn.addEventListener('click', () => {
           isRevealed = true;
           render();
+        });
+      }
+
+      const hintBtn = document.getElementById('hint-btn');
+
+      if (hintBtn) {
+        hintBtn.addEventListener('click', () => {
+          const hintContainer = document.getElementById('hint-container');
+
+          if (hintContainer && currentWordEntry) {
+            hintContainer.innerHTML =
+              '<div class="revealed-english">' +
+              'English: ' +
+              currentWordEntry.word.english +
+              '</div>';
+
+            hintBtn.style.display = 'none';
+          }
+        });
+      }
+
+      const playWordBtn = document.getElementById('play-word-btn');
+
+      if (playWordBtn) {
+        playWordBtn.addEventListener('click', () => {
+          playAudio(currentWordEntry.word.audioIsolated);
+        });
+      }
+
+      const playWordSentenceBtn =
+        document.getElementById('play-word-sentence-btn');
+
+      if (playWordSentenceBtn) {
+        playWordSentenceBtn.addEventListener('click', () => {
+          playWordThenSentence(currentWordEntry.word);
         });
       }
     }
@@ -663,6 +782,23 @@
           playAudio(currentWordEntry.word.audioIsolated);
         });
       }
+
+      const playWordBtn = document.getElementById('play-word-btn');
+
+      if (playWordBtn) {
+        playWordBtn.addEventListener('click', () => {
+          playAudio(currentWordEntry.word.audioIsolated);
+        });
+      }
+
+      const playWordSentenceBtn =
+        document.getElementById('play-word-sentence-btn');
+
+      if (playWordSentenceBtn) {
+        playWordSentenceBtn.addEventListener('click', () => {
+          playWordThenSentence(currentWordEntry.word);
+        });
+      }
     }
 
     function wireEndOfSessionBack() {
@@ -699,9 +835,48 @@
         console.warn('No audio path provided');
         return;
       }
-      const audio = new Audio(audioPath);
-      audio.play().catch(err => console.error('Audio playback failed:', err));
+
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+      }
+
+      currentAudio = new Audio(audioPath);
+
+      currentAudio.play().catch(err => {
+        console.error('Audio playback failed:', err);
+      });
     }
+
+    async function playWordThenSentence(word) {
+      if (!word) return;
+
+      try {
+        const isolated = new Audio(word.audioIsolated);
+
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+        }
+
+        currentAudio = isolated;
+
+        await currentAudio.play();
+
+        isolated.addEventListener('ended', () => {
+          setTimeout(() => {
+              currentAudio = new Audio(word.audioSentence);
+              currentAudio.play().catch(err => {
+              console.error('Sentence audio playback failed:', err);
+            });
+          }, 10);
+        }, { once: true });
+
+      } catch (err) {
+        console.error('Combined audio playback failed:', err);
+      }
+    }
+
 
     function buildBackToDashboardUrl() {
       let url = 'dashboard.html?student=' + encodeURIComponent(student);
@@ -769,7 +944,7 @@
     async function init() {
       try {
         // Bypass all loading if level isn't implemented (defensive URL handling)
-        if (level !== 'L1') {
+        if (level !== 'L1' && level !== 'L2') {
           render();
           return;
         }
