@@ -678,10 +678,17 @@
       html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
       html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
       html +=   '</div>';
+      html +=   '<div class="progression-buttons">';
+      html +=     '<button id="mastered-l3-btn" class="progression-btn mastered">\u2713 Mastered L3 Usage</button>';
+      html +=     '<button id="drop-l1-btn" class="progression-btn demote">\u2193 Drop to L1 Read</button>';
+      html +=   '</div>';
+      html +=   '<div id="progression-confirmation-container"></div>';
+      html +=   '<div style="height:24px;"></div>';
       html +=   '<div id="action-buttons-placeholder"></div>';
       html += '</div>';
       return html;
     }
+
     function renderEmptyPool() {
       return (
         '<div class="empty-message">' +
@@ -971,7 +978,6 @@
       }
       
       const dropL0Btn = document.getElementById('drop-l0-btn');
-
       if (dropL0Btn) {
         dropL0Btn.addEventListener('click', async () => {
           const result = await updateWordLevelForCurrentWord('L0');
@@ -981,6 +987,38 @@
             sessionSeen.add(wordId);
             showToast('Saved', 'success');
             showProgressionConfirmation('L0');
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+      const masteredL3Btn = document.getElementById('mastered-l3-btn');
+      if (masteredL3Btn) {
+        masteredL3Btn.addEventListener('click', async () => {
+          const result = await updateWordLevelForCurrentWord('L3');
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionSeen.delete(wordId);
+            sessionMastered.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation('L3');
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+      const dropL1Btn = document.getElementById('drop-l1-btn');
+      if (dropL1Btn) {
+        dropL1Btn.addEventListener('click', async () => {
+          const result = await updateWordLevelForCurrentWord('L1');
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionMastered.delete(wordId);
+            sessionSeen.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation('L1');
             updateSessionCounter();
           } else {
             showToast('Save failed. Please try again.', 'error');
@@ -1153,17 +1191,19 @@
     function showProgressionConfirmation(targetLevel) {
       const container = document.getElementById('progression-confirmation-container');
       if (!container) return;
-
       const confirmation = document.createElement('div');
       confirmation.className = 'progression-confirmation';
-
       if (targetLevel === 'L2') {
         confirmation.textContent = '\u2713 This word has moved to L2 Listen';
       } else if (targetLevel === 'L0') {
         confirmation.className += ' demoted';
         confirmation.textContent = '\u2193 This word has moved back to L0 Discover';
+      } else if (targetLevel === 'L3') {
+        confirmation.textContent = '\u2713 This word has moved to L3 Usage';
+      } else if (targetLevel === 'L1') {
+        confirmation.className += ' demoted';
+        confirmation.textContent = '\u2193 This word has moved back to L1 Read';
       }
-
       container.innerHTML = '';
       container.appendChild(confirmation);
     }
