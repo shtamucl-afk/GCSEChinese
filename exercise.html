@@ -689,6 +689,53 @@
       return html;
     }
 
+    function renderWordDisplayL4() {
+      const word = currentWordEntry.word;
+      let html = '';
+      html += '<div class="word-display">';
+      html +=   '<div style="margin-bottom:16px;">';
+      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
+      html +=   '</div>';
+      html +=   '<div style="margin-bottom:24px;">';
+      html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
+      html +=   '</div>';
+      html +=   '<div class="revealed-pinyin">' + word.pinyin + '</div>';
+      html +=   '<div class="revealed-english">' + word.english + '</div>';
+      html +=   '<div style="height:24px;"></div>';
+      html +=   '<button id="reveal-btn" class="reveal-btn">Reveal</button>';
+      html += '</div>';
+      return html;
+    }
+    function renderWordDisplayRevealedL4() {
+      const word = currentWordEntry.word;
+      let html = '';
+      html += '<div class="word-display">';
+      html +=   '<div style="margin-bottom:16px;">';
+      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
+      html +=   '</div>';
+      html +=   '<div style="margin-bottom:24px;">';
+      html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
+      html +=   '</div>';
+      html +=   '<div class="word-character">' + word.traditional + '</div>';
+      html +=   '<div class="revealed-pinyin">' + word.pinyin + '</div>';
+      html +=   '<div class="revealed-english">' + word.english + '</div>';
+      html +=   '<div style="height:32px;"></div>';
+      html +=   '<div style="display:flex;justify-content:center;width:100%;">';
+      html +=     '<div class="revealed-sentence" style="max-width:400px;text-align:center;">';
+      html +=       word.contextSentence;
+      html +=     '</div>';
+      html +=   '</div>';
+      html +=   '<div style="height:32px;"></div>';
+      html +=   '<div class="progression-buttons">';
+      html +=     '<button id="mastered-l4-btn" class="progression-btn mastered">\u2713 Mastered L4 Write</button>';
+      html +=     '<button id="drop-l2-btn" class="progression-btn demote">\u2193 Drop to L2 Listen</button>';
+      html +=   '</div>';
+      html +=   '<div id="progression-confirmation-container"></div>';
+      html +=   '<div style="height:24px;"></div>';
+      html +=   '<div id="action-buttons-placeholder"></div>';
+      html += '</div>';
+      return html;
+    }
     function renderEmptyPool() {
       return (
         '<div class="empty-message">' +
@@ -747,8 +794,8 @@
     function render() {
       const container = document.getElementById('app-container');
 
-      // L1, L2, and L3 currently implemented
-      if (level !== 'L1' && level !== 'L2' && level !== 'L3') {
+      // L1, L2, L3, and L4 currently implemented
+      if (level !== 'L1' && level !== 'L2' && level !== 'L3' && level !== 'L4') {
         container.innerHTML = renderNotImplemented();
         return;
       }
@@ -778,6 +825,8 @@
           container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL2();
         } else if (level === 'L3') {
           container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL3();
+        } else if (level === 'L4') {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL4();
         } else {
           container.innerHTML = renderSessionHeader() + renderWordDisplayRevealed();
         }
@@ -788,6 +837,8 @@
           container.innerHTML = renderSessionHeader() + renderWordDisplayL2();
         } else if (level === 'L3') {
           container.innerHTML = renderSessionHeader() + renderWordDisplayL3();
+        } else if (level === 'L4') {
+          container.innerHTML = renderSessionHeader() + renderWordDisplayL4();
         } else {
           container.innerHTML = renderSessionHeader() + renderWordDisplay();
         }
@@ -960,7 +1011,6 @@
 
     
       const masteredL2Btn = document.getElementById('mastered-l2-btn');
-
       if (masteredL2Btn) {
         masteredL2Btn.addEventListener('click', async () => {
           const result = await updateWordLevelForCurrentWord('L2');
@@ -969,14 +1019,13 @@
             sessionSeen.delete(wordId);
             sessionMastered.add(wordId);
             showToast('Saved', 'success');
-            showProgressionConfirmation('L2');
+            showProgressionConfirmation('L2', false);
             updateSessionCounter();
           } else {
             showToast('Save failed. Please try again.', 'error');
           }
         });
       }
-      
       const dropL0Btn = document.getElementById('drop-l0-btn');
       if (dropL0Btn) {
         dropL0Btn.addEventListener('click', async () => {
@@ -986,7 +1035,7 @@
             sessionMastered.delete(wordId);
             sessionSeen.add(wordId);
             showToast('Saved', 'success');
-            showProgressionConfirmation('L0');
+            showProgressionConfirmation('L0', true);
             updateSessionCounter();
           } else {
             showToast('Save failed. Please try again.', 'error');
@@ -1002,7 +1051,7 @@
             sessionSeen.delete(wordId);
             sessionMastered.add(wordId);
             showToast('Saved', 'success');
-            showProgressionConfirmation('L3');
+            showProgressionConfirmation('L3', false);
             updateSessionCounter();
           } else {
             showToast('Save failed. Please try again.', 'error');
@@ -1018,7 +1067,39 @@
             sessionMastered.delete(wordId);
             sessionSeen.add(wordId);
             showToast('Saved', 'success');
-            showProgressionConfirmation('L1');
+            showProgressionConfirmation('L1', true);
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+      const masteredL4Btn = document.getElementById('mastered-l4-btn');
+      if (masteredL4Btn) {
+        masteredL4Btn.addEventListener('click', async () => {
+          const result = await updateWordLevelForCurrentWord('L4');
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionSeen.delete(wordId);
+            sessionMastered.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation('L4', false);
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+      const dropL2Btn = document.getElementById('drop-l2-btn');
+      if (dropL2Btn) {
+        dropL2Btn.addEventListener('click', async () => {
+          const result = await updateWordLevelForCurrentWord('L2');
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionMastered.delete(wordId);
+            sessionSeen.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation('L2', true);
             updateSessionCounter();
           } else {
             showToast('Save failed. Please try again.', 'error');
@@ -1188,12 +1269,12 @@
       masteredRow.after(confirmation);
     }
 
-    function showProgressionConfirmation(targetLevel) {
+    function showProgressionConfirmation(targetLevel, isDrop) {
       const container = document.getElementById('progression-confirmation-container');
       if (!container) return;
       const confirmation = document.createElement('div');
       confirmation.className = 'progression-confirmation';
-      if (targetLevel === 'L2') {
+      if (targetLevel === 'L2' && !isDrop) {
         confirmation.textContent = '\u2713 This word has moved to L2 Listen';
       } else if (targetLevel === 'L0') {
         confirmation.className += ' demoted';
@@ -1203,6 +1284,11 @@
       } else if (targetLevel === 'L1') {
         confirmation.className += ' demoted';
         confirmation.textContent = '\u2193 This word has moved back to L1 Read';
+      } else if (targetLevel === 'L4') {
+        confirmation.textContent = '\u2713 This word has moved to L4 Write';
+      } else if (targetLevel === 'L2' && isDrop) {
+        confirmation.className += ' demoted';
+        confirmation.textContent = '\u2193 This word has moved back to L2 Listen';
       }
       container.innerHTML = '';
       container.appendChild(confirmation);
@@ -1214,7 +1300,7 @@
     async function init() {
       try {
         // Bypass all loading if level isn't implemented (defensive URL handling)
-        if (level !== 'L1' && level !== 'L2' && level !== 'L3') {
+        if (level !== 'L1' && level !== 'L2' && level !== 'L3' && level !== 'L4') {
           render();
           return;
         }
