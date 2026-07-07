@@ -271,12 +271,21 @@
     const student = getStudentFromUrl();
     const params = new URLSearchParams(window.location.search);
     const level = params.get('level');
-    const chapterScope = params.get('chapter');
+    const chapterScopeRaw = params.get('chapter');
+    // Normalize: "ALL", "all", "All" all become "all"
+    const chapterScope = (chapterScopeRaw && chapterScopeRaw.toLowerCase() === 'all')
+      ? 'all'
+      : chapterScopeRaw;
 
     if (!student) {
       window.location.href = 'index.html';
     }
     if (!level || !chapterScope) {
+      window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
+    }
+    // Validate level is one of the known levels (defensive)
+    const VALID_LEVELS = ['L1', 'L2', 'L3', 'L4'];
+    if (!VALID_LEVELS.includes(level)) {
       window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
     }
 
@@ -336,7 +345,11 @@
         : allChapters.filter(c => c.id === chapterScope);
 
       if (chaptersToLoad.length === 0) {
-        throw new Error('No matching chapter for scope: ' + chapterScope);
+        if (chapterScope === 'all') {
+          throw new Error('No chapters authored yet.');
+        }
+        throw new Error('Chapter "' + chapterScope + '" not found. Available: ' +
+                        allChapters.map(c => c.id).join(', ') + '.');
       }
 
       chapterVocab = {};
@@ -356,6 +369,7 @@
     function getLevelForWord(wordId) {
       return studentProgress[wordId] || 'NotStarted';
     }
+
 
     function isWordExcluded(wordId) {
       return studentExcluded.includes(wordId);
@@ -768,7 +782,8 @@
       } catch (err) {
         console.error('Exercise init error:', err);
         const container = document.getElementById('app-container');
-        container.innerHTML = renderErrorMessage('Something went wrong loading the exercise. See console.');
+        const msg = (err && err.message) ? err.message : 'Something went wrong loading the exercise.';
+        container.innerHTML = renderErrorMessage(msg);
       }
     }
 
