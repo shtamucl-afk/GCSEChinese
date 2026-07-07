@@ -121,7 +121,7 @@
       border-radius: 3px;
     }
 
-    .vocab-NotStarted { background-color: #f8d7da; color: #721c24; }
+    .vocab-L0         { background-color: #f8d7da; color: #721c24; }
     .vocab-L1         { background-color: #e2e3e5; color: #383d41; }
     .vocab-L2         { background-color: #fff3cd; color: #856404; }
     .vocab-L3         { background-color: #ffe5b4; color: #6d4300; }
@@ -152,9 +152,9 @@
     // ------------------------------------------------------------------
     // Constants
     // ------------------------------------------------------------------
-    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4'];
+    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
-      NotStarted: { emoji: '🔴', label: 'Not Started' },
+      L0:         { emoji: '🔴', label: 'L0 Discover' },
       L1:         { emoji: '⚪', label: 'L1 Read' },
       L2:         { emoji: '🟡', label: 'L2 Listen' },
       L3:         { emoji: '🟠', label: 'L3 Usage' },
@@ -215,7 +215,7 @@
     }
 
     function getLevelForWord(wordId) {
-      return studentProgress[wordId] || 'NotStarted';
+      return studentProgress[wordId] || 'L0';
     }
 
     // ------------------------------------------------------------------

@@ -258,7 +258,7 @@
     // Constants
     // ------------------------------------------------------------------
     const LEVEL_META = {
-      NotStarted: { emoji: '🔴', label: 'Not Started' },
+      L0:         { emoji: '🔴', label: 'L0 Discover' },
       L1:         { emoji: '⚪', label: 'L1 Read' },
       L2:         { emoji: '🟡', label: 'L2 Listen' },
       L3:         { emoji: '🟠', label: 'L3 Usage' },
@@ -267,7 +267,7 @@
 
     // Map exercise level to the source level in the pool
     const LEVEL_SOURCE = {
-      L1: 'NotStarted',
+      L1: 'L0',
       L2: 'L1',
       L3: 'L2',
       L4: 'L3',
@@ -375,7 +375,7 @@
     // Compute pool: source-level words minus excluded, minus session state
     // ------------------------------------------------------------------
     function getLevelForWord(wordId) {
-      return studentProgress[wordId] || 'NotStarted';
+      return studentProgress[wordId] || 'L0';
     }
 
 

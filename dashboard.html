@@ -242,7 +242,7 @@
       outline-offset: 1px;
     }
 
-    .level-select.level-NotStarted { background-color: #f8d7da; color: #721c24; }
+    .level-select.level-L0        { background-color: #f8d7da; color: #721c24; }
     .level-select.level-L1        { background-color: #e2e3e5; color: #383d41; }
     .level-select.level-L2        { background-color: #fff3cd; color: #856404; }
     .level-select.level-L3        { background-color: #ffe5b4; color: #6d4300; }
@@ -375,9 +375,9 @@
     // ------------------------------------------------------------------
     // Constants
     // ------------------------------------------------------------------
-    const LEVEL_ORDER = ['NotStarted', 'L1', 'L2', 'L3', 'L4'];
+    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
-      NotStarted: { emoji: '🔴', label: 'Not Started' },
+      L0:         { emoji: '🔴', label: 'L0 Discover' },
       L1:         { emoji: '⚪', label: 'L1 Read' },
       L2:         { emoji: '🟡', label: 'L2 Listen' },
       L3:         { emoji: '🟠', label: 'L3 Usage' },
@@ -423,7 +423,7 @@
     // Helpers
     // ------------------------------------------------------------------
     function getLevelForWord(wordId) {
-      return studentProgress[wordId] || 'NotStarted';
+      return studentProgress[wordId] || 'L0';
     }
 
     function isWordExcluded(wordId) {
@@ -475,7 +475,7 @@
     }
 
     function computeLevelCounts(vocabArray) {
-      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
+      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
       vocabArray.forEach(word => {
         const level = getLevelForWord(word.id);
         counts[level] = (counts[level] || 0) + 1;
@@ -688,14 +688,14 @@
         if (!sourceLevel || !targetLevel) return;
         // Reconstruct the label from source/target
         const arrow = '\u2192';
-        const labelPart = (sourceLevel === 'NotStarted' ? 'NS' : sourceLevel) + arrow + targetLevel;
+        const labelPart = sourceLevel + arrow + targetLevel;
         btn.textContent = labelPart + ' (' + counts[sourceLevel] + ')';
       });
     }
 
     // Pool counts exclude words marked as excluded (used for Practice Pool buttons)
     function computePoolCounts(vocabArray) {
-      const counts = { NotStarted: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
+      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
       vocabArray.forEach(word => {
         if (isWordExcluded(word.id)) return;
         const level = getLevelForWord(word.id);
@@ -751,7 +751,7 @@
       btnRow.className = 'cross-chapter-pool-buttons';
 
       const CROSS_POOL_BUTTONS = [
-        { label: 'NS\u2192L1', sourceLevel: 'NotStarted', targetLevel: 'L1' },
+        { label: 'L0\u2192L1', sourceLevel: 'L0',         targetLevel: 'L1' },
         { label: 'L1\u2192L2', sourceLevel: 'L1',         targetLevel: 'L2' },
         { label: 'L2\u2192L3', sourceLevel: 'L2',         targetLevel: 'L3' },
         { label: 'L3\u2192L4', sourceLevel: 'L3',         targetLevel: 'L4' },
@@ -897,7 +897,7 @@
       // Source level = which words are in the pool.
       // Target level = which level the student is trying to achieve.
       const POOL_BUTTONS = [
-        { label: 'NS\u2192L1', sourceLevel: 'NotStarted', targetLevel: 'L1' },
+        { label: 'L0\u2192L1', sourceLevel: 'L0',         targetLevel: 'L1' },
         { label: 'L1\u2192L2', sourceLevel: 'L1',         targetLevel: 'L2' },
         { label: 'L2\u2192L3', sourceLevel: 'L2',         targetLevel: 'L3' },
         { label: 'L3\u2192L4', sourceLevel: 'L3',         targetLevel: 'L4' },
