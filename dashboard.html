@@ -767,8 +767,14 @@
     }
 
     function handleCrossPoolClick(targetLevel) {
+      if (targetLevel === 'L1') {
+        window.location.href = 'exercise.html?level=L1&chapter=all' +
+          '&student=' + encodeURIComponent(student);
+        return;
+      }
+      // L2/L3/L4 still placeholder alerts (wired in M5+)
       alert('Cross-chapter practice pool to reach ' + LEVEL_META[targetLevel].label +
-            ' coming in Milestone 4+.');
+            ' coming in a future milestone.');
     }
 
     function renderChapterList() {
@@ -831,11 +837,18 @@
     }
 
     // ------------------------------------------------------------------
-    // Practice pool button click (placeholder for M4)
+    // Practice pool button click - chapter-scoped
     // ------------------------------------------------------------------
     function handlePracticePoolClick(targetLevel, chapterId) {
+      if (targetLevel === 'L1') {
+        window.location.href = 'exercise.html?level=L1' +
+          '&chapter=' + encodeURIComponent(chapterId) +
+          '&student=' + encodeURIComponent(student);
+        return;
+      }
+      // L2/L3/L4 still placeholder alerts (wired in M5+)
       alert('Practice pool to reach ' + LEVEL_META[targetLevel].label +
-            ' (Chapter ' + chapterId + ') coming in Milestone 4+.');
+            ' (Chapter ' + chapterId + ') coming in a future milestone.');
     }
 
     // ------------------------------------------------------------------
