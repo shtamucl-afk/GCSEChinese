@@ -143,8 +143,8 @@ vite.config.ts.timestamp-*
 .vite/
 
 # Ignore intermediate pipeline files (only final versions committed)
-content-pipeline/inputs/*_raw.xlsx
-content-pipeline/inputs/*_review.xlsx
+content-pipeline/inputs/**/*_raw.xlsx
+content-pipeline/inputs/**/*_review.xlsx
 
 # Python bytecode / cache
 __pycache__/
