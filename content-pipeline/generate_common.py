@@ -8,10 +8,12 @@ Central location for:
   - parse_meta(): read BookID + ChapterID + ChapterTitle from Meta sheet
   - validate_book_and_paths(): 5-layer guard against mismatched inputs
   - clean_text(): standard whitespace stripping
+  - to_simplified(): Traditional to Simplified Chinese conversion (M8.3c-1.5)
   - BOOKS_INDEX_PATH constant
   - Language + voice + rate constants (M8.3c-1: bilingual)
 
 Introduced in M8.3c-1 for multi-book + bilingual audio support.
+Extended in M8.3c-1.5 with Simplified Chinese conversion for JSON output.
 """
 
 import json
@@ -19,6 +21,7 @@ import os
 import re
 import sys
 
+from opencc import OpenCC
 
 BOOKS_INDEX_PATH = "data/books-index.json"
 
@@ -39,6 +42,27 @@ LANGUAGES = {
         "suffix": "c",
     },
 }
+
+
+# ------------------------------------------------------------------
+# Traditional to Simplified Chinese conversion (M8.3c-1.5)
+# ------------------------------------------------------------------
+# 't2s' = Traditional to Simplified, 1-to-1 character conversion.
+# Used to populate 'simplified' and 'contextSentenceSimplified' fields
+# in the chapter JSON. The OpenCC converter is instantiated once at
+# module load to avoid re-initialising for every word.
+_t2s_converter = OpenCC("t2s")
+
+
+def to_simplified(text):
+    """Convert Traditional Chinese text to Simplified Chinese.
+
+    Uses OpenCC 't2s' config (1-to-1 character conversion).
+    Returns empty string for empty/None input.
+    """
+    if not text:
+        return ""
+    return _t2s_converter.convert(text)
 
 
 # ------------------------------------------------------------------

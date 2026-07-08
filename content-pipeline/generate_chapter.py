@@ -30,7 +30,7 @@ from openpyxl import load_workbook
 # Meta / passage / vocab reading uses shared helpers from generate_common.py.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_audio import generate_chapter_audio
-from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES
+from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES, to_simplified
 
 
 def read_passages(wb):
@@ -76,9 +76,9 @@ def read_review_vocab(wb):
 # Build JSON
 # ------------------------------------------------------------------
 def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
-    """Build the chapter JSON in the schema our HTML app expects (rev 6, M8.3c-1).
+    """Build the chapter JSON in the schema our HTML app expects (rev 7, M8.3c-1.5).
 
-    Schema:
+    Schema (M8.3c-1.5 adds simplified + contextSentenceSimplified per word):
     {
       "bookId": "01",
       "chapterId": "01",
@@ -91,9 +91,11 @@ def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
         {
           "id": "b01_ch01_w001",
           "traditional": "...",
+          "simplified": "...",
           "pinyin": "...",
           "english": "...",
           "contextSentence": "...",
+          "contextSentenceSimplified": "...",
           "audio": {
             "mandarin": {
               "isolated": "audio/book01/chapter01/b01_ch01_w001_m_isolated.mp3",
@@ -126,9 +128,11 @@ def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
         entry = {
             "id": word_id,
             "traditional": w["traditional"],
+            "simplified": to_simplified(w["traditional"]),
             "english": w.get("english", ""),
             "pinyin": w.get("pinyin", ""),
             "contextSentence": w["context"],
+            "contextSentenceSimplified": to_simplified(w["context"]),
             "audio": audio_dict,
         }
         vocab.append(entry)
