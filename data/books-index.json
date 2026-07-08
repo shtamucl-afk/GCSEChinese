@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "id": "01",
+      "title": "iGCSE Chinese - 2nd Language",
+      "description": "Cambridge iGCSE Coursebook",
+      "series": "iGCSE Chinese",
+      "sortOrder": 10
+    }
+  ]
+}

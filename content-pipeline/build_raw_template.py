@@ -8,11 +8,17 @@ Not part of the regular chapter authoring workflow.
 
 Output: content-pipeline/templates/Raw_Input_template.xlsx
 
+Rev 6 notes (Milestone 8.3c-1):
+- Added BookID row to Meta sheet (M8.3c-1: multi-book support).
+- BookID cell (Meta!B2) is TEXT-formatted so "01" stays as "01".
+- ChapterID moved to B3 (also TEXT-formatted).
+- Instructions updated to reference new b{XX}_ch{YY}_raw.xlsx naming
+  convention and content-pipeline/inputs/book{XX}/ folder structure.
+
 Rev 5 notes (Milestone 2.5 - T1):
-- Passages are now ONE PER ROW in Column A of the Content sheet.
+- Passages are ONE PER ROW in Column A of the Content sheet.
 - Alt+Enter within a cell creates paragraph breaks (\n) inside that passage.
 - Each row becomes a separate entry in the JSON "passages" array.
-- ChapterID cell (Meta!B2) is forced to TEXT format so "00" stays as "00".
 """
 
 from openpyxl import Workbook
@@ -41,8 +47,9 @@ def create_raw_template():
 
     meta["A1"] = "Field"
     meta["B1"] = "Value"
-    meta["A2"] = "ChapterID"
-    meta["A3"] = "ChapterTitle"
+    meta["A2"] = "BookID"
+    meta["A3"] = "ChapterID"
+    meta["A4"] = "ChapterTitle"
 
     # Style header row
     for cell in [meta["A1"], meta["B1"]]:
@@ -57,18 +64,26 @@ def create_raw_template():
     for row_idx in range(2, 20):  # cover a generous range
         meta.cell(row=row_idx, column=2).number_format = "@"
 
-    # Pre-seed B2 with an empty string so the format sticks even before typing.
+    # Pre-seed B2, B3, B4 with empty strings so TEXT format sticks even before typing.
     meta["B2"] = ""
     meta["B3"] = ""
+    meta["B4"] = ""
 
     # Add hints as cell comments
     meta["A2"].comment = Comment(
-        "Two-digit chapter number as TEXT, e.g., 00, 01, 02, ..., 20. "
+        "Two-digit book number as TEXT, e.g., 01, 02, 03, ... "
         "Cell is formatted as text so leading zeros are preserved. "
-        "Determines JSON filename (chapterXX.json) and audio folder (audio/chapterXX/).",
+        "Book must first be registered in data/books-index.json. "
+        "Determines output folder (data/bookXX/) and audio folder (audio/bookXX/chapterYY/).",
         "System",
     )
     meta["A3"].comment = Comment(
+        "Two-digit chapter number as TEXT, e.g., 01, 02, 03, ... "
+        "Cell is formatted as text so leading zeros are preserved. "
+        "Chapter numbers restart at 01 within each book.",
+        "System",
+    )
+    meta["A4"].comment = Comment(
         "Chapter title in Chinese or English. Shown in the app dashboard.",
         "System",
     )
@@ -134,12 +149,15 @@ def create_raw_template():
         ("", False),
         ("HOW TO FILL IN THIS TEMPLATE", True),
         ("", False),
-        ("1. Save this file as: chapterXX_raw.xlsx (replace XX with chapter number)", False),
-        ("   Example: chapter01_raw.xlsx", False),
+        ("1. Save this file as: bXX_chYY_raw.xlsx (XX=book number, YY=chapter number)", False),
+        ("   Example: b01_ch01_raw.xlsx", False),
         ("", False),
         ("2. Meta sheet:", False),
-        ("   - ChapterID: two-digit text, e.g. 00, 01, 02, ...", False),
+        ("   - BookID: two-digit text, e.g. 01, 02, 03, ...", False),
         ("     (Cell B2 is text-formatted so leading zeros are preserved.)", False),
+        ("     Book must first be registered in data/books-index.json.", False),
+        ("   - ChapterID: two-digit text, e.g. 01, 02, 03, ...", False),
+        ("     Chapter numbers restart at 01 within each book.", False),
         ("   - ChapterTitle: title shown in the app dashboard.", False),
         ("", False),
         ("3. Content sheet - three independent columns:", False),
@@ -156,15 +174,16 @@ def create_raw_template():
         ("   Python will error clearly if counts don't align.", False),
         ("", False),
         ("5. Upload this file to your Codespace at:", False),
-        ("   content-pipeline/inputs/chapterXX_raw.xlsx", False),
+        ("   content-pipeline/inputs/bookXX/bXX_chYY_raw.xlsx", False),
         ("", False),
-        ("6. Run: python content-pipeline/generate_review.py --input inputs/chapterXX_raw.xlsx", False),
+        ("6. Run: python content-pipeline/generate_review.py --input inputs/bookXX/bXX_chYY_raw.xlsx", False),
         ("", False),
-        ("7. Download the generated chapterXX_review.xlsx, check the auto-generated pinyin", False),
-        ("   and context sentences, correct any errors, save as chapterXX_final.xlsx", False),
+        ("7. Download the generated bXX_chYY_review.xlsx, check the auto-generated pinyin", False),
+        ("   and context sentences, correct any errors, save as bXX_chYY_final.xlsx", False),
         ("", False),
-        ("8. Upload chapterXX_final.xlsx back to Codespace, then run publish script:", False),
-        ("   python content-pipeline/generate_chapter.py --input inputs/chapterXX_final.xlsx", False),
+        ("8. Upload bXX_chYY_final.xlsx back to Codespace, then run publish script:", False),
+        ("   python content-pipeline/generate_chapter.py --input inputs/bookXX/bXX_chYY_final.xlsx", False),
+        ("   (Generates 4 MP3s per word: Mandarin + Cantonese, isolated + sentence.)", False),
         ("", False),
         ("PASSAGE STRUCTURE EXAMPLES", True),
         ("Example A - single passage, single paragraph:", False),
@@ -210,16 +229,18 @@ def main():
 
     print(f"[OK] Blank raw template created: {output_path}")
     print()
-    print("Rev 5 changes applied:")
-    print("  - Meta!B2 (ChapterID) is now TEXT-formatted (leading zeros preserved).")
-    print("  - Content!A: one passage per row; Alt+Enter for paragraph breaks.")
-    print("  - Instructions sheet updated with passage-structure examples.")
+    print("Rev 6 changes applied (M8.3c-1):")
+    print("  - Meta sheet now has BookID + ChapterID + ChapterTitle rows.")
+    print("  - Meta!B2, B3 (BookID, ChapterID) are TEXT-formatted (leading zeros preserved).")
+    print("  - Instructions updated with new bXX_chYY naming convention.")
+    print("  - Pipeline now generates bilingual audio (Mandarin + Cantonese).")
     print()
     print("Next steps:")
-    print("  1. Download this file from Codespace to your PC.")
-    print("  2. Fill it in with your chapter content.")
-    print("  3. Save as chapterXX_raw.xlsx and upload to content-pipeline/inputs/")
-    print("  4. Run generate_review.py to produce the review file.")
+    print("  1. Register your book in data/books-index.json (if not already registered).")
+    print("  2. Download this template from Codespace to your PC.")
+    print("  3. Fill it in with your chapter content.")
+    print("  4. Save as bXX_chYY_raw.xlsx and upload to content-pipeline/inputs/bookXX/")
+    print("  5. Run generate_review.py to produce the review file.")
 
 
 if __name__ == "__main__":

@@ -27,22 +27,16 @@ from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.comments import Comment
 from pypinyin import pinyin, Style
 
+# Shared pipeline helpers (M8.3c-1)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from generate_common import clean_text, parse_meta, validate_book_and_paths
+
 # Unicode-escaped Chinese punctuation to avoid chat-stripping issues
 CHINESE_PERIOD = "\u3002"     # 。
 CHINESE_EXCLAIM = "\uff01"    # ！
 CHINESE_QUESTION = "\uff1f"   # ？
 SENTENCE_DELIMS = CHINESE_PERIOD + CHINESE_EXCLAIM + CHINESE_QUESTION
 BU_CHAR = "\u4e0d"            # 不
-
-
-# ------------------------------------------------------------------
-# Text / parsing helpers (unchanged from previous version)
-# ------------------------------------------------------------------
-def clean_text(text):
-    """Strip whitespace AND non-breaking spaces from a string."""
-    if text is None:
-        return ""
-    return str(text).replace("\xa0", "").strip()
 
 
 def concat_column(sheet, column_letter, start_row=2):
@@ -57,27 +51,8 @@ def concat_column(sheet, column_letter, start_row=2):
     return values
 
 
-def parse_meta(wb):
-    """Extract ChapterID and ChapterTitle. Handles int (Excel auto-convert) or str.
-
-    With T1's text-formatted Meta!B2, ChapterID should always arrive as a string
-    like "00", "01", ... — but we keep the int/float safety net in case someone
-    resaves the raw file and accidentally loses the '@' format.
-    """
-    meta = wb["Meta"]
-    chapter_id = None
-    chapter_title = None
-    for row in meta.iter_rows(min_row=2, values_only=True):
-        field = row[0]
-        value = row[1] if len(row) > 1 else None
-        if field == "ChapterID":
-            if isinstance(value, (int, float)):
-                chapter_id = f"{int(value):02d}"
-            elif value is not None:
-                chapter_id = clean_text(value).zfill(2)
-        elif field == "ChapterTitle":
-            chapter_title = clean_text(value)
-    return chapter_id, chapter_title
+# parse_meta() now lives in generate_common.py (M8.3c-1).
+# Import already added at top of file.
 
 
 def generate_pinyin_for_word(word):
@@ -136,11 +111,11 @@ def process_chapter(input_path):
 
     wb = load_workbook(input_path)
 
-    chapter_id, chapter_title = parse_meta(wb)
-    if not chapter_id:
-        print("[ERROR] ChapterID is missing in Meta sheet.")
-        sys.exit(1)
-    print(f"[INFO] ChapterID: {chapter_id}")
+    book_id, chapter_id, chapter_title = parse_meta(wb)
+    validate_book_and_paths(book_id, chapter_id, input_path)
+
+    print(f"[INFO] BookID:       {book_id}")
+    print(f"[INFO] ChapterID:    {chapter_id}")
     print(f"[INFO] ChapterTitle: {chapter_title}")
 
     content = wb["Content"]
@@ -189,14 +164,14 @@ def process_chapter(input_path):
             "context": extract_context_sentence(word, full_passage_for_search),
         })
 
-    return wb, chapter_id, chapter_title, results
+    return wb, book_id, chapter_id, chapter_title, results
 
 
 # ------------------------------------------------------------------
 # NEW: add a Review sheet to the already-loaded raw workbook,
 # and drop Instructions. Meta + Content sheets are preserved verbatim.
 # ------------------------------------------------------------------
-def add_review_sheet(wb, chapter_id, chapter_title, results):
+def add_review_sheet(wb, book_id, chapter_id, chapter_title, results):
     """Modify wb in place:
        - Drop Instructions sheet (if present).
        - Add a Review sheet with Traditional / English / Pinyin / Context.
@@ -211,8 +186,8 @@ def add_review_sheet(wb, chapter_id, chapter_title, results):
 
     ws = wb.create_sheet("Review")
 
-    # Title + subtitle
-    ws["A1"] = f"Chapter {chapter_id}: {chapter_title}"
+    # Title + subtitle (M8.3c-1: now includes Book prefix)
+    ws["A1"] = f"Book {book_id} \u00b7 Chapter {chapter_id}: {chapter_title}"
     ws["A1"].font = Font(bold=True, size=14, color="2B6CB0")
     ws.merge_cells("A1:D1")
 
@@ -273,10 +248,10 @@ def main():
     if not os.path.isabs(input_path):
         input_path = os.path.join("content-pipeline", input_path)
 
-    wb, chapter_id, chapter_title, results = process_chapter(input_path)
+    wb, book_id, chapter_id, chapter_title, results = process_chapter(input_path)
 
     # Modify the loaded workbook: drop Instructions, add Review sheet
-    add_review_sheet(wb, chapter_id, chapter_title, results)
+    add_review_sheet(wb, book_id, chapter_id, chapter_title, results)
 
     # Write out under the _review.xlsx name
     input_dir = os.path.dirname(input_path)

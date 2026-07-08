@@ -27,52 +27,10 @@ import sys
 from openpyxl import load_workbook
 
 # We still delegate audio generation to generate_audio.py.
-# Meta / passage / vocab reading is self-contained in this script now.
+# Meta / passage / vocab reading uses shared helpers from generate_common.py.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_audio import generate_chapter_audio
-
-
-# ------------------------------------------------------------------
-# Helpers
-# ------------------------------------------------------------------
-def clean_text(text):
-    """Strip surrounding whitespace and non-breaking spaces.
-    Preserves internal \n characters (Alt+Enter paragraph breaks)."""
-    if text is None:
-        return ""
-    return str(text).replace("\xa0", "").strip()
-
-
-def parse_meta(wb):
-    """Extract ChapterID + ChapterTitle from the Meta sheet.
-
-    With T1's text-formatted Meta!B2, ChapterID arrives as a string like
-    "00", "01", ... — the int/float safety net remains in case someone
-    resaves the file and accidentally loses the '@' format.
-    """
-    if "Meta" not in wb.sheetnames:
-        print("[ERROR] Workbook is missing the Meta sheet.")
-        sys.exit(1)
-
-    meta = wb["Meta"]
-    chapter_id = None
-    chapter_title = None
-
-    for row in meta.iter_rows(min_row=2, values_only=True):
-        field = row[0]
-        value = row[1] if len(row) > 1 else None
-        if field == "ChapterID":
-            if isinstance(value, (int, float)):
-                chapter_id = f"{int(value):02d}"
-            elif value is not None:
-                chapter_id = clean_text(value).zfill(2)
-        elif field == "ChapterTitle":
-            chapter_title = clean_text(value)
-
-    if not chapter_id:
-        print("[ERROR] ChapterID is missing in Meta sheet.")
-        sys.exit(1)
-    return chapter_id, chapter_title
+from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES
 
 
 def read_passages(wb):
@@ -117,12 +75,13 @@ def read_review_vocab(wb):
 # ------------------------------------------------------------------
 # Build JSON
 # ------------------------------------------------------------------
-def build_chapter_json(chapter_id, chapter_title, passages, words):
-    """Build the chapter JSON in the schema our HTML app expects (rev 5).
+def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
+    """Build the chapter JSON in the schema our HTML app expects (rev 6, M8.3c-1).
 
     Schema:
     {
-      "chapterId": "00",
+      "bookId": "01",
+      "chapterId": "01",
       "chapterTitle": "...",
       "passages": [
         "Passage 1 paragraph 1\nPassage 1 paragraph 2",
@@ -130,33 +89,52 @@ def build_chapter_json(chapter_id, chapter_title, passages, words):
       ],
       "vocab": [
         {
-          "id": "ch00_w001",
+          "id": "b01_ch01_w001",
           "traditional": "...",
           "pinyin": "...",
           "english": "...",
           "contextSentence": "...",
-          "audioIsolated": "audio/chapter00/xxx_isolated.mp3",
-          "audioSentence": "audio/chapter00/xxx_sentence.mp3"
+          "audio": {
+            "mandarin": {
+              "isolated": "audio/book01/chapter01/b01_ch01_w001_m_isolated.mp3",
+              "sentence": "audio/book01/chapter01/b01_ch01_w001_m_sentence.mp3"
+            },
+            "cantonese": {
+              "isolated": "audio/book01/chapter01/b01_ch01_w001_c_isolated.mp3",
+              "sentence": "audio/book01/chapter01/b01_ch01_w001_c_sentence.mp3"
+            }
+          }
         }
       ]
     }
     """
     vocab = []
+    audio_folder = f"audio/book{book_id}/chapter{chapter_id}"
     for i, w in enumerate(words, start=1):
-        word_id = f"ch{chapter_id}_w{i:03d}"
+        word_id = f"b{book_id}_ch{chapter_id}_w{i:03d}"
+
+        # Build nested audio structure with all configured languages
+        audio_dict = {}
+        for lang_name, lang_config in LANGUAGES.items():
+            suffix = lang_config["suffix"]
+            audio_dict[lang_name] = {
+                "isolated": f"{audio_folder}/{word_id}_{suffix}_isolated.mp3",
+            }
+            if w["context"]:
+                audio_dict[lang_name]["sentence"] = f"{audio_folder}/{word_id}_{suffix}_sentence.mp3"
+
         entry = {
             "id": word_id,
             "traditional": w["traditional"],
             "english": w.get("english", ""),
             "pinyin": w.get("pinyin", ""),
             "contextSentence": w["context"],
-            "audioIsolated": f"audio/chapter{chapter_id}/{w['traditional']}_isolated.mp3",
+            "audio": audio_dict,
         }
-        if w["context"]:
-            entry["audioSentence"] = f"audio/chapter{chapter_id}/{w['traditional']}_sentence.mp3"
         vocab.append(entry)
 
     return {
+        "bookId": book_id,
         "chapterId": chapter_id,
         "chapterTitle": chapter_title,
         "passages": passages,
@@ -164,10 +142,14 @@ def build_chapter_json(chapter_id, chapter_title, passages, words):
     }
 
 
-def update_chapters_index(chapter_id, chapter_title, word_count):
-    """Add or update this chapter in data/chapters-index.json."""
-    index_path = "data/chapters-index.json"
-    os.makedirs("data", exist_ok=True)
+def update_chapters_index(book_id, chapter_id, chapter_title, word_count):
+    """Add or update this chapter in data/book{book_id}/chapters-index.json.
+
+    Each book has its own per-book chapters index (M8.3c-1).
+    """
+    book_dir = f"data/book{book_id}"
+    index_path = f"{book_dir}/chapters-index.json"
+    os.makedirs(book_dir, exist_ok=True)
 
     if os.path.exists(index_path):
         with open(index_path, "r", encoding="utf-8") as f:
@@ -211,10 +193,12 @@ async def main_async(input_path, skip_audio):
 
     wb = load_workbook(input_path)
 
-    chapter_id, chapter_title = parse_meta(wb)
+    book_id, chapter_id, chapter_title = parse_meta(wb)
+    validate_book_and_paths(book_id, chapter_id, input_path)
     passages = read_passages(wb)
     words = read_review_vocab(wb)
 
+    print(f"[INFO] BookID:      {book_id}")
     print(f"[INFO] ChapterID:   {chapter_id}")
     print(f"[INFO] Title:       {chapter_title}")
     print(f"[INFO] Passages:    {len(passages)}")
@@ -223,9 +207,10 @@ async def main_async(input_path, skip_audio):
 
     # ---- Build JSON ----
     print("[STEP 1] Building chapter JSON...")
-    chapter_json = build_chapter_json(chapter_id, chapter_title, passages, words)
-    json_path = f"data/chapter{chapter_id}.json"
-    os.makedirs("data", exist_ok=True)
+    chapter_json = build_chapter_json(book_id, chapter_id, chapter_title, passages, words)
+    book_dir = f"data/book{book_id}"
+    json_path = f"{book_dir}/chapter{chapter_id}.json"
+    os.makedirs(book_dir, exist_ok=True)
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(chapter_json, f, ensure_ascii=False, indent=2)
     print(f"         Written: {json_path}")
@@ -233,13 +218,14 @@ async def main_async(input_path, skip_audio):
     # ---- Update chapters index ----
     print()
     print("[STEP 2] Updating chapters index...")
-    action = update_chapters_index(chapter_id, chapter_title, len(words))
-    print(f"         {action} chapter {chapter_id} in data/chapters-index.json")
+    action = update_chapters_index(book_id, chapter_id, chapter_title, len(words))
+    print(f"         {action} chapter {chapter_id} in {book_dir}/chapters-index.json")
 
     # ---- Generate audio ----
     if not skip_audio:
         print()
-        print("[STEP 3] Generating audio (this takes ~30s for a small chapter)...")
+        print(f"[STEP 3] Generating bilingual audio ({len(LANGUAGES)} languages)...")
+        print(f"         (This takes ~60s for a small chapter with both Mandarin + Cantonese)")
         await generate_chapter_audio(input_path)
     else:
         print()
@@ -248,13 +234,13 @@ async def main_async(input_path, skip_audio):
     # ---- Summary ----
     print()
     print("=" * 60)
-    print(f"[OK] Chapter {chapter_id} published!")
+    print(f"[OK] Book {book_id} Chapter {chapter_id} published!")
     print()
     print("Files produced:")
     print(f"  - {json_path}")
-    print(f"  - data/chapters-index.json (updated)")
+    print(f"  - {book_dir}/chapters-index.json (updated)")
     if not skip_audio:
-        print(f"  - audio/chapter{chapter_id}/ (MP3s)")
+        print(f"  - audio/book{book_id}/chapter{chapter_id}/ (MP3s x 4 per word)")
     print()
     print("Next steps:")
     print(f"  1. Verify JSON: cat {json_path}")

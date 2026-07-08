@@ -25,68 +25,21 @@ Usage:
 import argparse
 import asyncio
 import os
-import re
 import sys
 
 from openpyxl import load_workbook
 import edge_tts
 
-
-VOICE = "zh-CN-XiaoxiaoNeural"
-RATE = "-10%"  # 10% slower than default for better learner comprehension
-
-
-# ------------------------------------------------------------------
-# Helpers
-# ------------------------------------------------------------------
-def clean_text(text):
-    if text is None:
-        return ""
-    return str(text).replace("\xa0", "").strip()
-
-
-def parse_meta(wb, input_path):
-    """Extract ChapterID + ChapterTitle.
-
-    Primary source: the Meta sheet (always present after M2.5 T2).
-    Fallback: infer ChapterID from filename (chapter00_final.xlsx -> "00").
-    """
-    chapter_id = None
-    chapter_title = ""
-
-    # ---- Primary path: Meta sheet ----
-    if "Meta" in wb.sheetnames:
-        meta = wb["Meta"]
-        for row in meta.iter_rows(min_row=2, values_only=True):
-            field = row[0]
-            value = row[1] if len(row) > 1 else None
-            if field == "ChapterID" and value is not None:
-                if isinstance(value, (int, float)):
-                    chapter_id = f"{int(value):02d}"
-                else:
-                    chapter_id = clean_text(value).zfill(2)
-            elif field == "ChapterTitle" and value:
-                chapter_title = clean_text(value)
-
-    # ---- Fallback: infer chapter_id from filename ----
-    if not chapter_id:
-        basename = os.path.basename(input_path)
-        m = re.search(r"chapter(\d+)", basename, re.IGNORECASE)
-        if m:
-            chapter_id = m.group(1).zfill(2)
-            print(f"[WARN] ChapterID missing from Meta - inferred '{chapter_id}' from filename.")
-
-    if not chapter_id:
-        print("[ERROR] Could not determine ChapterID from Meta sheet or filename.")
-        sys.exit(1)
-
-    return chapter_id, chapter_title
+# Shared pipeline helpers (M8.3c-1)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES
 
 
 def read_final_excel(input_path):
-    """Read _final.xlsx. Returns (chapter_id, chapter_title, words list)."""
+    """Read _final.xlsx. Returns (book_id, chapter_id, chapter_title, words list)."""
     wb = load_workbook(input_path)
-    chapter_id, chapter_title = parse_meta(wb, input_path)
+    book_id, chapter_id, chapter_title = parse_meta(wb)
+    validate_book_and_paths(book_id, chapter_id, input_path)
 
     # Vocab data still lives on the Review sheet
     if "Review" not in wb.sheetnames:
@@ -102,13 +55,13 @@ def read_final_excel(input_path):
             context = clean_text(row[3]) if len(row) > 3 and row[3] else ""
             words.append({"traditional": traditional, "context": context})
 
-    return chapter_id, chapter_title, words
+    return book_id, chapter_id, chapter_title, words
 
 
 # ------------------------------------------------------------------
 # Audio generation
 # ------------------------------------------------------------------
-async def generate_mp3(text, output_path, voice=VOICE, rate=RATE):
+async def generate_mp3(text, output_path, voice, rate):
     """Generate one MP3 file using edge-tts."""
     tts = edge_tts.Communicate(text, voice, rate=rate)
     await tts.save(output_path)
@@ -120,54 +73,75 @@ async def generate_chapter_audio(input_path):
         print(f"[ERROR] File not found: {input_path}")
         sys.exit(1)
 
-    chapter_id, chapter_title, words = read_final_excel(input_path)
+    book_id, chapter_id, chapter_title, words = read_final_excel(input_path)
+    print(f"[INFO] BookID:    {book_id}")
     print(f"[INFO] ChapterID: {chapter_id}")
     print(f"[INFO] Title:     {chapter_title}")
     print(f"[INFO] Words:     {len(words)}")
+    print(f"[INFO] Languages: {list(LANGUAGES.keys())}")
 
-    audio_dir = f"audio/chapter{chapter_id}"
+    audio_dir = f"audio/book{book_id}/chapter{chapter_id}"
     os.makedirs(audio_dir, exist_ok=True)
     print(f"[INFO] Output folder: {audio_dir}/")
     print()
 
-    # Count total MP3s to generate
-    total = sum(2 if w["context"] else 1 for w in words)
+    # Count total MP3s to generate:
+    # for each word: 1 isolated MP3 per language, plus 1 sentence MP3 per language if context exists
+    n_langs = len(LANGUAGES)
+    total = 0
+    for w in words:
+        total += n_langs  # isolated in each language
+        if w["context"]:
+            total += n_langs  # sentence in each language
+
     count = 0
 
-    for w in words:
+    for i, w in enumerate(words, start=1):
         word = w["traditional"]
         context = w["context"]
+        word_id = f"b{book_id}_ch{chapter_id}_w{i:03d}"
 
-        # Isolated word MP3
-        count += 1
-        iso_path = os.path.join(audio_dir, f"{word}_isolated.mp3")
-        print(f"[{count}/{total}] {word}_isolated.mp3 ... ", end="", flush=True)
-        try:
-            await generate_mp3(word, iso_path)
-            size = os.path.getsize(iso_path)
-            print(f"OK ({size} bytes)")
-        except Exception as e:
-            print(f"FAILED: {e}")
+        for lang_name, lang_config in LANGUAGES.items():
+            voice = lang_config["voice"]
+            rate = lang_config["rate"]
+            suffix = lang_config["suffix"]
 
-        # Sentence MP3 (only if context exists)
-        if context:
+            # Isolated word MP3
             count += 1
-            sent_path = os.path.join(audio_dir, f"{word}_sentence.mp3")
-            print(f"[{count}/{total}] {word}_sentence.mp3 ... ", end="", flush=True)
+            iso_filename = f"{word_id}_{suffix}_isolated.mp3"
+            iso_path = os.path.join(audio_dir, iso_filename)
+            print(f"[{count}/{total}] {iso_filename} ({word}, {lang_name}) ... ",
+                  end="", flush=True)
             try:
-                await generate_mp3(context, sent_path)
-                size = os.path.getsize(sent_path)
+                await generate_mp3(word, iso_path, voice, rate)
+                size = os.path.getsize(iso_path)
                 print(f"OK ({size} bytes)")
             except Exception as e:
                 print(f"FAILED: {e}")
-        else:
-            print(f"       (skipping sentence MP3 - no context for {word})")
+
+            # Sentence MP3 (only if context exists)
+            if context:
+                count += 1
+                sent_filename = f"{word_id}_{suffix}_sentence.mp3"
+                sent_path = os.path.join(audio_dir, sent_filename)
+                print(f"[{count}/{total}] {sent_filename} ({word}, {lang_name}) ... ",
+                      end="", flush=True)
+                try:
+                    await generate_mp3(context, sent_path, voice, rate)
+                    size = os.path.getsize(sent_path)
+                    print(f"OK ({size} bytes)")
+                except Exception as e:
+                    print(f"FAILED: {e}")
+
+        if not context:
+            print(f"       (no sentence MP3 for {word} - no context)")
 
     print()
     print("=" * 60)
     print(f"[OK] Audio generation complete!")
     print(f"     Folder: {audio_dir}/")
     print(f"     Files created: {len(os.listdir(audio_dir))}")
+    print(f"     Languages: {list(LANGUAGES.keys())}")
     print("=" * 60)
 
 
