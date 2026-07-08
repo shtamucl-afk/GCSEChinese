@@ -35,64 +35,96 @@
     }
   </script>
 </head>
-<body>
-  <div style="display:flex;align-items:center;gap:10px;">
-    <img src="favicon.png" alt="" style="height:32px;width:32px;border-radius:6px;">
-    <h1 style="margin:0;">Chinese iGCSE Vocabulary Trainer</h1>
+<body class="min-h-screen bg-[#EDE3D0] font-sans flex items-center justify-center p-6">
+
+  <div class="w-full max-w-md rounded-2xl shadow-xl overflow-hidden bg-cream">
+
+    <div class="bg-navy px-8 py-10 text-center">
+      <div class="flex justify-center mb-4">
+        <img src="favicon.png" alt="" class="w-[200px] h-[200px] rounded-lg">
+      </div>
+      <h1 class="text-cream text-2xl font-semibold leading-tight">
+        Chinese iGCSE Vocabulary Trainer
+      </h1>
+      <div class="flex justify-center my-3">
+        <div class="w-16 h-px bg-cream/40"></div>
+      </div>
+      <p class="text-cream/90 text-lg font-tc">
+        &#23416;&#32722;&#20013;&#25991;&#65292;&#25552;&#21319;&#33258;&#20449;
+      </p>
+    </div>
+
+    <div class="bg-cream px-8 py-8">
+
+      <label for="student-switch" class="block text-navy text-sm font-medium mb-2">
+        Student
+      </label>
+
+      <div class="relative mb-5">
+        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-navy/70 font-emoji">
+          &#128101;
+        </span>
+        <select
+          id="student-switch"
+          class="w-full appearance-none rounded-lg border border-navy/30 bg-white px-9 py-3 text-navy font-medium focus:outline-none focus:ring-2 focus:ring-navy/40"
+        >
+          <option value="">Loading...</option>
+        </select>
+        <span class="absolute right-3 top-1/2 -translate-y-1/2 text-navy/60 pointer-events-none">
+          &#9662;
+        </span>
+      </div>
+
+      <button
+        id="start-btn"
+        class="w-full bg-navy text-cream font-semibold py-3 rounded-lg shadow-md hover:bg-navy/90 hover:shadow-lg transition flex items-center justify-center gap-2"
+      >
+        <span class="font-emoji">&#128640;</span>
+        Start Learning
+      </button>
+
+      <div class="flex justify-between mt-6 text-xs text-navy/70">
+        <span class="flex items-center gap-1">
+          <span class="font-emoji">&#128737;</span> Safe &amp; Private
+        </span>
+        <span class="flex items-center gap-1">
+          <span class="font-emoji">&#128202;</span> Track Progress
+        </span>
+        <span class="flex items-center gap-1">
+          <span class="font-emoji">&#11088;</span> Four Skills
+        </span>
+      </div>
+
+    </div>
+
   </div>
-  <p>Please select your name to start learning.</p>
 
-  <hr>
-
-  <label for="student-select">Who are you?</label>
-  <br>
-  <select id="student-select">
-    <option value="">Loading students...</option>
-  </select>
-  <br><br>
-  <button id="start-button">Start</button>
-
-  <hr>
-
-  <!-- Firebase SDK -->
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
-
-  <!-- Shared student helpers -->
   <script src="js/student.js"></script>
 
-  <!-- Page logic -->
   <script>
-    const selectEl = document.getElementById('student-select');
+    const switcher = document.getElementById('student-switch');
+    populateStudentDropdown(switcher);
 
-    // Populate dropdown on load
-    populateStudentDropdown(selectEl);
-
-    // "+ Add new student" is handled immediately on change
-    selectEl.addEventListener('change', () => {
-      handleStudentDropdownChange(selectEl);
+    switcher.addEventListener('change', () => {
+      const value = switcher.value;
+      if (value === ADD_NEW_SENTINEL) {
+        handleStudentDropdownChange(switcher);
+      }
     });
 
-    // Start button navigates for real name selections
-    document.getElementById('start-button').addEventListener('click', () => {
-      const value = selectEl.value;
-
-      if (!value) {
-        alert('Please select your name first.');
+    document.getElementById('start-btn').addEventListener('click', () => {
+      const value = switcher.value;
+      if (!value || value === ADD_NEW_SENTINEL) {
+        alert('Please select a student first.');
         return;
       }
-
-      if (value === ADD_NEW_SENTINEL) {
-        // Trigger the add-new flow (in case user selected it then clicked Start)
-        handleStudentDropdownChange(selectEl);
-        return;
-      }
-
-      // Real name selected → navigate to their dashboard
       navigateToDashboard(value);
     });
   </script>
+
 </body>
 </html>
 
