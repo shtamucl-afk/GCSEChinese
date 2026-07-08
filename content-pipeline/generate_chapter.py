@@ -78,14 +78,20 @@ def read_review_vocab(wb):
 def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
     """Build the chapter JSON in the schema our HTML app expects (rev 7, M8.3c-1.5).
 
-    Schema (M8.3c-1.5 adds simplified + contextSentenceSimplified per word):
+    Schema (M8.3c-1.5 adds simplified variants of chapter title, passages,
+    vocab words, and context sentences):
     {
       "bookId": "01",
       "chapterId": "01",
       "chapterTitle": "...",
+      "chapterTitleSimplified": "...",
       "passages": [
         "Passage 1 paragraph 1\nPassage 1 paragraph 2",
         "Passage 2 text"
+      ],
+      "passagesSimplified": [
+        "Simplified version of passage 1",
+        "Simplified version of passage 2"
       ],
       "vocab": [
         {
@@ -137,11 +143,16 @@ def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
         }
         vocab.append(entry)
 
+    # Simplified versions of chapter title and passages (M8.3c-1.5 extension)
+    passages_simplified = [to_simplified(p) for p in passages]
+
     return {
         "bookId": book_id,
         "chapterId": chapter_id,
         "chapterTitle": chapter_title,
+        "chapterTitleSimplified": to_simplified(chapter_title),
         "passages": passages,
+        "passagesSimplified": passages_simplified,
         "vocab": vocab,
     }
 
