@@ -35,325 +35,73 @@
     }
   </script>
   <style>
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-    }
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; background-color: #f4f4f4; }
+    .top-bar h1 { margin: 0; font-size: 20px; }
+    .top-bar .student-switcher { display: flex; align-items: center; gap: 8px; }
 
-    .top-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      border-bottom: 1px solid #ccc;
-      background-color: #f4f4f4;
-    }
+    /* NEW: 3-column layout (M8.3c-3a) */
+    .main-body { display: grid; grid-template-columns: 220px 320px 1fr; min-height: calc(100vh - 60px); }
 
-    .top-bar h1 {
-      margin: 0;
-      font-size: 20px;
-    }
+    .left-panel, .middle-panel { border-right: 1px solid #ccc; padding: 15px; overflow-y: auto; }
+    .left-panel h2, .middle-panel h2 { font-size: 16px; margin-top: 0; margin-bottom: 10px; }
+    .left-panel h2:not(:first-of-type), .middle-panel h2:not(:first-of-type) { margin-top: 20px; }
 
-    .top-bar .student-switcher {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
+    /* NEW: Books list styling (M8.3c-3a) */
+    .books-list { list-style: none; padding: 0; margin: 0; }
+    .books-list li { padding: 10px 12px; cursor: pointer; border-radius: 4px; margin-bottom: 4px; font-size: 14px; }
+    .books-list li:hover { background-color: #eef; }
+    .books-list li.selected { background-color: #dde; font-weight: bold; }
 
-    .main-body {
-      display: grid;
-      grid-template-columns: 320px 1fr;
-      min-height: calc(100vh - 60px);
-    }
+    .progress-summary { font-size: 13px; line-height: 1.8; }
+    .progress-summary .total-line { font-weight: bold; margin-bottom: 6px; }
+    .progress-summary .placeholder { color: #888; font-style: italic; }
 
-    .left-panel {
-      border-right: 1px solid #ccc;
-      padding: 15px;
-      overflow-y: auto;
-    }
+    .chapter-list { list-style: none; padding: 0; margin: 0; }
+    .chapter-list li { padding: 8px 10px; cursor: pointer; border-radius: 4px; margin-bottom: 4px; }
+    .chapter-list li:hover { background-color: #eef; }
+    .chapter-list li.selected { background-color: #dde; font-weight: bold; }
+    .chapter-title { display: block; }
+    .chapter-meta { display: block; font-size: 12px; color: #666; margin-top: 2px; }
+    .chapter-level-counts { display: block; font-size: 11px; color: #555; margin-top: 3px; line-height: 1.5; }
 
-    .left-panel h2 {
-      font-size: 16px;
-      margin-top: 0;
-      margin-bottom: 10px;
-    }
+    .cross-chapter-pool { margin-top: 20px; font-size: 12px; }
+    .cross-chapter-pool-label { font-weight: bold; margin-bottom: 6px; color: #333; }
+    .cross-chapter-pool-buttons { display: flex; flex-wrap: wrap; gap: 6px; }
+    .cross-pool-btn { padding: 4px 8px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background-color: #fff; font-size: 12px; }
+    .cross-pool-btn:hover { background-color: #eef; }
 
-    .left-panel h2:not(:first-of-type) {
-      margin-top: 20px;
-    }
+    .right-panel { padding: 20px; }
+    .empty-message { color: #888; font-style: italic; }
 
-    .progress-summary {
-      font-size: 13px;
-      line-height: 1.8;
-    }
+    .chapter-header { display: flex; justify-content: flex-start; align-items: baseline; gap: 20px; margin-bottom: 15px; }
+    .chapter-header h2 { margin: 0; font-size: 18px; }
+    .show-passages-link { font-size: 14px; text-decoration: none; color: #0366d6; }
+    .show-passages-link:hover { text-decoration: underline; }
 
-    .progress-summary .total-line {
-      font-weight: bold;
-      margin-bottom: 6px;
-    }
+    .practice-pool { margin-bottom: 20px; }
+    .practice-pool-label { font-weight: bold; margin-bottom: 6px; font-size: 14px; }
+    .practice-pool-buttons { display: flex; gap: 8px; }
+    .pool-btn { padding: 6px 12px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background-color: #fff; font-size: 14px; }
+    .pool-btn:hover { background-color: #eef; }
 
-    .chapter-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
+    .master-toggle { margin-bottom: 10px; }
+    .master-toggle button { margin-right: 8px; padding: 5px 10px; cursor: pointer; }
 
-    .chapter-list li {
-      padding: 8px 10px;
-      cursor: pointer;
-      border-radius: 4px;
-      margin-bottom: 4px;
-    }
+    .vocab-table { border-collapse: collapse; width: 100%; }
+    .vocab-table th, .vocab-table td { padding: 8px 12px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: middle; }
+    .vocab-table th { background-color: #f4f4f4; font-weight: bold; }
+    .vocab-word { font-size: 18px; }
 
-    .chapter-list li:hover {
-      background-color: #eef;
-    }
+    .level-placeholder { display: inline-block; padding: 3px 8px; border-radius: 10px; font-size: 12px; background-color: #eee; color: #888; }
 
-    .chapter-list li.selected {
-      background-color: #dde;
-      font-weight: bold;
-    }
+    .details-btn, .audio-btn { cursor: pointer; background: none; border: 1px solid #ccc; padding: 4px 8px; border-radius: 4px; font-size: 14px; }
+    .details-btn:disabled, .audio-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-    .chapter-title {
-      display: block;
-    }
-
-    .chapter-meta {
-      display: block;
-      font-size: 12px;
-      color: #666;
-      margin-top: 2px;
-    }
-
-    .chapter-level-counts {
-      display: block;
-      font-size: 11px;
-      color: #555;
-      margin-top: 3px;
-      line-height: 1.5;
-    }
-    .cross-chapter-pool {
-      margin-top: 20px;
-      font-size: 12px;
-    }
-
-    .cross-chapter-pool-label {
-      font-weight: bold;
-      margin-bottom: 6px;
-      color: #333;
-    }
-
-    .cross-chapter-pool-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .cross-pool-btn {
-      padding: 4px 8px;
-      cursor: pointer;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background-color: #fff;
-      font-size: 12px;
-    }
-
-    .cross-pool-btn:hover {
-      background-color: #eef;
-    }
-
-    .right-panel {
-      padding: 20px;
-    }
-
-    .empty-message {
-      color: #888;
-      font-style: italic;
-    }
-
-    .chapter-header {
-      display: flex;
-      justify-content: flex-start;
-      align-items: baseline;
-      gap: 20px;
-      margin-bottom: 15px;
-    }
-
-    .chapter-header h2 {
-      margin: 0;
-      font-size: 18px;
-    }
-
-    .show-passages-link {
-      font-size: 14px;
-      text-decoration: none;
-      color: #0366d6;
-    }
-
-    .show-passages-link:hover {
-      text-decoration: underline;
-    }
-
-    .practice-pool {
-      margin-bottom: 20px;
-    }
-
-    .practice-pool-label {
-      font-weight: bold;
-      margin-bottom: 6px;
-      font-size: 14px;
-    }
-
-    .practice-pool-buttons {
-      display: flex;
-      gap: 8px;
-    }
-
-    .pool-btn {
-      padding: 6px 12px;
-      cursor: pointer;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background-color: #fff;
-      font-size: 14px;
-    }
-
-    .pool-btn:hover {
-      background-color: #eef;
-    }
-
-    .master-toggle {
-      margin-bottom: 10px;
-    }
-
-    .master-toggle button {
-      margin-right: 8px;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-
-    .vocab-table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    .vocab-table th,
-    .vocab-table td {
-      padding: 8px 12px;
-      border-bottom: 1px solid #ddd;
-      text-align: left;
-      vertical-align: middle;
-    }
-
-    .vocab-table th {
-      background-color: #f4f4f4;
-      font-weight: bold;
-    }
-
-    .vocab-word {
-      font-size: 18px;
-    }
-
-    /* Level dropdown (replaces static pill) */
-    .level-select {
-      padding: 3px 6px;
-      border-radius: 10px;
-      font-size: 12px;
-      border: 1px solid rgba(0,0,0,0.15);
-      cursor: pointer;
-      font-family: inherit;
-      background-color: #eee;
-      color: #333;
-      appearance: menulist;
-    }
-
-    .level-select:focus {
-      outline: 2px solid rgba(0, 122, 255, 0.3);
-      outline-offset: 1px;
-    }
-
-    .level-select.level-L0        { background-color: #F8D8D8; color: #721C24; }
-    .level-select.level-L1        { background-color: #FDE4C2; color: #6D3900; }
-    .level-select.level-L2        { background-color: #FFF3CD; color: #856404; }
-    .level-select.level-L3        { background-color: #D4EDDA; color: #155724; }
-    .level-select.level-L4        { background-color: #D9E7F5; color: #1E3A5F; }
-
-    .details-btn,
-    .audio-btn {
-      cursor: pointer;
-      background: none;
-      border: 1px solid #ccc;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-
-    .details-btn:hover,
-    .audio-btn:hover {
-      background-color: #eef;
-    }
-
-    .details-row {
-      display: none;
-      background-color: #fafafa;
-    }
-
-    .details-row.expanded {
-      display: table-row;
-    }
-
-    .details-row td {
-      padding: 12px 20px;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .details-content dl {
-      margin: 0;
-      display: grid;
-      grid-template-columns: 100px 1fr;
-      gap: 6px 12px;
-    }
-
-    .details-content dt {
-      font-weight: bold;
-      color: #555;
-    }
-
-    .details-content dd {
-      margin: 0;
-    }
-
-    /* Toast notification */
-    .toast {
-      position: fixed;
-      top: 15px;
-      right: 20px;
-      padding: 8px 16px;
-      border-radius: 4px;
-      font-size: 13px;
-      color: #fff;
-      opacity: 0;
-      transition: opacity 0.2s ease-in-out;
-      pointer-events: none;
-      z-index: 1000;
-    }
-
-    .toast.visible {
-      opacity: 1;
-    }
-
-    .toast.success {
-      background-color: #28a745;
-    }
-
-    .toast.error {
-      background-color: #dc3545;
-    }
-
-    .vocab-table td input[type="checkbox"] {
-      cursor: pointer;
-      transform: scale(1.2);
-    }
+    .toast { position: fixed; top: 15px; right: 20px; padding: 8px 16px; border-radius: 4px; font-size: 13px; color: #fff; opacity: 0; transition: opacity 0.2s ease-in-out; pointer-events: none; z-index: 1000; }
+    .toast.visible { opacity: 1; }
+    .toast.success { background-color: #28a745; }
+    .toast.error { background-color: #dc3545; }
   </style>
 </head>
 <body>
@@ -373,25 +121,25 @@
 
   <div class="main-body">
 
+    <!-- LEFT PANEL: Books -->
     <div class="left-panel">
-      <h2>Overall Progress</h2>
-      <div id="progress-summary" class="progress-summary">
-        <p class="empty-message">Loading...</p>
-      </div>
-
-      <div id="cross-chapter-pool" class="cross-chapter-pool"></div>
-
-      <h2>Chapters</h2>
-      <ul id="chapter-list" class="chapter-list">
-        <li>Loading chapters...</li>
+      <h2>Books</h2>
+      <ul id="books-list" class="books-list">
+        <li class="empty-message">Loading books...</li>
       </ul>
     </div>
 
+    <!-- MIDDLE PANEL: Book overview (progress + cross-chapter pool + chapters) -->
+    <div class="middle-panel">
+      <div id="book-content">
+        <p class="empty-message">Select a book from the left panel to view its chapters.</p>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL: Chapter detail -->
     <div class="right-panel">
       <div id="right-panel-content">
-        <p class="empty-message">
-          Select a chapter from the left panel to view its details.
-        </p>
+        <p class="empty-message">Select a chapter from the middle panel to view its details.</p>
       </div>
     </div>
 
@@ -410,20 +158,22 @@
     // ------------------------------------------------------------------
     const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
-      L0:         { emoji: '🔴', label: 'L0 Discover' },
-      L1:         { emoji: '🟠', label: 'L1 Read' },
-      L2:         { emoji: '🟡', label: 'L2 Listen' },
-      L3:         { emoji: '🟢', label: 'L3 Usage' },
-      L4:         { emoji: '🔵', label: 'L4 Write' },
+      L0: { emoji: '🔴', label: 'L0 Discover' },
+      L1: { emoji: '🟠', label: 'L1 Read' },
+      L2: { emoji: '🟡', label: 'L2 Listen' },
+      L3: { emoji: '🟢', label: 'L3 Usage' },
+      L4: { emoji: '🔵', label: 'L4 Write' },
     };
-    
+
     // ------------------------------------------------------------------
-    // Global state
+    // Global state (M8.3c-3a additions marked)
     // ------------------------------------------------------------------
-    let studentProgress = {};
-    let studentExcluded = [];
-    let allChapters = [];
-    let chapterVocab = {};
+    let studentProgress = {};        // NOTE: Firestore reads deferred to M8.3c-3b
+    let studentExcluded = [];        // NOTE: Firestore reads deferred to M8.3c-3b
+    let allBooks = [];               // NEW (M8.3c-3a): from books-index.json
+    let currentBookId = null;        // NEW (M8.3c-3a)
+    let bookVocab = {};              // NEW (M8.3c-3a): { bookId: { chapterId: [words] } }
+    let bookChapters = {};           // NEW (M8.3c-3a): { bookId: [chapters index] }
     let currentChapterId = null;
 
     // ------------------------------------------------------------------
@@ -434,8 +184,8 @@
       window.location.href = 'index.html';
     }
 
-    // Optional: pre-select a chapter from ?chapter= param
     const dashboardParams = new URLSearchParams(window.location.search);
+    const preselectBookId = dashboardParams.get('book');
     const preselectChapterId = dashboardParams.get('chapter');
 
     const switcher = document.getElementById('student-switch');
@@ -453,374 +203,198 @@
     });
 
     // ------------------------------------------------------------------
-    // Helpers
+    // Data loaders (M8.3c-3a: per-book scoping)
     // ------------------------------------------------------------------
-    function getLevelForWord(wordId) {
-      return studentProgress[wordId] || 'L0';
-    }
-
-    function isWordExcluded(wordId) {
-      return studentExcluded.includes(wordId);
-    }
-
-    async function loadStudentProgress() {
+    async function loadBooksIndex() {
       try {
-        const doc = await db.collection('students').doc(student).get();
-        if (doc.exists) {
-          studentProgress = doc.data().progress || {};
-          studentExcluded = doc.data().excluded || [];
-          console.log('Loaded progress for ' + student + ':',
-                      Object.keys(studentProgress).length, 'entries;',
-                      studentExcluded.length, 'excluded');
-        } else {
-          studentProgress = {};
-          studentExcluded = [];
-          console.log('No progress doc for ' + student + ' - treating all as Not Started, none excluded');
-        }
+        const response = await fetch('data/books-index.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const data = await response.json();
+        allBooks = data.books || [];
+        // Sort by sortOrder ascending
+        allBooks.sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0));
+        console.log('Loaded books-index: ' + allBooks.length + ' book(s).');
       } catch (err) {
-        console.error('Error loading student progress:', err);
-        studentProgress = {};
-        studentExcluded = [];
+        console.error('Error loading books-index.json:', err);
+        allBooks = [];
       }
     }
 
-    async function loadChaptersIndex() {
-      const response = await fetch('data/chapters-index.json');
-      if (!response.ok) throw new Error('HTTP ' + response.status);
-      const data = await response.json();
-      allChapters = data.chapters || [];
-      console.log('Loaded chapters index:', allChapters.length, 'chapter(s)');
+    async function loadChaptersIndexForBook(bookId) {
+      try {
+        const response = await fetch('data/book' + bookId + '/chapters-index.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const data = await response.json();
+        bookChapters[bookId] = data.chapters || [];
+        console.log('Loaded chapters-index for book ' + bookId + ': ' + bookChapters[bookId].length + ' chapter(s).');
+      } catch (err) {
+        console.warn('No chapters-index for book ' + bookId + ' (or fetch failed):', err.message);
+        bookChapters[bookId] = [];
+      }
     }
 
-    async function loadAllChapterVocab() {
-      chapterVocab = {};
-      for (const ch of allChapters) {
+    async function loadAllChapterVocabForBook(bookId) {
+      const chapters = bookChapters[bookId] || [];
+      bookVocab[bookId] = {};
+      for (const ch of chapters) {
         try {
-          const response = await fetch('data/chapter' + ch.id + '.json');
+          const response = await fetch('data/book' + bookId + '/chapter' + ch.id + '.json');
           if (!response.ok) throw new Error('HTTP ' + response.status);
           const data = await response.json();
-          chapterVocab[ch.id] = data.vocab || [];
+          bookVocab[bookId][ch.id] = data.vocab || [];
         } catch (err) {
-          console.error('Error loading chapter ' + ch.id + ':', err);
-          chapterVocab[ch.id] = [];
+          console.error('Error loading book ' + bookId + ' chapter ' + ch.id + ':', err);
+          bookVocab[bookId][ch.id] = [];
         }
       }
     }
 
-    function computeLevelCounts(vocabArray) {
-      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
-      vocabArray.forEach(word => {
-        const level = getLevelForWord(word.id);
-        counts[level] = (counts[level] || 0) + 1;
+    // ------------------------------------------------------------------
+    // Firestore loader (M8.3c-3b will re-enable full progress reading)
+    // ------------------------------------------------------------------
+    async function loadStudentProgress() {
+      // DEFERRED to M8.3c-3b: read actual studentProgress + studentExcluded from Firestore.
+      // For M8.3c-3a we leave them empty; UI shows placeholder text.
+      studentProgress = {};
+      studentExcluded = [];
+    }
+
+    // ------------------------------------------------------------------
+    // Book selection
+    // ------------------------------------------------------------------
+    async function selectBook(bookId) {
+      currentBookId = bookId;
+      currentChapterId = null;
+
+      // Highlight selected book in list
+      document.querySelectorAll('#books-list li').forEach(li => {
+        li.classList.toggle('selected', li.dataset.bookId === bookId);
       });
-      return counts;
-    }
 
-    // ------------------------------------------------------------------
-    // Toast notifications
-    // ------------------------------------------------------------------
-    let toastTimer = null;
+      // Load chapters + vocab for this book
+      await loadChaptersIndexForBook(bookId);
+      await loadAllChapterVocabForBook(bookId);
 
-    function showToast(message, type) {
-      const toast = document.getElementById('toast');
-      toast.textContent = message;
-      toast.className = 'toast ' + (type || 'success') + ' visible';
+      renderBookContent();
+      renderRightPanelEmpty();
 
-      if (toastTimer) clearTimeout(toastTimer);
-      toastTimer = setTimeout(() => {
-        toast.classList.remove('visible');
-      }, 1500);
-    }
+      // Chapter auto-selection logic (M8.3c-3a):
+      // 1. If URL has a valid chapter param, auto-select it.
+      // 2. Otherwise, auto-select the first chapter of this book (if any).
+      // 3. If the book has no chapters, leave right panel empty (safety net).
+      const chapters = bookChapters[bookId] || [];
+      let chapterToSelect = null;
 
-    // ------------------------------------------------------------------
-    // Update word level in Firestore + re-render counts
-    // ------------------------------------------------------------------
-    async function updateWordLevel(wordId, newLevel, selectEl, oldLevel) {
-      try {
-        // Firestore partial update: only touch this word's progress entry.
-        // Note: dot-notation like 'progress.ch01_w001' only works with .update(),
-        // not with .set({merge:true}). Use nested object structure instead.
-        
-        const update = {
-          progress: {
-            [wordId]: newLevel,
-          },
-          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
-        };
-
-
-        await db.collection('students').doc(student).set(update, { merge: true });
-
-        // Update local state
-        studentProgress[wordId] = newLevel;
-
-        // Update the dropdown's own color
-        applyLevelClass(selectEl, newLevel);
-
-        // Refresh downstream counts
-        refreshCountsAfterChange();
-
-        showToast('Saved', 'success');
-        console.log('Updated ' + wordId + ' from ' + oldLevel + ' to ' + newLevel);
-      } catch (err) {
-        console.error('Failed to update level:', err);
-        // Revert dropdown
-        selectEl.value = oldLevel;
-        applyLevelClass(selectEl, oldLevel);
-        showToast('Save failed. Please try again.', 'error');
-      }
-    }
-
-    async function updateWordExclusion(wordId, includeInPool, checkboxEl) {
-      try {
-        const update = {
-          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
-        };
-
-        if (includeInPool) {
-          // Remove from excluded array
-          update.excluded = firebase.firestore.FieldValue.arrayRemove(wordId);
+      if (preselectChapterId) {
+        const found = chapters.find(c => c.id === preselectChapterId);
+        if (found) {
+          chapterToSelect = found;
+          console.log('Auto-selected chapter from URL:', preselectChapterId);
         } else {
-          // Add to excluded array
-          update.excluded = firebase.firestore.FieldValue.arrayUnion(wordId);
+          console.log('URL chapter param "' + preselectChapterId + '" not valid for book ' + bookId + '; falling back to first chapter.');
         }
-
-        await db.collection('students').doc(student).set(update, { merge: true });
-
-        // Update local state
-        if (includeInPool) {
-          studentExcluded = studentExcluded.filter(id => id !== wordId);
-        } else {
-          if (!studentExcluded.includes(wordId)) {
-            studentExcluded.push(wordId);
-          }
-        }
-
-        // Refresh Practice Pool button counts (both chapter-scoped and cross-chapter)
-        if (currentChapterId) {
-          const chapter = allChapters.find(c => c.id === currentChapterId);
-          if (chapter) refreshPoolCounts(chapter);
-        }
-        renderCrossChapterPool();
-
-        showToast('Saved', 'success');
-        console.log('Set exclusion for ' + wordId + ': excluded=' + !includeInPool);
-      } catch (err) {
-        console.error('Failed to update exclusion:', err);
-        // Revert checkbox
-        checkboxEl.checked = !includeInPool;
-        showToast('Save failed. Please try again.', 'error');
       }
-    }
-    
-    async function includeAllInPractice(vocab) {
-      const wordIds = vocab.map(w => w.id);
-      if (wordIds.length === 0) return;
 
-      try {
-        const update = {
-          excluded: firebase.firestore.FieldValue.arrayRemove(...wordIds),
-          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
-        };
-        await db.collection('students').doc(student).set(update, { merge: true });
+      if (!chapterToSelect && chapters.length > 0) {
+        chapterToSelect = chapters[0];
+        console.log('Auto-selected first chapter of book ' + bookId + ':', chapterToSelect.id);
+      }
 
-        // Update local state - remove all wordIds from excluded
-        studentExcluded = studentExcluded.filter(id => !wordIds.includes(id));
-
-        // Update all checkboxes in the current view
-        document.querySelectorAll('.vocab-table input[type="checkbox"]').forEach(cb => {
-          cb.checked = true;
-        });
-
-        // Refresh pool counts (both chapter-scoped and cross-chapter)
-        if (currentChapterId) {
-          const chapter = allChapters.find(c => c.id === currentChapterId);
-          if (chapter) refreshPoolCounts(chapter);
-        }
-        renderCrossChapterPool();
-
-        showToast('All words included in practice', 'success');
-        console.log('Included all ' + wordIds.length + ' words in practice');
-      } catch (err) {
-        console.error('Failed to include all:', err);
-        showToast('Save failed. Please try again.', 'error');
+      if (chapterToSelect) {
+        selectChapter(chapterToSelect);
       }
     }
 
-    async function excludeAllFromPractice(vocab) {
-      const wordIds = vocab.map(w => w.id);
-      if (wordIds.length === 0) return;
-
-      try {
-        const update = {
-          excluded: firebase.firestore.FieldValue.arrayUnion(...wordIds),
-          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
-        };
-        await db.collection('students').doc(student).set(update, { merge: true });
-
-        // Update local state - add all wordIds to excluded (dedup)
-        wordIds.forEach(id => {
-          if (!studentExcluded.includes(id)) studentExcluded.push(id);
-        });
-
-        // Update all checkboxes in the current view
-        document.querySelectorAll('.vocab-table input[type="checkbox"]').forEach(cb => {
-          cb.checked = false;
-        });
-
-        // Refresh pool counts (both chapter-scoped and cross-chapter)
-        if (currentChapterId) {
-          const chapter = allChapters.find(c => c.id === currentChapterId);
-          if (chapter) refreshPoolCounts(chapter);
-        }
-        renderCrossChapterPool();
-
-        showToast('All words excluded from practice', 'success');
-        console.log('Excluded all ' + wordIds.length + ' words from practice');
-      } catch (err) {
-        console.error('Failed to exclude all:', err);
-        showToast('Save failed. Please try again.', 'error');
-      }
-    }
-
-    function applyLevelClass(selectEl, level) {
-      LEVEL_ORDER.forEach(l => selectEl.classList.remove('level-' + l));
-      selectEl.classList.add('level-' + level);
-      // Force a repaint to work around browser caching of <select> chrome
-      selectEl.style.display = 'none';
-      selectEl.offsetHeight;
-      selectEl.style.display = '';
-    }
-
-
     // ------------------------------------------------------------------
-    // Refresh counts across the page after a level change
+    // Left panel: Books list
     // ------------------------------------------------------------------
-    function refreshCountsAfterChange() {
-      renderOverallProgress();
-      renderCrossChapterPool();
-      renderChapterList();
-
-      // If a chapter is currently selected, refresh its pool counts
-      if (currentChapterId) {
-        const chapter = allChapters.find(c => c.id === currentChapterId);
-        if (chapter) {
-          refreshPoolCounts(chapter);
-        }
-      }
-    }
-
-    function refreshPoolCounts(chapter) {
-      const vocab = chapterVocab[chapter.id] || [];
-      const counts = computePoolCounts(vocab);
-      const btns = document.querySelectorAll('.pool-btn');
-      // Read source level from each button's dataset (set at render time)
-      btns.forEach(btn => {
-        const sourceLevel = btn.dataset.sourceLevel;
-        const targetLevel = btn.dataset.targetLevel;
-        if (!sourceLevel || !targetLevel) return;
-        // Reconstruct the label from source/target
-        const arrow = '\u2192';
-        const labelPart = sourceLevel + arrow + targetLevel;
-        btn.textContent = labelPart + ' (' + counts[sourceLevel] + ')';
-      });
-    }
-
-    // Pool counts exclude words marked as excluded (used for Practice Pool buttons)
-    function computePoolCounts(vocabArray) {
-      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
-      vocabArray.forEach(word => {
-        if (isWordExcluded(word.id)) return;
-        const level = getLevelForWord(word.id);
-        counts[level] = (counts[level] || 0) + 1;
-      });
-      return counts;
-    }
-
-    // ------------------------------------------------------------------
-    // Left panel rendering
-    // ------------------------------------------------------------------
-    function renderOverallProgress() {
-      const summaryEl = document.getElementById('progress-summary');
-      const allVocab = [];
-      Object.values(chapterVocab).forEach(list => allVocab.push(...list));
-
-      const total = allVocab.length;
-      const counts = computeLevelCounts(allVocab);
-
-      summaryEl.innerHTML = '';
-
-      const totalLine = document.createElement('div');
-      totalLine.className = 'total-line';
-      totalLine.textContent = 'Total: ' + total + ' words';
-      summaryEl.appendChild(totalLine);
-
-      LEVEL_ORDER.forEach(level => {
-        const line = document.createElement('div');
-        const meta = LEVEL_META[level];
-        line.textContent = meta.emoji + ' ' + meta.label + ': ' + counts[level];
-        summaryEl.appendChild(line);
-      });
-    }
-
-    function renderCrossChapterPool() {
-      const containerEl = document.getElementById('cross-chapter-pool');
-      containerEl.innerHTML = '';
-
-      // Combine all chapter vocab
-      const allVocab = [];
-      Object.values(chapterVocab).forEach(list => allVocab.push(...list));
-
-      if (allVocab.length === 0) return;
-
-      const counts = computePoolCounts(allVocab);
-
-      const label = document.createElement('div');
-      label.className = 'cross-chapter-pool-label';
-      label.textContent = 'Practice across all chapters:';
-      containerEl.appendChild(label);
-
-      const btnRow = document.createElement('div');
-      btnRow.className = 'cross-chapter-pool-buttons';
-
-      const CROSS_POOL_BUTTONS = [
-        { label: 'L0\u2192L1', sourceLevel: 'L0',         targetLevel: 'L1' },
-        { label: 'L1\u2192L2', sourceLevel: 'L1',         targetLevel: 'L2' },
-        { label: 'L2\u2192L3', sourceLevel: 'L2',         targetLevel: 'L3' },
-        { label: 'L3\u2192L4', sourceLevel: 'L3',         targetLevel: 'L4' },
-      ];
-
-      CROSS_POOL_BUTTONS.forEach(cfg => {
-        const btn = document.createElement('button');
-        btn.className = 'cross-pool-btn';
-        btn.dataset.sourceLevel = cfg.sourceLevel;
-        btn.dataset.targetLevel = cfg.targetLevel;
-        btn.textContent = cfg.label + ' (' + counts[cfg.sourceLevel] + ')';
-        btn.addEventListener('click', () => handleCrossPoolClick(cfg.targetLevel));
-        btnRow.appendChild(btn);
-      });
-
-      containerEl.appendChild(btnRow);
-    }
-
-    function handleCrossPoolClick(targetLevel) {
-      window.location.href = 'exercise.html?level=' + targetLevel +
-        '&chapter=all&student=' + encodeURIComponent(student);
-    }
-
-    function renderChapterList() {
-      const listEl = document.getElementById('chapter-list');
+    function renderBooksList() {
+      const listEl = document.getElementById('books-list');
       listEl.innerHTML = '';
 
-      if (allChapters.length === 0) {
-        listEl.innerHTML = '<li class="empty-message">No chapters yet.</li>';
+      if (allBooks.length === 0) {
+        listEl.innerHTML = '<li class="empty-message">No books registered yet.</li>';
         return;
       }
 
-      allChapters.forEach(ch => {
-        const vocab = chapterVocab[ch.id] || [];
-        const counts = computeLevelCounts(vocab);
+      allBooks.forEach(book => {
+        const li = document.createElement('li');
+        li.dataset.bookId = book.id;
+        li.textContent = book.title;
+        li.addEventListener('click', () => selectBook(book.id));
+        listEl.appendChild(li);
+      });
+    }
 
+    // ------------------------------------------------------------------
+    // Middle panel: Book content
+    // ------------------------------------------------------------------
+    function renderBookContent() {
+      const container = document.getElementById('book-content');
+      container.innerHTML = '';
+
+      const chapters = bookChapters[currentBookId] || [];
+
+      // Empty book state
+      if (chapters.length === 0) {
+        const msg = document.createElement('p');
+        msg.className = 'empty-message';
+        msg.textContent = 'No chapters yet in this book. Author your first chapter using the pipeline (see Content Authoring Guide).';
+        container.appendChild(msg);
+        return;
+      }
+
+      // Overall Progress heading + placeholder (real numbers deferred to M8.3c-3b)
+      const progressHeading = document.createElement('h2');
+      progressHeading.textContent = 'Overall Progress';
+      container.appendChild(progressHeading);
+
+      const progressSummary = document.createElement('div');
+      progressSummary.className = 'progress-summary';
+      const progressPlaceholder = document.createElement('div');
+      progressPlaceholder.className = 'placeholder';
+      progressPlaceholder.textContent = 'Coming in M8.3c-3b';
+      progressSummary.appendChild(progressPlaceholder);
+      container.appendChild(progressSummary);
+
+      // Cross-chapter Practice Pool (placeholder buttons)
+      const crossPool = document.createElement('div');
+      crossPool.className = 'cross-chapter-pool';
+
+      const crossLabel = document.createElement('div');
+      crossLabel.className = 'cross-chapter-pool-label';
+      crossLabel.textContent = 'Practice across all chapters:';
+      crossPool.appendChild(crossLabel);
+
+      const crossBtnRow = document.createElement('div');
+      crossBtnRow.className = 'cross-chapter-pool-buttons';
+      const CROSS_LEVELS = [
+        { label: 'L0\u2192L1', sourceLevel: 'L0' },
+        { label: 'L1\u2192L2', sourceLevel: 'L1' },
+        { label: 'L2\u2192L3', sourceLevel: 'L2' },
+        { label: 'L3\u2192L4', sourceLevel: 'L3' },
+      ];
+      CROSS_LEVELS.forEach(cfg => {
+        const btn = document.createElement('button');
+        btn.className = 'cross-pool-btn';
+        btn.textContent = cfg.label + ' (?)';
+        btn.title = 'Coming in M8.3c-3b';
+        // No click handler in M8.3c-3a
+        crossBtnRow.appendChild(btn);
+      });
+      crossPool.appendChild(crossBtnRow);
+      container.appendChild(crossPool);
+
+      // Chapters heading + list
+      const chaptersHeading = document.createElement('h2');
+      chaptersHeading.textContent = 'Chapters';
+      container.appendChild(chaptersHeading);
+
+      const chapterList = document.createElement('ul');
+      chapterList.id = 'chapter-list';
+      chapterList.className = 'chapter-list';
+
+      chapters.forEach(ch => {
         const li = document.createElement('li');
         li.dataset.chapterId = ch.id;
 
@@ -836,22 +410,30 @@
         meta.className = 'chapter-meta';
         meta.textContent = ch.wordCount + ' words';
 
+        // Placeholder counts (real numbers deferred to M8.3c-3b)
         const levelCounts = document.createElement('span');
         levelCounts.className = 'chapter-level-counts';
-        levelCounts.textContent = LEVEL_ORDER.map(l => LEVEL_META[l].emoji + ' ' + counts[l]).join('  ');
+        levelCounts.textContent = LEVEL_ORDER.map(l => LEVEL_META[l].emoji + ' ?').join('  ');
 
         li.appendChild(title);
         li.appendChild(meta);
         li.appendChild(levelCounts);
         li.addEventListener('click', () => selectChapter(ch));
 
-        listEl.appendChild(li);
+        chapterList.appendChild(li);
       });
+
+      container.appendChild(chapterList);
     }
 
     // ------------------------------------------------------------------
-    // Chapter selection
+    // Right panel: Chapter detail
     // ------------------------------------------------------------------
+    function renderRightPanelEmpty() {
+      const rightEl = document.getElementById('right-panel-content');
+      rightEl.innerHTML = '<p class="empty-message">Select a chapter from the middle panel to view its details.</p>';
+    }
+
     function selectChapter(chapter) {
       currentChapterId = chapter.id;
 
@@ -859,26 +441,13 @@
         li.classList.toggle('selected', li.dataset.chapterId === chapter.id);
       });
 
-      const chapterData = {
+      renderChapterDetail({
         chapterId: chapter.id,
         chapterTitle: chapter.title,
-        vocab: chapterVocab[chapter.id] || [],
-      };
-      renderChapterDetail(chapterData);
+        vocab: (bookVocab[currentBookId] || {})[chapter.id] || [],
+      });
     }
 
-    // ------------------------------------------------------------------
-    // Practice pool button click - chapter-scoped
-    // ------------------------------------------------------------------
-    function handlePracticePoolClick(targetLevel, chapterId) {
-      window.location.href = 'exercise.html?level=' + targetLevel +
-        '&chapter=' + encodeURIComponent(chapterId) +
-        '&student=' + encodeURIComponent(student);
-    }
-
-    // ------------------------------------------------------------------
-    // Render chapter detail on the right panel
-    // ------------------------------------------------------------------
     function renderChapterDetail(chapterData) {
       const rightEl = document.getElementById('right-panel-content');
       rightEl.innerHTML = '';
@@ -894,15 +463,14 @@
       const passagesLink = document.createElement('a');
       passagesLink.className = 'show-passages-link';
       passagesLink.textContent = '📖 Show Passages';
-      passagesLink.href = 'passages.html?chapter=' + encodeURIComponent(chapterData.chapterId) +
+      passagesLink.href = 'passages.html?book=' + encodeURIComponent(currentBookId) +
+                          '&chapter=' + encodeURIComponent(chapterData.chapterId) +
                           '&student=' + encodeURIComponent(student);
       header.appendChild(passagesLink);
 
       rightEl.appendChild(header);
 
-      // Practice Pool - uses pool counts (excludes filtered words)
-      const chapterCounts = computePoolCounts(chapterData.vocab);
-
+      // Practice Pool (placeholder buttons)
       const practicePool = document.createElement('div');
       practicePool.className = 'practice-pool';
 
@@ -913,64 +481,45 @@
 
       const btnRow = document.createElement('div');
       btnRow.className = 'practice-pool-buttons';
-
-      // Pool button config: { label, targetLevel, sourceLevel }
-      // Source level = which words are in the pool.
-      // Target level = which level the student is trying to achieve.
-      const POOL_BUTTONS = [
-        { label: 'L0\u2192L1', sourceLevel: 'L0',         targetLevel: 'L1' },
-        { label: 'L1\u2192L2', sourceLevel: 'L1',         targetLevel: 'L2' },
-        { label: 'L2\u2192L3', sourceLevel: 'L2',         targetLevel: 'L3' },
-        { label: 'L3\u2192L4', sourceLevel: 'L3',         targetLevel: 'L4' },
+      const POOL_LEVELS = [
+        { label: 'L0\u2192L1' },
+        { label: 'L1\u2192L2' },
+        { label: 'L2\u2192L3' },
+        { label: 'L3\u2192L4' },
       ];
-
-      POOL_BUTTONS.forEach(cfg => {
+      POOL_LEVELS.forEach(cfg => {
         const btn = document.createElement('button');
         btn.className = 'pool-btn';
-        btn.dataset.sourceLevel = cfg.sourceLevel;
-        btn.dataset.targetLevel = cfg.targetLevel;
-        btn.textContent = cfg.label + ' (' + chapterCounts[cfg.sourceLevel] + ')';
-        btn.addEventListener('click', () => handlePracticePoolClick(cfg.targetLevel, chapterData.chapterId));
+        btn.textContent = cfg.label + ' (?)';
+        btn.title = 'Coming in M8.3c-3b';
+        // No click handler in M8.3c-3a
         btnRow.appendChild(btn);
       });
 
       practicePool.appendChild(btnRow);
       rightEl.appendChild(practicePool);
 
-      // Master toggles
+      // Master toggles (buttons rendered but not wired yet)
       const masterToggle = document.createElement('div');
       masterToggle.className = 'master-toggle';
 
-      const showAllBtn = document.createElement('button');
-      showAllBtn.textContent = 'Show all details';
-      showAllBtn.addEventListener('click', expandAll);
+      ['Show all details', 'Hide all details', 'Include all in practice', 'Exclude all from practice'].forEach(labelText => {
+        const btn = document.createElement('button');
+        btn.textContent = labelText;
+        btn.title = 'Coming in M8.3c-3b';
+        btn.addEventListener('click', () => console.log('Master toggle clicked (deferred to M8.3c-3b):', labelText));
+        masterToggle.appendChild(btn);
+      });
 
-      const hideAllBtn = document.createElement('button');
-      hideAllBtn.textContent = 'Hide all details';
-      hideAllBtn.addEventListener('click', collapseAll);
-
-      const includeAllBtn = document.createElement('button');
-      includeAllBtn.textContent = 'Include all in practice';
-      includeAllBtn.addEventListener('click', () => includeAllInPractice(chapterData.vocab));
-
-      const excludeAllBtn = document.createElement('button');
-      excludeAllBtn.textContent = 'Exclude all from practice';
-      excludeAllBtn.addEventListener('click', () => excludeAllFromPractice(chapterData.vocab));
-
-      masterToggle.appendChild(showAllBtn);
-      masterToggle.appendChild(hideAllBtn);
-      masterToggle.appendChild(includeAllBtn);
-      masterToggle.appendChild(excludeAllBtn);
       rightEl.appendChild(masterToggle);
 
-
-      // Vocab table
+      // Vocab table (Word / Level / Practice / Details / Audio M / Audio C)
       const table = document.createElement('table');
       table.className = 'vocab-table';
 
       const thead = document.createElement('thead');
       const headerRow = document.createElement('tr');
-      ['Word', 'Level', 'Practice', 'Details', 'Audio'].forEach(text => {
+      ['Word', 'Level', 'Practice', 'Details', 'Audio (M)', 'Audio (C)'].forEach(text => {
         const th = document.createElement('th');
         th.textContent = text;
         headerRow.appendChild(th);
@@ -990,169 +539,89 @@
         tdWord.textContent = word.traditional;
         row.appendChild(tdWord);
 
-        // Level cell - inline dropdown
+        // Level cell - placeholder for M8.3c-3a
         const tdLevel = document.createElement('td');
-        const select = document.createElement('select');
-        select.className = 'level-select';
-        select.dataset.wordId = word.id;
-
-        LEVEL_ORDER.forEach(level => {
-          const opt = document.createElement('option');
-          opt.value = level;
-          opt.textContent = LEVEL_META[level].emoji + ' ' + LEVEL_META[level].label;
-          select.appendChild(opt);
-        });
-
-        // Initialize the dropdown to current level. Read from studentProgress
-        // fresh each time to avoid stale closure issues.
-        const initialLevel = getLevelForWord(word.id);
-        select.value = initialLevel;
-        applyLevelClass(select, initialLevel);
-
-        select.addEventListener('change', () => {
-          // Read old level from the state, not from a captured variable
-          const oldLevel = getLevelForWord(word.id);
-          const newLevel = select.value;
-          if (newLevel === oldLevel) {
-            return;
-          }
-          updateWordLevel(word.id, newLevel, select, oldLevel);
-        });
-
-        tdLevel.appendChild(select);
+        const levelPill = document.createElement('span');
+        levelPill.className = 'level-placeholder';
+        levelPill.textContent = 'L0';
+        levelPill.title = 'Level dropdown coming in M8.3c-3b';
+        tdLevel.appendChild(levelPill);
         row.appendChild(tdLevel);
 
-        // Practice cell - checkbox for exclusion
+        // Practice cell - placeholder
         const tdPractice = document.createElement('td');
-        const practiceCheckbox = document.createElement('input');
-        practiceCheckbox.type = 'checkbox';
-        practiceCheckbox.checked = !isWordExcluded(word.id);
-        practiceCheckbox.dataset.wordId = word.id;
-        practiceCheckbox.title = 'Include in practice pool';
-        practiceCheckbox.addEventListener('change', () => {
-          updateWordExclusion(word.id, practiceCheckbox.checked, practiceCheckbox);
-        });
-        tdPractice.appendChild(practiceCheckbox);
+        tdPractice.textContent = '[ ]';
+        tdPractice.style.color = '#888';
+        tdPractice.title = 'Practice checkbox coming in M8.3c-3b';
         row.appendChild(tdPractice);
 
-        // Details cell
+        // Details cell - button rendered but disabled
         const tdDetails = document.createElement('td');
         const detailsBtn = document.createElement('button');
         detailsBtn.className = 'details-btn';
         detailsBtn.textContent = '👁 Details';
-        detailsBtn.addEventListener('click', () => toggleRowDetails(word.id, detailsBtn));
+        detailsBtn.disabled = true;
+        detailsBtn.title = 'Details toggle coming in M8.3c-3b';
         tdDetails.appendChild(detailsBtn);
         row.appendChild(tdDetails);
 
-        // Audio cell
-        const tdAudio = document.createElement('td');
-        const audioBtn = document.createElement('button');
-        audioBtn.className = 'audio-btn';
-        audioBtn.textContent = '🔊';
-        audioBtn.title = 'Play word audio';
-        audioBtn.addEventListener('click', () => playAudio(word.audioIsolated));
-        tdAudio.appendChild(audioBtn);
-        row.appendChild(tdAudio);
+        // Audio (M) placeholder
+        const tdAudioM = document.createElement('td');
+        tdAudioM.textContent = '\u2014';
+        tdAudioM.style.color = '#888';
+        tdAudioM.title = 'Mandarin audio coming in M8.3c-3b';
+        row.appendChild(tdAudioM);
+
+        // Audio (C) placeholder
+        const tdAudioC = document.createElement('td');
+        tdAudioC.textContent = '\u2014';
+        tdAudioC.style.color = '#888';
+        tdAudioC.title = 'Cantonese audio coming in M8.3c-3b';
+        row.appendChild(tdAudioC);
 
         tbody.appendChild(row);
-
-        // Details row (hidden)
-        const detailsRow = document.createElement('tr');
-        detailsRow.className = 'details-row';
-        detailsRow.dataset.wordId = word.id;
-        detailsRow.id = 'details-' + word.id;
-
-        const detailsCell = document.createElement('td');
-        detailsCell.colSpan = 5;
-
-        const detailsContent = document.createElement('div');
-        detailsContent.className = 'details-content';
-
-        const dl = document.createElement('dl');
-        const items = [
-          ['Pinyin', word.pinyin],
-          ['English', word.english],
-          ['Context', word.contextSentence || '(none)'],
-        ];
-        items.forEach(([itemLabel, itemValue]) => {
-          const dt = document.createElement('dt');
-          dt.textContent = itemLabel;
-          const dd = document.createElement('dd');
-          dd.textContent = itemValue;
-          dl.appendChild(dt);
-          dl.appendChild(dd);
-        });
-
-        detailsContent.appendChild(dl);
-        detailsCell.appendChild(detailsContent);
-        detailsRow.appendChild(detailsCell);
-        tbody.appendChild(detailsRow);
       });
 
       table.appendChild(tbody);
       rightEl.appendChild(table);
 
-      console.log('Rendered chapter ' + chapterData.chapterId + ' with ' + chapterData.vocab.length + ' words.');
+      console.log('Rendered book ' + currentBookId + ' chapter ' + chapterData.chapterId + ' with ' + chapterData.vocab.length + ' words.');
     }
 
     // ------------------------------------------------------------------
-    // Row toggles + audio
-    // ------------------------------------------------------------------
-    function toggleRowDetails(wordId, button) {
-      const detailsRow = document.getElementById('details-' + wordId);
-      if (!detailsRow) return;
-      const isExpanded = detailsRow.classList.contains('expanded');
-      if (isExpanded) {
-        detailsRow.classList.remove('expanded');
-        button.textContent = '👁 Details';
-      } else {
-        detailsRow.classList.add('expanded');
-        button.textContent = '🙈 Hide';
-      }
-    }
-
-    function expandAll() {
-      document.querySelectorAll('.details-row').forEach(row => row.classList.add('expanded'));
-      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '🙈 Hide');
-    }
-
-    function collapseAll() {
-      document.querySelectorAll('.details-row').forEach(row => row.classList.remove('expanded'));
-      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '👁 Details');
-    }
-
-    function playAudio(audioPath) {
-      if (!audioPath) {
-        console.warn('No audio path provided');
-        return;
-      }
-      const audio = new Audio(audioPath);
-      audio.play().catch(err => console.error('Audio playback failed:', err));
-    }
-
-    // ------------------------------------------------------------------
-    // Main init
+    // Main init (M8.3c-3a)
     // ------------------------------------------------------------------
     async function init() {
       try {
         await loadStudentProgress();
-        await loadChaptersIndex();
-        await loadAllChapterVocab();
-        renderOverallProgress();
-        renderCrossChapterPool();
-        renderChapterList();
+        await loadBooksIndex();
 
-        // Auto-select the chapter if ?chapter= param is present
-        if (preselectChapterId) {
-          const target = allChapters.find(c => c.id === preselectChapterId);
-          if (target) {
-            selectChapter(target);
-            console.log('Auto-selected chapter from URL:', preselectChapterId);
+        renderBooksList();
+
+        if (allBooks.length === 0) {
+          document.getElementById('book-content').innerHTML =
+            '<p class="empty-message">No books registered. See Content Authoring Guide Section 2.</p>';
+          return;
+        }
+
+        // Determine which book to auto-select
+        let targetBookId = null;
+        if (preselectBookId) {
+          const found = allBooks.find(b => b.id === preselectBookId);
+          if (found) {
+            targetBookId = preselectBookId;
+            console.log('Auto-selected book from URL:', preselectBookId);
           } else {
-            console.log('URL chapter param "' + preselectChapterId +
-                        '" not found in chapters index; ignoring.');
+            console.log('URL book param "' + preselectBookId + '" not valid; falling back to first book.');
           }
         }
+        if (!targetBookId) {
+          targetBookId = allBooks[0].id;
+          console.log('Auto-selected first book:', targetBookId);
+        }
+
+        await selectBook(targetBookId);
+
       } catch (err) {
         console.error('Initialization error:', err);
       }
