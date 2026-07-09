@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -634,7 +634,10 @@
         const sourceLevel = btn.dataset.sourceLevel;
         const targetLevel = btn.dataset.targetLevel;
         if (!sourceLevel || !targetLevel) return;
-        btn.textContent = sourceLevel + '\u2192' + targetLevel + ' (' + counts[sourceLevel] + ')';
+        const label = (targetLevel === 'L4R')
+          ? '\ud83d\udd04 L4'
+          : sourceLevel + '\u2192' + targetLevel;
+        btn.textContent = label + ' (' + counts[sourceLevel] + ')';
       });
     }
 
@@ -813,6 +816,7 @@
         { label: 'L1\u2192L2', sourceLevel: 'L1', targetLevel: 'L2' },
         { label: 'L2\u2192L3', sourceLevel: 'L2', targetLevel: 'L3' },
         { label: 'L3\u2192L4', sourceLevel: 'L3', targetLevel: 'L4' },
+        { label: '\ud83d\udd04 L4', sourceLevel: 'L4', targetLevel: 'L4R' },
       ];
 
       CROSS_POOL.forEach(cfg => {
@@ -942,6 +946,7 @@
         { label: 'L1\u2192L2', sourceLevel: 'L1', targetLevel: 'L2' },
         { label: 'L2\u2192L3', sourceLevel: 'L2', targetLevel: 'L3' },
         { label: 'L3\u2192L4', sourceLevel: 'L3', targetLevel: 'L4' },
+        { label: '\ud83d\udd04 L4', sourceLevel: 'L4', targetLevel: 'L4R' },
       ];
 
       POOL_BUTTONS.forEach(cfg => {
