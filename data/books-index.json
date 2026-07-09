@@ -6,6 +6,13 @@
       "description": "Cambridge iGCSE Coursebook",
       "series": "iGCSE Chinese",
       "sortOrder": 10
+    },
+    {
+      "id": "02",
+      "title": "二上",
+      "description": "閱讀理解",
+      "series": "Primary School Chinese",
+      "sortOrder": 30
     }
   ]
 }
