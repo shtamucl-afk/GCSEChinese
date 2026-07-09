@@ -48,6 +48,10 @@
       padding: 10px 20px;
       border-bottom: 1px solid #ccc;
       background-color: #f4f4f4;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
     }
 
     .top-bar .back-link {
@@ -66,14 +70,37 @@
     }
 
     .content-wrapper {
-      max-width: 900px;
-      margin: 0 auto;
+      max-width: 100%;
+      margin: 0;
       padding: 20px;
     }
-
     .chapter-title {
       font-size: 22px;
       margin: 0 0 15px 0;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 42px;
+      background-color: #fafafa;
+      padding: 15px 20px 12px 20px;
+      margin: 0 -20px 15px -20px;
+      border-bottom: 1px solid #eee;
+      z-index: 100;
+    }
+
+    .sticky-header .chapter-title {
+      margin: 0 0 12px 0;
+    }
+    
+    .header-row {
+      display: grid;
+      grid-template-columns: minmax(200px, 300px) 1fr;
+      gap: 20px;
+      align-items: stretch;
+    }
+    @media (max-width: 700px) {
+      .header-row { grid-template-columns: 1fr; }
     }
 
     .legend {
@@ -81,11 +108,15 @@
       border: 1px solid #ddd;
       border-radius: 6px;
       padding: 10px 15px;
-      margin-bottom: 20px;
+      margin-bottom: 0;
       font-size: 13px;
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
       gap: 8px 16px;
+      height: 100%;
+      box-sizing: border-box;
     }
 
     .legend-title {
@@ -111,6 +142,41 @@
     .empty-message {
       color: #888;
       font-style: italic;
+    }
+    .script-toggle {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 10px 15px;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .script-toggle-label {
+      font-weight: bold;
+      color: #555;
+    }
+    .script-toggle-btn {
+      padding: 6px 16px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #555;
+      font-size: 13px;
+    }
+    .script-toggle-btn.active {
+      background-color: #1E3A5F;
+      color: #fff;
+      border-color: #1E3A5F;
+      font-weight: bold;
+    }
+    .script-toggle-btn:hover:not(.active) {
+      background-color: #eef;
     }
 
     .passage-box {
@@ -151,11 +217,11 @@
       border-radius: 3px;
     }
 
-    .vocab-L0         { background-color: #f8d7da; color: #721c24; }
-    .vocab-L1         { background-color: #e2e3e5; color: #383d41; }
-    .vocab-L2         { background-color: #fff3cd; color: #856404; }
-    .vocab-L3         { background-color: #ffe5b4; color: #6d4300; }
-    .vocab-L4         { background-color: #d4edda; color: #155724; }
+    .vocab-L0         { background-color: #F8D8D8; color: #721C24; }
+    .vocab-L1         { background-color: #FDE4C2; color: #6D3900; }
+    .vocab-L2         { background-color: #FFF3CD; color: #856404; }
+    .vocab-L3         { background-color: #D4EDDA; color: #155724; }
+    .vocab-L4         { background-color: #D9E7F5; color: #1E3A5F; }
   </style>
 </head>
 <body>
@@ -166,8 +232,13 @@
   </div>
 
   <div class="content-wrapper">
-    <h1 id="chapter-title" class="chapter-title">Loading...</h1>
-    <div id="legend-container"></div>
+    <div class="sticky-header">
+      <h1 id="chapter-title" class="chapter-title">Loading...</h1>
+      <div class="header-row">
+        <div id="script-toggle-container"></div>
+        <div id="legend-container"></div>
+      </div>
+    </div>
     <div id="passages-container">
       <p class="empty-message">Loading passages...</p>
     </div>
@@ -196,18 +267,30 @@
     // ------------------------------------------------------------------
     const student = getStudentFromUrl();
     const params = new URLSearchParams(window.location.search);
+    const bookId = params.get('book');
     const chapterId = params.get('chapter');
-
     if (!student) {
       window.location.href = 'index.html';
     }
-    if (!chapterId) {
+    if (!bookId || !chapterId) {
       window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
     }
+    // Session-persistent script preference. Reset only on page refresh.
+    let currentScript = 'traditional'; // 'traditional' or 'simplified'
 
     // Set up static header elements
     document.getElementById('back-link').href = buildBackToDashboardUrl();
     document.getElementById('student-label').textContent = 'Student: ' + student;
+
+    // Position sticky-header directly below top bar to prevent gaps as passages scroll
+    function alignStickyHeader() {
+      const topBar = document.querySelector('.top-bar');
+      const stickyHeader = document.querySelector('.sticky-header');
+      if (!topBar || !stickyHeader) return;
+      stickyHeader.style.top = topBar.getBoundingClientRect().height + 'px';
+    }
+    window.addEventListener('load', alignStickyHeader);
+    window.addEventListener('resize', alignStickyHeader);
 
     // ------------------------------------------------------------------
     // Global state
@@ -216,6 +299,9 @@
 
     function buildBackToDashboardUrl() {
       let url = 'dashboard.html?student=' + encodeURIComponent(student);
+      if (bookId) {
+        url += '&book=' + encodeURIComponent(bookId);
+      }
       if (chapterId) {
         url += '&chapter=' + encodeURIComponent(chapterId);
       }
@@ -246,6 +332,41 @@
 
     function getLevelForWord(wordId) {
       return studentProgress[wordId] || 'L0';
+    }
+
+    // ------------------------------------------------------------------
+    // Render script toggle (Traditional / Simplified)
+    // ------------------------------------------------------------------
+    function renderScriptToggle() {
+      const containerEl = document.getElementById('script-toggle-container');
+      containerEl.innerHTML = '';
+      const box = document.createElement('div');
+      box.className = 'script-toggle';
+      const label = document.createElement('span');
+      label.className = 'script-toggle-label';
+      label.textContent = 'Script:';
+      box.appendChild(label);
+
+      const tradBtn = document.createElement('button');
+      tradBtn.className = 'script-toggle-btn' + (currentScript === 'traditional' ? ' active' : '');
+      tradBtn.textContent = 'Traditional';
+      tradBtn.addEventListener('click', () => switchScript('traditional'));
+      box.appendChild(tradBtn);
+
+      const simpBtn = document.createElement('button');
+      simpBtn.className = 'script-toggle-btn' + (currentScript === 'simplified' ? ' active' : '');
+      simpBtn.textContent = 'Simplified';
+      simpBtn.addEventListener('click', () => switchScript('simplified'));
+      box.appendChild(simpBtn);
+
+      containerEl.appendChild(box);
+    }
+
+    function switchScript(script) {
+      if (script === currentScript) return;
+      currentScript = script;
+      renderScriptToggle();
+      loadAndRender();
     }
 
     // ------------------------------------------------------------------
@@ -299,34 +420,23 @@
     }
 
     function highlightPassageText(passageText, sortedVocab) {
-      // We work on the escaped text so any unusual chars are safe.
       let working = escapeHtml(passageText);
-
-      // Placeholder registry: numeric id -> replacement HTML
       const placeholders = [];
-
       sortedVocab.forEach(word => {
         const level = getLevelForWord(word.id);
+        // Choose which form to search & wrap based on current script
+        const target = (currentScript === 'simplified') ? (word.simplified || word.traditional) : word.traditional;
         const wrapped = '<span class="vocab vocab-' + level + '">' +
-                        escapeHtml(word.traditional) + '</span>';
-
-        // Placeholder token that will never occur in Chinese text or HTML
-        // e.g., \u0001PH12\u0002
+                        escapeHtml(target) + '</span>';
         const token = '\u0001PH' + placeholders.length + '\u0002';
         placeholders.push(wrapped);
-
-        // Replace ALL occurrences of the escaped word with the placeholder token.
-        const escaped = escapeHtml(word.traditional);
-        // Use split/join to replace all without regex escaping quirks
+        const escaped = escapeHtml(target);
         working = working.split(escaped).join(token);
       });
-
-      // Substitute placeholders back to real HTML
       placeholders.forEach((html, i) => {
         const token = '\u0001PH' + i + '\u0002';
         working = working.split(token).join(html);
       });
-
       return working;
     }
 
@@ -336,31 +446,35 @@
     async function loadAndRender() {
       const titleEl = document.getElementById('chapter-title');
       const containerEl = document.getElementById('passages-container');
-
       try {
         // Load progress + chapter in parallel
         const [_, chapterResponse] = await Promise.all([
           loadStudentProgress(),
-          fetch('data/chapter' + chapterId + '.json'),
+          fetch('data/book' + bookId + '/chapter' + chapterId + '.json'),
         ]);
-
         if (!chapterResponse.ok) throw new Error('HTTP ' + chapterResponse.status);
         const chapter = await chapterResponse.json();
 
+        // Title always shows Traditional title (chapter title in the file is Traditional).
         titleEl.textContent = 'Chapter ' + chapter.chapterId + ': ' + chapter.chapterTitle;
-
+        renderScriptToggle();
         renderLegend();
 
-        const passages = chapter.passages || [];
+        // Choose passage source based on script selection
+        const passages = (currentScript === 'simplified')
+          ? (chapter.passagesSimplified || chapter.passages || [])
+          : (chapter.passages || []);
         const vocab = chapter.vocab || [];
 
-        // Sort vocab by length descending (longer words first)
+        // Sort vocab by SCRIPT-SPECIFIC word length descending (longer words first)
+        // to prevent shorter substrings being wrapped inside longer ones.
         const sortedVocab = [...vocab].sort((a, b) => {
-          return b.traditional.length - a.traditional.length;
+          const aWord = (currentScript === 'simplified') ? (a.simplified || a.traditional) : a.traditional;
+          const bWord = (currentScript === 'simplified') ? (b.simplified || b.traditional) : b.traditional;
+          return bWord.length - aWord.length;
         });
 
         containerEl.innerHTML = '';
-
         if (passages.length === 0) {
           containerEl.innerHTML = '<p class="empty-message">No passages found for this chapter.</p>';
           return;
@@ -370,7 +484,8 @@
         const foundVocabIds = new Set();
         const combinedText = passages.join('\n');
         vocab.forEach(w => {
-          if (combinedText.includes(w.traditional)) {
+          const target = (currentScript === 'simplified') ? (w.simplified || w.traditional) : w.traditional;
+          if (combinedText.includes(target)) {
             foundVocabIds.add(w.id);
           }
         });
@@ -378,28 +493,21 @@
         passages.forEach((passageText, idx) => {
           const box = document.createElement('div');
           box.className = 'passage-box';
-
           const heading = document.createElement('div');
           heading.className = 'passage-heading';
           heading.textContent = 'Passage ' + (idx + 1);
           box.appendChild(heading);
-
           const body = document.createElement('div');
           body.className = 'passage-body';
-
-          // Split by \n for internal paragraph breaks
           const parts = passageText.split('\n');
           parts.forEach(part => {
             const trimmed = part.trim();
             if (trimmed) {
               const p = document.createElement('p');
-              // Highlight vocab words within this paragraph.
-              // Using innerHTML because we're producing safe HTML from escaped input.
               p.innerHTML = highlightPassageText(trimmed, sortedVocab);
               body.appendChild(p);
             }
           });
-
           box.appendChild(body);
           containerEl.appendChild(box);
         });
@@ -407,13 +515,12 @@
         // Warn about vocab words that don't appear anywhere
         const missing = vocab.filter(w => !foundVocabIds.has(w.id));
         if (missing.length > 0) {
-          console.warn(missing.length + ' vocab word(s) not found in any passage:',
-                       missing.map(w => w.traditional));
+          console.warn(missing.length + ' vocab word(s) not found in any passage (' + currentScript + '):',
+                       missing.map(w => (currentScript === 'simplified' ? (w.simplified || w.traditional) : w.traditional)));
         }
-
-        console.log('Rendered ' + passages.length + ' passage(s) with vocab highlighting for chapter ' + chapterId);
+        console.log('Rendered ' + passages.length + ' passage(s) with vocab highlighting (' + currentScript + ') for book ' + bookId + ' chapter ' + chapterId);
       } catch (err) {
-        console.error('Error loading chapter ' + chapterId + ':', err);
+        console.error('Error loading book ' + bookId + ' chapter ' + chapterId + ':', err);
         titleEl.textContent = 'Error';
         containerEl.innerHTML = '<p class="empty-message">Error loading chapter. See console.</p>';
       }
