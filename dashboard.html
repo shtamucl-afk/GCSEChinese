@@ -8,164 +8,623 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            cream:   '#F5EFE6',
-            navy:    '#1E3A5F',
-            'level-l0': '#DB5858',
-            'level-l1': '#FA961B',
-            'level-l2': '#EFBE4A',
-            'level-l3': '#7BC780',
-            'level-l4': '#5A9AD6',
-            promote: '#7BC780',
-            drop:    '#DB5858',
-            info:    '#5AA5D6',
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            tc: ['Noto Sans TC', 'Inter', 'system-ui', 'sans-serif'],
-            emoji: ['Noto Color Emoji', 'system-ui', 'sans-serif'],
-          },
-        }
+  <style>
+    /* ---------- Base ---------- */
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background-color: #EDE3D0;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: #1E3A5F;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ---------- Top bar ---------- */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px;
+      background-color: #1E3A5F;
+      color: #F5EFE6;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+    }
+    .top-bar-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .top-bar-brand img {
+      height: 32px;
+      width: 32px;
+      border-radius: 6px;
+    }
+    .top-bar-brand h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #F5EFE6;
+      letter-spacing: -0.01em;
+    }
+    .student-switcher {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .student-switcher label {
+      color: rgba(245, 239, 230, 0.85);
+      font-size: 13px;
+    }
+    .student-switcher select {
+      padding: 5px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(245, 239, 230, 0.3);
+      background-color: rgba(245, 239, 230, 0.08);
+      color: #F5EFE6;
+      font-family: inherit;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .student-switcher select option {
+      background-color: #F5EFE6;
+      color: #1E3A5F;
+    }
+
+    /* ---------- Main body: single unified card ---------- */
+    .main-card {
+      background-color: #F5EFE6;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(30, 58, 95, 0.06), 0 4px 12px rgba(30, 58, 95, 0.04);
+      border: 1px solid rgba(30, 58, 95, 0.08);
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 240px 340px 1fr;
+      min-height: calc(100vh - 100px);
+      overflow: hidden;
+    }
+    .left-panel, .middle-panel, .right-panel {
+      overflow: visible;
+      padding: 20px;
+    }
+    .left-panel, .middle-panel {
+      border-right: 1px solid rgba(30, 58, 95, 0.12);
+    }
+
+    /* ---------- Panel headings ---------- */
+    .panel-heading {
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(30, 58, 95, 0.65);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin: 0 0 12px 0;
+    }
+    .panel-heading:not(:first-of-type) {
+      margin-top: 24px;
+    }
+
+    /* ---------- Left panel: Books ---------- */
+    .series-heading {
+      font-size: 10px;
+      font-weight: 700;
+      color: rgba(30, 58, 95, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin: 16px 0 6px 0;
+      padding-left: 8px;
+    }
+    .series-heading:first-child { margin-top: 0; }
+    .books-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .books-list li {
+      padding: 10px 12px;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-bottom: 3px;
+      font-size: 14px;
+      color: #1E3A5F;
+      transition: background-color 0.15s;
+    }
+    .books-list li:hover {
+      background-color: rgba(30, 58, 95, 0.06);
+    }
+    .books-list li.selected {
+      background-color: rgba(30, 58, 95, 0.12);
+      font-weight: 600;
+    }
+
+    /* ---------- Middle panel: overall progress ---------- */
+    .progress-summary {
+      font-size: 13px;
+      line-height: 1.9;
+    }
+    .progress-summary .total-line {
+      font-weight: 600;
+      color: #1E3A5F;
+      margin-bottom: 6px;
+    }
+    .progress-summary .progress-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(30, 58, 95, 0.85);
+    }
+    .progress-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .progress-dot.L0 { background-color: #DB5858; }
+    .progress-dot.L1 { background-color: #FA961B; }
+    .progress-dot.L2 { background-color: #EFBE4A; }
+    .progress-dot.L3 { background-color: #7BC780; }
+    .progress-dot.L4 { background-color: #5A9AD6; }
+    .review-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(30, 58, 95, 0.85);
+      margin-top: 6px;
+      padding-top: 6px;
+      border-top: 1px dashed rgba(30, 58, 95, 0.15);
+    }
+
+    /* ---------- Cross-chapter pool ---------- */
+    .cross-chapter-pool {
+      margin-top: 20px;
+    }
+    .cross-chapter-pool-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(30, 58, 95, 0.75);
+      margin-bottom: 8px;
+    }
+    .cross-chapter-pool-buttons,
+    .practice-pool-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .cross-pool-btn,
+    .pool-btn {
+      padding: 5px 12px;
+      cursor: pointer;
+      border-radius: 999px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      transition: opacity 0.15s;
+      border: 1px solid;
+    }
+    .cross-pool-btn:hover,
+    .pool-btn:hover { opacity: 0.85; }
+    .cross-pool-btn.source-L0, .pool-btn.source-L0 { background-color: #FDECEC; border-color: #DB5858; color: #DB5858; }
+    .cross-pool-btn.source-L1, .pool-btn.source-L1 { background-color: #FEF3E4; border-color: #FA961B; color: #FA961B; }
+    .cross-pool-btn.source-L2, .pool-btn.source-L2 { background-color: #FEF9E4; border-color: #EFBE4A; color: #C4952A; }
+    .cross-pool-btn.source-L3, .pool-btn.source-L3 { background-color: #EAF6EC; border-color: #7BC780; color: #4E9E5A; }
+    .cross-pool-btn.source-L4, .pool-btn.source-L4 { background-color: #E5EFF7; border-color: #5A9AD6; color: #5A9AD6; }
+
+    /* ---------- Chapter list ---------- */
+    .chapter-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .chapter-list li {
+      padding: 10px 12px;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-bottom: 4px;
+      color: #1E3A5F;
+      transition: background-color 0.15s;
+    }
+    .chapter-list li:hover { background-color: rgba(30, 58, 95, 0.06); }
+    .chapter-list li.selected {
+      background-color: rgba(30, 58, 95, 0.12);
+      font-weight: 600;
+    }
+    .chapter-title {
+      display: block;
+      font-size: 13px;
+    }
+    .chapter-meta {
+      display: block;
+      font-size: 11px;
+      color: rgba(30, 58, 95, 0.65);
+      margin-top: 2px;
+    }
+    .chapter-level-counts {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 4px 8px;
+      font-size: 11px;
+      color: rgba(30, 58, 95, 0.75);
+      margin-top: 4px;
+    }
+    .chapter-level-count-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    /* ---------- Right panel ---------- */
+    .right-panel {
+      padding: 0;
+    }
+    .empty-message {
+      color: rgba(30, 58, 95, 0.55);
+      font-style: italic;
+      padding: 20px;
+    }
+
+    /* ---------- Right panel content wrapper ---------- */
+    .right-panel-inner {
+      padding: 20px;
+    }
+
+    /* ---------- Sticky right-panel top ---------- */
+    .right-sticky-top {
+      background-color: #F5EFE6;
+      padding: 20px 20px 12px 20px;
+    }
+
+    /* ---------- Chapter header ---------- */
+    .chapter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 20px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .chapter-header h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+      color: #1E3A5F;
+      letter-spacing: -0.01em;
+    }
+    .show-passages-link {
+      font-size: 13px;
+      text-decoration: none;
+      color: #5A9AD6;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid #5A9AD6;
+      background-color: rgba(90, 154, 214, 0.08);
+      font-weight: 500;
+      transition: background-color 0.15s;
+    }
+    .show-passages-link:hover { background-color: rgba(90, 154, 214, 0.18); }
+
+    /* ---------- Practice pool ---------- */
+    .practice-pool {
+      margin-bottom: 14px;
+    }
+    .practice-pool-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(30, 58, 95, 0.65);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+
+    /* ---------- Bulk action bar ---------- */
+    .bulk-action-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      padding: 10px 12px;
+      background-color: rgba(30, 58, 95, 0.04);
+      border-radius: 8px;
+    }
+    .bulk-action-label {
+      font-size: 12px;
+      color: rgba(30, 58, 95, 0.75);
+      font-weight: 600;
+      margin-right: 4px;
+    }
+    .bulk-btn {
+      padding: 4px 10px;
+      cursor: pointer;
+      border-radius: 999px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid;
+      transition: opacity 0.15s;
+    }
+    .bulk-btn:hover { opacity: 0.88; }
+    .bulk-btn.level-L0 { background-color: #FDECEC; border-color: #DB5858; color: #DB5858; }
+    .bulk-btn.level-L1 { background-color: #FEF3E4; border-color: #FA961B; color: #FA961B; }
+    .bulk-btn.level-L2 { background-color: #FEF9E4; border-color: #EFBE4A; color: #C4952A; }
+    .bulk-btn.level-L3 { background-color: #EAF6EC; border-color: #7BC780; color: #4E9E5A; }
+    .bulk-btn.level-L4 { background-color: #E5EFF7; border-color: #5A9AD6; color: #5A9AD6; }
+    .bulk-btn.review {
+      background-color: rgba(30, 58, 95, 0.06);
+      border-color: rgba(30, 58, 95, 0.3);
+      color: #1E3A5F;
+    }
+
+    /* ---------- Vocab table ---------- */
+    .vocab-table-wrapper {
+      padding: 0 20px 20px 20px;
+    }
+    .vocab-table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed;
+    }
+    .vocab-table th, .vocab-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(30, 58, 95, 0.1);
+      vertical-align: middle;
+      box-sizing: border-box;
+    }
+    .vocab-table tbody td {
+      background-color: #FAF6EE;
+    }
+    .vocab-table thead tr:not(.filter-row) th {
+      background-color: rgba(30, 58, 95, 0.08);
+      font-weight: 700;
+      font-size: 11px;
+      color: rgba(30, 58, 95, 0.75);
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .vocab-table thead tr:not(.filter-row) th:first-child,
+    .vocab-table thead tr:not(.filter-row) th:last-child {
+      text-align: left;
+    }
+    .vocab-table thead tr.filter-row td {
+      background-color: rgba(30, 58, 95, 0.05);
+      padding: 8px 12px;
+      border-bottom: 1px solid rgba(30, 58, 95, 0.12);
+    }
+    .vocab-table col.col-word, .vocab-table th:nth-child(1), .vocab-table td.col-word,
+      .vocab-table tr.filter-row td:nth-child(1) { width: 200px; }
+    .vocab-table col.col-level, .vocab-table th:nth-child(2), .vocab-table td.col-level,
+      .vocab-table tr.filter-row td:nth-child(2) { width: 150px; text-align: center; }
+    .vocab-table col.col-practice, .vocab-table th:nth-child(3), .vocab-table td.col-practice,
+      .vocab-table tr.filter-row td:nth-child(3) { width: 100px; text-align: center; }
+    .vocab-table col.col-details, .vocab-table th:nth-child(4), .vocab-table td.col-details,
+      .vocab-table tr.filter-row td:nth-child(4) { width: 150px; text-align: center; }
+    .vocab-table col.col-audio-m, .vocab-table th:nth-child(5), .vocab-table td.col-audio-m,
+      .vocab-table tr.filter-row td:nth-child(5) { width: 100px; text-align: center; }
+    .vocab-table col.col-audio-c, .vocab-table th:nth-child(6), .vocab-table td.col-audio-c,
+      .vocab-table tr.filter-row td:nth-child(6) { width: 100px; text-align: center; }
+    .vocab-table col.col-reviewed, .vocab-table th:nth-child(7), .vocab-table td.col-reviewed,
+      .vocab-table tr.filter-row td:nth-child(7) { width: 140px; text-align: center; }
+    .vocab-table th:nth-child(8), .vocab-table td.col-comment,
+      .vocab-table tr.filter-row td:nth-child(8) { width: auto; min-width: 140px; }
+
+    .vocab-word {
+      font-size: 18px;
+      font-family: 'Noto Sans TC', 'Inter', system-ui, sans-serif;
+      color: #1E3A5F;
+    }
+
+    /* ---------- Filter dropdowns ---------- */
+    .filter-select {
+      padding: 4px 8px;
+      font-size: 12px;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      border-radius: 6px;
+      background: #F5EFE6;
+      cursor: pointer;
+      color: #1E3A5F;
+      font-family: inherit;
+    }
+    .filter-select:focus { outline: 2px solid rgba(30, 58, 95, 0.3); outline-offset: 1px; }
+    .clear-filters-btn {
+      padding: 4px 10px;
+      font-size: 12px;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      border-radius: 6px;
+      background-color: #F5EFE6;
+      cursor: pointer;
+      font-family: inherit;
+      color: #1E3A5F;
+    }
+    .clear-filters-btn:hover { background-color: rgba(30, 58, 95, 0.06); }
+
+    /* ---------- Level dropdown pills ---------- */
+    .level-select {
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      border: 1px solid rgba(30, 58, 95, 0.15);
+      cursor: pointer;
+      font-family: inherit;
+      background-color: rgba(30, 58, 95, 0.08);
+      color: #333;
+      appearance: menulist;
+      font-weight: 500;
+    }
+    .level-select:focus { outline: 2px solid rgba(30, 58, 95, 0.3); outline-offset: 1px; }
+    .level-select.level-L0 { background-color: #FDECEC; color: #DB5858; }
+    .level-select.level-L1 { background-color: #FEF3E4; color: #FA961B; }
+    .level-select.level-L2 { background-color: #FEF9E4; color: #C4952A; }
+    .level-select.level-L3 { background-color: #EAF6EC; color: #4E9E5A; }
+    .level-select.level-L4 { background-color: #E5EFF7; color: #5A9AD6; }
+
+    /* ---------- Small buttons ---------- */
+    .details-btn, .audio-btn {
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #1E3A5F;
+      font-family: inherit;
+      transition: background-color 0.15s;
+    }
+    .details-btn:hover, .audio-btn:hover:not(:disabled) {
+      background-color: rgba(30, 58, 95, 0.06);
+    }
+    .details-btn:disabled, .audio-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* ---------- Details expansion row ---------- */
+    .details-row { display: none; }
+    .details-row.expanded { display: table-row; }
+    .details-row td {
+      padding: 16px 20px !important;
+      background-color: #EFE6D3 !important;
+      border-bottom: 1px solid rgba(30, 58, 95, 0.1);
+    }
+    .details-card {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .details-header-row {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 6px 16px;
+      font-size: 14px;
+    }
+    .details-header-row dt { font-weight: 700; color: rgba(30, 58, 95, 0.75); margin: 0; }
+    .details-header-row dd { margin: 0; color: #1E3A5F; }
+
+    .details-compare-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      border-top: 1px solid rgba(30, 58, 95, 0.15);
+      padding-top: 14px;
+    }
+    .details-compare-col h4 {
+      margin: 0 0 6px 0;
+      font-size: 11px;
+      color: rgba(30, 58, 95, 0.65);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 700;
+    }
+    .details-compare-col .compare-word {
+      font-size: 18px;
+      color: #1E3A5F;
+      margin-bottom: 8px;
+      font-family: 'Noto Sans TC', 'Inter', system-ui, sans-serif;
+    }
+    .details-compare-col .compare-sentence {
+      font-size: 14px;
+      color: rgba(30, 58, 95, 0.85);
+      line-height: 1.7;
+      font-family: 'Noto Sans TC', 'Inter', system-ui, sans-serif;
+    }
+
+    .details-sentence-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      border-top: 1px solid rgba(30, 58, 95, 0.15);
+      padding-top: 14px;
+    }
+    .details-sentence-label {
+      font-weight: 700;
+      color: rgba(30, 58, 95, 0.75);
+      font-size: 14px;
+      padding-top: 8px;
+      white-space: nowrap;
+    }
+    .own-sentence-input {
+      flex: 1;
+      padding: 8px 10px;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      border-radius: 6px;
+      font-family: 'Noto Sans TC', 'Inter', system-ui, sans-serif;
+      font-size: 14px;
+      resize: none;
+      overflow: hidden;
+      min-height: 36px;
+      line-height: 1.5;
+      background-color: #F5EFE6;
+      color: #1E3A5F;
+    }
+    .own-sentence-input:disabled {
+      background-color: rgba(30, 58, 95, 0.04);
+      color: rgba(30, 58, 95, 0.55);
+      cursor: not-allowed;
+    }
+
+    .comment-input {
+      width: 100%;
+      padding: 4px 8px;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 13px;
+      resize: none;
+      overflow: hidden;
+      min-height: 28px;
+      line-height: 1.4;
+      background-color: #F5EFE6;
+      color: #1E3A5F;
+    }
+
+    /* ---------- Toast ---------- */
+    .toast {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #F5EFE6;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+      pointer-events: none;
+      z-index: 1000;
+      font-weight: 500;
+    }
+    .toast.visible { opacity: 1; }
+    .toast.success { background-color: #155724; }
+    .toast.error { background-color: #721C24; }
+
+    .vocab-table td input[type="checkbox"] {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 1100px) {
+      .main-card {
+        grid-template-columns: 200px 300px 1fr;
       }
     }
-  </script>
-  <style>
-    body { margin: 0; font-family: system-ui, sans-serif; }
-    .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; background-color: #f4f4f4; }
-    .top-bar h1 { margin: 0; font-size: 20px; }
-    .top-bar .student-switcher { display: flex; align-items: center; gap: 8px; }
-
-    .main-body { display: grid; grid-template-columns: 220px 320px 1fr; min-height: calc(100vh - 60px); }
-    .left-panel, .middle-panel { border-right: 1px solid #ccc; padding: 15px; overflow-y: auto; }
-    .left-panel h2, .middle-panel h2 { font-size: 16px; margin-top: 0; margin-bottom: 10px; }
-    .left-panel h2:not(:first-of-type), .middle-panel h2:not(:first-of-type) { margin-top: 20px; }
-
-    .books-list { list-style: none; padding: 0; margin: 0; }
-    .books-list li { padding: 10px 12px; cursor: pointer; border-radius: 4px; margin-bottom: 4px; font-size: 14px; }
-    .books-list li:hover { background-color: #eef; }
-    .books-list li.selected { background-color: #dde; font-weight: bold; }
-
-    .progress-summary { font-size: 13px; line-height: 1.8; }
-    .progress-summary .total-line { font-weight: bold; margin-bottom: 6px; }
-
-    .chapter-list { list-style: none; padding: 0; margin: 0; }
-    .chapter-list li { padding: 8px 10px; cursor: pointer; border-radius: 4px; margin-bottom: 4px; }
-    .chapter-list li:hover { background-color: #eef; }
-    .chapter-list li.selected { background-color: #dde; font-weight: bold; }
-    .chapter-title { display: block; }
-    .chapter-meta { display: block; font-size: 12px; color: #666; margin-top: 2px; }
-    .chapter-level-counts { display: block; font-size: 11px; color: #555; margin-top: 3px; line-height: 1.5; }
-
-    .cross-chapter-pool { margin-top: 20px; font-size: 12px; }
-    .cross-chapter-pool-label { font-weight: bold; margin-bottom: 6px; color: #333; }
-    .cross-chapter-pool-buttons { display: flex; flex-wrap: wrap; gap: 6px; }
-    .cross-pool-btn { padding: 4px 8px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background-color: #fff; font-size: 12px; }
-    .cross-pool-btn:hover { background-color: #eef; }
-
-    .right-panel { padding: 20px; }
-    .empty-message { color: #888; font-style: italic; }
-
-    .chapter-header { display: flex; justify-content: flex-start; align-items: baseline; gap: 20px; margin-bottom: 15px; }
-    .chapter-header h2 { margin: 0; font-size: 18px; }
-    .show-passages-link { font-size: 14px; text-decoration: none; color: #0366d6; }
-    .show-passages-link:hover { text-decoration: underline; }
-
-    .practice-pool { margin-bottom: 20px; }
-    .practice-pool-label { font-weight: bold; margin-bottom: 6px; font-size: 14px; }
-    .practice-pool-buttons { display: flex; gap: 8px; }
-    .pool-btn { padding: 6px 12px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background-color: #fff; font-size: 14px; }
-    .pool-btn:hover { background-color: #eef; }
-
-    .bulk-action-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
-    .bulk-action-label { font-size: 13px; color: #555; font-weight: bold; }
-    .bulk-btn { padding: 5px 10px; cursor: pointer; border: 1px solid #999; border-radius: 4px; font-size: 13px; font-weight: bold; color: #333; }
-    .bulk-btn:hover { opacity: 0.85; }
-    .bulk-btn.level-L0 { background-color: #F8D8D8; color: #721C24; border-color: #DB5858; }
-    .bulk-btn.level-L1 { background-color: #FDE4C2; color: #6D3900; border-color: #FA961B; }
-    .bulk-btn.level-L2 { background-color: #FFF3CD; color: #856404; border-color: #EFBE4A; }
-    .bulk-btn.level-L3 { background-color: #D4EDDA; color: #155724; border-color: #7BC780; }
-    .bulk-btn.level-L4 { background-color: #D9E7F5; color: #1E3A5F; border-color: #5A9AD6; }
-    .bulk-btn.review { background-color: #fff; color: #333; }
-
-    .vocab-table { border-collapse: collapse; width: 100%; }
-    .vocab-table th, .vocab-table td { padding: 8px 12px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: middle; }
-    .vocab-table th { background-color: #f4f4f4; font-weight: bold; text-align: center; }
-    .vocab-table th:first-child, .vocab-table th:last-child { text-align: left; }
-    .vocab-table { table-layout: fixed; }
-    .vocab-table th, .vocab-table td { box-sizing: border-box; }
-    .vocab-table col.col-word,     .vocab-table th:nth-child(1), .vocab-table td.col-word,     .vocab-table tr.filter-row td:nth-child(1) { width: 200px; }
-    .vocab-table col.col-level,    .vocab-table th:nth-child(2), .vocab-table td.col-level,    .vocab-table tr.filter-row td:nth-child(2) { width: 150px; text-align: center; }
-    .vocab-table col.col-practice, .vocab-table th:nth-child(3), .vocab-table td.col-practice, .vocab-table tr.filter-row td:nth-child(3) { width: 100px;  text-align: center; }
-    .vocab-table col.col-details,  .vocab-table th:nth-child(4), .vocab-table td.col-details,  .vocab-table tr.filter-row td:nth-child(4) { width: 150px;  text-align: center; }
-    .vocab-table col.col-audio-m,  .vocab-table th:nth-child(5), .vocab-table td.col-audio-m,  .vocab-table tr.filter-row td:nth-child(5) { width: 100px;  text-align: center; }
-    .vocab-table col.col-audio-c,  .vocab-table th:nth-child(6), .vocab-table td.col-audio-c,  .vocab-table tr.filter-row td:nth-child(6) { width: 100px;  text-align: center; }
-    .vocab-table col.col-reviewed, .vocab-table th:nth-child(7), .vocab-table td.col-reviewed, .vocab-table tr.filter-row td:nth-child(7) { width: 150px;  text-align: center; }
-    .vocab-table col.col-comment,  .vocab-table th:nth-child(8), .vocab-table td.col-comment,  .vocab-table tr.filter-row td:nth-child(8) { width: auto; }
-    .vocab-table tr.filter-row td { background-color: #fafafa; padding: 6px 10px; border-bottom: 1px solid #eee; }
-    .filter-select { padding: 3px 6px; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; background: #fff; cursor: pointer; }
-    .filter-select:focus { outline: 2px solid rgba(0, 122, 255, 0.3); outline-offset: 1px; }
-    .clear-filters-btn { padding: 3px 8px; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; background-color: #fff; cursor: pointer; }
-    .clear-filters-btn:hover { background-color: #eef; }
-
-    .vocab-word { font-size: 18px; }
-
-    .level-select {
-      padding: 3px 6px; border-radius: 10px; font-size: 12px;
-      border: 1px solid rgba(0,0,0,0.15); cursor: pointer;
-      font-family: inherit; background-color: #eee; color: #333;
-      appearance: menulist;
+    @media (max-width: 900px) {
+      .main-card {
+        grid-template-columns: 1fr;
+        margin: 12px;
+      }
+      .left-panel, .middle-panel {
+        border-right: none;
+        border-bottom: 1px solid rgba(30, 58, 95, 0.12);
+      }
     }
-    .level-select:focus { outline: 2px solid rgba(0, 122, 255, 0.3); outline-offset: 1px; }
-    .level-select.level-L0 { background-color: #F8D8D8; color: #721C24; }
-    .level-select.level-L1 { background-color: #FDE4C2; color: #6D3900; }
-    .level-select.level-L2 { background-color: #FFF3CD; color: #856404; }
-    .level-select.level-L3 { background-color: #D4EDDA; color: #155724; }
-    .level-select.level-L4 { background-color: #D9E7F5; color: #1E3A5F; }
-
-    .details-btn, .audio-btn {
-      cursor: pointer; background: none; border: 1px solid #ccc;
-      padding: 4px 8px; border-radius: 4px; font-size: 14px;
-    }
-    .details-btn:hover, .audio-btn:hover { background-color: #eef; }
-
-    .details-row { display: none; background-color: #fafafa; }
-    .details-row.expanded { display: table-row; }
-    .details-row td { padding: 14px 20px; border-bottom: 1px solid #ddd; }
-
-    .details-card { display: flex; flex-direction: column; gap: 12px; }
-    .details-header-row { display: grid; grid-template-columns: 100px 1fr; gap: 6px 16px; font-size: 14px; }
-    .details-header-row dt { font-weight: bold; color: #555; margin: 0; }
-    .details-header-row dd { margin: 0; color: #333; }
-
-    .details-compare-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; border-top: 1px solid #ddd; padding-top: 10px; }
-    .details-compare-col h4 { margin: 0 0 6px 0; font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
-    .details-compare-col .compare-word { font-size: 18px; color: #333; margin-bottom: 8px; }
-    .details-compare-col .compare-sentence { font-size: 14px; color: #555; line-height: 1.6; }
-
-    .details-sentence-row { display: flex; align-items: flex-start; gap: 10px; border-top: 1px solid #ddd; padding-top: 10px; }
-    .details-sentence-label { font-weight: bold; color: #555; font-size: 14px; padding-top: 6px; white-space: nowrap; }
-    .own-sentence-input { flex: 1; padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px; resize: none; overflow: hidden; min-height: 32px; line-height: 1.4; }
-    .own-sentence-input:disabled { background-color: #f0f0f0; color: #666; cursor: not-allowed; }
-
-    .comment-input { width: 100%; padding: 4px 6px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 13px; resize: none; overflow: hidden; min-height: 28px; line-height: 1.4; }
-
-    .toast { position: fixed; top: 15px; right: 20px; padding: 8px 16px; border-radius: 4px; font-size: 13px; color: #fff; opacity: 0; transition: opacity 0.2s ease-in-out; pointer-events: none; z-index: 1000; }
-    .toast.visible { opacity: 1; }
-    .toast.success { background-color: #28a745; }
-    .toast.error { background-color: #dc3545; }
-
-    .vocab-table td input[type="checkbox"] { cursor: pointer; transform: scale(1.2); }
   </style>
 </head>
 <body>
 
   <div class="top-bar">
-    <div style="display:flex;align-items:center;gap:10px;">
+    <div class="top-bar-brand">
       <img src="favicon.png" alt="" style="height:32px;width:32px;border-radius:6px;">
       <h1>Chinese iGCSE Vocabulary Trainer</h1>
     </div>
@@ -177,13 +636,13 @@
     </div>
   </div>
 
-  <div class="main-body">
+  <div class="main-card">
 
     <div class="left-panel">
-      <h2>Books</h2>
-      <ul id="books-list" class="books-list">
-        <li class="empty-message">Loading books...</li>
-      </ul>
+      <h2 class="panel-heading">Books</h2>
+      <div id="books-list-container">
+        <p class="empty-message">Loading books...</p>
+      </div>
     </div>
 
     <div class="middle-panel">
@@ -213,20 +672,20 @@
     // ------------------------------------------------------------------
     const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
-      L0: { emoji: '🔴', label: 'L0 Discover' },
-      L1: { emoji: '🟠', label: 'L1 Read' },
-      L2: { emoji: '🟡', label: 'L2 Listen' },
-      L3: { emoji: '🟢', label: 'L3 Usage' },
-      L4: { emoji: '🔵', label: 'L4 Write' },
+      L0: { label: 'L0 Discover' },
+      L1: { label: 'L1 Read' },
+      L2: { label: 'L2 Listen' },
+      L3: { label: 'L3 Usage' },
+      L4: { label: 'L4 Write' },
     };
-    const REVIEW_EMOJI = '📝';
+    const REVIEW_LABEL = 'Review';
 
     // ------------------------------------------------------------------
     // Global state
     // ------------------------------------------------------------------
     let studentProgress = {};
     let studentExcluded = [];
-    let studentSentences = {};   // NEW (M8.3c-3c): { wordId: {text, reviewed, comment} }
+    let studentSentences = {};
     let allBooks = [];
     let currentBookId = null;
     let bookVocab = {};
@@ -234,10 +693,8 @@
     let currentChapterId = null;
     let currentAudio = null;
 
-    // Session-persistent filters (M8.3c-3c). Reset only on page refresh.
     let levelFilter = 'all';
     let reviewFilter = 'all';
-    // Session-persistent details expansion state per word. Independent of filters.
     let expandedWordIds = new Set();
 
     // ------------------------------------------------------------------
@@ -267,7 +724,7 @@
     });
 
     // ------------------------------------------------------------------
-    // Helpers
+    // Helpers (level, exclusion, review)
     // ------------------------------------------------------------------
     function getLevelForWord(wordId) {
       return studentProgress[wordId] || 'L0';
@@ -323,7 +780,6 @@
       return all;
     }
 
-    // Apply level + review filters. Returns filtered array.
     function applyFilters(vocab) {
       return vocab.filter(word => {
         if (levelFilter !== 'all' && getLevelForWord(word.id) !== levelFilter) return false;
@@ -408,7 +864,7 @@
     }
 
     // ------------------------------------------------------------------
-    // Toast notifications
+    // Toast
     // ------------------------------------------------------------------
     let toastTimer = null;
     function showToast(message, type) {
@@ -418,9 +874,8 @@
       if (toastTimer) clearTimeout(toastTimer);
       toastTimer = setTimeout(() => { toast.classList.remove('visible'); }, 2000);
     }
-
-    // ------------------------------------------------------------------
-    // Firestore write helpers
+// ------------------------------------------------------------------
+    // Firestore writes
     // ------------------------------------------------------------------
     async function updateWordLevel(wordId, newLevel, selectEl, oldLevel) {
       try {
@@ -641,42 +1096,46 @@
       });
     }
 
-    function renderChapterDetailFromCurrent() {
-      if (!currentChapterId) return;
-      const chapter = (bookChapters[currentBookId] || []).find(c => c.id === currentChapterId);
-      if (!chapter) return;
-      renderChapterDetail({
-        chapterId: chapter.id,
-        chapterTitle: chapter.title,
-        vocab: (bookVocab[currentBookId] || {})[chapter.id] || [],
-      });
-    }
-
     // ------------------------------------------------------------------
-    // Auto-resize textarea helper
-    // ------------------------------------------------------------------
-    function autoResizeTextarea(el) {
-      el.style.height = 'auto';
-      el.style.height = el.scrollHeight + 'px';
-    }
-
-    // ------------------------------------------------------------------
-    // Left panel: Books list
+    // Left panel: Books list with series grouping
     // ------------------------------------------------------------------
     function renderBooksList() {
-      const listEl = document.getElementById('books-list');
-      listEl.innerHTML = '';
+      const containerEl = document.getElementById('books-list-container');
+      containerEl.innerHTML = '';
+
       if (allBooks.length === 0) {
-        listEl.innerHTML = '<li class="empty-message">No books registered yet.</li>';
+        containerEl.innerHTML = '<p class="empty-message">No books registered yet.</p>';
         return;
       }
+
+      // Group books by series
+      const seriesGroups = new Map();
       allBooks.forEach(book => {
-        const li = document.createElement('li');
-        li.dataset.bookId = book.id;
-        li.textContent = book.title;
-        if (book.id === currentBookId) li.classList.add('selected');
-        li.addEventListener('click', () => selectBook(book.id));
-        listEl.appendChild(li);
+        const seriesKey = book.series || 'Other';
+        if (!seriesGroups.has(seriesKey)) seriesGroups.set(seriesKey, []);
+        seriesGroups.get(seriesKey).push(book);
+      });
+
+      seriesGroups.forEach((booksInSeries, seriesName) => {
+        // Series heading
+        const heading = document.createElement('div');
+        heading.className = 'series-heading';
+        heading.textContent = seriesName;
+        containerEl.appendChild(heading);
+
+        const ul = document.createElement('ul');
+        ul.className = 'books-list';
+
+        booksInSeries.forEach(book => {
+          const li = document.createElement('li');
+          li.dataset.bookId = book.id;
+          li.textContent = book.title;
+          if (book.id === currentBookId) li.classList.add('selected');
+          li.addEventListener('click', () => selectBook(book.id));
+          ul.appendChild(li);
+        });
+
+        containerEl.appendChild(ul);
       });
     }
 
@@ -687,16 +1146,12 @@
       currentBookId = bookId;
       currentChapterId = null;
 
-      document.querySelectorAll('#books-list li').forEach(li => {
+      document.querySelectorAll('#books-list-container li').forEach(li => {
         li.classList.toggle('selected', li.dataset.bookId === bookId);
       });
 
-      if (!bookChapters[bookId]) {
-        await loadChaptersIndexForBook(bookId);
-      }
-      if (!bookVocab[bookId]) {
-        await loadAllChapterVocabForBook(bookId);
-      }
+      if (!bookChapters[bookId]) await loadChaptersIndexForBook(bookId);
+      if (!bookVocab[bookId]) await loadAllChapterVocabForBook(bookId);
 
       renderBookContent();
       renderRightPanelEmpty();
@@ -708,6 +1163,7 @@
         const found = chapters.find(c => c.id === preselectChapterId);
         if (found) {
           chapterToSelect = found;
+          console.log('Auto-selected chapter from URL:', preselectChapterId);
         } else {
           console.log('URL chapter param "' + preselectChapterId + '" not valid for book ' + bookId + '; falling back to first chapter.');
         }
@@ -715,6 +1171,7 @@
 
       if (!chapterToSelect && chapters.length > 0) {
         chapterToSelect = chapters[0];
+        console.log('Auto-selected first chapter of book ' + bookId + ':', chapterToSelect.id);
       }
 
       if (chapterToSelect) {
@@ -740,6 +1197,7 @@
       }
 
       const progressHeading = document.createElement('h2');
+      progressHeading.className = 'panel-heading';
       progressHeading.textContent = 'Overall Progress';
       container.appendChild(progressHeading);
 
@@ -756,6 +1214,7 @@
       renderCrossChapterPool();
 
       const chaptersHeading = document.createElement('h2');
+      chaptersHeading.className = 'panel-heading';
       chaptersHeading.textContent = 'Chapters';
       container.appendChild(chaptersHeading);
 
@@ -783,13 +1242,19 @@
 
       LEVEL_ORDER.forEach(level => {
         const line = document.createElement('div');
-        const meta = LEVEL_META[level];
-        line.textContent = meta.emoji + ' ' + meta.label + ': ' + counts[level];
+        line.className = 'progress-line';
+        const dot = document.createElement('span');
+        dot.className = 'progress-dot ' + level;
+        const text = document.createElement('span');
+        text.textContent = LEVEL_META[level].label + ': ' + counts[level];
+        line.appendChild(dot);
+        line.appendChild(text);
         summaryEl.appendChild(line);
       });
 
       const reviewLine = document.createElement('div');
-      reviewLine.textContent = REVIEW_EMOJI + ' Review: ' + reviewed;
+      reviewLine.className = 'review-line';
+      reviewLine.textContent = '\ud83d\udcdd ' + REVIEW_LABEL + ': ' + reviewed;
       summaryEl.appendChild(reviewLine);
     }
 
@@ -821,7 +1286,7 @@
 
       CROSS_POOL.forEach(cfg => {
         const btn = document.createElement('button');
-        btn.className = 'cross-pool-btn';
+        btn.className = 'cross-pool-btn source-' + cfg.sourceLevel;
         btn.dataset.sourceLevel = cfg.sourceLevel;
         btn.dataset.targetLevel = cfg.targetLevel;
         btn.textContent = cfg.label + ' (' + counts[cfg.sourceLevel] + ')';
@@ -866,11 +1331,25 @@
         meta.className = 'chapter-meta';
         meta.textContent = ch.wordCount + ' words';
 
-        const levelCounts = document.createElement('span');
+        const levelCounts = document.createElement('div');
         levelCounts.className = 'chapter-level-counts';
-        const parts = LEVEL_ORDER.map(l => LEVEL_META[l].emoji + ' ' + counts[l]);
-        parts.push(REVIEW_EMOJI + ' ' + reviewed);
-        levelCounts.textContent = parts.join('  ');
+        LEVEL_ORDER.forEach(l => {
+          const item = document.createElement('span');
+          item.className = 'chapter-level-count-item';
+          const dot = document.createElement('span');
+          dot.className = 'progress-dot ' + l;
+          dot.style.width = '8px';
+          dot.style.height = '8px';
+          const num = document.createElement('span');
+          num.textContent = counts[l];
+          item.appendChild(dot);
+          item.appendChild(num);
+          levelCounts.appendChild(item);
+        });
+        const reviewItem = document.createElement('span');
+        reviewItem.className = 'chapter-level-count-item';
+        reviewItem.textContent = '\ud83d\udcdd ' + reviewed;
+        levelCounts.appendChild(reviewItem);
 
         li.appendChild(title);
         li.appendChild(meta);
@@ -880,7 +1359,6 @@
         listEl.appendChild(li);
       });
     }
-
     // ------------------------------------------------------------------
     // Right panel: Chapter detail
     // ------------------------------------------------------------------
@@ -901,6 +1379,17 @@
       });
     }
 
+    function renderChapterDetailFromCurrent() {
+      if (!currentChapterId) return;
+      const chapter = (bookChapters[currentBookId] || []).find(c => c.id === currentChapterId);
+      if (!chapter) return;
+      renderChapterDetail({
+        chapterId: chapter.id,
+        chapterTitle: chapter.title,
+        vocab: (bookVocab[currentBookId] || {})[chapter.id] || [],
+      });
+    }
+
     function handlePracticePoolClick(targetLevel, chapterId) {
       window.location.href = 'exercise.html?level=' + targetLevel +
         '&book=' + encodeURIComponent(currentBookId) +
@@ -908,39 +1397,70 @@
         '&student=' + encodeURIComponent(student);
     }
 
+    function autoResizeTextarea(el) {
+      el.style.height = 'auto';
+      el.style.height = el.scrollHeight + 'px';
+    }
+
+    function confirmBulk(message) {
+      return window.confirm(message);
+    }
+
+    function handleBulkLevelClick(level, chapterData) {
+      const filtered = applyFilters(chapterData.vocab);
+      if (filtered.length === 0) {
+        showToast('No filtered words to update.', 'error');
+        return;
+      }
+      const msg = 'Set ' + filtered.length + ' word(s) to ' + LEVEL_META[level].label + '?';
+      if (!confirmBulk(msg)) return;
+      bulkSetLevel(filtered.map(w => w.id), level);
+    }
+
+    function handleBulkReviewClick(chapterData) {
+      const filtered = applyFilters(chapterData.vocab);
+      if (filtered.length === 0) {
+        showToast('No filtered words to update.', 'error');
+        return;
+      }
+      const msg = 'Mark ' + filtered.length + ' word(s) as reviewed?';
+      if (!confirmBulk(msg)) return;
+      bulkMarkReviewed(filtered.map(w => w.id));
+    }
+
     function renderChapterDetail(chapterData) {
       const rightEl = document.getElementById('right-panel-content');
       rightEl.innerHTML = '';
 
+      // ---- Sticky top section ----
+      const stickyTop = document.createElement('div');
+      stickyTop.className = 'right-sticky-top';
+
+      // Chapter header
       const header = document.createElement('div');
       header.className = 'chapter-header';
-
       const h2 = document.createElement('h2');
       h2.textContent = 'Chapter ' + chapterData.chapterId + ': ' + chapterData.chapterTitle;
       header.appendChild(h2);
-
       const passagesLink = document.createElement('a');
       passagesLink.className = 'show-passages-link';
-      passagesLink.textContent = '📖 Show Passages';
+      passagesLink.textContent = '\ud83d\udcd6 Show Passages';
       passagesLink.href = 'passages.html?book=' + encodeURIComponent(currentBookId) +
                           '&chapter=' + encodeURIComponent(chapterData.chapterId) +
                           '&student=' + encodeURIComponent(student);
       header.appendChild(passagesLink);
+      stickyTop.appendChild(header);
 
-      rightEl.appendChild(header);
-
+      // Practice pool
       const chapterCounts = computePoolCounts(chapterData.vocab);
       const practicePool = document.createElement('div');
       practicePool.className = 'practice-pool';
-
       const label = document.createElement('div');
       label.className = 'practice-pool-label';
-      label.textContent = 'Practice Pool:';
+      label.textContent = 'Practice Pool';
       practicePool.appendChild(label);
-
-      const btnRow = document.createElement('div');
-      btnRow.className = 'practice-pool-buttons';
-
+      const poolBtnRow = document.createElement('div');
+      poolBtnRow.className = 'practice-pool-buttons';
       const POOL_BUTTONS = [
         { label: 'L0\u2192L1', sourceLevel: 'L0', targetLevel: 'L1' },
         { label: 'L1\u2192L2', sourceLevel: 'L1', targetLevel: 'L2' },
@@ -948,67 +1468,66 @@
         { label: 'L3\u2192L4', sourceLevel: 'L3', targetLevel: 'L4' },
         { label: '\ud83d\udd04 L4', sourceLevel: 'L4', targetLevel: 'L4R' },
       ];
-
       POOL_BUTTONS.forEach(cfg => {
         const btn = document.createElement('button');
-        btn.className = 'pool-btn';
+        btn.className = 'pool-btn source-' + cfg.sourceLevel;
         btn.dataset.sourceLevel = cfg.sourceLevel;
         btn.dataset.targetLevel = cfg.targetLevel;
         btn.textContent = cfg.label + ' (' + chapterCounts[cfg.sourceLevel] + ')';
         btn.addEventListener('click', () => handlePracticePoolClick(cfg.targetLevel, chapterData.chapterId));
-        btnRow.appendChild(btn);
+        poolBtnRow.appendChild(btn);
       });
+      practicePool.appendChild(poolBtnRow);
+      stickyTop.appendChild(practicePool);
 
-      practicePool.appendChild(btnRow);
-      rightEl.appendChild(practicePool);
-
-      // Bulk action bar (M8.3c-3c)
+      // Bulk action bar
       const bulkBar = document.createElement('div');
       bulkBar.className = 'bulk-action-bar';
       const bulkLabel = document.createElement('span');
       bulkLabel.className = 'bulk-action-label';
       bulkLabel.textContent = 'Bulk actions on filtered words:';
       bulkBar.appendChild(bulkLabel);
-
       LEVEL_ORDER.forEach(level => {
         const btn = document.createElement('button');
         btn.className = 'bulk-btn level-' + level;
-        btn.textContent = LEVEL_META[level].emoji + ' Set ' + level;
+        btn.textContent = 'Set ' + level;
         btn.addEventListener('click', () => handleBulkLevelClick(level, chapterData));
         bulkBar.appendChild(btn);
       });
-
       const reviewBtn = document.createElement('button');
       reviewBtn.className = 'bulk-btn review';
-      reviewBtn.textContent = REVIEW_EMOJI + ' Mark Reviewed';
+      reviewBtn.textContent = '\ud83d\udcdd Mark Reviewed';
       reviewBtn.addEventListener('click', () => handleBulkReviewClick(chapterData));
       bulkBar.appendChild(reviewBtn);
+      stickyTop.appendChild(bulkBar);
 
-      rightEl.appendChild(bulkBar);
+      rightEl.appendChild(stickyTop);
 
-      // Vocab table
+      // ---- Vocab table wrapper ----
+      const tableWrapper = document.createElement('div');
+      tableWrapper.className = 'vocab-table-wrapper';
+
       const filteredVocab = applyFilters(chapterData.vocab);
 
       const table = document.createElement('table');
       table.className = 'vocab-table';
 
-      // Filter row
       const thead = document.createElement('thead');
+
+      // Filter row
       const filterRow = document.createElement('tr');
       filterRow.className = 'filter-row';
 
-      // Word column: empty
       filterRow.appendChild(document.createElement('td'));
 
-      // Level filter
       const tdLevelFilter = document.createElement('td');
       const levelSelect = document.createElement('select');
       levelSelect.className = 'filter-select';
-      const levelOptions = [['all', 'All levels']].concat(LEVEL_ORDER.map(l => [l, LEVEL_META[l].emoji + ' ' + l]));
-      levelOptions.forEach(([val, label]) => {
+      const levelOptions = [['all', 'All levels']].concat(LEVEL_ORDER.map(l => [l, LEVEL_META[l].label]));
+      levelOptions.forEach(([val, labelText]) => {
         const opt = document.createElement('option');
         opt.value = val;
-        opt.textContent = label;
+        opt.textContent = labelText;
         if (val === levelFilter) opt.selected = true;
         levelSelect.appendChild(opt);
       });
@@ -1019,47 +1538,39 @@
       tdLevelFilter.appendChild(levelSelect);
       filterRow.appendChild(tdLevelFilter);
 
-      // Practice action dropdown
       const tdPracticeAction = document.createElement('td');
       const practiceSelect = document.createElement('select');
       practiceSelect.className = 'filter-select';
-      const practiceOpts = [
+      [
         ['', 'Actions\u2026'],
         ['include', 'Include All'],
         ['exclude', 'Exclude All'],
-      ];
-      practiceOpts.forEach(([val, label]) => {
+      ].forEach(([val, labelText]) => {
         const opt = document.createElement('option');
         opt.value = val;
-        opt.textContent = label;
+        opt.textContent = labelText;
         practiceSelect.appendChild(opt);
       });
       practiceSelect.addEventListener('change', () => {
         const val = practiceSelect.value;
-        if (val === 'include') {
-          includeAllInPractice(filteredVocab);
-        } else if (val === 'exclude') {
-          excludeAllFromPractice(filteredVocab);
-        }
+        if (val === 'include') includeAllInPractice(filteredVocab);
+        else if (val === 'exclude') excludeAllFromPractice(filteredVocab);
         practiceSelect.value = '';
       });
-
       tdPracticeAction.appendChild(practiceSelect);
       filterRow.appendChild(tdPracticeAction);
 
-      // Details action dropdown
       const tdDetailsAction = document.createElement('td');
       const detailsSelect = document.createElement('select');
       detailsSelect.className = 'filter-select';
-      const detailsOpts = [
+      [
         ['', 'Actions\u2026'],
         ['show', 'Show All'],
         ['hide', 'Hide All'],
-      ];
-      detailsOpts.forEach(([val, label]) => {
+      ].forEach(([val, labelText]) => {
         const opt = document.createElement('option');
         opt.value = val;
-        opt.textContent = label;
+        opt.textContent = labelText;
         detailsSelect.appendChild(opt);
       });
       detailsSelect.addEventListener('change', () => {
@@ -1071,24 +1582,21 @@
       tdDetailsAction.appendChild(detailsSelect);
       filterRow.appendChild(tdDetailsAction);
 
-      // Audio (M) and (C): empty
       filterRow.appendChild(document.createElement('td'));
       filterRow.appendChild(document.createElement('td'));
 
-      // Reviewed filter
       const tdReviewFilter = document.createElement('td');
       const reviewSelect = document.createElement('select');
       reviewSelect.className = 'filter-select';
-      const reviewOpts = [
+      [
         ['all', 'All'],
-        ['reviewed', REVIEW_EMOJI + ' Reviewed'],
+        ['reviewed', '\ud83d\udcdd Reviewed'],
         ['awaiting', 'Awaiting review'],
         ['none', 'No sentence yet'],
-      ];
-      reviewOpts.forEach(([val, label]) => {
+      ].forEach(([val, labelText]) => {
         const opt = document.createElement('option');
         opt.value = val;
-        opt.textContent = label;
+        opt.textContent = labelText;
         if (val === reviewFilter) opt.selected = true;
         reviewSelect.appendChild(opt);
       });
@@ -1099,11 +1607,10 @@
       tdReviewFilter.appendChild(reviewSelect);
       filterRow.appendChild(tdReviewFilter);
 
-      // Comment column: Clear filters button
       const tdClearFilters = document.createElement('td');
       const clearBtn = document.createElement('button');
       clearBtn.className = 'clear-filters-btn';
-      clearBtn.textContent = '🗑 Clear filters';
+      clearBtn.textContent = '\ud83d\uddd1 Clear filters';
       clearBtn.addEventListener('click', () => {
         levelFilter = 'all';
         reviewFilter = 'all';
@@ -1115,17 +1622,17 @@
       thead.appendChild(filterRow);
 
       // Header row
-      const headerRow = document.createElement('tr');
       const HEADERS = [
         { text: 'Word' },
         { text: 'Level' },
         { text: 'Practice' },
         { text: 'Details' },
-        { text: 'Mardarin', title: 'Audio (Mandarin)' },
+        { text: 'Mandarin', title: 'Audio (Mandarin)' },
         { text: 'Cantonese', title: 'Audio (Cantonese)' },
         { text: 'Reviewed' },
         { text: 'Comment' },
       ];
+      const headerRow = document.createElement('tr');
       HEADERS.forEach(cfg => {
         const th = document.createElement('th');
         th.textContent = cfg.text;
@@ -1141,13 +1648,11 @@
         const row = document.createElement('tr');
         row.dataset.wordId = word.id;
 
-        // Word cell
         const tdWord = document.createElement('td');
         tdWord.className = 'col-word vocab-word';
         tdWord.textContent = word.traditional;
         row.appendChild(tdWord);
 
-        // Level dropdown
         const tdLevel = document.createElement('td');
         tdLevel.className = 'col-level';
         const select = document.createElement('select');
@@ -1156,7 +1661,7 @@
         LEVEL_ORDER.forEach(level => {
           const opt = document.createElement('option');
           opt.value = level;
-          opt.textContent = LEVEL_META[level].emoji + ' ' + LEVEL_META[level].label;
+          opt.textContent = LEVEL_META[level].label;
           select.appendChild(opt);
         });
         const initialLevel = getLevelForWord(word.id);
@@ -1171,7 +1676,6 @@
         tdLevel.appendChild(select);
         row.appendChild(tdLevel);
 
-        // Practice checkbox
         const tdPractice = document.createElement('td');
         tdPractice.className = 'col-practice';
         const practiceCheckbox = document.createElement('input');
@@ -1185,22 +1689,20 @@
         tdPractice.appendChild(practiceCheckbox);
         row.appendChild(tdPractice);
 
-        // Details button
         const tdDetails = document.createElement('td');
         tdDetails.className = 'col-details';
         const detailsBtn = document.createElement('button');
         detailsBtn.className = 'details-btn';
-        detailsBtn.textContent = '👁 Details';
+        detailsBtn.textContent = '\ud83d\udc41 Details';
         detailsBtn.addEventListener('click', () => toggleRowDetails(word.id, detailsBtn));
         tdDetails.appendChild(detailsBtn);
         row.appendChild(tdDetails);
 
-        // Audio (M)
         const tdAudioM = document.createElement('td');
         tdAudioM.className = 'col-audio-m';
         const audioMBtn = document.createElement('button');
         audioMBtn.className = 'audio-btn';
-        audioMBtn.textContent = '🔊';
+        audioMBtn.textContent = '\ud83d\udd0a';
         audioMBtn.title = 'Play Mandarin (isolated)';
         const mandarinPath = word.audio && word.audio.mandarin ? word.audio.mandarin.isolated : null;
         if (!mandarinPath) audioMBtn.disabled = true;
@@ -1208,12 +1710,11 @@
         tdAudioM.appendChild(audioMBtn);
         row.appendChild(tdAudioM);
 
-        // Audio (C)
         const tdAudioC = document.createElement('td');
         tdAudioC.className = 'col-audio-c';
         const audioCBtn = document.createElement('button');
         audioCBtn.className = 'audio-btn';
-        audioCBtn.textContent = '🔊';
+        audioCBtn.textContent = '\ud83d\udd0a';
         audioCBtn.title = 'Play Cantonese (isolated)';
         const cantonesePath = word.audio && word.audio.cantonese ? word.audio.cantonese.isolated : null;
         if (!cantonesePath) audioCBtn.disabled = true;
@@ -1221,7 +1722,6 @@
         tdAudioC.appendChild(audioCBtn);
         row.appendChild(tdAudioC);
 
-        // Reviewed checkbox
         const tdReviewed = document.createElement('td');
         tdReviewed.className = 'col-reviewed';
         const reviewedCheckbox = document.createElement('input');
@@ -1234,7 +1734,6 @@
         tdReviewed.appendChild(reviewedCheckbox);
         row.appendChild(tdReviewed);
 
-        // Comment textarea
         const tdComment = document.createElement('td');
         tdComment.className = 'col-comment';
         const commentInput = document.createElement('textarea');
@@ -1254,7 +1753,7 @@
 
         tbody.appendChild(row);
 
-        // Details row (hidden initially, contains own sentence input)
+        // Details row
         const detailsRow = document.createElement('tr');
         detailsRow.className = 'details-row';
         detailsRow.dataset.wordId = word.id;
@@ -1266,14 +1765,12 @@
         const detailsCard = document.createElement('div');
         detailsCard.className = 'details-card';
 
-        // Top: Pinyin + English
         const headerDl = document.createElement('dl');
         headerDl.className = 'details-header-row';
-        const items = [
+        [
           ['Pinyin', word.pinyin || ''],
           ['English', word.english || ''],
-        ];
-        items.forEach(([itemLabel, itemValue]) => {
+        ].forEach(([itemLabel, itemValue]) => {
           const dt = document.createElement('dt');
           dt.textContent = itemLabel;
           const dd = document.createElement('dd');
@@ -1283,7 +1780,6 @@
         });
         detailsCard.appendChild(headerDl);
 
-        // Middle: Trad | Simp comparison
         const compareRow = document.createElement('div');
         compareRow.className = 'details-compare-row';
 
@@ -1319,15 +1815,12 @@
 
         detailsCard.appendChild(compareRow);
 
-        // Bottom: Own sentence input
         const ownSentenceRow = document.createElement('div');
         ownSentenceRow.className = 'details-sentence-row';
-
         const ownSentenceLabel = document.createElement('div');
         ownSentenceLabel.className = 'details-sentence-label';
         ownSentenceLabel.textContent = 'Your sentence:';
         ownSentenceRow.appendChild(ownSentenceLabel);
-
         const ownSentenceInput = document.createElement('textarea');
         ownSentenceInput.className = 'own-sentence-input';
         ownSentenceInput.rows = 1;
@@ -1348,13 +1841,11 @@
         detailsRow.appendChild(detailsCell);
         tbody.appendChild(detailsRow);
 
-        // Re-apply expansion state if this word was expanded before re-render
         if (expandedWordIds.has(word.id)) {
           detailsRow.classList.add('expanded');
-          detailsBtn.textContent = '🙈 Hide';
+          detailsBtn.textContent = '\ud83d\ude48 Hide';
         }
 
-        // Auto-resize on initial render
         setTimeout(() => {
           autoResizeTextarea(commentInput);
           autoResizeTextarea(ownSentenceInput);
@@ -1362,40 +1853,16 @@
       });
 
       table.appendChild(tbody);
-      rightEl.appendChild(table);
+      tableWrapper.appendChild(table);
+      rightEl.appendChild(tableWrapper);
 
       console.log('Rendered book ' + currentBookId + ' chapter ' + chapterData.chapterId +
                   ' with ' + filteredVocab.length + ' words (of ' + chapterData.vocab.length + ' total).');
     }
 
-    // ------------------------------------------------------------------
-    // Confirmation for bulk actions
-    // ------------------------------------------------------------------
-    function confirmBulk(message) {
-      return window.confirm(message);
-    }
-
-    function handleBulkLevelClick(level, chapterData) {
-      const filtered = applyFilters(chapterData.vocab);
-      if (filtered.length === 0) {
-        showToast('No filtered words to update.', 'error');
-        return;
-      }
-      const msg = 'Set ' + filtered.length + ' word(s) to ' + LEVEL_META[level].label + '?';
-      if (!confirmBulk(msg)) return;
-      bulkSetLevel(filtered.map(w => w.id), level);
-    }
-
-    function handleBulkReviewClick(chapterData) {
-      const filtered = applyFilters(chapterData.vocab);
-      if (filtered.length === 0) {
-        showToast('No filtered words to update.', 'error');
-        return;
-      }
-      const msg = 'Mark ' + filtered.length + ' word(s) as reviewed?';
-      if (!confirmBulk(msg)) return;
-      bulkMarkReviewed(filtered.map(w => w.id));
-    }
+    // Kept as no-op for now. Will be re-purposed if we add sticky behavior back.
+    function alignRightPanelSticky() {}
+    
 
     // ------------------------------------------------------------------
     // Row toggles + audio
@@ -1406,13 +1873,12 @@
       const isExpanded = detailsRow.classList.contains('expanded');
       if (isExpanded) {
         detailsRow.classList.remove('expanded');
-        button.textContent = '👁 Details';
+        button.textContent = '\ud83d\udc41 Details';
         expandedWordIds.delete(wordId);
       } else {
         detailsRow.classList.add('expanded');
-        button.textContent = '🙈 Hide';
+        button.textContent = '\ud83d\ude48 Hide';
         expandedWordIds.add(wordId);
-        // Re-size textareas after expansion (they were hidden so scrollHeight was 0)
         setTimeout(() => {
           const commentInput = detailsRow.querySelector('.comment-input');
           const ownInput = detailsRow.querySelector('.own-sentence-input');
@@ -1427,7 +1893,7 @@
         row.classList.add('expanded');
         if (row.dataset.wordId) expandedWordIds.add(row.dataset.wordId);
       });
-      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '🙈 Hide');
+      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '\ud83d\ude48 Hide');
       setTimeout(() => {
         document.querySelectorAll('.own-sentence-input').forEach(autoResizeTextarea);
         document.querySelectorAll('.comment-input').forEach(autoResizeTextarea);
@@ -1439,7 +1905,7 @@
         row.classList.remove('expanded');
         if (row.dataset.wordId) expandedWordIds.delete(row.dataset.wordId);
       });
-      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '👁 Details');
+      document.querySelectorAll('.details-btn').forEach(btn => btn.textContent = '\ud83d\udc41 Details');
     }
 
     function playAudio(audioPath) {
@@ -1476,12 +1942,14 @@
           const found = allBooks.find(b => b.id === preselectBookId);
           if (found) {
             targetBookId = preselectBookId;
+            console.log('Auto-selected book from URL:', preselectBookId);
           } else {
             console.log('URL book param "' + preselectBookId + '" not valid; falling back to first book.');
           }
         }
         if (!targetBookId) {
           targetBookId = allBooks[0].id;
+          console.log('Auto-selected first book:', targetBookId);
         }
 
         await selectBook(targetBookId);
