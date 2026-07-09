@@ -8,147 +8,76 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            cream:   '#F5EFE6',
-            navy:    '#1E3A5F',
-            'level-l0': '#DB5858',
-            'level-l1': '#FA961B',
-            'level-l2': '#EFBE4A',
-            'level-l3': '#7BC780',
-            'level-l4': '#5A9AD6',
-            promote: '#7BC780',
-            drop:    '#DB5858',
-            info:    '#5AA5D6',
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            tc: ['Noto Sans TC', 'Inter', 'system-ui', 'sans-serif'],
-            emoji: ['Noto Color Emoji', 'system-ui', 'sans-serif'],
-          },
-        }
-      }
-    }
-  </script>
   <style>
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: system-ui, sans-serif;
-      background-color: #fafafa;
+      background-color: #EDE3D0;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: #1E3A5F;
+      -webkit-font-smoothing: antialiased;
     }
 
     .top-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
-      border-bottom: 1px solid #ccc;
-      background-color: #f4f4f4;
+      padding: 12px 24px;
+      background-color: #1E3A5F;
+      color: #F5EFE6;
       position: sticky;
       top: 0;
       z-index: 200;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
     }
-
     .top-bar .back-link {
-      font-size: 14px;
+      color: #F5EFE6;
       text-decoration: none;
-      color: #0366d6;
-    }
-
-    .top-bar .back-link:hover {
-      text-decoration: underline;
-    }
-
-    .top-bar .student-label {
       font-size: 14px;
-      color: #555;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .top-bar .back-link:hover { opacity: 0.85; }
+    .top-bar .student-label {
+      color: rgba(245, 239, 230, 0.9);
+      font-size: 14px;
     }
 
     .content-wrapper {
       max-width: 100%;
       margin: 0;
-      padding: 20px;
+      padding: 20px 24px;
     }
+
     .chapter-title {
-      font-size: 22px;
-      margin: 0 0 15px 0;
+      font-size: 26px;
+      font-weight: 600;
+      color: #1E3A5F;
+      margin: 0 0 16px 0;
+      letter-spacing: -0.01em;
     }
 
     .sticky-header {
       position: sticky;
-      top: 42px;
-      background-color: #fafafa;
-      padding: 15px 20px 12px 20px;
-      margin: 0 -20px 15px -20px;
-      border-bottom: 1px solid #eee;
+      top: 46px;
+      background-color: #EDE3D0;
+      padding: 12px 0;
+      margin-bottom: 20px;
       z-index: 100;
     }
-
-    .sticky-header .chapter-title {
-      margin: 0 0 12px 0;
-    }
-    
     .header-row {
       display: grid;
-      grid-template-columns: minmax(200px, 300px) 1fr;
-      gap: 20px;
+      grid-template-columns: minmax(240px, 320px) 1fr;
+      gap: 16px;
       align-items: stretch;
     }
-    @media (max-width: 700px) {
-      .header-row { grid-template-columns: 1fr; }
-    }
 
-    .legend {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 10px 15px;
-      margin-bottom: 0;
-      font-size: 13px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      align-content: center;
-      gap: 8px 16px;
-      height: 100%;
-      box-sizing: border-box;
-    }
-
-    .legend-title {
-      font-weight: bold;
-      color: #555;
-      width: 100%;
-      margin-bottom: 4px;
-    }
-
-    .legend-item {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .legend-swatch {
-      display: inline-block;
-      padding: 1px 8px;
-      border-radius: 3px;
-      font-size: 12px;
-    }
-
-    .empty-message {
-      color: #888;
-      font-style: italic;
-    }
     .script-toggle {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 10px 15px;
-      margin-bottom: 0;
+      background-color: #F5EFE6;
+      border: 1px solid rgba(30, 58, 95, 0.15);
+      border-radius: 10px;
+      padding: 10px 14px;
       display: flex;
       align-items: center;
       gap: 12px;
@@ -157,77 +86,150 @@
       box-sizing: border-box;
     }
     .script-toggle-label {
-      font-weight: bold;
-      color: #555;
+      font-weight: 600;
+      color: #1E3A5F;
+      white-space: nowrap;
     }
     .script-toggle-btn {
-      padding: 6px 16px;
+      padding: 6px 14px;
       cursor: pointer;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background-color: #fff;
-      color: #555;
+      border: 1px solid rgba(30, 58, 95, 0.25);
+      border-radius: 999px;
+      background-color: transparent;
+      color: #1E3A5F;
       font-size: 13px;
+      font-family: inherit;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    .script-toggle-btn:hover:not(.active) {
+      background-color: rgba(30, 58, 95, 0.08);
     }
     .script-toggle-btn.active {
       background-color: #1E3A5F;
-      color: #fff;
+      color: #F5EFE6;
       border-color: #1E3A5F;
-      font-weight: bold;
     }
-    .script-toggle-btn:hover:not(.active) {
-      background-color: #eef;
+
+    .legend {
+      background-color: #F5EFE6;
+      border: 1px solid rgba(30, 58, 95, 0.15);
+      border-radius: 10px;
+      padding: 10px 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px 14px;
+      font-size: 12px;
+      height: 100%;
+      box-sizing: border-box;
     }
+    .legend-title {
+      font-weight: 600;
+      color: #1E3A5F;
+      font-size: 12px;
+      margin-right: 4px;
+    }
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #1E3A5F;
+    }
+    .legend-dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .legend-dot.L0 { background-color: #DB5858; }
+    .legend-dot.L1 { background-color: #FA961B; }
+    .legend-dot.L2 { background-color: #EFBE4A; }
+    .legend-dot.L3 { background-color: #7BC780; }
+    .legend-dot.L4 { background-color: #5A9AD6; }
 
     .passage-box {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 20px 25px;
+      background-color: #F5EFE6;
+      border-radius: 12px;
+      padding: 24px 28px;
       margin-bottom: 20px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 3px rgba(30, 58, 95, 0.06), 0 4px 12px rgba(30, 58, 95, 0.04);
+      border: 1px solid rgba(30, 58, 95, 0.08);
     }
-
     .passage-heading {
-      font-size: 14px;
-      font-weight: bold;
-      color: #666;
-      margin: 0 0 12px 0;
+      font-size: 11px;
+      font-weight: 700;
+      color: #1E3A5F;
+      margin: 0 0 6px 0;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.1em;
     }
-
+    .passage-heading-accent {
+      width: 32px;
+      height: 3px;
+      background-color: #1E3A5F;
+      border-radius: 2px;
+      margin-bottom: 16px;
+    }
     .passage-body {
       font-size: 19px;
-      line-height: 1.9;
-      color: #222;
+      line-height: 1.95;
+      color: #1E3A5F;
+      font-family: 'Noto Sans TC', 'Inter', system-ui, sans-serif;
     }
+    .passage-body p { margin: 0 0 14px 0; }
+    .passage-body p:last-child { margin-bottom: 0; }
 
-    .passage-body p {
-      margin: 0 0 12px 0;
-    }
-
-    .passage-body p:last-child {
-      margin-bottom: 0;
-    }
-
-    /* Vocab highlighting — same palette as dashboard level pills */
     .vocab {
-      padding: 1px 4px;
-      border-radius: 3px;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    .vocab-L0 { background-color: #F8D8D8; color: #721C24; }
+    .vocab-L1 { background-color: #FDE4C2; color: #6D3900; }
+    .vocab-L2 { background-color: #FFF3CD; color: #856404; }
+    .vocab-L3 { background-color: #D4EDDA; color: #155724; }
+    .vocab-L4 { background-color: #D9E7F5; color: #1E3A5F; }
+
+    .empty-message {
+      color: rgba(30, 58, 95, 0.55);
+      font-style: italic;
     }
 
-    .vocab-L0         { background-color: #F8D8D8; color: #721C24; }
-    .vocab-L1         { background-color: #FDE4C2; color: #6D3900; }
-    .vocab-L2         { background-color: #FFF3CD; color: #856404; }
-    .vocab-L3         { background-color: #D4EDDA; color: #155724; }
-    .vocab-L4         { background-color: #D9E7F5; color: #1E3A5F; }
+    /* Tablet — around 900px */
+    @media (max-width: 900px) {
+      .content-wrapper { padding: 16px 20px; }
+      .chapter-title { font-size: 22px; }
+      .passage-body { font-size: 18px; }
+    }
+
+    /* Small tablet / phone landscape — around 700px */
+    @media (max-width: 700px) {
+      .header-row { grid-template-columns: 1fr; }
+      .passage-box { padding: 20px 22px; }
+      .passage-body { font-size: 17px; line-height: 1.85; }
+    }
+
+    /* Phone portrait — under 600px */
+    @media (max-width: 600px) {
+      .top-bar { padding: 10px 16px; }
+      .content-wrapper { padding: 12px 16px; }
+      .chapter-title { font-size: 20px; }
+      .passage-box { padding: 18px 20px; }
+      .passage-body { font-size: 16px; line-height: 1.8; }
+      .script-toggle, .legend {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+      .script-toggle-btn { padding: 5px 12px; }
+    }
   </style>
 </head>
 <body>
 
   <div class="top-bar">
-    <a id="back-link" class="back-link" href="dashboard.html">Back to Dashboard</a>
+    <a id="back-link" class="back-link" href="dashboard.html">← Back to Dashboard</a>
     <span id="student-label" class="student-label"></span>
   </div>
 
@@ -243,46 +245,36 @@
       <p class="empty-message">Loading passages...</p>
     </div>
   </div>
-
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
   <script src="js/student.js"></script>
 
   <script>
-    // ------------------------------------------------------------------
-    // Constants
-    // ------------------------------------------------------------------
     const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4'];
     const LEVEL_META = {
-      L0:         { emoji: '🔴', label: 'L0 Discover' },
-      L1:         { emoji: '🟠', label: 'L1 Read' },
-      L2:         { emoji: '🟡', label: 'L2 Listen' },
-      L3:         { emoji: '🟢', label: 'L3 Usage' },
-      L4:         { emoji: '🔵', label: 'L4 Write' },
+      L0: { emoji: '🔴', label: 'L0 Discover' },
+      L1: { emoji: '🟠', label: 'L1 Read' },
+      L2: { emoji: '🟡', label: 'L2 Listen' },
+      L3: { emoji: '🟢', label: 'L3 Usage' },
+      L4: { emoji: '🔵', label: 'L4 Write' },
     };
 
-    // ------------------------------------------------------------------
-    // Parse URL params + guardrails
-    // ------------------------------------------------------------------
     const student = getStudentFromUrl();
     const params = new URLSearchParams(window.location.search);
     const bookId = params.get('book');
     const chapterId = params.get('chapter');
-    if (!student) {
-      window.location.href = 'index.html';
-    }
+
+    if (!student) { window.location.href = 'index.html'; }
     if (!bookId || !chapterId) {
       window.location.href = 'dashboard.html?student=' + encodeURIComponent(student);
     }
-    // Session-persistent script preference. Reset only on page refresh.
-    let currentScript = 'traditional'; // 'traditional' or 'simplified'
 
-    // Set up static header elements
+    let currentScript = 'traditional';
+
     document.getElementById('back-link').href = buildBackToDashboardUrl();
     document.getElementById('student-label').textContent = 'Student: ' + student;
 
-    // Position sticky-header directly below top bar to prevent gaps as passages scroll
     function alignStickyHeader() {
       const topBar = document.querySelector('.top-bar');
       const stickyHeader = document.querySelector('.sticky-header');
@@ -292,38 +284,19 @@
     window.addEventListener('load', alignStickyHeader);
     window.addEventListener('resize', alignStickyHeader);
 
-    // ------------------------------------------------------------------
-    // Global state
-    // ------------------------------------------------------------------
     let studentProgress = {};
 
     function buildBackToDashboardUrl() {
       let url = 'dashboard.html?student=' + encodeURIComponent(student);
-      if (bookId) {
-        url += '&book=' + encodeURIComponent(bookId);
-      }
-      if (chapterId) {
-        url += '&chapter=' + encodeURIComponent(chapterId);
-      }
+      if (bookId) url += '&book=' + encodeURIComponent(bookId);
+      if (chapterId) url += '&chapter=' + encodeURIComponent(chapterId);
       return url;
     }
-    
-    
-    // ------------------------------------------------------------------
-    // Load student progress from Firestore
-    // ------------------------------------------------------------------
-      
-    
+
     async function loadStudentProgress() {
       try {
         const doc = await db.collection('students').doc(student).get();
-        if (doc.exists) {
-          studentProgress = doc.data().progress || {};
-        } else {
-          studentProgress = {};
-        }
-        console.log('Loaded progress for ' + student + ':',
-                    Object.keys(studentProgress).length, 'entries');
+        studentProgress = doc.exists ? (doc.data().progress || {}) : {};
       } catch (err) {
         console.error('Error loading student progress:', err);
         studentProgress = {};
@@ -334,14 +307,12 @@
       return studentProgress[wordId] || 'L0';
     }
 
-    // ------------------------------------------------------------------
-    // Render script toggle (Traditional / Simplified)
-    // ------------------------------------------------------------------
     function renderScriptToggle() {
       const containerEl = document.getElementById('script-toggle-container');
       containerEl.innerHTML = '';
       const box = document.createElement('div');
       box.className = 'script-toggle';
+
       const label = document.createElement('span');
       label.className = 'script-toggle-label';
       label.textContent = 'Script:';
@@ -369,47 +340,30 @@
       loadAndRender();
     }
 
-    // ------------------------------------------------------------------
-    // Render color legend
-    // ------------------------------------------------------------------
     function renderLegend() {
       const legendEl = document.getElementById('legend-container');
       legendEl.innerHTML = '';
-
       const box = document.createElement('div');
       box.className = 'legend';
-
-      const title = document.createElement('div');
+      const title = document.createElement('span');
       title.className = 'legend-title';
-      title.textContent = 'Legend (your current level per word):';
+      title.textContent = 'Word level:';
       box.appendChild(title);
-
       LEVEL_ORDER.forEach(level => {
         const meta = LEVEL_META[level];
         const item = document.createElement('span');
         item.className = 'legend-item';
-
-        const swatch = document.createElement('span');
-        swatch.className = 'legend-swatch vocab-' + level;
-        swatch.textContent = meta.label;
-
-        item.appendChild(swatch);
+        const dot = document.createElement('span');
+        dot.className = 'legend-dot ' + level;
+        const labelSpan = document.createElement('span');
+        labelSpan.textContent = meta.label;
+        item.appendChild(dot);
+        item.appendChild(labelSpan);
         box.appendChild(item);
       });
-
       legendEl.appendChild(box);
     }
 
-    // ------------------------------------------------------------------
-    // Highlight vocab words in a passage text.
-    //
-    // Strategy:
-    //   - Sort vocab by traditional-length descending (longest first).
-    //     Prevents shorter substrings from being wrapped inside longer ones.
-    //   - Use placeholder markers with unique IDs during wrapping,
-    //     then substitute back to real HTML at the end.
-    //   - Escape HTML in the raw text before injection.
-    // ------------------------------------------------------------------
     function escapeHtml(text) {
       return text
         .replace(/&/g, '&amp;')
@@ -424,10 +378,8 @@
       const placeholders = [];
       sortedVocab.forEach(word => {
         const level = getLevelForWord(word.id);
-        // Choose which form to search & wrap based on current script
         const target = (currentScript === 'simplified') ? (word.simplified || word.traditional) : word.traditional;
-        const wrapped = '<span class="vocab vocab-' + level + '">' +
-                        escapeHtml(target) + '</span>';
+        const wrapped = '<span class="vocab vocab-' + level + '">' + escapeHtml(target) + '</span>';
         const token = '\u0001PH' + placeholders.length + '\u0002';
         placeholders.push(wrapped);
         const escaped = escapeHtml(target);
@@ -440,14 +392,10 @@
       return working;
     }
 
-    // ------------------------------------------------------------------
-    // Load and render everything
-    // ------------------------------------------------------------------
     async function loadAndRender() {
       const titleEl = document.getElementById('chapter-title');
       const containerEl = document.getElementById('passages-container');
       try {
-        // Load progress + chapter in parallel
         const [_, chapterResponse] = await Promise.all([
           loadStudentProgress(),
           fetch('data/book' + bookId + '/chapter' + chapterId + '.json'),
@@ -455,19 +403,15 @@
         if (!chapterResponse.ok) throw new Error('HTTP ' + chapterResponse.status);
         const chapter = await chapterResponse.json();
 
-        // Title always shows Traditional title (chapter title in the file is Traditional).
         titleEl.textContent = 'Chapter ' + chapter.chapterId + ': ' + chapter.chapterTitle;
         renderScriptToggle();
         renderLegend();
 
-        // Choose passage source based on script selection
         const passages = (currentScript === 'simplified')
           ? (chapter.passagesSimplified || chapter.passages || [])
           : (chapter.passages || []);
         const vocab = chapter.vocab || [];
 
-        // Sort vocab by SCRIPT-SPECIFIC word length descending (longer words first)
-        // to prevent shorter substrings being wrapped inside longer ones.
         const sortedVocab = [...vocab].sort((a, b) => {
           const aWord = (currentScript === 'simplified') ? (a.simplified || a.traditional) : a.traditional;
           const bWord = (currentScript === 'simplified') ? (b.simplified || b.traditional) : b.traditional;
@@ -480,14 +424,11 @@
           return;
         }
 
-        // Track which vocab appeared at least once across all passages
         const foundVocabIds = new Set();
         const combinedText = passages.join('\n');
         vocab.forEach(w => {
           const target = (currentScript === 'simplified') ? (w.simplified || w.traditional) : w.traditional;
-          if (combinedText.includes(target)) {
-            foundVocabIds.add(w.id);
-          }
+          if (combinedText.includes(target)) foundVocabIds.add(w.id);
         });
 
         passages.forEach((passageText, idx) => {
@@ -497,6 +438,9 @@
           heading.className = 'passage-heading';
           heading.textContent = 'Passage ' + (idx + 1);
           box.appendChild(heading);
+          const accent = document.createElement('div');
+          accent.className = 'passage-heading-accent';
+          box.appendChild(accent);
           const body = document.createElement('div');
           body.className = 'passage-body';
           const parts = passageText.split('\n');
@@ -512,11 +456,10 @@
           containerEl.appendChild(box);
         });
 
-        // Warn about vocab words that don't appear anywhere
         const missing = vocab.filter(w => !foundVocabIds.has(w.id));
         if (missing.length > 0) {
           console.warn(missing.length + ' vocab word(s) not found in any passage (' + currentScript + '):',
-                       missing.map(w => (currentScript === 'simplified' ? (w.simplified || w.traditional) : w.traditional)));
+            missing.map(w => (currentScript === 'simplified' ? (w.simplified || w.traditional) : w.traditional)));
         }
         console.log('Rendered ' + passages.length + ' passage(s) with vocab highlighting (' + currentScript + ') for book ' + bookId + ' chapter ' + chapterId);
       } catch (err) {
