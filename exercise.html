@@ -8,159 +8,400 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            cream:   '#F5EFE6',
-            navy:    '#1E3A5F',
-            'level-l0': '#DB5858',
-            'level-l1': '#FA961B',
-            'level-l2': '#EFBE4A',
-            'level-l3': '#7BC780',
-            'level-l4': '#5A9AD6',
-            promote: '#7BC780',
-            drop:    '#DB5858',
-            info:    '#5AA5D6',
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            tc: ['Noto Sans TC', 'Inter', 'system-ui', 'sans-serif'],
-            emoji: ['Noto Color Emoji', 'system-ui', 'sans-serif'],
-          },
-        }
-      }
-    }
-  </script>
   <style>
-    body { margin: 0; font-family: system-ui, sans-serif; background-color: #fafafa; }
-    .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; background-color: #f4f4f4; }
-    .top-bar .back-link { font-size: 14px; text-decoration: none; color: #0366d6; }
-    .top-bar .back-link:hover { text-decoration: underline; }
-    .top-bar .student-label { font-size: 14px; color: #555; }
-
-    .content-wrapper { max-width: 900px; margin: 0 auto; padding: 20px; }
-
-    .session-header {
-      background-color: #fff;
-      border: 1px solid #e0e0e0;
-      border-radius: 8px;
-      padding: 16px 20px;
-      margin-bottom: 20px;
+    /* ---------- Base ---------- */
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background-color: #EDE3D0;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: #1E3A5F;
+      -webkit-font-smoothing: antialiased;
     }
-    .session-header .book-line { font-size: 13px; color: #666; margin-bottom: 4px; }
-    .session-header .level-line { font-size: 16px; color: #1E3A5F; font-weight: bold; margin-bottom: 12px; }
-    .session-header .instruction-line { font-size: 13px; color: #444; margin-bottom: 3px; }
-    .session-header .goal-line { font-size: 13px; color: #444; margin-bottom: 10px; }
-    .session-header .session-counter { font-size: 12px; color: #888; margin-bottom: 12px; }
-    .session-header .current-chapter { font-size: 15px; color: #333; font-weight: bold; }
 
-    .exercise-body { background-color: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 30px 20px; }
+    /* ---------- Top bar (sticky, navy) ---------- */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px;
+      background-color: #1E3A5F;
+      color: #F5EFE6;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+    }
+    .top-bar .back-link {
+      color: #F5EFE6;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .top-bar .back-link:hover { opacity: 0.85; }
+    .top-bar .student-label {
+      color: rgba(245, 239, 230, 0.9);
+      font-size: 14px;
+    }
 
-    .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    .split-col { padding: 0 15px; }
-    .split-col + .split-col { border-left: 1px solid #eee; }
-    .split-col-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; text-align: center; margin-bottom: 15px; font-weight: bold; }
+    /* ---------- Content wrapper ---------- */
+    .content-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 24px;
+    }
 
-    .word-display { font-size: 44px; color: #222; text-align: center; margin-bottom: 20px; line-height: 1.2; font-family: 'Noto Sans TC', system-ui, sans-serif; }
-    .sentence-display { font-size: 18px; color: #333; text-align: center; line-height: 1.7; padding: 12px 8px; margin-bottom: 15px; font-family: 'Noto Sans TC', system-ui, sans-serif; }
-    .blank-fill { display: inline-block; letter-spacing: 2px; color: #999; }
-    .filled-answer { font-weight: bold; background-color: #cfe2ff; padding: 2px 6px; border-radius: 3px; }
+    /* ---------- Cards (session header + exercise body) ---------- */
+    .card {
+      background-color: #F5EFE6;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(30, 58, 95, 0.06), 0 4px 12px rgba(30, 58, 95, 0.04);
+      border: 1px solid rgba(30, 58, 95, 0.08);
+    }
 
-    .audio-btn-row { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 12px; }
+    /* ---------- Session header ---------- */
+    .session-header .book-line {
+      font-size: 13px;
+      color: rgba(30, 58, 95, 0.65);
+      margin-bottom: 4px;
+    }
+    .session-header .level-line {
+      font-size: 18px;
+      color: #1E3A5F;
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    .session-header .instruction-line,
+    .session-header .goal-line {
+      font-size: 13px;
+      color: rgba(30, 58, 95, 0.75);
+      margin-bottom: 4px;
+    }
+    .session-header .session-counter {
+      font-size: 12px;
+      color: rgba(30, 58, 95, 0.55);
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .session-header .current-chapter {
+      font-size: 14px;
+      color: #1E3A5F;
+      font-weight: 600;
+      margin-top: 6px;
+    }
+
+    /* ---------- Exercise body card ---------- */
+    .exercise-body {
+      padding: 30px 28px;
+    }
+
+    /* ---------- Split Traditional / Simplified layout ---------- */
+    .split-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .split-col {
+      padding: 0 12px;
+    }
+    .split-col + .split-col {
+      border-left: 1px solid rgba(30, 58, 95, 0.12);
+    }
+    .split-col-label {
+      font-size: 11px;
+      color: rgba(30, 58, 95, 0.55);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      text-align: center;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+    .split-col-label-accent {
+      width: 32px;
+      height: 2px;
+      background-color: rgba(30, 58, 95, 0.4);
+      border-radius: 2px;
+      margin: 0 auto 16px auto;
+    }
+
+    /* ---------- Word + sentence displays ---------- */
+    .word-display {
+      font-size: 44px;
+      color: #1E3A5F;
+      text-align: center;
+      margin-bottom: 16px;
+      line-height: 1.2;
+      font-family: 'Noto Sans TC', system-ui, sans-serif;
+    }
+    .sentence-display {
+      font-size: 18px;
+      color: #1E3A5F;
+      text-align: center;
+      line-height: 1.7;
+      padding: 12px 8px;
+      margin-bottom: 15px;
+      font-family: 'Noto Sans TC', system-ui, sans-serif;
+    }
+    .blank-fill {
+      display: inline-block;
+      letter-spacing: 2px;
+      color: rgba(30, 58, 95, 0.4);
+    }
+    .filled-answer {
+      font-weight: 600;
+      background-color: #D9E7F5;
+      color: #1E3A5F;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    /* ---------- Audio buttons ---------- */
+    .audio-btn-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+    }
     .audio-btn {
       padding: 8px 14px;
       font-size: 13px;
       cursor: pointer;
-      border: 1px solid #0366d6;
-      border-radius: 5px;
-      background-color: #fff;
-      color: #0366d6;
-      min-width: 180px;
+      border: 1px solid rgba(30, 58, 95, 0.25);
+      border-radius: 999px;
+      background-color: transparent;
+      color: #1E3A5F;
+      font-family: inherit;
+      font-weight: 500;
+      min-width: 200px;
+      transition: all 0.15s;
     }
-    .audio-btn:hover { background-color: #eef; }
+    .audio-btn:hover:not(:disabled) {
+      background-color: rgba(30, 58, 95, 0.08);
+    }
+    .audio-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
 
-    .shared-info-block { text-align: center; margin: 25px 0; padding: 15px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
-    .shared-info-block .pinyin { font-size: 22px; color: #444; margin-bottom: 6px; }
-    .shared-info-block .english { font-size: 16px; color: #666; }
+    /* ---------- Shared info block (pinyin + english) ---------- */
+    .shared-info-block {
+      text-align: center;
+      margin: 24px 0 20px 0;
+      padding: 16px 0;
+      border-top: 1px solid rgba(30, 58, 95, 0.12);
+      border-bottom: 1px solid rgba(30, 58, 95, 0.12);
+    }
+    .shared-info-block .pinyin {
+      font-size: 22px;
+      color: #1E3A5F;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .shared-info-block .english {
+      font-size: 16px;
+      color: rgba(30, 58, 95, 0.75);
+    }
 
+    /* ---------- Reveal button (primary) ---------- */
     .reveal-btn {
-      padding: 10px 28px;
+      padding: 10px 32px;
       font-size: 15px;
       cursor: pointer;
-      border: 1px solid #0366d6;
-      border-radius: 6px;
-      background-color: #0366d6;
-      color: #fff;
-      font-weight: bold;
+      border: 1px solid #1E3A5F;
+      border-radius: 8px;
+      background-color: #1E3A5F;
+      color: #F5EFE6;
+      font-family: inherit;
+      font-weight: 600;
+      transition: background-color 0.15s;
     }
-    .reveal-btn:hover { background-color: #024ea8; }
+    .reveal-btn:hover {
+      background-color: rgba(30, 58, 95, 0.9);
+    }
 
+    /* ---------- Hint button (muted) ---------- */
     .hint-btn {
       padding: 10px 28px;
-      font-size: 15px;
+      font-size: 14px;
       cursor: pointer;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      background-color: #fff;
-      color: #555;
-      font-weight: bold;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      border-radius: 8px;
+      background-color: transparent;
+      color: rgba(30, 58, 95, 0.75);
+      font-family: inherit;
+      font-weight: 500;
+      transition: all 0.15s;
     }
-    .hint-btn:hover { background-color: #eef; }
-
+    .hint-btn:hover {
+      background-color: rgba(30, 58, 95, 0.06);
+    }
     .hint-display {
       font-size: 15px;
       color: #155724;
-      background-color: #d4edda;
-      border: 1px solid #c3e6cb;
-      border-radius: 5px;
+      background-color: #D4EDDA;
+      border: 1px solid #7BC780;
+      border-radius: 8px;
       padding: 10px 15px;
       margin: 10px auto;
       max-width: 400px;
       text-align: center;
     }
-    .hint-display strong { font-weight: bold; }
+    .hint-display strong { font-weight: 700; }
 
-    .action-center { text-align: center; margin-top: 20px; }
+    /* ---------- Action center (reveal / hint layout) ---------- */
+    .action-center {
+      text-align: center;
+      margin-top: 24px;
+    }
     .action-center > * + * { margin-top: 12px; }
     .action-center button + button { margin-left: 12px; }
 
-    .progression-buttons { display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
-    .progression-btn {
-      padding: 10px 24px;
-      font-size: 15px;
-      cursor: pointer;
-      border-radius: 6px;
-      border: 1px solid;
-      font-weight: bold;
+    /* ---------- Progression buttons (Promote / Drop) ---------- */
+    .progression-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
     }
-    .progression-btn.mastered { border-color: #28a745; background-color: #fff; color: #28a745; }
-    .progression-btn.mastered:hover { background-color: #e6f5ea; }
-    .progression-btn.demote { border-color: #dc3545; background-color: #fff; color: #dc3545; }
-    .progression-btn.demote:hover { background-color: #fbeaec; }
+    .progression-btn {
+      padding: 10px 22px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 8px;
+      border: 1px solid;
+      font-family: inherit;
+      font-weight: 600;
+      transition: opacity 0.15s;
+    }
+    .progression-btn:hover { opacity: 0.88; }
+    .progression-btn.mastered {
+      background-color: #D4EDDA;
+      color: #155724;
+      border-color: #7BC780;
+    }
+    .progression-btn.demote {
+      background-color: #F8D8D8;
+      color: #721C24;
+      border-color: #DB5858;
+    }
 
-    .action-buttons { display: flex; justify-content: center; gap: 12px; }
-    .action-btn { padding: 10px 24px; font-size: 15px; cursor: pointer; border: 1px solid #0366d6; border-radius: 6px; background-color: #fff; color: #0366d6; text-decoration: none; display: inline-block; }
-    .action-btn:hover { background-color: #eef; }
-    .action-btn.primary { background-color: #0366d6; color: #fff; }
-    .action-btn.primary:hover { background-color: #024ea8; }
+    /* ---------- Action buttons (Next word, Back to Dashboard) ---------- */
+    .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .action-btn {
+      padding: 10px 22px;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid rgba(30, 58, 95, 0.25);
+      border-radius: 8px;
+      background-color: transparent;
+      color: #1E3A5F;
+      text-decoration: none;
+      display: inline-block;
+      font-family: inherit;
+      font-weight: 500;
+      transition: background-color 0.15s;
+    }
+    .action-btn:hover {
+      background-color: rgba(30, 58, 95, 0.06);
+    }
+    .action-btn.primary {
+      background-color: #1E3A5F;
+      color: #F5EFE6;
+      border-color: #1E3A5F;
+    }
+    .action-btn.primary:hover {
+      background-color: rgba(30, 58, 95, 0.9);
+    }
 
-    .empty-message, .error-message { text-align: center; padding: 40px 20px; }
-    .empty-message p, .error-message p { font-size: 16px; color: #555; margin-bottom: 24px; }
+    /* ---------- Empty / error messages ---------- */
+    .empty-message, .error-message {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .empty-message p, .error-message p {
+      font-size: 16px;
+      color: rgba(30, 58, 95, 0.7);
+      margin-bottom: 24px;
+    }
 
-    .progression-confirmation { margin: 15px auto; font-size: 14px; color: #155724; background-color: #d4edda; padding: 8px 16px; border-radius: 4px; display: inline-block; }
-    .progression-confirmation.demoted { color: #721c24; background-color: #f8d7da; }
+    /* ---------- Progression confirmation ---------- */
+    .progression-confirmation {
+      margin: 15px auto;
+      font-size: 14px;
+      color: #155724;
+      background-color: #D4EDDA;
+      border: 1px solid #7BC780;
+      padding: 8px 16px;
+      border-radius: 8px;
+      display: inline-block;
+      font-weight: 500;
+    }
+    .progression-confirmation.demoted {
+      color: #721C24;
+      background-color: #F8D8D8;
+      border-color: #DB5858;
+    }
 
-    .toast { position: fixed; top: 15px; right: 20px; padding: 8px 16px; border-radius: 4px; font-size: 13px; color: #fff; opacity: 0; transition: opacity 0.2s ease-in-out; pointer-events: none; z-index: 1000; }
+    /* ---------- Toast ---------- */
+    .toast {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #F5EFE6;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+      pointer-events: none;
+      z-index: 1000;
+      font-weight: 500;
+    }
     .toast.visible { opacity: 1; }
-    .toast.success { background-color: #28a745; }
-    .toast.error { background-color: #dc3545; }
+    .toast.success { background-color: #155724; }
+    .toast.error { background-color: #721C24; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 900px) {
+      .content-wrapper { padding: 16px 20px; }
+      .session-header .level-line { font-size: 16px; }
+      .exercise-body { padding: 24px 20px; }
+      .word-display { font-size: 36px; }
+      .sentence-display { font-size: 17px; }
+    }
 
     @media (max-width: 700px) {
-      .split-layout { grid-template-columns: 1fr; }
-      .split-col + .split-col { border-left: none; border-top: 1px solid #eee; padding-top: 20px; margin-top: 10px; }
+      .split-layout { grid-template-columns: 1fr; gap: 20px; }
+      .split-col + .split-col {
+        border-left: none;
+        border-top: 1px solid rgba(30, 58, 95, 0.12);
+        padding-top: 20px;
+        margin-top: 10px;
+      }
+      .word-display { font-size: 32px; }
+      .audio-btn { min-width: 180px; }
+    }
+
+    @media (max-width: 600px) {
+      .top-bar { padding: 10px 16px; }
+      .content-wrapper { padding: 12px 16px; }
+      .card { padding: 16px 18px; }
+      .exercise-body { padding: 20px 18px; }
+      .word-display { font-size: 28px; }
+      .sentence-display { font-size: 16px; }
+      .action-center button + button { margin-left: 8px; }
     }
   </style>
 </head>
@@ -189,15 +430,14 @@
     // Constants
     // ------------------------------------------------------------------
     const LEVEL_META = {
-      L0:  { emoji: '\ud83d\udd34', label: 'L0 Discover' },
-      L1:  { emoji: '\ud83d\udfe0', label: 'L1 Read' },
-      L2:  { emoji: '\ud83d\udfe1', label: 'L2 Listen' },
-      L3:  { emoji: '\ud83d\udfe2', label: 'L3 Usage' },
-      L4:  { emoji: '\ud83d\udd35', label: 'L4 Write' },
-      L4R: { emoji: '\ud83d\udd04', label: 'L4 Review' },
+      L0:  { emoji: '🔴', label: 'L0 Discover' },
+      L1:  { emoji: '🟠', label: 'L1 Read' },
+      L2:  { emoji: '🟡', label: 'L2 Listen' },
+      L3:  { emoji: '🟢', label: 'L3 Usage' },
+      L4:  { emoji: '🔵', label: 'L4 Write' },
+      L4R: { emoji: '🔄', label: 'L4 Review' },
     };
 
-    // What source level's pool feeds each exercise level
     const LEVEL_SOURCE = {
       L1:  'L0',
       L2:  'L1',
@@ -206,7 +446,6 @@
       L4R: 'L4',
     };
 
-    // Instruction + goal text per exercise level
     const LEVEL_TEXT = {
       L1: {
         instruction: 'Can you read this word and know its meaning?',
@@ -337,7 +576,6 @@
     function isWordExcluded(wordId) {
       return studentExcluded.includes(wordId);
     }
-
     function computePool() {
       const sourceLevel = LEVEL_SOURCE[level];
       pool = [];
@@ -350,7 +588,6 @@
       });
       console.log('Pool computed: ' + pool.length + ' words at source level ' + sourceLevel);
     }
-
     function getRemainingPool() {
       return pool.filter(entry => !sessionMastered.has(entry.word.id) && !sessionSeen.has(entry.word.id));
     }
@@ -370,7 +607,6 @@
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#39;');
     }
-
     function buildBlankedSentence(sentence, wordText) {
       if (!sentence || !wordText) return sentence || '';
       if (sentence.indexOf(wordText) === -1) {
@@ -380,7 +616,6 @@
       const blank = '\uFF3F'.repeat(wordText.length);
       return sentence.split(wordText).join(blank);
     }
-
     function buildFilledSentenceHtml(sentence, wordText) {
       if (!sentence) return '';
       const escapedSentence = escapeHtml(sentence);
@@ -389,12 +624,16 @@
       const wrapped = '<span class="filled-answer">' + escapedWord + '</span>';
       return escapedSentence.split(escapedWord).join(wrapped);
     }
-
     function getChapterTitle(chapterId) {
       const ch = allChapters.find(c => c.id === chapterId);
       return ch ? ch.title : '';
     }
-
+    function getCurrentVocabularySourceText() {
+      if (!currentWordEntry) return '';
+      const chId = currentWordEntry.chapterId;
+      const chTitle = getChapterTitle(chId);
+      return 'Current vocabulary is from "Chapter ' + chId + (chTitle ? ': ' + chTitle : '') + '"';
+    }
     function getSessionCounterText() {
       if (level === 'L4R') {
         return 'Session: ' + sessionMastered.size + ' confirmed full understanding';
@@ -412,30 +651,11 @@
         currentAudio = null;
       }
     }
-
     function playAudio(audioPath) {
       if (!audioPath) { console.warn('No audio path.'); return; }
       stopCurrentAudio();
       currentAudio = new Audio(audioPath);
       currentAudio.play().catch(err => console.error('Audio playback failed:', err));
-    }
-
-    async function playWordThenSentence(wordAudio, sentenceAudio) {
-      if (!wordAudio) return;
-      stopCurrentAudio();
-      try {
-        currentAudio = new Audio(wordAudio);
-        await currentAudio.play();
-        currentAudio.addEventListener('ended', () => {
-          if (!sentenceAudio) return;
-          setTimeout(() => {
-            currentAudio = new Audio(sentenceAudio);
-            currentAudio.play().catch(err => console.error('Sentence audio failed:', err));
-          }, 50);
-        }, { once: true });
-      } catch (err) {
-        console.error('Combined audio failed:', err);
-      }
     }
 
     // ------------------------------------------------------------------
@@ -450,7 +670,7 @@
       const txt = LEVEL_TEXT[level] || { instruction: '', goal: '' };
       const currentChapterLine = getCurrentVocabularySourceText();
       return (
-        '<div class="session-header">' +
+        '<div class="card session-header">' +
           '<div class="book-line">\ud83d\udcda ' + escapeHtml(bookLine) + '</div>' +
           '<div class="level-line">' + levelDisplay + '</div>' +
           '<div class="instruction-line">\ud83d\udca1 Instruction: ' + escapeHtml(txt.instruction) + '</div>' +
@@ -460,21 +680,13 @@
         '</div>'
       );
     }
-
-    function getCurrentVocabularySourceText() {
-      if (!currentWordEntry) return '';
-      const chId = currentWordEntry.chapterId;
-      const chTitle = getChapterTitle(chId);
-      return 'Current vocabulary is from "Chapter ' + chId + (chTitle ? ': ' + chTitle : '') + '"';
-    }
-
     function updateSessionCounter() {
       const counterEl = document.querySelector('.session-header .session-counter');
       if (counterEl) counterEl.textContent = getSessionCounterText();
     }
 
     // ------------------------------------------------------------------
-    // Concealed screen rendering — split by level
+    // Concealed screen rendering (per level)
     // ------------------------------------------------------------------
     function renderConcealedScreen() {
       let inner = '';
@@ -484,7 +696,7 @@
       else if (level === 'L4') inner = renderConcealedL4();
       else if (level === 'L4R') inner = renderConcealedL4R();
 
-      const html = '<div class="exercise-body">' + inner + '</div>';
+      const html = '<div class="card exercise-body">' + inner + '</div>';
       document.getElementById('app-container').innerHTML = renderSessionHeader() + html;
       wireConcealedActions();
     }
@@ -501,9 +713,7 @@
         '</div>'
       );
     }
-
     function renderConcealedL2() {
-      // Two columns of audio only, plus optional Hint + Reveal
       return (
         renderSplitLayout(
           renderAudioColumn('cantonese'),
@@ -516,15 +726,14 @@
         '</div>'
       );
     }
-
     function renderConcealedL3() {
       const word = currentWordEntry.word;
       const blankedTrad = buildBlankedSentence(word.contextSentence, word.traditional);
       const blankedSimp = buildBlankedSentence(word.contextSentenceSimplified || '', word.simplified);
       return (
         renderSplitLayout(
-          '<div class="sentence-display">' + escapeHtml(blankedTrad) + '</div>' + renderAudioColumn('cantonese', /*isolatedOnly*/ true),
-          '<div class="sentence-display">' + escapeHtml(blankedSimp) + '</div>' + renderAudioColumn('mandarin', /*isolatedOnly*/ true)
+          '<div class="sentence-display">' + escapeHtml(blankedTrad) + '</div>' + renderAudioColumn('cantonese', true),
+          '<div class="sentence-display">' + escapeHtml(blankedSimp) + '</div>' + renderAudioColumn('mandarin', true)
         ) +
         '<div class="action-center">' +
           '<div id="hint-container"></div>' +
@@ -533,7 +742,6 @@
         '</div>'
       );
     }
-
     function renderConcealedL4() {
       const word = currentWordEntry.word;
       return (
@@ -550,16 +758,12 @@
         '</div>'
       );
     }
-
     function renderConcealedL4R() {
-      // Same as L3: fill-in-blank + isolated word audio + Hint + Reveal
       return renderConcealedL3();
     }
 
     function renderAudioColumn(language, isolatedOnly) {
-      // language: 'cantonese' or 'mandarin'
       const langLabel = (language === 'cantonese') ? 'Cantonese' : 'Mandarin';
-      const suffix = (language === 'cantonese') ? '-c' : '-m';
       let html = '<div class="audio-btn-row">';
       html += '<button class="audio-btn" data-action="play-word" data-lang="' + language + '">\ud83d\udd0a Play Word (' + langLabel + ')</button>';
       if (!isolatedOnly) {
@@ -574,10 +778,12 @@
         '<div class="split-layout">' +
           '<div class="split-col">' +
             '<div class="split-col-label">Traditional</div>' +
+            '<div class="split-col-label-accent"></div>' +
             leftHtml +
           '</div>' +
           '<div class="split-col">' +
             '<div class="split-col-label">Simplified</div>' +
+            '<div class="split-col-label-accent"></div>' +
             rightHtml +
           '</div>' +
         '</div>'
@@ -585,7 +791,7 @@
     }
 
     // ------------------------------------------------------------------
-    // Revealed screen rendering — SHARED across all levels
+    // Revealed screen (shared across all levels)
     // ------------------------------------------------------------------
     function renderRevealedScreen() {
       const word = currentWordEntry.word;
@@ -612,7 +818,7 @@
           '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
         '</div>';
 
-      const html = '<div class="exercise-body">' + inner + '</div>';
+      const html = '<div class="card exercise-body">' + inner + '</div>';
       document.getElementById('app-container').innerHTML = renderSessionHeader() + html;
       wireRevealedActions();
     }
@@ -631,7 +837,6 @@
         html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L4 Write</button>';
         html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L2 Listen</button>';
       } else if (level === 'L4R') {
-        // Only Drop button. Next-word click = retention confirmed.
         html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L3 Usage</button>';
       }
       html += '</div>';
@@ -639,25 +844,23 @@
     }
 
     function progressionTargetOnPromote() {
-      // Returns level to write to Firestore on promote (or null for L4R since retention = no write).
       if (level === 'L1') return 'L1';
       if (level === 'L2') return 'L2';
       if (level === 'L3') return 'L3';
       if (level === 'L4') return 'L4';
-      if (level === 'L4R') return null; // no-op — word retained at L4
+      if (level === 'L4R') return null;
       return null;
     }
-
     function progressionTargetOnDrop() {
       if (level === 'L2') return 'L0';
       if (level === 'L3') return 'L1';
       if (level === 'L4') return 'L2';
       if (level === 'L4R') return 'L3';
-      return null; // L1 has no drop
+      return null;
     }
 
     // ------------------------------------------------------------------
-    // Firestore writes
+    // Firestore write
     // ------------------------------------------------------------------
     async function updateWordLevelForCurrentWord(newLevel) {
       if (!currentWordEntry) return { ok: false };
@@ -677,7 +880,7 @@
     }
 
     // ------------------------------------------------------------------
-    // Wiring — concealed screen
+    // Wiring
     // ------------------------------------------------------------------
     function wireConcealedActions() {
       const revealBtn = document.getElementById('reveal-btn');
@@ -687,7 +890,6 @@
           renderRevealedScreen();
         });
       }
-
       const hintBtn = document.getElementById('hint-btn');
       if (hintBtn) {
         hintBtn.addEventListener('click', () => {
@@ -700,13 +902,8 @@
           hintBtn.style.display = 'none';
         });
       }
-
       wireAudioButtons();
     }
-
-    // ------------------------------------------------------------------
-    // Wiring — revealed screen
-    // ------------------------------------------------------------------
     function wireRevealedActions() {
       const nextBtn = document.getElementById('next-word-btn');
       if (nextBtn) {
@@ -714,21 +911,14 @@
           if (currentWordEntry) {
             const wordId = currentWordEntry.word.id;
             if (level === 'L4R') {
-              // L4R: clicking Next means retention confirmed (unless already dropped).
-              if (!sessionSeen.has(wordId)) {
-                sessionMastered.add(wordId);
-              }
+              if (!sessionSeen.has(wordId)) sessionMastered.add(wordId);
             } else {
-              // Other levels: skipping = seen but not promoted.
-              if (!sessionMastered.has(wordId)) {
-                sessionSeen.add(wordId);
-              }
+              if (!sessionMastered.has(wordId)) sessionSeen.add(wordId);
             }
           }
           moveToNextWord();
         });
       }
-
       const promoteBtn = document.getElementById('promote-btn');
       if (promoteBtn) {
         promoteBtn.addEventListener('click', async () => {
@@ -747,7 +937,6 @@
           }
         });
       }
-
       const dropBtn = document.getElementById('drop-btn');
       if (dropBtn) {
         dropBtn.addEventListener('click', async () => {
@@ -766,11 +955,8 @@
           }
         });
       }
-
       wireAudioButtons();
     }
-
-    // Wire all data-action audio buttons on the current screen
     function wireAudioButtons() {
       if (!currentWordEntry) return;
       const word = currentWordEntry.word;
@@ -787,7 +973,6 @@
         if (!sen) btn.disabled = true;
       });
     }
-
     function showProgressionConfirmation(targetLevel, isDrop) {
       const container = document.getElementById('progression-confirmation-container');
       if (!container) return;
@@ -816,13 +1001,11 @@
       currentWordEntry = pickRandomFromPool(remaining);
       renderConcealedScreen();
     }
-
     function handleRetest() {
       sessionSeen.clear();
       sessionEnded = null;
       moveToNextWord();
     }
-
     function renderEndOfSession() {
       if (sessionEnded === 'all') {
         const isReview = (level === 'L4R');
@@ -837,10 +1020,10 @@
             '<p>' + msg + '</p>' +
             '<p><small>' + counter + '</small></p>' +
             '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
-              '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
+              '<a class="action-btn primary" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
             '</div>' +
           '</div>';
-        document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="exercise-body">' + inner + '</div>';
+        document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="card exercise-body">' + inner + '</div>';
       } else if (sessionEnded === 'mixed') {
         const isReview = (level === 'L4R');
         const doneLabel = isReview ? 'confirmed' : 'promoted';
@@ -854,7 +1037,7 @@
               '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
             '</div>' +
           '</div>';
-        document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="exercise-body">' + inner + '</div>';
+        document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="card exercise-body">' + inner + '</div>';
         const retest = document.getElementById('retest-btn');
         if (retest) retest.addEventListener('click', handleRetest);
       }
@@ -891,16 +1074,15 @@
           '<p>' + escapeHtml(msg) + '</p>' +
           '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
         '</div>';
-      document.getElementById('app-container').innerHTML = '<div class="exercise-body">' + inner + '</div>';
+      document.getElementById('app-container').innerHTML = '<div class="card exercise-body">' + inner + '</div>';
     }
-
     function renderEmptyPool() {
       const inner =
         '<div class="empty-message">' +
           '<p>No words to practice at this level.</p>' +
           '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
         '</div>';
-      document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="exercise-body">' + inner + '</div>';
+      document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="card exercise-body">' + inner + '</div>';
     }
 
     // ------------------------------------------------------------------
