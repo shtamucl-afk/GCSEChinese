@@ -35,310 +35,139 @@
     }
   </script>
   <style>
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background-color: #fafafa;
-    }
+    body { margin: 0; font-family: system-ui, sans-serif; background-color: #fafafa; }
+    .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; background-color: #f4f4f4; }
+    .top-bar .back-link { font-size: 14px; text-decoration: none; color: #0366d6; }
+    .top-bar .back-link:hover { text-decoration: underline; }
+    .top-bar .student-label { font-size: 14px; color: #555; }
 
-    .top-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      border-bottom: 1px solid #ccc;
-      background-color: #f4f4f4;
-    }
-
-    .top-bar .back-link {
-      font-size: 14px;
-      text-decoration: none;
-      color: #0366d6;
-    }
-
-    .top-bar .back-link:hover {
-      text-decoration: underline;
-    }
-
-    .top-bar .student-label {
-      font-size: 14px;
-      color: #555;
-    }
-
-    .content-wrapper {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 30px 20px;
-    }
+    .content-wrapper { max-width: 900px; margin: 0 auto; padding: 20px; }
 
     .session-header {
-      text-align: center;
-      color: #555;
-      font-size: 14px;
-      margin-bottom: 40px;
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
     }
+    .session-header .book-line { font-size: 13px; color: #666; margin-bottom: 4px; }
+    .session-header .level-line { font-size: 16px; color: #1E3A5F; font-weight: bold; margin-bottom: 12px; }
+    .session-header .instruction-line { font-size: 13px; color: #444; margin-bottom: 3px; }
+    .session-header .goal-line { font-size: 13px; color: #444; margin-bottom: 10px; }
+    .session-header .session-counter { font-size: 12px; color: #888; margin-bottom: 12px; }
+    .session-header .current-chapter { font-size: 15px; color: #333; font-weight: bold; }
 
-    .session-header .primary {
-      font-weight: bold;
-      font-size: 16px;
-      color: #333;
-      margin-bottom: 4px;
-    }
+    .exercise-body { background-color: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 30px 20px; }
 
-    .word-display {
-      text-align: center;
-      padding: 40px 0;
-    }
+    .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .split-col { padding: 0 15px; }
+    .split-col + .split-col { border-left: 1px solid #eee; }
+    .split-col-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; text-align: center; margin-bottom: 15px; font-weight: bold; }
 
-    .word-character {
-      font-size: 72px;
-      font-weight: normal;
-      color: #222;
-      line-height: 1.2;
-      margin-bottom: 40px;
+    .word-display { font-size: 44px; color: #222; text-align: center; margin-bottom: 20px; line-height: 1.2; font-family: 'Noto Sans TC', system-ui, sans-serif; }
+    .sentence-display { font-size: 18px; color: #333; text-align: center; line-height: 1.7; padding: 12px 8px; margin-bottom: 15px; font-family: 'Noto Sans TC', system-ui, sans-serif; }
+    .blank-fill { display: inline-block; letter-spacing: 2px; color: #999; }
+    .filled-answer { font-weight: bold; background-color: #cfe2ff; padding: 2px 6px; border-radius: 3px; }
+
+    .audio-btn-row { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 12px; }
+    .audio-btn {
+      padding: 8px 14px;
+      font-size: 13px;
+      cursor: pointer;
+      border: 1px solid #0366d6;
+      border-radius: 5px;
+      background-color: #fff;
+      color: #0366d6;
+      min-width: 180px;
     }
+    .audio-btn:hover { background-color: #eef; }
+
+    .shared-info-block { text-align: center; margin: 25px 0; padding: 15px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+    .shared-info-block .pinyin { font-size: 22px; color: #444; margin-bottom: 6px; }
+    .shared-info-block .english { font-size: 16px; color: #666; }
 
     .reveal-btn {
-      padding: 12px 32px;
-      font-size: 16px;
-      cursor: pointer;
-      border: 1px solid #0366d6;
-      border-radius: 6px;
-      background-color: #fff;
-      color: #0366d6;
-    }
-
-    .reveal-btn:hover {
-      background-color: #eef;
-    }
-
-    .revealed-details {
-      margin-bottom: 32px;
-    }
-
-    .revealed-pinyin {
-      font-size: 24px;
-      color: #444;
-      margin-bottom: 8px;
-    }
-
-    .reveal-audio-btn {
-      cursor: pointer;
-      background: none;
-      border: 1px solid #ccc;
-      padding: 4px 10px;
-      border-radius: 4px;
-      font-size: 18px;
-      margin-left: 8px;
-      vertical-align: middle;
-    }
-
-    .reveal-audio-btn:hover {
-      background-color: #eef;
-    }
-
-    .revealed-english {
-      font-size: 18px;
-      color: #666;
-      text-align: center;
-    }
-
-    .revealed-sentence {
-      font-size: 18px;
-      color: #666;
-      text-align: center !important;
-      margin-top: 12px;
-    }
-
-    .mastered-row {
-      margin-bottom: 24px;
-      font-size: 15px;
-      color: #333;
-    }
-
-    .mastered-row input[type="checkbox"] {
-      transform: scale(1.3);
-      margin-right: 8px;
-      cursor: pointer;
-      vertical-align: middle;
-    }
-
-    .mastered-row label {
-      cursor: pointer;
-      vertical-align: middle;
-    }
-
-    .action-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-    }
-
-    .action-btn {
-      padding: 10px 24px;
+      padding: 10px 28px;
       font-size: 15px;
       cursor: pointer;
       border: 1px solid #0366d6;
       border-radius: 6px;
-      background-color: #fff;
-      color: #0366d6;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    .action-btn:hover {
-      background-color: #eef;
-    }
-
-    .action-btn.primary {
       background-color: #0366d6;
       color: #fff;
+      font-weight: bold;
     }
+    .reveal-btn:hover { background-color: #024ea8; }
 
-    .action-btn.primary:hover {
-      background-color: #024ea8;
-    }
-
-    .empty-message,
-    .error-message {
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .empty-message p,
-    .error-message p {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 24px;
-    }
-
-    .back-action {
-      display: inline-block;
-      padding: 10px 24px;
+    .hint-btn {
+      padding: 10px 28px;
       font-size: 15px;
-      text-decoration: none;
-      color: #0366d6;
-      border: 1px solid #0366d6;
+      cursor: pointer;
+      border: 1px solid #ccc;
       border-radius: 6px;
+      background-color: #fff;
+      color: #555;
+      font-weight: bold;
     }
+    .hint-btn:hover { background-color: #eef; }
 
-    .back-action:hover {
-      background-color: #eef;
-    }
-
-    .toast {
-      position: fixed;
-      top: 15px;
-      right: 20px;
-      padding: 8px 16px;
-      border-radius: 4px;
-      font-size: 13px;
-      color: #fff;
-      opacity: 0;
-      transition: opacity 0.2s ease-in-out;
-      pointer-events: none;
-      z-index: 1000;
-    }
-
-    .toast.visible {
-      opacity: 1;
-    }
-
-    .toast.success {
-      background-color: #28a745;
-    }
-
-    .toast.error {
-      background-color: #dc3545;
-    }
-
-    .mastered-confirmation {
-      margin-bottom: 24px;
-      font-size: 14px;
+    .hint-display {
+      font-size: 15px;
       color: #155724;
       background-color: #d4edda;
-      padding: 6px 12px;
-      border-radius: 4px;
-      display: inline-block;
+      border: 1px solid #c3e6cb;
+      border-radius: 5px;
+      padding: 10px 15px;
+      margin: 10px auto;
+      max-width: 400px;
+      text-align: center;
     }
+    .hint-display strong { font-weight: bold; }
 
-    .progression-confirmation {
-      margin-bottom: 24px;
-      font-size: 14px;
-      color: #155724;
-      background-color: #d4edda;
-      padding: 6px 12px;
-      border-radius: 4px;
-      display: inline-block;
-    }
+    .action-center { text-align: center; margin-top: 20px; }
+    .action-center > * + * { margin-top: 12px; }
+    .action-center button + button { margin-left: 12px; }
 
-    .progression-confirmation.demoted {
-      color: #721c24;
-      background-color: #f8d7da;
-    }
-
-    .progression-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-
+    .progression-buttons { display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
     .progression-btn {
       padding: 10px 24px;
       font-size: 15px;
       cursor: pointer;
       border-radius: 6px;
       border: 1px solid;
-    }
-
-    .progression-btn.mastered {
-      border-color: #28a745;
-      background-color: #fff;
-      color: #28a745;
-    }
-
-    .progression-btn.mastered:hover {
-      background-color: #e6f5ea;
-    }
-
-    .progression-btn.demote {
-      border-color: #dc3545;
-      background-color: #fff;
-      color: #dc3545;
-    }
-
-    .progression-btn.demote:hover {
-      background-color: #fbeaec;
-    }
-    .blank-sentence {
-      font-size: 22px;
-      line-height: 1.8;
-      color: #222;
-      text-align: center;
-      max-width: 500px;
-      margin: 0 auto 24px auto;
-    }
-    .filled-sentence {
-      font-size: 20px;
-      line-height: 1.8;
-      color: #333;
-      text-align: center;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-    .filled-answer {
       font-weight: bold;
-      background-color: #cfe2ff;
-      padding: 1px 6px;
-      border-radius: 3px;
+    }
+    .progression-btn.mastered { border-color: #28a745; background-color: #fff; color: #28a745; }
+    .progression-btn.mastered:hover { background-color: #e6f5ea; }
+    .progression-btn.demote { border-color: #dc3545; background-color: #fff; color: #dc3545; }
+    .progression-btn.demote:hover { background-color: #fbeaec; }
+
+    .action-buttons { display: flex; justify-content: center; gap: 12px; }
+    .action-btn { padding: 10px 24px; font-size: 15px; cursor: pointer; border: 1px solid #0366d6; border-radius: 6px; background-color: #fff; color: #0366d6; text-decoration: none; display: inline-block; }
+    .action-btn:hover { background-color: #eef; }
+    .action-btn.primary { background-color: #0366d6; color: #fff; }
+    .action-btn.primary:hover { background-color: #024ea8; }
+
+    .empty-message, .error-message { text-align: center; padding: 40px 20px; }
+    .empty-message p, .error-message p { font-size: 16px; color: #555; margin-bottom: 24px; }
+
+    .progression-confirmation { margin: 15px auto; font-size: 14px; color: #155724; background-color: #d4edda; padding: 8px 16px; border-radius: 4px; display: inline-block; }
+    .progression-confirmation.demoted { color: #721c24; background-color: #f8d7da; }
+
+    .toast { position: fixed; top: 15px; right: 20px; padding: 8px 16px; border-radius: 4px; font-size: 13px; color: #fff; opacity: 0; transition: opacity 0.2s ease-in-out; pointer-events: none; z-index: 1000; }
+    .toast.visible { opacity: 1; }
+    .toast.success { background-color: #28a745; }
+    .toast.error { background-color: #dc3545; }
+
+    @media (max-width: 700px) {
+      .split-layout { grid-template-columns: 1fr; }
+      .split-col + .split-col { border-left: none; border-top: 1px solid #eee; padding-top: 20px; margin-top: 10px; }
     }
   </style>
 </head>
 <body>
 
   <div class="top-bar">
-    <a id="back-link" class="back-link" href="dashboard.html">Back to Dashboard</a>
+    <a id="back-link" class="back-link" href="dashboard.html">← Back to Dashboard</a>
     <span id="student-label" class="student-label"></span>
   </div>
 
@@ -360,46 +189,64 @@
     // Constants
     // ------------------------------------------------------------------
     const LEVEL_META = {
-      L0:         { emoji: '🔴', label: 'L0 Discover' },
-      L1:         { emoji: '🟠', label: 'L1 Read' },
-      L2:         { emoji: '🟡', label: 'L2 Listen' },
-      L3:         { emoji: '🟢', label: 'L3 Usage' },
-      L4:         { emoji: '🔵', label: 'L4 Write' },
+      L0:  { emoji: '\ud83d\udd34', label: 'L0 Discover' },
+      L1:  { emoji: '\ud83d\udfe0', label: 'L1 Read' },
+      L2:  { emoji: '\ud83d\udfe1', label: 'L2 Listen' },
+      L3:  { emoji: '\ud83d\udfe2', label: 'L3 Usage' },
+      L4:  { emoji: '\ud83d\udd35', label: 'L4 Write' },
+      L4R: { emoji: '\ud83d\udd04', label: 'L4 Review' },
     };
 
-    // Map exercise level to the source level in the pool
+    // What source level's pool feeds each exercise level
     const LEVEL_SOURCE = {
-      L1: 'L0',
-      L2: 'L1',
-      L3: 'L2',
-      L4: 'L3',
+      L1:  'L0',
+      L2:  'L1',
+      L3:  'L2',
+      L4:  'L3',
+      L4R: 'L4',
+    };
+
+    // Instruction + goal text per exercise level
+    const LEVEL_TEXT = {
+      L1: {
+        instruction: 'Can you read this word and know its meaning?',
+        goal: 'Able to read the word aloud and recall its meaning',
+      },
+      L2: {
+        instruction: 'Listen carefully to guess the word',
+        goal: 'Correctly identify the word by listening alone',
+      },
+      L3: {
+        instruction: 'Guess the missing word. Tap Hint to see the English meaning.',
+        goal: 'Correctly pick the right word for this sentence',
+      },
+      L4: {
+        instruction: 'Play the word and write the full character on paper',
+        goal: 'Able to write the full character from memory',
+      },
+      L4R: {
+        instruction: 'Listen and fill in the missing word. Test that you still remember it fully.',
+        goal: 'Confirm you can still recognise, read, understand, and write this word from memory',
+      },
     };
 
     // ------------------------------------------------------------------
-    // URL parameter parsing + defensive redirects
+    // URL parameter parsing
     // ------------------------------------------------------------------
     const student = getStudentFromUrl();
     const params = new URLSearchParams(window.location.search);
     const level = params.get('level');
+    const bookIdRaw = params.get('book');
     const chapterScopeRaw = params.get('chapter');
-    // Normalize: "ALL", "all", "All" all become "all"
-    const chapterScope = (chapterScopeRaw && chapterScopeRaw.toLowerCase() === 'all')
-      ? 'all'
-      : chapterScopeRaw;
+    const chapterScope = (chapterScopeRaw && chapterScopeRaw.toLowerCase() === 'all') ? 'all' : chapterScopeRaw;
+    const bookId = bookIdRaw ? bookIdRaw.trim() : null;
 
-    if (!student) {
-      window.location.href = 'index.html';
-    }
-    if (!level || !chapterScope) {
-      window.location.href = buildBackToDashboardUrl()
-    }
-    // Validate level is one of the known levels (defensive)
-    const VALID_LEVELS = ['L1', 'L2', 'L3', 'L4'];
-    if (!VALID_LEVELS.includes(level)) {
-      window.location.href = buildBackToDashboardUrl()
-    }
+    if (!student) window.location.href = 'index.html';
+    if (!level || !chapterScope || !bookId) window.location.href = buildBackToDashboardUrl();
 
-    // Set up top bar
+    const VALID_LEVELS = ['L1', 'L2', 'L3', 'L4', 'L4R'];
+    if (!VALID_LEVELS.includes(level)) window.location.href = buildBackToDashboardUrl();
+
     document.getElementById('back-link').href = buildBackToDashboardUrl();
     document.getElementById('student-label').textContent = 'Student: ' + student;
 
@@ -408,6 +255,7 @@
     // ------------------------------------------------------------------
     let studentProgress = {};
     let studentExcluded = [];
+    let bookMeta = null;
     let allChapters = [];
     let chapterVocab = {};
     let pool = [];
@@ -415,11 +263,12 @@
     let sessionSeen = new Set();
     let currentWordEntry = null;
     let isRevealed = false;
-    let sessionEnded = null;  // null | 'all' | 'mixed'
+    let sessionEnded = null;
     let currentAudio = null;
+    let hintShown = false;
 
     // ------------------------------------------------------------------
-    // Load student progress + excluded
+    // Loaders
     // ------------------------------------------------------------------
     async function loadStudentProgress() {
       try {
@@ -431,8 +280,6 @@
           studentProgress = {};
           studentExcluded = [];
         }
-        console.log('Loaded progress:', Object.keys(studentProgress).length, 'entries;',
-                    studentExcluded.length, 'excluded');
       } catch (err) {
         console.error('Error loading student progress:', err);
         studentProgress = {};
@@ -440,47 +287,53 @@
       }
     }
 
-    // ------------------------------------------------------------------
-    // Load chapters index + relevant chapter JSON(s)
-    // ------------------------------------------------------------------
-    async function loadChapters() {
-      const idxResponse = await fetch('data/chapters-index.json');
-      if (!idxResponse.ok) throw new Error('HTTP ' + idxResponse.status);
-      const idx = await idxResponse.json();
-      allChapters = idx.chapters || [];
+    async function loadBookMeta() {
+      try {
+        const response = await fetch('data/books-index.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const data = await response.json();
+        const found = (data.books || []).find(b => b.id === bookId);
+        if (!found) throw new Error('Book ' + bookId + ' not registered.');
+        bookMeta = found;
+      } catch (err) {
+        console.error('Error loading book meta:', err);
+        bookMeta = { id: bookId, title: 'Book ' + bookId };
+      }
+    }
 
-      // Determine which chapters to load
+    async function loadChapters() {
+      try {
+        const response = await fetch('data/book' + bookId + '/chapters-index.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const data = await response.json();
+        allChapters = data.chapters || [];
+      } catch (err) {
+        throw new Error('Could not load chapters for book ' + bookId + '.');
+      }
+
       const chaptersToLoad = (chapterScope === 'all')
         ? allChapters
         : allChapters.filter(c => c.id === chapterScope);
 
       if (chaptersToLoad.length === 0) {
-        if (chapterScope === 'all') {
-          throw new Error('No chapters authored yet.');
-        }
-        throw new Error('Chapter "' + chapterScope + '" not found. Available: ' +
-                        allChapters.map(c => c.id).join(', ') + '.');
+        throw new Error('Chapter "' + chapterScope + '" not found in book ' + bookId + '.');
       }
 
       chapterVocab = {};
       for (const ch of chaptersToLoad) {
-        const response = await fetch('data/chapter' + ch.id + '.json');
+        const response = await fetch('data/book' + bookId + '/chapter' + ch.id + '.json');
         if (!response.ok) throw new Error('HTTP ' + response.status + ' loading chapter ' + ch.id);
         const data = await response.json();
         chapterVocab[ch.id] = data.vocab || [];
       }
-
-      console.log('Loaded vocab for', Object.keys(chapterVocab).length, 'chapter(s)');
     }
 
     // ------------------------------------------------------------------
-    // Compute pool: source-level words minus excluded, minus session state
+    // Pool computation
     // ------------------------------------------------------------------
     function getLevelForWord(wordId) {
       return studentProgress[wordId] || 'L0';
     }
-
-
     function isWordExcluded(wordId) {
       return studentExcluded.includes(wordId);
     }
@@ -498,409 +351,470 @@
       console.log('Pool computed: ' + pool.length + ' words at source level ' + sourceLevel);
     }
 
-    // ------------------------------------------------------------------
-    // Session helpers
-    // ------------------------------------------------------------------
     function getRemainingPool() {
-      return pool.filter(entry => {
-        return !sessionMastered.has(entry.word.id) && !sessionSeen.has(entry.word.id);
-      });
+      return pool.filter(entry => !sessionMastered.has(entry.word.id) && !sessionSeen.has(entry.word.id));
     }
-
     function pickRandomFromPool(entries) {
       if (entries.length === 0) return null;
-      const idx = Math.floor(Math.random() * entries.length);
-      return entries[idx];
+      return entries[Math.floor(Math.random() * entries.length)];
     }
 
-// ------------------------------------------------------------------
-    // Rendering
     // ------------------------------------------------------------------
-    function getChapterTitle(chapterId) {
-      const ch = allChapters.find(c => c.id === chapterId);
-      return ch ? ch.title : '';
-    }
-    function buildWordContextText() {
-      if (!currentWordEntry) return '';
-      const chId = currentWordEntry.chapterId;
-      const chTitle = getChapterTitle(chId);
-      return 'Word from Chapter ' + chId + (chTitle ? ': ' + chTitle : '');
-    }
+    // Utility
+    // ------------------------------------------------------------------
     function escapeHtml(text) {
-      return String(text)
+      return String(text || '')
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#39;');
     }
-    // Replace every occurrence of wordText in sentence with U+FF3F (\uFF3F)
-    // full-width underscores matching the word's character count.
-    // If the word is not present, warn and return the sentence unchanged.
+
     function buildBlankedSentence(sentence, wordText) {
       if (!sentence || !wordText) return sentence || '';
       if (sentence.indexOf(wordText) === -1) {
-        console.warn('L3: word "' + wordText + '" not found in context sentence. Displaying sentence unchanged.');
+        console.warn('Word "' + wordText + '" not found in context sentence.');
         return sentence;
       }
       const blank = '\uFF3F'.repeat(wordText.length);
       return sentence.split(wordText).join(blank);
     }
-    // Return escaped HTML with wordText wrapped in a .filled-answer span.
+
     function buildFilledSentenceHtml(sentence, wordText) {
       if (!sentence) return '';
       const escapedSentence = escapeHtml(sentence);
-      if (!wordText || sentence.indexOf(wordText) === -1) {
-        return escapedSentence;
-      }
+      if (!wordText || sentence.indexOf(wordText) === -1) return escapedSentence;
       const escapedWord = escapeHtml(wordText);
       const wrapped = '<span class="filled-answer">' + escapedWord + '</span>';
       return escapedSentence.split(escapedWord).join(wrapped);
     }
-    function renderSessionHeader() {
-      const scopeText = (chapterScope === 'all')
-        ? 'All Chapters'
-        : 'Chapter ' + chapterScope;
-      const levelLabel = LEVEL_META[level] ? LEVEL_META[level].label + ' Exercise' : level + ' Exercise';
 
-      const wordContext = buildWordContextText();
-      const masteredText = 'Session: ' + sessionMastered.size + ' promoted';
+    function getChapterTitle(chapterId) {
+      const ch = allChapters.find(c => c.id === chapterId);
+      return ch ? ch.title : '';
+    }
+
+    function getSessionCounterText() {
+      if (level === 'L4R') {
+        return 'Session: ' + sessionMastered.size + ' confirmed full understanding';
+      }
+      return 'Session: ' + sessionMastered.size + ' promoted';
+    }
+
+    // ------------------------------------------------------------------
+    // Audio playback
+    // ------------------------------------------------------------------
+    function stopCurrentAudio() {
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+        currentAudio = null;
+      }
+    }
+
+    function playAudio(audioPath) {
+      if (!audioPath) { console.warn('No audio path.'); return; }
+      stopCurrentAudio();
+      currentAudio = new Audio(audioPath);
+      currentAudio.play().catch(err => console.error('Audio playback failed:', err));
+    }
+
+    async function playWordThenSentence(wordAudio, sentenceAudio) {
+      if (!wordAudio) return;
+      stopCurrentAudio();
+      try {
+        currentAudio = new Audio(wordAudio);
+        await currentAudio.play();
+        currentAudio.addEventListener('ended', () => {
+          if (!sentenceAudio) return;
+          setTimeout(() => {
+            currentAudio = new Audio(sentenceAudio);
+            currentAudio.play().catch(err => console.error('Sentence audio failed:', err));
+          }, 50);
+        }, { once: true });
+      } catch (err) {
+        console.error('Combined audio failed:', err);
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Session header
+    // ------------------------------------------------------------------
+    function renderSessionHeader() {
+      const bookLine = bookMeta ? bookMeta.title : ('Book ' + bookId);
+      const levelEmoji = LEVEL_META[level] ? LEVEL_META[level].emoji : '';
+      const levelLabel = LEVEL_META[level] ? LEVEL_META[level].label : level;
+      const scopeSuffix = (chapterScope === 'all') ? ' - All Chapters' : (' - Chapter ' + chapterScope + ' Only');
+      const levelDisplay = levelEmoji + ' ' + levelLabel + ' Exercise' + scopeSuffix;
+      const txt = LEVEL_TEXT[level] || { instruction: '', goal: '' };
+      const currentChapterLine = getCurrentVocabularySourceText();
       return (
         '<div class="session-header">' +
-          '<div class="primary">' + scopeText + ' \u00b7 ' + levelLabel + '</div>' +
-          '<div>' + (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText + '</div>' +
+          '<div class="book-line">\ud83d\udcda ' + escapeHtml(bookLine) + '</div>' +
+          '<div class="level-line">' + levelDisplay + '</div>' +
+          '<div class="instruction-line">\ud83d\udca1 Instruction: ' + escapeHtml(txt.instruction) + '</div>' +
+          '<div class="goal-line">\ud83c\udfaf Goal: ' + escapeHtml(txt.goal) + '</div>' +
+          '<div class="session-counter">' + getSessionCounterText() + '</div>' +
+          (currentChapterLine ? '<div class="current-chapter">' + escapeHtml(currentChapterLine) + '</div>' : '') +
         '</div>'
       );
     }
 
-    function renderWordDisplay() {
-      const word = currentWordEntry.word;
-      return (
-        '<div class="word-display">' +
-          '<div class="word-character">' + word.traditional + '</div>' +
-          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
-        '</div>'
-      );
-    }
-
-    function renderWordDisplayL2() {
-      return (
-        '<div class="word-display">' +
-
-          '<div style="margin-bottom:16px;">' +
-            '<button id="play-word-btn" class="reveal-btn">Play Word</button>' +
-          '</div>' +
-
-          '<div style="margin-bottom:16px;">' +
-            '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>' +
-          '</div>' +
-
-          '<div id="hint-container" style="margin-bottom:16px;"></div>' +
-
-          '<div style="margin-bottom:16px;">' +
-            '<button id="hint-btn" class="reveal-btn">Hint</button>' +
-          '</div>' +
-
-          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
-
-        '</div>'
-      );
-    }
-
-    function renderWordDisplayRevealed() {
-      const word = currentWordEntry.word;
-      let html = '';
-      html += '<div class="word-display">';
-      html +=   '<div class="word-character">' + word.traditional + '</div>';
-      html +=   '<div class="revealed-details">';
-      html +=     '<div class="revealed-pinyin">';
-      html +=       word.pinyin;
-      html +=       ' <button id="reveal-audio-btn" class="reveal-audio-btn" title="Play word audio">🔊</button>';
-      html +=     '</div>';
-      html +=     '<div class="revealed-english">' + word.english + '</div>';
-      html +=   '</div>';
-      html +=   '<div class="mastered-row">';
-      html +=     '<label>';
-      html +=       '<input type="checkbox" id="mastered-checkbox">';
-      html +=       'Promote to L1 Read - I know both the pinyin and meaning';
-      html +=     '</label>';
-      html +=   '</div>';
-      html +=   '<div id="action-buttons-placeholder"></div>';
-      html += '</div>';
-      return html;
-    }
-
-    function renderWordDisplayRevealedL2() {
-      const word = currentWordEntry.word;
-
-      let html = '';
-
-      html += '<div class="word-display">';
-
-      html += '<div style="margin-bottom:16px;">';
-      html += '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
-      html += '</div>';
-
-      html += '<div style="margin-bottom:24px;">';
-      html += '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
-      html += '</div>';
-
-      html += '<div class="word-character">' + word.traditional + '</div>';
-
-      html += '<div class="revealed-pinyin">' + word.pinyin + '</div>';
-      html += '<div class="revealed-english">' + word.english + '</div>';
-
-      html += '<div style="height:32px;"></div>';
-
-      html += '<div style="display:flex;justify-content:center;width:100%;">';
-      html += '<div class="revealed-sentence" style="max-width:400px;text-align:center;">';
-      html += word.contextSentence;
-      html += '</div>';
-      html += '</div>';
-
-      html += '<div style="height:32px;"></div>';
-
-      html += '<div class="progression-buttons">';
-      html += '<button id="mastered-l2-btn" class="progression-btn mastered">\u2713 Promote to L2 Listen</button>';
-      html += '<button id="drop-l0-btn" class="progression-btn demote">\u2193 Drop to L0 Discover</button>';
-      html += '</div>';
-
-      html += '<div id="progression-confirmation-container"></div>';
-
-      html += '<div style="height:24px;"></div>';
-      html += '<div id="action-buttons-placeholder"></div>';
-
-      html += '</div>';
-
-      return html;
-    }
-
-
-    function renderWordDisplayL3() {
-      const word = currentWordEntry.word;
-      const blanked = buildBlankedSentence(word.contextSentence, word.traditional);
-      let html = '';
-      html += '<div class="word-display">';
-      html +=   '<div style="margin-bottom:20px;">';
-      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
-      html +=   '</div>';
-      html +=   '<div class="blank-sentence">' + escapeHtml(blanked) + '</div>';
-      html +=   '<div id="hint-container" style="margin-bottom:16px;"></div>';
-      html +=   '<div style="margin-bottom:16px;">';
-      html +=     '<button id="hint-btn" class="reveal-btn">Hint</button>';
-      html +=   '</div>';
-      html +=   '<button id="reveal-btn" class="reveal-btn">Reveal</button>';
-      html += '</div>';
-      return html;
-    }
-    function renderWordDisplayRevealedL3() {
-      const word = currentWordEntry.word;
-      const filledHtml = buildFilledSentenceHtml(word.contextSentence, word.traditional);
-      let html = '';
-      html += '<div class="word-display">';
-      html +=   '<div class="filled-sentence">' + filledHtml + '</div>';
-      html +=   '<div style="height:24px;"></div>';
-      html +=   '<div class="word-character">' + word.traditional + '</div>';
-      html +=   '<div class="revealed-pinyin">' + word.pinyin + '</div>';
-      html +=   '<div class="revealed-english">' + word.english + '</div>';
-      html +=   '<div style="height:24px;"></div>';
-      html +=   '<div style="display:flex;justify-content:center;gap:12px;margin-bottom:24px;">';
-      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
-      html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
-      html +=   '</div>';
-      html +=   '<div class="progression-buttons">';
-      html +=     '<button id="mastered-l3-btn" class="progression-btn mastered">\u2713 Promote to L3 Usage</button>';
-      html +=     '<button id="drop-l1-btn" class="progression-btn demote">\u2193 Drop to L1 Read</button>';
-      html +=   '</div>';
-      html +=   '<div id="progression-confirmation-container"></div>';
-      html +=   '<div style="height:24px;"></div>';
-      html +=   '<div id="action-buttons-placeholder"></div>';
-      html += '</div>';
-      return html;
-    }
-
-    function renderWordDisplayL4() {
-      const word = currentWordEntry.word;
-      let html = '';
-      html += '<div class="word-display">';
-      html +=   '<div style="margin-bottom:16px;">';
-      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
-      html +=   '</div>';
-      html +=   '<div style="margin-bottom:24px;">';
-      html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
-      html +=   '</div>';
-      html +=   '<div class="revealed-pinyin">' + word.pinyin + '</div>';
-      html +=   '<div class="revealed-english">' + word.english + '</div>';
-      html +=   '<div style="height:24px;"></div>';
-      html +=   '<button id="reveal-btn" class="reveal-btn">Reveal</button>';
-      html += '</div>';
-      return html;
-    }
-    function renderWordDisplayRevealedL4() {
-      const word = currentWordEntry.word;
-      let html = '';
-      html += '<div class="word-display">';
-      html +=   '<div style="margin-bottom:16px;">';
-      html +=     '<button id="play-word-btn" class="reveal-btn">Play Word</button>';
-      html +=   '</div>';
-      html +=   '<div style="margin-bottom:24px;">';
-      html +=     '<button id="play-word-sentence-btn" class="reveal-btn">Play Word + Sentence</button>';
-      html +=   '</div>';
-      html +=   '<div class="word-character">' + word.traditional + '</div>';
-      html +=   '<div class="revealed-pinyin">' + word.pinyin + '</div>';
-      html +=   '<div class="revealed-english">' + word.english + '</div>';
-      html +=   '<div style="height:32px;"></div>';
-      html +=   '<div style="display:flex;justify-content:center;width:100%;">';
-      html +=     '<div class="revealed-sentence" style="max-width:400px;text-align:center;">';
-      html +=       word.contextSentence;
-      html +=     '</div>';
-      html +=   '</div>';
-      html +=   '<div style="height:32px;"></div>';
-      html +=   '<div class="progression-buttons">';
-      html +=     '<button id="mastered-l4-btn" class="progression-btn mastered">\u2713 Promote to L4 Write</button>';
-      html +=     '<button id="drop-l2-btn" class="progression-btn demote">\u2193 Drop to L2 Listen</button>';
-      html +=   '</div>';
-      html +=   '<div id="progression-confirmation-container"></div>';
-      html +=   '<div style="height:24px;"></div>';
-      html +=   '<div id="action-buttons-placeholder"></div>';
-      html += '</div>';
-      return html;
-    }
-    function renderEmptyPool() {
-      return (
-        '<div class="empty-message">' +
-          '<p>No words to practice at this level.</p>' +
-          '<a class="back-action" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
-        '</div>'
-      );
-    }
-
-    function renderNotImplemented() {
-      return (
-        '<div class="empty-message">' +
-          '<p>The ' + level + ' exercise is coming in a future milestone.</p>' +
-          '<a class="back-action" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
-        '</div>'
-      );
-    }
-
-    function renderErrorMessage(msg) {
-      return (
-        '<div class="error-message">' +
-          '<p>' + msg + '</p>' +
-          '<a class="back-action" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
-        '</div>'
-      );
-    }
-
-    function renderAllMastered() {
-      return (
-        '<div class="empty-message">' +
-          '<p>🎉 You\'ve promoted all words to the next level! Great job.</p>' +
-          '<p><small>Session: ' + sessionMastered.size + ' promoted</small></p>' +
-          '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
-            '<div id="all-back-placeholder"></div>' +
-          '</div>' +
-        '</div>'
-      );
-    }
-
-    function renderSessionMixed() {
-      const masteredCount = sessionMastered.size;
-      const seenCount = sessionSeen.size;
-      return (
-        '<div class="empty-message">' +
-          '<p>Session complete.</p>' +
-          '<p>You promoted <strong>' + masteredCount + '</strong> word(s). ' +
-             '<strong>' + seenCount + '</strong> word(s) seen but not promoted.</p>' +
-          '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
-            '<button id="retest-btn" class="action-btn primary">Re-test previous words</button>' +
-            '<div id="end-back-placeholder"></div>' +
-          '</div>' +
-        '</div>'
-      );
-    }
-
-    function render() {
-      const container = document.getElementById('app-container');
-
-      // L1, L2, L3, and L4 currently implemented
-      if (level !== 'L1' && level !== 'L2' && level !== 'L3' && level !== 'L4') {
-        container.innerHTML = renderNotImplemented();
-        return;
-      }
-
-      // End-of-session scenarios (took precedence over word display)
-      if (sessionEnded === 'all') {
-        container.innerHTML = renderSessionHeader() + renderAllMastered();
-        wireEndOfSessionBack();
-        return;
-      }
-
-      if (sessionEnded === 'mixed') {
-        container.innerHTML = renderSessionHeader() + renderSessionMixed();
-        wireSessionMixedActions();
-        return;
-      }
-
-      // No current word means the pool started empty (Scenario C)
-      if (!currentWordEntry) {
-        container.innerHTML = renderSessionHeader() + renderEmptyPool();
-        return;
-      }
-
-      // Word display: either concealed (Reveal button) or revealed (details + actions)
-      if (isRevealed) {
-        if (level === 'L2') {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL2();
-        } else if (level === 'L3') {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL3();
-        } else if (level === 'L4') {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealedL4();
-        } else {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayRevealed();
-        }
-        wireRevealedActions();
-
-      } else {
-        if (level === 'L2') {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayL2();
-        } else if (level === 'L3') {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayL3();
-        } else if (level === 'L4') {
-          container.innerHTML = renderSessionHeader() + renderWordDisplayL4();
-        } else {
-          container.innerHTML = renderSessionHeader() + renderWordDisplay();
-        }
-        wireRevealButton();
-      }
+    function getCurrentVocabularySourceText() {
+      if (!currentWordEntry) return '';
+      const chId = currentWordEntry.chapterId;
+      const chTitle = getChapterTitle(chId);
+      return 'Current vocabulary is from "Chapter ' + chId + (chTitle ? ': ' + chTitle : '') + '"';
     }
 
     function updateSessionCounter() {
-      const headerSecondLine = document.querySelector('.session-header div:last-child');
-      if (!headerSecondLine) return;
-      const wordContext = buildWordContextText();
-      const masteredText = 'Session: ' + sessionMastered.size + ' promoted';
-      headerSecondLine.textContent = (wordContext ? wordContext + ' \u00b7 ' : '') + masteredText;
+      const counterEl = document.querySelector('.session-header .session-counter');
+      if (counterEl) counterEl.textContent = getSessionCounterText();
     }
 
-    function moveToNextWord() {
-      const remaining = getRemainingPool();
+    // ------------------------------------------------------------------
+    // Concealed screen rendering — split by level
+    // ------------------------------------------------------------------
+    function renderConcealedScreen() {
+      let inner = '';
+      if (level === 'L1') inner = renderConcealedL1();
+      else if (level === 'L2') inner = renderConcealedL2();
+      else if (level === 'L3') inner = renderConcealedL3();
+      else if (level === 'L4') inner = renderConcealedL4();
+      else if (level === 'L4R') inner = renderConcealedL4R();
 
-      if (remaining.length === 0) {
-        // Determine which end-of-session scenario
-        if (sessionSeen.size === 0) {
-          sessionEnded = 'all';    // Scenario A
-        } else {
-          sessionEnded = 'mixed';  // Scenario B
-        }
-        currentWordEntry = null;
-      } else {
-        currentWordEntry = pickRandomFromPool(remaining);
-        isRevealed = false;
+      const html = '<div class="exercise-body">' + inner + '</div>';
+      document.getElementById('app-container').innerHTML = renderSessionHeader() + html;
+      wireConcealedActions();
+    }
+
+    function renderConcealedL1() {
+      const word = currentWordEntry.word;
+      return (
+        renderSplitLayout(
+          '<div class="word-display">' + escapeHtml(word.traditional) + '</div>',
+          '<div class="word-display">' + escapeHtml(word.simplified) + '</div>'
+        ) +
+        '<div class="action-center">' +
+          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
+        '</div>'
+      );
+    }
+
+    function renderConcealedL2() {
+      // Two columns of audio only, plus optional Hint + Reveal
+      return (
+        renderSplitLayout(
+          renderAudioColumn('cantonese'),
+          renderAudioColumn('mandarin')
+        ) +
+        '<div class="action-center">' +
+          '<div id="hint-container"></div>' +
+          '<button id="hint-btn" class="hint-btn">Hint</button>' +
+          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
+        '</div>'
+      );
+    }
+
+    function renderConcealedL3() {
+      const word = currentWordEntry.word;
+      const blankedTrad = buildBlankedSentence(word.contextSentence, word.traditional);
+      const blankedSimp = buildBlankedSentence(word.contextSentenceSimplified || '', word.simplified);
+      return (
+        renderSplitLayout(
+          '<div class="sentence-display">' + escapeHtml(blankedTrad) + '</div>' + renderAudioColumn('cantonese', /*isolatedOnly*/ true),
+          '<div class="sentence-display">' + escapeHtml(blankedSimp) + '</div>' + renderAudioColumn('mandarin', /*isolatedOnly*/ true)
+        ) +
+        '<div class="action-center">' +
+          '<div id="hint-container"></div>' +
+          '<button id="hint-btn" class="hint-btn">Hint</button>' +
+          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
+        '</div>'
+      );
+    }
+
+    function renderConcealedL4() {
+      const word = currentWordEntry.word;
+      return (
+        renderSplitLayout(
+          renderAudioColumn('cantonese'),
+          renderAudioColumn('mandarin')
+        ) +
+        '<div class="shared-info-block">' +
+          '<div class="pinyin">' + escapeHtml(word.pinyin || '') + '</div>' +
+          '<div class="english">' + escapeHtml(word.english || '') + '</div>' +
+        '</div>' +
+        '<div class="action-center">' +
+          '<button id="reveal-btn" class="reveal-btn">Reveal</button>' +
+        '</div>'
+      );
+    }
+
+    function renderConcealedL4R() {
+      // Same as L3: fill-in-blank + isolated word audio + Hint + Reveal
+      return renderConcealedL3();
+    }
+
+    function renderAudioColumn(language, isolatedOnly) {
+      // language: 'cantonese' or 'mandarin'
+      const langLabel = (language === 'cantonese') ? 'Cantonese' : 'Mandarin';
+      const suffix = (language === 'cantonese') ? '-c' : '-m';
+      let html = '<div class="audio-btn-row">';
+      html += '<button class="audio-btn" data-action="play-word" data-lang="' + language + '">\ud83d\udd0a Play Word (' + langLabel + ')</button>';
+      if (!isolatedOnly) {
+        html += '<button class="audio-btn" data-action="play-sentence" data-lang="' + language + '">\ud83d\udd0a Play Sentence (' + langLabel + ')</button>';
+      }
+      html += '</div>';
+      return html;
+    }
+
+    function renderSplitLayout(leftHtml, rightHtml) {
+      return (
+        '<div class="split-layout">' +
+          '<div class="split-col">' +
+            '<div class="split-col-label">Traditional</div>' +
+            leftHtml +
+          '</div>' +
+          '<div class="split-col">' +
+            '<div class="split-col-label">Simplified</div>' +
+            rightHtml +
+          '</div>' +
+        '</div>'
+      );
+    }
+
+    // ------------------------------------------------------------------
+    // Revealed screen rendering — SHARED across all levels
+    // ------------------------------------------------------------------
+    function renderRevealedScreen() {
+      const word = currentWordEntry.word;
+      const filledTradHtml = buildFilledSentenceHtml(word.contextSentence, word.traditional);
+      const filledSimpHtml = buildFilledSentenceHtml(word.contextSentenceSimplified || '', word.simplified);
+
+      const inner =
+        renderSplitLayout(
+          '<div class="word-display">' + escapeHtml(word.traditional) + '</div>' +
+          '<div class="sentence-display">' + filledTradHtml + '</div>' +
+          renderAudioColumn('cantonese'),
+          '<div class="word-display">' + escapeHtml(word.simplified) + '</div>' +
+          '<div class="sentence-display">' + filledSimpHtml + '</div>' +
+          renderAudioColumn('mandarin')
+        ) +
+        '<div class="shared-info-block">' +
+          '<div class="pinyin">' + escapeHtml(word.pinyin || '') + '</div>' +
+          '<div class="english">' + escapeHtml(word.english || '') + '</div>' +
+        '</div>' +
+        renderProgressionButtons() +
+        '<div id="progression-confirmation-container" style="text-align:center;"></div>' +
+        '<div class="action-buttons">' +
+          '<button id="next-word-btn" class="action-btn primary">Next word</button>' +
+          '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
+        '</div>';
+
+      const html = '<div class="exercise-body">' + inner + '</div>';
+      document.getElementById('app-container').innerHTML = renderSessionHeader() + html;
+      wireRevealedActions();
+    }
+
+    function renderProgressionButtons() {
+      let html = '<div class="progression-buttons">';
+      if (level === 'L1') {
+        html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L1 Read</button>';
+      } else if (level === 'L2') {
+        html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L2 Listen</button>';
+        html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L0 Discover</button>';
+      } else if (level === 'L3') {
+        html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L3 Usage</button>';
+        html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L1 Read</button>';
+      } else if (level === 'L4') {
+        html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L4 Write</button>';
+        html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L2 Listen</button>';
+      } else if (level === 'L4R') {
+        // Only Drop button. Next-word click = retention confirmed.
+        html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L3 Usage</button>';
+      }
+      html += '</div>';
+      return html;
+    }
+
+    function progressionTargetOnPromote() {
+      // Returns level to write to Firestore on promote (or null for L4R since retention = no write).
+      if (level === 'L1') return 'L1';
+      if (level === 'L2') return 'L2';
+      if (level === 'L3') return 'L3';
+      if (level === 'L4') return 'L4';
+      if (level === 'L4R') return null; // no-op — word retained at L4
+      return null;
+    }
+
+    function progressionTargetOnDrop() {
+      if (level === 'L2') return 'L0';
+      if (level === 'L3') return 'L1';
+      if (level === 'L4') return 'L2';
+      if (level === 'L4R') return 'L3';
+      return null; // L1 has no drop
+    }
+
+    // ------------------------------------------------------------------
+    // Firestore writes
+    // ------------------------------------------------------------------
+    async function updateWordLevelForCurrentWord(newLevel) {
+      if (!currentWordEntry) return { ok: false };
+      const wordId = currentWordEntry.word.id;
+      try {
+        const update = {
+          progress: { [wordId]: newLevel },
+          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
+        };
+        await db.collection('students').doc(student).set(update, { merge: true });
+        studentProgress[wordId] = newLevel;
+        return { ok: true };
+      } catch (err) {
+        console.error('Failed to set level:', err);
+        return { ok: false, error: err };
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Wiring — concealed screen
+    // ------------------------------------------------------------------
+    function wireConcealedActions() {
+      const revealBtn = document.getElementById('reveal-btn');
+      if (revealBtn) {
+        revealBtn.addEventListener('click', () => {
+          isRevealed = true;
+          renderRevealedScreen();
+        });
       }
 
-      render();
+      const hintBtn = document.getElementById('hint-btn');
+      if (hintBtn) {
+        hintBtn.addEventListener('click', () => {
+          if (hintShown) return;
+          hintShown = true;
+          const hintContainer = document.getElementById('hint-container');
+          if (hintContainer && currentWordEntry) {
+            hintContainer.innerHTML = '<div class="hint-display"><strong>English:</strong> ' + escapeHtml(currentWordEntry.word.english || '') + '</div>';
+          }
+          hintBtn.style.display = 'none';
+        });
+      }
+
+      wireAudioButtons();
+    }
+
+    // ------------------------------------------------------------------
+    // Wiring — revealed screen
+    // ------------------------------------------------------------------
+    function wireRevealedActions() {
+      const nextBtn = document.getElementById('next-word-btn');
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          if (currentWordEntry) {
+            const wordId = currentWordEntry.word.id;
+            if (level === 'L4R') {
+              // L4R: clicking Next means retention confirmed (unless already dropped).
+              if (!sessionSeen.has(wordId)) {
+                sessionMastered.add(wordId);
+              }
+            } else {
+              // Other levels: skipping = seen but not promoted.
+              if (!sessionMastered.has(wordId)) {
+                sessionSeen.add(wordId);
+              }
+            }
+          }
+          moveToNextWord();
+        });
+      }
+
+      const promoteBtn = document.getElementById('promote-btn');
+      if (promoteBtn) {
+        promoteBtn.addEventListener('click', async () => {
+          const target = progressionTargetOnPromote();
+          if (!target) return;
+          const result = await updateWordLevelForCurrentWord(target);
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionSeen.delete(wordId);
+            sessionMastered.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation(target, false);
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+
+      const dropBtn = document.getElementById('drop-btn');
+      if (dropBtn) {
+        dropBtn.addEventListener('click', async () => {
+          const target = progressionTargetOnDrop();
+          if (!target) return;
+          const result = await updateWordLevelForCurrentWord(target);
+          if (result.ok) {
+            const wordId = currentWordEntry.word.id;
+            sessionMastered.delete(wordId);
+            sessionSeen.add(wordId);
+            showToast('Saved', 'success');
+            showProgressionConfirmation(target, true);
+            updateSessionCounter();
+          } else {
+            showToast('Save failed. Please try again.', 'error');
+          }
+        });
+      }
+
+      wireAudioButtons();
+    }
+
+    // Wire all data-action audio buttons on the current screen
+    function wireAudioButtons() {
+      if (!currentWordEntry) return;
+      const word = currentWordEntry.word;
+      document.querySelectorAll('button[data-action="play-word"]').forEach(btn => {
+        const lang = btn.dataset.lang;
+        const audio = (word.audio && word.audio[lang]) ? word.audio[lang].isolated : null;
+        btn.addEventListener('click', () => playAudio(audio));
+        if (!audio) btn.disabled = true;
+      });
+      document.querySelectorAll('button[data-action="play-sentence"]').forEach(btn => {
+        const lang = btn.dataset.lang;
+        const sen = (word.audio && word.audio[lang]) ? word.audio[lang].sentence : null;
+        btn.addEventListener('click', () => playAudio(sen));
+        if (!sen) btn.disabled = true;
+      });
+    }
+
+    function showProgressionConfirmation(targetLevel, isDrop) {
+      const container = document.getElementById('progression-confirmation-container');
+      if (!container) return;
+      const confirmation = document.createElement('div');
+      confirmation.className = 'progression-confirmation' + (isDrop ? ' demoted' : '');
+      const label = LEVEL_META[targetLevel] ? LEVEL_META[targetLevel].label : targetLevel;
+      const prefix = isDrop ? '\u2193 This word has moved back to ' : '\u2713 This word has been promoted to ';
+      confirmation.textContent = prefix + label;
+      container.innerHTML = '';
+      container.appendChild(confirmation);
+    }
+
+    // ------------------------------------------------------------------
+    // Session transitions
+    // ------------------------------------------------------------------
+    function moveToNextWord() {
+      isRevealed = false;
+      hintShown = false;
+      const remaining = getRemainingPool();
+      if (remaining.length === 0) {
+        sessionEnded = (sessionSeen.size === 0) ? 'all' : 'mixed';
+        currentWordEntry = null;
+        renderEndOfSession();
+        return;
+      }
+      currentWordEntry = pickRandomFromPool(remaining);
+      renderConcealedScreen();
     }
 
     function handleRetest() {
@@ -909,450 +823,106 @@
       moveToNextWord();
     }
 
-    function wireRevealButton() {
-      const btn = document.getElementById('reveal-btn');
-
-      if (btn) {
-        btn.addEventListener('click', () => {
-          isRevealed = true;
-          render();
-        });
-      }
-
-      const hintBtn = document.getElementById('hint-btn');
-
-      if (hintBtn) {
-        hintBtn.addEventListener('click', () => {
-          const hintContainer = document.getElementById('hint-container');
-
-          if (hintContainer && currentWordEntry) {
-            hintContainer.innerHTML =
-              '<div class="revealed-english">' +
-              'English: ' +
-              currentWordEntry.word.english +
-              '</div>';
-
-            hintBtn.style.display = 'none';
-          }
-        });
-      }
-
-      const playWordBtn = document.getElementById('play-word-btn');
-
-      if (playWordBtn) {
-        playWordBtn.addEventListener('click', () => {
-          playAudio(currentWordEntry.word.audioIsolated);
-        });
-      }
-
-      const playWordSentenceBtn =
-        document.getElementById('play-word-sentence-btn');
-
-      if (playWordSentenceBtn) {
-        playWordSentenceBtn.addEventListener('click', () => {
-          playWordThenSentence(currentWordEntry.word);
-        });
+    function renderEndOfSession() {
+      if (sessionEnded === 'all') {
+        const isReview = (level === 'L4R');
+        const msg = isReview
+          ? '\ud83c\udf89 You confirmed full understanding on all words!'
+          : '\ud83c\udf89 You\'ve promoted all words to the next level! Great job.';
+        const counter = isReview
+          ? 'Session: ' + sessionMastered.size + ' confirmed full understanding'
+          : 'Session: ' + sessionMastered.size + ' promoted';
+        const inner =
+          '<div class="empty-message">' +
+            '<p>' + msg + '</p>' +
+            '<p><small>' + counter + '</small></p>' +
+            '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
+              '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
+            '</div>' +
+          '</div>';
+        document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="exercise-body">' + inner + '</div>';
+      } else if (sessionEnded === 'mixed') {
+        const isReview = (level === 'L4R');
+        const doneLabel = isReview ? 'confirmed' : 'promoted';
+        const inner =
+          '<div class="empty-message">' +
+            '<p>Session complete.</p>' +
+            '<p>You ' + doneLabel + ' <strong>' + sessionMastered.size + '</strong> word(s). ' +
+               '<strong>' + sessionSeen.size + '</strong> word(s) seen but not ' + doneLabel + '.</p>' +
+            '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
+              '<button id="retest-btn" class="action-btn primary">Re-test previous words</button>' +
+              '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
+            '</div>' +
+          '</div>';
+        document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="exercise-body">' + inner + '</div>';
+        const retest = document.getElementById('retest-btn');
+        if (retest) retest.addEventListener('click', handleRetest);
       }
     }
 
-    function wireRevealedActions() {
-      // Build action buttons programmatically to avoid chat/paste corruption
-      const placeholder = document.getElementById('action-buttons-placeholder');
-      if (placeholder) {
-        const btnRow = document.createElement('div');
-        btnRow.className = 'action-buttons';
-
-        const nextBtn = document.createElement('button');
-        nextBtn.id = 'next-word-btn';
-        nextBtn.className = 'action-btn primary';
-        nextBtn.textContent = 'Next word';
-        btnRow.appendChild(nextBtn);
-
-        const backLink = document.createElement('a');
-        backLink.className = 'action-btn';
-        backLink.href = buildBackToDashboardUrl();
-        backLink.textContent = 'Back to Dashboard';
-        btnRow.appendChild(backLink);
-
-        placeholder.replaceWith(btnRow);
-      }
-
-      // Wires up the Next word + Back to Dashboard buttons for the revealed screen
-      const nextBtn = document.getElementById('next-word-btn');
-      if (nextBtn) {
-        nextBtn.addEventListener('click', () => {
-          if (currentWordEntry) {
-            const wordId = currentWordEntry.word.id;
-            // If user didn't master this word, add to seen list
-            if (!sessionMastered.has(wordId)) {
-              sessionSeen.add(wordId);
-            }
-          }
-          moveToNextWord();
-        });
-      }
-      
-      const checkbox = document.getElementById('mastered-checkbox');
-      if (checkbox) {
-        checkbox.addEventListener('change', async () => {
-          if (!checkbox.checked) return;
-
-          // Optimistic UI: disable immediately to prevent double-clicks
-          checkbox.disabled = true;
-
-          const result = await updateMasteredForCurrentWord();
-
-          if (result.ok) {
-            showToast('Saved', 'success');
-            showMasteredConfirmation();
-            updateSessionCounter();
-          } else {
-            // Revert on failure
-            checkbox.checked = false;
-            checkbox.disabled = false;
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-      
-      const audioBtn = document.getElementById('reveal-audio-btn');
-      if (audioBtn) {
-        audioBtn.addEventListener('click', () => {
-          playAudio(currentWordEntry.word.audioIsolated);
-        });
-      }
-
-      const playWordBtn = document.getElementById('play-word-btn');
-
-      if (playWordBtn) {
-        playWordBtn.addEventListener('click', () => {
-          playAudio(currentWordEntry.word.audioIsolated);
-        });
-      }
-
-      const playWordSentenceBtn =
-        document.getElementById('play-word-sentence-btn');
-
-      if (playWordSentenceBtn) {
-        playWordSentenceBtn.addEventListener('click', () => {
-          playWordThenSentence(currentWordEntry.word);
-        });
-      }
-
-    
-      const masteredL2Btn = document.getElementById('mastered-l2-btn');
-      if (masteredL2Btn) {
-        masteredL2Btn.addEventListener('click', async () => {
-          const result = await updateWordLevelForCurrentWord('L2');
-          if (result.ok) {
-            const wordId = currentWordEntry.word.id;
-            sessionSeen.delete(wordId);
-            sessionMastered.add(wordId);
-            showToast('Saved', 'success');
-            showProgressionConfirmation('L2', false);
-            updateSessionCounter();
-          } else {
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-      const dropL0Btn = document.getElementById('drop-l0-btn');
-      if (dropL0Btn) {
-        dropL0Btn.addEventListener('click', async () => {
-          const result = await updateWordLevelForCurrentWord('L0');
-          if (result.ok) {
-            const wordId = currentWordEntry.word.id;
-            sessionMastered.delete(wordId);
-            sessionSeen.add(wordId);
-            showToast('Saved', 'success');
-            showProgressionConfirmation('L0', true);
-            updateSessionCounter();
-          } else {
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-      const masteredL3Btn = document.getElementById('mastered-l3-btn');
-      if (masteredL3Btn) {
-        masteredL3Btn.addEventListener('click', async () => {
-          const result = await updateWordLevelForCurrentWord('L3');
-          if (result.ok) {
-            const wordId = currentWordEntry.word.id;
-            sessionSeen.delete(wordId);
-            sessionMastered.add(wordId);
-            showToast('Saved', 'success');
-            showProgressionConfirmation('L3', false);
-            updateSessionCounter();
-          } else {
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-      const dropL1Btn = document.getElementById('drop-l1-btn');
-      if (dropL1Btn) {
-        dropL1Btn.addEventListener('click', async () => {
-          const result = await updateWordLevelForCurrentWord('L1');
-          if (result.ok) {
-            const wordId = currentWordEntry.word.id;
-            sessionMastered.delete(wordId);
-            sessionSeen.add(wordId);
-            showToast('Saved', 'success');
-            showProgressionConfirmation('L1', true);
-            updateSessionCounter();
-          } else {
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-      const masteredL4Btn = document.getElementById('mastered-l4-btn');
-      if (masteredL4Btn) {
-        masteredL4Btn.addEventListener('click', async () => {
-          const result = await updateWordLevelForCurrentWord('L4');
-          if (result.ok) {
-            const wordId = currentWordEntry.word.id;
-            sessionSeen.delete(wordId);
-            sessionMastered.add(wordId);
-            showToast('Saved', 'success');
-            showProgressionConfirmation('L4', false);
-            updateSessionCounter();
-          } else {
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-      const dropL2Btn = document.getElementById('drop-l2-btn');
-      if (dropL2Btn) {
-        dropL2Btn.addEventListener('click', async () => {
-          const result = await updateWordLevelForCurrentWord('L2');
-          if (result.ok) {
-            const wordId = currentWordEntry.word.id;
-            sessionMastered.delete(wordId);
-            sessionSeen.add(wordId);
-            showToast('Saved', 'success');
-            showProgressionConfirmation('L2', true);
-            updateSessionCounter();
-          } else {
-            showToast('Save failed. Please try again.', 'error');
-          }
-        });
-      }
-    }
-
-    function wireEndOfSessionBack() {
-      const placeholder = document.getElementById('all-back-placeholder');
-      if (placeholder) {
-        const backLink = document.createElement('a');
-        backLink.className = 'action-btn';
-        backLink.href = buildBackToDashboardUrl();
-        backLink.textContent = 'Back to Dashboard';
-        placeholder.replaceWith(backLink);
-      }
-    }
-    
-    function wireSessionMixedActions() {
-      // Wire the Re-test button
-      const retestBtn = document.getElementById('retest-btn');
-      if (retestBtn) {
-        retestBtn.addEventListener('click', handleRetest);
-      }
-
-      // Build and inject the Back to Dashboard link
-      const placeholder = document.getElementById('end-back-placeholder');
-      if (placeholder) {
-        const backLink = document.createElement('a');
-        backLink.className = 'action-btn';
-        backLink.href = buildBackToDashboardUrl();
-        backLink.textContent = 'Back to Dashboard';
-        placeholder.replaceWith(backLink);
-      }
-    }
-
-    function playAudio(audioPath) {
-      if (!audioPath) {
-        console.warn('No audio path provided');
-        return;
-      }
-
-      if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
-      }
-
-      currentAudio = new Audio(audioPath);
-
-      currentAudio.play().catch(err => {
-        console.error('Audio playback failed:', err);
-      });
-    }
-
-    async function playWordThenSentence(word) {
-      if (!word) return;
-
-      try {
-        const isolated = new Audio(word.audioIsolated);
-
-        if (currentAudio) {
-          currentAudio.pause();
-          currentAudio.currentTime = 0;
-        }
-
-        currentAudio = isolated;
-
-        await currentAudio.play();
-
-        isolated.addEventListener('ended', () => {
-          setTimeout(() => {
-              currentAudio = new Audio(word.audioSentence);
-              currentAudio.play().catch(err => {
-              console.error('Sentence audio playback failed:', err);
-            });
-          }, 10);
-        }, { once: true });
-
-      } catch (err) {
-        console.error('Combined audio playback failed:', err);
-      }
-    }
-
-
-    function buildBackToDashboardUrl() {
-      let url = 'dashboard.html?student=' + encodeURIComponent(student);
-      if (chapterScope && chapterScope !== 'all') {
-        url += '&chapter=' + encodeURIComponent(chapterScope);
-      }
-      return url;
-    }
-
-
+    // ------------------------------------------------------------------
+    // Toast
+    // ------------------------------------------------------------------
     let toastTimer = null;
-
     function showToast(message, type) {
       const toast = document.getElementById('toast');
       toast.textContent = message;
       toast.className = 'toast ' + (type || 'success') + ' visible';
-
       if (toastTimer) clearTimeout(toastTimer);
-      toastTimer = setTimeout(() => {
-        toast.classList.remove('visible');
-      }, 1500);
-    }
-
-    async function updateMasteredForCurrentWord() {
-      if (!currentWordEntry) return { ok: false };
-      const wordId = currentWordEntry.word.id;
-
-      try {
-        const update = {
-          progress: {
-            [wordId]: 'L1',
-          },
-          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
-        };
-        await db.collection('students').doc(student).set(update, { merge: true });
-
-        // Update local state
-        studentProgress[wordId] = 'L1';
-        sessionMastered.add(wordId);
-
-        console.log('Mastered ' + wordId + ' -> L1');
-        return { ok: true };
-      } catch (err) {
-        console.error('Failed to mark mastered:', err);
-        return { ok: false, error: err };
-      }
-    }
-
-    async function updateWordLevelForCurrentWord(newLevel) {
-      if (!currentWordEntry) return { ok: false };
-      const wordId = currentWordEntry.word.id;
-
-      try {
-        const update = {
-          progress: {
-            [wordId]: newLevel,
-          },
-          lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
-        };
-
-        await db.collection('students').doc(student).set(update, { merge: true });
-
-        studentProgress[wordId] = newLevel;
-
-        console.log('Set ' + wordId + ' -> ' + newLevel);
-        return { ok: true };
-      } catch (err) {
-        console.error('Failed to set level:', err);
-        return { ok: false, error: err };
-      }
-    }
-
-    function showMasteredConfirmation() {
-      const masteredRow = document.querySelector('.mastered-row');
-      if (!masteredRow) return;
-
-      // Avoid duplicate confirmation if it already exists
-      if (document.querySelector('.mastered-confirmation')) return;
-
-      const confirmation = document.createElement('div');
-      confirmation.className = 'mastered-confirmation';
-      confirmation.textContent = '\u2713 This word has been promoted to L1 Read';
-      masteredRow.after(confirmation);
-    }
-
-    function showProgressionConfirmation(targetLevel, isDrop) {
-      const container = document.getElementById('progression-confirmation-container');
-      if (!container) return;
-      const confirmation = document.createElement('div');
-      confirmation.className = 'progression-confirmation';
-      if (targetLevel === 'L2' && !isDrop) {
-        confirmation.textContent = '\u2713 This word has been promoted to L2 Listen';
-      } else if (targetLevel === 'L0') {
-        confirmation.className += ' demoted';
-        confirmation.textContent = '\u2193 This word has moved back to L0 Discover';
-      } else if (targetLevel === 'L3') {
-        confirmation.textContent = '\u2713 This word has been promoted to L3 Usage';
-      } else if (targetLevel === 'L1') {
-        confirmation.className += ' demoted';
-        confirmation.textContent = '\u2193 This word has moved back to L1 Read';
-      } else if (targetLevel === 'L4') {
-        confirmation.textContent = '\u2713 This word has been promoted to L4 Write';
-      } else if (targetLevel === 'L2' && isDrop) {
-        confirmation.className += ' demoted';
-        confirmation.textContent = '\u2193 This word has moved back to L2 Listen';
-      }
-      container.innerHTML = '';
-      container.appendChild(confirmation);
+      toastTimer = setTimeout(() => { toast.classList.remove('visible'); }, 1500);
     }
 
     // ------------------------------------------------------------------
-    // Main initialization
+    // Back to Dashboard URL
+    // ------------------------------------------------------------------
+    function buildBackToDashboardUrl() {
+      let url = 'dashboard.html?student=' + encodeURIComponent(student);
+      if (bookId) url += '&book=' + encodeURIComponent(bookId);
+      if (chapterScope && chapterScope !== 'all') url += '&chapter=' + encodeURIComponent(chapterScope);
+      return url;
+    }
+
+    // ------------------------------------------------------------------
+    // Error rendering
+    // ------------------------------------------------------------------
+    function renderErrorMessage(msg) {
+      const inner =
+        '<div class="error-message">' +
+          '<p>' + escapeHtml(msg) + '</p>' +
+          '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
+        '</div>';
+      document.getElementById('app-container').innerHTML = '<div class="exercise-body">' + inner + '</div>';
+    }
+
+    function renderEmptyPool() {
+      const inner =
+        '<div class="empty-message">' +
+          '<p>No words to practice at this level.</p>' +
+          '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +
+        '</div>';
+      document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="exercise-body">' + inner + '</div>';
+    }
+
+    // ------------------------------------------------------------------
+    // Init
     // ------------------------------------------------------------------
     async function init() {
       try {
-        // Bypass all loading if level isn't implemented (defensive URL handling)
-        if (level !== 'L1' && level !== 'L2' && level !== 'L3' && level !== 'L4') {
-          render();
-          return;
-        }
-
         await loadStudentProgress();
+        await loadBookMeta();
         await loadChapters();
         computePool();
 
-        // Pool empty from the start? Scenario C.
         const remaining = getRemainingPool();
         if (remaining.length === 0) {
-          currentWordEntry = null;
-        } else {
-          currentWordEntry = pickRandomFromPool(remaining);
+          renderEmptyPool();
+          return;
         }
-
-        render();
+        currentWordEntry = pickRandomFromPool(remaining);
+        renderConcealedScreen();
       } catch (err) {
         console.error('Exercise init error:', err);
-        const container = document.getElementById('app-container');
-        const msg = (err && err.message) ? err.message : 'Something went wrong loading the exercise.';
-        container.innerHTML = renderErrorMessage(msg);
+        renderErrorMessage(err.message || 'Something went wrong loading the exercise.');
       }
     }
 
