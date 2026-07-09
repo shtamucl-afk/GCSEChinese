@@ -1,0 +1,166 @@
+{
+  "bookId": "02",
+  "chapterId": "01",
+  "chapterTitle": "揑彩泥",
+  "chapterTitleSimplified": "揑彩泥",
+  "passages": [
+    "二上：揑彩泥（第六頁）\n\n今天的視藝課開始了，王老師對大家說：「今天，我們來舉辦一個『動物聚會』。請大家拿出彩泥，捏出你最喜歡的小動物吧！」說完，玉老師給我們做了示範，三下兩下就揑出了一隻可愛的小兔子。\n\n「我要揑一隻小青蛙。」我早已經手癢癢了。首先，我拿出一塊綠色彩泥，把它搓揉成橢圓形，小青蛙的身體做好了。然後，我揑了四條腿黏在小青蛙的身體上。接着，我用黑色彩泥揑了兩個小圓球做眼睛。最後，我把白色彩泥搓成許多小細條，黏到青蛙的背上。這樣，一隻可愛的小青蛙就活靈活現地出現在我面前了。我想：一隻小青蛙太孤單了。於是，我又用黑色彩泥搓成黑色的小球，揑出細細的尾巴，一隻小蝌蚪就做成了。\n\n「成功了！」我高興地喊道。「我也做好了。」我朝旁邊一看，志文正得意洋洋地拿着一隻「小豬」。看它一隻眼睛大一隻眼睛小，我不禁「撲哧」笑出了聲。\n\n一隻隻可愛的小動物相繼在同學們的手中誕生，有小猴子、大象、老虎。。。還真是一次「動物聚會」呀。捏彩泥真有趣！"
+  ],
+  "passagesSimplified": [
+    "二上：揑彩泥（第六页）\n\n今天的视艺课开始了，王老师对大家说：「今天，我们来举办一个『动物聚会』。请大家拿出彩泥，捏出你最喜欢的小动物吧！」说完，玉老师给我们做了示范，三下两下就揑出了一只可爱的小兔子。\n\n「我要揑一只小青蛙。」我早已经手痒痒了。首先，我拿出一块绿色彩泥，把它搓揉成椭圆形，小青蛙的身体做好了。然后，我揑了四条腿黏在小青蛙的身体上。接着，我用黑色彩泥揑了两个小圆球做眼睛。最后，我把白色彩泥搓成许多小细条，黏到青蛙的背上。这样，一只可爱的小青蛙就活灵活现地出现在我面前了。我想：一只小青蛙太孤单了。于是，我又用黑色彩泥搓成黑色的小球，揑出细细的尾巴，一只小蝌蚪就做成了。\n\n「成功了！」我高兴地喊道。「我也做好了。」我朝旁边一看，志文正得意洋洋地拿着一只「小猪」。看它一只眼睛大一只眼睛小，我不禁「扑哧」笑出了声。\n\n一只只可爱的小动物相继在同学们的手中诞生，有小猴子、大象、老虎。。。还真是一次「动物聚会」呀。捏彩泥真有趣！"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch01_w001",
+      "traditional": "揑彩泥",
+      "simplified": "揑彩泥",
+      "english": "Kneading playdough",
+      "pinyin": "niē cǎi ní",
+      "contextSentence": "二上：揑彩泥（第六頁）",
+      "contextSentenceSimplified": "二上：揑彩泥（第六页）",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w002",
+      "traditional": "視藝課",
+      "simplified": "视艺课",
+      "english": "Visual Arts class",
+      "pinyin": "shì yì kè",
+      "contextSentence": "今天的視藝課開始了，王老師對大家說：「今天，我們來舉辦一個『動物聚會』。",
+      "contextSentenceSimplified": "今天的视艺课开始了，王老师对大家说：「今天，我们来举办一个『动物聚会』。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w003",
+      "traditional": "動物聚會",
+      "simplified": "动物聚会",
+      "english": "Animal gathering",
+      "pinyin": "dòng wù jù huì",
+      "contextSentence": "今天的視藝課開始了，王老師對大家說：「今天，我們來舉辦一個『動物聚會』。",
+      "contextSentenceSimplified": "今天的视艺课开始了，王老师对大家说：「今天，我们来举办一个『动物聚会』。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w004",
+      "traditional": "示範",
+      "simplified": "示范",
+      "english": "Demonstration",
+      "pinyin": "shì fàn",
+      "contextSentence": "玉老師給我們做了示範，三下兩下就揑出了一隻可愛的小兔子。",
+      "contextSentenceSimplified": "玉老师给我们做了示范，三下两下就揑出了一只可爱的小兔子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w005",
+      "traditional": "首先",
+      "simplified": "首先",
+      "english": "Firstly",
+      "pinyin": "shǒu xiān",
+      "contextSentence": "首先，我拿出一塊綠色彩泥，把它搓揉成橢圓形，小青蛙的身體做好了。",
+      "contextSentenceSimplified": "首先，我拿出一块绿色彩泥，把它搓揉成椭圆形，小青蛙的身体做好了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w006",
+      "traditional": "黏",
+      "simplified": "黏",
+      "english": "Sticky / To stick",
+      "pinyin": "nián",
+      "contextSentence": "然後，我揑了四條腿黏在小青蛙的身體上。",
+      "contextSentenceSimplified": "然后，我揑了四条腿黏在小青蛙的身体上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w007",
+      "traditional": "孤單",
+      "simplified": "孤单",
+      "english": "Lonely / Alone",
+      "pinyin": "gū dān",
+      "contextSentence": "我想：一隻小青蛙太孤單了。",
+      "contextSentenceSimplified": "我想：一只小青蛙太孤单了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch01_w008",
+      "traditional": "相繼",
+      "simplified": "相继",
+      "english": "One after another / Successively",
+      "pinyin": "xiāng jì",
+      "contextSentence": "一隻隻可愛的小動物相繼在同學們的手中誕生，有小猴子、大象、老虎。",
+      "contextSentenceSimplified": "一只只可爱的小动物相继在同学们的手中诞生，有小猴子、大象、老虎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter01/b02_ch01_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter01/b02_ch01_w008_c_sentence.mp3"
+        }
+      }
+    }
+  ]
+}
