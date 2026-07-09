@@ -233,6 +233,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
   <script src="js/student.js"></script>
+  <script src="js/modal.js"></script>
 
   <script>
     const switcher = document.getElementById('student-switch');
@@ -248,7 +249,7 @@
     document.getElementById('start-btn').addEventListener('click', () => {
       const value = switcher.value;
       if (!value || value === ADD_NEW_SENTINEL) {
-        alert('Please select a student first.');
+        showAlert('Please select a student first.');
         return;
       }
       navigateToDashboard(value);

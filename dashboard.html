@@ -258,6 +258,7 @@
     /* ---------- Right panel ---------- */
     .right-panel {
       padding: 0;
+      overflow-x: auto;
     }
     .empty-message {
       color: rgba(30, 58, 95, 0.55);
@@ -360,6 +361,7 @@
     /* ---------- Vocab table ---------- */
     .vocab-table-wrapper {
       padding: 0 20px 20px 20px;
+      overflow-x: auto;
     }
     .vocab-table {
       border-collapse: collapse;
@@ -408,7 +410,7 @@
     .vocab-table col.col-reviewed, .vocab-table th:nth-child(7), .vocab-table td.col-reviewed,
       .vocab-table tr.filter-row td:nth-child(7) { width: 140px; text-align: center; }
     .vocab-table th:nth-child(8), .vocab-table td.col-comment,
-      .vocab-table tr.filter-row td:nth-child(8) { width: auto; min-width: 140px; }
+      .vocab-table tr.filter-row td:nth-child(8) { width: 250px; }
 
     .vocab-word {
       font-size: 18px;
@@ -437,6 +439,7 @@
       cursor: pointer;
       font-family: inherit;
       color: #1E3A5F;
+      white-space: nowrap;
     }
     .clear-filters-btn:hover { background-color: rgba(30, 58, 95, 0.06); }
 
@@ -485,7 +488,7 @@
     .details-row.expanded { display: table-row; }
     .details-row td {
       padding: 16px 20px !important;
-      background-color: #EFE6D3 !important;
+      background-color: #E8DDC7 !important;
       border-bottom: 1px solid rgba(30, 58, 95, 0.1);
     }
     .details-card {
@@ -665,6 +668,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
   <script src="js/student.js"></script>
+  <script src="js/modal.js"></script>
 
   <script>
     // ------------------------------------------------------------------
@@ -1402,29 +1406,27 @@
       el.style.height = el.scrollHeight + 'px';
     }
 
-    function confirmBulk(message) {
-      return window.confirm(message);
-    }
-
-    function handleBulkLevelClick(level, chapterData) {
+    async function handleBulkLevelClick(level, chapterData) {
       const filtered = applyFilters(chapterData.vocab);
       if (filtered.length === 0) {
         showToast('No filtered words to update.', 'error');
         return;
       }
       const msg = 'Set ' + filtered.length + ' word(s) to ' + LEVEL_META[level].label + '?';
-      if (!confirmBulk(msg)) return;
+      const confirmed = await showConfirm(msg);
+      if (!confirmed) return;
       bulkSetLevel(filtered.map(w => w.id), level);
     }
 
-    function handleBulkReviewClick(chapterData) {
+    async function handleBulkReviewClick(chapterData) {
       const filtered = applyFilters(chapterData.vocab);
       if (filtered.length === 0) {
         showToast('No filtered words to update.', 'error');
         return;
       }
       const msg = 'Mark ' + filtered.length + ' word(s) as reviewed?';
-      if (!confirmBulk(msg)) return;
+      const confirmed = await showConfirm(msg);
+      if (!confirmed) return;
       bulkMarkReviewed(filtered.map(w => w.id));
     }
 
