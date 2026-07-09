@@ -1,0 +1,318 @@
+{
+  "bookId": "02",
+  "chapterId": "02",
+  "chapterTitle": "一次有趣的畫畫比賽",
+  "chapterTitleSimplified": "一次有趣的画画比赛",
+  "passages": [
+    "二上：一次有趣的畫畫比賽（第八頁）\n\n星期天，頌熙來我家做客。我們倆一會兒看電視，一會兒玩遊戲機。突然，頌熙提議說：『小勇，我們來一次有趣的畫畫比賽吧。我們倆輪流畫一隻小動物，誰畫的動物能喫掉對方畫的動物，就算贏，怎麼樣？』『嘿，這個主意真不錯。看我的，我一定會打敗你。』\n\n我先在紙上畫了一隻小雞，頌熙看了我一眼，寥寥幾筆就畫好了一隻狐狸。看那隻狐狸，好像正大搖大擺心地走過來，要喫掉小雞呢。我又畫了一隻狼，哼哼，看你的狐狸往哪裏逃？頌熙毫不示弱，畫了一隻張着血盆大口的老虎，這下我的狼也難逃了。我着急了：誰能喫掉老虎呢？鱷魚，大象，還是鯨魚？突然，我的腦海裏浮現了『武松打虎』的畫面，我『唰唰』幾筆畫出一個強壯的巨人。頌熙見了，高興地大喊道：『我的老虎能把你的人喫掉，你輸了，你輸了！』我不服氣，連忙說：『你沒聽過「武松打虎」的故事嗎？你說是人厲害還是老虎厲害？再說，老虎再厲害不也被關在動物園裏嗎？』『哈哈，你就別狡辯了，乖乖認輸吧！還記得規則嗎？可是畫小動物哦！』頌熙得意地說道。\n\n我無話可說，只好乖乖認輸了。雖然輸了比賽，可是我一點也不沮喪，因為這次比賽實在太有趣了。\n\n「成功了！」我高興地喊道。「我也做好了。」我朝旁邊一看，志文正得意洋洋地拿着一隻「小豬」。看它一隻眼睛大一隻眼睛小，我不禁「撲哧」笑出了聲。\n\n一隻隻可愛的小動物相繼在同學們的手中誕生，有小猴子、大象、老虎。。。還真是一次「動物聚會」呀。捏彩泥真有趣！"
+  ],
+  "passagesSimplified": [
+    "二上：一次有趣的画画比赛（第八页）\n\n星期天，颂熙来我家做客。我们俩一会儿看电视，一会儿玩游戏机。突然，颂熙提议说：『小勇，我们来一次有趣的画画比赛吧。我们俩轮流画一只小动物，谁画的动物能吃掉对方画的动物，就算赢，怎么样？』『嘿，这个主意真不错。看我的，我一定会打败你。』\n\n我先在纸上画了一只小鸡，颂熙看了我一眼，寥寥几笔就画好了一只狐狸。看那只狐狸，好像正大摇大摆心地走过来，要吃掉小鸡呢。我又画了一只狼，哼哼，看你的狐狸往哪里逃？颂熙毫不示弱，画了一只张着血盆大口的老虎，这下我的狼也难逃了。我着急了：谁能吃掉老虎呢？鳄鱼，大象，还是鲸鱼？突然，我的脑海里浮现了『武松打虎』的画面，我『唰唰』几笔画出一个强壮的巨人。颂熙见了，高兴地大喊道：『我的老虎能把你的人吃掉，你输了，你输了！』我不服气，连忙说：『你没听过「武松打虎」的故事吗？你说是人厉害还是老虎厉害？再说，老虎再厉害不也被关在动物园里吗？』『哈哈，你就别狡辩了，乖乖认输吧！还记得规则吗？可是画小动物哦！』颂熙得意地说道。\n\n我无话可说，只好乖乖认输了。虽然输了比赛，可是我一点也不沮丧，因为这次比赛实在太有趣了。\n\n「成功了！」我高兴地喊道。「我也做好了。」我朝旁边一看，志文正得意洋洋地拿着一只「小猪」。看它一只眼睛大一只眼睛小，我不禁「扑哧」笑出了声。\n\n一只只可爱的小动物相继在同学们的手中诞生，有小猴子、大象、老虎。。。还真是一次「动物聚会」呀。捏彩泥真有趣！"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch02_w001",
+      "traditional": "頌熙",
+      "simplified": "颂熙",
+      "english": "Song Xi (Name)",
+      "pinyin": "sòng xī",
+      "contextSentence": "星期天，頌熙來我家做客。",
+      "contextSentenceSimplified": "星期天，颂熙来我家做客。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w002",
+      "traditional": "提議",
+      "simplified": "提议",
+      "english": "suggest / suggestion",
+      "pinyin": "tí yì",
+      "contextSentence": "突然，頌熙提議說：『小勇，我們來一次有趣的畫畫比賽吧。",
+      "contextSentenceSimplified": "突然，颂熙提议说：『小勇，我们来一次有趣的画画比赛吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w003",
+      "traditional": "喫掉",
+      "simplified": "吃掉",
+      "english": "eaten",
+      "pinyin": "chī diào",
+      "contextSentence": "誰畫的動物能喫掉對方畫的動物，就算贏，怎麼樣？",
+      "contextSentenceSimplified": "谁画的动物能吃掉对方画的动物，就算赢，怎么样？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w004",
+      "traditional": "贏",
+      "simplified": "赢",
+      "english": "win / victory",
+      "pinyin": "yíng",
+      "contextSentence": "誰畫的動物能喫掉對方畫的動物，就算贏，怎麼樣？",
+      "contextSentenceSimplified": "谁画的动物能吃掉对方画的动物，就算赢，怎么样？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w005",
+      "traditional": "寥寥幾筆",
+      "simplified": "寥寥几笔",
+      "english": "in just a few strokes.  Describes something done with minimal effort or detail, often used in the context of painting, writing, or sketching, implying simplicity and conciseness.",
+      "pinyin": "liáo liáo jǐ bǐ",
+      "contextSentence": "我先在紙上畫了一隻小雞，頌熙看了我一眼，寥寥幾筆就畫好了一隻狐狸。",
+      "contextSentenceSimplified": "我先在纸上画了一只小鸡，颂熙看了我一眼，寥寥几笔就画好了一只狐狸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w006",
+      "traditional": "大搖大擺",
+      "simplified": "大摇大摆",
+      "english": "Literally \"big swing big sway,\" this idiom describes someone walking with an exaggerated, confident, or arrogant gait, often implying a sense of pride or defiance.",
+      "pinyin": "dà yáo dà bǎi",
+      "contextSentence": "看那隻狐狸，好像正大搖大擺心地走過來，要喫掉小雞呢。",
+      "contextSentenceSimplified": "看那只狐狸，好像正大摇大摆心地走过来，要吃掉小鸡呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w007",
+      "traditional": "毫不示弱",
+      "simplified": "毫不示弱",
+      "english": "This idiom means to not yield or show any sign of inferiority in the face of competition or confrontation. It is often used to describe someone who stands their ground or responds assertively without backing down",
+      "pinyin": "háo bù shì ruò",
+      "contextSentence": "頌熙毫不示弱，畫了一隻張着血盆大口的老虎，這下我的狼也難逃了。",
+      "contextSentenceSimplified": "颂熙毫不示弱，画了一只张着血盆大口的老虎，这下我的狼也难逃了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w008",
+      "traditional": "血盆大口",
+      "simplified": "血盆大口",
+      "english": "A Chinese idiom describing a mouth that is very large and fierce-looking, often used to depict a terrifying or ferocious animal or person, implying greed or menace.",
+      "pinyin": "xuè pén dà kǒu",
+      "contextSentence": "頌熙毫不示弱，畫了一隻張着血盆大口的老虎，這下我的狼也難逃了。",
+      "contextSentenceSimplified": "颂熙毫不示弱，画了一只张着血盆大口的老虎，这下我的狼也难逃了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w009",
+      "traditional": "難逃",
+      "simplified": "难逃",
+      "english": "cannot escape",
+      "pinyin": "nán táo",
+      "contextSentence": "頌熙毫不示弱，畫了一隻張着血盆大口的老虎，這下我的狼也難逃了。",
+      "contextSentenceSimplified": "颂熙毫不示弱，画了一只张着血盆大口的老虎，这下我的狼也难逃了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w010",
+      "traditional": "鱷魚",
+      "simplified": "鳄鱼",
+      "english": "crocodile / alligator",
+      "pinyin": "è yú",
+      "contextSentence": "鱷魚，大象，還是鯨魚？",
+      "contextSentenceSimplified": "鳄鱼，大象，还是鲸鱼？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w011",
+      "traditional": "鯨魚",
+      "simplified": "鲸鱼",
+      "english": "whale",
+      "pinyin": "jīng yú",
+      "contextSentence": "鱷魚，大象，還是鯨魚？",
+      "contextSentenceSimplified": "鳄鱼，大象，还是鲸鱼？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w012",
+      "traditional": "浮現",
+      "simplified": "浮现",
+      "english": "emerge / appear",
+      "pinyin": "fú xiàn",
+      "contextSentence": "突然，我的腦海裏浮現了『武松打虎』的畫面，我『唰唰』幾筆畫出一個強壯的巨人。",
+      "contextSentenceSimplified": "突然，我的脑海里浮现了『武松打虎』的画面，我『唰唰』几笔画出一个强壮的巨人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w013",
+      "traditional": "唰唰",
+      "simplified": "唰唰",
+      "english": "swish. Describing a swift, continuous sound, like leaves rustling or something moving quickly through the air",
+      "pinyin": "shuā shuā",
+      "contextSentence": "突然，我的腦海裏浮現了『武松打虎』的畫面，我『唰唰』幾筆畫出一個強壯的巨人。",
+      "contextSentenceSimplified": "突然，我的脑海里浮现了『武松打虎』的画面，我『唰唰』几笔画出一个强壮的巨人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w014",
+      "traditional": "強壯",
+      "simplified": "强壮",
+      "english": "strong",
+      "pinyin": "qiáng zhuàng",
+      "contextSentence": "突然，我的腦海裏浮現了『武松打虎』的畫面，我『唰唰』幾筆畫出一個強壯的巨人。",
+      "contextSentenceSimplified": "突然，我的脑海里浮现了『武松打虎』的画面，我『唰唰』几笔画出一个强壮的巨人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w015",
+      "traditional": "狡辯",
+      "simplified": "狡辩",
+      "english": "Sophistry; to quibble; to argue speciously",
+      "pinyin": "jiǎo biàn",
+      "contextSentence": "『哈哈，你就別狡辯了，乖乖認輸吧！",
+      "contextSentenceSimplified": "『哈哈，你就别狡辩了，乖乖认输吧！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch02_w016",
+      "traditional": "沮喪",
+      "simplified": "沮丧",
+      "english": "depressed / dejected / discouraged",
+      "pinyin": "jǔ sàng",
+      "contextSentence": "雖然輸了比賽，可是我一點也不沮喪，因為這次比賽實在太有趣了。",
+      "contextSentenceSimplified": "虽然输了比赛，可是我一点也不沮丧，因为这次比赛实在太有趣了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter02/b02_ch02_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter02/b02_ch02_w016_c_sentence.mp3"
+        }
+      }
+    }
+  ]
+}
