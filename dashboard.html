@@ -166,6 +166,7 @@
     .progress-dot.L2 { background-color: #EFBE4A; }
     .progress-dot.L3 { background-color: #7BC780; }
     .progress-dot.L4 { background-color: #5A9AD6; }
+    .progress-dot.Excluded { background-color: #B8B0A0; }
     .review-line {
       display: flex;
       align-items: center;
@@ -462,6 +463,7 @@
     .level-select.level-L2 { background-color: #FEF9E4; color: #C4952A; }
     .level-select.level-L3 { background-color: #EAF6EC; color: #4E9E5A; }
     .level-select.level-L4 { background-color: #E5EFF7; color: #5A9AD6; }
+    .level-select.level-Excluded { background-color: #E5DED2; color: #6B6055; }
 
     /* ---------- Small buttons ---------- */
     .details-btn, .audio-btn {
@@ -674,13 +676,14 @@
     // ------------------------------------------------------------------
     // Constants
     // ------------------------------------------------------------------
-    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4'];
+    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4', 'Excluded'];
     const LEVEL_META = {
-      L0: { label: 'L0 Discover' },
-      L1: { label: 'L1 Read' },
-      L2: { label: 'L2 Listen' },
-      L3: { label: 'L3 Usage' },
-      L4: { label: 'L4 Write' },
+      L0:       { label: 'L0 Discover' },
+      L1:       { label: 'L1 Read' },
+      L2:       { label: 'L2 Listen' },
+      L3:       { label: 'L3 Usage' },
+      L4:       { label: 'L4 Write' },
+      Excluded: { label: '\ud83d\udeab Excluded' },
     };
     const REVIEW_LABEL = 'Review';
 
@@ -750,7 +753,7 @@
     }
 
     function computeLevelCounts(vocabArray) {
-      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
+      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0, Excluded: 0 };
       vocabArray.forEach(word => {
         const level = getLevelForWord(word.id);
         counts[level] = (counts[level] || 0) + 1;
@@ -759,7 +762,7 @@
     }
 
     function computePoolCounts(vocabArray) {
-      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0 };
+      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0, Excluded: 0 };
       vocabArray.forEach(word => {
         if (isWordExcluded(word.id)) return;
         const level = getLevelForWord(word.id);
