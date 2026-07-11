@@ -1,7 +1,7 @@
 """
 build_raw_template.py
 ---------------------
-Creates the blank Raw Input template that Fiona downloads to author each chapter.
+Creates the blank Raw Input template that the author can download to create the content.
 
 Run ONCE (or whenever you want to regenerate a fresh blank template).
 Not part of the regular chapter authoring workflow.
