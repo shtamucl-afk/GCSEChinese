@@ -13,6 +13,20 @@
       "description": "閱讀理解",
       "series": "Primary School Chinese",
       "sortOrder": 30
+    },
+    {
+      "id": "03",
+      "title": "二下",
+      "description": "閱讀理解",
+      "series": "Primary School Chinese",
+      "sortOrder": 40
+    },
+    {
+      "id": "04",
+      "title": "三上",
+      "description": "閱讀理解",
+      "series": "Primary School Chinese",
+      "sortOrder": 50
     }
   ]
 }
