@@ -25,6 +25,7 @@ Usage:
 import argparse
 import asyncio
 import os
+import tempfile
 import sys
 
 from openpyxl import load_workbook
@@ -32,7 +33,14 @@ import edge_tts
 
 # Shared pipeline helpers (M8.3c-1)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES
+from generate_common import (
+    clean_text,
+    parse_meta,
+    validate_book_and_paths,
+    LANGUAGES,
+    split_passage_into_sentences,
+    mp3_duration_ms,
+)
 
 
 def read_final_excel(input_path):
@@ -143,6 +151,136 @@ async def generate_chapter_audio(input_path):
     print(f"     Files created: {len(os.listdir(audio_dir))}")
     print(f"     Languages: {list(LANGUAGES.keys())}")
     print("=" * 60)
+
+# ------------------------------------------------------------------
+# Passage audio generation (M9.1)
+# ------------------------------------------------------------------
+async def generate_passage_audio(book_id, chapter_id, passages, passages_simplified=None):
+    """Generate one MP3 per passage per language, plus per-sentence offsets.
+
+    Approach (Option Y — see M9 plan):
+      1. Split each passage into sentences on 。！？…； + '\\n' paragraph breaks.
+      2. Synthesize each sentence individually to a temp MP3, measuring its
+         real duration via mutagen.
+      3. Concatenate the temp MP3s byte-wise into the final passage MP3.
+      4. Compute sentence startMs/endMs from the cumulative measured durations.
+      5. Clean up temp files.
+
+    Note: sentence text passed to edge-tts is Traditional. Sentence *offsets*
+    differ per language because Mandarin (Xiaoxiao) and Cantonese (WanLung)
+    voices synthesize at different speeds. textSimplified is populated by
+    splitting the Simplified passages the same way; OpenCC t2s is 1-to-1,
+    so counts and positions match exactly.
+
+    Returns: list of passageAudio entries matching the M9 JSON schema.
+    """
+    audio_dir = f"audio/book{book_id}/chapter{chapter_id}"
+    os.makedirs(audio_dir, exist_ok=True)
+
+    split_by_passage = [split_passage_into_sentences(p) for p in passages]
+    split_simp = None
+    if passages_simplified is not None:
+        split_simp = [split_passage_into_sentences(p) for p in passages_simplified]
+        # Sanity check — this should never fail, but fail loudly if it does.
+        for i, (t, s) in enumerate(zip(split_by_passage, split_simp)):
+            if len(t) != len(s):
+                print(f"[ERROR] Passage {i+1}: Traditional split has {len(t)} "
+                      f"sentences but Simplified split has {len(s)}. "
+                      f"Check for stray terminator characters.")
+                sys.exit(1)
+
+    n_langs = len(LANGUAGES)
+    total_units = sum(len(s) for s in split_by_passage) * n_langs
+    count = 0
+
+    print(f"[INFO] Generating passage audio: {len(passages)} passages "
+          f"x {n_langs} languages")
+    print(f"[INFO] Total sentence syntheses: {total_units}")
+    print()
+
+    result = []
+    for p_idx, sentences in enumerate(split_by_passage):
+        entry = {"passageIndex": p_idx}
+        p_num = f"{p_idx + 1:02d}"
+
+        for lang_name, lang_config in LANGUAGES.items():
+            voice = lang_config["voice"]
+            rate = lang_config["rate"]
+            suffix = lang_config["suffix"]
+
+            passage_filename = f"b{book_id}_ch{chapter_id}_p{p_num}_{suffix}.mp3"
+            passage_path = os.path.join(audio_dir, passage_filename)
+
+            with tempfile.TemporaryDirectory(
+                prefix=f"passage_p{p_num}_{suffix}_"
+            ) as tmp_dir:
+                per_sentence = []  # list of (tmp_path, duration_ms, sentence_dict)
+                for s_idx, sentence in enumerate(sentences):
+                    count += 1
+                    tmp_file = os.path.join(tmp_dir, f"s{s_idx:03d}.mp3")
+                    print(f"[{count}/{total_units}] p{p_num} s{s_idx+1:02d}/"
+                          f"{len(sentences):02d} ({lang_name}) ... ",
+                          end="", flush=True)
+                    try:
+                        await generate_mp3(sentence["text"], tmp_file, voice, rate)
+                        dur = mp3_duration_ms(tmp_file)
+                        per_sentence.append((tmp_file, dur, sentence))
+                        print(f"OK ({dur} ms)")
+                    except Exception as e:
+                        print(f"FAILED: {e}")
+                        raise
+
+                # Byte-wise concat. edge-tts MP3s are CBR from the same encoder,
+                # so plain concatenation plays back cleanly in all browsers.
+                with open(passage_path, "wb") as out_f:
+                    for tmp_file, _, _ in per_sentence:
+                        with open(tmp_file, "rb") as in_f:
+                            out_f.write(in_f.read())
+
+            # Authoritative duration of the concatenated file.
+            total_ms = mp3_duration_ms(passage_path)
+
+            sentences_out = []
+            cursor = 0
+            for s_idx, (_, dur, sentence) in enumerate(per_sentence):
+                text_simp = ""
+                if split_simp is not None:
+                    text_simp = split_simp[p_idx][s_idx]["text"]
+                sentences_out.append({
+                    "index": s_idx,
+                    "paragraph": sentence["paragraph"],
+                    "startMs": cursor,
+                    "endMs": cursor + dur,
+                    "text": sentence["text"],
+                    "textSimplified": text_simp,
+                })
+                cursor += dur
+
+            # Align the final endMs to the concatenated total to absorb the
+            # sub-millisecond rounding drift from summing individual durations.
+            if sentences_out:
+                sentences_out[-1]["endMs"] = total_ms
+
+            entry[lang_name] = {
+                "file": f"{audio_dir}/{passage_filename}",
+                "durationMs": total_ms,
+                "sentences": sentences_out,
+            }
+
+            size = os.path.getsize(passage_path)
+            print(f"    -> {passage_filename} ({total_ms} ms, "
+                  f"{size} bytes, {len(sentences_out)} sentences)")
+            print()
+
+        result.append(entry)
+
+    print("=" * 60)
+    print(f"[OK] Passage audio generation complete!")
+    print(f"    Passages: {len(passages)}")
+    print(f"    Files created: {len(passages) * n_langs}")
+    print("=" * 60)
+
+    return result
 
 
 def main():

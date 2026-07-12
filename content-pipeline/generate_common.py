@@ -43,6 +43,44 @@ LANGUAGES = {
     },
 }
 
+# ------------------------------------------------------------------
+# Passage sentence splitting (M9.1)
+# ------------------------------------------------------------------
+# Terminal punctuation used to split a paragraph into sentences.
+# Comma (，) is intentionally excluded — sentences should be full clauses
+# so click-to-jump lands on a natural resumption point.
+SENTENCE_TERMINATORS = "。！？…；"
+
+
+def split_passage_into_sentences(passage_text):
+    """Split a passage into a flat list of sentence dicts.
+
+    Paragraphs split on '\\n' (Alt+Enter in the Excel Content sheet).
+    Within a paragraph, split *after* each terminator in 。！？…；, keeping
+    the terminator attached to the preceding sentence so playback ends
+    on a natural cadence. Whitespace stripped; empty sentences skipped.
+
+    Returns: list of {"paragraph": int, "text": str}
+    """
+    result = []
+    for para_idx, para in enumerate(passage_text.split("\n")):
+        para = para.strip()
+        if not para:
+            continue
+        current = ""
+        for ch in para:
+            current += ch
+            if ch in SENTENCE_TERMINATORS:
+                text = current.strip()
+                if text:
+                    result.append({"paragraph": para_idx, "text": text})
+                current = ""
+        tail = current.strip()
+        if tail:
+            # Paragraph didn't end with a terminator (e.g. list item, heading);
+            # emit it as its own sentence so it still gets synthesized.
+            result.append({"paragraph": para_idx, "text": tail})
+    return result
 
 # ------------------------------------------------------------------
 # Traditional to Simplified Chinese conversion (M8.3c-1.5)
@@ -179,3 +217,14 @@ def validate_book_and_paths(book_id, chapter_id, input_path):
         print(f"        Expected folder: {expected_folder}/")
         print(f"        Actual folder:   {os.path.relpath(actual_folder)}/")
         sys.exit(1)
+
+# ------------------------------------------------------------------
+# MP3 duration helper (M9.1)
+# ------------------------------------------------------------------
+def mp3_duration_ms(path):
+    """Return the exact duration of an MP3 in whole milliseconds.
+
+    Uses mutagen (pure Python, no ffmpeg). Rounded to the nearest ms.
+    """
+    from mutagen.mp3 import MP3
+    return int(round(MP3(path).info.length * 1000))
