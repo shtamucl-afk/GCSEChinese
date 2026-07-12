@@ -947,5 +947,995 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter01/b01_ch01_p01_m.mp3",
+        "durationMs": 3456,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3456,
+            "text": "你認爲雙語教育， 有什麼優勢？",
+            "textSimplified": "你认为双语教育， 有什么优势？"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter01/b01_ch01_p01_c.mp3",
+        "durationMs": 4056,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4056,
+            "text": "你認爲雙語教育， 有什麼優勢？",
+            "textSimplified": "你认为双语教育， 有什么优势？"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter01/b01_ch01_p02_m.mp3",
+        "durationMs": 192192,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2904,
+            "text": "英華國際學校歡迎你",
+            "textSimplified": "英华国际学校欢迎你"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2904,
+            "endMs": 8904,
+            "text": "英華國際學校創建於1990年，設有小學和中學。",
+            "textSimplified": "英华国际学校创建于1990年，设有小学和中学。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8904,
+            "endMs": 14928,
+            "text": "現有小學生500人，中學生1100人，教師200人。",
+            "textSimplified": "现有小学生500人，中学生1100人，教师200人。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14928,
+            "endMs": 18672,
+            "text": "雙語，是這個學校的教學特色。",
+            "textSimplified": "双语，是这个学校的教学特色。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 18672,
+            "endMs": 29016,
+            "text": "我們相信中英文雙語相輔相成，同時學習，有助於開發學生思維，適應中西方多元文化的環境。",
+            "textSimplified": "我们相信中英文双语相辅相成，同时学习，有助于开发学生思维，适应中西方多元文化的环境。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 29016,
+            "endMs": 44616,
+            "text": "爲了照顧每個學生的學習特點，因材施教，學校會依據學生性格特點、興趣愛好、中文和英語的熟練程度，將學生分成小班，每個班不超過15個學生。",
+            "textSimplified": "为了照顾每个学生的学习特点，因材施教，学校会依据学生性格特点、兴趣爱好、中文和英语的熟练程度，将学生分成小班，每个班不超过15个学生。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 44616,
+            "endMs": 46464,
+            "text": "招生對象",
+            "textSimplified": "招生对象"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 46464,
+            "endMs": 55632,
+            "text": "我們歡迎來自世界各國的小學各年級學生、初中二年級學生以及高中一、二年級學生。",
+            "textSimplified": "我们欢迎来自世界各国的小学各年级学生、初中二年级学生以及高中一、二年级学生。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 55632,
+            "endMs": 57792,
+            "text": "申請及面試",
+            "textSimplified": "申请及面试"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 57792,
+            "endMs": 60864,
+            "text": "申請時間爲每年的一月。",
+            "textSimplified": "申请时间为每年的一月。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 60864,
+            "endMs": 65376,
+            "text": "面試時間爲四月， 開學時間爲八月底。",
+            "textSimplified": "面试时间为四月， 开学时间为八月底。"
+          },
+          {
+            "index": 11,
+            "paragraph": 12,
+            "startMs": 65376,
+            "endMs": 67248,
+            "text": "學校設施",
+            "textSimplified": "学校设施"
+          },
+          {
+            "index": 12,
+            "paragraph": 14,
+            "startMs": 67248,
+            "endMs": 81696,
+            "text": "學校有圖書館、操場、室內外籃球場、足球場、體育館、游泳池、禮堂、劇院、科學實驗室、音樂教室、餐廳、宿舍等設施。",
+            "textSimplified": "学校有图书馆、操场、室内外篮球场、足球场、体育馆、游泳池、礼堂、剧院、科学实验室、音乐教室、餐厅、宿舍等设施。"
+          },
+          {
+            "index": 13,
+            "paragraph": 16,
+            "startMs": 81696,
+            "endMs": 84912,
+            "text": "學校要求所有的學生住宿。",
+            "textSimplified": "学校要求所有的学生住宿。"
+          },
+          {
+            "index": 14,
+            "paragraph": 16,
+            "startMs": 84912,
+            "endMs": 91440,
+            "text": "英華的宿舍設計獨特，每個房間都配有空調和獨立洗手間。",
+            "textSimplified": "英华的宿舍设计独特，每个房间都配有空调和独立洗手间。"
+          },
+          {
+            "index": 15,
+            "paragraph": 18,
+            "startMs": 91440,
+            "endMs": 93216,
+            "text": "教師",
+            "textSimplified": "教师"
+          },
+          {
+            "index": 16,
+            "paragraph": 20,
+            "startMs": 93216,
+            "endMs": 102936,
+            "text": "我們的老師來自中國、英國、美國、澳大利亞、 加拿大等十個國家，具有豐富的教學經驗。",
+            "textSimplified": "我们的老师来自中国、英国、美国、澳大利亚、 加拿大等十个国家，具有丰富的教学经验。"
+          },
+          {
+            "index": 17,
+            "paragraph": 22,
+            "startMs": 102936,
+            "endMs": 104376,
+            "text": "課程",
+            "textSimplified": "课程"
+          },
+          {
+            "index": 18,
+            "paragraph": 24,
+            "startMs": 104376,
+            "endMs": 113664,
+            "text": "英華國際學校注重培養學生的雙語能力、獨立的思考能力、創造力以及解決問題的能力。",
+            "textSimplified": "英华国际学校注重培养学生的双语能力、独立的思考能力、创造力以及解决问题的能力。"
+          },
+          {
+            "index": 19,
+            "paragraph": 24,
+            "startMs": 113664,
+            "endMs": 117768,
+            "text": "中文和英文是所有學生必修的科目。",
+            "textSimplified": "中文和英文是所有学生必修的科目。"
+          },
+          {
+            "index": 20,
+            "paragraph": 24,
+            "startMs": 117768,
+            "endMs": 126048,
+            "text": "除此以外，小學和初中開設有英文、中文、數學、科學、藝術等課程。",
+            "textSimplified": "除此以外，小学和初中开设有英文、中文、数学、科学、艺术等课程。"
+          },
+          {
+            "index": 21,
+            "paragraph": 24,
+            "startMs": 126048,
+            "endMs": 132696,
+            "text": "高中開設英國中學會考課程，分爲必修科目和選修科目。",
+            "textSimplified": "高中开设英国中学会考课程，分为必修科目和选修科目。"
+          },
+          {
+            "index": 22,
+            "paragraph": 24,
+            "startMs": 132696,
+            "endMs": 136584,
+            "text": "必修科目包括：數學、科學。",
+            "textSimplified": "必修科目包括：数学、科学。"
+          },
+          {
+            "index": 23,
+            "paragraph": 24,
+            "startMs": 136584,
+            "endMs": 142608,
+            "text": "選修科目包括：歷史、地理、經濟學 心理學等。",
+            "textSimplified": "选修科目包括：历史、地理、经济学 心理学等。"
+          },
+          {
+            "index": 24,
+            "paragraph": 24,
+            "startMs": 142608,
+            "endMs": 150936,
+            "text": "學生可以從這些科目中選修適合自己的科目，爲日後進入大學學習作好準備。",
+            "textSimplified": "学生可以从这些科目中选修适合自己的科目，为日后进入大学学习作好准备。"
+          },
+          {
+            "index": 25,
+            "paragraph": 26,
+            "startMs": 150936,
+            "endMs": 152688,
+            "text": "課外活動",
+            "textSimplified": "课外活动"
+          },
+          {
+            "index": 26,
+            "paragraph": 28,
+            "startMs": 152688,
+            "endMs": 163152,
+            "text": "爲了培養學生成爲全面發展的人才，學校要求每一個學生每年都要參加至少一項體育活動和一項藝術活動。",
+            "textSimplified": "为了培养学生成为全面发展的人才，学校要求每一个学生每年都要参加至少一项体育活动和一项艺术活动。"
+          },
+          {
+            "index": 27,
+            "paragraph": 28,
+            "startMs": 163152,
+            "endMs": 168984,
+            "text": "放學時間以及週末，學校還開設了豐富多彩的興趣班。",
+            "textSimplified": "放学时间以及周末，学校还开设了丰富多彩的兴趣班。"
+          },
+          {
+            "index": 28,
+            "paragraph": 28,
+            "startMs": 168984,
+            "endMs": 176544,
+            "text": "包括：烹飪、書法、游泳、武術、合唱以及各項樂器的學習等。",
+            "textSimplified": "包括：烹饪、书法、游泳、武术、合唱以及各项乐器的学习等。"
+          },
+          {
+            "index": 29,
+            "paragraph": 28,
+            "startMs": 176544,
+            "endMs": 183936,
+            "text": "學校還組織學生參加各項國際音樂、美術比賽，取得優異成績。",
+            "textSimplified": "学校还组织学生参加各项国际音乐、美术比赛，取得优异成绩。"
+          },
+          {
+            "index": 30,
+            "paragraph": 30,
+            "startMs": 183936,
+            "endMs": 192192,
+            "text": "瞭解更多信息，請登錄學校網站 www.yinghuaxuexiao.com.cn 查詢。",
+            "textSimplified": "了解更多信息，请登录学校网站 www.yinghuaxuexiao.com.cn 查询。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter01/b01_ch01_p02_c.mp3",
+        "durationMs": 195288,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3288,
+            "text": "英華國際學校歡迎你",
+            "textSimplified": "英华国际学校欢迎你"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3288,
+            "endMs": 9168,
+            "text": "英華國際學校創建於1990年，設有小學和中學。",
+            "textSimplified": "英华国际学校创建于1990年，设有小学和中学。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9168,
+            "endMs": 15336,
+            "text": "現有小學生500人，中學生1100人，教師200人。",
+            "textSimplified": "现有小学生500人，中学生1100人，教师200人。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 15336,
+            "endMs": 19440,
+            "text": "雙語，是這個學校的教學特色。",
+            "textSimplified": "双语，是这个学校的教学特色。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 19440,
+            "endMs": 29568,
+            "text": "我們相信中英文雙語相輔相成，同時學習，有助於開發學生思維，適應中西方多元文化的環境。",
+            "textSimplified": "我们相信中英文双语相辅相成，同时学习，有助于开发学生思维，适应中西方多元文化的环境。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 29568,
+            "endMs": 45096,
+            "text": "爲了照顧每個學生的學習特點，因材施教，學校會依據學生性格特點、興趣愛好、中文和英語的熟練程度，將學生分成小班，每個班不超過15個學生。",
+            "textSimplified": "为了照顾每个学生的学习特点，因材施教，学校会依据学生性格特点、兴趣爱好、中文和英语的熟练程度，将学生分成小班，每个班不超过15个学生。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 45096,
+            "endMs": 47424,
+            "text": "招生對象",
+            "textSimplified": "招生对象"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 47424,
+            "endMs": 56544,
+            "text": "我們歡迎來自世界各國的小學各年級學生、初中二年級學生以及高中一、二年級學生。",
+            "textSimplified": "我们欢迎来自世界各国的小学各年级学生、初中二年级学生以及高中一、二年级学生。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 56544,
+            "endMs": 59040,
+            "text": "申請及面試",
+            "textSimplified": "申请及面试"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 59040,
+            "endMs": 62328,
+            "text": "申請時間爲每年的一月。",
+            "textSimplified": "申请时间为每年的一月。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 62328,
+            "endMs": 67344,
+            "text": "面試時間爲四月， 開學時間爲八月底。",
+            "textSimplified": "面试时间为四月， 开学时间为八月底。"
+          },
+          {
+            "index": 11,
+            "paragraph": 12,
+            "startMs": 67344,
+            "endMs": 69576,
+            "text": "學校設施",
+            "textSimplified": "学校设施"
+          },
+          {
+            "index": 12,
+            "paragraph": 14,
+            "startMs": 69576,
+            "endMs": 83952,
+            "text": "學校有圖書館、操場、室內外籃球場、足球場、體育館、游泳池、禮堂、劇院、科學實驗室、音樂教室、餐廳、宿舍等設施。",
+            "textSimplified": "学校有图书馆、操场、室内外篮球场、足球场、体育馆、游泳池、礼堂、剧院、科学实验室、音乐教室、餐厅、宿舍等设施。"
+          },
+          {
+            "index": 13,
+            "paragraph": 16,
+            "startMs": 83952,
+            "endMs": 87480,
+            "text": "學校要求所有的學生住宿。",
+            "textSimplified": "学校要求所有的学生住宿。"
+          },
+          {
+            "index": 14,
+            "paragraph": 16,
+            "startMs": 87480,
+            "endMs": 93864,
+            "text": "英華的宿舍設計獨特，每個房間都配有空調和獨立洗手間。",
+            "textSimplified": "英华的宿舍设计独特，每个房间都配有空调和独立洗手间。"
+          },
+          {
+            "index": 15,
+            "paragraph": 18,
+            "startMs": 93864,
+            "endMs": 95736,
+            "text": "教師",
+            "textSimplified": "教师"
+          },
+          {
+            "index": 16,
+            "paragraph": 20,
+            "startMs": 95736,
+            "endMs": 105456,
+            "text": "我們的老師來自中國、英國、美國、澳大利亞、 加拿大等十個國家，具有豐富的教學經驗。",
+            "textSimplified": "我们的老师来自中国、英国、美国、澳大利亚、 加拿大等十个国家，具有丰富的教学经验。"
+          },
+          {
+            "index": 17,
+            "paragraph": 22,
+            "startMs": 105456,
+            "endMs": 107256,
+            "text": "課程",
+            "textSimplified": "课程"
+          },
+          {
+            "index": 18,
+            "paragraph": 24,
+            "startMs": 107256,
+            "endMs": 115944,
+            "text": "英華國際學校注重培養學生的雙語能力、獨立的思考能力、創造力以及解決問題的能力。",
+            "textSimplified": "英华国际学校注重培养学生的双语能力、独立的思考能力、创造力以及解决问题的能力。"
+          },
+          {
+            "index": 19,
+            "paragraph": 24,
+            "startMs": 115944,
+            "endMs": 120120,
+            "text": "中文和英文是所有學生必修的科目。",
+            "textSimplified": "中文和英文是所有学生必修的科目。"
+          },
+          {
+            "index": 20,
+            "paragraph": 24,
+            "startMs": 120120,
+            "endMs": 128424,
+            "text": "除此以外，小學和初中開設有英文、中文、數學、科學、藝術等課程。",
+            "textSimplified": "除此以外，小学和初中开设有英文、中文、数学、科学、艺术等课程。"
+          },
+          {
+            "index": 21,
+            "paragraph": 24,
+            "startMs": 128424,
+            "endMs": 134880,
+            "text": "高中開設英國中學會考課程，分爲必修科目和選修科目。",
+            "textSimplified": "高中开设英国中学会考课程，分为必修科目和选修科目。"
+          },
+          {
+            "index": 22,
+            "paragraph": 24,
+            "startMs": 134880,
+            "endMs": 138888,
+            "text": "必修科目包括：數學、科學。",
+            "textSimplified": "必修科目包括：数学、科学。"
+          },
+          {
+            "index": 23,
+            "paragraph": 24,
+            "startMs": 138888,
+            "endMs": 144888,
+            "text": "選修科目包括：歷史、地理、經濟學 心理學等。",
+            "textSimplified": "选修科目包括：历史、地理、经济学 心理学等。"
+          },
+          {
+            "index": 24,
+            "paragraph": 24,
+            "startMs": 144888,
+            "endMs": 152904,
+            "text": "學生可以從這些科目中選修適合自己的科目，爲日後進入大學學習作好準備。",
+            "textSimplified": "学生可以从这些科目中选修适合自己的科目，为日后进入大学学习作好准备。"
+          },
+          {
+            "index": 25,
+            "paragraph": 26,
+            "startMs": 152904,
+            "endMs": 155112,
+            "text": "課外活動",
+            "textSimplified": "课外活动"
+          },
+          {
+            "index": 26,
+            "paragraph": 28,
+            "startMs": 155112,
+            "endMs": 165768,
+            "text": "爲了培養學生成爲全面發展的人才，學校要求每一個學生每年都要參加至少一項體育活動和一項藝術活動。",
+            "textSimplified": "为了培养学生成为全面发展的人才，学校要求每一个学生每年都要参加至少一项体育活动和一项艺术活动。"
+          },
+          {
+            "index": 27,
+            "paragraph": 28,
+            "startMs": 165768,
+            "endMs": 172224,
+            "text": "放學時間以及週末，學校還開設了豐富多彩的興趣班。",
+            "textSimplified": "放学时间以及周末，学校还开设了丰富多彩的兴趣班。"
+          },
+          {
+            "index": 28,
+            "paragraph": 28,
+            "startMs": 172224,
+            "endMs": 179880,
+            "text": "包括：烹飪、書法、游泳、武術、合唱以及各項樂器的學習等。",
+            "textSimplified": "包括：烹饪、书法、游泳、武术、合唱以及各项乐器的学习等。"
+          },
+          {
+            "index": 29,
+            "paragraph": 28,
+            "startMs": 179880,
+            "endMs": 186936,
+            "text": "學校還組織學生參加各項國際音樂、美術比賽，取得優異成績。",
+            "textSimplified": "学校还组织学生参加各项国际音乐、美术比赛，取得优异成绩。"
+          },
+          {
+            "index": 30,
+            "paragraph": 30,
+            "startMs": 186936,
+            "endMs": 195288,
+            "text": "瞭解更多信息，請登錄學校網站 www.yinghuaxuexiao.com.cn 查詢。",
+            "textSimplified": "了解更多信息，请登录学校网站 www.yinghuaxuexiao.com.cn 查询。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter01/b01_ch01_p03_m.mp3",
+        "durationMs": 174192,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 1776,
+            "text": "應試教育？",
+            "textSimplified": "应试教育？"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 1776,
+            "endMs": 3600,
+            "text": "素質教育？",
+            "textSimplified": "素质教育？"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 3600,
+            "endMs": 8184,
+            "text": "中國的中小學比較重視基礎知識培養。",
+            "textSimplified": "中国的中小学比较重视基础知识培养。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 8184,
+            "endMs": 14088,
+            "text": "所以，中國的文盲率越來越低，很多學生脫穎而出了。",
+            "textSimplified": "所以，中国的文盲率越来越低，很多学生脱颖而出了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 14088,
+            "endMs": 26496,
+            "text": "諾貝爾獎獲得者，美籍華人楊振寧雖然是到美國攻讀的博士學位，但是他在中國讀完了小學、中學、大學一直到碩士了。",
+            "textSimplified": "诺贝尔奖获得者，美籍华人杨振宁虽然是到美国攻读的博士学位，但是他在中国读完了小学、中学、大学一直到硕士了。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 26496,
+            "endMs": 34104,
+            "text": "他表示，自己有今天的成就，就是因爲是中小學階段打下的紮實基礎。",
+            "textSimplified": "他表示，自己有今天的成就，就是因为是中小学阶段打下的扎实基础。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 34104,
+            "endMs": 41016,
+            "text": "他認爲，中國的基礎教育水平不比美國人差，甚至要高出很多。",
+            "textSimplified": "他认为，中国的基础教育水平不比美国人差，甚至要高出很多。"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 41016,
+            "endMs": 47328,
+            "text": "然而，由於每年報考大學的人數衆多，升學的競爭非常大。",
+            "textSimplified": "然而，由于每年报考大学的人数众多，升学的竞争非常大。"
+          },
+          {
+            "index": 8,
+            "paragraph": 2,
+            "startMs": 47328,
+            "endMs": 49944,
+            "text": "有人認爲，要擇優？",
+            "textSimplified": "有人认为，要择优？"
+          },
+          {
+            "index": 9,
+            "paragraph": 2,
+            "startMs": 49944,
+            "endMs": 54768,
+            "text": "錄取人才，高考比其他錄取方法公平得多。",
+            "textSimplified": "录取人才，高考比其他录取方法公平得多。"
+          },
+          {
+            "index": 10,
+            "paragraph": 2,
+            "startMs": 54768,
+            "endMs": 60672,
+            "text": "於是，中小學教育變成了爲高考做準備的“應試教育”。",
+            "textSimplified": "于是，中小学教育变成了为高考做准备的“应试教育”。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 60672,
+            "endMs": 70824,
+            "text": "爲了取得好成績，學校千方百計地讓學生將學習重點放在考試科目上：有些學校取消課外活動；",
+            "textSimplified": "为了取得好成绩，学校千方百计地让学生将学习重点放在考试科目上：有些学校取消课外活动；"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 70824,
+            "endMs": 75144,
+            "text": "有些學校要求學生週末來學校上課；",
+            "textSimplified": "有些学校要求学生周末来学校上课；"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 75144,
+            "endMs": 79632,
+            "text": "還有些學校把學科分爲“主科”和“副科”。",
+            "textSimplified": "还有些学校把学科分为“主科”和“副科”。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 79632,
+            "endMs": 85776,
+            "text": "因爲中文、數學和英文是必考科目，所以被稱爲“主科”。",
+            "textSimplified": "因为中文、数学和英文是必考科目，所以被称为“主科”。"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 85776,
+            "endMs": 94512,
+            "text": "體育、美術、音樂等科目就被稱爲“副科”，因爲不是必考科目，所以不太受重視。",
+            "textSimplified": "体育、美术、音乐等科目就被称为“副科”，因为不是必考科目，所以不太受重视。"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 94512,
+            "endMs": 104832,
+            "text": "由於要應付主科的考試，學生每天都會有作業，有一些學生每天放學後都要花三到四個小時做作業。",
+            "textSimplified": "由于要应付主科的考试，学生每天都会有作业，有一些学生每天放学后都要花三到四个小时做作业。"
+          },
+          {
+            "index": 17,
+            "paragraph": 6,
+            "startMs": 104832,
+            "endMs": 113808,
+            "text": "隨着社會的發展，越來越多人認爲應試教育過分強調分數，破壞了學生的創造 性。",
+            "textSimplified": "随着社会的发展，越来越多人认为应试教育过分强调分数，破坏了学生的创造 性。"
+          },
+          {
+            "index": 18,
+            "paragraph": 6,
+            "startMs": 113808,
+            "endMs": 116376,
+            "text": "不適合時代的發展。",
+            "textSimplified": "不适合时代的发展。"
+          },
+          {
+            "index": 19,
+            "paragraph": 6,
+            "startMs": 116376,
+            "endMs": 121680,
+            "text": "因此，上世紀九十年代，素質教育正式出現。",
+            "textSimplified": "因此，上世纪九十年代，素质教育正式出现。"
+          },
+          {
+            "index": 20,
+            "paragraph": 6,
+            "startMs": 121680,
+            "endMs": 132408,
+            "text": "素質教育，就是要培養學生成爲德、智、體、美、勞全面發展的人才，而不是成爲只會考試的“機器”。",
+            "textSimplified": "素质教育，就是要培养学生成为德、智、体、美、劳全面发展的人才，而不是成为只会考试的“机器”。"
+          },
+          {
+            "index": 21,
+            "paragraph": 6,
+            "startMs": 132408,
+            "endMs": 148944,
+            "text": "爲了推廣素質教育，2013年8月，教育部要求中小學不應該留太多家庭作業，應該多組織學生參觀圖書館、博物館等設施，鼓勵學生參加體育鍛煉等等。",
+            "textSimplified": "为了推广素质教育，2013年8月，教育部要求中小学不应该留太多家庭作业，应该多组织学生参观图书馆、博物馆等设施，鼓励学生参加体育锻炼等等。"
+          },
+          {
+            "index": 22,
+            "paragraph": 8,
+            "startMs": 148944,
+            "endMs": 158208,
+            "text": "關於素質教育，大部分中小學生表示歡迎，認爲他們終於可以有時間做自己感興趣的事了。",
+            "textSimplified": "关于素质教育，大部分中小学生表示欢迎，认为他们终于可以有时间做自己感兴趣的事了。"
+          },
+          {
+            "index": 23,
+            "paragraph": 8,
+            "startMs": 158208,
+            "endMs": 161736,
+            "text": "不過，家長們卻有點擔憂。",
+            "textSimplified": "不过，家长们却有点担忧。"
+          },
+          {
+            "index": 24,
+            "paragraph": 8,
+            "startMs": 161736,
+            "endMs": 174192,
+            "text": "一位家長認爲，每個人都想上大學，但如果高考不改革，學生們仍然要“千軍萬馬過獨木橋”，學校很難全面地推廣素質教育。",
+            "textSimplified": "一位家长认为，每个人都想上大学，但如果高考不改革，学生们仍然要“千军万马过独木桥”，学校很难全面地推广素质教育。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter01/b01_ch01_p03_c.mp3",
+        "durationMs": 179688,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2280,
+            "text": "應試教育？",
+            "textSimplified": "应试教育？"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 2280,
+            "endMs": 4560,
+            "text": "素質教育？",
+            "textSimplified": "素质教育？"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 4560,
+            "endMs": 9288,
+            "text": "中國的中小學比較重視基礎知識培養。",
+            "textSimplified": "中国的中小学比较重视基础知识培养。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 9288,
+            "endMs": 15840,
+            "text": "所以，中國的文盲率越來越低，很多學生脫穎而出了。",
+            "textSimplified": "所以，中国的文盲率越来越低，很多学生脱颖而出了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 15840,
+            "endMs": 27984,
+            "text": "諾貝爾獎獲得者，美籍華人楊振寧雖然是到美國攻讀的博士學位，但是他在中國讀完了小學、中學、大學一直到碩士了。",
+            "textSimplified": "诺贝尔奖获得者，美籍华人杨振宁虽然是到美国攻读的博士学位，但是他在中国读完了小学、中学、大学一直到硕士了。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 27984,
+            "endMs": 35856,
+            "text": "他表示，自己有今天的成就，就是因爲是中小學階段打下的紮實基礎。",
+            "textSimplified": "他表示，自己有今天的成就，就是因为是中小学阶段打下的扎实基础。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 35856,
+            "endMs": 42984,
+            "text": "他認爲，中國的基礎教育水平不比美國人差，甚至要高出很多。",
+            "textSimplified": "他认为，中国的基础教育水平不比美国人差，甚至要高出很多。"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 42984,
+            "endMs": 49800,
+            "text": "然而，由於每年報考大學的人數衆多，升學的競爭非常大。",
+            "textSimplified": "然而，由于每年报考大学的人数众多，升学的竞争非常大。"
+          },
+          {
+            "index": 8,
+            "paragraph": 2,
+            "startMs": 49800,
+            "endMs": 53088,
+            "text": "有人認爲，要擇優？",
+            "textSimplified": "有人认为，要择优？"
+          },
+          {
+            "index": 9,
+            "paragraph": 2,
+            "startMs": 53088,
+            "endMs": 58464,
+            "text": "錄取人才，高考比其他錄取方法公平得多。",
+            "textSimplified": "录取人才，高考比其他录取方法公平得多。"
+          },
+          {
+            "index": 10,
+            "paragraph": 2,
+            "startMs": 58464,
+            "endMs": 64848,
+            "text": "於是，中小學教育變成了爲高考做準備的“應試教育”。",
+            "textSimplified": "于是，中小学教育变成了为高考做准备的“应试教育”。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 64848,
+            "endMs": 75024,
+            "text": "爲了取得好成績，學校千方百計地讓學生將學習重點放在考試科目上：有些學校取消課外活動；",
+            "textSimplified": "为了取得好成绩，学校千方百计地让学生将学习重点放在考试科目上：有些学校取消课外活动；"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 75024,
+            "endMs": 79560,
+            "text": "有些學校要求學生週末來學校上課；",
+            "textSimplified": "有些学校要求学生周末来学校上课；"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 79560,
+            "endMs": 84240,
+            "text": "還有些學校把學科分爲“主科”和“副科”。",
+            "textSimplified": "还有些学校把学科分为“主科”和“副科”。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 84240,
+            "endMs": 90696,
+            "text": "因爲中文、數學和英文是必考科目，所以被稱爲“主科”。",
+            "textSimplified": "因为中文、数学和英文是必考科目，所以被称为“主科”。"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 90696,
+            "endMs": 99576,
+            "text": "體育、美術、音樂等科目就被稱爲“副科”，因爲不是必考科目，所以不太受重視。",
+            "textSimplified": "体育、美术、音乐等科目就被称为“副科”，因为不是必考科目，所以不太受重视。"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 99576,
+            "endMs": 109512,
+            "text": "由於要應付主科的考試，學生每天都會有作業，有一些學生每天放學後都要花三到四個小時做作業。",
+            "textSimplified": "由于要应付主科的考试，学生每天都会有作业，有一些学生每天放学后都要花三到四个小时做作业。"
+          },
+          {
+            "index": 17,
+            "paragraph": 6,
+            "startMs": 109512,
+            "endMs": 118440,
+            "text": "隨着社會的發展，越來越多人認爲應試教育過分強調分數，破壞了學生的創造 性。",
+            "textSimplified": "随着社会的发展，越来越多人认为应试教育过分强调分数，破坏了学生的创造 性。"
+          },
+          {
+            "index": 18,
+            "paragraph": 6,
+            "startMs": 118440,
+            "endMs": 121344,
+            "text": "不適合時代的發展。",
+            "textSimplified": "不适合时代的发展。"
+          },
+          {
+            "index": 19,
+            "paragraph": 6,
+            "startMs": 121344,
+            "endMs": 127248,
+            "text": "因此，上世紀九十年代，素質教育正式出現。",
+            "textSimplified": "因此，上世纪九十年代，素质教育正式出现。"
+          },
+          {
+            "index": 20,
+            "paragraph": 6,
+            "startMs": 127248,
+            "endMs": 138480,
+            "text": "素質教育，就是要培養學生成爲德、智、體、美、勞全面發展的人才，而不是成爲只會考試的“機器”。",
+            "textSimplified": "素质教育，就是要培养学生成为德、智、体、美、劳全面发展的人才，而不是成为只会考试的“机器”。"
+          },
+          {
+            "index": 21,
+            "paragraph": 6,
+            "startMs": 138480,
+            "endMs": 154104,
+            "text": "爲了推廣素質教育，2013年8月，教育部要求中小學不應該留太多家庭作業，應該多組織學生參觀圖書館、博物館等設施，鼓勵學生參加體育鍛煉等等。",
+            "textSimplified": "为了推广素质教育，2013年8月，教育部要求中小学不应该留太多家庭作业，应该多组织学生参观图书馆、博物馆等设施，鼓励学生参加体育锻炼等等。"
+          },
+          {
+            "index": 22,
+            "paragraph": 8,
+            "startMs": 154104,
+            "endMs": 163368,
+            "text": "關於素質教育，大部分中小學生表示歡迎，認爲他們終於可以有時間做自己感興趣的事了。",
+            "textSimplified": "关于素质教育，大部分中小学生表示欢迎，认为他们终于可以有时间做自己感兴趣的事了。"
+          },
+          {
+            "index": 23,
+            "paragraph": 8,
+            "startMs": 163368,
+            "endMs": 167304,
+            "text": "不過，家長們卻有點擔憂。",
+            "textSimplified": "不过，家长们却有点担忧。"
+          },
+          {
+            "index": 24,
+            "paragraph": 8,
+            "startMs": 167304,
+            "endMs": 179688,
+            "text": "一位家長認爲，每個人都想上大學，但如果高考不改革，學生們仍然要“千軍萬馬過獨木橋”，學校很難全面地推廣素質教育。",
+            "textSimplified": "一位家长认为，每个人都想上大学，但如果高考不改革，学生们仍然要“千军万马过独木桥”，学校很难全面地推广素质教育。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter01/b01_ch01_p04_m.mp3",
+        "durationMs": 8136,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8136,
+            "text": "以下是一些別人的觀點，你可以參考，也可以提出自己的意見，但必須表示傾向性。",
+            "textSimplified": "以下是一些别人的观点，你可以参考，也可以提出自己的意见，但必须表示倾向性。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter01/b01_ch01_p04_c.mp3",
+        "durationMs": 8784,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8784,
+            "text": "以下是一些別人的觀點，你可以參考，也可以提出自己的意見，但必須表示傾向性。",
+            "textSimplified": "以下是一些别人的观点，你可以参考，也可以提出自己的意见，但必须表示倾向性。"
+          }
+        ]
+      }
+    }
   ]
 }

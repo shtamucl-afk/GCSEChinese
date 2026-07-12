@@ -158,7 +158,7 @@ async def generate_chapter_audio(input_path):
 async def generate_passage_audio(book_id, chapter_id, passages, passages_simplified=None):
     """Generate one MP3 per passage per language, plus per-sentence offsets.
 
-    Approach (Option Y — see M9 plan):
+    AApproach: synthesize per sentence, measure durations, concatenate:
       1. Split each passage into sentences on 。！？…； + '\\n' paragraph breaks.
       2. Synthesize each sentence individually to a temp MP3, measuring its
          real duration via mutagen.

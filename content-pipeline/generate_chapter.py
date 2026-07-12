@@ -15,7 +15,7 @@ Rev 5 (M2.5 T3):
 
 Usage:
     python content-pipeline/generate_chapter.py --input inputs/chapter00_final.xlsx
-    python content-pipeline/generate_chapter.py --input inputs/chapter00_final.xlsx --skip-audio
+    python content-pipeline/generate_chapter.py --input inputs/chapter00_final.xlsx --passage-audio-only
 """
 
 import argparse
@@ -29,7 +29,7 @@ from openpyxl import load_workbook
 # We still delegate audio generation to generate_audio.py.
 # Meta / passage / vocab reading uses shared helpers from generate_common.py.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from generate_audio import generate_chapter_audio
+from generate_audio import generate_chapter_audio, generate_passage_audio
 from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES, to_simplified
 
 
@@ -198,7 +198,7 @@ def update_chapters_index(book_id, chapter_id, chapter_title, word_count):
 # ------------------------------------------------------------------
 # Main
 # ------------------------------------------------------------------
-async def main_async(input_path, skip_audio):
+async def main_async(input_path, passage_audio_only):
     print(f"[INFO] Processing: {input_path}")
     print()
 
@@ -220,6 +220,40 @@ async def main_async(input_path, skip_audio):
     print(f"[INFO] Vocab words: {len(words)}")
     print()
 
+    # ---- M9.2 fast path: --passage-audio-only ----
+    # Regenerate passage MP3s and merge the passageAudio block into an
+    # existing chapterYY.json. Vocab audio and vocab JSON are NOT touched.
+    if passage_audio_only:
+        book_dir = f"data/book{book_id}"
+        json_path = f"{book_dir}/chapter{chapter_id}.json"
+
+        if not os.path.exists(json_path):
+            print(f"[ERROR] {json_path} not found.")
+            print(f"        Run without --passage-audio-only first to build the full chapter JSON.")
+            sys.exit(1)
+
+        print("[INFO] --passage-audio-only mode: regenerating passage audio only.")
+        print("[INFO] Vocab audio and vocab JSON will NOT be touched.")
+        print()
+
+        passages_simp = [to_simplified(p) for p in passages]
+        passage_audio = await generate_passage_audio(
+            book_id, chapter_id, passages, passages_simp
+        )
+
+        with open(json_path, "r", encoding="utf-8") as f:
+            chapter_json = json.load(f)
+        chapter_json["passageAudio"] = passage_audio
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(chapter_json, f, ensure_ascii=False, indent=2)
+
+        print()
+        print("=" * 60)
+        print(f"[OK] Merged passageAudio block into {json_path}")
+        print("=" * 60)
+        return
+
+
     # ---- Build JSON ----
     print("[STEP 1] Building chapter JSON...")
     chapter_json = build_chapter_json(book_id, chapter_id, chapter_title, passages, words)
@@ -236,15 +270,27 @@ async def main_async(input_path, skip_audio):
     action = update_chapters_index(book_id, chapter_id, chapter_title, len(words))
     print(f"         {action} chapter {chapter_id} in {book_dir}/chapters-index.json")
 
-    # ---- Generate audio ----
-    if not skip_audio:
-        print()
-        print(f"[STEP 3] Generating bilingual audio ({len(LANGUAGES)} languages)...")
-        print(f"         (This takes ~60s for a small chapter with both Mandarin + Cantonese)")
-        await generate_chapter_audio(input_path)
-    else:
-        print()
-        print("[STEP 3] Skipped audio generation (--skip-audio flag)")
+    # ---- Generate vocab audio ----
+    print()
+    print(f"[STEP 3] Generating bilingual vocab audio ({len(LANGUAGES)} languages)...")
+    print(f"         (This takes ~60s for a small chapter with both Mandarin + Cantonese)")
+    await generate_chapter_audio(input_path)
+
+    # ---- M9.2: Passage audio + JSON merge ----
+    print()
+    print(f"[STEP 4] Generating passage audio ({len(passages)} passages x {len(LANGUAGES)} languages)...")
+    passages_simp = [to_simplified(p) for p in passages]
+    passage_audio = await generate_passage_audio(
+        book_id, chapter_id, passages, passages_simp
+    )
+
+    # Re-open the JSON written in STEP 1 and merge the passageAudio block.
+    with open(json_path, "r", encoding="utf-8") as f:
+        chapter_json = json.load(f)
+    chapter_json["passageAudio"] = passage_audio
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(chapter_json, f, ensure_ascii=False, indent=2)
+    print(f"         Merged passageAudio block into {json_path}")
 
     # ---- Summary ----
     print()
@@ -254,8 +300,7 @@ async def main_async(input_path, skip_audio):
     print("Files produced:")
     print(f"  - {json_path}")
     print(f"  - {book_dir}/chapters-index.json (updated)")
-    if not skip_audio:
-        print(f"  - audio/book{book_id}/chapter{chapter_id}/ (MP3s x 4 per word)")
+    print(f"  - audio/book{book_id}/chapter{chapter_id}/ (4 MP3s per word + 2 MP3s per passage)")
     print()
     print("Next steps:")
     print(f"  1. Verify JSON: cat {json_path}")
@@ -269,18 +314,21 @@ def main():
         description="Publish a chapter: generate JSON + audio, update index."
     )
     parser.add_argument("--input", required=True, help="Path to chapterXX_final.xlsx")
+
     parser.add_argument(
-        "--skip-audio",
+        "--passage-audio-only",
         action="store_true",
-        help="Skip audio generation (use when MP3s already exist and only JSON needs regenerating)",
+        help="Only regenerate passage audio (M9) and merge into existing chapterYY.json. "
+            "Vocab audio and vocab JSON left untouched. Used for backfilling old chapters."
     )
+
     args = parser.parse_args()
 
     input_path = args.input
     if not os.path.isabs(input_path):
         input_path = os.path.join("content-pipeline", input_path)
 
-    asyncio.run(main_async(input_path, args.skip_audio))
+    asyncio.run(main_async(input_path, args.passage_audio_only))
 
 
 if __name__ == "__main__":
