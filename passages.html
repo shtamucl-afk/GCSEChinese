@@ -205,6 +205,83 @@
                   font-size 0.25s ease, border-radius 0.25s ease;
     }
 
+    /* M9.4 - passage audio player row (Mandarin + Cantonese) */
+    .player-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .player-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border: 1px solid rgba(30, 58, 95, 0.35);
+      border-radius: 999px;
+      background-color: transparent;
+      color: #1E3A5F;
+      font-size: 13px;
+      font-family: inherit;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .player-btn:hover {
+      background-color: rgba(30, 58, 95, 0.08);
+    }
+    .player-btn.playing {
+      background-color: #1E3A5F;
+      color: #F5EFE6;
+      border-color: #1E3A5F;
+    }
+    .player-btn .player-icon {
+      font-family: 'Noto Color Emoji', sans-serif;
+      font-size: 14px;
+      line-height: 1;
+    }
+    .player-time {
+      font-size: 12px;
+      color: rgba(30, 58, 95, 0.65);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    /* M9.4a - per-language group: [Play/Pause] [Stop] [Time] */
+    .player-lang {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    /* M9.4a - small stop button, icon-only */
+    .player-stop {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      border: 1px solid rgba(30, 58, 95, 0.25);
+      border-radius: 999px;
+      background-color: transparent;
+      color: #1E3A5F;
+      font-size: 12px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background-color 0.15s, border-color 0.15s;
+    }
+    .player-stop:hover {
+      background-color: rgba(30, 58, 95, 0.08);
+    }
+    .player-stop:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    @media (max-width: 700px) {
+      .player-row { gap: 10px; }
+      .player-lang { flex-wrap: wrap; }
+    }
+
     .empty-message {
       color: rgba(30, 58, 95, 0.55);
       font-style: italic;
@@ -415,6 +492,156 @@
       return result;
     }
 
+    // M9.4 - registry of all <audio> elements on the page, plus the
+    // per-audio button + label element so we can update play/pause
+    // state consistently. Rebuilt from scratch on every loadAndRender().
+    const audioRegistry = [];
+
+    // M9.4 - format milliseconds as "M:SS" for the player time readout.
+    function formatMs(ms) {
+      if (!ms || ms < 0) ms = 0;
+      const totalSec = Math.floor(ms / 1000);
+      const m = Math.floor(totalSec / 60);
+      const s = totalSec % 60;
+      return m + ':' + (s < 10 ? '0' : '') + s;
+    }
+
+    // M9.4 - pause every other audio element so at most one plays at a time.
+    function pauseAllExcept(activeAudio) {
+      audioRegistry.forEach(entry => {
+        if (entry.audio !== activeAudio && !entry.audio.paused) {
+          entry.audio.pause();
+        }
+      });
+    }
+
+    // M9.4 - build the player row for one passage. Creates two hidden
+    // <audio> elements (Mandarin + Cantonese), two visible pill buttons,
+    // and one shared time readout. Returns the row element for the caller
+    // to append into the .passage-box.
+    function buildPlayerRow(passageEntry) {
+      const row = document.createElement('div');
+      row.className = 'player-row';
+
+      const langOrder = [
+        { key: 'mandarin',  label: '普通話' },
+        { key: 'cantonese', label: '廣東話' },
+      ];
+
+      langOrder.forEach(({ key, label }) => {
+        const langData = passageEntry[key];
+        if (!langData || !langData.file) return;
+
+        // Wrap Play/Pause + Stop + Time in one per-language group.
+        const group = document.createElement('div');
+        group.className = 'player-lang';
+
+        const audio = document.createElement('audio');
+        audio.preload = 'metadata';
+        audio.src = langData.file;
+
+        // ---- Play / Pause pill ----
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'player-btn';
+        btn.setAttribute('aria-label',
+          'Play ' + (key === 'mandarin' ? 'Mandarin' : 'Cantonese') +
+          ' audio for Passage ' + (passageEntry.passageIndex + 1));
+
+        const icon = document.createElement('span');
+        icon.className = 'player-icon';
+        icon.textContent = '🔊';
+
+        const labelSpan = document.createElement('span');
+        labelSpan.textContent = label + ' ▶';
+
+        btn.appendChild(icon);
+        btn.appendChild(labelSpan);
+
+        // ---- Stop button ----
+        const stopBtn = document.createElement('button');
+        stopBtn.type = 'button';
+        stopBtn.className = 'player-stop';
+        stopBtn.setAttribute('aria-label',
+          'Stop ' + (key === 'mandarin' ? 'Mandarin' : 'Cantonese') +
+          ' audio for Passage ' + (passageEntry.passageIndex + 1));
+        stopBtn.textContent = '⏹';
+        stopBtn.disabled = true;  // enabled once audio starts
+
+        // ---- Per-language time readout ----
+        const timeEl = document.createElement('span');
+        timeEl.className = 'player-time';
+        timeEl.textContent = '0:00 / 0:00';
+
+        // Helper: reset the visible state to "stopped at 0".
+        function resetToStopped() {
+          audio.pause();
+          audio.currentTime = 0;
+          btn.classList.remove('playing');
+          labelSpan.textContent = label + ' ▶';
+          stopBtn.disabled = true;
+          const totMs = langData.durationMs || (audio.duration * 1000) || 0;
+          timeEl.textContent = '0:00 / ' + formatMs(totMs);
+        }
+
+        // ---- Events ----
+        btn.addEventListener('click', () => {
+          if (audio.paused) {
+            pauseAllExcept(audio);
+            audio.play().catch(err => console.warn('Audio play failed:', err));
+          } else {
+            audio.pause();
+          }
+        });
+
+        stopBtn.addEventListener('click', () => {
+          resetToStopped();
+        });
+
+        audio.addEventListener('play', () => {
+          btn.classList.add('playing');
+          labelSpan.textContent = label + ' ⏸';
+          stopBtn.disabled = false;
+        });
+
+        audio.addEventListener('pause', () => {
+          btn.classList.remove('playing');
+          labelSpan.textContent = label + ' ▶';
+          // Stop stays enabled while paused, so user can reset to 0.
+        });
+
+        audio.addEventListener('ended', () => {
+          resetToStopped();
+        });
+
+        audio.addEventListener('timeupdate', () => {
+          if (!audio.paused) {
+            const curMs = audio.currentTime * 1000;
+            const totMs = langData.durationMs || (audio.duration * 1000) || 0;
+            timeEl.textContent = formatMs(curMs) + ' / ' + formatMs(totMs);
+          }
+        });
+
+        audio.addEventListener('loadedmetadata', () => {
+          const totMs = langData.durationMs || (audio.duration * 1000) || 0;
+          if (audio.paused && audio.currentTime === 0) {
+            timeEl.textContent = '0:00 / ' + formatMs(totMs);
+          }
+        });
+
+        audioRegistry.push({ audio, btn, labelSpan, label });
+
+        group.appendChild(btn);
+        group.appendChild(stopBtn);
+        group.appendChild(timeEl);
+        group.appendChild(audio);
+
+        row.appendChild(group);
+      });
+
+      return row;
+    }
+
     function highlightPassageText(passageText, sortedVocab) {
       let working = escapeHtml(passageText);
       const placeholders = [];
@@ -461,6 +688,16 @@
         });
 
         containerEl.innerHTML = '';
+
+        // M9.4 - clear the registry because loadAndRender() re-runs on every
+        // script toggle and the old <audio> elements are about to be destroyed.
+        audioRegistry.length = 0;
+
+        // M9.4 - passageAudio may be absent on older chapters not yet
+        // backfilled with --passage-audio-only. Rendering degrades to
+        // passages without players in that case.
+        const passageAudio = chapter.passageAudio || null;
+
         if (passages.length === 0) {
           containerEl.innerHTML = '<p class="empty-message">No passages found for this chapter.</p>';
           return;
@@ -483,6 +720,14 @@
           const accent = document.createElement('div');
           accent.className = 'passage-heading-accent';
           box.appendChild(accent);
+
+          // M9.4 - insert the player row (Mandarin + Cantonese buttons)
+          // only when this chapter has passageAudio for this passage index.
+          if (passageAudio && passageAudio[idx]) {
+            const playerRow = buildPlayerRow(passageAudio[idx]);
+            box.appendChild(playerRow);
+          }
+
           const body = document.createElement('div');
           body.className = 'passage-body';
 
