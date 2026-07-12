@@ -698,5 +698,804 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter05/b01_ch05_p01_m.mp3",
+        "durationMs": 33720,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9816,
+            "text": "“代溝”，指成人與年青人兩代人在思想方法和生活愛好等各方面存在的矛盾、衝突或隔閡。",
+            "textSimplified": "“代沟”，指成人与年青人两代人在思想方法和生活爱好等各方面存在的矛盾、冲突或隔阂。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9816,
+            "endMs": 15888,
+            "text": "有心理學家認爲，父母與子女之間的差異是不可避免的。",
+            "textSimplified": "有心理学家认为，父母与子女之间的差异是不可避免的。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 15888,
+            "endMs": 23952,
+            "text": "“代溝”隨着社會發展速度的加快越來越顯著，有時候會影響到社會的發展。",
+            "textSimplified": "“代沟”随着社会发展速度的加快越来越显著，有时候会影响到社会的发展。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 23952,
+            "endMs": 27288,
+            "text": "“代溝”一詞從英文直譯過來。",
+            "textSimplified": "“代沟”一词从英文直译过来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 27288,
+            "endMs": 33720,
+            "text": "從翻譯的角度上看，原來的用語“世代隔閡”似乎有點兒 落伍了。",
+            "textSimplified": "从翻译的角度上看，原来的用语“世代隔阂”似乎有点儿 落伍了。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter05/b01_ch05_p01_c.mp3",
+        "durationMs": 33864,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9408,
+            "text": "“代溝”，指成人與年青人兩代人在思想方法和生活愛好等各方面存在的矛盾、衝突或隔閡。",
+            "textSimplified": "“代沟”，指成人与年青人两代人在思想方法和生活爱好等各方面存在的矛盾、冲突或隔阂。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9408,
+            "endMs": 15840,
+            "text": "有心理學家認爲，父母與子女之間的差異是不可避免的。",
+            "textSimplified": "有心理学家认为，父母与子女之间的差异是不可避免的。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 15840,
+            "endMs": 23640,
+            "text": "“代溝”隨着社會發展速度的加快越來越顯著，有時候會影響到社會的發展。",
+            "textSimplified": "“代沟”随着社会发展速度的加快越来越显著，有时候会影响到社会的发展。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 23640,
+            "endMs": 27168,
+            "text": "“代溝”一詞從英文直譯過來。",
+            "textSimplified": "“代沟”一词从英文直译过来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 27168,
+            "endMs": 33864,
+            "text": "從翻譯的角度上看，原來的用語“世代隔閡”似乎有點兒 落伍了。",
+            "textSimplified": "从翻译的角度上看，原来的用语“世代隔阂”似乎有点儿 落伍了。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter05/b01_ch05_p02_m.mp3",
+        "durationMs": 149568,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3192,
+            "text": "校長、老師、同學們：",
+            "textSimplified": "校长、老师、同学们："
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3192,
+            "endMs": 7056,
+            "text": "你們好，我是十一班的王小明同學。",
+            "textSimplified": "你们好，我是十一班的王小明同学。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7056,
+            "endMs": 18768,
+            "text": "上週張老師建議我出席一個叫“理解代溝”的活動，導師余建華老師有着25年培訓的經驗，跟我們分析了“代溝”這個問題。",
+            "textSimplified": "上周张老师建议我出席一个叫“理解代沟”的活动，导师余建华老师有着25年培训的经验，跟我们分析了“代沟”这个问题。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 18768,
+            "endMs": 25272,
+            "text": "講座非常的有啓發性，我今天很高興可以在這兒分享我的體會。",
+            "textSimplified": "讲座非常的有启发性，我今天很高兴可以在这儿分享我的体会。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25272,
+            "endMs": 39504,
+            "text": "余建華老師從30歲開始做培訓，現在在大學當教授，曾經在不少電視、電台節目做過嘉賓，〈深夜深情〉就是他主持過的一個電台節目。",
+            "textSimplified": "余建华老师从30岁开始做培训，现在在大学当教授，曾经在不少电视、电台节目做过嘉宾，〈深夜深情〉就是他主持过的一个电台节目。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 39504,
+            "endMs": 46248,
+            "text": "他在〈明明白白我的心〉、〈舉杯談〉這兩個有名的電視節目也當過嘉賓。",
+            "textSimplified": "他在〈明明白白我的心〉、〈举杯谈〉这两个有名的电视节目也当过嘉宾。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 46248,
+            "endMs": 48576,
+            "text": "講座分兩個部分。",
+            "textSimplified": "讲座分两个部分。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 48576,
+            "endMs": 56112,
+            "text": "一開始，余老師請我們說說什麼是“代溝”，同學們都分享了自己的經歷。",
+            "textSimplified": "一开始，余老师请我们说说什么是“代沟”，同学们都分享了自己的经历。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 56112,
+            "endMs": 64920,
+            "text": "原來很多同學都遇到過因“代溝”而產生的衝突，有的同學在講的時候還差點兒哭了出來。",
+            "textSimplified": "原来很多同学都遇到过因“代沟”而产生的冲突，有的同学在讲的时候还差点儿哭了出来。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 64920,
+            "endMs": 70584,
+            "text": "余老師說得對，要消除“代溝”，就得理解它出現的原因。",
+            "textSimplified": "余老师说得对，要消除“代沟”，就得理解它出现的原因。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 70584,
+            "endMs": 82560,
+            "text": "這句話太有啓發性了，我在上海實驗中學的禮堂坐了很久，一直從上午九點鐘到下午一點鐘，我竟然差點兒忘了要吃午飯。",
+            "textSimplified": "这句话太有启发性了，我在上海实验中学的礼堂坐了很久，一直从上午九点钟到下午一点钟，我竟然差点儿忘了要吃午饭。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 82560,
+            "endMs": 88560,
+            "text": "我深信大家跟我一樣，跟父母住的時候總覺得他們很煩。",
+            "textSimplified": "我深信大家跟我一样，跟父母住的时候总觉得他们很烦。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 88560,
+            "endMs": 93960,
+            "text": "我們在做決定的時候，他們的意見往往跟我們的不同。",
+            "textSimplified": "我们在做决定的时候，他们的意见往往跟我们的不同。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 93960,
+            "endMs": 98904,
+            "text": "在活動中，余老師推薦了杜航遠的〈消除代溝〉。",
+            "textSimplified": "在活动中，余老师推荐了杜航远的〈消除代沟〉。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 98904,
+            "endMs": 102408,
+            "text": "這本書的作者深深啓發了他。",
+            "textSimplified": "这本书的作者深深启发了他。"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 102408,
+            "endMs": 117168,
+            "text": "書中寫要消除代溝，青年人和家長都扮演着很重要的角色，所以余老師經常舉辦活動，希望父母、子女雙方都可以互相理解、互相尊重。",
+            "textSimplified": "书中写要消除代沟，青年人和家长都扮演着很重要的角色，所以余老师经常举办活动，希望父母、子女双方都可以互相理解、互相尊重。"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 117168,
+            "endMs": 123216,
+            "text": "他認爲我們只要身體力行去做的話，消除代溝是可能的。",
+            "textSimplified": "他认为我们只要身体力行去做的话，消除代沟是可能的。"
+          },
+          {
+            "index": 17,
+            "paragraph": 10,
+            "startMs": 123216,
+            "endMs": 128328,
+            "text": "上週的電視節目〈父母經〉也是余老師所主持的。",
+            "textSimplified": "上周的电视节目〈父母经〉也是余老师所主持的。"
+          },
+          {
+            "index": 18,
+            "paragraph": 10,
+            "startMs": 128328,
+            "endMs": 137016,
+            "text": "如果你們沒看的話，這周電視將會有重播，節目中余老師講到，父母都很關心子女。",
+            "textSimplified": "如果你们没看的话，这周电视将会有重播，节目中余老师讲到，父母都很关心子女。"
+          },
+          {
+            "index": 19,
+            "paragraph": 10,
+            "startMs": 137016,
+            "endMs": 141600,
+            "text": "聽到這裏，我希 講到這裏，謝謝各位！",
+            "textSimplified": "听到这里，我希 讲到这里，谢谢各位！"
+          },
+          {
+            "index": 20,
+            "paragraph": 10,
+            "startMs": 141600,
+            "endMs": 144768,
+            "text": "望大家以後多跟父母溝通。",
+            "textSimplified": "望大家以后多跟父母沟通。"
+          },
+          {
+            "index": 21,
+            "paragraph": 10,
+            "startMs": 144768,
+            "endMs": 149568,
+            "text": "時間也差不多了，我就講到這裡，謝謝各位！",
+            "textSimplified": "时间也差不多了，我就讲到这里，谢谢各位！"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter05/b01_ch05_p02_c.mp3",
+        "durationMs": 160080,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3960,
+            "text": "校長、老師、同學們：",
+            "textSimplified": "校长、老师、同学们："
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3960,
+            "endMs": 8520,
+            "text": "你們好，我是十一班的王小明同學。",
+            "textSimplified": "你们好，我是十一班的王小明同学。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8520,
+            "endMs": 20352,
+            "text": "上週張老師建議我出席一個叫“理解代溝”的活動，導師余建華老師有着25年培訓的經驗，跟我們分析了“代溝”這個問題。",
+            "textSimplified": "上周张老师建议我出席一个叫“理解代沟”的活动，导师余建华老师有着25年培训的经验，跟我们分析了“代沟”这个问题。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 20352,
+            "endMs": 27408,
+            "text": "講座非常的有啓發性，我今天很高興可以在這兒分享我的體會。",
+            "textSimplified": "讲座非常的有启发性，我今天很高兴可以在这儿分享我的体会。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 27408,
+            "endMs": 41376,
+            "text": "余建華老師從30歲開始做培訓，現在在大學當教授，曾經在不少電視、電台節目做過嘉賓，〈深夜深情〉就是他主持過的一個電台節目。",
+            "textSimplified": "余建华老师从30岁开始做培训，现在在大学当教授，曾经在不少电视、电台节目做过嘉宾，〈深夜深情〉就是他主持过的一个电台节目。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 41376,
+            "endMs": 49152,
+            "text": "他在〈明明白白我的心〉、〈舉杯談〉這兩個有名的電視節目也當過嘉賓。",
+            "textSimplified": "他在〈明明白白我的心〉、〈举杯谈〉这两个有名的电视节目也当过嘉宾。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 49152,
+            "endMs": 51960,
+            "text": "講座分兩個部分。",
+            "textSimplified": "讲座分两个部分。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 51960,
+            "endMs": 59640,
+            "text": "一開始，余老師請我們說說什麼是“代溝”，同學們都分享了自己的經歷。",
+            "textSimplified": "一开始，余老师请我们说说什么是“代沟”，同学们都分享了自己的经历。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 59640,
+            "endMs": 68376,
+            "text": "原來很多同學都遇到過因“代溝”而產生的衝突，有的同學在講的時候還差點兒哭了出來。",
+            "textSimplified": "原来很多同学都遇到过因“代沟”而产生的冲突，有的同学在讲的时候还差点儿哭了出来。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 68376,
+            "endMs": 74760,
+            "text": "余老師說得對，要消除“代溝”，就得理解它出現的原因。",
+            "textSimplified": "余老师说得对，要消除“代沟”，就得理解它出现的原因。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 74760,
+            "endMs": 87192,
+            "text": "這句話太有啓發性了，我在上海實驗中學的禮堂坐了很久，一直從上午九點鐘到下午一點鐘，我竟然差點兒忘了要吃午飯。",
+            "textSimplified": "这句话太有启发性了，我在上海实验中学的礼堂坐了很久，一直从上午九点钟到下午一点钟，我竟然差点儿忘了要吃午饭。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 87192,
+            "endMs": 93672,
+            "text": "我深信大家跟我一樣，跟父母住的時候總覺得他們很煩。",
+            "textSimplified": "我深信大家跟我一样，跟父母住的时候总觉得他们很烦。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 93672,
+            "endMs": 99576,
+            "text": "我們在做決定的時候，他們的意見往往跟我們的不同。",
+            "textSimplified": "我们在做决定的时候，他们的意见往往跟我们的不同。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 99576,
+            "endMs": 105840,
+            "text": "在活動中，余老師推薦了杜航遠的〈消除代溝〉。",
+            "textSimplified": "在活动中，余老师推荐了杜航远的〈消除代沟〉。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 105840,
+            "endMs": 109824,
+            "text": "這本書的作者深深啓發了他。",
+            "textSimplified": "这本书的作者深深启发了他。"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 109824,
+            "endMs": 124056,
+            "text": "書中寫要消除代溝，青年人和家長都扮演着很重要的角色，所以余老師經常舉辦活動，希望父母、子女雙方都可以互相理解、互相尊重。",
+            "textSimplified": "书中写要消除代沟，青年人和家长都扮演着很重要的角色，所以余老师经常举办活动，希望父母、子女双方都可以互相理解、互相尊重。"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 124056,
+            "endMs": 130488,
+            "text": "他認爲我們只要身體力行去做的話，消除代溝是可能的。",
+            "textSimplified": "他认为我们只要身体力行去做的话，消除代沟是可能的。"
+          },
+          {
+            "index": 17,
+            "paragraph": 10,
+            "startMs": 130488,
+            "endMs": 136392,
+            "text": "上週的電視節目〈父母經〉也是余老師所主持的。",
+            "textSimplified": "上周的电视节目〈父母经〉也是余老师所主持的。"
+          },
+          {
+            "index": 18,
+            "paragraph": 10,
+            "startMs": 136392,
+            "endMs": 145464,
+            "text": "如果你們沒看的話，這周電視將會有重播，節目中余老師講到，父母都很關心子女。",
+            "textSimplified": "如果你们没看的话，这周电视将会有重播，节目中余老师讲到，父母都很关心子女。"
+          },
+          {
+            "index": 19,
+            "paragraph": 10,
+            "startMs": 145464,
+            "endMs": 150528,
+            "text": "聽到這裏，我希 講到這裏，謝謝各位！",
+            "textSimplified": "听到这里，我希 讲到这里，谢谢各位！"
+          },
+          {
+            "index": 20,
+            "paragraph": 10,
+            "startMs": 150528,
+            "endMs": 154344,
+            "text": "望大家以後多跟父母溝通。",
+            "textSimplified": "望大家以后多跟父母沟通。"
+          },
+          {
+            "index": 21,
+            "paragraph": 10,
+            "startMs": 154344,
+            "endMs": 160080,
+            "text": "時間也差不多了，我就講到這裡，謝謝各位！",
+            "textSimplified": "时间也差不多了，我就讲到这里，谢谢各位！"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter05/b01_ch05_p03_m.mp3",
+        "durationMs": 138864,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 1776,
+            "text": "談“代溝”",
+            "textSimplified": "谈“代沟”"
+          },
+          {
+            "index": 1,
+            "paragraph": 1,
+            "startMs": 1776,
+            "endMs": 7272,
+            "text": "2015年11月13日10：37 \t閱讀14",
+            "textSimplified": "2015年11月13日10：37 \t阅读14"
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 7272,
+            "endMs": 15216,
+            "text": "在孩子教育的道路上，誰都想要做到最好，而代溝是交流與溝通的難點所在。",
+            "textSimplified": "在孩子教育的道路上，谁都想要做到最好，而代沟是交流与沟通的难点所在。"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 15216,
+            "endMs": 20952,
+            "text": "面對代溝，作為父母怎麼才能擁有良好的親子關係呢？",
+            "textSimplified": "面对代沟，作为父母怎么才能拥有良好的亲子关系呢？"
+          },
+          {
+            "index": 4,
+            "paragraph": 3,
+            "startMs": 20952,
+            "endMs": 24720,
+            "text": "一般來講，主要有以下幾種方式：",
+            "textSimplified": "一般来讲，主要有以下几种方式："
+          },
+          {
+            "index": 5,
+            "paragraph": 5,
+            "startMs": 24720,
+            "endMs": 31104,
+            "text": "1、【方法一】 面對思想上的代溝，就要在溝通中互相理解。",
+            "textSimplified": "1、【方法一】 面对思想上的代沟，就要在沟通中互相理解。"
+          },
+          {
+            "index": 6,
+            "paragraph": 5,
+            "startMs": 31104,
+            "endMs": 36960,
+            "text": "生活中，要完全填平代溝是不現實的，也沒必要的。",
+            "textSimplified": "生活中，要完全填平代沟是不现实的，也没必要的。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 36960,
+            "endMs": 54336,
+            "text": "正所謂“蘿蔔青菜，各有所愛”，如果兩代人之間的某些差異難以協調，那麼父母就應該理解、尊重子女的生活習慣、興趣愛好，絕不可將自己偏愛的某種模式強加給對方。",
+            "textSimplified": "正所谓“萝卜青菜，各有所爱”，如果两代人之间的某些差异难以协调，那么父母就应该理解、尊重子女的生活习惯、兴趣爱好，绝不可将自己偏爱的某种模式强加给对方。"
+          },
+          {
+            "index": 8,
+            "paragraph": 7,
+            "startMs": 54336,
+            "endMs": 63720,
+            "text": "2、【方法二】 由於經歷不多，青少年很容易受他人影響，考慮問題片面，甚至會很衝動。",
+            "textSimplified": "2、【方法二】 由于经历不多，青少年很容易受他人影响，考虑问题片面，甚至会很冲动。"
+          },
+          {
+            "index": 9,
+            "paragraph": 7,
+            "startMs": 63720,
+            "endMs": 72912,
+            "text": "父母應該多找孩子談談心，交談是可以使雙方互相溝通的，只有溝通了才能相互理解。",
+            "textSimplified": "父母应该多找孩子谈谈心，交谈是可以使双方互相沟通的，只有沟通了才能相互理解。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 72912,
+            "endMs": 81552,
+            "text": "而且這種交流必須建立在雙方平等的基礎上，父母最好是以朋友的身份參與其中。",
+            "textSimplified": "而且这种交流必须建立在双方平等的基础上，父母最好是以朋友的身份参与其中。"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 81552,
+            "endMs": 87840,
+            "text": "3、【方法三】 家長應爭取給孩子創造一個和睦的環境。",
+            "textSimplified": "3、【方法三】 家长应争取给孩子创造一个和睦的环境。"
+          },
+          {
+            "index": 12,
+            "paragraph": 9,
+            "startMs": 87840,
+            "endMs": 91992,
+            "text": "不能找自己的好惡和標準來評價孩子。",
+            "textSimplified": "不能找自己的好恶和标准来评价孩子。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 91992,
+            "endMs": 97296,
+            "text": "適當降低對子女的要求，不要對子女要求過高。",
+            "textSimplified": "适当降低对子女的要求，不要对子女要求过高。"
+          },
+          {
+            "index": 14,
+            "paragraph": 9,
+            "startMs": 97296,
+            "endMs": 106512,
+            "text": "青春期的少年渴望獨立，過多的保護會使孩子內心煩躁，逆反心理也會越來越嚴重。",
+            "textSimplified": "青春期的少年渴望独立，过多的保护会使孩子内心烦躁，逆反心理也会越来越严重。"
+          },
+          {
+            "index": 15,
+            "paragraph": 11,
+            "startMs": 106512,
+            "endMs": 118992,
+            "text": "4、【方法四】 在現今社會，青少年易接受新事物，所以父母應該努力學習知識，建立與子女的共同的話題和愛好。",
+            "textSimplified": "4、【方法四】 在现今社会，青少年易接受新事物，所以父母应该努力学习知识，建立与子女的共同的话题和爱好。"
+          },
+          {
+            "index": 16,
+            "paragraph": 11,
+            "startMs": 118992,
+            "endMs": 122568,
+            "text": "不要過於浮躁，省得有反效果。",
+            "textSimplified": "不要过于浮躁，省得有反效果。"
+          },
+          {
+            "index": 17,
+            "paragraph": 13,
+            "startMs": 122568,
+            "endMs": 130440,
+            "text": "只要能夠對“代溝”問題有一個正確的認識，兩代人就容易達到相互寛容與理解。",
+            "textSimplified": "只要能够对“代沟”问题有一个正确的认识，两代人就容易达到相互寛容与理解。"
+          },
+          {
+            "index": 18,
+            "paragraph": 13,
+            "startMs": 130440,
+            "endMs": 133368,
+            "text": "問題 難道不會解決嗎？",
+            "textSimplified": "问题 难道不会解决吗？"
+          },
+          {
+            "index": 19,
+            "paragraph": 15,
+            "startMs": 133368,
+            "endMs": 138864,
+            "text": "http://blog.sina.com.cn",
+            "textSimplified": "http://blog.sina.com.cn"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter05/b01_ch05_p03_c.mp3",
+        "durationMs": 144312,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2136,
+            "text": "談“代溝”",
+            "textSimplified": "谈“代沟”"
+          },
+          {
+            "index": 1,
+            "paragraph": 1,
+            "startMs": 2136,
+            "endMs": 7656,
+            "text": "2015年11月13日10：37 \t閱讀14",
+            "textSimplified": "2015年11月13日10：37 \t阅读14"
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 7656,
+            "endMs": 16080,
+            "text": "在孩子教育的道路上，誰都想要做到最好，而代溝是交流與溝通的難點所在。",
+            "textSimplified": "在孩子教育的道路上，谁都想要做到最好，而代沟是交流与沟通的难点所在。"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 16080,
+            "endMs": 22440,
+            "text": "面對代溝，作為父母怎麼才能擁有良好的親子關係呢？",
+            "textSimplified": "面对代沟，作为父母怎么才能拥有良好的亲子关系呢？"
+          },
+          {
+            "index": 4,
+            "paragraph": 3,
+            "startMs": 22440,
+            "endMs": 26640,
+            "text": "一般來講，主要有以下幾種方式：",
+            "textSimplified": "一般来讲，主要有以下几种方式："
+          },
+          {
+            "index": 5,
+            "paragraph": 5,
+            "startMs": 26640,
+            "endMs": 33936,
+            "text": "1、【方法一】 面對思想上的代溝，就要在溝通中互相理解。",
+            "textSimplified": "1、【方法一】 面对思想上的代沟，就要在沟通中互相理解。"
+          },
+          {
+            "index": 6,
+            "paragraph": 5,
+            "startMs": 33936,
+            "endMs": 39936,
+            "text": "生活中，要完全填平代溝是不現實的，也沒必要的。",
+            "textSimplified": "生活中，要完全填平代沟是不现实的，也没必要的。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 39936,
+            "endMs": 56880,
+            "text": "正所謂“蘿蔔青菜，各有所愛”，如果兩代人之間的某些差異難以協調，那麼父母就應該理解、尊重子女的生活習慣、興趣愛好，絕不可將自己偏愛的某種模式強加給對方。",
+            "textSimplified": "正所谓“萝卜青菜，各有所爱”，如果两代人之间的某些差异难以协调，那么父母就应该理解、尊重子女的生活习惯、兴趣爱好，绝不可将自己偏爱的某种模式强加给对方。"
+          },
+          {
+            "index": 8,
+            "paragraph": 7,
+            "startMs": 56880,
+            "endMs": 67032,
+            "text": "2、【方法二】 由於經歷不多，青少年很容易受他人影響，考慮問題片面，甚至會很衝動。",
+            "textSimplified": "2、【方法二】 由于经历不多，青少年很容易受他人影响，考虑问题片面，甚至会很冲动。"
+          },
+          {
+            "index": 9,
+            "paragraph": 7,
+            "startMs": 67032,
+            "endMs": 76464,
+            "text": "父母應該多找孩子談談心，交談是可以使雙方互相溝通的，只有溝通了才能相互理解。",
+            "textSimplified": "父母应该多找孩子谈谈心，交谈是可以使双方互相沟通的，只有沟通了才能相互理解。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 76464,
+            "endMs": 85200,
+            "text": "而且這種交流必須建立在雙方平等的基礎上，父母最好是以朋友的身份參與其中。",
+            "textSimplified": "而且这种交流必须建立在双方平等的基础上，父母最好是以朋友的身份参与其中。"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 85200,
+            "endMs": 92136,
+            "text": "3、【方法三】 家長應爭取給孩子創造一個和睦的環境。",
+            "textSimplified": "3、【方法三】 家长应争取给孩子创造一个和睦的环境。"
+          },
+          {
+            "index": 12,
+            "paragraph": 9,
+            "startMs": 92136,
+            "endMs": 96792,
+            "text": "不能找自己的好惡和標準來評價孩子。",
+            "textSimplified": "不能找自己的好恶和标准来评价孩子。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 96792,
+            "endMs": 102624,
+            "text": "適當降低對子女的要求，不要對子女要求過高。",
+            "textSimplified": "适当降低对子女的要求，不要对子女要求过高。"
+          },
+          {
+            "index": 14,
+            "paragraph": 9,
+            "startMs": 102624,
+            "endMs": 111672,
+            "text": "青春期的少年渴望獨立，過多的保護會使孩子內心煩躁，逆反心理也會越來越嚴重。",
+            "textSimplified": "青春期的少年渴望独立，过多的保护会使孩子内心烦躁，逆反心理也会越来越严重。"
+          },
+          {
+            "index": 15,
+            "paragraph": 11,
+            "startMs": 111672,
+            "endMs": 123864,
+            "text": "4、【方法四】 在現今社會，青少年易接受新事物，所以父母應該努力學習知識，建立與子女的共同的話題和愛好。",
+            "textSimplified": "4、【方法四】 在现今社会，青少年易接受新事物，所以父母应该努力学习知识，建立与子女的共同的话题和爱好。"
+          },
+          {
+            "index": 16,
+            "paragraph": 11,
+            "startMs": 123864,
+            "endMs": 128208,
+            "text": "不要過於浮躁，省得有反效果。",
+            "textSimplified": "不要过于浮躁，省得有反效果。"
+          },
+          {
+            "index": 17,
+            "paragraph": 13,
+            "startMs": 128208,
+            "endMs": 135840,
+            "text": "只要能夠對“代溝”問題有一個正確的認識，兩代人就容易達到相互寛容與理解。",
+            "textSimplified": "只要能够对“代沟”问题有一个正确的认识，两代人就容易达到相互寛容与理解。"
+          },
+          {
+            "index": 18,
+            "paragraph": 13,
+            "startMs": 135840,
+            "endMs": 138960,
+            "text": "問題 難道不會解決嗎？",
+            "textSimplified": "问题 难道不会解决吗？"
+          },
+          {
+            "index": 19,
+            "paragraph": 15,
+            "startMs": 138960,
+            "endMs": 144312,
+            "text": "http://blog.sina.com.cn",
+            "textSimplified": "http://blog.sina.com.cn"
+          }
+        ]
+      }
+    }
   ]
 }

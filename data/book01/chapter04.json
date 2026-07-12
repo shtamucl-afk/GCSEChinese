@@ -799,5 +799,1793 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter04/b01_ch04_p01_m.mp3",
+        "durationMs": 47808,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7392,
+            "text": "麗麗無緣無故生氣了，還說我們欺負她，但是我們只是跟她開了個玩笑。",
+            "textSimplified": "丽丽无缘无故生气了，还说我们欺负她，但是我们只是跟她开了个玩笑。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 7392,
+            "endMs": 13248,
+            "text": "根據這句話，回答：說話的人認爲麗麗是一個怎樣的人？",
+            "textSimplified": "根据这句话，回答：说话的人认为丽丽是一个怎样的人？"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 13248,
+            "endMs": 16128,
+            "text": "A大方 B小氣 C義氣",
+            "textSimplified": "A大方 B小气 C义气"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 16128,
+            "endMs": 24192,
+            "text": "我所有的同學都在用最時髦的名牌手機，而我的手機這麼老土，真沒面子！",
+            "textSimplified": "我所有的同学都在用最时髦的名牌手机，而我的手机这么老土，真没面子！"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 24192,
+            "endMs": 29832,
+            "text": "根據這句話，回答：你覺得說話的人是一個怎樣的人？",
+            "textSimplified": "根据这句话，回答：你觉得说话的人是一个怎样的人？"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 29832,
+            "endMs": 32952,
+            "text": "A虛榮 B 貪心 C 後悔",
+            "textSimplified": "A虚荣 B 贪心 C 后悔"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 32952,
+            "endMs": 38448,
+            "text": "林明達這個人，常常爲了雞毛蒜皮的事情就不高興。",
+            "textSimplified": "林明达这个人，常常为了鸡毛蒜皮的事情就不高兴。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 38448,
+            "endMs": 44256,
+            "text": "根據這句話，回答：下面哪一個詞是“雞毛蒜皮”的意思？",
+            "textSimplified": "根据这句话，回答：下面哪一个词是“鸡毛蒜皮”的意思？"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 44256,
+            "endMs": 47808,
+            "text": "A 沒有原因 B 特別多 C 不重要",
+            "textSimplified": "A 没有原因 B 特别多 C 不重要"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter04/b01_ch04_p01_c.mp3",
+        "durationMs": 50592,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7968,
+            "text": "麗麗無緣無故生氣了，還說我們欺負她，但是我們只是跟她開了個玩笑。",
+            "textSimplified": "丽丽无缘无故生气了，还说我们欺负她，但是我们只是跟她开了个玩笑。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 7968,
+            "endMs": 14328,
+            "text": "根據這句話，回答：說話的人認爲麗麗是一個怎樣的人？",
+            "textSimplified": "根据这句话，回答：说话的人认为丽丽是一个怎样的人？"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 14328,
+            "endMs": 17496,
+            "text": "A大方 B小氣 C義氣",
+            "textSimplified": "A大方 B小气 C义气"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 17496,
+            "endMs": 25368,
+            "text": "我所有的同學都在用最時髦的名牌手機，而我的手機這麼老土，真沒面子！",
+            "textSimplified": "我所有的同学都在用最时髦的名牌手机，而我的手机这么老土，真没面子！"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 25368,
+            "endMs": 31512,
+            "text": "根據這句話，回答：你覺得說話的人是一個怎樣的人？",
+            "textSimplified": "根据这句话，回答：你觉得说话的人是一个怎样的人？"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 31512,
+            "endMs": 34632,
+            "text": "A虛榮 B 貪心 C 後悔",
+            "textSimplified": "A虚荣 B 贪心 C 后悔"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 34632,
+            "endMs": 40464,
+            "text": "林明達這個人，常常爲了雞毛蒜皮的事情就不高興。",
+            "textSimplified": "林明达这个人，常常为了鸡毛蒜皮的事情就不高兴。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 40464,
+            "endMs": 46872,
+            "text": "根據這句話，回答：下面哪一個詞是“雞毛蒜皮”的意思？",
+            "textSimplified": "根据这句话，回答：下面哪一个词是“鸡毛蒜皮”的意思？"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 46872,
+            "endMs": 50592,
+            "text": "A 沒有原因 B 特別多 C 不重要",
+            "textSimplified": "A 没有原因 B 特别多 C 不重要"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter04/b01_ch04_p02_m.mp3",
+        "durationMs": 18960,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3048,
+            "text": "談談你對這張圖片的看法。",
+            "textSimplified": "谈谈你对这张图片的看法。"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3048,
+            "endMs": 4824,
+            "text": "你可以談談：",
+            "textSimplified": "你可以谈谈："
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 4824,
+            "endMs": 8256,
+            "text": "1. 圖片上每個人的表情怎麼樣？",
+            "textSimplified": "1. 图片上每个人的表情怎么样？"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 8256,
+            "endMs": 12000,
+            "text": "坐在前方的男孩正愁眉苦臉。",
+            "textSimplified": "坐在前方的男孩正愁眉苦脸。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 12000,
+            "endMs": 15744,
+            "text": "2 .你認爲他們之間發生了什麼問題？",
+            "textSimplified": "2 .你认为他们之间发生了什么问题？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 15744,
+            "endMs": 18960,
+            "text": "男孩好像被他後面的人欺凌。",
+            "textSimplified": "男孩好像被他后面的人欺凌。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter04/b01_ch04_p02_c.mp3",
+        "durationMs": 22368,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3624,
+            "text": "談談你對這張圖片的看法。",
+            "textSimplified": "谈谈你对这张图片的看法。"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3624,
+            "endMs": 6024,
+            "text": "你可以談談：",
+            "textSimplified": "你可以谈谈："
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 6024,
+            "endMs": 10032,
+            "text": "1. 圖片上每個人的表情怎麼樣？",
+            "textSimplified": "1. 图片上每个人的表情怎么样？"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 10032,
+            "endMs": 13920,
+            "text": "坐在前方的男孩正愁眉苦臉。",
+            "textSimplified": "坐在前方的男孩正愁眉苦脸。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 13920,
+            "endMs": 18648,
+            "text": "2 .你認爲他們之間發生了什麼問題？",
+            "textSimplified": "2 .你认为他们之间发生了什么问题？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 18648,
+            "endMs": 22368,
+            "text": "男孩好像被他後面的人欺凌。",
+            "textSimplified": "男孩好像被他后面的人欺凌。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter04/b01_ch04_p03_m.mp3",
+        "durationMs": 60144,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3432,
+            "text": "<AI 生成，代替聽力文章 >",
+            "textSimplified": "<AI 生成，代替听力文章 >"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3432,
+            "endMs": 12624,
+            "text": "作為一名長期擔任校園心理諮詢師的專家，我的工作就是耐心地傾聽青少年面對的問題。",
+            "textSimplified": "作为一名长期担任校园心理咨询师的专家，我的工作就是耐心地倾听青少年面对的问题。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 12624,
+            "endMs": 18696,
+            "text": "在與他們的對話中，我經常聽到他們對生活和學業的抱怨。",
+            "textSimplified": "在与他们的对话中，我经常听到他们对生活和学业的抱怨。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 18696,
+            "endMs": 28944,
+            "text": "現在的青少年深受同伴壓力影響，在物質與社交圈子裡，常不由自主地陷入相互攀比的現象之中。",
+            "textSimplified": "现在的青少年深受同伴压力影响，在物质与社交圈子里，常不由自主地陷入相互攀比的现象之中。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 28944,
+            "endMs": 38160,
+            "text": "這種盲目的跟風行為，往往讓他們在追求朋友認同的過程中，逐漸失去了自己正確的價值觀。",
+            "textSimplified": "这种盲目的跟风行为，往往让他们在追求朋友认同的过程中，逐渐失去了自己正确的价值观。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 38160,
+            "endMs": 51312,
+            "text": "我的教育理念是始終尊重每一位學生的獨特性，所以我用的方法是希望能引導他們找回理性的判斷能力，明白每個人都有個人長處。",
+            "textSimplified": "我的教育理念是始终尊重每一位学生的独特性，所以我用的方法是希望能引导他们找回理性的判断能力，明白每个人都有个人长处。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 51312,
+            "endMs": 60144,
+            "text": "只有這樣，他們才能在成長的道路上真正發揮自身的潛力，自信地面對未來的挑戰。",
+            "textSimplified": "只有这样，他们才能在成长的道路上真正发挥自身的潜力，自信地面对未来的挑战。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter04/b01_ch04_p03_c.mp3",
+        "durationMs": 61632,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3696,
+            "text": "<AI 生成，代替聽力文章 >",
+            "textSimplified": "<AI 生成，代替听力文章 >"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3696,
+            "endMs": 12864,
+            "text": "作為一名長期擔任校園心理諮詢師的專家，我的工作就是耐心地傾聽青少年面對的問題。",
+            "textSimplified": "作为一名长期担任校园心理咨询师的专家，我的工作就是耐心地倾听青少年面对的问题。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 12864,
+            "endMs": 19560,
+            "text": "在與他們的對話中，我經常聽到他們對生活和學業的抱怨。",
+            "textSimplified": "在与他们的对话中，我经常听到他们对生活和学业的抱怨。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 19560,
+            "endMs": 29976,
+            "text": "現在的青少年深受同伴壓力影響，在物質與社交圈子裡，常不由自主地陷入相互攀比的現象之中。",
+            "textSimplified": "现在的青少年深受同伴压力影响，在物质与社交圈子里，常不由自主地陷入相互攀比的现象之中。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 29976,
+            "endMs": 39720,
+            "text": "這種盲目的跟風行為，往往讓他們在追求朋友認同的過程中，逐漸失去了自己正確的價值觀。",
+            "textSimplified": "这种盲目的跟风行为，往往让他们在追求朋友认同的过程中，逐渐失去了自己正确的价值观。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 39720,
+            "endMs": 52536,
+            "text": "我的教育理念是始終尊重每一位學生的獨特性，所以我用的方法是希望能引導他們找回理性的判斷能力，明白每個人都有個人長處。",
+            "textSimplified": "我的教育理念是始终尊重每一位学生的独特性，所以我用的方法是希望能引导他们找回理性的判断能力，明白每个人都有个人长处。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 52536,
+            "endMs": 61632,
+            "text": "只有這樣，他們才能在成長的道路上真正發揮自身的潛力，自信地面對未來的挑戰。",
+            "textSimplified": "只有这样，他们才能在成长的道路上真正发挥自身的潜力，自信地面对未来的挑战。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter04/b01_ch04_p04_m.mp3",
+        "durationMs": 216792,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4608,
+            "text": "時間：2016年6月1日，星期三",
+            "textSimplified": "时间：2016年6月1日，星期三"
+          },
+          {
+            "index": 1,
+            "paragraph": 1,
+            "startMs": 4608,
+            "endMs": 8760,
+            "text": "收件人： zhixinjiejie＠pengyou.com",
+            "textSimplified": "收件人： zhixinjiejie＠pengyou.com"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8760,
+            "endMs": 12744,
+            "text": "發件人： zhangxuefang＠pengyou.com",
+            "textSimplified": "发件人： zhangxuefang＠pengyou.com"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 12744,
+            "endMs": 14688,
+            "text": "主題：1",
+            "textSimplified": "主题：1"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 14688,
+            "endMs": 16512,
+            "text": "知心姐姐：",
+            "textSimplified": "知心姐姐："
+          },
+          {
+            "index": 5,
+            "paragraph": 7,
+            "startMs": 16512,
+            "endMs": 21744,
+            "text": "從小到大，我都是爸爸媽媽和老師喜歡的好孩子。",
+            "textSimplified": "从小到大，我都是爸爸妈妈和老师喜欢的好孩子。"
+          },
+          {
+            "index": 6,
+            "paragraph": 7,
+            "startMs": 21744,
+            "endMs": 26928,
+            "text": "但是，現在我最大的願望是同學們也能喜歡我。",
+            "textSimplified": "但是，现在我最大的愿望是同学们也能喜欢我。"
+          },
+          {
+            "index": 7,
+            "paragraph": 9,
+            "startMs": 26928,
+            "endMs": 33624,
+            "text": "可是，他們還是不喜歡和我交朋友，他們給我取外號，叫我“書呆子”。",
+            "textSimplified": "可是，他们还是不喜欢和我交朋友，他们给我取外号，叫我“书呆子”。"
+          },
+          {
+            "index": 8,
+            "paragraph": 9,
+            "startMs": 33624,
+            "endMs": 41040,
+            "text": "而我也覺得自己和他們格格不入，因爲我根本對他們喜歡的東西不感興趣。",
+            "textSimplified": "而我也觉得自己和他们格格不入，因为我根本对他们喜欢的东西不感兴趣。"
+          },
+          {
+            "index": 9,
+            "paragraph": 9,
+            "startMs": 41040,
+            "endMs": 44952,
+            "text": "他們喜歡玩電腦遊戲，可是我不喜歡；",
+            "textSimplified": "他们喜欢玩电脑游戏，可是我不喜欢；"
+          },
+          {
+            "index": 10,
+            "paragraph": 9,
+            "startMs": 44952,
+            "endMs": 48576,
+            "text": "他們喜歡聊明星，可是我不追星；",
+            "textSimplified": "他们喜欢聊明星，可是我不追星；"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 48576,
+            "endMs": 52656,
+            "text": "他們喜歡買名牌衣服，可是我沒有錢。",
+            "textSimplified": "他们喜欢买名牌衣服，可是我没有钱。"
+          },
+          {
+            "index": 12,
+            "paragraph": 9,
+            "startMs": 52656,
+            "endMs": 56208,
+            "text": "知心姐姐，我覺得自己很孤獨！",
+            "textSimplified": "知心姐姐，我觉得自己很孤独！"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 56208,
+            "endMs": 58080,
+            "text": "我該怎麼辦？",
+            "textSimplified": "我该怎么办？"
+          },
+          {
+            "index": 14,
+            "paragraph": 11,
+            "startMs": 58080,
+            "endMs": 59520,
+            "text": "雪芳",
+            "textSimplified": "雪芳"
+          },
+          {
+            "index": 15,
+            "paragraph": 14,
+            "startMs": 59520,
+            "endMs": 64200,
+            "text": "時間：2016年6月3日，星期五",
+            "textSimplified": "时间：2016年6月3日，星期五"
+          },
+          {
+            "index": 16,
+            "paragraph": 15,
+            "startMs": 64200,
+            "endMs": 68544,
+            "text": "收件人：zhixinjejie＠pengyou.com",
+            "textSimplified": "收件人：zhixinjejie＠pengyou.com"
+          },
+          {
+            "index": 17,
+            "paragraph": 16,
+            "startMs": 68544,
+            "endMs": 72936,
+            "text": "發件人： liuxinran＠pengyou.com",
+            "textSimplified": "发件人： liuxinran＠pengyou.com"
+          },
+          {
+            "index": 18,
+            "paragraph": 17,
+            "startMs": 72936,
+            "endMs": 74904,
+            "text": "主題：2",
+            "textSimplified": "主题：2"
+          },
+          {
+            "index": 19,
+            "paragraph": 19,
+            "startMs": 74904,
+            "endMs": 77256,
+            "text": "親愛的知心姐姐：",
+            "textSimplified": "亲爱的知心姐姐："
+          },
+          {
+            "index": 20,
+            "paragraph": 21,
+            "startMs": 77256,
+            "endMs": 83808,
+            "text": "我剛剛轉學到一個新的學校，這個新學校跟我以前的學校很不一樣。",
+            "textSimplified": "我刚刚转学到一个新的学校，这个新学校跟我以前的学校很不一样。"
+          },
+          {
+            "index": 21,
+            "paragraph": 21,
+            "startMs": 83808,
+            "endMs": 89016,
+            "text": "這裏的同學學習都特別用功，根本沒時間和我玩。",
+            "textSimplified": "这里的同学学习都特别用功，根本没时间和我玩。"
+          },
+          {
+            "index": 22,
+            "paragraph": 21,
+            "startMs": 89016,
+            "endMs": 94056,
+            "text": "我覺得他們沒有我以前學校的同學那麼友好。",
+            "textSimplified": "我觉得他们没有我以前学校的同学那么友好。"
+          },
+          {
+            "index": 23,
+            "paragraph": 22,
+            "startMs": 94056,
+            "endMs": 100152,
+            "text": "知心姐姐，我想盡快適應這所新學校，我該怎麼 辦呀？",
+            "textSimplified": "知心姐姐，我想尽快适应这所新学校，我该怎么 办呀？"
+          },
+          {
+            "index": 24,
+            "paragraph": 24,
+            "startMs": 100152,
+            "endMs": 101592,
+            "text": "欣然",
+            "textSimplified": "欣然"
+          },
+          {
+            "index": 25,
+            "paragraph": 27,
+            "startMs": 101592,
+            "endMs": 106176,
+            "text": "時間：2016年6月7日，星期二",
+            "textSimplified": "时间：2016年6月7日，星期二"
+          },
+          {
+            "index": 26,
+            "paragraph": 28,
+            "startMs": 106176,
+            "endMs": 110328,
+            "text": "收件人：zhixinjiejie＠pengyou.com",
+            "textSimplified": "收件人：zhixinjiejie＠pengyou.com"
+          },
+          {
+            "index": 27,
+            "paragraph": 29,
+            "startMs": 110328,
+            "endMs": 113976,
+            "text": "發件人：hailong＠pengyou.com",
+            "textSimplified": "发件人：hailong＠pengyou.com"
+          },
+          {
+            "index": 28,
+            "paragraph": 30,
+            "startMs": 113976,
+            "endMs": 115944,
+            "text": "主題：3",
+            "textSimplified": "主题：3"
+          },
+          {
+            "index": 29,
+            "paragraph": 32,
+            "startMs": 115944,
+            "endMs": 118296,
+            "text": "親愛的知心姐姐：",
+            "textSimplified": "亲爱的知心姐姐："
+          },
+          {
+            "index": 30,
+            "paragraph": 34,
+            "startMs": 118296,
+            "endMs": 121896,
+            "text": "今天我和我的最要好的朋友吵架了。",
+            "textSimplified": "今天我和我的最要好的朋友吵架了。"
+          },
+          {
+            "index": 31,
+            "paragraph": 34,
+            "startMs": 121896,
+            "endMs": 126048,
+            "text": "我很擔心我 們的友情就這樣結束了。",
+            "textSimplified": "我很担心我 们的友情就这样结束了。"
+          },
+          {
+            "index": 32,
+            "paragraph": 36,
+            "startMs": 126048,
+            "endMs": 133680,
+            "text": "我的朋友最近迷上了網絡遊戲，常常不做作業， 總是讓我把作業借給他抄。",
+            "textSimplified": "我的朋友最近迷上了网络游戏，常常不做作业， 总是让我把作业借给他抄。"
+          },
+          {
+            "index": 33,
+            "paragraph": 36,
+            "startMs": 133680,
+            "endMs": 140328,
+            "text": "雖然我覺得這樣是不對的，但是爲了我們的友情，我只好借給他了。",
+            "textSimplified": "虽然我觉得这样是不对的，但是为了我们的友情，我只好借给他了。"
+          },
+          {
+            "index": 34,
+            "paragraph": 38,
+            "startMs": 140328,
+            "endMs": 143616,
+            "text": "今天，更麻煩的事情發生了。",
+            "textSimplified": "今天，更麻烦的事情发生了。"
+          },
+          {
+            "index": 35,
+            "paragraph": 38,
+            "startMs": 143616,
+            "endMs": 150312,
+            "text": "上午，我們有一場 數學考試，他坐在我旁邊，要讓我幫他“作弊”！",
+            "textSimplified": "上午，我们有一场 数学考试，他坐在我旁边，要让我帮他“作弊”！"
+          },
+          {
+            "index": 36,
+            "paragraph": 38,
+            "startMs": 150312,
+            "endMs": 152688,
+            "text": "但是我拒絕了。",
+            "textSimplified": "但是我拒绝了。"
+          },
+          {
+            "index": 37,
+            "paragraph": 38,
+            "startMs": 152688,
+            "endMs": 158232,
+            "text": "考試後，他就和我大吵一架，說我不夠義氣，不夠朋友！",
+            "textSimplified": "考试后，他就和我大吵一架，说我不够义气，不够朋友！"
+          },
+          {
+            "index": 38,
+            "paragraph": 40,
+            "startMs": 158232,
+            "endMs": 165960,
+            "text": "知心姐姐，我想幫我的朋友，更希望我們的友誼 不會被破壞，我該怎麼做？",
+            "textSimplified": "知心姐姐，我想帮我的朋友，更希望我们的友谊 不会被破坏，我该怎么做？"
+          },
+          {
+            "index": 39,
+            "paragraph": 42,
+            "startMs": 165960,
+            "endMs": 167544,
+            "text": "李海龍",
+            "textSimplified": "李海龙"
+          },
+          {
+            "index": 40,
+            "paragraph": 45,
+            "startMs": 167544,
+            "endMs": 172224,
+            "text": "時間：2016年6月9日，星期四",
+            "textSimplified": "时间：2016年6月9日，星期四"
+          },
+          {
+            "index": 41,
+            "paragraph": 46,
+            "startMs": 172224,
+            "endMs": 176376,
+            "text": "收件人：zhixinjiejie＠pengyou.com",
+            "textSimplified": "收件人：zhixinjiejie＠pengyou.com"
+          },
+          {
+            "index": 42,
+            "paragraph": 47,
+            "startMs": 176376,
+            "endMs": 180528,
+            "text": "發件人 ：zhengxiaoyuan＠pengyou.com",
+            "textSimplified": "发件人 ：zhengxiaoyuan＠pengyou.com"
+          },
+          {
+            "index": 43,
+            "paragraph": 48,
+            "startMs": 180528,
+            "endMs": 182544,
+            "text": "主題：4",
+            "textSimplified": "主题：4"
+          },
+          {
+            "index": 44,
+            "paragraph": 50,
+            "startMs": 182544,
+            "endMs": 184896,
+            "text": "親愛的知心姐姐：",
+            "textSimplified": "亲爱的知心姐姐："
+          },
+          {
+            "index": 45,
+            "paragraph": 51,
+            "startMs": 184896,
+            "endMs": 190104,
+            "text": "最近我很煩，媽媽總是把我和別人家孩子作比較。",
+            "textSimplified": "最近我很烦，妈妈总是把我和别人家孩子作比较。"
+          },
+          {
+            "index": 46,
+            "paragraph": 51,
+            "startMs": 190104,
+            "endMs": 203112,
+            "text": "她總是說我不如我的表姐漂亮，沒有鄰居小紅成績好，也沒有她朋友的孩子歡歡那麼能歌善舞...... 總之，媽媽總是對我不滿意。",
+            "textSimplified": "她总是说我不如我的表姐漂亮，没有邻居小红成绩好，也没有她朋友的孩子欢欢那么能歌善舞...... 总之，妈妈总是对我不满意。"
+          },
+          {
+            "index": 47,
+            "paragraph": 51,
+            "startMs": 203112,
+            "endMs": 207312,
+            "text": "在她的眼中，我就是不如別人家的孩子！",
+            "textSimplified": "在她的眼中，我就是不如别人家的孩子！"
+          },
+          {
+            "index": 48,
+            "paragraph": 51,
+            "startMs": 207312,
+            "endMs": 212256,
+            "text": "可是，對我來說，這種比較讓我覺得很煩惱。",
+            "textSimplified": "可是，对我来说，这种比较让我觉得很烦恼。"
+          },
+          {
+            "index": 49,
+            "paragraph": 53,
+            "startMs": 212256,
+            "endMs": 215208,
+            "text": "知心姐姐，我該怎麼辦？",
+            "textSimplified": "知心姐姐，我该怎么办？"
+          },
+          {
+            "index": 50,
+            "paragraph": 55,
+            "startMs": 215208,
+            "endMs": 216792,
+            "text": "鄭曉媛",
+            "textSimplified": "郑晓媛"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter04/b01_ch04_p04_c.mp3",
+        "durationMs": 242448,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4896,
+            "text": "時間：2016年6月1日，星期三",
+            "textSimplified": "时间：2016年6月1日，星期三"
+          },
+          {
+            "index": 1,
+            "paragraph": 1,
+            "startMs": 4896,
+            "endMs": 9048,
+            "text": "收件人： zhixinjiejie＠pengyou.com",
+            "textSimplified": "收件人： zhixinjiejie＠pengyou.com"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9048,
+            "endMs": 13176,
+            "text": "發件人： zhangxuefang＠pengyou.com",
+            "textSimplified": "发件人： zhangxuefang＠pengyou.com"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 13176,
+            "endMs": 15408,
+            "text": "主題：1",
+            "textSimplified": "主题：1"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 15408,
+            "endMs": 17592,
+            "text": "知心姐姐：",
+            "textSimplified": "知心姐姐："
+          },
+          {
+            "index": 5,
+            "paragraph": 7,
+            "startMs": 17592,
+            "endMs": 23472,
+            "text": "從小到大，我都是爸爸媽媽和老師喜歡的好孩子。",
+            "textSimplified": "从小到大，我都是爸爸妈妈和老师喜欢的好孩子。"
+          },
+          {
+            "index": 6,
+            "paragraph": 7,
+            "startMs": 23472,
+            "endMs": 29136,
+            "text": "但是，現在我最大的願望是同學們也能喜歡我。",
+            "textSimplified": "但是，现在我最大的愿望是同学们也能喜欢我。"
+          },
+          {
+            "index": 7,
+            "paragraph": 9,
+            "startMs": 29136,
+            "endMs": 37488,
+            "text": "可是，他們還是不喜歡和我交朋友，他們給我取外號，叫我“書呆子”。",
+            "textSimplified": "可是，他们还是不喜欢和我交朋友，他们给我取外号，叫我“书呆子”。"
+          },
+          {
+            "index": 8,
+            "paragraph": 9,
+            "startMs": 37488,
+            "endMs": 45216,
+            "text": "而我也覺得自己和他們格格不入，因爲我根本對他們喜歡的東西不感興趣。",
+            "textSimplified": "而我也觉得自己和他们格格不入，因为我根本对他们喜欢的东西不感兴趣。"
+          },
+          {
+            "index": 9,
+            "paragraph": 9,
+            "startMs": 45216,
+            "endMs": 50088,
+            "text": "他們喜歡玩電腦遊戲，可是我不喜歡；",
+            "textSimplified": "他们喜欢玩电脑游戏，可是我不喜欢；"
+          },
+          {
+            "index": 10,
+            "paragraph": 9,
+            "startMs": 50088,
+            "endMs": 54624,
+            "text": "他們喜歡聊明星，可是我不追星；",
+            "textSimplified": "他们喜欢聊明星，可是我不追星；"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 54624,
+            "endMs": 59232,
+            "text": "他們喜歡買名牌衣服，可是我沒有錢。",
+            "textSimplified": "他们喜欢买名牌衣服，可是我没有钱。"
+          },
+          {
+            "index": 12,
+            "paragraph": 9,
+            "startMs": 59232,
+            "endMs": 63336,
+            "text": "知心姐姐，我覺得自己很孤獨！",
+            "textSimplified": "知心姐姐，我觉得自己很孤独！"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 63336,
+            "endMs": 65736,
+            "text": "我該怎麼辦？",
+            "textSimplified": "我该怎么办？"
+          },
+          {
+            "index": 14,
+            "paragraph": 11,
+            "startMs": 65736,
+            "endMs": 67632,
+            "text": "雪芳",
+            "textSimplified": "雪芳"
+          },
+          {
+            "index": 15,
+            "paragraph": 14,
+            "startMs": 67632,
+            "endMs": 72576,
+            "text": "時間：2016年6月3日，星期五",
+            "textSimplified": "时间：2016年6月3日，星期五"
+          },
+          {
+            "index": 16,
+            "paragraph": 15,
+            "startMs": 72576,
+            "endMs": 77328,
+            "text": "收件人：zhixinjejie＠pengyou.com",
+            "textSimplified": "收件人：zhixinjejie＠pengyou.com"
+          },
+          {
+            "index": 17,
+            "paragraph": 16,
+            "startMs": 77328,
+            "endMs": 81672,
+            "text": "發件人： liuxinran＠pengyou.com",
+            "textSimplified": "发件人： liuxinran＠pengyou.com"
+          },
+          {
+            "index": 18,
+            "paragraph": 17,
+            "startMs": 81672,
+            "endMs": 84048,
+            "text": "主題：2",
+            "textSimplified": "主题：2"
+          },
+          {
+            "index": 19,
+            "paragraph": 19,
+            "startMs": 84048,
+            "endMs": 86832,
+            "text": "親愛的知心姐姐：",
+            "textSimplified": "亲爱的知心姐姐："
+          },
+          {
+            "index": 20,
+            "paragraph": 21,
+            "startMs": 86832,
+            "endMs": 94080,
+            "text": "我剛剛轉學到一個新的學校，這個新學校跟我以前的學校很不一樣。",
+            "textSimplified": "我刚刚转学到一个新的学校，这个新学校跟我以前的学校很不一样。"
+          },
+          {
+            "index": 21,
+            "paragraph": 21,
+            "startMs": 94080,
+            "endMs": 99888,
+            "text": "這裏的同學學習都特別用功，根本沒時間和我玩。",
+            "textSimplified": "这里的同学学习都特别用功，根本没时间和我玩。"
+          },
+          {
+            "index": 22,
+            "paragraph": 21,
+            "startMs": 99888,
+            "endMs": 104928,
+            "text": "我覺得他們沒有我以前學校的同學那麼友好。",
+            "textSimplified": "我觉得他们没有我以前学校的同学那么友好。"
+          },
+          {
+            "index": 23,
+            "paragraph": 22,
+            "startMs": 104928,
+            "endMs": 111264,
+            "text": "知心姐姐，我想盡快適應這所新學校，我該怎麼 辦呀？",
+            "textSimplified": "知心姐姐，我想尽快适应这所新学校，我该怎么 办呀？"
+          },
+          {
+            "index": 24,
+            "paragraph": 24,
+            "startMs": 111264,
+            "endMs": 113040,
+            "text": "欣然",
+            "textSimplified": "欣然"
+          },
+          {
+            "index": 25,
+            "paragraph": 27,
+            "startMs": 113040,
+            "endMs": 117936,
+            "text": "時間：2016年6月7日，星期二",
+            "textSimplified": "时间：2016年6月7日，星期二"
+          },
+          {
+            "index": 26,
+            "paragraph": 28,
+            "startMs": 117936,
+            "endMs": 122568,
+            "text": "收件人：zhixinjiejie＠pengyou.com",
+            "textSimplified": "收件人：zhixinjiejie＠pengyou.com"
+          },
+          {
+            "index": 27,
+            "paragraph": 29,
+            "startMs": 122568,
+            "endMs": 126744,
+            "text": "發件人：hailong＠pengyou.com",
+            "textSimplified": "发件人：hailong＠pengyou.com"
+          },
+          {
+            "index": 28,
+            "paragraph": 30,
+            "startMs": 126744,
+            "endMs": 129168,
+            "text": "主題：3",
+            "textSimplified": "主题：3"
+          },
+          {
+            "index": 29,
+            "paragraph": 32,
+            "startMs": 129168,
+            "endMs": 131952,
+            "text": "親愛的知心姐姐：",
+            "textSimplified": "亲爱的知心姐姐："
+          },
+          {
+            "index": 30,
+            "paragraph": 34,
+            "startMs": 131952,
+            "endMs": 136200,
+            "text": "今天我和我的最要好的朋友吵架了。",
+            "textSimplified": "今天我和我的最要好的朋友吵架了。"
+          },
+          {
+            "index": 31,
+            "paragraph": 34,
+            "startMs": 136200,
+            "endMs": 140520,
+            "text": "我很擔心我 們的友情就這樣結束了。",
+            "textSimplified": "我很担心我 们的友情就这样结束了。"
+          },
+          {
+            "index": 32,
+            "paragraph": 36,
+            "startMs": 140520,
+            "endMs": 148392,
+            "text": "我的朋友最近迷上了網絡遊戲，常常不做作業， 總是讓我把作業借給他抄。",
+            "textSimplified": "我的朋友最近迷上了网络游戏，常常不做作业， 总是让我把作业借给他抄。"
+          },
+          {
+            "index": 33,
+            "paragraph": 36,
+            "startMs": 148392,
+            "endMs": 155640,
+            "text": "雖然我覺得這樣是不對的，但是爲了我們的友情，我只好借給他了。",
+            "textSimplified": "虽然我觉得这样是不对的，但是为了我们的友情，我只好借给他了。"
+          },
+          {
+            "index": 34,
+            "paragraph": 38,
+            "startMs": 155640,
+            "endMs": 159720,
+            "text": "今天，更麻煩的事情發生了。",
+            "textSimplified": "今天，更麻烦的事情发生了。"
+          },
+          {
+            "index": 35,
+            "paragraph": 38,
+            "startMs": 159720,
+            "endMs": 167400,
+            "text": "上午，我們有一場 數學考試，他坐在我旁邊，要讓我幫他“作弊”！",
+            "textSimplified": "上午，我们有一场 数学考试，他坐在我旁边，要让我帮他“作弊”！"
+          },
+          {
+            "index": 36,
+            "paragraph": 38,
+            "startMs": 167400,
+            "endMs": 169968,
+            "text": "但是我拒絕了。",
+            "textSimplified": "但是我拒绝了。"
+          },
+          {
+            "index": 37,
+            "paragraph": 38,
+            "startMs": 169968,
+            "endMs": 176640,
+            "text": "考試後，他就和我大吵一架，說我不夠義氣，不夠朋友！",
+            "textSimplified": "考试后，他就和我大吵一架，说我不够义气，不够朋友！"
+          },
+          {
+            "index": 38,
+            "paragraph": 40,
+            "startMs": 176640,
+            "endMs": 185064,
+            "text": "知心姐姐，我想幫我的朋友，更希望我們的友誼 不會被破壞，我該怎麼做？",
+            "textSimplified": "知心姐姐，我想帮我的朋友，更希望我们的友谊 不会被破坏，我该怎么做？"
+          },
+          {
+            "index": 39,
+            "paragraph": 42,
+            "startMs": 185064,
+            "endMs": 187032,
+            "text": "李海龍",
+            "textSimplified": "李海龙"
+          },
+          {
+            "index": 40,
+            "paragraph": 45,
+            "startMs": 187032,
+            "endMs": 192000,
+            "text": "時間：2016年6月9日，星期四",
+            "textSimplified": "时间：2016年6月9日，星期四"
+          },
+          {
+            "index": 41,
+            "paragraph": 46,
+            "startMs": 192000,
+            "endMs": 196632,
+            "text": "收件人：zhixinjiejie＠pengyou.com",
+            "textSimplified": "收件人：zhixinjiejie＠pengyou.com"
+          },
+          {
+            "index": 42,
+            "paragraph": 47,
+            "startMs": 196632,
+            "endMs": 201288,
+            "text": "發件人 ：zhengxiaoyuan＠pengyou.com",
+            "textSimplified": "发件人 ：zhengxiaoyuan＠pengyou.com"
+          },
+          {
+            "index": 43,
+            "paragraph": 48,
+            "startMs": 201288,
+            "endMs": 203736,
+            "text": "主題：4",
+            "textSimplified": "主题：4"
+          },
+          {
+            "index": 44,
+            "paragraph": 50,
+            "startMs": 203736,
+            "endMs": 206520,
+            "text": "親愛的知心姐姐：",
+            "textSimplified": "亲爱的知心姐姐："
+          },
+          {
+            "index": 45,
+            "paragraph": 51,
+            "startMs": 206520,
+            "endMs": 212280,
+            "text": "最近我很煩，媽媽總是把我和別人家孩子作比較。",
+            "textSimplified": "最近我很烦，妈妈总是把我和别人家孩子作比较。"
+          },
+          {
+            "index": 46,
+            "paragraph": 51,
+            "startMs": 212280,
+            "endMs": 225960,
+            "text": "她總是說我不如我的表姐漂亮，沒有鄰居小紅成績好，也沒有她朋友的孩子歡歡那麼能歌善舞...... 總之，媽媽總是對我不滿意。",
+            "textSimplified": "她总是说我不如我的表姐漂亮，没有邻居小红成绩好，也没有她朋友的孩子欢欢那么能歌善舞...... 总之，妈妈总是对我不满意。"
+          },
+          {
+            "index": 47,
+            "paragraph": 51,
+            "startMs": 225960,
+            "endMs": 231096,
+            "text": "在她的眼中，我就是不如別人家的孩子！",
+            "textSimplified": "在她的眼中，我就是不如别人家的孩子！"
+          },
+          {
+            "index": 48,
+            "paragraph": 51,
+            "startMs": 231096,
+            "endMs": 236640,
+            "text": "可是，對我來說，這種比較讓我覺得很煩惱。",
+            "textSimplified": "可是，对我来说，这种比较让我觉得很烦恼。"
+          },
+          {
+            "index": 49,
+            "paragraph": 53,
+            "startMs": 236640,
+            "endMs": 240432,
+            "text": "知心姐姐，我該怎麼辦？",
+            "textSimplified": "知心姐姐，我该怎么办？"
+          },
+          {
+            "index": 50,
+            "paragraph": 55,
+            "startMs": 240432,
+            "endMs": 242448,
+            "text": "鄭曉媛",
+            "textSimplified": "郑晓媛"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 4,
+      "mandarin": {
+        "file": "audio/book01/chapter04/b01_ch04_p05_m.mp3",
+        "durationMs": 157776,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3504,
+            "text": "＂青年地帶＂——杜絕校園欺凌",
+            "textSimplified": "＂青年地带＂——杜绝校园欺凌"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3504,
+            "endMs": 14400,
+            "text": "據報道，民間社工機構引＂青年地帶＂與廣州市海珠區政府合作，向區內十二所學校每校派駐兩名社工。",
+            "textSimplified": "据报道，民间社工机构引＂青年地带＂与广州市海珠区政府合作，向区内十二所学校每校派驻两名社工。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 14400,
+            "endMs": 19440,
+            "text": "社工在學校主要開展杜絕校園欺凌的活動。",
+            "textSimplified": "社工在学校主要开展杜绝校园欺凌的活动。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 19440,
+            "endMs": 25416,
+            "text": "＂我們認爲，社工跟教師不一樣，二者是兩種不同的職業。",
+            "textSimplified": "＂我们认为，社工跟教师不一样，二者是两种不同的职业。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 25416,
+            "endMs": 30264,
+            "text": "我們會讓學生直接叫我們名字，而不是‘老師’。",
+            "textSimplified": "我们会让学生直接叫我们名字，而不是‘老师’。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 30264,
+            "endMs": 33528,
+            "text": "＂＂青年地帶＂負責人郭欣欣說。",
+            "textSimplified": "＂＂青年地带＂负责人郭欣欣说。"
+          },
+          {
+            "index": 6,
+            "paragraph": 3,
+            "startMs": 33528,
+            "endMs": 45960,
+            "text": "項目最初開展時，學校對於社工的作用有懷疑，不過，看到校園欺凌案件接二連三地發生，學校只有抱着試一試的態度。",
+            "textSimplified": "项目最初开展时，学校对于社工的作用有怀疑，不过，看到校园欺凌案件接二连三地发生，学校只有抱着试一试的态度。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 45960,
+            "endMs": 63024,
+            "text": "＂每一個孩子都有自己的煩惱，不管是欺凌別人還是被別人欺凌的孩子，他們的家庭一般都有不同的問題，例如父母離婚，單親家庭等等，這些問題導致他們性格出現問題。",
+            "textSimplified": "＂每一个孩子都有自己的烦恼，不管是欺凌别人还是被别人欺凌的孩子，他们的家庭一般都有不同的问题，例如父母离婚，单亲家庭等等，这些问题导致他们性格出现问题。"
+          },
+          {
+            "index": 8,
+            "paragraph": 5,
+            "startMs": 63024,
+            "endMs": 70368,
+            "text": "工作的時候，我們要針對每個孩子的家庭情況和性格特點，對症下藥。",
+            "textSimplified": "工作的时候，我们要针对每个孩子的家庭情况和性格特点，对症下药。"
+          },
+          {
+            "index": 9,
+            "paragraph": 5,
+            "startMs": 70368,
+            "endMs": 72912,
+            "text": "＂一位社工告訴記者。",
+            "textSimplified": "＂一位社工告诉记者。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 72912,
+            "endMs": 79656,
+            "text": "目前，這12所學校都提供了專門的社工服務場所——社工站。",
+            "textSimplified": "目前，这12所学校都提供了专门的社工服务场所——社工站。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 79656,
+            "endMs": 86472,
+            "text": "社工站設置有圖書室、桌遊區等，吸引學生在課餘時間前來。",
+            "textSimplified": "社工站设置有图书室、桌游区等，吸引学生在课余时间前来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 7,
+            "startMs": 86472,
+            "endMs": 95544,
+            "text": "午休和放學後是社工站最熱鬧的時候，孩子們有的下棋，有的玩桌遊，更多人在聊天。",
+            "textSimplified": "午休和放学后是社工站最热闹的时候，孩子们有的下棋，有的玩桌游，更多人在聊天。"
+          },
+          {
+            "index": 13,
+            "paragraph": 7,
+            "startMs": 95544,
+            "endMs": 99120,
+            "text": "社工陪他們玩，也陪他們聊天。",
+            "textSimplified": "社工陪他们玩，也陪他们聊天。"
+          },
+          {
+            "index": 14,
+            "paragraph": 7,
+            "startMs": 99120,
+            "endMs": 109968,
+            "text": "社工說： ＂很多是他們在課堂上不方便講的話，只要他們願意跟我們說，我們就願意傾聽，併爲他們提供幫助。",
+            "textSimplified": "社工说： ＂很多是他们在课堂上不方便讲的话，只要他们愿意跟我们说，我们就愿意倾听，并为他们提供帮助。"
+          },
+          {
+            "index": 15,
+            "paragraph": 7,
+            "startMs": 109968,
+            "endMs": 122568,
+            "text": "＂與此同時，社工站還定期召開主題班會，瞭解欺凌背後的根源等等，培養孩子們應對問題，解決矛盾的社交技巧等等。",
+            "textSimplified": "＂与此同时，社工站还定期召开主题班会，了解欺凌背后的根源等等，培养孩子们应对问题，解决矛盾的社交技巧等等。"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 122568,
+            "endMs": 128136,
+            "text": "＂目前，國內很多學校都比較避諱校園欺凌話題。",
+            "textSimplified": "＂目前，国内很多学校都比较避讳校园欺凌话题。"
+          },
+          {
+            "index": 17,
+            "paragraph": 9,
+            "startMs": 128136,
+            "endMs": 129960,
+            "text": "郭欣欣說。",
+            "textSimplified": "郭欣欣说。"
+          },
+          {
+            "index": 18,
+            "paragraph": 9,
+            "startMs": 129960,
+            "endMs": 138072,
+            "text": "因此，我們要讓更多的學校看到這個問題，並與社工合作，應對校園欺凌。",
+            "textSimplified": "因此，我们要让更多的学校看到这个问题，并与社工合作，应对校园欺凌。"
+          },
+          {
+            "index": 19,
+            "paragraph": 9,
+            "startMs": 138072,
+            "endMs": 152760,
+            "text": "她透露＂青年地帶＂正在開發一個名爲＂校園零欺凌＂的手機軟件，希望能通過新媒體平台，增進青少年、家長和教師的互動，共同應對校園欺凌問題。",
+            "textSimplified": "她透露＂青年地带＂正在开发一个名为＂校园零欺凌＂的手机软件，希望能通过新媒体平台，增进青少年、家长和教师的互动，共同应对校园欺凌问题。"
+          },
+          {
+            "index": 20,
+            "paragraph": 11,
+            "startMs": 152760,
+            "endMs": 157776,
+            "text": "http://edu.qq.com",
+            "textSimplified": "http://edu.qq.com"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter04/b01_ch04_p05_c.mp3",
+        "durationMs": 163440,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3768,
+            "text": "＂青年地帶＂——杜絕校園欺凌",
+            "textSimplified": "＂青年地带＂——杜绝校园欺凌"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3768,
+            "endMs": 14448,
+            "text": "據報道，民間社工機構引＂青年地帶＂與廣州市海珠區政府合作，向區內十二所學校每校派駐兩名社工。",
+            "textSimplified": "据报道，民间社工机构引＂青年地带＂与广州市海珠区政府合作，向区内十二所学校每校派驻两名社工。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 14448,
+            "endMs": 19584,
+            "text": "社工在學校主要開展杜絕校園欺凌的活動。",
+            "textSimplified": "社工在学校主要开展杜绝校园欺凌的活动。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 19584,
+            "endMs": 25776,
+            "text": "＂我們認爲，社工跟教師不一樣，二者是兩種不同的職業。",
+            "textSimplified": "＂我们认为，社工跟教师不一样，二者是两种不同的职业。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 25776,
+            "endMs": 31608,
+            "text": "我們會讓學生直接叫我們名字，而不是‘老師’。",
+            "textSimplified": "我们会让学生直接叫我们名字，而不是‘老师’。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 31608,
+            "endMs": 35208,
+            "text": "＂＂青年地帶＂負責人郭欣欣說。",
+            "textSimplified": "＂＂青年地带＂负责人郭欣欣说。"
+          },
+          {
+            "index": 6,
+            "paragraph": 3,
+            "startMs": 35208,
+            "endMs": 48264,
+            "text": "項目最初開展時，學校對於社工的作用有懷疑，不過，看到校園欺凌案件接二連三地發生，學校只有抱着試一試的態度。",
+            "textSimplified": "项目最初开展时，学校对于社工的作用有怀疑，不过，看到校园欺凌案件接二连三地发生，学校只有抱着试一试的态度。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 48264,
+            "endMs": 64800,
+            "text": "＂每一個孩子都有自己的煩惱，不管是欺凌別人還是被別人欺凌的孩子，他們的家庭一般都有不同的問題，例如父母離婚，單親家庭等等，這些問題導致他們性格出現問題。",
+            "textSimplified": "＂每一个孩子都有自己的烦恼，不管是欺凌别人还是被别人欺凌的孩子，他们的家庭一般都有不同的问题，例如父母离婚，单亲家庭等等，这些问题导致他们性格出现问题。"
+          },
+          {
+            "index": 8,
+            "paragraph": 5,
+            "startMs": 64800,
+            "endMs": 72528,
+            "text": "工作的時候，我們要針對每個孩子的家庭情況和性格特點，對症下藥。",
+            "textSimplified": "工作的时候，我们要针对每个孩子的家庭情况和性格特点，对症下药。"
+          },
+          {
+            "index": 9,
+            "paragraph": 5,
+            "startMs": 72528,
+            "endMs": 75600,
+            "text": "＂一位社工告訴記者。",
+            "textSimplified": "＂一位社工告诉记者。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 75600,
+            "endMs": 82920,
+            "text": "目前，這12所學校都提供了專門的社工服務場所——社工站。",
+            "textSimplified": "目前，这12所学校都提供了专门的社工服务场所——社工站。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 82920,
+            "endMs": 90216,
+            "text": "社工站設置有圖書室、桌遊區等，吸引學生在課餘時間前來。",
+            "textSimplified": "社工站设置有图书室、桌游区等，吸引学生在课余时间前来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 7,
+            "startMs": 90216,
+            "endMs": 99312,
+            "text": "午休和放學後是社工站最熱鬧的時候，孩子們有的下棋，有的玩桌遊，更多人在聊天。",
+            "textSimplified": "午休和放学后是社工站最热闹的时候，孩子们有的下棋，有的玩桌游，更多人在聊天。"
+          },
+          {
+            "index": 13,
+            "paragraph": 7,
+            "startMs": 99312,
+            "endMs": 103728,
+            "text": "社工陪他們玩，也陪他們聊天。",
+            "textSimplified": "社工陪他们玩，也陪他们聊天。"
+          },
+          {
+            "index": 14,
+            "paragraph": 7,
+            "startMs": 103728,
+            "endMs": 115032,
+            "text": "社工說： ＂很多是他們在課堂上不方便講的話，只要他們願意跟我們說，我們就願意傾聽，併爲他們提供幫助。",
+            "textSimplified": "社工说： ＂很多是他们在课堂上不方便讲的话，只要他们愿意跟我们说，我们就愿意倾听，并为他们提供帮助。"
+          },
+          {
+            "index": 15,
+            "paragraph": 7,
+            "startMs": 115032,
+            "endMs": 127728,
+            "text": "＂與此同時，社工站還定期召開主題班會，瞭解欺凌背後的根源等等，培養孩子們應對問題，解決矛盾的社交技巧等等。",
+            "textSimplified": "＂与此同时，社工站还定期召开主题班会，了解欺凌背后的根源等等，培养孩子们应对问题，解决矛盾的社交技巧等等。"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 127728,
+            "endMs": 133632,
+            "text": "＂目前，國內很多學校都比較避諱校園欺凌話題。",
+            "textSimplified": "＂目前，国内很多学校都比较避讳校园欺凌话题。"
+          },
+          {
+            "index": 17,
+            "paragraph": 9,
+            "startMs": 133632,
+            "endMs": 135768,
+            "text": "郭欣欣說。",
+            "textSimplified": "郭欣欣说。"
+          },
+          {
+            "index": 18,
+            "paragraph": 9,
+            "startMs": 135768,
+            "endMs": 144144,
+            "text": "因此，我們要讓更多的學校看到這個問題，並與社工合作，應對校園欺凌。",
+            "textSimplified": "因此，我们要让更多的学校看到这个问题，并与社工合作，应对校园欺凌。"
+          },
+          {
+            "index": 19,
+            "paragraph": 9,
+            "startMs": 144144,
+            "endMs": 158664,
+            "text": "她透露＂青年地帶＂正在開發一個名爲＂校園零欺凌＂的手機軟件，希望能通過新媒體平台，增進青少年、家長和教師的互動，共同應對校園欺凌問題。",
+            "textSimplified": "她透露＂青年地带＂正在开发一个名为＂校园零欺凌＂的手机软件，希望能通过新媒体平台，增进青少年、家长和教师的互动，共同应对校园欺凌问题。"
+          },
+          {
+            "index": 20,
+            "paragraph": 11,
+            "startMs": 158664,
+            "endMs": 163440,
+            "text": "http://edu.qq.com",
+            "textSimplified": "http://edu.qq.com"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 5,
+      "mandarin": {
+        "file": "audio/book01/chapter04/b01_ch04_p06_m.mp3",
+        "durationMs": 76128,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2088,
+            "text": "“別人家的孩子”",
+            "textSimplified": "“别人家的孩子”"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2088,
+            "endMs": 7440,
+            "text": "別人家的孩子學習那麼好，都考上博士了，你呢？",
+            "textSimplified": "别人家的孩子学习那么好，都考上博士了，你呢？"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7440,
+            "endMs": 11496,
+            "text": "“從小我就有個夙敵了叫‘別人家的孩子’。",
+            "textSimplified": "“从小我就有个夙敌了叫‘别人家的孩子’。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 11496,
+            "endMs": 17520,
+            "text": "這個孩子從來不玩遊戲，不喜歡逛街，天天就知道學習。",
+            "textSimplified": "这个孩子从来不玩游戏，不喜欢逛街，天天就知道学习。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 17520,
+            "endMs": 22536,
+            "text": "長得好看，又聽話又溫順，回回年級第一，......”",
+            "textSimplified": "长得好看，又听话又温顺，回回年级第一，......”"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 22536,
+            "endMs": 37200,
+            "text": "2011年2月，這篇名爲“別人家的孩子”的帖子在網上“走紅”，網友們紛紛響應“別人家的孩子”是自己的對手，因爲自己一路就是被父母“比”着長大的。",
+            "textSimplified": "2011年2月，这篇名为“别人家的孩子”的帖子在网上“走红”，网友们纷纷响应“别人家的孩子”是自己的对手，因为自己一路就是被父母“比”着长大的。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 37200,
+            "endMs": 48216,
+            "text": "上學時，比的是成績，畢業時，比的是證書，而畢業後比的則是職業、收入，退休後比的是孩子。",
+            "textSimplified": "上学时，比的是成绩，毕业时，比的是证书，而毕业后比的则是职业、收入，退休后比的是孩子。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 48216,
+            "endMs": 54840,
+            "text": "有時候，這個“別人家的孩子”是真實的，可是更多的時候是虛構的。",
+            "textSimplified": "有时候，这个“别人家的孩子”是真实的，可是更多的时候是虚构的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 67440,
+            "text": "對家長來說，這是激勵孩子努力的一種辦法，可是，有的人認爲，這對孩子來說，這種比較很煩人，會給他們帶來很大的壓力。",
+            "textSimplified": "对家长来说，这是激励孩子努力的一种办法，可是，有的人认为，这对孩子来说，这种比较很烦人，会给他们带来很大的压力。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 67440,
+            "endMs": 69144,
+            "text": "你怎麼看？",
+            "textSimplified": "你怎么看？"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 69144,
+            "endMs": 70920,
+            "text": "原文摘錄",
+            "textSimplified": "原文摘录"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 70920,
+            "endMs": 76128,
+            "text": "https://kknews.cc",
+            "textSimplified": "https://kknews.cc"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter04/b01_ch04_p06_c.mp3",
+        "durationMs": 78504,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2568,
+            "text": "“別人家的孩子”",
+            "textSimplified": "“别人家的孩子”"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2568,
+            "endMs": 8472,
+            "text": "別人家的孩子學習那麼好，都考上博士了，你呢？",
+            "textSimplified": "别人家的孩子学习那么好，都考上博士了，你呢？"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 8472,
+            "endMs": 13584,
+            "text": "“從小我就有個夙敵了叫‘別人家的孩子’。",
+            "textSimplified": "“从小我就有个夙敌了叫‘别人家的孩子’。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 13584,
+            "endMs": 19968,
+            "text": "這個孩子從來不玩遊戲，不喜歡逛街，天天就知道學習。",
+            "textSimplified": "这个孩子从来不玩游戏，不喜欢逛街，天天就知道学习。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 19968,
+            "endMs": 25464,
+            "text": "長得好看，又聽話又溫順，回回年級第一，......”",
+            "textSimplified": "长得好看，又听话又温顺，回回年级第一，......”"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 25464,
+            "endMs": 39600,
+            "text": "2011年2月，這篇名爲“別人家的孩子”的帖子在網上“走紅”，網友們紛紛響應“別人家的孩子”是自己的對手，因爲自己一路就是被父母“比”着長大的。",
+            "textSimplified": "2011年2月，这篇名为“别人家的孩子”的帖子在网上“走红”，网友们纷纷响应“别人家的孩子”是自己的对手，因为自己一路就是被父母“比”着长大的。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 39600,
+            "endMs": 49824,
+            "text": "上學時，比的是成績，畢業時，比的是證書，而畢業後比的則是職業、收入，退休後比的是孩子。",
+            "textSimplified": "上学时，比的是成绩，毕业时，比的是证书，而毕业后比的则是职业、收入，退休后比的是孩子。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 49824,
+            "endMs": 56904,
+            "text": "有時候，這個“別人家的孩子”是真實的，可是更多的時候是虛構的。",
+            "textSimplified": "有时候，这个“别人家的孩子”是真实的，可是更多的时候是虚构的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 56904,
+            "endMs": 69744,
+            "text": "對家長來說，這是激勵孩子努力的一種辦法，可是，有的人認爲，這對孩子來說，這種比較很煩人，會給他們帶來很大的壓力。",
+            "textSimplified": "对家长来说，这是激励孩子努力的一种办法，可是，有的人认为，这对孩子来说，这种比较很烦人，会给他们带来很大的压力。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 69744,
+            "endMs": 71904,
+            "text": "你怎麼看？",
+            "textSimplified": "你怎么看？"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 71904,
+            "endMs": 73920,
+            "text": "原文摘錄",
+            "textSimplified": "原文摘录"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 73920,
+            "endMs": 78504,
+            "text": "https://kknews.cc",
+            "textSimplified": "https://kknews.cc"
+          }
+        ]
+      }
+    }
   ]
 }

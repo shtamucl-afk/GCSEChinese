@@ -643,5 +643,947 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter18/b01_ch18_p01_m.mp3",
+        "durationMs": 140424,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2184,
+            "text": "中西飲食文化",
+            "textSimplified": "中西饮食文化"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2184,
+            "endMs": 4392,
+            "text": "博主：約翰",
+            "textSimplified": "博主：约翰"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 4392,
+            "endMs": 8352,
+            "text": "發布日期：2018年4月6日",
+            "textSimplified": "发布日期：2018年4月6日"
+          },
+          {
+            "index": 3,
+            "paragraph": 6,
+            "startMs": 8352,
+            "endMs": 21528,
+            "text": "我是住在中國廣西的英國人，我很喜歡吃各式各樣的中國菜，尤其是北京烤鴨、上海小籠包、廣東點心、炒青菜、蒸魚和年糕等。",
+            "textSimplified": "我是住在中国广西的英国人，我很喜欢吃各式各样的中国菜，尤其是北京烤鸭、上海小笼包、广东点心、炒青菜、蒸鱼和年糕等。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 21528,
+            "endMs": 27528,
+            "text": "而我最喜歡的菜是四川的火鍋，試過以後都會想再吃。",
+            "textSimplified": "而我最喜欢的菜是四川的火锅，试过以后都会想再吃。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 27528,
+            "endMs": 34008,
+            "text": "而我每次想到這些食物都會垂涎三尺，因為實在是太好吃了。",
+            "textSimplified": "而我每次想到这些食物都会垂涎三尺，因为实在是太好吃了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 34008,
+            "endMs": 40824,
+            "text": "中國茶有很多品種，我特別愛喝茉莉花茶、烏龍茶和普洱茶。",
+            "textSimplified": "中国茶有很多品种，我特别爱喝茉莉花茶、乌龙茶和普洱茶。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 40824,
+            "endMs": 51816,
+            "text": "中國茶和英國茶不一樣，中國茶不加奶，也不加糖，但是英國茶會加奶和糖，所以英國茶又叫奶茶。",
+            "textSimplified": "中国茶和英国茶不一样，中国茶不加奶，也不加糖，但是英国茶会加奶和糖，所以英国茶又叫奶茶。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 51816,
+            "endMs": 55896,
+            "text": "英國人喜歡一邊吃糕點，一邊喝茶。",
+            "textSimplified": "英国人喜欢一边吃糕点，一边喝茶。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 55896,
+            "endMs": 60408,
+            "text": "廣東人喜歡一邊喝茶，一邊吃廣式點心。",
+            "textSimplified": "广东人喜欢一边喝茶，一边吃广式点心。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 60408,
+            "endMs": 71568,
+            "text": "除了喝茶，他們也喜歡喝湯，據說他們喝的湯往往要熬好幾個小時，這是所謂的「老火湯」，聽起來一點也不容易做。",
+            "textSimplified": "除了喝茶，他们也喜欢喝汤，据说他们喝的汤往往要熬好几个小时，这是所谓的「老火汤」，听起来一点也不容易做。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 71568,
+            "endMs": 88416,
+            "text": "我喜歡吃中國菜，還因為吃中國菜的時候，大家是在圓桌上一起吃，跟吃西餐有點不一樣，吃西餐大多是各自吃自己盤裡的，所以我覺得吃中餐比較熱鬧，也比較親切。",
+            "textSimplified": "我喜欢吃中国菜，还因为吃中国菜的时候，大家是在圆桌上一起吃，跟吃西餐有点不一样，吃西餐大多是各自吃自己盘里的，所以我觉得吃中餐比较热闹，也比较亲切。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 88416,
+            "endMs": 93816,
+            "text": "西方人用餐時會使用刀叉，但中國人會用筷子。",
+            "textSimplified": "西方人用餐时会使用刀叉，但中国人会用筷子。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 93816,
+            "endMs": 98808,
+            "text": "有人說用筷子吃中餐特別有風味，果然沒錯！",
+            "textSimplified": "有人说用筷子吃中餐特别有风味，果然没错！"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 98808,
+            "endMs": 105576,
+            "text": "儘管學用筷子不容易，我還是堅持學習，因為學會後會很方便。",
+            "textSimplified": "尽管学用筷子不容易，我还是坚持学习，因为学会后会很方便。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 105576,
+            "endMs": 114312,
+            "text": "中國人吃飯入座有先後次序，長輩會先上座，然後是客人、父母，最後是晚輩。",
+            "textSimplified": "中国人吃饭入座有先后次序，长辈会先上座，然后是客人、父母，最后是晚辈。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 114312,
+            "endMs": 122088,
+            "text": "另外，中國人吃飯時會讓長輩先起筷，以示尊重，這是他們的餐桌禮儀。",
+            "textSimplified": "另外，中国人吃饭时会让长辈先起筷，以示尊重，这是他们的餐桌礼仪。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 122088,
+            "endMs": 130032,
+            "text": "我生活在中國，所以入鄉隨俗，也會讓長輩先吃，否則別人會覺得我沒有禮貌。",
+            "textSimplified": "我生活在中国，所以入乡随俗，也会让长辈先吃，否则别人会觉得我没有礼貌。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 130032,
+            "endMs": 135840,
+            "text": "住在中國這麼多年，我覺得自己是一個「知書識禮」之士。",
+            "textSimplified": "住在中国这么多年，我觉得自己是一个「知书识礼」之士。"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 135840,
+            "endMs": 140424,
+            "text": "歡迎留言分享你對中西飲食文化的看法。",
+            "textSimplified": "欢迎留言分享你对中西饮食文化的看法。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter18/b01_ch18_p01_c.mp3",
+        "durationMs": 144456,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2592,
+            "text": "中西飲食文化",
+            "textSimplified": "中西饮食文化"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2592,
+            "endMs": 5304,
+            "text": "博主：約翰",
+            "textSimplified": "博主：约翰"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 5304,
+            "endMs": 9408,
+            "text": "發布日期：2018年4月6日",
+            "textSimplified": "发布日期：2018年4月6日"
+          },
+          {
+            "index": 3,
+            "paragraph": 6,
+            "startMs": 9408,
+            "endMs": 22920,
+            "text": "我是住在中國廣西的英國人，我很喜歡吃各式各樣的中國菜，尤其是北京烤鴨、上海小籠包、廣東點心、炒青菜、蒸魚和年糕等。",
+            "textSimplified": "我是住在中国广西的英国人，我很喜欢吃各式各样的中国菜，尤其是北京烤鸭、上海小笼包、广东点心、炒青菜、蒸鱼和年糕等。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 22920,
+            "endMs": 28944,
+            "text": "而我最喜歡的菜是四川的火鍋，試過以後都會想再吃。",
+            "textSimplified": "而我最喜欢的菜是四川的火锅，试过以后都会想再吃。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 28944,
+            "endMs": 35664,
+            "text": "而我每次想到這些食物都會垂涎三尺，因為實在是太好吃了。",
+            "textSimplified": "而我每次想到这些食物都会垂涎三尺，因为实在是太好吃了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 35664,
+            "endMs": 42576,
+            "text": "中國茶有很多品種，我特別愛喝茉莉花茶、烏龍茶和普洱茶。",
+            "textSimplified": "中国茶有很多品种，我特别爱喝茉莉花茶、乌龙茶和普洱茶。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 42576,
+            "endMs": 52896,
+            "text": "中國茶和英國茶不一樣，中國茶不加奶，也不加糖，但是英國茶會加奶和糖，所以英國茶又叫奶茶。",
+            "textSimplified": "中国茶和英国茶不一样，中国茶不加奶，也不加糖，但是英国茶会加奶和糖，所以英国茶又叫奶茶。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 52896,
+            "endMs": 57312,
+            "text": "英國人喜歡一邊吃糕點，一邊喝茶。",
+            "textSimplified": "英国人喜欢一边吃糕点，一边喝茶。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 57312,
+            "endMs": 62328,
+            "text": "廣東人喜歡一邊喝茶，一邊吃廣式點心。",
+            "textSimplified": "广东人喜欢一边喝茶，一边吃广式点心。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 62328,
+            "endMs": 74016,
+            "text": "除了喝茶，他們也喜歡喝湯，據說他們喝的湯往往要熬好幾個小時，這是所謂的「老火湯」，聽起來一點也不容易做。",
+            "textSimplified": "除了喝茶，他们也喜欢喝汤，据说他们喝的汤往往要熬好几个小时，这是所谓的「老火汤」，听起来一点也不容易做。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 74016,
+            "endMs": 90216,
+            "text": "我喜歡吃中國菜，還因為吃中國菜的時候，大家是在圓桌上一起吃，跟吃西餐有點不一樣，吃西餐大多是各自吃自己盤裡的，所以我覺得吃中餐比較熱鬧，也比較親切。",
+            "textSimplified": "我喜欢吃中国菜，还因为吃中国菜的时候，大家是在圆桌上一起吃，跟吃西餐有点不一样，吃西餐大多是各自吃自己盘里的，所以我觉得吃中餐比较热闹，也比较亲切。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 90216,
+            "endMs": 95952,
+            "text": "西方人用餐時會使用刀叉，但中國人會用筷子。",
+            "textSimplified": "西方人用餐时会使用刀叉，但中国人会用筷子。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 95952,
+            "endMs": 101328,
+            "text": "有人說用筷子吃中餐特別有風味，果然沒錯！",
+            "textSimplified": "有人说用筷子吃中餐特别有风味，果然没错！"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 101328,
+            "endMs": 108576,
+            "text": "儘管學用筷子不容易，我還是堅持學習，因為學會後會很方便。",
+            "textSimplified": "尽管学用筷子不容易，我还是坚持学习，因为学会后会很方便。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 108576,
+            "endMs": 117576,
+            "text": "中國人吃飯入座有先後次序，長輩會先上座，然後是客人、父母，最後是晚輩。",
+            "textSimplified": "中国人吃饭入座有先后次序，长辈会先上座，然后是客人、父母，最后是晚辈。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 117576,
+            "endMs": 125496,
+            "text": "另外，中國人吃飯時會讓長輩先起筷，以示尊重，這是他們的餐桌禮儀。",
+            "textSimplified": "另外，中国人吃饭时会让长辈先起筷，以示尊重，这是他们的餐桌礼仪。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 125496,
+            "endMs": 133632,
+            "text": "我生活在中國，所以入鄉隨俗，也會讓長輩先吃，否則別人會覺得我沒有禮貌。",
+            "textSimplified": "我生活在中国，所以入乡随俗，也会让长辈先吃，否则别人会觉得我没有礼貌。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 133632,
+            "endMs": 139704,
+            "text": "住在中國這麼多年，我覺得自己是一個「知書識禮」之士。",
+            "textSimplified": "住在中国这么多年，我觉得自己是一个「知书识礼」之士。"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 139704,
+            "endMs": 144456,
+            "text": "歡迎留言分享你對中西飲食文化的看法。",
+            "textSimplified": "欢迎留言分享你对中西饮食文化的看法。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter18/b01_ch18_p02_m.mp3",
+        "durationMs": 31896,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3432,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3432,
+            "endMs": 9864,
+            "text": "去別人家裡做客時，了解當地的飲食文化能讓我們增長見聞。",
+            "textSimplified": "去别人家里做客时，了解当地的饮食文化能让我们增长见闻。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9864,
+            "endMs": 15984,
+            "text": "在餐桌上，我們應該使用公筷來夾菜，這樣既衛生又禮貌。",
+            "textSimplified": "在餐桌上，我们应该使用公筷来夹菜，这样既卫生又礼貌。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 15984,
+            "endMs": 22944,
+            "text": "此外，吃飯時如果想打嗝或打噴嚏，應該用手帕或紙巾擋住。",
+            "textSimplified": "此外，吃饭时如果想打嗝或打喷嚏，应该用手帕或纸巾挡住。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 22944,
+            "endMs": 31896,
+            "text": "用餐結束後，如果需要用牙籤來剔牙，也應該用一隻手遮住嘴巴，這才是尊重的表現。",
+            "textSimplified": "用餐结束后，如果需要用牙签来剔牙，也应该用一只手遮住嘴巴，这才是尊重的表现。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter18/b01_ch18_p02_c.mp3",
+        "durationMs": 33864,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3672,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3672,
+            "endMs": 10512,
+            "text": "去別人家裡做客時，了解當地的飲食文化能讓我們增長見聞。",
+            "textSimplified": "去别人家里做客时，了解当地的饮食文化能让我们增长见闻。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10512,
+            "endMs": 17472,
+            "text": "在餐桌上，我們應該使用公筷來夾菜，這樣既衛生又禮貌。",
+            "textSimplified": "在餐桌上，我们应该使用公筷来夹菜，这样既卫生又礼貌。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 17472,
+            "endMs": 24672,
+            "text": "此外，吃飯時如果想打嗝或打噴嚏，應該用手帕或紙巾擋住。",
+            "textSimplified": "此外，吃饭时如果想打嗝或打喷嚏，应该用手帕或纸巾挡住。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 24672,
+            "endMs": 33864,
+            "text": "用餐結束後，如果需要用牙籤來剔牙，也應該用一隻手遮住嘴巴，這才是尊重的表現。",
+            "textSimplified": "用餐结束后，如果需要用牙签来剔牙，也应该用一只手遮住嘴巴，这才是尊重的表现。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter18/b01_ch18_p03_m.mp3",
+        "durationMs": 178296,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3264,
+            "text": "三毛《沙漠中的飯店》節錄",
+            "textSimplified": "三毛《沙漠中的饭店》节录"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3264,
+            "endMs": 8952,
+            "text": "有一天荷西回來對我說：「了不得，今天大老闆叫我去。」",
+            "textSimplified": "有一天荷西回来对我说：「了不得，今天大老板叫我去。」"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8952,
+            "endMs": 10752,
+            "text": "「加你薪水？」",
+            "textSimplified": "「加你薪水？」"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 10752,
+            "endMs": 12600,
+            "text": "我眼睛一亮。",
+            "textSimplified": "我眼睛一亮。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 12600,
+            "endMs": 17352,
+            "text": "「不是——」我一把抓住他，指甲掐到他肉裡去。",
+            "textSimplified": "「不是——」我一把抓住他，指甲掐到他肉里去。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 17352,
+            "endMs": 18744,
+            "text": "「不是？",
+            "textSimplified": "「不是？"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 18744,
+            "endMs": 21288,
+            "text": "完了，你給開除了？",
+            "textSimplified": "完了，你给开除了？"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 21288,
+            "endMs": 37176,
+            "text": "天啊，我們——」「別抓我嘛，神經兮兮的，你聽我講，大老闆說，我們公司誰都被請過到我家吃飯，就是他們夫婦不請，他在等你請他吃中國菜——」「大老闆要我做菜？",
+            "textSimplified": "天啊，我们——」「别抓我嘛，神经兮兮的，你听我讲，大老板说，我们公司谁都被请过到我家吃饭，就是他们夫妇不请，他在等你请他吃中国菜——」「大老板要我做菜？"
+          },
+          {
+            "index": 8,
+            "paragraph": 2,
+            "startMs": 37176,
+            "endMs": 59328,
+            "text": "不幹不幹，不請他，請同事工友我都樂意，請上司吃飯未免太沒骨氣，我這個人啊，還談些氣節，你知道，我——」我正要大大宣揚中國人的所謂骨氣，又講不明白，再一接觸到荷西的面部表情，這個骨氣只好梗在喉嚨裡啦！",
+            "textSimplified": "不干不干，不请他，请同事工友我都乐意，请上司吃饭未免太没骨气，我这个人啊，还谈些气节，你知道，我——」我正要大大宣扬中国人的所谓骨气，又讲不明白，再一接触到荷西的面部表情，这个骨气只好梗在喉咙里啦！"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 59328,
+            "endMs": 63216,
+            "text": "第二日他問我：「喂，我們有沒有筍？」",
+            "textSimplified": "第二日他问我：「喂，我们有没有笋？」"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 63216,
+            "endMs": 66648,
+            "text": "「家裡筷子那麼多，不都是筍嗎？」",
+            "textSimplified": "「家里筷子那么多，不都是笋吗？」"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 66648,
+            "endMs": 68616,
+            "text": "他白了我一眼。",
+            "textSimplified": "他白了我一眼。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 68616,
+            "endMs": 71952,
+            "text": "「大老闆說要吃筍片炒冬菇。」",
+            "textSimplified": "「大老板说要吃笋片炒冬菇。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 71952,
+            "endMs": 76248,
+            "text": "真是見過世面的老闆，不要小看外國人。",
+            "textSimplified": "真是见过世面的老板，不要小看外国人。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 76248,
+            "endMs": 82560,
+            "text": "「好，明天晚上請他們夫婦來吃飯，沒問題，筍會長出來的。」",
+            "textSimplified": "「好，明天晚上请他们夫妇来吃饭，没问题，笋会长出来的。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 82560,
+            "endMs": 93840,
+            "text": "荷西含情脈脈地望了我一眼，婚後他第一次如情人一樣地望著我，使我受寵若驚，不巧那天辮子飛散，狀如女鬼。",
+            "textSimplified": "荷西含情脉脉地望了我一眼，婚后他第一次如情人一样地望著我，使我受宠若惊，不巧那天辫子飞散，状如女鬼。"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 93840,
+            "endMs": 107064,
+            "text": "第二天晚上，我先做好三道菜，用文火熱著，佈置了有蠟炬的桌子，桌上鋪了白色的桌布，又加了一塊紅的鋪成斜角，十分美麗。",
+            "textSimplified": "第二天晚上，我先做好三道菜，用文火热著，布置了有蜡炬的桌子，桌上铺了白色的桌布，又加了一块红的铺成斜角，十分美丽。"
+          },
+          {
+            "index": 17,
+            "paragraph": 6,
+            "startMs": 107064,
+            "endMs": 117600,
+            "text": "這一頓飯吃得賓主盡歡，不但菜是色香味俱全，我這個太太也打扮得十分乾淨，居然還穿了長裙子。",
+            "textSimplified": "这一顿饭吃得宾主尽欢，不但菜是色香味俱全，我这个太太也打扮得十分干净，居然还穿了长裙子。"
+          },
+          {
+            "index": 18,
+            "paragraph": 6,
+            "startMs": 117600,
+            "endMs": 127896,
+            "text": "飯後老闆夫婦上車時特別對我說：「如果公共關係室將來有缺，希望你也來參加工作，做公司的一份子。」",
+            "textSimplified": "饭后老板夫妇上车时特别对我说：「如果公共关系室将来有缺，希望你也来参加工作，做公司的一份子。」"
+          },
+          {
+            "index": 19,
+            "paragraph": 6,
+            "startMs": 127896,
+            "endMs": 129744,
+            "text": "我眼睛一亮。",
+            "textSimplified": "我眼睛一亮。"
+          },
+          {
+            "index": 20,
+            "paragraph": 8,
+            "startMs": 129744,
+            "endMs": 132960,
+            "text": "這全是「筍片炒冬菇」的功勞。",
+            "textSimplified": "这全是「笋片炒冬菇」的功劳。"
+          },
+          {
+            "index": 21,
+            "paragraph": 10,
+            "startMs": 132960,
+            "endMs": 141048,
+            "text": "送走老闆，夜已深了，我趕快脫下長裙，換上牛仔褲，頭髮用橡皮筋一綁。",
+            "textSimplified": "送走老板，夜已深了，我赶快脱下长裙，换上牛仔裤，头发用橡皮筋一绑。"
+          },
+          {
+            "index": 22,
+            "paragraph": 10,
+            "startMs": 141048,
+            "endMs": 146136,
+            "text": "大力洗碗洗盆，重做灰姑娘狀使我身心自由。",
+            "textSimplified": "大力洗碗洗盆，重做灰姑娘状使我身心自由。"
+          },
+          {
+            "index": 23,
+            "paragraph": 10,
+            "startMs": 146136,
+            "endMs": 154440,
+            "text": "荷西十分滿意，在我背後問：「喂，這個『筍片炒冬菇』真好吃，你哪裡弄來的筍？」",
+            "textSimplified": "荷西十分满意，在我背后问：「喂，这个『笋片炒冬菇』真好吃，你哪里弄来的笋？」"
+          },
+          {
+            "index": 24,
+            "paragraph": 10,
+            "startMs": 154440,
+            "endMs": 158424,
+            "text": "我一面洗碗，一面問他：「什麼筍？」",
+            "textSimplified": "我一面洗碗，一面问他：「什么笋？」"
+          },
+          {
+            "index": 25,
+            "paragraph": 10,
+            "startMs": 158424,
+            "endMs": 161040,
+            "text": "「今天晚上做的筍片啊！」",
+            "textSimplified": "「今天晚上做的笋片啊！」"
+          },
+          {
+            "index": 26,
+            "paragraph": 10,
+            "startMs": 161040,
+            "endMs": 165936,
+            "text": "我哈哈大笑：「哦，你是說小黃瓜炒冬菇嗎？」",
+            "textSimplified": "我哈哈大笑：「哦，你是说小黄瓜炒冬菇吗？」"
+          },
+          {
+            "index": 27,
+            "paragraph": 10,
+            "startMs": 165936,
+            "endMs": 171096,
+            "text": "「什麼，你，你，你騙了我不算，還敢去騙老闆——？」",
+            "textSimplified": "「什么，你，你，你骗了我不算，还敢去骗老板——？」"
+          },
+          {
+            "index": 28,
+            "paragraph": 10,
+            "startMs": 171096,
+            "endMs": 178296,
+            "text": "「我沒有騙他，這是他一生吃得最好的一次『嫩筍片炒冬菇』，是他自己說的。」",
+            "textSimplified": "「我没有骗他，这是他一生吃得最好的一次『嫩笋片炒冬菇』，是他自己说的。」"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter18/b01_ch18_p03_c.mp3",
+        "durationMs": 198360,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4056,
+            "text": "三毛《沙漠中的飯店》節錄",
+            "textSimplified": "三毛《沙漠中的饭店》节录"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4056,
+            "endMs": 10680,
+            "text": "有一天荷西回來對我說：「了不得，今天大老闆叫我去。」",
+            "textSimplified": "有一天荷西回来对我说：「了不得，今天大老板叫我去。」"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10680,
+            "endMs": 13344,
+            "text": "「加你薪水？」",
+            "textSimplified": "「加你薪水？」"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 13344,
+            "endMs": 15744,
+            "text": "我眼睛一亮。",
+            "textSimplified": "我眼睛一亮。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 15744,
+            "endMs": 21072,
+            "text": "「不是——」我一把抓住他，指甲掐到他肉裡去。",
+            "textSimplified": "「不是——」我一把抓住他，指甲掐到他肉里去。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 21072,
+            "endMs": 22776,
+            "text": "「不是？",
+            "textSimplified": "「不是？"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 22776,
+            "endMs": 26136,
+            "text": "完了，你給開除了？",
+            "textSimplified": "完了，你给开除了？"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 26136,
+            "endMs": 42672,
+            "text": "天啊，我們——」「別抓我嘛，神經兮兮的，你聽我講，大老闆說，我們公司誰都被請過到我家吃飯，就是他們夫婦不請，他在等你請他吃中國菜——」「大老闆要我做菜？",
+            "textSimplified": "天啊，我们——」「别抓我嘛，神经兮兮的，你听我讲，大老板说，我们公司谁都被请过到我家吃饭，就是他们夫妇不请，他在等你请他吃中国菜——」「大老板要我做菜？"
+          },
+          {
+            "index": 8,
+            "paragraph": 2,
+            "startMs": 42672,
+            "endMs": 64152,
+            "text": "不幹不幹，不請他，請同事工友我都樂意，請上司吃飯未免太沒骨氣，我這個人啊，還談些氣節，你知道，我——」我正要大大宣揚中國人的所謂骨氣，又講不明白，再一接觸到荷西的面部表情，這個骨氣只好梗在喉嚨裡啦！",
+            "textSimplified": "不干不干，不请他，请同事工友我都乐意，请上司吃饭未免太没骨气，我这个人啊，还谈些气节，你知道，我——」我正要大大宣扬中国人的所谓骨气，又讲不明白，再一接触到荷西的面部表情，这个骨气只好梗在喉咙里啦！"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 64152,
+            "endMs": 69456,
+            "text": "第二日他問我：「喂，我們有沒有筍？」",
+            "textSimplified": "第二日他问我：「喂，我们有没有笋？」"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 69456,
+            "endMs": 73992,
+            "text": "「家裡筷子那麼多，不都是筍嗎？」",
+            "textSimplified": "「家里筷子那么多，不都是笋吗？」"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 73992,
+            "endMs": 76608,
+            "text": "他白了我一眼。",
+            "textSimplified": "他白了我一眼。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 76608,
+            "endMs": 80664,
+            "text": "「大老闆說要吃筍片炒冬菇。」",
+            "textSimplified": "「大老板说要吃笋片炒冬菇。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 80664,
+            "endMs": 85752,
+            "text": "真是見過世面的老闆，不要小看外國人。",
+            "textSimplified": "真是见过世面的老板，不要小看外国人。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 85752,
+            "endMs": 93072,
+            "text": "「好，明天晚上請他們夫婦來吃飯，沒問題，筍會長出來的。」",
+            "textSimplified": "「好，明天晚上请他们夫妇来吃饭，没问题，笋会长出来的。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 93072,
+            "endMs": 104928,
+            "text": "荷西含情脈脈地望了我一眼，婚後他第一次如情人一樣地望著我，使我受寵若驚，不巧那天辮子飛散，狀如女鬼。",
+            "textSimplified": "荷西含情脉脉地望了我一眼，婚后他第一次如情人一样地望著我，使我受宠若惊，不巧那天辫子飞散，状如女鬼。"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 104928,
+            "endMs": 118272,
+            "text": "第二天晚上，我先做好三道菜，用文火熱著，佈置了有蠟炬的桌子，桌上鋪了白色的桌布，又加了一塊紅的鋪成斜角，十分美麗。",
+            "textSimplified": "第二天晚上，我先做好三道菜，用文火热著，布置了有蜡炬的桌子，桌上铺了白色的桌布，又加了一块红的铺成斜角，十分美丽。"
+          },
+          {
+            "index": 17,
+            "paragraph": 6,
+            "startMs": 118272,
+            "endMs": 128952,
+            "text": "這一頓飯吃得賓主盡歡，不但菜是色香味俱全，我這個太太也打扮得十分乾淨，居然還穿了長裙子。",
+            "textSimplified": "这一顿饭吃得宾主尽欢，不但菜是色香味俱全，我这个太太也打扮得十分干净，居然还穿了长裙子。"
+          },
+          {
+            "index": 18,
+            "paragraph": 6,
+            "startMs": 128952,
+            "endMs": 139920,
+            "text": "飯後老闆夫婦上車時特別對我說：「如果公共關係室將來有缺，希望你也來參加工作，做公司的一份子。」",
+            "textSimplified": "饭后老板夫妇上车时特别对我说：「如果公共关系室将来有缺，希望你也来参加工作，做公司的一份子。」"
+          },
+          {
+            "index": 19,
+            "paragraph": 6,
+            "startMs": 139920,
+            "endMs": 142320,
+            "text": "我眼睛一亮。",
+            "textSimplified": "我眼睛一亮。"
+          },
+          {
+            "index": 20,
+            "paragraph": 8,
+            "startMs": 142320,
+            "endMs": 145944,
+            "text": "這全是「筍片炒冬菇」的功勞。",
+            "textSimplified": "这全是「笋片炒冬菇」的功劳。"
+          },
+          {
+            "index": 21,
+            "paragraph": 10,
+            "startMs": 145944,
+            "endMs": 154608,
+            "text": "送走老闆，夜已深了，我趕快脫下長裙，換上牛仔褲，頭髮用橡皮筋一綁。",
+            "textSimplified": "送走老板，夜已深了，我赶快脱下长裙，换上牛仔裤，头发用橡皮筋一绑。"
+          },
+          {
+            "index": 22,
+            "paragraph": 10,
+            "startMs": 154608,
+            "endMs": 160176,
+            "text": "大力洗碗洗盆，重做灰姑娘狀使我身心自由。",
+            "textSimplified": "大力洗碗洗盆，重做灰姑娘状使我身心自由。"
+          },
+          {
+            "index": 23,
+            "paragraph": 10,
+            "startMs": 160176,
+            "endMs": 169272,
+            "text": "荷西十分滿意，在我背後問：「喂，這個『筍片炒冬菇』真好吃，你哪裡弄來的筍？」",
+            "textSimplified": "荷西十分满意，在我背后问：「喂，这个『笋片炒冬菇』真好吃，你哪里弄来的笋？」"
+          },
+          {
+            "index": 24,
+            "paragraph": 10,
+            "startMs": 169272,
+            "endMs": 174192,
+            "text": "我一面洗碗，一面問他：「什麼筍？」",
+            "textSimplified": "我一面洗碗，一面问他：「什么笋？」"
+          },
+          {
+            "index": 25,
+            "paragraph": 10,
+            "startMs": 174192,
+            "endMs": 178008,
+            "text": "「今天晚上做的筍片啊！」",
+            "textSimplified": "「今天晚上做的笋片啊！」"
+          },
+          {
+            "index": 26,
+            "paragraph": 10,
+            "startMs": 178008,
+            "endMs": 183936,
+            "text": "我哈哈大笑：「哦，你是說小黃瓜炒冬菇嗎？」",
+            "textSimplified": "我哈哈大笑：「哦，你是说小黄瓜炒冬菇吗？」"
+          },
+          {
+            "index": 27,
+            "paragraph": 10,
+            "startMs": 183936,
+            "endMs": 190320,
+            "text": "「什麼，你，你，你騙了我不算，還敢去騙老闆——？」",
+            "textSimplified": "「什么，你，你，你骗了我不算，还敢去骗老板——？」"
+          },
+          {
+            "index": 28,
+            "paragraph": 10,
+            "startMs": 190320,
+            "endMs": 198360,
+            "text": "「我沒有騙他，這是他一生吃得最好的一次『嫩筍片炒冬菇』，是他自己說的。」",
+            "textSimplified": "「我没有骗他，这是他一生吃得最好的一次『嫩笋片炒冬菇』，是他自己说的。」"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter18/b01_ch18_p04_m.mp3",
+        "durationMs": 3768,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3768,
+            "text": "青少年慕名到河南少林寺學武。",
+            "textSimplified": "青少年慕名到河南少林寺学武。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter18/b01_ch18_p04_c.mp3",
+        "durationMs": 4128,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4128,
+            "text": "青少年慕名到河南少林寺學武。",
+            "textSimplified": "青少年慕名到河南少林寺学武。"
+          }
+        ]
+      }
+    }
   ]
 }

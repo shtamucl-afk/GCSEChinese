@@ -529,5 +529,1027 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter17/b01_ch17_p01_m.mp3",
+        "durationMs": 189336,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2160,
+            "text": "王天明的日記",
+            "textSimplified": "王天明的日记"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2160,
+            "endMs": 5832,
+            "text": "一月五日　星期六　天氣晴",
+            "textSimplified": "一月五日　星期六　天气晴"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 5832,
+            "endMs": 9936,
+            "text": "時間過得真快，轉眼又快到春節了。",
+            "textSimplified": "时间过得真快，转眼又快到春节了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 9936,
+            "endMs": 18504,
+            "text": "美國紐約的唐人街到處張燈結彩，喜氣洋洋，可對我來說，這似乎少了點兒「年味」。",
+            "textSimplified": "美国纽约的唐人街到处张灯结彩，喜气洋洋，可对我来说，这似乎少了点儿「年味」。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 18504,
+            "endMs": 24360,
+            "text": "這已經是我離開家鄉杭州後，在紐約度過的第二個春節了。",
+            "textSimplified": "这已经是我离开家乡杭州后，在纽约度过的第二个春节了。"
+          },
+          {
+            "index": 5,
+            "paragraph": 8,
+            "startMs": 24360,
+            "endMs": 34872,
+            "text": "2014年，我從杭州外國語學校中學畢業，那年十八歲的我只身一人來到紐約，成為一名留學生。",
+            "textSimplified": "2014年，我从杭州外国语学校中学毕业，那年十八岁的我只身一人来到纽约，成为一名留学生。"
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 34872,
+            "endMs": 42384,
+            "text": "我在紐約大學主修廣播電視新聞專業，因為我希望將來成為一名記者。",
+            "textSimplified": "我在纽约大学主修广播电视新闻专业，因为我希望将来成为一名记者。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 42384,
+            "endMs": 47832,
+            "text": "從今年開始，我又開始選修第二專業——西班牙語。",
+            "textSimplified": "从今年开始，我又开始选修第二专业——西班牙语。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 47832,
+            "endMs": 54552,
+            "text": "由於學業緊張，而且沒有假期，我已經兩年沒有回國過春節了。",
+            "textSimplified": "由于学业紧张，而且没有假期，我已经两年没有回国过春节了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 54552,
+            "endMs": 60768,
+            "text": "今天，我和爸爸媽媽視頻聊天兒的時候，也見到了爺爺奶奶。",
+            "textSimplified": "今天，我和爸爸妈妈视频聊天儿的时候，也见到了爷爷奶奶。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 60768,
+            "endMs": 70008,
+            "text": "當我告訴他們今年我又不能回家過年的消息後，爺爺奶奶那失望的表情讓我心裡很不是滋味。",
+            "textSimplified": "当我告诉他们今年我又不能回家过年的消息后，爷爷奶奶那失望的表情让我心里很不是滋味。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 70008,
+            "endMs": 73128,
+            "text": "「少了你，過年都少了『年味』啊！",
+            "textSimplified": "「少了你，过年都少了『年味』啊！"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 73128,
+            "endMs": 74904,
+            "text": "」爺爺說。",
+            "textSimplified": "」爷爷说。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 74904,
+            "endMs": 81864,
+            "text": "我知道，老人家是多麼希望子孫回家過年，和他們共享天倫之樂啊！",
+            "textSimplified": "我知道，老人家是多么希望子孙回家过年，和他们共享天伦之乐啊！"
+          },
+          {
+            "index": 14,
+            "paragraph": 12,
+            "startMs": 81864,
+            "endMs": 88440,
+            "text": "記得小時候，爸爸媽媽常年在外工作，連春節也很少回家。",
+            "textSimplified": "记得小时候，爸爸妈妈常年在外工作，连春节也很少回家。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 88440,
+            "endMs": 92832,
+            "text": "每年我都是和爺爺奶奶一起過除夕夜的。",
+            "textSimplified": "每年我都是和爷爷奶奶一起过除夕夜的。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 92832,
+            "endMs": 108048,
+            "text": "他們準備了一桌子的豐盛的年夜飯，有雞、鴨、魚肉、年糕等等⋯⋯雖然我已記不清太多內容，但爺爺包的餃子的獨特香味卻在我的記憶裡留下了深刻的印象。",
+            "textSimplified": "他们准备了一桌子的丰盛的年夜饭，有鸡、鸭、鱼肉、年糕等等⋯⋯虽然我已记不清太多内容，但爷爷包的饺子的独特香味却在我的记忆里留下了深刻的印象。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 108048,
+            "endMs": 113040,
+            "text": "還記得，爺爺常常在餃子裡塞上一枚硬幣。",
+            "textSimplified": "还记得，爷爷常常在饺子里塞上一枚硬币。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 113040,
+            "endMs": 119160,
+            "text": "他總是說「誰要是吃到了有硬幣的餃子，誰就是最幸運的人。",
+            "textSimplified": "他总是说「谁要是吃到了有硬币的饺子，谁就是最幸运的人。"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 119160,
+            "endMs": 124536,
+            "text": "」於是每次我都希望自己能吃到帶硬幣的那隻餃子。",
+            "textSimplified": "」于是每次我都希望自己能吃到带硬币的那只饺子。"
+          },
+          {
+            "index": 20,
+            "paragraph": 12,
+            "startMs": 124536,
+            "endMs": 131280,
+            "text": "吃完年夜飯，我們便一起坐在電視機前，觀看春節聯歡晚會。",
+            "textSimplified": "吃完年夜饭，我们便一起坐在电视机前，观看春节联欢晚会。"
+          },
+          {
+            "index": 21,
+            "paragraph": 12,
+            "startMs": 131280,
+            "endMs": 138024,
+            "text": "我們一邊欣賞小品，一邊哈哈大笑，那場面，幸福而又溫馨。",
+            "textSimplified": "我们一边欣赏小品，一边哈哈大笑，那场面，幸福而又温馨。"
+          },
+          {
+            "index": 22,
+            "paragraph": 12,
+            "startMs": 138024,
+            "endMs": 143400,
+            "text": "當十二點鐘聲敲響時，窗外鞭炮聲此起彼伏。",
+            "textSimplified": "当十二点钟声敲响时，窗外鞭炮声此起彼伏。"
+          },
+          {
+            "index": 23,
+            "paragraph": 12,
+            "startMs": 143400,
+            "endMs": 151872,
+            "text": "這時，奶奶就讓我給她拜年，然後就把我帶到床前，將壓歲錢塞在我的枕頭底下。",
+            "textSimplified": "这时，奶奶就让我给她拜年，然后就把我带到床前，将压岁钱塞在我的枕头底下。"
+          },
+          {
+            "index": 24,
+            "paragraph": 12,
+            "startMs": 151872,
+            "endMs": 157152,
+            "text": "就這樣，我帶著奶奶美好的新年祝福，進入了夢鄉。",
+            "textSimplified": "就这样，我带著奶奶美好的新年祝福，进入了梦乡。"
+          },
+          {
+            "index": 25,
+            "paragraph": 14,
+            "startMs": 157152,
+            "endMs": 160464,
+            "text": "童年的春節總是那麼美好！",
+            "textSimplified": "童年的春节总是那么美好！"
+          },
+          {
+            "index": 26,
+            "paragraph": 14,
+            "startMs": 160464,
+            "endMs": 167280,
+            "text": "現在在紐約過年，我也會約上幾個朋友，在唐人街吃一頓年夜飯。",
+            "textSimplified": "现在在纽约过年，我也会约上几个朋友，在唐人街吃一顿年夜饭。"
+          },
+          {
+            "index": 27,
+            "paragraph": 14,
+            "startMs": 167280,
+            "endMs": 176688,
+            "text": "雖然我們也吃餃子，也看春節聯歡晚會，可是，不管餃子多美味，也不如爺爺包的餃子；",
+            "textSimplified": "虽然我们也吃饺子，也看春节联欢晚会，可是，不管饺子多美味，也不如爷爷包的饺子；"
+          },
+          {
+            "index": 28,
+            "paragraph": 14,
+            "startMs": 176688,
+            "endMs": 184056,
+            "text": "不管春節聯歡晚會多精彩，也不如和爺爺奶奶一起觀看的那一年的節目。",
+            "textSimplified": "不管春节联欢晚会多精彩，也不如和爷爷奶奶一起观看的那一年的节目。"
+          },
+          {
+            "index": 29,
+            "paragraph": 14,
+            "startMs": 184056,
+            "endMs": 189336,
+            "text": "畢竟，「年味」是只有和家人團聚在一起，才會有的。",
+            "textSimplified": "毕竟，「年味」是只有和家人团聚在一起，才会有的。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter17/b01_ch17_p01_c.mp3",
+        "durationMs": 199080,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2520,
+            "text": "王天明的日記",
+            "textSimplified": "王天明的日记"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2520,
+            "endMs": 5904,
+            "text": "一月五日　星期六　天氣晴",
+            "textSimplified": "一月五日　星期六　天气晴"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 5904,
+            "endMs": 10584,
+            "text": "時間過得真快，轉眼又快到春節了。",
+            "textSimplified": "时间过得真快，转眼又快到春节了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 10584,
+            "endMs": 20184,
+            "text": "美國紐約的唐人街到處張燈結彩，喜氣洋洋，可對我來說，這似乎少了點兒「年味」。",
+            "textSimplified": "美国纽约的唐人街到处张灯结彩，喜气洋洋，可对我来说，这似乎少了点儿「年味」。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 20184,
+            "endMs": 26664,
+            "text": "這已經是我離開家鄉杭州後，在紐約度過的第二個春節了。",
+            "textSimplified": "这已经是我离开家乡杭州后，在纽约度过的第二个春节了。"
+          },
+          {
+            "index": 5,
+            "paragraph": 8,
+            "startMs": 26664,
+            "endMs": 36576,
+            "text": "2014年，我從杭州外國語學校中學畢業，那年十八歲的我只身一人來到紐約，成為一名留學生。",
+            "textSimplified": "2014年，我从杭州外国语学校中学毕业，那年十八岁的我只身一人来到纽约，成为一名留学生。"
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 36576,
+            "endMs": 44160,
+            "text": "我在紐約大學主修廣播電視新聞專業，因為我希望將來成為一名記者。",
+            "textSimplified": "我在纽约大学主修广播电视新闻专业，因为我希望将来成为一名记者。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 44160,
+            "endMs": 50496,
+            "text": "從今年開始，我又開始選修第二專業——西班牙語。",
+            "textSimplified": "从今年开始，我又开始选修第二专业——西班牙语。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 50496,
+            "endMs": 57384,
+            "text": "由於學業緊張，而且沒有假期，我已經兩年沒有回國過春節了。",
+            "textSimplified": "由于学业紧张，而且没有假期，我已经两年没有回国过春节了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 57384,
+            "endMs": 64128,
+            "text": "今天，我和爸爸媽媽視頻聊天兒的時候，也見到了爺爺奶奶。",
+            "textSimplified": "今天，我和爸爸妈妈视频聊天儿的时候，也见到了爷爷奶奶。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 64128,
+            "endMs": 73488,
+            "text": "當我告訴他們今年我又不能回家過年的消息後，爺爺奶奶那失望的表情讓我心裡很不是滋味。",
+            "textSimplified": "当我告诉他们今年我又不能回家过年的消息后，爷爷奶奶那失望的表情让我心里很不是滋味。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 73488,
+            "endMs": 77712,
+            "text": "「少了你，過年都少了『年味』啊！",
+            "textSimplified": "「少了你，过年都少了『年味』啊！"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 77712,
+            "endMs": 79632,
+            "text": "」爺爺說。",
+            "textSimplified": "」爷爷说。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 79632,
+            "endMs": 87072,
+            "text": "我知道，老人家是多麼希望子孫回家過年，和他們共享天倫之樂啊！",
+            "textSimplified": "我知道，老人家是多么希望子孙回家过年，和他们共享天伦之乐啊！"
+          },
+          {
+            "index": 14,
+            "paragraph": 12,
+            "startMs": 87072,
+            "endMs": 93720,
+            "text": "記得小時候，爸爸媽媽常年在外工作，連春節也很少回家。",
+            "textSimplified": "记得小时候，爸爸妈妈常年在外工作，连春节也很少回家。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 93720,
+            "endMs": 98160,
+            "text": "每年我都是和爺爺奶奶一起過除夕夜的。",
+            "textSimplified": "每年我都是和爷爷奶奶一起过除夕夜的。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 98160,
+            "endMs": 113064,
+            "text": "他們準備了一桌子的豐盛的年夜飯，有雞、鴨、魚肉、年糕等等⋯⋯雖然我已記不清太多內容，但爺爺包的餃子的獨特香味卻在我的記憶裡留下了深刻的印象。",
+            "textSimplified": "他们准备了一桌子的丰盛的年夜饭，有鸡、鸭、鱼肉、年糕等等⋯⋯虽然我已记不清太多内容，但爷爷包的饺子的独特香味却在我的记忆里留下了深刻的印象。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 113064,
+            "endMs": 118464,
+            "text": "還記得，爺爺常常在餃子裡塞上一枚硬幣。",
+            "textSimplified": "还记得，爷爷常常在饺子里塞上一枚硬币。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 118464,
+            "endMs": 125184,
+            "text": "他總是說「誰要是吃到了有硬幣的餃子，誰就是最幸運的人。",
+            "textSimplified": "他总是说「谁要是吃到了有硬币的饺子，谁就是最幸运的人。"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 125184,
+            "endMs": 130752,
+            "text": "」於是每次我都希望自己能吃到帶硬幣的那隻餃子。",
+            "textSimplified": "」于是每次我都希望自己能吃到带硬币的那只饺子。"
+          },
+          {
+            "index": 20,
+            "paragraph": 12,
+            "startMs": 130752,
+            "endMs": 137712,
+            "text": "吃完年夜飯，我們便一起坐在電視機前，觀看春節聯歡晚會。",
+            "textSimplified": "吃完年夜饭，我们便一起坐在电视机前，观看春节联欢晚会。"
+          },
+          {
+            "index": 21,
+            "paragraph": 12,
+            "startMs": 137712,
+            "endMs": 144840,
+            "text": "我們一邊欣賞小品，一邊哈哈大笑，那場面，幸福而又溫馨。",
+            "textSimplified": "我们一边欣赏小品，一边哈哈大笑，那场面，幸福而又温馨。"
+          },
+          {
+            "index": 22,
+            "paragraph": 12,
+            "startMs": 144840,
+            "endMs": 150432,
+            "text": "當十二點鐘聲敲響時，窗外鞭炮聲此起彼伏。",
+            "textSimplified": "当十二点钟声敲响时，窗外鞭炮声此起彼伏。"
+          },
+          {
+            "index": 23,
+            "paragraph": 12,
+            "startMs": 150432,
+            "endMs": 159240,
+            "text": "這時，奶奶就讓我給她拜年，然後就把我帶到床前，將壓歲錢塞在我的枕頭底下。",
+            "textSimplified": "这时，奶奶就让我给她拜年，然后就把我带到床前，将压岁钱塞在我的枕头底下。"
+          },
+          {
+            "index": 24,
+            "paragraph": 12,
+            "startMs": 159240,
+            "endMs": 165048,
+            "text": "就這樣，我帶著奶奶美好的新年祝福，進入了夢鄉。",
+            "textSimplified": "就这样，我带著奶奶美好的新年祝福，进入了梦乡。"
+          },
+          {
+            "index": 25,
+            "paragraph": 14,
+            "startMs": 165048,
+            "endMs": 168720,
+            "text": "童年的春節總是那麼美好！",
+            "textSimplified": "童年的春节总是那么美好！"
+          },
+          {
+            "index": 26,
+            "paragraph": 14,
+            "startMs": 168720,
+            "endMs": 175896,
+            "text": "現在在紐約過年，我也會約上幾個朋友，在唐人街吃一頓年夜飯。",
+            "textSimplified": "现在在纽约过年，我也会约上几个朋友，在唐人街吃一顿年夜饭。"
+          },
+          {
+            "index": 27,
+            "paragraph": 14,
+            "startMs": 175896,
+            "endMs": 185760,
+            "text": "雖然我們也吃餃子，也看春節聯歡晚會，可是，不管餃子多美味，也不如爺爺包的餃子；",
+            "textSimplified": "虽然我们也吃饺子，也看春节联欢晚会，可是，不管饺子多美味，也不如爷爷包的饺子；"
+          },
+          {
+            "index": 28,
+            "paragraph": 14,
+            "startMs": 185760,
+            "endMs": 193080,
+            "text": "不管春節聯歡晚會多精彩，也不如和爺爺奶奶一起觀看的那一年的節目。",
+            "textSimplified": "不管春节联欢晚会多精彩，也不如和爷爷奶奶一起观看的那一年的节目。"
+          },
+          {
+            "index": 29,
+            "paragraph": 14,
+            "startMs": 193080,
+            "endMs": 199080,
+            "text": "畢竟，「年味」是只有和家人團聚在一起，才會有的。",
+            "textSimplified": "毕竟，「年味」是只有和家人团聚在一起，才会有的。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter17/b01_ch17_p02_m.mp3",
+        "durationMs": 23712,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3432,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3432,
+            "endMs": 10944,
+            "text": "中秋節是一個團圓的傳統節日，許多在異鄉工作的游子都會回家過節。",
+            "textSimplified": "中秋节是一个团圆的传统节日，许多在异乡工作的游子都会回家过节。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10944,
+            "endMs": 18216,
+            "text": "在節日當天，長輩們會在院子裡擺好香案，上面放滿水果和月餅。",
+            "textSimplified": "在节日当天，长辈们会在院子里摆好香案，上面放满水果和月饼。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 18216,
+            "endMs": 23712,
+            "text": "全家人一起恭敬地拜祭祖先，祈求家人健康平安。",
+            "textSimplified": "全家人一起恭敬地拜祭祖先，祈求家人健康平安。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter17/b01_ch17_p02_c.mp3",
+        "durationMs": 24720,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3672,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3672,
+            "endMs": 11112,
+            "text": "中秋節是一個團圓的傳統節日，許多在異鄉工作的游子都會回家過節。",
+            "textSimplified": "中秋节是一个团圆的传统节日，许多在异乡工作的游子都会回家过节。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11112,
+            "endMs": 18528,
+            "text": "在節日當天，長輩們會在院子裡擺好香案，上面放滿水果和月餅。",
+            "textSimplified": "在节日当天，长辈们会在院子里摆好香案，上面放满水果和月饼。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 18528,
+            "endMs": 24720,
+            "text": "全家人一起恭敬地拜祭祖先，祈求家人健康平安。",
+            "textSimplified": "全家人一起恭敬地拜祭祖先，祈求家人健康平安。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter17/b01_ch17_p03_m.mp3",
+        "durationMs": 170016,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3384,
+            "text": "水岸端午嘉年華活動安排",
+            "textSimplified": "水岸端午嘉年华活动安排"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3384,
+            "endMs": 13104,
+            "text": "台北市政府在大佳河濱公園舉辦的「水岸台北端午嘉年華活動」，歷年來都帶給民眾不同的趣味。",
+            "textSimplified": "台北市政府在大佳河滨公园举办的「水岸台北端午嘉年华活动」，历年来都带给民众不同的趣味。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 13104,
+            "endMs": 25752,
+            "text": "今年的台北端午嘉年華活動，除了讓傳統文化發揚光大，更能夠增添新的創意和樂趣，給市民及旅客一個難忘的端午假期。",
+            "textSimplified": "今年的台北端午嘉年华活动，除了让传统文化发扬光大，更能够增添新的创意和乐趣，给市民及旅客一个难忘的端午假期。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 25752,
+            "endMs": 28584,
+            "text": "以下是活動的具體安排：",
+            "textSimplified": "以下是活动的具体安排："
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 28584,
+            "endMs": 30360,
+            "text": "開幕典禮",
+            "textSimplified": "开幕典礼"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 30360,
+            "endMs": 34224,
+            "text": "六月九日下午四時舉行開幕典禮。",
+            "textSimplified": "六月九日下午四时举行开幕典礼。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 34224,
+            "endMs": 45000,
+            "text": "城市大學龍舟邀請賽是全台灣最大型的龍舟比賽，不僅吸引島內選手報名，也有許多國際隊伍參加。",
+            "textSimplified": "城市大学龙舟邀请赛是全台湾最大型的龙舟比赛，不仅吸引岛内选手报名，也有许多国际队伍参加。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 45000,
+            "endMs": 46896,
+            "text": "1【第一題】",
+            "textSimplified": "1【第一题】"
+          },
+          {
+            "index": 8,
+            "paragraph": 10,
+            "startMs": 46896,
+            "endMs": 63384,
+            "text": "除了三天的水上龍舟賽事外，陸地上也有主題市集活動，主辦方將會舉辦各類攤位遊戲、美食、玩具等，顧及各年齡層，達到寓教於樂，吸引民眾參加的目的。",
+            "textSimplified": "除了三天的水上龙舟赛事外，陆地上也有主题市集活动，主办方将会举办各类摊位游戏、美食、玩具等，顾及各年龄层，达到寓教于乐，吸引民众参加的目的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 12,
+            "startMs": 63384,
+            "endMs": 65328,
+            "text": "2【第一題】",
+            "textSimplified": "2【第一题】"
+          },
+          {
+            "index": 10,
+            "paragraph": 14,
+            "startMs": 65328,
+            "endMs": 72984,
+            "text": "根據每日主題，規劃三天精彩紛呈的舞台表演，包括第一天的樂團演唱；",
+            "textSimplified": "根据每日主题，规划三天精彩纷呈的舞台表演，包括第一天的乐团演唱；"
+          },
+          {
+            "index": 11,
+            "paragraph": 14,
+            "startMs": 72984,
+            "endMs": 82128,
+            "text": "第二天準備了卡通人物見面會，同時也有魔術、小丑等表演，與現場小朋友互動；",
+            "textSimplified": "第二天准备了卡通人物见面会，同时也有魔术、小丑等表演，与现场小朋友互动；"
+          },
+          {
+            "index": 12,
+            "paragraph": 14,
+            "startMs": 82128,
+            "endMs": 90792,
+            "text": "最後一天則以「最全民」為主題，為喜歡表演的市民提供舞台空間，展示自己的才藝。",
+            "textSimplified": "最后一天则以「最全民」为主题，为喜欢表演的市民提供舞台空间，展示自己的才艺。"
+          },
+          {
+            "index": 13,
+            "paragraph": 16,
+            "startMs": 90792,
+            "endMs": 92688,
+            "text": "3【第一題】",
+            "textSimplified": "3【第一题】"
+          },
+          {
+            "index": 14,
+            "paragraph": 18,
+            "startMs": 92688,
+            "endMs": 102504,
+            "text": "我們安排了一艘大型龍舟，放在現場，讓沒有參賽的民眾能夠近距離、安全地與龍舟拍照留念。",
+            "textSimplified": "我们安排了一艘大型龙舟，放在现场，让没有参赛的民众能够近距离、安全地与龙舟拍照留念。"
+          },
+          {
+            "index": 15,
+            "paragraph": 20,
+            "startMs": 102504,
+            "endMs": 104448,
+            "text": "4【第一題】",
+            "textSimplified": "4【第一题】"
+          },
+          {
+            "index": 16,
+            "paragraph": 22,
+            "startMs": 104448,
+            "endMs": 113112,
+            "text": "六月九日端午節當日正午是最旺的吉時，相傳立正的雞蛋能帶給我們一年的好運氣。",
+            "textSimplified": "六月九日端午节当日正午是最旺的吉时，相传立正的鸡蛋能带给我们一年的好运气。"
+          },
+          {
+            "index": 17,
+            "paragraph": 22,
+            "startMs": 113112,
+            "endMs": 121800,
+            "text": "每年台北市民都不忘前來到大佳河濱公園立蛋現場，一起聚集我們一年的好運氣。",
+            "textSimplified": "每年台北市民都不忘前来到大佳河滨公园立蛋现场，一起聚集我们一年的好运气。"
+          },
+          {
+            "index": 18,
+            "paragraph": 24,
+            "startMs": 121800,
+            "endMs": 123648,
+            "text": "5【第一題】",
+            "textSimplified": "5【第一题】"
+          },
+          {
+            "index": 19,
+            "paragraph": 26,
+            "startMs": 123648,
+            "endMs": 132816,
+            "text": "粽子是端午節最應景的食物，但因現在買現成的粽子很方便，手工包粽逐漸被人們忘記。",
+            "textSimplified": "粽子是端午节最应景的食物，但因现在买现成的粽子很方便，手工包粽逐渐被人们忘记。"
+          },
+          {
+            "index": 20,
+            "paragraph": 26,
+            "startMs": 132816,
+            "endMs": 138216,
+            "text": "六月十日，你將有機會重溫端午節包粽子的氣氛。",
+            "textSimplified": "六月十日，你将有机会重温端午节包粽子的气氛。"
+          },
+          {
+            "index": 21,
+            "paragraph": 26,
+            "startMs": 138216,
+            "endMs": 148008,
+            "text": "我們將以2016cm為目標長度，邀請市民一起完成最長的粽子，並拍照留下精彩記錄！",
+            "textSimplified": "我们将以2016cm为目标长度，邀请市民一起完成最长的粽子，并拍照留下精彩记录！"
+          },
+          {
+            "index": 22,
+            "paragraph": 28,
+            "startMs": 148008,
+            "endMs": 149784,
+            "text": "閉幕典禮",
+            "textSimplified": "闭幕典礼"
+          },
+          {
+            "index": 23,
+            "paragraph": 30,
+            "startMs": 149784,
+            "endMs": 160080,
+            "text": "六月十一日舉行閉幕典禮，邀請首長親手頒發各組獎項，同時與國外龍舟隊代表交換紀念品。",
+            "textSimplified": "六月十一日举行闭幕典礼，邀请首长亲手颁发各组奖项，同时与国外龙舟队代表交换纪念品。"
+          },
+          {
+            "index": 24,
+            "paragraph": 30,
+            "startMs": 160080,
+            "endMs": 170016,
+            "text": "閉幕典禮上還會感謝今年參賽隊伍以及贊助單位的參與，並邀請明年參賽者繼續來參加比賽！",
+            "textSimplified": "闭幕典礼上还会感谢今年参赛队伍以及赞助单位的参与，并邀请明年参赛者继续来参加比赛！"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter17/b01_ch17_p03_c.mp3",
+        "durationMs": 174120,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3720,
+            "text": "水岸端午嘉年華活動安排",
+            "textSimplified": "水岸端午嘉年华活动安排"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3720,
+            "endMs": 13560,
+            "text": "台北市政府在大佳河濱公園舉辦的「水岸台北端午嘉年華活動」，歷年來都帶給民眾不同的趣味。",
+            "textSimplified": "台北市政府在大佳河滨公园举办的「水岸台北端午嘉年华活动」，历年来都带给民众不同的趣味。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 13560,
+            "endMs": 25920,
+            "text": "今年的台北端午嘉年華活動，除了讓傳統文化發揚光大，更能夠增添新的創意和樂趣，給市民及旅客一個難忘的端午假期。",
+            "textSimplified": "今年的台北端午嘉年华活动，除了让传统文化发扬光大，更能够增添新的创意和乐趣，给市民及旅客一个难忘的端午假期。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 25920,
+            "endMs": 29208,
+            "text": "以下是活動的具體安排：",
+            "textSimplified": "以下是活动的具体安排："
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 29208,
+            "endMs": 31368,
+            "text": "開幕典禮",
+            "textSimplified": "开幕典礼"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 31368,
+            "endMs": 35688,
+            "text": "六月九日下午四時舉行開幕典禮。",
+            "textSimplified": "六月九日下午四时举行开幕典礼。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 35688,
+            "endMs": 46296,
+            "text": "城市大學龍舟邀請賽是全台灣最大型的龍舟比賽，不僅吸引島內選手報名，也有許多國際隊伍參加。",
+            "textSimplified": "城市大学龙舟邀请赛是全台湾最大型的龙舟比赛，不仅吸引岛内选手报名，也有许多国际队伍参加。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 46296,
+            "endMs": 48648,
+            "text": "1【第一題】",
+            "textSimplified": "1【第一题】"
+          },
+          {
+            "index": 8,
+            "paragraph": 10,
+            "startMs": 48648,
+            "endMs": 64752,
+            "text": "除了三天的水上龍舟賽事外，陸地上也有主題市集活動，主辦方將會舉辦各類攤位遊戲、美食、玩具等，顧及各年齡層，達到寓教於樂，吸引民眾參加的目的。",
+            "textSimplified": "除了三天的水上龙舟赛事外，陆地上也有主题市集活动，主办方将会举办各类摊位游戏、美食、玩具等，顾及各年龄层，达到寓教于乐，吸引民众参加的目的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 12,
+            "startMs": 64752,
+            "endMs": 67224,
+            "text": "2【第一題】",
+            "textSimplified": "2【第一题】"
+          },
+          {
+            "index": 10,
+            "paragraph": 14,
+            "startMs": 67224,
+            "endMs": 75336,
+            "text": "根據每日主題，規劃三天精彩紛呈的舞台表演，包括第一天的樂團演唱；",
+            "textSimplified": "根据每日主题，规划三天精彩纷呈的舞台表演，包括第一天的乐团演唱；"
+          },
+          {
+            "index": 11,
+            "paragraph": 14,
+            "startMs": 75336,
+            "endMs": 84168,
+            "text": "第二天準備了卡通人物見面會，同時也有魔術、小丑等表演，與現場小朋友互動；",
+            "textSimplified": "第二天准备了卡通人物见面会，同时也有魔术、小丑等表演，与现场小朋友互动；"
+          },
+          {
+            "index": 12,
+            "paragraph": 14,
+            "startMs": 84168,
+            "endMs": 92736,
+            "text": "最後一天則以「最全民」為主題，為喜歡表演的市民提供舞台空間，展示自己的才藝。",
+            "textSimplified": "最后一天则以「最全民」为主题，为喜欢表演的市民提供舞台空间，展示自己的才艺。"
+          },
+          {
+            "index": 13,
+            "paragraph": 16,
+            "startMs": 92736,
+            "endMs": 95280,
+            "text": "3【第一題】",
+            "textSimplified": "3【第一题】"
+          },
+          {
+            "index": 14,
+            "paragraph": 18,
+            "startMs": 95280,
+            "endMs": 105144,
+            "text": "我們安排了一艘大型龍舟，放在現場，讓沒有參賽的民眾能夠近距離、安全地與龍舟拍照留念。",
+            "textSimplified": "我们安排了一艘大型龙舟，放在现场，让没有参赛的民众能够近距离、安全地与龙舟拍照留念。"
+          },
+          {
+            "index": 15,
+            "paragraph": 20,
+            "startMs": 105144,
+            "endMs": 107784,
+            "text": "4【第一題】",
+            "textSimplified": "4【第一题】"
+          },
+          {
+            "index": 16,
+            "paragraph": 22,
+            "startMs": 107784,
+            "endMs": 116424,
+            "text": "六月九日端午節當日正午是最旺的吉時，相傳立正的雞蛋能帶給我們一年的好運氣。",
+            "textSimplified": "六月九日端午节当日正午是最旺的吉时，相传立正的鸡蛋能带给我们一年的好运气。"
+          },
+          {
+            "index": 17,
+            "paragraph": 22,
+            "startMs": 116424,
+            "endMs": 125064,
+            "text": "每年台北市民都不忘前來到大佳河濱公園立蛋現場，一起聚集我們一年的好運氣。",
+            "textSimplified": "每年台北市民都不忘前来到大佳河滨公园立蛋现场，一起聚集我们一年的好运气。"
+          },
+          {
+            "index": 18,
+            "paragraph": 24,
+            "startMs": 125064,
+            "endMs": 127656,
+            "text": "5【第一題】",
+            "textSimplified": "5【第一题】"
+          },
+          {
+            "index": 19,
+            "paragraph": 26,
+            "startMs": 127656,
+            "endMs": 136800,
+            "text": "粽子是端午節最應景的食物，但因現在買現成的粽子很方便，手工包粽逐漸被人們忘記。",
+            "textSimplified": "粽子是端午节最应景的食物，但因现在买现成的粽子很方便，手工包粽逐渐被人们忘记。"
+          },
+          {
+            "index": 20,
+            "paragraph": 26,
+            "startMs": 136800,
+            "endMs": 142416,
+            "text": "六月十日，你將有機會重溫端午節包粽子的氣氛。",
+            "textSimplified": "六月十日，你将有机会重温端午节包粽子的气氛。"
+          },
+          {
+            "index": 21,
+            "paragraph": 26,
+            "startMs": 142416,
+            "endMs": 152160,
+            "text": "我們將以2016cm為目標長度，邀請市民一起完成最長的粽子，並拍照留下精彩記錄！",
+            "textSimplified": "我们将以2016cm为目标长度，邀请市民一起完成最长的粽子，并拍照留下精彩记录！"
+          },
+          {
+            "index": 22,
+            "paragraph": 28,
+            "startMs": 152160,
+            "endMs": 154320,
+            "text": "閉幕典禮",
+            "textSimplified": "闭幕典礼"
+          },
+          {
+            "index": 23,
+            "paragraph": 30,
+            "startMs": 154320,
+            "endMs": 164064,
+            "text": "六月十一日舉行閉幕典禮，邀請首長親手頒發各組獎項，同時與國外龍舟隊代表交換紀念品。",
+            "textSimplified": "六月十一日举行闭幕典礼，邀请首长亲手颁发各组奖项，同时与国外龙舟队代表交换纪念品。"
+          },
+          {
+            "index": 24,
+            "paragraph": 30,
+            "startMs": 164064,
+            "endMs": 174120,
+            "text": "閉幕典禮上還會感謝今年參賽隊伍以及贊助單位的參與，並邀請明年參賽者繼續來參加比賽！",
+            "textSimplified": "闭幕典礼上还会感谢今年参赛队伍以及赞助单位的参与，并邀请明年参赛者继续来参加比赛！"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter17/b01_ch17_p04_m.mp3",
+        "durationMs": 3648,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3648,
+            "text": "倫敦融入中國元素的新年盛典。",
+            "textSimplified": "伦敦融入中国元素的新年盛典。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter17/b01_ch17_p04_c.mp3",
+        "durationMs": 4080,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4080,
+            "text": "倫敦融入中國元素的新年盛典。",
+            "textSimplified": "伦敦融入中国元素的新年盛典。"
+          }
+        ]
+      }
+    }
   ]
 }

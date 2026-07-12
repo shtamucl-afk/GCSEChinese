@@ -930,5 +930,930 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter09/b01_ch09_p01_m.mp3",
+        "durationMs": 33312,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2568,
+            "text": "李小龍是「功夫之王」；",
+            "textSimplified": "李小龙是「功夫之王」；"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 2568,
+            "endMs": 5952,
+            "text": "是香港著名的電影明星之一；",
+            "textSimplified": "是香港著名的电影明星之一；"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 5952,
+            "endMs": 10272,
+            "text": "是當代中國武術及電影史上的奇才。",
+            "textSimplified": "是当代中国武术及电影史上的奇才。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 10272,
+            "endMs": 16032,
+            "text": "他的雙節棍等武打場面讓人看得著迷，掀起功夫熱潮。",
+            "textSimplified": "他的双节棍等武打场面让人看得著迷，掀起功夫热潮。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 16032,
+            "endMs": 25200,
+            "text": "李小龍不僅開創了華人進軍好萊塢的先河，還使動作片成為香港電影的主流片種之一。",
+            "textSimplified": "李小龙不仅开创了华人进军好莱坞的先河，还使动作片成为香港电影的主流片种之一。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 25200,
+            "endMs": 28992,
+            "text": "1. 李小龍的電影風格以什麼為主？",
+            "textSimplified": "1. 李小龙的电影风格以什么为主？"
+          },
+          {
+            "index": 6,
+            "paragraph": 3,
+            "startMs": 28992,
+            "endMs": 33312,
+            "text": "2. 為什麼大家都這麼崇拜李小龍？",
+            "textSimplified": "2. 为什么大家都这么崇拜李小龙？"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter09/b01_ch09_p01_c.mp3",
+        "durationMs": 35232,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3624,
+            "text": "李小龍是「功夫之王」；",
+            "textSimplified": "李小龙是「功夫之王」；"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 3624,
+            "endMs": 7248,
+            "text": "是香港著名的電影明星之一；",
+            "textSimplified": "是香港著名的电影明星之一；"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 7248,
+            "endMs": 11736,
+            "text": "是當代中國武術及電影史上的奇才。",
+            "textSimplified": "是当代中国武术及电影史上的奇才。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 11736,
+            "endMs": 17808,
+            "text": "他的雙節棍等武打場面讓人看得著迷，掀起功夫熱潮。",
+            "textSimplified": "他的双节棍等武打场面让人看得著迷，掀起功夫热潮。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 17808,
+            "endMs": 26616,
+            "text": "李小龍不僅開創了華人進軍好萊塢的先河，還使動作片成為香港電影的主流片種之一。",
+            "textSimplified": "李小龙不仅开创了华人进军好莱坞的先河，还使动作片成为香港电影的主流片种之一。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 26616,
+            "endMs": 30792,
+            "text": "1. 李小龍的電影風格以什麼為主？",
+            "textSimplified": "1. 李小龙的电影风格以什么为主？"
+          },
+          {
+            "index": 6,
+            "paragraph": 3,
+            "startMs": 30792,
+            "endMs": 35232,
+            "text": "2. 為什麼大家都這麼崇拜李小龍？",
+            "textSimplified": "2. 为什么大家都这么崇拜李小龙？"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter09/b01_ch09_p02_m.mp3",
+        "durationMs": 153264,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3000,
+            "text": "闖蕩好萊塢的中國明星",
+            "textSimplified": "闯荡好莱坞的中国明星"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3000,
+            "endMs": 11232,
+            "text": "中國電影業近幾年發展得不錯，不少中國明星更成功地打入了好萊塢的市場。",
+            "textSimplified": "中国电影业近几年发展得不错，不少中国明星更成功地打入了好莱坞的市场。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11232,
+            "endMs": 13416,
+            "text": "究竟原因在哪兒？",
+            "textSimplified": "究竟原因在哪儿？"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 13416,
+            "endMs": 16848,
+            "text": "今天我們選了幾個人物分析分析。",
+            "textSimplified": "今天我们选了几个人物分析分析。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 16848,
+            "endMs": 18480,
+            "text": "A 成龍",
+            "textSimplified": "A 成龙"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 18480,
+            "endMs": 22056,
+            "text": "成龍是香港電影的票房保證。",
+            "textSimplified": "成龙是香港电影的票房保证。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 22056,
+            "endMs": 35016,
+            "text": "成龍以功夫片著稱，曾經多次打破香港電影票房紀錄，目前他主演的電影全球總票房已經超過100億元，為華人演員之首。",
+            "textSimplified": "成龙以功夫片著称，曾经多次打破香港电影票房纪录，目前他主演的电影全球总票房已经超过100亿元，为华人演员之首。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 35016,
+            "endMs": 52344,
+            "text": "成龍的成名作是功夫喜劇《醉拳》，1994年由他主演的《紅番區》成功打入美國好萊塢的市場，而接下的《尖峰時刻》系列電影亦獲得極高的票房，奠定了國際電影巨星的地位。",
+            "textSimplified": "成龙的成名作是功夫喜剧《醉拳》，1994年由他主演的《红番区》成功打入美国好莱坞的市场，而接下的《尖峰时刻》系列电影亦获得极高的票房，奠定了国际电影巨星的地位。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 52344,
+            "endMs": 54144,
+            "text": "B 章子怡",
+            "textSimplified": "B 章子怡"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 54144,
+            "endMs": 64728,
+            "text": "1999年憑藉李安執導的《臥虎藏龍》躋身了國際影星的行列，被視為另一位出現在國際影壇的華人女星。",
+            "textSimplified": "1999年凭借李安执导的《卧虎藏龙》跻身了国际影星的行列，被视为另一位出现在国际影坛的华人女星。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 64728,
+            "endMs": 73896,
+            "text": "隨後又被成龍推薦給好萊塢導演，參演《尖峰時刻2》，她的一身黑色套裝讓觀眾難忘。",
+            "textSimplified": "随后又被成龙推荐给好莱坞导演，参演《尖峰时刻2》，她的一身黑色套装让观众难忘。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 73896,
+            "endMs": 79584,
+            "text": "05年主演的《藝妓回憶錄》獲金球獎最佳女演員提名。",
+            "textSimplified": "05年主演的《艺妓回忆录》获金球奖最佳女演员提名。"
+          },
+          {
+            "index": 12,
+            "paragraph": 12,
+            "startMs": 79584,
+            "endMs": 81504,
+            "text": "C 甄子丹",
+            "textSimplified": "C 甄子丹"
+          },
+          {
+            "index": 13,
+            "paragraph": 14,
+            "startMs": 81504,
+            "endMs": 93096,
+            "text": "九十年代，傳統功夫電影沒落，甄子丹憑藉好身手，演出了許多出色作品，代表作有《洪熙官》及《精武門》兩部。",
+            "textSimplified": "九十年代，传统功夫电影没落，甄子丹凭借好身手，演出了许多出色作品，代表作有《洪熙官》及《精武门》两部。"
+          },
+          {
+            "index": 14,
+            "paragraph": 14,
+            "startMs": 93096,
+            "endMs": 103536,
+            "text": "徐克在拍《黃飛鴻2之男兒當自強》時，安排了甄子丹做李連杰的最後對手，藉以奠定他功夫明星的地位。",
+            "textSimplified": "徐克在拍《黄飞鸿2之男儿当自强》时，安排了甄子丹做李连杰的最后对手，借以奠定他功夫明星的地位。"
+          },
+          {
+            "index": 15,
+            "paragraph": 14,
+            "startMs": 103536,
+            "endMs": 115224,
+            "text": "甄子丹曾受邀往德國、美國、日本等地做武術指導或導演，與成龍、李連杰同為國際知名的華人武打演員。",
+            "textSimplified": "甄子丹曾受邀往德国、美国、日本等地做武术指导或导演，与成龙、李连杰同为国际知名的华人武打演员。"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 115224,
+            "endMs": 116808,
+            "text": "D 姜文",
+            "textSimplified": "D 姜文"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 116808,
+            "endMs": 127992,
+            "text": "姜文1985年被導演陳家林選中，在影片《末代皇后》中上演電影處女作，成功塑造「末代皇帝」可憐的形象。",
+            "textSimplified": "姜文1985年被导演陈家林选中，在影片《末代皇后》中上演电影处女作，成功塑造「末代皇帝」可怜的形象。"
+          },
+          {
+            "index": 18,
+            "paragraph": 18,
+            "startMs": 127992,
+            "endMs": 143520,
+            "text": "姜文曾在短片集《紐約，我愛你》中執導，能力也得到了國際演藝圈同行認同，2010年自導自演的《讓子彈飛》在國內取得了巨大成功，也是他實力深厚的證明。",
+            "textSimplified": "姜文曾在短片集《纽约，我爱你》中执导，能力也得到了国际演艺圈同行认同，2010年自导自演的《让子弹飞》在国内取得了巨大成功，也是他实力深厚的证明。"
+          },
+          {
+            "index": 19,
+            "paragraph": 20,
+            "startMs": 143520,
+            "endMs": 149184,
+            "text": "https://app.secretchina.com",
+            "textSimplified": "https://app.secretchina.com"
+          },
+          {
+            "index": 20,
+            "paragraph": 22,
+            "startMs": 149184,
+            "endMs": 153264,
+            "text": "1. 哪一位演員曾獲得獎項提名？",
+            "textSimplified": "1. 哪一位演员曾获得奖项提名？"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter09/b01_ch09_p02_c.mp3",
+        "durationMs": 160008,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3432,
+            "text": "闖蕩好萊塢的中國明星",
+            "textSimplified": "闯荡好莱坞的中国明星"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3432,
+            "endMs": 11664,
+            "text": "中國電影業近幾年發展得不錯，不少中國明星更成功地打入了好萊塢的市場。",
+            "textSimplified": "中国电影业近几年发展得不错，不少中国明星更成功地打入了好莱坞的市场。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11664,
+            "endMs": 14472,
+            "text": "究竟原因在哪兒？",
+            "textSimplified": "究竟原因在哪儿？"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14472,
+            "endMs": 18408,
+            "text": "今天我們選了幾個人物分析分析。",
+            "textSimplified": "今天我们选了几个人物分析分析。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 18408,
+            "endMs": 20280,
+            "text": "A 成龍",
+            "textSimplified": "A 成龙"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 20280,
+            "endMs": 24192,
+            "text": "成龍是香港電影的票房保證。",
+            "textSimplified": "成龙是香港电影的票房保证。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 24192,
+            "endMs": 36624,
+            "text": "成龍以功夫片著稱，曾經多次打破香港電影票房紀錄，目前他主演的電影全球總票房已經超過100億元，為華人演員之首。",
+            "textSimplified": "成龙以功夫片著称，曾经多次打破香港电影票房纪录，目前他主演的电影全球总票房已经超过100亿元，为华人演员之首。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 36624,
+            "endMs": 53928,
+            "text": "成龍的成名作是功夫喜劇《醉拳》，1994年由他主演的《紅番區》成功打入美國好萊塢的市場，而接下的《尖峰時刻》系列電影亦獲得極高的票房，奠定了國際電影巨星的地位。",
+            "textSimplified": "成龙的成名作是功夫喜剧《醉拳》，1994年由他主演的《红番区》成功打入美国好莱坞的市场，而接下的《尖峰时刻》系列电影亦获得极高的票房，奠定了国际电影巨星的地位。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 53928,
+            "endMs": 56160,
+            "text": "B 章子怡",
+            "textSimplified": "B 章子怡"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 56160,
+            "endMs": 67368,
+            "text": "1999年憑藉李安執導的《臥虎藏龍》躋身了國際影星的行列，被視為另一位出現在國際影壇的華人女星。",
+            "textSimplified": "1999年凭借李安执导的《卧虎藏龙》跻身了国际影星的行列，被视为另一位出现在国际影坛的华人女星。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 67368,
+            "endMs": 76656,
+            "text": "隨後又被成龍推薦給好萊塢導演，參演《尖峰時刻2》，她的一身黑色套裝讓觀眾難忘。",
+            "textSimplified": "随后又被成龙推荐给好莱坞导演，参演《尖峰时刻2》，她的一身黑色套装让观众难忘。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 76656,
+            "endMs": 83136,
+            "text": "05年主演的《藝妓回憶錄》獲金球獎最佳女演員提名。",
+            "textSimplified": "05年主演的《艺妓回忆录》获金球奖最佳女演员提名。"
+          },
+          {
+            "index": 12,
+            "paragraph": 12,
+            "startMs": 83136,
+            "endMs": 85488,
+            "text": "C 甄子丹",
+            "textSimplified": "C 甄子丹"
+          },
+          {
+            "index": 13,
+            "paragraph": 14,
+            "startMs": 85488,
+            "endMs": 98136,
+            "text": "九十年代，傳統功夫電影沒落，甄子丹憑藉好身手，演出了許多出色作品，代表作有《洪熙官》及《精武門》兩部。",
+            "textSimplified": "九十年代，传统功夫电影没落，甄子丹凭借好身手，演出了许多出色作品，代表作有《洪熙官》及《精武门》两部。"
+          },
+          {
+            "index": 14,
+            "paragraph": 14,
+            "startMs": 98136,
+            "endMs": 109776,
+            "text": "徐克在拍《黃飛鴻2之男兒當自強》時，安排了甄子丹做李連杰的最後對手，藉以奠定他功夫明星的地位。",
+            "textSimplified": "徐克在拍《黄飞鸿2之男儿当自强》时，安排了甄子丹做李连杰的最后对手，借以奠定他功夫明星的地位。"
+          },
+          {
+            "index": 15,
+            "paragraph": 14,
+            "startMs": 109776,
+            "endMs": 120792,
+            "text": "甄子丹曾受邀往德國、美國、日本等地做武術指導或導演，與成龍、李連杰同為國際知名的華人武打演員。",
+            "textSimplified": "甄子丹曾受邀往德国、美国、日本等地做武术指导或导演，与成龙、李连杰同为国际知名的华人武打演员。"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 120792,
+            "endMs": 122736,
+            "text": "D 姜文",
+            "textSimplified": "D 姜文"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 122736,
+            "endMs": 134376,
+            "text": "姜文1985年被導演陳家林選中，在影片《末代皇后》中上演電影處女作，成功塑造「末代皇帝」可憐的形象。",
+            "textSimplified": "姜文1985年被导演陈家林选中，在影片《末代皇后》中上演电影处女作，成功塑造「末代皇帝」可怜的形象。"
+          },
+          {
+            "index": 18,
+            "paragraph": 18,
+            "startMs": 134376,
+            "endMs": 150816,
+            "text": "姜文曾在短片集《紐約，我愛你》中執導，能力也得到了國際演藝圈同行認同，2010年自導自演的《讓子彈飛》在國內取得了巨大成功，也是他實力深厚的證明。",
+            "textSimplified": "姜文曾在短片集《纽约，我爱你》中执导，能力也得到了国际演艺圈同行认同，2010年自导自演的《让子弹飞》在国内取得了巨大成功，也是他实力深厚的证明。"
+          },
+          {
+            "index": 19,
+            "paragraph": 20,
+            "startMs": 150816,
+            "endMs": 155880,
+            "text": "https://app.secretchina.com",
+            "textSimplified": "https://app.secretchina.com"
+          },
+          {
+            "index": 20,
+            "paragraph": 22,
+            "startMs": 155880,
+            "endMs": 160008,
+            "text": "1. 哪一位演員曾獲得獎項提名？",
+            "textSimplified": "1. 哪一位演员曾获得奖项提名？"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter09/b01_ch09_p03_m.mp3",
+        "durationMs": 43152,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3432,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3432,
+            "endMs": 10944,
+            "text": "這部電影講述了一位主角在困境中堅持不懈、最終實現夢想的故事。",
+            "textSimplified": "这部电影讲述了一位主角在困境中坚持不懈、最终实现梦想的故事。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10944,
+            "endMs": 19656,
+            "text": "在電影正式上映前，官方發布了一段非常精彩的預告片，立刻吸引了無數影迷的關注。",
+            "textSimplified": "在电影正式上映前，官方发布了一段非常精彩的预告片，立刻吸引了无数影迷的关注。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 19656,
+            "endMs": 27528,
+            "text": "製片方隨後在全國校園推行了一系列宣傳活動，希望能鼓勵更多年輕人。",
+            "textSimplified": "制片方随后在全国校园推行了一系列宣传活动，希望能鼓励更多年轻人。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 27528,
+            "endMs": 43152,
+            "text": "原本大家以為這是一部故意煽情、讓人流淚的感人電影，但上映後故事反倒非常幽默好玩，徹底改變了過去同類電影都很普通的局面，贏得了極高的口碑。",
+            "textSimplified": "原本大家以为这是一部故意煽情、让人流泪的感人电影，但上映后故事反倒非常幽默好玩，彻底改变了过去同类电影都很普通的局面，赢得了极高的口碑。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter09/b01_ch09_p03_c.mp3",
+        "durationMs": 43128,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3672,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3672,
+            "endMs": 10896,
+            "text": "這部電影講述了一位主角在困境中堅持不懈、最終實現夢想的故事。",
+            "textSimplified": "这部电影讲述了一位主角在困境中坚持不懈、最终实现梦想的故事。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10896,
+            "endMs": 19968,
+            "text": "在電影正式上映前，官方發布了一段非常精彩的預告片，立刻吸引了無數影迷的關注。",
+            "textSimplified": "在电影正式上映前，官方发布了一段非常精彩的预告片，立刻吸引了无数影迷的关注。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 19968,
+            "endMs": 27912,
+            "text": "製片方隨後在全國校園推行了一系列宣傳活動，希望能鼓勵更多年輕人。",
+            "textSimplified": "制片方随后在全国校园推行了一系列宣传活动，希望能鼓励更多年轻人。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 27912,
+            "endMs": 43128,
+            "text": "原本大家以為這是一部故意煽情、讓人流淚的感人電影，但上映後故事反倒非常幽默好玩，徹底改變了過去同類電影都很普通的局面，贏得了極高的口碑。",
+            "textSimplified": "原本大家以为这是一部故意煽情、让人流泪的感人电影，但上映后故事反倒非常幽默好玩，彻底改变了过去同类电影都很普通的局面，赢得了极高的口碑。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter09/b01_ch09_p04_m.mp3",
+        "durationMs": 127272,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4872,
+            "text": "蓬勃的中國電影市場加速世界電影多元化",
+            "textSimplified": "蓬勃的中国电影市场加速世界电影多元化"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4872,
+            "endMs": 12360,
+            "text": "伴隨著首屆在西安舉辦的國際電影節，中國目前已擁有三個國際電影節。",
+            "textSimplified": "伴随著首届在西安举办的国际电影节，中国目前已拥有三个国际电影节。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 12360,
+            "endMs": 21072,
+            "text": "出席電影節的各國電影人普遍認為，蓬勃的中國電影市場正加速世界電影多元化。",
+            "textSimplified": "出席电影节的各国电影人普遍认为，蓬勃的中国电影市场正加速世界电影多元化。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 21072,
+            "endMs": 24144,
+            "text": "「中國的票房市場很廣闊。",
+            "textSimplified": "「中国的票房市场很广阔。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 24144,
+            "endMs": 34632,
+            "text": "」參加國際電影節的英國製片公司首席執行官詹姆斯 · 米契爾認為，中國將成為電影多元化的主要力量。",
+            "textSimplified": "」参加国际电影节的英国制片公司首席执行官詹姆斯 · 米契尔认为，中国将成为电影多元化的主要力量。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 34632,
+            "endMs": 40008,
+            "text": "中國電影《心花路放》在國內已獲得10.7億元票房。",
+            "textSimplified": "中国电影《心花路放》在国内已获得10.7亿元票房。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 40008,
+            "endMs": 48048,
+            "text": "中國電影市場贏得世界矚目，將在未來引領世界電影格局的多元化潮流。",
+            "textSimplified": "中国电影市场赢得世界瞩目，将在未来引领世界电影格局的多元化潮流。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 48048,
+            "endMs": 52104,
+            "text": "中國電影的總票房也反超進口片。",
+            "textSimplified": "中国电影的总票房也反超进口片。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 52104,
+            "endMs": 65496,
+            "text": "儘管2014年有不少好萊塢大作在國內上映，但是國產的《西遊記之大鬧天宮》、《後會無期》等電影也在市場上獲得不俗的回報。",
+            "textSimplified": "尽管2014年有不少好莱坞大作在国内上映，但是国产的《西游记之大闹天宫》、《后会无期》等电影也在市场上获得不俗的回报。"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 65496,
+            "endMs": 76152,
+            "text": "田興杰是陝西長安大學的大三學生，儘管他聲稱自己並非影迷，但仍然會平均半個月去看一場電影。",
+            "textSimplified": "田兴杰是陕西长安大学的大三学生，尽管他声称自己并非影迷，但仍然会平均半个月去看一场电影。"
+          },
+          {
+            "index": 10,
+            "paragraph": 12,
+            "startMs": 76152,
+            "endMs": 85872,
+            "text": "「有時候是與女友約會，有時候是和同學社交，甚至有時候一個人實在無聊時就去看電影。",
+            "textSimplified": "「有时候是与女友约会，有时候是和同学社交，甚至有时候一个人实在无聊时就去看电影。"
+          },
+          {
+            "index": 11,
+            "paragraph": 12,
+            "startMs": 85872,
+            "endMs": 87240,
+            "text": "」他說。",
+            "textSimplified": "」他说。"
+          },
+          {
+            "index": 12,
+            "paragraph": 14,
+            "startMs": 87240,
+            "endMs": 101400,
+            "text": "在中國，正是越來越多田興杰這樣把電影當做消遣的人走進影院，才推動了中國票房的持續增長，口碑票房雙豐收的電影在逐年增加。",
+            "textSimplified": "在中国，正是越来越多田兴杰这样把电影当做消遣的人走进影院，才推动了中国票房的持续增长，口碑票房双丰收的电影在逐年增加。"
+          },
+          {
+            "index": 13,
+            "paragraph": 16,
+            "startMs": 101400,
+            "endMs": 110136,
+            "text": "中國電影市場連續的高增長，為中國電影人和全球電影人提供了非常廣闊的平台。",
+            "textSimplified": "中国电影市场连续的高增长，为中国电影人和全球电影人提供了非常广阔的平台。"
+          },
+          {
+            "index": 14,
+            "paragraph": 16,
+            "startMs": 110136,
+            "endMs": 114696,
+            "text": "印度影評人對中國電影的前景表示樂觀。",
+            "textSimplified": "印度影评人对中国电影的前景表示乐观。"
+          },
+          {
+            "index": 15,
+            "paragraph": 16,
+            "startMs": 114696,
+            "endMs": 119976,
+            "text": "「世界關注中國故事，我們希望中國電影人的參與。",
+            "textSimplified": "「世界关注中国故事，我们希望中国电影人的参与。"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 119976,
+            "endMs": 121344,
+            "text": "」他說。",
+            "textSimplified": "」他说。"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 121344,
+            "endMs": 127272,
+            "text": "https://hk.news.yahoo.com",
+            "textSimplified": "https://hk.news.yahoo.com"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter09/b01_ch09_p04_c.mp3",
+        "durationMs": 129648,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 5184,
+            "text": "蓬勃的中國電影市場加速世界電影多元化",
+            "textSimplified": "蓬勃的中国电影市场加速世界电影多元化"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 5184,
+            "endMs": 12984,
+            "text": "伴隨著首屆在西安舉辦的國際電影節，中國目前已擁有三個國際電影節。",
+            "textSimplified": "伴随著首届在西安举办的国际电影节，中国目前已拥有三个国际电影节。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 12984,
+            "endMs": 21816,
+            "text": "出席電影節的各國電影人普遍認為，蓬勃的中國電影市場正加速世界電影多元化。",
+            "textSimplified": "出席电影节的各国电影人普遍认为，蓬勃的中国电影市场正加速世界电影多元化。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 21816,
+            "endMs": 25272,
+            "text": "「中國的票房市場很廣闊。",
+            "textSimplified": "「中国的票房市场很广阔。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25272,
+            "endMs": 36024,
+            "text": "」參加國際電影節的英國製片公司首席執行官詹姆斯 · 米契爾認為，中國將成為電影多元化的主要力量。",
+            "textSimplified": "」参加国际电影节的英国制片公司首席执行官詹姆斯 · 米契尔认为，中国将成为电影多元化的主要力量。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 36024,
+            "endMs": 42480,
+            "text": "中國電影《心花路放》在國內已獲得10.7億元票房。",
+            "textSimplified": "中国电影《心花路放》在国内已获得10.7亿元票房。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 42480,
+            "endMs": 50208,
+            "text": "中國電影市場贏得世界矚目，將在未來引領世界電影格局的多元化潮流。",
+            "textSimplified": "中国电影市场赢得世界瞩目，将在未来引领世界电影格局的多元化潮流。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 50208,
+            "endMs": 54552,
+            "text": "中國電影的總票房也反超進口片。",
+            "textSimplified": "中国电影的总票房也反超进口片。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 54552,
+            "endMs": 67728,
+            "text": "儘管2014年有不少好萊塢大作在國內上映，但是國產的《西遊記之大鬧天宮》、《後會無期》等電影也在市場上獲得不俗的回報。",
+            "textSimplified": "尽管2014年有不少好莱坞大作在国内上映，但是国产的《西游记之大闹天宫》、《后会无期》等电影也在市场上获得不俗的回报。"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 67728,
+            "endMs": 78264,
+            "text": "田興杰是陝西長安大學的大三學生，儘管他聲稱自己並非影迷，但仍然會平均半個月去看一場電影。",
+            "textSimplified": "田兴杰是陕西长安大学的大三学生，尽管他声称自己并非影迷，但仍然会平均半个月去看一场电影。"
+          },
+          {
+            "index": 10,
+            "paragraph": 12,
+            "startMs": 78264,
+            "endMs": 87384,
+            "text": "「有時候是與女友約會，有時候是和同學社交，甚至有時候一個人實在無聊時就去看電影。",
+            "textSimplified": "「有时候是与女友约会，有时候是和同学社交，甚至有时候一个人实在无聊时就去看电影。"
+          },
+          {
+            "index": 11,
+            "paragraph": 12,
+            "startMs": 87384,
+            "endMs": 89136,
+            "text": "」他說。",
+            "textSimplified": "」他说。"
+          },
+          {
+            "index": 12,
+            "paragraph": 14,
+            "startMs": 89136,
+            "endMs": 103008,
+            "text": "在中國，正是越來越多田興杰這樣把電影當做消遣的人走進影院，才推動了中國票房的持續增長，口碑票房雙豐收的電影在逐年增加。",
+            "textSimplified": "在中国，正是越来越多田兴杰这样把电影当做消遣的人走进影院，才推动了中国票房的持续增长，口碑票房双丰收的电影在逐年增加。"
+          },
+          {
+            "index": 13,
+            "paragraph": 16,
+            "startMs": 103008,
+            "endMs": 111648,
+            "text": "中國電影市場連續的高增長，為中國電影人和全球電影人提供了非常廣闊的平台。",
+            "textSimplified": "中国电影市场连续的高增长，为中国电影人和全球电影人提供了非常广阔的平台。"
+          },
+          {
+            "index": 14,
+            "paragraph": 16,
+            "startMs": 111648,
+            "endMs": 116448,
+            "text": "印度影評人對中國電影的前景表示樂觀。",
+            "textSimplified": "印度影评人对中国电影的前景表示乐观。"
+          },
+          {
+            "index": 15,
+            "paragraph": 16,
+            "startMs": 116448,
+            "endMs": 122472,
+            "text": "「世界關注中國故事，我們希望中國電影人的參與。",
+            "textSimplified": "「世界关注中国故事，我们希望中国电影人的参与。"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 122472,
+            "endMs": 124224,
+            "text": "」他說。",
+            "textSimplified": "」他说。"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 124224,
+            "endMs": 129648,
+            "text": "https://hk.news.yahoo.com",
+            "textSimplified": "https://hk.news.yahoo.com"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 4,
+      "mandarin": {
+        "file": "audio/book01/chapter09/b01_ch09_p05_m.mp3",
+        "durationMs": 14760,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7368,
+            "text": "請以《我最喜歡的中國電影》為題，做一個兩到三分鐘的演講，內容可以包括：",
+            "textSimplified": "请以《我最喜欢的中国电影》为题，做一个两到三分钟的演讲，内容可以包括："
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 7368,
+            "endMs": 14760,
+            "text": "• 電影的內容大意 • 最喜歡的角色 • 喜歡這部電影的原因 • 電影讓你反思的地方",
+            "textSimplified": "• 电影的内容大意 • 最喜欢的角色 • 喜欢这部电影的原因 • 电影让你反思的地方"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter09/b01_ch09_p05_c.mp3",
+        "durationMs": 17568,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8952,
+            "text": "請以《我最喜歡的中國電影》為題，做一個兩到三分鐘的演講，內容可以包括：",
+            "textSimplified": "请以《我最喜欢的中国电影》为题，做一个两到三分钟的演讲，内容可以包括："
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 8952,
+            "endMs": 17568,
+            "text": "• 電影的內容大意 • 最喜歡的角色 • 喜歡這部電影的原因 • 電影讓你反思的地方",
+            "textSimplified": "• 电影的内容大意 • 最喜欢的角色 • 喜欢这部电影的原因 • 电影让你反思的地方"
+          }
+        ]
+      }
+    }
   ]
 }

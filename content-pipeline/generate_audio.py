@@ -69,10 +69,23 @@ def read_final_excel(input_path):
 # ------------------------------------------------------------------
 # Audio generation
 # ------------------------------------------------------------------
-async def generate_mp3(text, output_path, voice, rate):
-    """Generate one MP3 file using edge-tts."""
-    tts = edge_tts.Communicate(text, voice, rate=rate)
-    await tts.save(output_path)
+async def generate_mp3(text, output_path, voice, rate, retries=2):
+    """Generate one MP3 file using edge-tts.
+
+    M9.6 fix - retry-with-backoff for transient edge-tts blips.
+    Retries up to `retries` times with linear backoff (1s, 2s...).
+    """
+    last_err = None
+    for attempt in range(retries + 1):
+        try:
+            tts = edge_tts.Communicate(text, voice, rate=rate)
+            await tts.save(output_path)
+            return
+        except Exception as e:
+            last_err = e
+            if attempt < retries:
+                await asyncio.sleep(1 + attempt)
+    raise last_err
 
 
 async def generate_chapter_audio(input_path):

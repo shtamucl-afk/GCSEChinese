@@ -814,5 +814,1075 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter15/b01_ch15_p01_m.mp3",
+        "durationMs": 30288,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 11160,
+            "text": "今年，從學校的學生、老師，到辦公室的職員，北京的各行各業都受到因空氣污染帶來的不同程度的影響。",
+            "textSimplified": "今年，从学校的学生、老师，到办公室的职员，北京的各行各业都受到因空气污染带来的不同程度的影响。"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 11160,
+            "endMs": 20184,
+            "text": "本月初，在印度首都新德里，空氣污染也影響著水質，河裡的魚都被污水給毒死了。",
+            "textSimplified": "本月初，在印度首都新德里，空气污染也影响著水质，河里的鱼都被污水给毒死了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 20184,
+            "endMs": 30288,
+            "text": "今年3月，歐洲多地持續被強霧霾襲擊，尤其法國巴黎著名地標埃菲爾鐵塔幾近「消失」。",
+            "textSimplified": "今年3月，欧洲多地持续被强雾霾袭击，尤其法国巴黎著名地标埃菲尔铁塔几近「消失」。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter15/b01_ch15_p01_c.mp3",
+        "durationMs": 29448,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 11280,
+            "text": "今年，從學校的學生、老師，到辦公室的職員，北京的各行各業都受到因空氣污染帶來的不同程度的影響。",
+            "textSimplified": "今年，从学校的学生、老师，到办公室的职员，北京的各行各业都受到因空气污染带来的不同程度的影响。"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 11280,
+            "endMs": 20352,
+            "text": "本月初，在印度首都新德里，空氣污染也影響著水質，河裡的魚都被污水給毒死了。",
+            "textSimplified": "本月初，在印度首都新德里，空气污染也影响著水质，河里的鱼都被污水给毒死了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 20352,
+            "endMs": 29448,
+            "text": "今年3月，歐洲多地持續被強霧霾襲擊，尤其法國巴黎著名地標埃菲爾鐵塔幾近「消失」。",
+            "textSimplified": "今年3月，欧洲多地持续被强雾霾袭击，尤其法国巴黎著名地标埃菲尔铁塔几近「消失」。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter15/b01_ch15_p02_m.mp3",
+        "durationMs": 23280,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3432,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3432,
+            "endMs": 7248,
+            "text": "最近城市的環境污染問題很嚴重。",
+            "textSimplified": "最近城市的环境污染问题很严重。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7248,
+            "endMs": 15144,
+            "text": "馬路上的汽車帶來了嚴重的噪音，而夜間商業區的霓虹燈則造成了光污染。",
+            "textSimplified": "马路上的汽车带来了严重的噪音，而夜间商业区的霓虹灯则造成了光污染。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 15144,
+            "endMs": 23280,
+            "text": "此外，工廠排放的廢氣也讓空氣變差，許多市民出門時不得不戴上口罩。",
+            "textSimplified": "此外，工厂排放的废气也让空气变差，许多市民出门时不得不戴上口罩。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter15/b01_ch15_p02_c.mp3",
+        "durationMs": 23832,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3672,
+            "text": "〈AI 生成，代替聽力文章〉",
+            "textSimplified": "〈AI 生成，代替听力文章〉"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3672,
+            "endMs": 7824,
+            "text": "最近城市的環境污染問題很嚴重。",
+            "textSimplified": "最近城市的环境污染问题很严重。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7824,
+            "endMs": 15696,
+            "text": "馬路上的汽車帶來了嚴重的噪音，而夜間商業區的霓虹燈則造成了光污染。",
+            "textSimplified": "马路上的汽车带来了严重的噪音，而夜间商业区的霓虹灯则造成了光污染。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 15696,
+            "endMs": 23832,
+            "text": "此外，工廠排放的廢氣也讓空氣變差，許多市民出門時不得不戴上口罩。",
+            "textSimplified": "此外，工厂排放的废气也让空气变差，许多市民出门时不得不戴上口罩。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter15/b01_ch15_p03_m.mp3",
+        "durationMs": 208656,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3744,
+            "text": "空氣污染—全球最大的環境風險",
+            "textSimplified": "空气污染—全球最大的环境风险"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3744,
+            "endMs": 12120,
+            "text": "博主：李鳴生　　　　　　發布日期：2015-12-09 20:45:55",
+            "textSimplified": "博主：李鸣生　　　　　　发布日期：2015-12-09 20:45:55"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 12120,
+            "endMs": 16608,
+            "text": "空氣污染，絕不只是空氣髒一點兒那麼簡單。",
+            "textSimplified": "空气污染，绝不只是空气脏一点儿那么简单。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 16608,
+            "endMs": 27000,
+            "text": "世界衛生組織去年發布的一項研究結果表明，2012年全球約700萬人死亡與空氣污染相關。",
+            "textSimplified": "世界卫生组织去年发布的一项研究结果表明，2012年全球约700万人死亡与空气污染相关。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 27000,
+            "endMs": 33840,
+            "text": "這意味著，那一年全世界每8名死者中，就有1名死於空氣污染。",
+            "textSimplified": "这意味著，那一年全世界每8名死者中，就有1名死于空气污染。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 33840,
+            "endMs": 50424,
+            "text": "今年9月，一個國際研究團隊在英國《自然》雜誌上報告說，僅室外空氣污染每年就導致全球300多萬人死亡，比瘧疾和艾滋病每年導致的死亡人數加起來還要多。",
+            "textSimplified": "今年9月，一个国际研究团队在英国《自然》杂志上报告说，仅室外空气污染每年就导致全球300多万人死亡，比疟疾和艾滋病每年导致的死亡人数加起来还要多。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 50424,
+            "endMs": 64920,
+            "text": "研究人員認為，如果空氣污染排放量不變的話，由室外空氣污染導致的死亡到2050年可能還會翻倍，屆時每年預計會造成660萬人死亡。",
+            "textSimplified": "研究人员认为，如果空气污染排放量不变的话，由室外空气污染导致的死亡到2050年可能还会翻倍，届时每年预计会造成660万人死亡。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 64920,
+            "endMs": 71592,
+            "text": "一位世衛組織官員說，「空氣污染現已成為最大的環境健康威脅。",
+            "textSimplified": "一位世卫组织官员说，「空气污染现已成为最大的环境健康威胁。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 71592,
+            "endMs": 76128,
+            "text": "這裡的空氣污染既包括室內也包括室外。",
+            "textSimplified": "这里的空气污染既包括室内也包括室外。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 76128,
+            "endMs": 82656,
+            "text": "這一問題影響我們每個人，無論是發展中國家還是發達國家。",
+            "textSimplified": "这一问题影响我们每个人，无论是发展中国家还是发达国家。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 82656,
+            "endMs": 92784,
+            "text": "」因空氣污染死亡者通常死於心臟病、中風或肺部疾病，一些人則死於肺癌或急性呼吸道感染。",
+            "textSimplified": "」因空气污染死亡者通常死于心脏病、中风或肺部疾病，一些人则死于肺癌或急性呼吸道感染。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 92784,
+            "endMs": 99408,
+            "text": "室內空氣污染主要原因是使用煤炭、木頭作為燃料做飯。",
+            "textSimplified": "室内空气污染主要原因是使用煤炭、木头作为燃料做饭。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 99408,
+            "endMs": 108456,
+            "text": "室外空氣污染主要來源是汽車尾氣、發電站、工農業排放以及居民供暖和烹飪。",
+            "textSimplified": "室外空气污染主要来源是汽车尾气、发电站、工农业排放以及居民供暖和烹饪。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 108456,
+            "endMs": 124344,
+            "text": "一些人口眾多的發展中國家，工業化和城市化發展迅速，在繁榮的同時，隨之而來的是大量的汽車尾氣，而這些尾氣便成為室外空氣污染的罪魁禍首。",
+            "textSimplified": "一些人口众多的发展中国家，工业化和城市化发展迅速，在繁荣的同时，随之而来的是大量的汽车尾气，而这些尾气便成为室外空气污染的罪魁祸首。"
+          },
+          {
+            "index": 14,
+            "paragraph": 12,
+            "startMs": 124344,
+            "endMs": 134256,
+            "text": "世界衛生組織去年5月發布最新城市空氣質量數據庫，涵蓋了90個國家中的1600個城市。",
+            "textSimplified": "世界卫生组织去年5月发布最新城市空气质量数据库，涵盖了90个国家中的1600个城市。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 134256,
+            "endMs": 150240,
+            "text": "數據庫顯示，約半數城市人口生活區域的空氣污染程度至少超過世衛組織規定水平的2.5倍，僅有12%的城市人口生活區域符合世衛組織相關標準。",
+            "textSimplified": "数据库显示，约半数城市人口生活区域的空气污染程度至少超过世卫组织规定水平的2.5倍，仅有12%的城市人口生活区域符合世卫组织相关标准。"
+          },
+          {
+            "index": 16,
+            "paragraph": 14,
+            "startMs": 150240,
+            "endMs": 157224,
+            "text": "數據庫包括中國112個城市PM2.5與PM10的年均值。",
+            "textSimplified": "数据库包括中国112个城市PM2.5与PM10的年均值。"
+          },
+          {
+            "index": 17,
+            "paragraph": 14,
+            "startMs": 157224,
+            "endMs": 163536,
+            "text": "其中，烏魯木齊、西安、西寧、北京污染程度最嚴重。",
+            "textSimplified": "其中，乌鲁木齐、西安、西宁、北京污染程度最严重。"
+          },
+          {
+            "index": 18,
+            "paragraph": 14,
+            "startMs": 163536,
+            "endMs": 178968,
+            "text": "世衛組織官員建議，為提高空氣質量，中國城市建設應該採取合理規劃城市規模、減少燃煤取暖、完善公共交通、呼籲市民綠色出行等措施。",
+            "textSimplified": "世卫组织官员建议，为提高空气质量，中国城市建设应该采取合理规划城市规模、减少燃煤取暖、完善公共交通、呼吁市民绿色出行等措施。"
+          },
+          {
+            "index": 19,
+            "paragraph": 14,
+            "startMs": 178968,
+            "endMs": 187728,
+            "text": "而在減少室內空氣污染方面，換用清潔型爐灶並加強通風是最行之有效的辦法。",
+            "textSimplified": "而在减少室内空气污染方面，换用清洁型炉灶并加强通风是最行之有效的办法。"
+          },
+          {
+            "index": 20,
+            "paragraph": 16,
+            "startMs": 187728,
+            "endMs": 194448,
+            "text": "環境問題和經濟發展一樣重要，沒有了好的環境，就沒有了發展。",
+            "textSimplified": "环境问题和经济发展一样重要，没有了好的环境，就没有了发展。"
+          },
+          {
+            "index": 21,
+            "paragraph": 16,
+            "startMs": 194448,
+            "endMs": 203880,
+            "text": "既然我們已經知道了空氣污染的源頭以及危害，我們就應該共同努力，保護我們的地球家園。",
+            "textSimplified": "既然我们已经知道了空气污染的源头以及危害，我们就应该共同努力，保护我们的地球家园。"
+          },
+          {
+            "index": 22,
+            "paragraph": 18,
+            "startMs": 203880,
+            "endMs": 208656,
+            "text": "點讚 likes 4　　　　　評論 comments 1　　　　轉載 shares 5",
+            "textSimplified": "点赞 likes 4　　　　　评论 comments 1　　　　转载 shares 5"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter15/b01_ch15_p03_c.mp3",
+        "durationMs": 207216,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4440,
+            "text": "空氣污染—全球最大的環境風險",
+            "textSimplified": "空气污染—全球最大的环境风险"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4440,
+            "endMs": 12816,
+            "text": "博主：李鳴生　　　　　　發布日期：2015-12-09 20:45:55",
+            "textSimplified": "博主：李鸣生　　　　　　发布日期：2015-12-09 20:45:55"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 12816,
+            "endMs": 18528,
+            "text": "空氣污染，絕不只是空氣髒一點兒那麼簡單。",
+            "textSimplified": "空气污染，绝不只是空气脏一点儿那么简单。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 18528,
+            "endMs": 28128,
+            "text": "世界衛生組織去年發布的一項研究結果表明，2012年全球約700萬人死亡與空氣污染相關。",
+            "textSimplified": "世界卫生组织去年发布的一项研究结果表明，2012年全球约700万人死亡与空气污染相关。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 28128,
+            "endMs": 35448,
+            "text": "這意味著，那一年全世界每8名死者中，就有1名死於空氣污染。",
+            "textSimplified": "这意味著，那一年全世界每8名死者中，就有1名死于空气污染。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 35448,
+            "endMs": 51528,
+            "text": "今年9月，一個國際研究團隊在英國《自然》雜誌上報告說，僅室外空氣污染每年就導致全球300多萬人死亡，比瘧疾和艾滋病每年導致的死亡人數加起來還要多。",
+            "textSimplified": "今年9月，一个国际研究团队在英国《自然》杂志上报告说，仅室外空气污染每年就导致全球300多万人死亡，比疟疾和艾滋病每年导致的死亡人数加起来还要多。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 51528,
+            "endMs": 65664,
+            "text": "研究人員認為，如果空氣污染排放量不變的話，由室外空氣污染導致的死亡到2050年可能還會翻倍，屆時每年預計會造成660萬人死亡。",
+            "textSimplified": "研究人员认为，如果空气污染排放量不变的话，由室外空气污染导致的死亡到2050年可能还会翻倍，届时每年预计会造成660万人死亡。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 65664,
+            "endMs": 72624,
+            "text": "一位世衛組織官員說，「空氣污染現已成為最大的環境健康威脅。",
+            "textSimplified": "一位世卫组织官员说，「空气污染现已成为最大的环境健康威胁。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 72624,
+            "endMs": 77472,
+            "text": "這裡的空氣污染既包括室內也包括室外。",
+            "textSimplified": "这里的空气污染既包括室内也包括室外。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 77472,
+            "endMs": 84024,
+            "text": "這一問題影響我們每個人，無論是發展中國家還是發達國家。",
+            "textSimplified": "这一问题影响我们每个人，无论是发展中国家还是发达国家。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 84024,
+            "endMs": 93960,
+            "text": "」因空氣污染死亡者通常死於心臟病、中風或肺部疾病，一些人則死於肺癌或急性呼吸道感染。",
+            "textSimplified": "」因空气污染死亡者通常死于心脏病、中风或肺部疾病，一些人则死于肺癌或急性呼吸道感染。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 93960,
+            "endMs": 100632,
+            "text": "室內空氣污染主要原因是使用煤炭、木頭作為燃料做飯。",
+            "textSimplified": "室内空气污染主要原因是使用煤炭、木头作为燃料做饭。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 100632,
+            "endMs": 109416,
+            "text": "室外空氣污染主要來源是汽車尾氣、發電站、工農業排放以及居民供暖和烹飪。",
+            "textSimplified": "室外空气污染主要来源是汽车尾气、发电站、工农业排放以及居民供暖和烹饪。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 109416,
+            "endMs": 124080,
+            "text": "一些人口眾多的發展中國家，工業化和城市化發展迅速，在繁榮的同時，隨之而來的是大量的汽車尾氣，而這些尾氣便成為室外空氣污染的罪魁禍首。",
+            "textSimplified": "一些人口众多的发展中国家，工业化和城市化发展迅速，在繁荣的同时，随之而来的是大量的汽车尾气，而这些尾气便成为室外空气污染的罪魁祸首。"
+          },
+          {
+            "index": 14,
+            "paragraph": 12,
+            "startMs": 124080,
+            "endMs": 134064,
+            "text": "世界衛生組織去年5月發布最新城市空氣質量數據庫，涵蓋了90個國家中的1600個城市。",
+            "textSimplified": "世界卫生组织去年5月发布最新城市空气质量数据库，涵盖了90个国家中的1600个城市。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 134064,
+            "endMs": 149496,
+            "text": "數據庫顯示，約半數城市人口生活區域的空氣污染程度至少超過世衛組織規定水平的2.5倍，僅有12%的城市人口生活區域符合世衛組織相關標準。",
+            "textSimplified": "数据库显示，约半数城市人口生活区域的空气污染程度至少超过世卫组织规定水平的2.5倍，仅有12%的城市人口生活区域符合世卫组织相关标准。"
+          },
+          {
+            "index": 16,
+            "paragraph": 14,
+            "startMs": 149496,
+            "endMs": 156168,
+            "text": "數據庫包括中國112個城市PM2.5與PM10的年均值。",
+            "textSimplified": "数据库包括中国112个城市PM2.5与PM10的年均值。"
+          },
+          {
+            "index": 17,
+            "paragraph": 14,
+            "startMs": 156168,
+            "endMs": 163080,
+            "text": "其中，烏魯木齊、西安、西寧、北京污染程度最嚴重。",
+            "textSimplified": "其中，乌鲁木齐、西安、西宁、北京污染程度最严重。"
+          },
+          {
+            "index": 18,
+            "paragraph": 14,
+            "startMs": 163080,
+            "endMs": 177624,
+            "text": "世衛組織官員建議，為提高空氣質量，中國城市建設應該採取合理規劃城市規模、減少燃煤取暖、完善公共交通、呼籲市民綠色出行等措施。",
+            "textSimplified": "世卫组织官员建议，为提高空气质量，中国城市建设应该采取合理规划城市规模、减少燃煤取暖、完善公共交通、呼吁市民绿色出行等措施。"
+          },
+          {
+            "index": 19,
+            "paragraph": 14,
+            "startMs": 177624,
+            "endMs": 186192,
+            "text": "而在減少室內空氣污染方面，換用清潔型爐灶並加強通風是最行之有效的辦法。",
+            "textSimplified": "而在减少室内空气污染方面，换用清洁型炉灶并加强通风是最行之有效的办法。"
+          },
+          {
+            "index": 20,
+            "paragraph": 16,
+            "startMs": 186192,
+            "endMs": 193368,
+            "text": "環境問題和經濟發展一樣重要，沒有了好的環境，就沒有了發展。",
+            "textSimplified": "环境问题和经济发展一样重要，没有了好的环境，就没有了发展。"
+          },
+          {
+            "index": 21,
+            "paragraph": 16,
+            "startMs": 193368,
+            "endMs": 202776,
+            "text": "既然我們已經知道了空氣污染的源頭以及危害，我們就應該共同努力，保護我們的地球家園。",
+            "textSimplified": "既然我们已经知道了空气污染的源头以及危害，我们就应该共同努力，保护我们的地球家园。"
+          },
+          {
+            "index": 22,
+            "paragraph": 18,
+            "startMs": 202776,
+            "endMs": 207216,
+            "text": "點讚 likes 4　　　　　評論 comments 1　　　　轉載 shares 5",
+            "textSimplified": "点赞 likes 4　　　　　评论 comments 1　　　　转载 shares 5"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter15/b01_ch15_p04_m.mp3",
+        "durationMs": 186432,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2160,
+            "text": "春　　朱自清",
+            "textSimplified": "春　　朱自清"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2160,
+            "endMs": 7392,
+            "text": "盼望著，盼望著，東風來了，春天的腳步近了。",
+            "textSimplified": "盼望著，盼望著，东风来了，春天的脚步近了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7392,
+            "endMs": 12024,
+            "text": "一切都像剛睡醒的樣子，欣欣然張開了眼。",
+            "textSimplified": "一切都像刚睡醒的样子，欣欣然张开了眼。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 12024,
+            "endMs": 17160,
+            "text": "山朗潤起來了，水漲起來了，太陽的臉紅起來了。",
+            "textSimplified": "山朗润起来了，水涨起来了，太阳的脸红起来了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 17160,
+            "endMs": 22176,
+            "text": "小草偷偷地從土裡鑽出來，嫩嫩的，綠綠的。",
+            "textSimplified": "小草偷偷地从土里钻出来，嫩嫩的，绿绿的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 22176,
+            "endMs": 27744,
+            "text": "園子裡，四野裡，瞧去，一大片一大片滿是的。",
+            "textSimplified": "园子里，四野里，瞧去，一大片一大片满是的。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 27744,
+            "endMs": 34992,
+            "text": "坐著，躺著，打兩個滾，踢幾腳球，賽幾趟跑，捉幾回迷藏。",
+            "textSimplified": "坐著，躺著，打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 34992,
+            "endMs": 38424,
+            "text": "風輕悄悄的，草軟綿綿的。",
+            "textSimplified": "风轻悄悄的，草软绵绵的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 38424,
+            "endMs": 45240,
+            "text": "桃樹、杏樹、梨樹，你不讓我，我不讓你，都開滿了花趕趟兒。",
+            "textSimplified": "桃树、杏树、梨树，你不让我，我不让你，都开满了花赶趟儿。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 45240,
+            "endMs": 49320,
+            "text": "紅的像火，粉的像霞，白的像雪。",
+            "textSimplified": "红的像火，粉的像霞，白的像雪。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 49320,
+            "endMs": 55968,
+            "text": "花裡帶著甜味兒，閉了眼，樹上彷彿已經滿是桃兒、杏兒、梨兒！",
+            "textSimplified": "花里带著甜味儿，闭了眼，树上仿佛已经满是桃儿、杏儿、梨儿！"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 55968,
+            "endMs": 62256,
+            "text": "花下成千成百的蜜蜂嗡嗡地鬧著，大小的蝴蝶飛來飛去。",
+            "textSimplified": "花下成千成百的蜜蜂嗡嗡地闹著，大小的蝴蝶飞来飞去。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 62256,
+            "endMs": 71688,
+            "text": "野花遍地是：雜樣兒，有名字的，沒名字的，散在草叢裡像眼睛，像星星，還眨呀眨的。",
+            "textSimplified": "野花遍地是：杂样儿，有名字的，没名字的，散在草丛里像眼睛，像星星，还眨呀眨的。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 71688,
+            "endMs": 77112,
+            "text": "「吹面不寒楊柳風」，不錯的，像母親的手撫摸著你。",
+            "textSimplified": "「吹面不寒杨柳风」，不错的，像母亲的手抚摸著你。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 77112,
+            "endMs": 86160,
+            "text": "風裡帶來些新翻的泥土氣息，混著青草味兒，還有各種花的香都在微微潤濕的空氣裡醞釀。",
+            "textSimplified": "风里带来些新翻的泥土气息，混著青草味儿，还有各种花的香都在微微润湿的空气里酝酿。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 86160,
+            "endMs": 98160,
+            "text": "鳥兒將窠巢安在繁花嫩葉當中，高興起來了，呼朋引伴地賣弄清脆的喉嚨，唱出宛轉的曲子，與輕風流水應和著。",
+            "textSimplified": "鸟儿将窠巢安在繁花嫩叶当中，高兴起来了，呼朋引伴地卖弄清脆的喉咙，唱出宛转的曲子，与轻风流水应和著。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 98160,
+            "endMs": 103368,
+            "text": "牛背上牧童的短笛，這時候也成天嘹亮地響。",
+            "textSimplified": "牛背上牧童的短笛，这时候也成天嘹亮地响。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 103368,
+            "endMs": 107232,
+            "text": "雨是最尋常的，一下就是兩三天。",
+            "textSimplified": "雨是最寻常的，一下就是两三天。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 107232,
+            "endMs": 109008,
+            "text": "可別惱。",
+            "textSimplified": "可别恼。"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 109008,
+            "endMs": 118008,
+            "text": "看，像牛毛，像花針，像細絲，密密地斜織著，人家屋頂上全籠著一層薄煙。",
+            "textSimplified": "看，像牛毛，像花针，像细丝，密密地斜织著，人家屋顶上全笼著一层薄烟。"
+          },
+          {
+            "index": 20,
+            "paragraph": 12,
+            "startMs": 118008,
+            "endMs": 122904,
+            "text": "樹葉子卻綠得發亮，小草兒也青得逼你的眼。",
+            "textSimplified": "树叶子却绿得发亮，小草儿也青得逼你的眼。"
+          },
+          {
+            "index": 21,
+            "paragraph": 12,
+            "startMs": 122904,
+            "endMs": 129984,
+            "text": "傍晚時候，上燈了，一點點黃暈的光，烘托出一片安靜而和平的夜。",
+            "textSimplified": "傍晚时候，上灯了，一点点黄晕的光，烘托出一片安静而和平的夜。"
+          },
+          {
+            "index": 22,
+            "paragraph": 12,
+            "startMs": 129984,
+            "endMs": 135936,
+            "text": "鄉下去，小路上，石橋邊，有撐起傘慢慢走著的人；",
+            "textSimplified": "乡下去，小路上，石桥边，有撑起伞慢慢走著的人；"
+          },
+          {
+            "index": 23,
+            "paragraph": 12,
+            "startMs": 135936,
+            "endMs": 140448,
+            "text": "還有地裡工作的農夫，披著蓑，戴著笠。",
+            "textSimplified": "还有地里工作的农夫，披著蓑，戴著笠。"
+          },
+          {
+            "index": 24,
+            "paragraph": 12,
+            "startMs": 140448,
+            "endMs": 145224,
+            "text": "他們的房屋，稀稀疏疏的，在雨裡靜默著。",
+            "textSimplified": "他们的房屋，稀稀疏疏的，在雨里静默著。"
+          },
+          {
+            "index": 25,
+            "paragraph": 14,
+            "startMs": 145224,
+            "endMs": 147864,
+            "text": "天上風箏漸漸多了。",
+            "textSimplified": "天上风筝渐渐多了。"
+          },
+          {
+            "index": 26,
+            "paragraph": 14,
+            "startMs": 147864,
+            "endMs": 150120,
+            "text": "地上孩子也多了。",
+            "textSimplified": "地上孩子也多了。"
+          },
+          {
+            "index": 27,
+            "paragraph": 14,
+            "startMs": 150120,
+            "endMs": 157248,
+            "text": "城裡鄉下，家家戶戶，老老小小，也趕趟兒似的，一個個都出來了。",
+            "textSimplified": "城里乡下，家家户户，老老小小，也赶趟儿似的，一个个都出来了。"
+          },
+          {
+            "index": 28,
+            "paragraph": 14,
+            "startMs": 157248,
+            "endMs": 163056,
+            "text": "舒活舒活筋骨，抖擻精神，各做各的一份兒事去了。",
+            "textSimplified": "舒活舒活筋骨，抖擞精神，各做各的一份儿事去了。"
+          },
+          {
+            "index": 29,
+            "paragraph": 14,
+            "startMs": 163056,
+            "endMs": 168984,
+            "text": "「一年之計在於春」，剛起頭兒，有的是工夫，有的是希望。",
+            "textSimplified": "「一年之计在于春」，刚起头儿，有的是工夫，有的是希望。"
+          },
+          {
+            "index": 30,
+            "paragraph": 16,
+            "startMs": 168984,
+            "endMs": 174864,
+            "text": "春天像剛落地的娃娃，從頭到腳都是新的，它生長著。",
+            "textSimplified": "春天像刚落地的娃娃，从头到脚都是新的，它生长著。"
+          },
+          {
+            "index": 31,
+            "paragraph": 18,
+            "startMs": 174864,
+            "endMs": 180000,
+            "text": "春天像小姑娘，花枝招展的，笑著，走著。",
+            "textSimplified": "春天像小姑娘，花枝招展的，笑著，走著。"
+          },
+          {
+            "index": 32,
+            "paragraph": 20,
+            "startMs": 180000,
+            "endMs": 186432,
+            "text": "春天像健壯的青年，有鐵一般的胳膊和腰腳，領著我們上前去。",
+            "textSimplified": "春天像健壮的青年，有铁一般的胳膊和腰脚，领著我们上前去。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter15/b01_ch15_p04_c.mp3",
+        "durationMs": 200976,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2304,
+            "text": "春　　朱自清",
+            "textSimplified": "春　　朱自清"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2304,
+            "endMs": 8208,
+            "text": "盼望著，盼望著，東風來了，春天的腳步近了。",
+            "textSimplified": "盼望著，盼望著，东风来了，春天的脚步近了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 8208,
+            "endMs": 13632,
+            "text": "一切都像剛睡醒的樣子，欣欣然張開了眼。",
+            "textSimplified": "一切都像刚睡醒的样子，欣欣然张开了眼。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 13632,
+            "endMs": 19632,
+            "text": "山朗潤起來了，水漲起來了，太陽的臉紅起來了。",
+            "textSimplified": "山朗润起来了，水涨起来了，太阳的脸红起来了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 19632,
+            "endMs": 24936,
+            "text": "小草偷偷地從土裡鑽出來，嫩嫩的，綠綠的。",
+            "textSimplified": "小草偷偷地从土里钻出来，嫩嫩的，绿绿的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 24936,
+            "endMs": 31152,
+            "text": "園子裡，四野裡，瞧去，一大片一大片滿是的。",
+            "textSimplified": "园子里，四野里，瞧去，一大片一大片满是的。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 31152,
+            "endMs": 38664,
+            "text": "坐著，躺著，打兩個滾，踢幾腳球，賽幾趟跑，捉幾回迷藏。",
+            "textSimplified": "坐著，躺著，打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 38664,
+            "endMs": 42216,
+            "text": "風輕悄悄的，草軟綿綿的。",
+            "textSimplified": "风轻悄悄的，草软绵绵的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 42216,
+            "endMs": 50328,
+            "text": "桃樹、杏樹、梨樹，你不讓我，我不讓你，都開滿了花趕趟兒。",
+            "textSimplified": "桃树、杏树、梨树，你不让我，我不让你，都开满了花赶趟儿。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 50328,
+            "endMs": 54744,
+            "text": "紅的像火，粉的像霞，白的像雪。",
+            "textSimplified": "红的像火，粉的像霞，白的像雪。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 54744,
+            "endMs": 62688,
+            "text": "花裡帶著甜味兒，閉了眼，樹上彷彿已經滿是桃兒、杏兒、梨兒！",
+            "textSimplified": "花里带著甜味儿，闭了眼，树上仿佛已经满是桃儿、杏儿、梨儿！"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 62688,
+            "endMs": 69048,
+            "text": "花下成千成百的蜜蜂嗡嗡地鬧著，大小的蝴蝶飛來飛去。",
+            "textSimplified": "花下成千成百的蜜蜂嗡嗡地闹著，大小的蝴蝶飞来飞去。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 69048,
+            "endMs": 78840,
+            "text": "野花遍地是：雜樣兒，有名字的，沒名字的，散在草叢裡像眼睛，像星星，還眨呀眨的。",
+            "textSimplified": "野花遍地是：杂样儿，有名字的，没名字的，散在草丛里像眼睛，像星星，还眨呀眨的。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 78840,
+            "endMs": 84672,
+            "text": "「吹面不寒楊柳風」，不錯的，像母親的手撫摸著你。",
+            "textSimplified": "「吹面不寒杨柳风」，不错的，像母亲的手抚摸著你。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 84672,
+            "endMs": 93816,
+            "text": "風裡帶來些新翻的泥土氣息，混著青草味兒，還有各種花的香都在微微潤濕的空氣裡醞釀。",
+            "textSimplified": "风里带来些新翻的泥土气息，混著青草味儿，还有各种花的香都在微微润湿的空气里酝酿。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 93816,
+            "endMs": 105672,
+            "text": "鳥兒將窠巢安在繁花嫩葉當中，高興起來了，呼朋引伴地賣弄清脆的喉嚨，唱出宛轉的曲子，與輕風流水應和著。",
+            "textSimplified": "鸟儿将窠巢安在繁花嫩叶当中，高兴起来了，呼朋引伴地卖弄清脆的喉咙，唱出宛转的曲子，与轻风流水应和著。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 105672,
+            "endMs": 111144,
+            "text": "牛背上牧童的短笛，這時候也成天嘹亮地響。",
+            "textSimplified": "牛背上牧童的短笛，这时候也成天嘹亮地响。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 111144,
+            "endMs": 115680,
+            "text": "雨是最尋常的，一下就是兩三天。",
+            "textSimplified": "雨是最寻常的，一下就是两三天。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 115680,
+            "endMs": 117648,
+            "text": "可別惱。",
+            "textSimplified": "可别恼。"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 117648,
+            "endMs": 126696,
+            "text": "看，像牛毛，像花針，像細絲，密密地斜織著，人家屋頂上全籠著一層薄煙。",
+            "textSimplified": "看，像牛毛，像花针，像细丝，密密地斜织著，人家屋顶上全笼著一层薄烟。"
+          },
+          {
+            "index": 20,
+            "paragraph": 12,
+            "startMs": 126696,
+            "endMs": 132000,
+            "text": "樹葉子卻綠得發亮，小草兒也青得逼你的眼。",
+            "textSimplified": "树叶子却绿得发亮，小草儿也青得逼你的眼。"
+          },
+          {
+            "index": 21,
+            "paragraph": 12,
+            "startMs": 132000,
+            "endMs": 139824,
+            "text": "傍晚時候，上燈了，一點點黃暈的光，烘托出一片安靜而和平的夜。",
+            "textSimplified": "傍晚时候，上灯了，一点点黄晕的光，烘托出一片安静而和平的夜。"
+          },
+          {
+            "index": 22,
+            "paragraph": 12,
+            "startMs": 139824,
+            "endMs": 146328,
+            "text": "鄉下去，小路上，石橋邊，有撐起傘慢慢走著的人；",
+            "textSimplified": "乡下去，小路上，石桥边，有撑起伞慢慢走著的人；"
+          },
+          {
+            "index": 23,
+            "paragraph": 12,
+            "startMs": 146328,
+            "endMs": 151200,
+            "text": "還有地裡工作的農夫，披著蓑，戴著笠。",
+            "textSimplified": "还有地里工作的农夫，披著蓑，戴著笠。"
+          },
+          {
+            "index": 24,
+            "paragraph": 12,
+            "startMs": 151200,
+            "endMs": 156072,
+            "text": "他們的房屋，稀稀疏疏的，在雨裡靜默著。",
+            "textSimplified": "他们的房屋，稀稀疏疏的，在雨里静默著。"
+          },
+          {
+            "index": 25,
+            "paragraph": 14,
+            "startMs": 156072,
+            "endMs": 159312,
+            "text": "天上風箏漸漸多了。",
+            "textSimplified": "天上风筝渐渐多了。"
+          },
+          {
+            "index": 26,
+            "paragraph": 14,
+            "startMs": 159312,
+            "endMs": 162048,
+            "text": "地上孩子也多了。",
+            "textSimplified": "地上孩子也多了。"
+          },
+          {
+            "index": 27,
+            "paragraph": 14,
+            "startMs": 162048,
+            "endMs": 169992,
+            "text": "城裡鄉下，家家戶戶，老老小小，也趕趟兒似的，一個個都出來了。",
+            "textSimplified": "城里乡下，家家户户，老老小小，也赶趟儿似的，一个个都出来了。"
+          },
+          {
+            "index": 28,
+            "paragraph": 14,
+            "startMs": 169992,
+            "endMs": 175872,
+            "text": "舒活舒活筋骨，抖擻精神，各做各的一份兒事去了。",
+            "textSimplified": "舒活舒活筋骨，抖擞精神，各做各的一份儿事去了。"
+          },
+          {
+            "index": 29,
+            "paragraph": 14,
+            "startMs": 175872,
+            "endMs": 182496,
+            "text": "「一年之計在於春」，剛起頭兒，有的是工夫，有的是希望。",
+            "textSimplified": "「一年之计在于春」，刚起头儿，有的是工夫，有的是希望。"
+          },
+          {
+            "index": 30,
+            "paragraph": 16,
+            "startMs": 182496,
+            "endMs": 188808,
+            "text": "春天像剛落地的娃娃，從頭到腳都是新的，它生長著。",
+            "textSimplified": "春天像刚落地的娃娃，从头到脚都是新的，它生长著。"
+          },
+          {
+            "index": 31,
+            "paragraph": 18,
+            "startMs": 188808,
+            "endMs": 194160,
+            "text": "春天像小姑娘，花枝招展的，笑著，走著。",
+            "textSimplified": "春天像小姑娘，花枝招展的，笑著，走著。"
+          },
+          {
+            "index": 32,
+            "paragraph": 20,
+            "startMs": 194160,
+            "endMs": 200976,
+            "text": "春天像健壯的青年，有鐵一般的胳膊和腰腳，領著我們上前去。",
+            "textSimplified": "春天像健壮的青年，有铁一般的胳膊和腰脚，领著我们上前去。"
+          }
+        ]
+      }
+    }
   ]
 }

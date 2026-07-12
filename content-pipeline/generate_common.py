@@ -51,14 +51,20 @@ LANGUAGES = {
 # so click-to-jump lands on a natural resumption point.
 SENTENCE_TERMINATORS = "。！？…；"
 
+# M9.6 fix - closing-quote characters that grammatically belong to the
+# sentence they close. Attached to the preceding sentence, not left
+# floating as their own "sentence" (which would fail edge-tts synthesis).
+CLOSING_QUOTES = "」』\u201D\u2019"  # 」 』 " '
+
 
 def split_passage_into_sentences(passage_text):
     """Split a passage into a flat list of sentence dicts.
 
     Paragraphs split on '\\n' (Alt+Enter in the Excel Content sheet).
-    Within a paragraph, split *after* each terminator in 。！？…；, keeping
-    the terminator attached to the preceding sentence so playback ends
-    on a natural cadence. Whitespace stripped; empty sentences skipped.
+    Within a paragraph, split *after* each terminator in 。！？…；, then
+    absorb any closing-quote characters (」 』 " ') that immediately
+    follow — they belong to the sentence they close. Whitespace stripped;
+    empty sentences skipped.
 
     Returns: list of {"paragraph": int, "text": str}
     """
@@ -67,14 +73,22 @@ def split_passage_into_sentences(passage_text):
         para = para.strip()
         if not para:
             continue
+        chars = list(para)
         current = ""
-        for ch in para:
+        i = 0
+        while i < len(chars):
+            ch = chars[i]
             current += ch
             if ch in SENTENCE_TERMINATORS:
+                # M9.6 fix - absorb any immediately-following closing quotes.
+                while i + 1 < len(chars) and chars[i + 1] in CLOSING_QUOTES:
+                    i += 1
+                    current += chars[i]
                 text = current.strip()
                 if text:
                     result.append({"paragraph": para_idx, "text": text})
                 current = ""
+            i += 1
         tail = current.strip()
         if tail:
             # Paragraph didn't end with a terminator (e.g. list item, heading);

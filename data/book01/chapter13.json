@@ -681,5 +681,675 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book01/chapter13/b01_ch13_p01_m.mp3",
+        "durationMs": 119304,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3192,
+            "text": "一生必去的五座中國城市",
+            "textSimplified": "一生必去的五座中国城市"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3192,
+            "endMs": 14544,
+            "text": "中國有許許多多的城市，每個城市都有自己的特色，都很值得一去，其中五個城市是中國人一生必須要去一趟的地方。",
+            "textSimplified": "中国有许许多多的城市，每个城市都有自己的特色，都很值得一去，其中五个城市是中国人一生必须要去一趟的地方。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 14544,
+            "endMs": 25392,
+            "text": "西安，中國底蘊最深厚的城市，作為一座十三朝古都，這裡承載了太多的中國歷史，曾經是世界的中心。",
+            "textSimplified": "西安，中国底蕴最深厚的城市，作为一座十三朝古都，这里承载了太多的中国历史，曾经是世界的中心。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 25392,
+            "endMs": 34968,
+            "text": "西安歷史悠久，有許多歷史文化古蹟，兵馬俑、大雁塔、小雁塔等被列入「世界遺產名錄」。",
+            "textSimplified": "西安历史悠久，有许多历史文化古迹，兵马俑、大雁塔、小雁塔等被列入「世界遗产名录」。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 34968,
+            "endMs": 43728,
+            "text": "來到西安，你可以欣賞有歷史感的古城牆和兵馬俑等，還可以吃到西安各種特色小吃。",
+            "textSimplified": "来到西安，你可以欣赏有历史感的古城墙和兵马俑等，还可以吃到西安各种特色小吃。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 43728,
+            "endMs": 51720,
+            "text": "杭州，自古就被譽為「人間天堂」，這裡有美麗的西湖，城市綠化，空氣清新。",
+            "textSimplified": "杭州，自古就被誉为「人间天堂」，这里有美丽的西湖，城市绿化，空气清新。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 51720,
+            "endMs": 60264,
+            "text": "杭州最著名的景點當屬西湖，西湖也是中國知名景區中門票免費的地方之一。",
+            "textSimplified": "杭州最著名的景点当属西湖，西湖也是中国知名景区中门票免费的地方之一。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 60264,
+            "endMs": 65664,
+            "text": "杭州內有千島湖等著名景區，很受遊客的歡迎。",
+            "textSimplified": "杭州内有千岛湖等著名景区，很受游客的欢迎。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 65664,
+            "endMs": 85992,
+            "text": "三亞，中國最好的海濱度假城市，特別是對地處內陸的中國人來說，人人都對大海有無限的嚮往，而三亞絕對是最好的選擇，三亞的沙灘、海水、天氣都是一流的，水果、海鮮也都很新鮮。",
+            "textSimplified": "三亚，中国最好的海滨度假城市，特别是对地处内陆的中国人来说，人人都对大海有无限的向往，而三亚绝对是最好的选择，三亚的沙滩、海水、天气都是一流的，水果、海鲜也都很新鲜。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 85992,
+            "endMs": 94944,
+            "text": "三亞除了有美麗的沙灘，還有眾多美麗的景點，比如天涯海角、南山文化旅遊區等等。",
+            "textSimplified": "三亚除了有美丽的沙滩，还有众多美丽的景点，比如天涯海角、南山文化旅游区等等。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 94944,
+            "endMs": 99288,
+            "text": "「桂林山水甲天下」，每個中國人都知道。",
+            "textSimplified": "「桂林山水甲天下」，每个中国人都知道。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 99288,
+            "endMs": 102576,
+            "text": "那裡風景美麗，空氣清新。",
+            "textSimplified": "那里风景美丽，空气清新。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 102576,
+            "endMs": 112992,
+            "text": "桂林的風光確實很驚艷，桂林主要的景點有灕江、象鼻山等等，還有來到桂林，記得品嚐桂林米粉。",
+            "textSimplified": "桂林的风光确实很惊艳，桂林主要的景点有漓江、象鼻山等等，还有来到桂林，记得品尝桂林米粉。"
+          },
+          {
+            "index": 13,
+            "paragraph": 12,
+            "startMs": 112992,
+            "endMs": 119304,
+            "text": "想知道最後還有哪一個城市，記得收聽我們的節目《旅遊特工》！",
+            "textSimplified": "想知道最后还有哪一个城市，记得收听我们的节目《旅游特工》！"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter13/b01_ch13_p01_c.mp3",
+        "durationMs": 122400,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3624,
+            "text": "一生必去的五座中國城市",
+            "textSimplified": "一生必去的五座中国城市"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3624,
+            "endMs": 15000,
+            "text": "中國有許許多多的城市，每個城市都有自己的特色，都很值得一去，其中五個城市是中國人一生必須要去一趟的地方。",
+            "textSimplified": "中国有许许多多的城市，每个城市都有自己的特色，都很值得一去，其中五个城市是中国人一生必须要去一趟的地方。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 15000,
+            "endMs": 26424,
+            "text": "西安，中國底蘊最深厚的城市，作為一座十三朝古都，這裡承載了太多的中國歷史，曾經是世界的中心。",
+            "textSimplified": "西安，中国底蕴最深厚的城市，作为一座十三朝古都，这里承载了太多的中国历史，曾经是世界的中心。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 26424,
+            "endMs": 36072,
+            "text": "西安歷史悠久，有許多歷史文化古蹟，兵馬俑、大雁塔、小雁塔等被列入「世界遺產名錄」。",
+            "textSimplified": "西安历史悠久，有许多历史文化古迹，兵马俑、大雁塔、小雁塔等被列入「世界遗产名录」。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 36072,
+            "endMs": 44928,
+            "text": "來到西安，你可以欣賞有歷史感的古城牆和兵馬俑等，還可以吃到西安各種特色小吃。",
+            "textSimplified": "来到西安，你可以欣赏有历史感的古城墙和兵马俑等，还可以吃到西安各种特色小吃。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 44928,
+            "endMs": 53592,
+            "text": "杭州，自古就被譽為「人間天堂」，這裡有美麗的西湖，城市綠化，空氣清新。",
+            "textSimplified": "杭州，自古就被誉为「人间天堂」，这里有美丽的西湖，城市绿化，空气清新。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 53592,
+            "endMs": 61848,
+            "text": "杭州最著名的景點當屬西湖，西湖也是中國知名景區中門票免費的地方之一。",
+            "textSimplified": "杭州最著名的景点当属西湖，西湖也是中国知名景区中门票免费的地方之一。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 61848,
+            "endMs": 67344,
+            "text": "杭州內有千島湖等著名景區，很受遊客的歡迎。",
+            "textSimplified": "杭州内有千岛湖等著名景区，很受游客的欢迎。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 67344,
+            "endMs": 86520,
+            "text": "三亞，中國最好的海濱度假城市，特別是對地處內陸的中國人來說，人人都對大海有無限的嚮往，而三亞絕對是最好的選擇，三亞的沙灘、海水、天氣都是一流的，水果、海鮮也都很新鮮。",
+            "textSimplified": "三亚，中国最好的海滨度假城市，特别是对地处内陆的中国人来说，人人都对大海有无限的向往，而三亚绝对是最好的选择，三亚的沙滩、海水、天气都是一流的，水果、海鲜也都很新鲜。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 86520,
+            "endMs": 95616,
+            "text": "三亞除了有美麗的沙灘，還有眾多美麗的景點，比如天涯海角、南山文化旅遊區等等。",
+            "textSimplified": "三亚除了有美丽的沙滩，还有众多美丽的景点，比如天涯海角、南山文化旅游区等等。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 95616,
+            "endMs": 100680,
+            "text": "「桂林山水甲天下」，每個中國人都知道。",
+            "textSimplified": "「桂林山水甲天下」，每个中国人都知道。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 100680,
+            "endMs": 104640,
+            "text": "那裡風景美麗，空氣清新。",
+            "textSimplified": "那里风景美丽，空气清新。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 104640,
+            "endMs": 115056,
+            "text": "桂林的風光確實很驚艷，桂林主要的景點有灕江、象鼻山等等，還有來到桂林，記得品嚐桂林米粉。",
+            "textSimplified": "桂林的风光确实很惊艳，桂林主要的景点有漓江、象鼻山等等，还有来到桂林，记得品尝桂林米粉。"
+          },
+          {
+            "index": 13,
+            "paragraph": 12,
+            "startMs": 115056,
+            "endMs": 122400,
+            "text": "想知道最後還有哪一個城市，記得收聽我們的節目《旅遊特工》！",
+            "textSimplified": "想知道最后还有哪一个城市，记得收听我们的节目《旅游特工》！"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 1,
+      "mandarin": {
+        "file": "audio/book01/chapter13/b01_ch13_p02_m.mp3",
+        "durationMs": 35976,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 17016,
+            "text": "北京，作為中華人民共和國的首都，是中國人都認識的城市，《我愛北京天安門》也是我們小時候都背誦的文章，每個中國人從小時候就一直想到北京看看天安門，看看長城。",
+            "textSimplified": "北京，作为中华人民共和国的首都，是中国人都认识的城市，《我爱北京天安门》也是我们小时候都背诵的文章，每个中国人从小时候就一直想到北京看看天安门，看看长城。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 17016,
+            "endMs": 35976,
+            "text": "北京也是一座有很多年歷史的古城，有歷史古蹟如圓明園、頤和園、八達嶺長城、明十三陵，也有奧林匹克公園、鳥巢等建築景點，還有北京大學、清華大學等中國有名的高等學府。",
+            "textSimplified": "北京也是一座有很多年历史的古城，有历史古迹如圆明园、颐和园、八达岭长城、明十三陵，也有奥林匹克公园、鸟巢等建筑景点，还有北京大学、清华大学等中国有名的高等学府。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter13/b01_ch13_p02_c.mp3",
+        "durationMs": 34512,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 16824,
+            "text": "北京，作為中華人民共和國的首都，是中國人都認識的城市，《我愛北京天安門》也是我們小時候都背誦的文章，每個中國人從小時候就一直想到北京看看天安門，看看長城。",
+            "textSimplified": "北京，作为中华人民共和国的首都，是中国人都认识的城市，《我爱北京天安门》也是我们小时候都背诵的文章，每个中国人从小时候就一直想到北京看看天安门，看看长城。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 16824,
+            "endMs": 34512,
+            "text": "北京也是一座有很多年歷史的古城，有歷史古蹟如圓明園、頤和園、八達嶺長城、明十三陵，也有奧林匹克公園、鳥巢等建築景點，還有北京大學、清華大學等中國有名的高等學府。",
+            "textSimplified": "北京也是一座有很多年历史的古城，有历史古迹如圆明园、颐和园、八达岭长城、明十三陵，也有奥林匹克公园、鸟巢等建筑景点，还有北京大学、清华大学等中国有名的高等学府。"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 2,
+      "mandarin": {
+        "file": "audio/book01/chapter13/b01_ch13_p03_m.mp3",
+        "durationMs": 129240,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 2544,
+            "text": "住在城裡還是郊區？",
+            "textSimplified": "住在城里还是郊区？"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 2544,
+            "endMs": 5616,
+            "text": "中國人都愛住在大城市。",
+            "textSimplified": "中国人都爱住在大城市。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 5616,
+            "endMs": 14520,
+            "text": "城裡在環境、醫療、教育等方方面面都比農村好，所以有錢的人大多都在城裡。",
+            "textSimplified": "城里在环境、医疗、教育等方方面面都比农村好，所以有钱的人大多都在城里。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14520,
+            "endMs": 20160,
+            "text": "而美國情況正好相反，窮人住城裡，富人住郊區。",
+            "textSimplified": "而美国情况正好相反，穷人住城里，富人住郊区。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 20160,
+            "endMs": 23856,
+            "text": "為什麼美國人喜歡郊區的房子呢？",
+            "textSimplified": "为什么美国人喜欢郊区的房子呢？"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 23856,
+            "endMs": 30576,
+            "text": "對於普通美國家庭來說，大城市市中心的房子一般都是天價。",
+            "textSimplified": "对于普通美国家庭来说，大城市市中心的房子一般都是天价。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 30576,
+            "endMs": 35880,
+            "text": "所以，大部分美國人成家後，都會在市郊買房。",
+            "textSimplified": "所以，大部分美国人成家后，都会在市郊买房。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 35880,
+            "endMs": 42096,
+            "text": "房價會便宜很多，而且可以住更大的房子，有更漂亮的花園。",
+            "textSimplified": "房价会便宜很多，而且可以住更大的房子，有更漂亮的花园。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 42096,
+            "endMs": 49368,
+            "text": "對於在輪子上長大的美國人來說，開車一小時左右去上班已經習慣了。",
+            "textSimplified": "对于在轮子上长大的美国人来说，开车一小时左右去上班已经习惯了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 49368,
+            "endMs": 54432,
+            "text": "在美國，沒有車就像沒有腿一樣，沒法出門。",
+            "textSimplified": "在美国，没有车就像没有腿一样，没法出门。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 54432,
+            "endMs": 57528,
+            "text": "美國的房子都有前後院。",
+            "textSimplified": "美国的房子都有前后院。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 57528,
+            "endMs": 64632,
+            "text": "前院具有展示功能，有錢的人都會請專業的園林設計師設計和修建。",
+            "textSimplified": "前院具有展示功能，有钱的人都会请专业的园林设计师设计和修建。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 64632,
+            "endMs": 75024,
+            "text": "如果有物業管理的話，園林設計方案都要經過批准，確保和小區的風格協調，對鄰居不會有不良影響。",
+            "textSimplified": "如果有物业管理的话，园林设计方案都要经过批准，确保和小区的风格协调，对邻居不会有不良影响。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 75024,
+            "endMs": 88272,
+            "text": "房子一般都帶整套家電，包括廚房的所有微波爐、烤箱、洗碗機、垃圾處理機等等，衛生間包括馬桶、洗臉盆、浴缸等等。",
+            "textSimplified": "房子一般都带整套家电，包括厨房的所有微波炉、烤箱、洗碗机、垃圾处理机等等，卫生间包括马桶、洗脸盆、浴缸等等。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 88272,
+            "endMs": 92232,
+            "text": "基本上拎包就可以入住，非常方便。",
+            "textSimplified": "基本上拎包就可以入住，非常方便。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 92232,
+            "endMs": 96744,
+            "text": "在市區，地鐵和公交設施又髒又舊。",
+            "textSimplified": "在市区，地铁和公交设施又脏又旧。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 96744,
+            "endMs": 105456,
+            "text": "有錢人都住在郊外有花園的獨棟別墅裡，開自己的車上下班，很少有人去擠公共交通。",
+            "textSimplified": "有钱人都住在郊外有花园的独栋别墅里，开自己的车上下班，很少有人去挤公共交通。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 105456,
+            "endMs": 110136,
+            "text": "城裡治安也比郊區的差很多，犯罪率高。",
+            "textSimplified": "城里治安也比郊区的差很多，犯罪率高。"
+          },
+          {
+            "index": 18,
+            "paragraph": 14,
+            "startMs": 110136,
+            "endMs": 122064,
+            "text": "窮人蝸居在城裡也是不得已，這裡的租金往往要比郊區便宜，郊外的大房子他們的收入負擔不起，出行也要依賴公交。",
+            "textSimplified": "穷人蜗居在城里也是不得已，这里的租金往往要比郊区便宜，郊外的大房子他们的收入负担不起，出行也要依赖公交。"
+          },
+          {
+            "index": 19,
+            "paragraph": 16,
+            "startMs": 122064,
+            "endMs": 124320,
+            "text": "（文章略作刪改）",
+            "textSimplified": "（文章略作删改）"
+          },
+          {
+            "index": 20,
+            "paragraph": 18,
+            "startMs": 124320,
+            "endMs": 129240,
+            "text": "http://wap.eastday.com",
+            "textSimplified": "http://wap.eastday.com"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter13/b01_ch13_p03_c.mp3",
+        "durationMs": 136608,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3024,
+            "text": "住在城裡還是郊區？",
+            "textSimplified": "住在城里还是郊区？"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3024,
+            "endMs": 6528,
+            "text": "中國人都愛住在大城市。",
+            "textSimplified": "中国人都爱住在大城市。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 6528,
+            "endMs": 15384,
+            "text": "城裡在環境、醫療、教育等方方面面都比農村好，所以有錢的人大多都在城裡。",
+            "textSimplified": "城里在环境、医疗、教育等方方面面都比农村好，所以有钱的人大多都在城里。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 15384,
+            "endMs": 21744,
+            "text": "而美國情況正好相反，窮人住城裡，富人住郊區。",
+            "textSimplified": "而美国情况正好相反，穷人住城里，富人住郊区。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 21744,
+            "endMs": 25824,
+            "text": "為什麼美國人喜歡郊區的房子呢？",
+            "textSimplified": "为什么美国人喜欢郊区的房子呢？"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 25824,
+            "endMs": 32808,
+            "text": "對於普通美國家庭來說，大城市市中心的房子一般都是天價。",
+            "textSimplified": "对于普通美国家庭来说，大城市市中心的房子一般都是天价。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 32808,
+            "endMs": 38712,
+            "text": "所以，大部分美國人成家後，都會在市郊買房。",
+            "textSimplified": "所以，大部分美国人成家后，都会在市郊买房。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 38712,
+            "endMs": 45504,
+            "text": "房價會便宜很多，而且可以住更大的房子，有更漂亮的花園。",
+            "textSimplified": "房价会便宜很多，而且可以住更大的房子，有更漂亮的花园。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 45504,
+            "endMs": 53184,
+            "text": "對於在輪子上長大的美國人來說，開車一小時左右去上班已經習慣了。",
+            "textSimplified": "对于在轮子上长大的美国人来说，开车一小时左右去上班已经习惯了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 53184,
+            "endMs": 58464,
+            "text": "在美國，沒有車就像沒有腿一樣，沒法出門。",
+            "textSimplified": "在美国，没有车就像没有腿一样，没法出门。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 58464,
+            "endMs": 62064,
+            "text": "美國的房子都有前後院。",
+            "textSimplified": "美国的房子都有前后院。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 62064,
+            "endMs": 69264,
+            "text": "前院具有展示功能，有錢的人都會請專業的園林設計師設計和修建。",
+            "textSimplified": "前院具有展示功能，有钱的人都会请专业的园林设计师设计和修建。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 69264,
+            "endMs": 79704,
+            "text": "如果有物業管理的話，園林設計方案都要經過批准，確保和小區的風格協調，對鄰居不會有不良影響。",
+            "textSimplified": "如果有物业管理的话，园林设计方案都要经过批准，确保和小区的风格协调，对邻居不会有不良影响。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 79704,
+            "endMs": 93576,
+            "text": "房子一般都帶整套家電，包括廚房的所有微波爐、烤箱、洗碗機、垃圾處理機等等，衛生間包括馬桶、洗臉盆、浴缸等等。",
+            "textSimplified": "房子一般都带整套家电，包括厨房的所有微波炉、烤箱、洗碗机、垃圾处理机等等，卫生间包括马桶、洗脸盆、浴缸等等。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 93576,
+            "endMs": 98352,
+            "text": "基本上拎包就可以入住，非常方便。",
+            "textSimplified": "基本上拎包就可以入住，非常方便。"
+          },
+          {
+            "index": 15,
+            "paragraph": 12,
+            "startMs": 98352,
+            "endMs": 103248,
+            "text": "在市區，地鐵和公交設施又髒又舊。",
+            "textSimplified": "在市区，地铁和公交设施又脏又旧。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 103248,
+            "endMs": 112464,
+            "text": "有錢人都住在郊外有花園的獨棟別墅裡，開自己的車上下班，很少有人去擠公共交通。",
+            "textSimplified": "有钱人都住在郊外有花园的独栋别墅里，开自己的车上下班，很少有人去挤公共交通。"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 112464,
+            "endMs": 117456,
+            "text": "城裡治安也比郊區的差很多，犯罪率高。",
+            "textSimplified": "城里治安也比郊区的差很多，犯罪率高。"
+          },
+          {
+            "index": 18,
+            "paragraph": 14,
+            "startMs": 117456,
+            "endMs": 129432,
+            "text": "窮人蝸居在城裡也是不得已，這裡的租金往往要比郊區便宜，郊外的大房子他們的收入負擔不起，出行也要依賴公交。",
+            "textSimplified": "穷人蜗居在城里也是不得已，这里的租金往往要比郊区便宜，郊外的大房子他们的收入负担不起，出行也要依赖公交。"
+          },
+          {
+            "index": 19,
+            "paragraph": 16,
+            "startMs": 129432,
+            "endMs": 132072,
+            "text": "（文章略作刪改）",
+            "textSimplified": "（文章略作删改）"
+          },
+          {
+            "index": 20,
+            "paragraph": 18,
+            "startMs": 132072,
+            "endMs": 136608,
+            "text": "http://wap.eastday.com",
+            "textSimplified": "http://wap.eastday.com"
+          }
+        ]
+      }
+    },
+    {
+      "passageIndex": 3,
+      "mandarin": {
+        "file": "audio/book01/chapter13/b01_ch13_p04_m.mp3",
+        "durationMs": 4176,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4176,
+            "text": "梁山伯為什麼一開始不到祝家提親？",
+            "textSimplified": "梁山伯为什么一开始不到祝家提亲？"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book01/chapter13/b01_ch13_p04_c.mp3",
+        "durationMs": 4368,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4368,
+            "text": "梁山伯為什麼一開始不到祝家提親？",
+            "textSimplified": "梁山伯为什么一开始不到祝家提亲？"
+          }
+        ]
+      }
+    }
   ]
 }

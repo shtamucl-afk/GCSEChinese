@@ -505,21 +505,32 @@
     // pipeline. Comma (，) intentionally excluded.
     const SENTENCE_TERMINATORS_JS = '。！？…；';
 
+    // M9.6 fix - closing quotes attach to the sentence they close.
+    // Must match CLOSING_QUOTES in generate_common.py.
+    const CLOSING_QUOTES_JS = '」』\u201D\u2019';
+
     // Split one paragraph of text into sentences using the same rule as
-    // the pipeline: split after each terminator in 。！？…；, keeping
-    // the terminator attached to the preceding sentence. Whitespace
-    // stripped; empty sentences skipped. Trailing text without a
-    // terminator is emitted as its own sentence.
+    // the pipeline: split after each terminator in 。！？…；, then absorb
+    // any closing quotes that immediately follow. Whitespace stripped;
+    // empty sentences skipped.
     function splitParagraphIntoSentences(paragraphText) {
       const result = [];
+      const chars = Array.from(paragraphText);
       let current = '';
-      for (const ch of paragraphText) {
+      let i = 0;
+      while (i < chars.length) {
+        const ch = chars[i];
         current += ch;
         if (SENTENCE_TERMINATORS_JS.includes(ch)) {
+          while (i + 1 < chars.length && CLOSING_QUOTES_JS.includes(chars[i + 1])) {
+            i++;
+            current += chars[i];
+          }
           const trimmed = current.trim();
           if (trimmed) result.push(trimmed);
           current = '';
         }
+        i++;
       }
       const tail = current.trim();
       if (tail) result.push(tail);
