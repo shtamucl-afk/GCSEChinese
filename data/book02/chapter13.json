@@ -1,0 +1,483 @@
+{
+  "bookId": "02",
+  "chapterId": "13",
+  "chapterTitle": "春天在哪裏",
+  "chapterTitleSimplified": "春天在哪里",
+  "passages": [
+    "二上：春天在哪裏（第三十六頁）\n\n春天來了，天氣暖和了，小燕子飛到屋簷下築巢。春天像一個漂亮的小姑娘，穿着美麗的連衣裙，蹦蹦跳跳地向我們走來了。你問我春天在哪裏？要不，你跟我一塊去尋找春天吧！\n\n我來到小湖邊，碧綠的湖水像一面藍色的鏡子，微風吹拂，湖面上盪漾起陣陣漣漪。湖岸上，一排排柳樹長出了嫩綠的新葉，細長的柳枝從樹上垂下來，彷彿是少女飄逸的長髮。春風輕拂，木柳枝輕輕搖動，似乎在為春天的到來拍手叫好。湖岸邊的小草綠油油的，彷彿鋪上了綠色的地毯。小草紛紛從地下探出頭，好像剛出生的寶寶，正好奇地張望着。湖邊的樹是綠色，草是綠的，湖水也是綠色的，啊，我找到了，春天在綠色的湖水裏，在綠油油的草地上，在嫩綠的柳枝上。\n\n我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。它們爭奇鬥豔，好像要來一次選美大賽。啊，我找到了，春天就在這五彩繽紛的花朵裏。"
+  ],
+  "passagesSimplified": [
+    "二上：春天在哪里（第三十六页）\n\n春天来了，天气暖和了，小燕子飞到屋簷下筑巢。春天像一个漂亮的小姑娘，穿着美丽的连衣裙，蹦蹦跳跳地向我们走来了。你问我春天在哪里？要不，你跟我一块去寻找春天吧！\n\n我来到小湖边，碧绿的湖水像一面蓝色的镜子，微风吹拂，湖面上荡漾起阵阵涟漪。湖岸上，一排排柳树长出了嫩绿的新叶，细长的柳枝从树上垂下来，仿佛是少女飘逸的长发。春风轻拂，木柳枝轻轻摇动，似乎在为春天的到来拍手叫好。湖岸边的小草绿油油的，仿佛铺上了绿色的地毯。小草纷纷从地下探出头，好像刚出生的宝宝，正好奇地张望着。湖边的树是绿色，草是绿的，湖水也是绿色的，啊，我找到了，春天在绿色的湖水里，在绿油油的草地上，在嫩绿的柳枝上。\n\n我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。它们争奇斗艳，好像要来一次选美大赛。啊，我找到了，春天就在这五彩缤纷的花朵里。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch13_w001",
+      "traditional": "燕子",
+      "simplified": "燕子",
+      "english": "swallow",
+      "pinyin": "yàn zi",
+      "contextSentence": "春天來了，天氣暖和了，小燕子飛到屋簷下築巢。",
+      "contextSentenceSimplified": "春天来了，天气暖和了，小燕子飞到屋簷下筑巢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w002",
+      "traditional": "屋簷下築巢",
+      "simplified": "屋簷下筑巢",
+      "english": "nest under eaves",
+      "pinyin": "wū yán xià zhù cháo",
+      "contextSentence": "春天來了，天氣暖和了，小燕子飛到屋簷下築巢。",
+      "contextSentenceSimplified": "春天来了，天气暖和了，小燕子飞到屋簷下筑巢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w003",
+      "traditional": "藍色的鏡子",
+      "simplified": "蓝色的镜子",
+      "english": "blue mirror",
+      "pinyin": "lán sè de jìng zi",
+      "contextSentence": "我來到小湖邊，碧綠的湖水像一面藍色的鏡子，微風吹拂，湖面上盪漾起陣陣漣漪。",
+      "contextSentenceSimplified": "我来到小湖边，碧绿的湖水像一面蓝色的镜子，微风吹拂，湖面上荡漾起阵阵涟漪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w004",
+      "traditional": "微風吹拂",
+      "simplified": "微风吹拂",
+      "english": "breeze blows",
+      "pinyin": "wēi fēng chuī fú",
+      "contextSentence": "我來到小湖邊，碧綠的湖水像一面藍色的鏡子，微風吹拂，湖面上盪漾起陣陣漣漪。",
+      "contextSentenceSimplified": "我来到小湖边，碧绿的湖水像一面蓝色的镜子，微风吹拂，湖面上荡漾起阵阵涟漪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w005",
+      "traditional": "盪漾起陣陣漣漪",
+      "simplified": "荡漾起阵阵涟漪",
+      "english": "ripples spread",
+      "pinyin": "dàng yàng qǐ zhèn zhèn lián yī",
+      "contextSentence": "我來到小湖邊，碧綠的湖水像一面藍色的鏡子，微風吹拂，湖面上盪漾起陣陣漣漪。",
+      "contextSentenceSimplified": "我来到小湖边，碧绿的湖水像一面蓝色的镜子，微风吹拂，湖面上荡漾起阵阵涟漪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w006",
+      "traditional": "湖岸上",
+      "simplified": "湖岸上",
+      "english": "on the lake shore",
+      "pinyin": "hú àn shàng",
+      "contextSentence": "湖岸上，一排排柳樹長出了嫩綠的新葉，細長的柳枝從樹上垂下來，彷彿是少女飄逸的長髮。",
+      "contextSentenceSimplified": "湖岸上，一排排柳树长出了嫩绿的新叶，细长的柳枝从树上垂下来，仿佛是少女飘逸的长发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w007",
+      "traditional": "一排排柳樹",
+      "simplified": "一排排柳树",
+      "english": "rows of willow trees",
+      "pinyin": "yī pái pái liǔ shù",
+      "contextSentence": "湖岸上，一排排柳樹長出了嫩綠的新葉，細長的柳枝從樹上垂下來，彷彿是少女飄逸的長髮。",
+      "contextSentenceSimplified": "湖岸上，一排排柳树长出了嫩绿的新叶，细长的柳枝从树上垂下来，仿佛是少女飘逸的长发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w008",
+      "traditional": "木棉花",
+      "simplified": "木棉花",
+      "english": "kapok flower",
+      "pinyin": "mù mián huā",
+      "contextSentence": "我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。",
+      "contextSentenceSimplified": "我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w009",
+      "traditional": "杜鵑花",
+      "simplified": "杜鹃花",
+      "english": "azalea",
+      "pinyin": "dù juān huā",
+      "contextSentence": "我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。",
+      "contextSentenceSimplified": "我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w010",
+      "traditional": "潔白",
+      "simplified": "洁白",
+      "english": "pure white",
+      "pinyin": "jié bái",
+      "contextSentence": "我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。",
+      "contextSentenceSimplified": "我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w011",
+      "traditional": "玉蘭花",
+      "simplified": "玉兰花",
+      "english": "magnolia flower",
+      "pinyin": "yù lán huā",
+      "contextSentence": "我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。",
+      "contextSentenceSimplified": "我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch13_w012",
+      "traditional": "爭奇鬥豔",
+      "simplified": "争奇斗艳",
+      "english": "compete in beauty",
+      "pinyin": "zhēng qí dòu yàn",
+      "contextSentence": "它們爭奇鬥豔，好像要來一次選美大賽。",
+      "contextSentenceSimplified": "它们争奇斗艳，好像要来一次选美大赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter13/b02_ch13_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter13/b02_ch13_w012_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter13/b02_ch13_p01_m.mp3",
+        "durationMs": 95568,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4032,
+            "text": "二上：春天在哪裏（第三十六頁）",
+            "textSimplified": "二上：春天在哪里（第三十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4032,
+            "endMs": 9576,
+            "text": "春天來了，天氣暖和了，小燕子飛到屋簷下築巢。",
+            "textSimplified": "春天来了，天气暖和了，小燕子飞到屋簷下筑巢。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9576,
+            "endMs": 16896,
+            "text": "春天像一個漂亮的小姑娘，穿着美麗的連衣裙，蹦蹦跳跳地向我們走來了。",
+            "textSimplified": "春天像一个漂亮的小姑娘，穿着美丽的连衣裙，蹦蹦跳跳地向我们走来了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 16896,
+            "endMs": 19536,
+            "text": "你問我春天在哪裏？",
+            "textSimplified": "你问我春天在哪里？"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 19536,
+            "endMs": 22968,
+            "text": "要不，你跟我一塊去尋找春天吧！",
+            "textSimplified": "要不，你跟我一块去寻找春天吧！"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 22968,
+            "endMs": 32136,
+            "text": "我來到小湖邊，碧綠的湖水像一面藍色的鏡子，微風吹拂，湖面上盪漾起陣陣漣漪。",
+            "textSimplified": "我来到小湖边，碧绿的湖水像一面蓝色的镜子，微风吹拂，湖面上荡漾起阵阵涟漪。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 32136,
+            "endMs": 42096,
+            "text": "湖岸上，一排排柳樹長出了嫩綠的新葉，細長的柳枝從樹上垂下來，彷彿是少女飄逸的長髮。",
+            "textSimplified": "湖岸上，一排排柳树长出了嫩绿的新叶，细长的柳枝从树上垂下来，仿佛是少女飘逸的长发。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 42096,
+            "endMs": 49032,
+            "text": "春風輕拂，木柳枝輕輕搖動，似乎在為春天的到來拍手叫好。",
+            "textSimplified": "春风轻拂，木柳枝轻轻摇动，似乎在为春天的到来拍手叫好。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 49032,
+            "endMs": 54312,
+            "text": "湖岸邊的小草綠油油的，彷彿鋪上了綠色的地毯。",
+            "textSimplified": "湖岸边的小草绿油油的，仿佛铺上了绿色的地毯。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 54312,
+            "endMs": 61272,
+            "text": "小草紛紛從地下探出頭，好像剛出生的寶寶，正好奇地張望着。",
+            "textSimplified": "小草纷纷从地下探出头，好像刚出生的宝宝，正好奇地张望着。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 61272,
+            "endMs": 74304,
+            "text": "湖邊的樹是綠色，草是綠的，湖水也是綠色的，啊，我找到了，春天在綠色的湖水裏，在綠油油的草地上，在嫩綠的柳枝上。",
+            "textSimplified": "湖边的树是绿色，草是绿的，湖水也是绿色的，啊，我找到了，春天在绿色的湖水里，在绿油油的草地上，在嫩绿的柳枝上。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 74304,
+            "endMs": 86040,
+            "text": "我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。",
+            "textSimplified": "我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 86040,
+            "endMs": 90360,
+            "text": "它們爭奇鬥豔，好像要來一次選美大賽。",
+            "textSimplified": "它们争奇斗艳，好像要来一次选美大赛。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 90360,
+            "endMs": 95568,
+            "text": "啊，我找到了，春天就在這五彩繽紛的花朵裏。",
+            "textSimplified": "啊，我找到了，春天就在这五彩缤纷的花朵里。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter13/b02_ch13_p01_c.mp3",
+        "durationMs": 100008,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4368,
+            "text": "二上：春天在哪裏（第三十六頁）",
+            "textSimplified": "二上：春天在哪里（第三十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4368,
+            "endMs": 10440,
+            "text": "春天來了，天氣暖和了，小燕子飛到屋簷下築巢。",
+            "textSimplified": "春天来了，天气暖和了，小燕子飞到屋簷下筑巢。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10440,
+            "endMs": 18336,
+            "text": "春天像一個漂亮的小姑娘，穿着美麗的連衣裙，蹦蹦跳跳地向我們走來了。",
+            "textSimplified": "春天像一个漂亮的小姑娘，穿着美丽的连衣裙，蹦蹦跳跳地向我们走来了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 18336,
+            "endMs": 21360,
+            "text": "你問我春天在哪裏？",
+            "textSimplified": "你问我春天在哪里？"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 21360,
+            "endMs": 25752,
+            "text": "要不，你跟我一塊去尋找春天吧！",
+            "textSimplified": "要不，你跟我一块去寻找春天吧！"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 25752,
+            "endMs": 34584,
+            "text": "我來到小湖邊，碧綠的湖水像一面藍色的鏡子，微風吹拂，湖面上盪漾起陣陣漣漪。",
+            "textSimplified": "我来到小湖边，碧绿的湖水像一面蓝色的镜子，微风吹拂，湖面上荡漾起阵阵涟漪。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 34584,
+            "endMs": 44688,
+            "text": "湖岸上，一排排柳樹長出了嫩綠的新葉，細長的柳枝從樹上垂下來，彷彿是少女飄逸的長髮。",
+            "textSimplified": "湖岸上，一排排柳树长出了嫩绿的新叶，细长的柳枝从树上垂下来，仿佛是少女飘逸的长发。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 44688,
+            "endMs": 51792,
+            "text": "春風輕拂，木柳枝輕輕搖動，似乎在為春天的到來拍手叫好。",
+            "textSimplified": "春风轻拂，木柳枝轻轻摇动，似乎在为春天的到来拍手叫好。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 51792,
+            "endMs": 57264,
+            "text": "湖岸邊的小草綠油油的，彷彿鋪上了綠色的地毯。",
+            "textSimplified": "湖岸边的小草绿油油的，仿佛铺上了绿色的地毯。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 57264,
+            "endMs": 64488,
+            "text": "小草紛紛從地下探出頭，好像剛出生的寶寶，正好奇地張望着。",
+            "textSimplified": "小草纷纷从地下探出头，好像刚出生的宝宝，正好奇地张望着。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 64488,
+            "endMs": 77040,
+            "text": "湖邊的樹是綠色，草是綠的，湖水也是綠色的，啊，我找到了，春天在綠色的湖水裏，在綠油油的草地上，在嫩綠的柳枝上。",
+            "textSimplified": "湖边的树是绿色，草是绿的，湖水也是绿色的，啊，我找到了，春天在绿色的湖水里，在绿油油的草地上，在嫩绿的柳枝上。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 77040,
+            "endMs": 89136,
+            "text": "我又來到公園裏，只見到處盛開着五顏六色的花，有火紅的木棉花、粉紅的杜鵑花、紫色的喇叭花，還有潔白的玉蘭花。",
+            "textSimplified": "我又来到公园里，只见到处盛开着五颜六色的花，有火红的木棉花、粉红的杜鹃花、紫色的喇叭花，还有洁白的玉兰花。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 89136,
+            "endMs": 94248,
+            "text": "它們爭奇鬥豔，好像要來一次選美大賽。",
+            "textSimplified": "它们争奇斗艳，好像要来一次选美大赛。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 94248,
+            "endMs": 100008,
+            "text": "啊，我找到了，春天就在這五彩繽紛的花朵裏。",
+            "textSimplified": "啊，我找到了，春天就在这五彩缤纷的花朵里。"
+          }
+        ]
+      }
+    }
+  ]
+}

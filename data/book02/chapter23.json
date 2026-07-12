@@ -1,0 +1,604 @@
+{
+  "bookId": "02",
+  "chapterId": "23",
+  "chapterTitle": "給汶川小朋友的一封信",
+  "chapterTitleSimplified": "给汶川小朋友的一封信",
+  "passages": [
+    "二上：給汶川小朋友的一封信（第七十頁）\n\n親愛的汶川小朋友：\n\n你們好！首先，我要介紹一下自己，我叫志明，今年7歲，上小學二年級，我生活在香港。我是一個活潑可愛的小男孩，我的喜好很多，比如看書、打籃球等等。\n\n2008年的時候，我在電視上看到你們那兒發生了可怕的地震，當時，我還在上幼稚園。那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。我知道，現在，你們的新房子建好了，新校區也建好了，我真為你們高興。\n\n兒童節要到了，我們學校要舉辦一次愛心活動，讓我們給汶川的小朋友寫信，瞭解你們現在的學習和生活情況，而且我們還親手製作了禮物送給你們。希望你們也能和我們一樣，度過一個愉快的兒童節。\n\n我們雖然沒有見過面，但我相信，我們很快就會成\n為好朋友的。歡迎你們以後來香港玩。\n\n祝\n學習進步！\n\n你們的朋友\n志明\n三月十二日"
+  ],
+  "passagesSimplified": [
+    "二上：给汶川小朋友的一封信（第七十页）\n\n亲爱的汶川小朋友：\n\n你们好！首先，我要介绍一下自己，我叫志明，今年7岁，上小学二年级，我生活在香港。我是一个活泼可爱的小男孩，我的喜好很多，比如看书、打篮球等等。\n\n2008年的时候，我在电视上看到你们那儿发生了可怕的地震，当时，我还在上幼稚园。那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。我知道，现在，你们的新房子建好了，新校区也建好了，我真为你们高兴。\n\n儿童节要到了，我们学校要举办一次爱心活动，让我们给汶川的小朋友写信，了解你们现在的学习和生活情况，而且我们还亲手制作了礼物送给你们。希望你们也能和我们一样，度过一个愉快的儿童节。\n\n我们虽然没有见过面，但我相信，我们很快就会成\n为好朋友的。欢迎你们以后来香港玩。\n\n祝\n学习进步！\n\n你们的朋友\n志明\n三月十二日"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch23_w001",
+      "traditional": "首先",
+      "simplified": "首先",
+      "english": "firstly",
+      "pinyin": "shǒu xiān",
+      "contextSentence": "首先，我要介紹一下自己，我叫志明，今年7歲，上小學二年級，我生活在香港。",
+      "contextSentenceSimplified": "首先，我要介绍一下自己，我叫志明，今年7岁，上小学二年级，我生活在香港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w002",
+      "traditional": "介紹",
+      "simplified": "介绍",
+      "english": "to introduce / introduction",
+      "pinyin": "jiè shào",
+      "contextSentence": "首先，我要介紹一下自己，我叫志明，今年7歲，上小學二年級，我生活在香港。",
+      "contextSentenceSimplified": "首先，我要介绍一下自己，我叫志明，今年7岁，上小学二年级，我生活在香港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w003",
+      "traditional": "志明",
+      "simplified": "志明",
+      "english": "Zhiming (name)",
+      "pinyin": "zhì míng",
+      "contextSentence": "首先，我要介紹一下自己，我叫志明，今年7歲，上小學二年級，我生活在香港。",
+      "contextSentenceSimplified": "首先，我要介绍一下自己，我叫志明，今年7岁，上小学二年级，我生活在香港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w004",
+      "traditional": "活潑",
+      "simplified": "活泼",
+      "english": "lively",
+      "pinyin": "huó pō",
+      "contextSentence": "我是一個活潑可愛的小男孩，我的喜好很多，比如看書、打籃球等等。",
+      "contextSentenceSimplified": "我是一个活泼可爱的小男孩，我的喜好很多，比如看书、打篮球等等。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w005",
+      "traditional": "地震",
+      "simplified": "地震",
+      "english": "earthquake",
+      "pinyin": "dì zhèn",
+      "contextSentence": "2008年的時候，我在電視上看到你們那兒發生了可怕的地震，當時，我還在上幼稚園。",
+      "contextSentenceSimplified": "2008年的时候，我在电视上看到你们那儿发生了可怕的地震，当时，我还在上幼稚园。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w006",
+      "traditional": "災難",
+      "simplified": "灾难",
+      "english": "disaster",
+      "pinyin": "zāi nán",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w007",
+      "traditional": "村莊",
+      "simplified": "村庄",
+      "english": "village",
+      "pinyin": "cūn zhuāng",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w008",
+      "traditional": "廢墟",
+      "simplified": "废墟",
+      "english": "ruins",
+      "pinyin": "fèi xū",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w009",
+      "traditional": "毀滅",
+      "simplified": "毁灭",
+      "english": "destroy",
+      "pinyin": "huǐ miè",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w010",
+      "traditional": "失去",
+      "simplified": "失去",
+      "english": "lose",
+      "pinyin": "shī qù",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w011",
+      "traditional": "網絡",
+      "simplified": "网络",
+      "english": "network",
+      "pinyin": "wǎng luò",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w012",
+      "traditional": "關注",
+      "simplified": "关注",
+      "english": "pay attention to",
+      "pinyin": "guān zhù",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w013",
+      "traditional": "情況",
+      "simplified": "情况",
+      "english": "situation",
+      "pinyin": "qíng kuàng",
+      "contextSentence": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+      "contextSentenceSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w014",
+      "traditional": "而且",
+      "simplified": "而且",
+      "english": "moreover",
+      "pinyin": "ér qiě",
+      "contextSentence": "兒童節要到了，我們學校要舉辦一次愛心活動，讓我們給汶川的小朋友寫信，瞭解你們現在的學習和生活情況，而且我們還親手製作了禮物送給你們。",
+      "contextSentenceSimplified": "儿童节要到了，我们学校要举办一次爱心活动，让我们给汶川的小朋友写信，了解你们现在的学习和生活情况，而且我们还亲手制作了礼物送给你们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch23_w015",
+      "traditional": "製作",
+      "simplified": "制作",
+      "english": "make",
+      "pinyin": "zhì zuò",
+      "contextSentence": "兒童節要到了，我們學校要舉辦一次愛心活動，讓我們給汶川的小朋友寫信，瞭解你們現在的學習和生活情況，而且我們還親手製作了禮物送給你們。",
+      "contextSentenceSimplified": "儿童节要到了，我们学校要举办一次爱心活动，让我们给汶川的小朋友写信，了解你们现在的学习和生活情况，而且我们还亲手制作了礼物送给你们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter23/b02_ch23_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter23/b02_ch23_w015_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter23/b02_ch23_p01_m.mp3",
+        "durationMs": 93936,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4656,
+            "text": "二上：給汶川小朋友的一封信（第七十頁）",
+            "textSimplified": "二上：给汶川小朋友的一封信（第七十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4656,
+            "endMs": 7200,
+            "text": "親愛的汶川小朋友：",
+            "textSimplified": "亲爱的汶川小朋友："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7200,
+            "endMs": 8616,
+            "text": "你們好！",
+            "textSimplified": "你们好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8616,
+            "endMs": 17328,
+            "text": "首先，我要介紹一下自己，我叫志明，今年7歲，上小學二年級，我生活在香港。",
+            "textSimplified": "首先，我要介绍一下自己，我叫志明，今年7岁，上小学二年级，我生活在香港。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 17328,
+            "endMs": 24336,
+            "text": "我是一個活潑可愛的小男孩，我的喜好很多，比如看書、打籃球等等。",
+            "textSimplified": "我是一个活泼可爱的小男孩，我的喜好很多，比如看书、打篮球等等。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 24336,
+            "endMs": 33408,
+            "text": "2008年的時候，我在電視上看到你們那兒發生了可怕的地震，當時，我還在上幼稚園。",
+            "textSimplified": "2008年的时候，我在电视上看到你们那儿发生了可怕的地震，当时，我还在上幼稚园。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 33408,
+            "endMs": 47112,
+            "text": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+            "textSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 47112,
+            "endMs": 54792,
+            "text": "我知道，現在，你們的新房子建好了，新校區也建好了，我真為你們高興。",
+            "textSimplified": "我知道，现在，你们的新房子建好了，新校区也建好了，我真为你们高兴。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 54792,
+            "endMs": 69888,
+            "text": "兒童節要到了，我們學校要舉辦一次愛心活動，讓我們給汶川的小朋友寫信，瞭解你們現在的學習和生活情況，而且我們還親手製作了禮物送給你們。",
+            "textSimplified": "儿童节要到了，我们学校要举办一次爱心活动，让我们给汶川的小朋友写信，了解你们现在的学习和生活情况，而且我们还亲手制作了礼物送给你们。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 69888,
+            "endMs": 75168,
+            "text": "希望你們也能和我們一樣，度過一個愉快的兒童節。",
+            "textSimplified": "希望你们也能和我们一样，度过一个愉快的儿童节。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 75168,
+            "endMs": 80376,
+            "text": "我們雖然沒有見過面，但我相信，我們很快就會成",
+            "textSimplified": "我们虽然没有见过面，但我相信，我们很快就会成"
+          },
+          {
+            "index": 11,
+            "paragraph": 11,
+            "startMs": 80376,
+            "endMs": 82224,
+            "text": "為好朋友的。",
+            "textSimplified": "为好朋友的。"
+          },
+          {
+            "index": 12,
+            "paragraph": 11,
+            "startMs": 82224,
+            "endMs": 85248,
+            "text": "歡迎你們以後來香港玩。",
+            "textSimplified": "欢迎你们以后来香港玩。"
+          },
+          {
+            "index": 13,
+            "paragraph": 13,
+            "startMs": 85248,
+            "endMs": 87024,
+            "text": "祝",
+            "textSimplified": "祝"
+          },
+          {
+            "index": 14,
+            "paragraph": 14,
+            "startMs": 87024,
+            "endMs": 88824,
+            "text": "學習進步！",
+            "textSimplified": "学习进步！"
+          },
+          {
+            "index": 15,
+            "paragraph": 16,
+            "startMs": 88824,
+            "endMs": 90600,
+            "text": "你們的朋友",
+            "textSimplified": "你们的朋友"
+          },
+          {
+            "index": 16,
+            "paragraph": 17,
+            "startMs": 90600,
+            "endMs": 91992,
+            "text": "志明",
+            "textSimplified": "志明"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 91992,
+            "endMs": 93936,
+            "text": "三月十二日",
+            "textSimplified": "三月十二日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter23/b02_ch23_p01_c.mp3",
+        "durationMs": 100704,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 5064,
+            "text": "二上：給汶川小朋友的一封信（第七十頁）",
+            "textSimplified": "二上：给汶川小朋友的一封信（第七十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 5064,
+            "endMs": 8064,
+            "text": "親愛的汶川小朋友：",
+            "textSimplified": "亲爱的汶川小朋友："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 8064,
+            "endMs": 10032,
+            "text": "你們好！",
+            "textSimplified": "你们好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 10032,
+            "endMs": 19512,
+            "text": "首先，我要介紹一下自己，我叫志明，今年7歲，上小學二年級，我生活在香港。",
+            "textSimplified": "首先，我要介绍一下自己，我叫志明，今年7岁，上小学二年级，我生活在香港。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 19512,
+            "endMs": 27000,
+            "text": "我是一個活潑可愛的小男孩，我的喜好很多，比如看書、打籃球等等。",
+            "textSimplified": "我是一个活泼可爱的小男孩，我的喜好很多，比如看书、打篮球等等。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 27000,
+            "endMs": 36552,
+            "text": "2008年的時候，我在電視上看到你們那兒發生了可怕的地震，當時，我還在上幼稚園。",
+            "textSimplified": "2008年的时候，我在电视上看到你们那儿发生了可怕的地震，当时，我还在上幼稚园。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 36552,
+            "endMs": 50112,
+            "text": "那場災難讓你們的村莊變成了廢墟，使你們的家園被毀滅，更讓你們失去了親人和朋友⋯⋯在這四年裏，我常通過電視和網絡關注你們的情況。",
+            "textSimplified": "那场灾难让你们的村庄变成了废墟，使你们的家园被毁灭，更让你们失去了亲人和朋友⋯⋯在这四年里，我常通过电视和网络关注你们的情况。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 50112,
+            "endMs": 58656,
+            "text": "我知道，現在，你們的新房子建好了，新校區也建好了，我真為你們高興。",
+            "textSimplified": "我知道，现在，你们的新房子建好了，新校区也建好了，我真为你们高兴。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 58656,
+            "endMs": 73032,
+            "text": "兒童節要到了，我們學校要舉辦一次愛心活動，讓我們給汶川的小朋友寫信，瞭解你們現在的學習和生活情況，而且我們還親手製作了禮物送給你們。",
+            "textSimplified": "儿童节要到了，我们学校要举办一次爱心活动，让我们给汶川的小朋友写信，了解你们现在的学习和生活情况，而且我们还亲手制作了礼物送给你们。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 73032,
+            "endMs": 78528,
+            "text": "希望你們也能和我們一樣，度過一個愉快的兒童節。",
+            "textSimplified": "希望你们也能和我们一样，度过一个愉快的儿童节。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 78528,
+            "endMs": 84456,
+            "text": "我們雖然沒有見過面，但我相信，我們很快就會成",
+            "textSimplified": "我们虽然没有见过面，但我相信，我们很快就会成"
+          },
+          {
+            "index": 11,
+            "paragraph": 11,
+            "startMs": 84456,
+            "endMs": 86736,
+            "text": "為好朋友的。",
+            "textSimplified": "为好朋友的。"
+          },
+          {
+            "index": 12,
+            "paragraph": 11,
+            "startMs": 86736,
+            "endMs": 90168,
+            "text": "歡迎你們以後來香港玩。",
+            "textSimplified": "欢迎你们以后来香港玩。"
+          },
+          {
+            "index": 13,
+            "paragraph": 13,
+            "startMs": 90168,
+            "endMs": 91944,
+            "text": "祝",
+            "textSimplified": "祝"
+          },
+          {
+            "index": 14,
+            "paragraph": 14,
+            "startMs": 91944,
+            "endMs": 94248,
+            "text": "學習進步！",
+            "textSimplified": "学习进步！"
+          },
+          {
+            "index": 15,
+            "paragraph": 16,
+            "startMs": 94248,
+            "endMs": 96600,
+            "text": "你們的朋友",
+            "textSimplified": "你们的朋友"
+          },
+          {
+            "index": 16,
+            "paragraph": 17,
+            "startMs": 96600,
+            "endMs": 98376,
+            "text": "志明",
+            "textSimplified": "志明"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 98376,
+            "endMs": 100704,
+            "text": "三月十二日",
+            "textSimplified": "三月十二日"
+          }
+        ]
+      }
+    }
+  ]
+}

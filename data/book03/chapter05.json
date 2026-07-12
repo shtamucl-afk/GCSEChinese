@@ -1,0 +1,597 @@
+{
+  "bookId": "03",
+  "chapterId": "05",
+  "chapterTitle": "我愛關老師",
+  "chapterTitleSimplified": "我爱关老师",
+  "passages": [
+    "二下 ：我愛關老師（第十六頁） 關老師是我的中文老師，她身材高挑，皮膚白皙，一雙眼睛炯炯有神，彷彿能看穿人的心思似的。她很愛笑，嘴角常常綻放出甜美的笑容。關老師有一張能說會道的嘴巴，經她口中講出的每一句話都那麼甜美動聽。 關老師講課時繪聲繪色，不知不覺就把同學們帶入課文的情景裏。有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。 關老師不僅教給我們語文知識，在生活中，她也是我們親密的朋友。一次慶祝活動，關老師為我們改編了童話劇〈白雪公主和皇后〉，還讓我演皇后。我一聽，委屈極了，心想：皇后是壞人，我才 不要演呢！關老師好像看出了我的心思，微笑地撫摸着我的頭說：『琪琪，你看過小丑的表演嗎？他們雖然裝扮得有點醜，有點怪異，卻贏得了人們的喜愛，你說這是為什麼？』我想了想，說：『因為小丑給人們帶來了歡笑。』『琪琪說得沒錯，雖然你演的是有點壞的皇后，但是可以讓小朋友從中學到道理啊。』聽到這裏，我才高興地答應了老師的要求。 我愛關老師，因為她讓我深深地愛上中文課，也讓我更加快樂和自信。"
+  ],
+  "passagesSimplified": [
+    "二下 ：我爱关老师（第十六页） 关老师是我的中文老师，她身材高挑，皮肤白皙，一双眼睛炯炯有神，仿佛能看穿人的心思似的。她很爱笑，嘴角常常绽放出甜美的笑容。关老师有一张能说会道的嘴巴，经她口中讲出的每一句话都那么甜美动听。 关老师讲课时绘声绘色，不知不觉就把同学们带入课文的情景里。有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。 关老师不仅教给我们语文知识，在生活中，她也是我们亲密的朋友。一次庆祝活动，关老师为我们改编了童话剧〈白雪公主和皇后〉，还让我演皇后。我一听，委屈极了，心想：皇后是坏人，我才 不要演呢！关老师好像看出了我的心思，微笑地抚摸着我的头说：『琪琪，你看过小丑的表演吗？他们虽然装扮得有点丑，有点怪异，却赢得了人们的喜爱，你说这是为什么？』我想了想，说：『因为小丑给人们带来了欢笑。』『琪琪说得没错，虽然你演的是有点坏的皇后，但是可以让小朋友从中学到道理啊。』听到这里，我才高兴地答应了老师的要求。 我爱关老师，因为她让我深深地爱上中文课，也让我更加快乐和自信。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch05_w001",
+      "traditional": "高挑",
+      "simplified": "高挑",
+      "english": "tall and slender",
+      "pinyin": "gāo tiǎo",
+      "contextSentence": "關老師是我的中文老師，她身材高挑，皮膚白皙，一雙眼睛炯炯有神，彷彿能看穿人的心思似的。",
+      "contextSentenceSimplified": "关老师是我的中文老师，她身材高挑，皮肤白皙，一双眼睛炯炯有神，仿佛能看穿人的心思似的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w002",
+      "traditional": "白皙",
+      "simplified": "白皙",
+      "english": "fair-skinned / pale",
+      "pinyin": "bái xī",
+      "contextSentence": "關老師是我的中文老師，她身材高挑，皮膚白皙，一雙眼睛炯炯有神，彷彿能看穿人的心思似的。",
+      "contextSentenceSimplified": "关老师是我的中文老师，她身材高挑，皮肤白皙，一双眼睛炯炯有神，仿佛能看穿人的心思似的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w003",
+      "traditional": "炯炯有神",
+      "simplified": "炯炯有神",
+      "english": "bright and shining",
+      "pinyin": "jiǒng jiǒng yǒu shén",
+      "contextSentence": "關老師是我的中文老師，她身材高挑，皮膚白皙，一雙眼睛炯炯有神，彷彿能看穿人的心思似的。",
+      "contextSentenceSimplified": "关老师是我的中文老师，她身材高挑，皮肤白皙，一双眼睛炯炯有神，仿佛能看穿人的心思似的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w004",
+      "traditional": "綻放",
+      "simplified": "绽放",
+      "english": "bloom",
+      "pinyin": "zhàn fàng",
+      "contextSentence": "她很愛笑，嘴角常常綻放出甜美的笑容。",
+      "contextSentenceSimplified": "她很爱笑，嘴角常常绽放出甜美的笑容。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w005",
+      "traditional": "甜美",
+      "simplified": "甜美",
+      "english": "sweet / pleasant",
+      "pinyin": "tián měi",
+      "contextSentence": "她很愛笑，嘴角常常綻放出甜美的笑容。",
+      "contextSentenceSimplified": "她很爱笑，嘴角常常绽放出甜美的笑容。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w006",
+      "traditional": "能說會道",
+      "simplified": "能说会道",
+      "english": "eloquent / good talker",
+      "pinyin": "néng shuō huì dào",
+      "contextSentence": "關老師有一張能說會道的嘴巴，經她口中講出的每一句話都那麼甜美動聽。",
+      "contextSentenceSimplified": "关老师有一张能说会道的嘴巴，经她口中讲出的每一句话都那么甜美动听。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w007",
+      "traditional": "動聽",
+      "simplified": "动听",
+      "english": "pleasant to hear / melodious",
+      "pinyin": "dòng tīng",
+      "contextSentence": "關老師有一張能說會道的嘴巴，經她口中講出的每一句話都那麼甜美動聽。",
+      "contextSentenceSimplified": "关老师有一张能说会道的嘴巴，经她口中讲出的每一句话都那么甜美动听。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w008",
+      "traditional": "繪聲繪色",
+      "simplified": "绘声绘色",
+      "english": "vividly describe / lifelike",
+      "pinyin": "huì shēng huì sè",
+      "contextSentence": "關老師講課時繪聲繪色，不知不覺就把同學們帶入課文的情景裏。",
+      "contextSentenceSimplified": "关老师讲课时绘声绘色，不知不觉就把同学们带入课文的情景里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w009",
+      "traditional": "播放",
+      "simplified": "播放",
+      "english": "to play (media) / broadcast",
+      "pinyin": "bō fàng",
+      "contextSentence": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+      "contextSentenceSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w010",
+      "traditional": "古典音樂",
+      "simplified": "古典音乐",
+      "english": "classical music",
+      "pinyin": "gǔ diǎn yīn lè",
+      "contextSentence": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+      "contextSentenceSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w011",
+      "traditional": "朗誦",
+      "simplified": "朗诵",
+      "english": "to recite / recitation",
+      "pinyin": "lǎng sòng",
+      "contextSentence": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+      "contextSentenceSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w012",
+      "traditional": "入了迷",
+      "simplified": "入了迷",
+      "english": "become fascinated / absorbed in",
+      "pinyin": "rù le mí",
+      "contextSentence": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+      "contextSentenceSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w013",
+      "traditional": "浮現",
+      "simplified": "浮现",
+      "english": "emerge / appear / float up",
+      "pinyin": "fú xiàn",
+      "contextSentence": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+      "contextSentenceSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w014",
+      "traditional": "親密",
+      "simplified": "亲密",
+      "english": "intimate / close",
+      "pinyin": "qīn mì",
+      "contextSentence": "關老師不僅教給我們語文知識，在生活中，她也是我們親密的朋友。",
+      "contextSentenceSimplified": "关老师不仅教给我们语文知识，在生活中，她也是我们亲密的朋友。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w015",
+      "traditional": "改編",
+      "simplified": "改编",
+      "english": "to adapt / rewrite",
+      "pinyin": "gǎi biān",
+      "contextSentence": "一次慶祝活動，關老師為我們改編了童話劇〈白雪公主和皇后〉，還讓我演皇后。",
+      "contextSentenceSimplified": "一次庆祝活动，关老师为我们改编了童话剧〈白雪公主和皇后〉，还让我演皇后。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w016",
+      "traditional": "委屈",
+      "simplified": "委屈",
+      "english": "grievance / to feel wronged",
+      "pinyin": "wěi qū",
+      "contextSentence": "我一聽，委屈極了，心想：皇后是壞人，我才 不要演呢！",
+      "contextSentenceSimplified": "我一听，委屈极了，心想：皇后是坏人，我才 不要演呢！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w017",
+      "traditional": "小丑",
+      "simplified": "小丑",
+      "english": "clown",
+      "pinyin": "xiǎo chǒu",
+      "contextSentence": "關老師好像看出了我的心思，微笑地撫摸着我的頭說：『琪琪，你看過小丑的表演嗎？",
+      "contextSentenceSimplified": "关老师好像看出了我的心思，微笑地抚摸着我的头说：『琪琪，你看过小丑的表演吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch05_w018",
+      "traditional": "怪異",
+      "simplified": "怪异",
+      "english": "strange / bizarre / weird",
+      "pinyin": "guài yì",
+      "contextSentence": "他們雖然裝扮得有點醜，有點怪異，卻贏得了人們的喜愛，你說這是為什麼？",
+      "contextSentenceSimplified": "他们虽然装扮得有点丑，有点怪异，却赢得了人们的喜爱，你说这是为什么？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter05/b03_ch05_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter05/b03_ch05_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter05/b03_ch05_p01_m.mp3",
+        "durationMs": 108840,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 13320,
+            "text": "二下 ：我愛關老師（第十六頁） 關老師是我的中文老師，她身材高挑，皮膚白皙，一雙眼睛炯炯有神，彷彿能看穿人的心思似的。",
+            "textSimplified": "二下 ：我爱关老师（第十六页） 关老师是我的中文老师，她身材高挑，皮肤白皙，一双眼睛炯炯有神，仿佛能看穿人的心思似的。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 13320,
+            "endMs": 18120,
+            "text": "她很愛笑，嘴角常常綻放出甜美的笑容。",
+            "textSimplified": "她很爱笑，嘴角常常绽放出甜美的笑容。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 18120,
+            "endMs": 25728,
+            "text": "關老師有一張能說會道的嘴巴，經她口中講出的每一句話都那麼甜美動聽。",
+            "textSimplified": "关老师有一张能说会道的嘴巴，经她口中讲出的每一句话都那么甜美动听。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 25728,
+            "endMs": 33024,
+            "text": "關老師講課時繪聲繪色，不知不覺就把同學們帶入課文的情景裏。",
+            "textSimplified": "关老师讲课时绘声绘色，不知不觉就把同学们带入课文的情景里。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 33024,
+            "endMs": 46440,
+            "text": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+            "textSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 46440,
+            "endMs": 53352,
+            "text": "關老師不僅教給我們語文知識，在生活中，她也是我們親密的朋友。",
+            "textSimplified": "关老师不仅教给我们语文知识，在生活中，她也是我们亲密的朋友。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 53352,
+            "endMs": 61416,
+            "text": "一次慶祝活動，關老師為我們改編了童話劇〈白雪公主和皇后〉，還讓我演皇后。",
+            "textSimplified": "一次庆祝活动，关老师为我们改编了童话剧〈白雪公主和皇后〉，还让我演皇后。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 61416,
+            "endMs": 67968,
+            "text": "我一聽，委屈極了，心想：皇后是壞人，我才 不要演呢！",
+            "textSimplified": "我一听，委屈极了，心想：皇后是坏人，我才 不要演呢！"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 67968,
+            "endMs": 76296,
+            "text": "關老師好像看出了我的心思，微笑地撫摸着我的頭說：『琪琪，你看過小丑的表演嗎？",
+            "textSimplified": "关老师好像看出了我的心思，微笑地抚摸着我的头说：『琪琪，你看过小丑的表演吗？"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 76296,
+            "endMs": 84120,
+            "text": "他們雖然裝扮得有點醜，有點怪異，卻贏得了人們的喜愛，你說這是為什麼？』",
+            "textSimplified": "他们虽然装扮得有点丑，有点怪异，却赢得了人们的喜爱，你说这是为什么？』"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 84120,
+            "endMs": 89088,
+            "text": "我想了想，說：『因為小丑給人們帶來了歡笑。』",
+            "textSimplified": "我想了想，说：『因为小丑给人们带来了欢笑。』"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 89088,
+            "endMs": 97320,
+            "text": "『琪琪說得沒錯，雖然你演的是有點壞的皇后，但是可以讓小朋友從中學到道理啊。』",
+            "textSimplified": "『琪琪说得没错，虽然你演的是有点坏的皇后，但是可以让小朋友从中学到道理啊。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 97320,
+            "endMs": 101880,
+            "text": "聽到這裏，我才高興地答應了老師的要求。",
+            "textSimplified": "听到这里，我才高兴地答应了老师的要求。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 101880,
+            "endMs": 108840,
+            "text": "我愛關老師，因為她讓我深深地愛上中文課，也讓我更加快樂和自信。",
+            "textSimplified": "我爱关老师，因为她让我深深地爱上中文课，也让我更加快乐和自信。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter05/b03_ch05_p01_c.mp3",
+        "durationMs": 115488,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 13416,
+            "text": "二下 ：我愛關老師（第十六頁） 關老師是我的中文老師，她身材高挑，皮膚白皙，一雙眼睛炯炯有神，彷彿能看穿人的心思似的。",
+            "textSimplified": "二下 ：我爱关老师（第十六页） 关老师是我的中文老师，她身材高挑，皮肤白皙，一双眼睛炯炯有神，仿佛能看穿人的心思似的。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 13416,
+            "endMs": 18384,
+            "text": "她很愛笑，嘴角常常綻放出甜美的笑容。",
+            "textSimplified": "她很爱笑，嘴角常常绽放出甜美的笑容。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 18384,
+            "endMs": 26256,
+            "text": "關老師有一張能說會道的嘴巴，經她口中講出的每一句話都那麼甜美動聽。",
+            "textSimplified": "关老师有一张能说会道的嘴巴，经她口中讲出的每一句话都那么甜美动听。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 26256,
+            "endMs": 33456,
+            "text": "關老師講課時繪聲繪色，不知不覺就把同學們帶入課文的情景裏。",
+            "textSimplified": "关老师讲课时绘声绘色，不知不觉就把同学们带入课文的情景里。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 33456,
+            "endMs": 46800,
+            "text": "有一次教古詩，關老師一邊播放古典音樂，一邊朗誦，我聽得入了迷，眼前頓時浮現出古詩中的情景，彷彿走進了詩人的生活一樣。",
+            "textSimplified": "有一次教古诗，关老师一边播放古典音乐，一边朗诵，我听得入了迷，眼前顿时浮现出古诗中的情景，仿佛走进了诗人的生活一样。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 46800,
+            "endMs": 54120,
+            "text": "關老師不僅教給我們語文知識，在生活中，她也是我們親密的朋友。",
+            "textSimplified": "关老师不仅教给我们语文知识，在生活中，她也是我们亲密的朋友。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 54120,
+            "endMs": 62808,
+            "text": "一次慶祝活動，關老師為我們改編了童話劇〈白雪公主和皇后〉，還讓我演皇后。",
+            "textSimplified": "一次庆祝活动，关老师为我们改编了童话剧〈白雪公主和皇后〉，还让我演皇后。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 62808,
+            "endMs": 69456,
+            "text": "我一聽，委屈極了，心想：皇后是壞人，我才 不要演呢！",
+            "textSimplified": "我一听，委屈极了，心想：皇后是坏人，我才 不要演呢！"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 69456,
+            "endMs": 78360,
+            "text": "關老師好像看出了我的心思，微笑地撫摸着我的頭說：『琪琪，你看過小丑的表演嗎？",
+            "textSimplified": "关老师好像看出了我的心思，微笑地抚摸着我的头说：『琪琪，你看过小丑的表演吗？"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 78360,
+            "endMs": 87144,
+            "text": "他們雖然裝扮得有點醜，有點怪異，卻贏得了人們的喜愛，你說這是為什麼？』",
+            "textSimplified": "他们虽然装扮得有点丑，有点怪异，却赢得了人们的喜爱，你说这是为什么？』"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 87144,
+            "endMs": 93456,
+            "text": "我想了想，說：『因為小丑給人們帶來了歡笑。』",
+            "textSimplified": "我想了想，说：『因为小丑给人们带来了欢笑。』"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 93456,
+            "endMs": 102432,
+            "text": "『琪琪說得沒錯，雖然你演的是有點壞的皇后，但是可以讓小朋友從中學到道理啊。』",
+            "textSimplified": "『琪琪说得没错，虽然你演的是有点坏的皇后，但是可以让小朋友从中学到道理啊。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 102432,
+            "endMs": 107736,
+            "text": "聽到這裏，我才高興地答應了老師的要求。",
+            "textSimplified": "听到这里，我才高兴地答应了老师的要求。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 107736,
+            "endMs": 115488,
+            "text": "我愛關老師，因為她讓我深深地愛上中文課，也讓我更加快樂和自信。",
+            "textSimplified": "我爱关老师，因为她让我深深地爱上中文课，也让我更加快乐和自信。"
+          }
+        ]
+      }
+    }
+  ]
+}

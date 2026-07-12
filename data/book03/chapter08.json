@@ -1,0 +1,718 @@
+{
+  "bookId": "03",
+  "chapterId": "08",
+  "chapterTitle": "可敬的郵差叔叔",
+  "chapterTitleSimplified": "可敬的邮差叔叔",
+  "passages": [
+    "二下 ：可敬的郵差叔叔（第二十二頁） 一大早，窗外的雨嘩嘩地下着，雨點劈劈啪啪地打在窗門的玻璃上，彷彿天上的仙女正在往人間灑落珍珠呢。 我趴在窗臺上望着，正想着這樣的天氣不能出去玩了。突然，在朦朧的雨中，我看見一個身影正慢慢靠近。因為雨很大，所以那個身影前進得很艱難。他是誰呢？ 漸漸地，那人走近了，呀，原來是郵差林叔叔。林叔叔三十多歲，看上去非常精神。他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。他的一雙眼睛炯炯有神，目光十分和藹。林叔叔在我們這裏很有名，因為他為人熱心，所以大家都很喜歡他。不論下雨天晴，林叔叔都按時給大家送信，有時，要是鄰居正好碰到他，總會和他聊上幾句。 林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。 「林先生，這麼大的雨還來送信，要不進屋喝喝茶，等雨停了再去送吧！」對面一樓的王先生大聲招呼着林叔叔。 「不了不了，大家正等着收信呢。」林叔叔又急匆匆地走了。他臉上濕漉漉的，分不清是汗水還是雨水。 林叔叔真是一個值得我尊敬的郵差。"
+  ],
+  "passagesSimplified": [
+    "二下 ：可敬的邮差叔叔（第二十二页） 一大早，窗外的雨哗哗地下着，雨点劈劈啪啪地打在窗门的玻璃上，仿佛天上的仙女正在往人间洒落珍珠呢。 我趴在窗台上望着，正想着这样的天气不能出去玩了。突然，在朦胧的雨中，我看见一个身影正慢慢靠近。因为雨很大，所以那个身影前进得很艰难。他是谁呢？ 渐渐地，那人走近了，呀，原来是邮差林叔叔。林叔叔三十多岁，看上去非常精神。他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。他的一双眼睛炯炯有神，目光十分和蔼。林叔叔在我们这里很有名，因为他为人热心，所以大家都很喜欢他。不论下雨天晴，林叔叔都按时给大家送信，有时，要是邻居正好碰到他，总会和他聊上几句。 林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。 「林先生，这么大的雨还来送信，要不进屋喝喝茶，等雨停了再去送吧！」对面一楼的王先生大声招呼着林叔叔。 「不了不了，大家正等着收信呢。」林叔叔又急匆匆地走了。他脸上湿漉漉的，分不清是汗水还是雨水。 林叔叔真是一个值得我尊敬的邮差。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch08_w001",
+      "traditional": "可敬",
+      "simplified": "可敬",
+      "english": "respectable / admirable",
+      "pinyin": "kě jìng",
+      "contextSentence": "二下 ：可敬的郵差叔叔（第二十二頁） 一大早，窗外的雨嘩嘩地下着，雨點劈劈啪啪地打在窗門的玻璃上，彷彿天上的仙女正在往人間灑落珍珠呢。",
+      "contextSentenceSimplified": "二下 ：可敬的邮差叔叔（第二十二页） 一大早，窗外的雨哗哗地下着，雨点劈劈啪啪地打在窗门的玻璃上，仿佛天上的仙女正在往人间洒落珍珠呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w002",
+      "traditional": "郵差",
+      "simplified": "邮差",
+      "english": "mailman / postman",
+      "pinyin": "yóu chà",
+      "contextSentence": "二下 ：可敬的郵差叔叔（第二十二頁） 一大早，窗外的雨嘩嘩地下着，雨點劈劈啪啪地打在窗門的玻璃上，彷彿天上的仙女正在往人間灑落珍珠呢。",
+      "contextSentenceSimplified": "二下 ：可敬的邮差叔叔（第二十二页） 一大早，窗外的雨哗哗地下着，雨点劈劈啪啪地打在窗门的玻璃上，仿佛天上的仙女正在往人间洒落珍珠呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w003",
+      "traditional": "劈劈啪啪",
+      "simplified": "劈劈啪啪",
+      "english": "pitter-patter / crackling sound",
+      "pinyin": "pī pī pā pā",
+      "contextSentence": "二下 ：可敬的郵差叔叔（第二十二頁） 一大早，窗外的雨嘩嘩地下着，雨點劈劈啪啪地打在窗門的玻璃上，彷彿天上的仙女正在往人間灑落珍珠呢。",
+      "contextSentenceSimplified": "二下 ：可敬的邮差叔叔（第二十二页） 一大早，窗外的雨哗哗地下着，雨点劈劈啪啪地打在窗门的玻璃上，仿佛天上的仙女正在往人间洒落珍珠呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w004",
+      "traditional": "窗臺",
+      "simplified": "窗台",
+      "english": "windowsill",
+      "pinyin": "chuāng tái",
+      "contextSentence": "我趴在窗臺上望着，正想着這樣的天氣不能出去玩了。",
+      "contextSentenceSimplified": "我趴在窗台上望着，正想着这样的天气不能出去玩了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w005",
+      "traditional": "朦朧",
+      "simplified": "朦胧",
+      "english": "hazy / dim / blurry",
+      "pinyin": "méng lóng",
+      "contextSentence": "突然，在朦朧的雨中，我看見一個身影正慢慢靠近。",
+      "contextSentenceSimplified": "突然，在朦胧的雨中，我看见一个身影正慢慢靠近。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w006",
+      "traditional": "艱難",
+      "simplified": "艰难",
+      "english": "difficult / arduous",
+      "pinyin": "jiān nán",
+      "contextSentence": "因為雨很大，所以那個身影前進得很艱難。",
+      "contextSentenceSimplified": "因为雨很大，所以那个身影前进得很艰难。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w007",
+      "traditional": "古銅色",
+      "simplified": "古铜色",
+      "english": "bronze color / tanned",
+      "pinyin": "gǔ tóng sè",
+      "contextSentence": "他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。",
+      "contextSentenceSimplified": "他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w008",
+      "traditional": "奔波",
+      "simplified": "奔波",
+      "english": "to rush about / bustle",
+      "pinyin": "bēn bō",
+      "contextSentence": "他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。",
+      "contextSentenceSimplified": "他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w009",
+      "traditional": "風吹日曬",
+      "simplified": "风吹日晒",
+      "english": "exposed to wind and sun",
+      "pinyin": "fēng chuī rì shài",
+      "contextSentence": "他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。",
+      "contextSentenceSimplified": "他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w010",
+      "traditional": "緣故",
+      "simplified": "缘故",
+      "english": "reason / cause",
+      "pinyin": "yuán gù",
+      "contextSentence": "他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。",
+      "contextSentenceSimplified": "他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w011",
+      "traditional": "和藹",
+      "simplified": "和蔼",
+      "english": "kind / amiable / gentle",
+      "pinyin": "hé ǎi",
+      "contextSentence": "他的一雙眼睛炯炯有神，目光十分和藹。",
+      "contextSentenceSimplified": "他的一双眼睛炯炯有神，目光十分和蔼。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w012",
+      "traditional": "為人",
+      "simplified": "为人",
+      "english": "to be / character / conduct",
+      "pinyin": "wèi rén",
+      "contextSentence": "林叔叔在我們這裏很有名，因為他為人熱心，所以大家都很喜歡他。",
+      "contextSentenceSimplified": "林叔叔在我们这里很有名，因为他为人热心，所以大家都很喜欢他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w013",
+      "traditional": "鄰居",
+      "simplified": "邻居",
+      "english": "neighbor",
+      "pinyin": "lín jū",
+      "contextSentence": "不論下雨天晴，林叔叔都按時給大家送信，有時，要是鄰居正好碰到他，總會和他聊上幾句。",
+      "contextSentenceSimplified": "不论下雨天晴，林叔叔都按时给大家送信，有时，要是邻居正好碰到他，总会和他聊上几句。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w014",
+      "traditional": "嚴嚴實實",
+      "simplified": "严严实实",
+      "english": "tightly / securely / firmly",
+      "pinyin": "yán yán shí shí",
+      "contextSentence": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+      "contextSentenceSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w015",
+      "traditional": "核對",
+      "simplified": "核对",
+      "english": "to check / verify",
+      "pinyin": "hé duì",
+      "contextSentence": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+      "contextSentenceSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w016",
+      "traditional": "依次",
+      "simplified": "依次",
+      "english": "in turn / one after another",
+      "pinyin": "yī cì",
+      "contextSentence": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+      "contextSentenceSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w017",
+      "traditional": "投遞",
+      "simplified": "投递",
+      "english": "to deliver (mail)",
+      "pinyin": "tóu dì",
+      "contextSentence": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+      "contextSentenceSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w018",
+      "traditional": "大閘",
+      "simplified": "大闸",
+      "english": "large sluice gate",
+      "pinyin": "dà zhá",
+      "contextSentence": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+      "contextSentenceSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w019",
+      "traditional": "急匆匆地",
+      "simplified": "急匆匆地",
+      "english": "in a hurry / rushed",
+      "pinyin": "jí cōng cōng dì",
+      "contextSentence": "」林叔叔又急匆匆地走了。",
+      "contextSentenceSimplified": "」林叔叔又急匆匆地走了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w020",
+      "traditional": "濕漉漉的",
+      "simplified": "湿漉漉的",
+      "english": "dripping wet / soggy",
+      "pinyin": "shī lù lù de",
+      "contextSentence": "他臉上濕漉漉的，分不清是汗水還是雨水。",
+      "contextSentenceSimplified": "他脸上湿漉漉的，分不清是汗水还是雨水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch08_w021",
+      "traditional": "尊敬",
+      "simplified": "尊敬",
+      "english": "to respect / respect",
+      "pinyin": "zūn jìng",
+      "contextSentence": "林叔叔真是一個值得我尊敬的郵差。",
+      "contextSentenceSimplified": "林叔叔真是一个值得我尊敬的邮差。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter08/b03_ch08_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter08/b03_ch08_w021_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter08/b03_ch08_p01_m.mp3",
+        "durationMs": 112872,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 14928,
+            "text": "二下 ：可敬的郵差叔叔（第二十二頁） 一大早，窗外的雨嘩嘩地下着，雨點劈劈啪啪地打在窗門的玻璃上，彷彿天上的仙女正在往人間灑落珍珠呢。",
+            "textSimplified": "二下 ：可敬的邮差叔叔（第二十二页） 一大早，窗外的雨哗哗地下着，雨点劈劈啪啪地打在窗门的玻璃上，仿佛天上的仙女正在往人间洒落珍珠呢。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 14928,
+            "endMs": 20664,
+            "text": "我趴在窗臺上望着，正想着這樣的天氣不能出去玩了。",
+            "textSimplified": "我趴在窗台上望着，正想着这样的天气不能出去玩了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 20664,
+            "endMs": 26352,
+            "text": "突然，在朦朧的雨中，我看見一個身影正慢慢靠近。",
+            "textSimplified": "突然，在朦胧的雨中，我看见一个身影正慢慢靠近。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 26352,
+            "endMs": 30816,
+            "text": "因為雨很大，所以那個身影前進得很艱難。",
+            "textSimplified": "因为雨很大，所以那个身影前进得很艰难。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 30816,
+            "endMs": 32544,
+            "text": "他是誰呢？",
+            "textSimplified": "他是谁呢？"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 32544,
+            "endMs": 37872,
+            "text": "漸漸地，那人走近了，呀，原來是郵差林叔叔。",
+            "textSimplified": "渐渐地，那人走近了，呀，原来是邮差林叔叔。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 37872,
+            "endMs": 41976,
+            "text": "林叔叔三十多歲，看上去非常精神。",
+            "textSimplified": "林叔叔三十多岁，看上去非常精神。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 41976,
+            "endMs": 48720,
+            "text": "他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。",
+            "textSimplified": "他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 48720,
+            "endMs": 53400,
+            "text": "他的一雙眼睛炯炯有神，目光十分和藹。",
+            "textSimplified": "他的一双眼睛炯炯有神，目光十分和蔼。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 53400,
+            "endMs": 60048,
+            "text": "林叔叔在我們這裏很有名，因為他為人熱心，所以大家都很喜歡他。",
+            "textSimplified": "林叔叔在我们这里很有名，因为他为人热心，所以大家都很喜欢他。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 60048,
+            "endMs": 70032,
+            "text": "不論下雨天晴，林叔叔都按時給大家送信，有時，要是鄰居正好碰到他，總會和他聊上幾句。",
+            "textSimplified": "不论下雨天晴，林叔叔都按时给大家送信，有时，要是邻居正好碰到他，总会和他聊上几句。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 70032,
+            "endMs": 86544,
+            "text": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+            "textSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 86544,
+            "endMs": 93456,
+            "text": "「林先生，這麼大的雨還來送信，要不進屋喝喝茶，等雨停了再去送吧！」",
+            "textSimplified": "「林先生，这么大的雨还来送信，要不进屋喝喝茶，等雨停了再去送吧！」"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 93456,
+            "endMs": 97752,
+            "text": "對面一樓的王先生大聲招呼着林叔叔。",
+            "textSimplified": "对面一楼的王先生大声招呼着林叔叔。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 97752,
+            "endMs": 101256,
+            "text": "「不了不了，大家正等着收信呢。」",
+            "textSimplified": "「不了不了，大家正等着收信呢。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 101256,
+            "endMs": 104184,
+            "text": "林叔叔又急匆匆地走了。",
+            "textSimplified": "林叔叔又急匆匆地走了。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 104184,
+            "endMs": 109008,
+            "text": "他臉上濕漉漉的，分不清是汗水還是雨水。",
+            "textSimplified": "他脸上湿漉漉的，分不清是汗水还是雨水。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 109008,
+            "endMs": 112872,
+            "text": "林叔叔真是一個值得我尊敬的郵差。",
+            "textSimplified": "林叔叔真是一个值得我尊敬的邮差。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter08/b03_ch08_p01_c.mp3",
+        "durationMs": 121152,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 15000,
+            "text": "二下 ：可敬的郵差叔叔（第二十二頁） 一大早，窗外的雨嘩嘩地下着，雨點劈劈啪啪地打在窗門的玻璃上，彷彿天上的仙女正在往人間灑落珍珠呢。",
+            "textSimplified": "二下 ：可敬的邮差叔叔（第二十二页） 一大早，窗外的雨哗哗地下着，雨点劈劈啪啪地打在窗门的玻璃上，仿佛天上的仙女正在往人间洒落珍珠呢。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 15000,
+            "endMs": 21336,
+            "text": "我趴在窗臺上望着，正想着這樣的天氣不能出去玩了。",
+            "textSimplified": "我趴在窗台上望着，正想着这样的天气不能出去玩了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 21336,
+            "endMs": 27576,
+            "text": "突然，在朦朧的雨中，我看見一個身影正慢慢靠近。",
+            "textSimplified": "突然，在朦胧的雨中，我看见一个身影正慢慢靠近。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 27576,
+            "endMs": 32736,
+            "text": "因為雨很大，所以那個身影前進得很艱難。",
+            "textSimplified": "因为雨很大，所以那个身影前进得很艰难。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 32736,
+            "endMs": 34848,
+            "text": "他是誰呢？",
+            "textSimplified": "他是谁呢？"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 34848,
+            "endMs": 40800,
+            "text": "漸漸地，那人走近了，呀，原來是郵差林叔叔。",
+            "textSimplified": "渐渐地，那人走近了，呀，原来是邮差林叔叔。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 40800,
+            "endMs": 45624,
+            "text": "林叔叔三十多歲，看上去非常精神。",
+            "textSimplified": "林叔叔三十多岁，看上去非常精神。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 45624,
+            "endMs": 52656,
+            "text": "他的臉是古銅色的，大概是整天在外奔波，風吹日曬的緣故吧。",
+            "textSimplified": "他的脸是古铜色的，大概是整天在外奔波，风吹日晒的缘故吧。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 52656,
+            "endMs": 57528,
+            "text": "他的一雙眼睛炯炯有神，目光十分和藹。",
+            "textSimplified": "他的一双眼睛炯炯有神，目光十分和蔼。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 57528,
+            "endMs": 64920,
+            "text": "林叔叔在我們這裏很有名，因為他為人熱心，所以大家都很喜歡他。",
+            "textSimplified": "林叔叔在我们这里很有名，因为他为人热心，所以大家都很喜欢他。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 64920,
+            "endMs": 75000,
+            "text": "不論下雨天晴，林叔叔都按時給大家送信，有時，要是鄰居正好碰到他，總會和他聊上幾句。",
+            "textSimplified": "不论下雨天晴，林叔叔都按时给大家送信，有时，要是邻居正好碰到他，总会和他聊上几句。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 75000,
+            "endMs": 90984,
+            "text": "林叔叔走到我家對面的房子門前，停了下來，小心翼翼地從郵袋裏取出信件，並把它們保護得嚴嚴實實，他仔細地一家一家核對，依次把信件投遞到大閘外的信箱裏。",
+            "textSimplified": "林叔叔走到我家对面的房子门前，停了下来，小心翼翼地从邮袋里取出信件，并把它们保护得严严实实，他仔细地一家一家核对，依次把信件投递到大闸外的信箱里。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 90984,
+            "endMs": 99000,
+            "text": "「林先生，這麼大的雨還來送信，要不進屋喝喝茶，等雨停了再去送吧！」",
+            "textSimplified": "「林先生，这么大的雨还来送信，要不进屋喝喝茶，等雨停了再去送吧！」"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 99000,
+            "endMs": 103512,
+            "text": "對面一樓的王先生大聲招呼着林叔叔。",
+            "textSimplified": "对面一楼的王先生大声招呼着林叔叔。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 103512,
+            "endMs": 108120,
+            "text": "「不了不了，大家正等着收信呢。」",
+            "textSimplified": "「不了不了，大家正等着收信呢。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 108120,
+            "endMs": 111504,
+            "text": "林叔叔又急匆匆地走了。",
+            "textSimplified": "林叔叔又急匆匆地走了。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 111504,
+            "endMs": 116832,
+            "text": "他臉上濕漉漉的，分不清是汗水還是雨水。",
+            "textSimplified": "他脸上湿漉漉的，分不清是汗水还是雨水。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 116832,
+            "endMs": 121152,
+            "text": "林叔叔真是一個值得我尊敬的郵差。",
+            "textSimplified": "林叔叔真是一个值得我尊敬的邮差。"
+          }
+        ]
+      }
+    }
+  ]
+}

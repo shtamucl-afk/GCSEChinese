@@ -1,0 +1,445 @@
+{
+  "bookId": "02",
+  "chapterId": "21",
+  "chapterTitle": "給好朋友的一封信",
+  "chapterTitleSimplified": "给好朋友的一封信",
+  "passages": [
+    "二上：給好朋友的一封信（第六十六頁）\n\n親愛的雪兒：\n\n你好！今天上作文課，老師讓我們給最好的朋友寫封信，我第一個就想到了你。你和家人移民澳洲已經一年多了，一直沒機會給你寫信，你現在過得好嗎？\n\n記得入學的第一天，我發現自己一個朋友也沒有。當我的眼神落在你身上，你友好地對我笑了笑。就這樣，很快我們就成了無話不說的好朋友。我們一同學習，一同玩耍，一起度過了一年級的快樂時光。\n\n記得我生日那天，你送了一條漂亮的心形項鏈給我，說是送給我的友誼鏈，只要戴上它，我們就永遠是好朋友。後來你去了澳洲，我就把友誼鏈好好地收藏起來，因為它是我收到過的最好的禮物，是我們友誼的象徵。\n\n現在，我正在努力準備學年考試，你知道我的數學一直不太好，媽媽給我請了補習老師，我每天放學後都要花時間溫習數學，爭取在考試中取得好成績。\n\n祝 學習進步，天天開心！\n\n麗銘 二月十日"
+  ],
+  "passagesSimplified": [
+    "二上：给好朋友的一封信（第六十六页）\n\n亲爱的雪儿：\n\n你好！今天上作文课，老师让我们给最好的朋友写封信，我第一个就想到了你。你和家人移民澳洲已经一年多了，一直没机会给你写信，你现在过得好吗？\n\n记得入学的第一天，我发现自己一个朋友也没有。当我的眼神落在你身上，你友好地对我笑了笑。就这样，很快我们就成了无话不说的好朋友。我们一同学习，一同玩耍，一起度过了一年级的快乐时光。\n\n记得我生日那天，你送了一条漂亮的心形项链给我，说是送给我的友谊链，只要戴上它，我们就永远是好朋友。后来你去了澳洲，我就把友谊链好好地收藏起来，因为它是我收到过的最好的礼物，是我们友谊的象征。\n\n现在，我正在努力准备学年考试，你知道我的数学一直不太好，妈妈给我请了补习老师，我每天放学后都要花时间温习数学，争取在考试中取得好成绩。\n\n祝 学习进步，天天开心！\n\n丽铭 二月十日"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch21_w001",
+      "traditional": "作文課",
+      "simplified": "作文课",
+      "english": "composition class",
+      "pinyin": "zuò wén kè",
+      "contextSentence": "今天上作文課，老師讓我們給最好的朋友寫封信，我第一個就想到了你。",
+      "contextSentenceSimplified": "今天上作文课，老师让我们给最好的朋友写封信，我第一个就想到了你。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w002",
+      "traditional": "移民",
+      "simplified": "移民",
+      "english": "emigrate",
+      "pinyin": "yí mín",
+      "contextSentence": "你和家人移民澳洲已經一年多了，一直沒機會給你寫信，你現在過得好嗎？",
+      "contextSentenceSimplified": "你和家人移民澳洲已经一年多了，一直没机会给你写信，你现在过得好吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w003",
+      "traditional": "澳洲",
+      "simplified": "澳洲",
+      "english": "Australia",
+      "pinyin": "ào zhōu",
+      "contextSentence": "你和家人移民澳洲已經一年多了，一直沒機會給你寫信，你現在過得好嗎？",
+      "contextSentenceSimplified": "你和家人移民澳洲已经一年多了，一直没机会给你写信，你现在过得好吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w004",
+      "traditional": "無話不說",
+      "simplified": "无话不说",
+      "english": "tell each other everything",
+      "pinyin": "wú huà bù shuō",
+      "contextSentence": "就這樣，很快我們就成了無話不說的好朋友。",
+      "contextSentenceSimplified": "就这样，很快我们就成了无话不说的好朋友。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w005",
+      "traditional": "心形項鏈",
+      "simplified": "心形项链",
+      "english": "heart-shaped necklace",
+      "pinyin": "xīn xíng xiàng liàn",
+      "contextSentence": "記得我生日那天，你送了一條漂亮的心形項鏈給我，說是送給我的友誼鏈，只要戴上它，我們就永遠是好朋友。",
+      "contextSentenceSimplified": "记得我生日那天，你送了一条漂亮的心形项链给我，说是送给我的友谊链，只要戴上它，我们就永远是好朋友。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w006",
+      "traditional": "友誼鏈",
+      "simplified": "友谊链",
+      "english": "friendship chain",
+      "pinyin": "yǒu yì liàn",
+      "contextSentence": "記得我生日那天，你送了一條漂亮的心形項鏈給我，說是送給我的友誼鏈，只要戴上它，我們就永遠是好朋友。",
+      "contextSentenceSimplified": "记得我生日那天，你送了一条漂亮的心形项链给我，说是送给我的友谊链，只要戴上它，我们就永远是好朋友。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w007",
+      "traditional": "象徵",
+      "simplified": "象征",
+      "english": "symbolize",
+      "pinyin": "xiàng zhēng",
+      "contextSentence": "後來你去了澳洲，我就把友誼鏈好好地收藏起來，因為它是我收到過的最好的禮物，是我們友誼的象徵。",
+      "contextSentenceSimplified": "后来你去了澳洲，我就把友谊链好好地收藏起来，因为它是我收到过的最好的礼物，是我们友谊的象征。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w008",
+      "traditional": "學年考試",
+      "simplified": "学年考试",
+      "english": "yearly exam",
+      "pinyin": "xué nián kǎo shì",
+      "contextSentence": "現在，我正在努力準備學年考試，你知道我的數學一直不太好，媽媽給我請了補習老師，我每天放學後都要花時間溫習數學，爭取在考試中取得好成績。",
+      "contextSentenceSimplified": "现在，我正在努力准备学年考试，你知道我的数学一直不太好，妈妈给我请了补习老师，我每天放学后都要花时间温习数学，争取在考试中取得好成绩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w009",
+      "traditional": "補習老師",
+      "simplified": "补习老师",
+      "english": "tutor",
+      "pinyin": "bǔ xí lǎo shī",
+      "contextSentence": "現在，我正在努力準備學年考試，你知道我的數學一直不太好，媽媽給我請了補習老師，我每天放學後都要花時間溫習數學，爭取在考試中取得好成績。",
+      "contextSentenceSimplified": "现在，我正在努力准备学年考试，你知道我的数学一直不太好，妈妈给我请了补习老师，我每天放学后都要花时间温习数学，争取在考试中取得好成绩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch21_w010",
+      "traditional": "溫習",
+      "simplified": "温习",
+      "english": "review",
+      "pinyin": "wēn xí",
+      "contextSentence": "現在，我正在努力準備學年考試，你知道我的數學一直不太好，媽媽給我請了補習老師，我每天放學後都要花時間溫習數學，爭取在考試中取得好成績。",
+      "contextSentenceSimplified": "现在，我正在努力准备学年考试，你知道我的数学一直不太好，妈妈给我请了补习老师，我每天放学后都要花时间温习数学，争取在考试中取得好成绩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter21/b02_ch21_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter21/b02_ch21_w010_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter21/b02_ch21_p01_m.mp3",
+        "durationMs": 83808,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4320,
+            "text": "二上：給好朋友的一封信（第六十六頁）",
+            "textSimplified": "二上：给好朋友的一封信（第六十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4320,
+            "endMs": 6096,
+            "text": "親愛的雪兒：",
+            "textSimplified": "亲爱的雪儿："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6096,
+            "endMs": 7368,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 7368,
+            "endMs": 14400,
+            "text": "今天上作文課，老師讓我們給最好的朋友寫封信，我第一個就想到了你。",
+            "textSimplified": "今天上作文课，老师让我们给最好的朋友写封信，我第一个就想到了你。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 14400,
+            "endMs": 21744,
+            "text": "你和家人移民澳洲已經一年多了，一直沒機會給你寫信，你現在過得好嗎？",
+            "textSimplified": "你和家人移民澳洲已经一年多了，一直没机会给你写信，你现在过得好吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 21744,
+            "endMs": 27168,
+            "text": "記得入學的第一天，我發現自己一個朋友也沒有。",
+            "textSimplified": "记得入学的第一天，我发现自己一个朋友也没有。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 27168,
+            "endMs": 31848,
+            "text": "當我的眼神落在你身上，你友好地對我笑了笑。",
+            "textSimplified": "当我的眼神落在你身上，你友好地对我笑了笑。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 31848,
+            "endMs": 36384,
+            "text": "就這樣，很快我們就成了無話不說的好朋友。",
+            "textSimplified": "就这样，很快我们就成了无话不说的好朋友。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 36384,
+            "endMs": 42504,
+            "text": "我們一同學習，一同玩耍，一起度過了一年級的快樂時光。",
+            "textSimplified": "我们一同学习，一同玩耍，一起度过了一年级的快乐时光。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 42504,
+            "endMs": 52968,
+            "text": "記得我生日那天，你送了一條漂亮的心形項鏈給我，說是送給我的友誼鏈，只要戴上它，我們就永遠是好朋友。",
+            "textSimplified": "记得我生日那天，你送了一条漂亮的心形项链给我，说是送给我的友谊链，只要戴上它，我们就永远是好朋友。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 52968,
+            "endMs": 62568,
+            "text": "後來你去了澳洲，我就把友誼鏈好好地收藏起來，因為它是我收到過的最好的禮物，是我們友誼的象徵。",
+            "textSimplified": "后来你去了澳洲，我就把友谊链好好地收藏起来，因为它是我收到过的最好的礼物，是我们友谊的象征。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 62568,
+            "endMs": 77832,
+            "text": "現在，我正在努力準備學年考試，你知道我的數學一直不太好，媽媽給我請了補習老師，我每天放學後都要花時間溫習數學，爭取在考試中取得好成績。",
+            "textSimplified": "现在，我正在努力准备学年考试，你知道我的数学一直不太好，妈妈给我请了补习老师，我每天放学后都要花时间温习数学，争取在考试中取得好成绩。"
+          },
+          {
+            "index": 12,
+            "paragraph": 12,
+            "startMs": 77832,
+            "endMs": 81336,
+            "text": "祝 學習進步，天天開心！",
+            "textSimplified": "祝 学习进步，天天开心！"
+          },
+          {
+            "index": 13,
+            "paragraph": 14,
+            "startMs": 81336,
+            "endMs": 83808,
+            "text": "麗銘 二月十日",
+            "textSimplified": "丽铭 二月十日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter21/b02_ch21_p01_c.mp3",
+        "durationMs": 90624,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4704,
+            "text": "二上：給好朋友的一封信（第六十六頁）",
+            "textSimplified": "二上：给好朋友的一封信（第六十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4704,
+            "endMs": 7104,
+            "text": "親愛的雪兒：",
+            "textSimplified": "亲爱的雪儿："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7104,
+            "endMs": 8928,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8928,
+            "endMs": 16608,
+            "text": "今天上作文課，老師讓我們給最好的朋友寫封信，我第一個就想到了你。",
+            "textSimplified": "今天上作文课，老师让我们给最好的朋友写封信，我第一个就想到了你。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 16608,
+            "endMs": 24456,
+            "text": "你和家人移民澳洲已經一年多了，一直沒機會給你寫信，你現在過得好嗎？",
+            "textSimplified": "你和家人移民澳洲已经一年多了，一直没机会给你写信，你现在过得好吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 24456,
+            "endMs": 29976,
+            "text": "記得入學的第一天，我發現自己一個朋友也沒有。",
+            "textSimplified": "记得入学的第一天，我发现自己一个朋友也没有。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 29976,
+            "endMs": 35520,
+            "text": "當我的眼神落在你身上，你友好地對我笑了笑。",
+            "textSimplified": "当我的眼神落在你身上，你友好地对我笑了笑。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 35520,
+            "endMs": 40920,
+            "text": "就這樣，很快我們就成了無話不說的好朋友。",
+            "textSimplified": "就这样，很快我们就成了无话不说的好朋友。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 40920,
+            "endMs": 47616,
+            "text": "我們一同學習，一同玩耍，一起度過了一年級的快樂時光。",
+            "textSimplified": "我们一同学习，一同玩耍，一起度过了一年级的快乐时光。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 47616,
+            "endMs": 58920,
+            "text": "記得我生日那天，你送了一條漂亮的心形項鏈給我，說是送給我的友誼鏈，只要戴上它，我們就永遠是好朋友。",
+            "textSimplified": "记得我生日那天，你送了一条漂亮的心形项链给我，说是送给我的友谊链，只要戴上它，我们就永远是好朋友。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 58920,
+            "endMs": 69528,
+            "text": "後來你去了澳洲，我就把友誼鏈好好地收藏起來，因為它是我收到過的最好的禮物，是我們友誼的象徵。",
+            "textSimplified": "后来你去了澳洲，我就把友谊链好好地收藏起来，因为它是我收到过的最好的礼物，是我们友谊的象征。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 69528,
+            "endMs": 84600,
+            "text": "現在，我正在努力準備學年考試，你知道我的數學一直不太好，媽媽給我請了補習老師，我每天放學後都要花時間溫習數學，爭取在考試中取得好成績。",
+            "textSimplified": "现在，我正在努力准备学年考试，你知道我的数学一直不太好，妈妈给我请了补习老师，我每天放学后都要花时间温习数学，争取在考试中取得好成绩。"
+          },
+          {
+            "index": 12,
+            "paragraph": 12,
+            "startMs": 84600,
+            "endMs": 88272,
+            "text": "祝 學習進步，天天開心！",
+            "textSimplified": "祝 学习进步，天天开心！"
+          },
+          {
+            "index": 13,
+            "paragraph": 14,
+            "startMs": 88272,
+            "endMs": 90624,
+            "text": "麗銘 二月十日",
+            "textSimplified": "丽铭 二月十日"
+          }
+        ]
+      }
+    }
+  ]
+}

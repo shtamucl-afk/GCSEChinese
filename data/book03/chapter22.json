@@ -1,0 +1,845 @@
+{
+  "bookId": "03",
+  "chapterId": "22",
+  "chapterTitle": "日記一則 （二）",
+  "chapterTitleSimplified": "日记一则 （二）",
+  "passages": [
+    "二下 ：日記一則（二）（第六十八頁） 五月七日 星期六 晴 今天，我在露臺上給花澆水的時候，發現了一件十分有趣的事情。 我發現月季花的葉片上有幾處綠色的小點點，仔細一看，原來是蚜蟲。我記得在書本上見過牠們。正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？ 只見螞蟻小心翼翼地來到蚜蟲後面，牠們先是互相碰了碰觸角，然後再用觸角輕輕拍了拍蚜蟲的尾部。螞蟻這是在幹什麼呢？我不禁十分好奇。接下來，只見從蚜蟲尾部出來了一些綠色的東西，難道說蚜蟲大便了？牠們的糞便竟然是綠色的。不可思議的是，那幾隻螞蟻見了，竟然爭先恐後地喫起蚜蟲的『糞便』來。 正在我喫驚的時候，一隻瓢蟲飛了過來。我心裏有些緊張，瓢蟲會喫掉蚜蟲和螞蟻嗎？結果，正在大喫特喫的螞蟻發現了瓢蟲，牠們立刻停止了進食，怒氣沖沖地朝瓢蟲爬去。一場惡鬥開始了，別看螞蟻個子小，牠們可真厲害。不一會兒，就把瓢蟲咬得落荒而逃。 晚上，我把這件事講給爸爸聽。爸爸告訴我，螞蟻喫的不是蚜蟲的糞便，而是蚜蟲的蜜露。蜜露是蚜蟲分泌的一種液體，非常甜，螞蟻十分愛喫。為了有甜甜的蜜露喫，螞蟻才保護蚜蟲，幫牠們趕走瓢蟲。聽了爸爸的話，我頓時明白了，原來昆蟲之間還有這麼多有趣的現象呢。"
+  ],
+  "passagesSimplified": [
+    "二下 ：日记一则（二）（第六十八页） 五月七日 星期六 晴 今天，我在露台上给花浇水的时候，发现了一件十分有趣的事情。 我发现月季花的叶片上有几处绿色的小点点，仔细一看，原来是蚜虫。我记得在书本上见过牠们。正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？ 只见蚂蚁小心翼翼地来到蚜虫后面，牠们先是互相碰了碰触角，然后再用触角轻轻拍了拍蚜虫的尾部。蚂蚁这是在干什么呢？我不禁十分好奇。接下来，只见从蚜虫尾部出来了一些绿色的东西，难道说蚜虫大便了？牠们的粪便竟然是绿色的。不可思议的是，那几只蚂蚁见了，竟然争先恐后地吃起蚜虫的『粪便』来。 正在我吃惊的时候，一只瓢虫飞了过来。我心里有些紧张，瓢虫会吃掉蚜虫和蚂蚁吗？结果，正在大吃特吃的蚂蚁发现了瓢虫，牠们立刻停止了进食，怒气冲冲地朝瓢虫爬去。一场恶斗开始了，别看蚂蚁个子小，牠们可真厉害。不一会儿，就把瓢虫咬得落荒而逃。 晚上，我把这件事讲给爸爸听。爸爸告诉我，蚂蚁吃的不是蚜虫的粪便，而是蚜虫的蜜露。蜜露是蚜虫分泌的一种液体，非常甜，蚂蚁十分爱吃。为了有甜甜的蜜露吃，蚂蚁才保护蚜虫，帮牠们赶走瓢虫。听了爸爸的话，我顿时明白了，原来昆虫之间还有这么多有趣的现象呢。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch22_w001",
+      "traditional": "露臺",
+      "simplified": "露台",
+      "english": "terrace / balcony",
+      "pinyin": "lù tái",
+      "contextSentence": "今天，我在露臺上給花澆水的時候，發現了一件十分有趣的事情。",
+      "contextSentenceSimplified": "今天，我在露台上给花浇水的时候，发现了一件十分有趣的事情。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w002",
+      "traditional": "葉片",
+      "simplified": "叶片",
+      "english": "leaf blade",
+      "pinyin": "yè piàn",
+      "contextSentence": "我發現月季花的葉片上有幾處綠色的小點點，仔細一看，原來是蚜蟲。",
+      "contextSentenceSimplified": "我发现月季花的叶片上有几处绿色的小点点，仔细一看，原来是蚜虫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w003",
+      "traditional": "蚜蟲",
+      "simplified": "蚜虫",
+      "english": "aphid",
+      "pinyin": "yá chóng",
+      "contextSentence": "我發現月季花的葉片上有幾處綠色的小點點，仔細一看，原來是蚜蟲。",
+      "contextSentenceSimplified": "我发现月季花的叶片上有几处绿色的小点点，仔细一看，原来是蚜虫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w004",
+      "traditional": "正當",
+      "simplified": "正当",
+      "english": "Right at the moment when",
+      "pinyin": "zhèng dāng",
+      "contextSentence": "正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？",
+      "contextSentenceSimplified": "正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w005",
+      "traditional": "殺蟲劑",
+      "simplified": "杀虫剂",
+      "english": "insecticide / pesticide",
+      "pinyin": "shā chóng jì",
+      "contextSentence": "正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？",
+      "contextSentenceSimplified": "正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w006",
+      "traditional": "消滅",
+      "simplified": "消灭",
+      "english": "to eliminate / destroy",
+      "pinyin": "xiāo miè",
+      "contextSentence": "正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？",
+      "contextSentenceSimplified": "正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w007",
+      "traditional": "螞蟻",
+      "simplified": "蚂蚁",
+      "english": "ant",
+      "pinyin": "mǎ yǐ",
+      "contextSentence": "正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？",
+      "contextSentenceSimplified": "正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w008",
+      "traditional": "小心翼翼",
+      "simplified": "小心翼翼",
+      "english": "very carefully",
+      "pinyin": "xiǎo xīn yì yì",
+      "contextSentence": "只見螞蟻小心翼翼地來到蚜蟲後面，牠們先是互相碰了碰觸角，然後再用觸角輕輕拍了拍蚜蟲的尾部。",
+      "contextSentenceSimplified": "只见蚂蚁小心翼翼地来到蚜虫后面，牠们先是互相碰了碰触角，然后再用触角轻轻拍了拍蚜虫的尾部。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w009",
+      "traditional": "觸角",
+      "simplified": "触角",
+      "english": "antenna",
+      "pinyin": "chù jiǎo",
+      "contextSentence": "只見螞蟻小心翼翼地來到蚜蟲後面，牠們先是互相碰了碰觸角，然後再用觸角輕輕拍了拍蚜蟲的尾部。",
+      "contextSentenceSimplified": "只见蚂蚁小心翼翼地来到蚜虫后面，牠们先是互相碰了碰触角，然后再用触角轻轻拍了拍蚜虫的尾部。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w010",
+      "traditional": "尾部",
+      "simplified": "尾部",
+      "english": "tail section / rear part",
+      "pinyin": "wěi bù",
+      "contextSentence": "只見螞蟻小心翼翼地來到蚜蟲後面，牠們先是互相碰了碰觸角，然後再用觸角輕輕拍了拍蚜蟲的尾部。",
+      "contextSentenceSimplified": "只见蚂蚁小心翼翼地来到蚜虫后面，牠们先是互相碰了碰触角，然后再用触角轻轻拍了拍蚜虫的尾部。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w011",
+      "traditional": "不禁",
+      "simplified": "不禁",
+      "english": "cannot help but / involuntarily",
+      "pinyin": "bù jīn",
+      "contextSentence": "我不禁十分好奇。",
+      "contextSentenceSimplified": "我不禁十分好奇。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w012",
+      "traditional": "糞便",
+      "simplified": "粪便",
+      "english": "feces / excrement",
+      "pinyin": "fèn biàn",
+      "contextSentence": "牠們的糞便竟然是綠色的。",
+      "contextSentenceSimplified": "牠们的粪便竟然是绿色的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w013",
+      "traditional": "竟然",
+      "simplified": "竟然",
+      "english": "unexpectedly / actually",
+      "pinyin": "jìng rán",
+      "contextSentence": "牠們的糞便竟然是綠色的。",
+      "contextSentenceSimplified": "牠们的粪便竟然是绿色的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w014",
+      "traditional": "不可思議",
+      "simplified": "不可思议",
+      "english": "unbelievable / inconceivable",
+      "pinyin": "bù kě sī yì",
+      "contextSentence": "不可思議的是，那幾隻螞蟻見了，竟然爭先恐後地喫起蚜蟲的『糞便』來。",
+      "contextSentenceSimplified": "不可思议的是，那几只蚂蚁见了，竟然争先恐后地吃起蚜虫的『粪便』来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w015",
+      "traditional": "爭先恐後",
+      "simplified": "争先恐后",
+      "english": "push &  rush forward",
+      "pinyin": "zhēng xiān kǒng hòu",
+      "contextSentence": "不可思議的是，那幾隻螞蟻見了，竟然爭先恐後地喫起蚜蟲的『糞便』來。",
+      "contextSentenceSimplified": "不可思议的是，那几只蚂蚁见了，竟然争先恐后地吃起蚜虫的『粪便』来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w016",
+      "traditional": "瓢蟲",
+      "simplified": "瓢虫",
+      "english": "ladybug / ladybird",
+      "pinyin": "piáo chóng",
+      "contextSentence": "正在我喫驚的時候，一隻瓢蟲飛了過來。",
+      "contextSentenceSimplified": "正在我吃惊的时候，一只瓢虫飞了过来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w017",
+      "traditional": "停止",
+      "simplified": "停止",
+      "english": "to stop / to cease",
+      "pinyin": "tíng zhǐ",
+      "contextSentence": "結果，正在大喫特喫的螞蟻發現了瓢蟲，牠們立刻停止了進食，怒氣沖沖地朝瓢蟲爬去。",
+      "contextSentenceSimplified": "结果，正在大吃特吃的蚂蚁发现了瓢虫，牠们立刻停止了进食，怒气冲冲地朝瓢虫爬去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w018",
+      "traditional": "進食",
+      "simplified": "进食",
+      "english": "to eat",
+      "pinyin": "jìn shí",
+      "contextSentence": "結果，正在大喫特喫的螞蟻發現了瓢蟲，牠們立刻停止了進食，怒氣沖沖地朝瓢蟲爬去。",
+      "contextSentenceSimplified": "结果，正在大吃特吃的蚂蚁发现了瓢虫，牠们立刻停止了进食，怒气冲冲地朝瓢虫爬去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w019",
+      "traditional": "怒氣沖沖",
+      "simplified": "怒气冲冲",
+      "english": "furious / raging with anger",
+      "pinyin": "nù qì chōng chōng",
+      "contextSentence": "結果，正在大喫特喫的螞蟻發現了瓢蟲，牠們立刻停止了進食，怒氣沖沖地朝瓢蟲爬去。",
+      "contextSentenceSimplified": "结果，正在大吃特吃的蚂蚁发现了瓢虫，牠们立刻停止了进食，怒气冲冲地朝瓢虫爬去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w020",
+      "traditional": "惡鬥",
+      "simplified": "恶斗",
+      "english": "fierce battle / brutal fight",
+      "pinyin": "è dòu",
+      "contextSentence": "一場惡鬥開始了，別看螞蟻個子小，牠們可真厲害。",
+      "contextSentenceSimplified": "一场恶斗开始了，别看蚂蚁个子小，牠们可真厉害。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w021",
+      "traditional": "落荒而逃",
+      "simplified": "落荒而逃",
+      "english": "flee in defeat / run away",
+      "pinyin": "luò huāng ér táo",
+      "contextSentence": "不一會兒，就把瓢蟲咬得落荒而逃。",
+      "contextSentenceSimplified": "不一会儿，就把瓢虫咬得落荒而逃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w022",
+      "traditional": "蜜露",
+      "simplified": "蜜露",
+      "english": "honeydew",
+      "pinyin": "mì lù",
+      "contextSentence": "爸爸告訴我，螞蟻喫的不是蚜蟲的糞便，而是蚜蟲的蜜露。",
+      "contextSentenceSimplified": "爸爸告诉我，蚂蚁吃的不是蚜虫的粪便，而是蚜虫的蜜露。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w023",
+      "traditional": "分泌",
+      "simplified": "分泌",
+      "english": "to secrete / secretion",
+      "pinyin": "fēn mì",
+      "contextSentence": "蜜露是蚜蟲分泌的一種液體，非常甜，螞蟻十分愛喫。",
+      "contextSentenceSimplified": "蜜露是蚜虫分泌的一种液体，非常甜，蚂蚁十分爱吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w024",
+      "traditional": "頓時",
+      "simplified": "顿时",
+      "english": "immediately / at once",
+      "pinyin": "dùn shí",
+      "contextSentence": "聽了爸爸的話，我頓時明白了，原來昆蟲之間還有這麼多有趣的現象呢。",
+      "contextSentenceSimplified": "听了爸爸的话，我顿时明白了，原来昆虫之间还有这么多有趣的现象呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w025",
+      "traditional": "昆蟲",
+      "simplified": "昆虫",
+      "english": "insect",
+      "pinyin": "kūn chóng",
+      "contextSentence": "聽了爸爸的話，我頓時明白了，原來昆蟲之間還有這麼多有趣的現象呢。",
+      "contextSentenceSimplified": "听了爸爸的话，我顿时明白了，原来昆虫之间还有这么多有趣的现象呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch22_w026",
+      "traditional": "現象",
+      "simplified": "现象",
+      "english": "phenomenon / phenomenon",
+      "pinyin": "xiàn xiàng",
+      "contextSentence": "聽了爸爸的話，我頓時明白了，原來昆蟲之間還有這麼多有趣的現象呢。",
+      "contextSentenceSimplified": "听了爸爸的话，我顿时明白了，原来昆虫之间还有这么多有趣的现象呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter22/b03_ch22_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter22/b03_ch22_w026_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter22/b03_ch22_p01_m.mp3",
+        "durationMs": 127248,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 13008,
+            "text": "二下 ：日記一則（二）（第六十八頁） 五月七日 星期六 晴 今天，我在露臺上給花澆水的時候，發現了一件十分有趣的事情。",
+            "textSimplified": "二下 ：日记一则（二）（第六十八页） 五月七日 星期六 晴 今天，我在露台上给花浇水的时候，发现了一件十分有趣的事情。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 13008,
+            "endMs": 20856,
+            "text": "我發現月季花的葉片上有幾處綠色的小點點，仔細一看，原來是蚜蟲。",
+            "textSimplified": "我发现月季花的叶片上有几处绿色的小点点，仔细一看，原来是蚜虫。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 20856,
+            "endMs": 24048,
+            "text": "我記得在書本上見過牠們。",
+            "textSimplified": "我记得在书本上见过牠们。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 24048,
+            "endMs": 35928,
+            "text": "正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？",
+            "textSimplified": "正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35928,
+            "endMs": 46992,
+            "text": "只見螞蟻小心翼翼地來到蚜蟲後面，牠們先是互相碰了碰觸角，然後再用觸角輕輕拍了拍蚜蟲的尾部。",
+            "textSimplified": "只见蚂蚁小心翼翼地来到蚜虫后面，牠们先是互相碰了碰触角，然后再用触角轻轻拍了拍蚜虫的尾部。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 46992,
+            "endMs": 49728,
+            "text": "螞蟻這是在幹什麼呢？",
+            "textSimplified": "蚂蚁这是在干什么呢？"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 49728,
+            "endMs": 52104,
+            "text": "我不禁十分好奇。",
+            "textSimplified": "我不禁十分好奇。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 52104,
+            "endMs": 59328,
+            "text": "接下來，只見從蚜蟲尾部出來了一些綠色的東西，難道說蚜蟲大便了？",
+            "textSimplified": "接下来，只见从蚜虫尾部出来了一些绿色的东西，难道说蚜虫大便了？"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 59328,
+            "endMs": 62472,
+            "text": "牠們的糞便竟然是綠色的。",
+            "textSimplified": "牠们的粪便竟然是绿色的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 62472,
+            "endMs": 69936,
+            "text": "不可思議的是，那幾隻螞蟻見了，竟然爭先恐後地喫起蚜蟲的『糞便』來。",
+            "textSimplified": "不可思议的是，那几只蚂蚁见了，竟然争先恐后地吃起蚜虫的『粪便』来。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 69936,
+            "endMs": 74256,
+            "text": "正在我喫驚的時候，一隻瓢蟲飛了過來。",
+            "textSimplified": "正在我吃惊的时候，一只瓢虫飞了过来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 74256,
+            "endMs": 79128,
+            "text": "我心裏有些緊張，瓢蟲會喫掉蚜蟲和螞蟻嗎？",
+            "textSimplified": "我心里有些紧张，瓢虫会吃掉蚜虫和蚂蚁吗？"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 79128,
+            "endMs": 88728,
+            "text": "結果，正在大喫特喫的螞蟻發現了瓢蟲，牠們立刻停止了進食，怒氣沖沖地朝瓢蟲爬去。",
+            "textSimplified": "结果，正在大吃特吃的蚂蚁发现了瓢虫，牠们立刻停止了进食，怒气冲冲地朝瓢虫爬去。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 88728,
+            "endMs": 94248,
+            "text": "一場惡鬥開始了，別看螞蟻個子小，牠們可真厲害。",
+            "textSimplified": "一场恶斗开始了，别看蚂蚁个子小，牠们可真厉害。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 94248,
+            "endMs": 97944,
+            "text": "不一會兒，就把瓢蟲咬得落荒而逃。",
+            "textSimplified": "不一会儿，就把瓢虫咬得落荒而逃。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 97944,
+            "endMs": 101616,
+            "text": "晚上，我把這件事講給爸爸聽。",
+            "textSimplified": "晚上，我把这件事讲给爸爸听。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 101616,
+            "endMs": 107712,
+            "text": "爸爸告訴我，螞蟻喫的不是蚜蟲的糞便，而是蚜蟲的蜜露。",
+            "textSimplified": "爸爸告诉我，蚂蚁吃的不是蚜虫的粪便，而是蚜虫的蜜露。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 107712,
+            "endMs": 113616,
+            "text": "蜜露是蚜蟲分泌的一種液體，非常甜，螞蟻十分愛喫。",
+            "textSimplified": "蜜露是蚜虫分泌的一种液体，非常甜，蚂蚁十分爱吃。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 113616,
+            "endMs": 119928,
+            "text": "為了有甜甜的蜜露喫，螞蟻才保護蚜蟲，幫牠們趕走瓢蟲。",
+            "textSimplified": "为了有甜甜的蜜露吃，蚂蚁才保护蚜虫，帮牠们赶走瓢虫。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 119928,
+            "endMs": 127248,
+            "text": "聽了爸爸的話，我頓時明白了，原來昆蟲之間還有這麼多有趣的現象呢。",
+            "textSimplified": "听了爸爸的话，我顿时明白了，原来昆虫之间还有这么多有趣的现象呢。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter22/b03_ch22_p01_c.mp3",
+        "durationMs": 132528,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 12168,
+            "text": "二下 ：日記一則（二）（第六十八頁） 五月七日 星期六 晴 今天，我在露臺上給花澆水的時候，發現了一件十分有趣的事情。",
+            "textSimplified": "二下 ：日记一则（二）（第六十八页） 五月七日 星期六 晴 今天，我在露台上给花浇水的时候，发现了一件十分有趣的事情。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 12168,
+            "endMs": 19752,
+            "text": "我發現月季花的葉片上有幾處綠色的小點點，仔細一看，原來是蚜蟲。",
+            "textSimplified": "我发现月季花的叶片上有几处绿色的小点点，仔细一看，原来是蚜虫。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19752,
+            "endMs": 23520,
+            "text": "我記得在書本上見過牠們。",
+            "textSimplified": "我记得在书本上见过牠们。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 23520,
+            "endMs": 35352,
+            "text": "正當我準備去拿殺蟲劑把牠們消滅的時候，我看到許多小螞蟻正排成隊伍朝着月季花爬去，難道牠們要喫掉蚜蟲嗎 ？",
+            "textSimplified": "正当我准备去拿杀虫剂把牠们消灭的时候，我看到许多小蚂蚁正排成队伍朝着月季花爬去，难道牠们要吃掉蚜虫吗 ？"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35352,
+            "endMs": 45744,
+            "text": "只見螞蟻小心翼翼地來到蚜蟲後面，牠們先是互相碰了碰觸角，然後再用觸角輕輕拍了拍蚜蟲的尾部。",
+            "textSimplified": "只见蚂蚁小心翼翼地来到蚜虫后面，牠们先是互相碰了碰触角，然后再用触角轻轻拍了拍蚜虫的尾部。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 45744,
+            "endMs": 48864,
+            "text": "螞蟻這是在幹什麼呢？",
+            "textSimplified": "蚂蚁这是在干什么呢？"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 48864,
+            "endMs": 51624,
+            "text": "我不禁十分好奇。",
+            "textSimplified": "我不禁十分好奇。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 51624,
+            "endMs": 59376,
+            "text": "接下來，只見從蚜蟲尾部出來了一些綠色的東西，難道說蚜蟲大便了？",
+            "textSimplified": "接下来，只见从蚜虫尾部出来了一些绿色的东西，难道说蚜虫大便了？"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 59376,
+            "endMs": 62784,
+            "text": "牠們的糞便竟然是綠色的。",
+            "textSimplified": "牠们的粪便竟然是绿色的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 62784,
+            "endMs": 70416,
+            "text": "不可思議的是，那幾隻螞蟻見了，竟然爭先恐後地喫起蚜蟲的『糞便』來。",
+            "textSimplified": "不可思议的是，那几只蚂蚁见了，竟然争先恐后地吃起蚜虫的『粪便』来。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 70416,
+            "endMs": 75336,
+            "text": "正在我喫驚的時候，一隻瓢蟲飛了過來。",
+            "textSimplified": "正在我吃惊的时候，一只瓢虫飞了过来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 75336,
+            "endMs": 80832,
+            "text": "我心裏有些緊張，瓢蟲會喫掉蚜蟲和螞蟻嗎？",
+            "textSimplified": "我心里有些紧张，瓢虫会吃掉蚜虫和蚂蚁吗？"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 80832,
+            "endMs": 90336,
+            "text": "結果，正在大喫特喫的螞蟻發現了瓢蟲，牠們立刻停止了進食，怒氣沖沖地朝瓢蟲爬去。",
+            "textSimplified": "结果，正在大吃特吃的蚂蚁发现了瓢虫，牠们立刻停止了进食，怒气冲冲地朝瓢虫爬去。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 90336,
+            "endMs": 96720,
+            "text": "一場惡鬥開始了，別看螞蟻個子小，牠們可真厲害。",
+            "textSimplified": "一场恶斗开始了，别看蚂蚁个子小，牠们可真厉害。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 96720,
+            "endMs": 101352,
+            "text": "不一會兒，就把瓢蟲咬得落荒而逃。",
+            "textSimplified": "不一会儿，就把瓢虫咬得落荒而逃。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 101352,
+            "endMs": 105744,
+            "text": "晚上，我把這件事講給爸爸聽。",
+            "textSimplified": "晚上，我把这件事讲给爸爸听。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 105744,
+            "endMs": 112248,
+            "text": "爸爸告訴我，螞蟻喫的不是蚜蟲的糞便，而是蚜蟲的蜜露。",
+            "textSimplified": "爸爸告诉我，蚂蚁吃的不是蚜虫的粪便，而是蚜虫的蜜露。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 112248,
+            "endMs": 118272,
+            "text": "蜜露是蚜蟲分泌的一種液體，非常甜，螞蟻十分愛喫。",
+            "textSimplified": "蜜露是蚜虫分泌的一种液体，非常甜，蚂蚁十分爱吃。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 118272,
+            "endMs": 124800,
+            "text": "為了有甜甜的蜜露喫，螞蟻才保護蚜蟲，幫牠們趕走瓢蟲。",
+            "textSimplified": "为了有甜甜的蜜露吃，蚂蚁才保护蚜虫，帮牠们赶走瓢虫。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 124800,
+            "endMs": 132528,
+            "text": "聽了爸爸的話，我頓時明白了，原來昆蟲之間還有這麼多有趣的現象呢。",
+            "textSimplified": "听了爸爸的话，我顿时明白了，原来昆虫之间还有这么多有趣的现象呢。"
+          }
+        ]
+      }
+    }
+  ]
+}

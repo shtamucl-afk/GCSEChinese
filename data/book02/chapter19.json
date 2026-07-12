@@ -1,0 +1,503 @@
+{
+  "bookId": "02",
+  "chapterId": "19",
+  "chapterTitle": "愛吹牛的小青蛙",
+  "chapterTitleSimplified": "爱吹牛的小青蛙",
+  "passages": [
+    "二上：愛吹牛的小青蛙（第五十頁）\n\n在一片青青的草地上，住着許多小動物，有牛伯伯、山羊叔叔，還有可愛的小熊子。山羊叔叔和牛伯伯喜歡在草地上喫草，小燕子常常在草地上空自由自在地飛來飛去。草地旁邊是一個大池塘，裏面住着一隻小青蛙，還有許多小魚。\n\n這隻小青蛙既驕傲，又愛吹牛，他總認為自己是世界上最厲害的動物，誰也比不過他。\n\n一天早上，小青蛙喫過早餐後，跳到一片荷葉上。一邊滿足地摸摸肚皮，一邊開始對水裏的小魚兒們吹起牛來：「我的身體能夠隨意地變大，你們相信嗎？」\n\n「別吹牛了，我們可不相信。」小魚兒們知道小青蛙愛吹牛，都不願意搭理他。大家正準備回家，剛好牛伯伯走過來喫草。一條小魚寶寶問小青蛙：「你真的能夠變大嗎？那你能夠變得比牛伯伯還大嗎？」\n\n「當然，這對我來說簡直就是易如反掌，等着看我的表演吧。」說完，小青蛙猛吸一口氣，把肚子鼓得大大的。小魚寶寶一邊看着，一邊大喊：「還不夠大，你可比牛伯伯小多了。」小青蛙又拼命地吸氣，把自己的肚子鼓得更大。他想：哼！我是最偉大的青蛙，我纔不會輸給牛伯伯呢。他不停地吸呀吸呀，肚皮變得越來越大⋯⋯\n\n突然，大家聽到「砰」的一聲，原來，青蛙把自己的肚皮撐破了。"
+  ],
+  "passagesSimplified": [
+    "二上：爱吹牛的小青蛙（第五十页）\n\n在一片青青的草地上，住着许多小动物，有牛伯伯、山羊叔叔，还有可爱的小熊子。山羊叔叔和牛伯伯喜欢在草地上吃草，小燕子常常在草地上空自由自在地飞来飞去。草地旁边是一个大池塘，里面住着一只小青蛙，还有许多小鱼。\n\n这只小青蛙既骄傲，又爱吹牛，他总认为自己是世界上最厉害的动物，谁也比不过他。\n\n一天早上，小青蛙吃过早餐后，跳到一片荷叶上。一边满足地摸摸肚皮，一边开始对水里的小鱼儿们吹起牛来：「我的身体能够随意地变大，你们相信吗？」\n\n「别吹牛了，我们可不相信。」小鱼儿们知道小青蛙爱吹牛，都不愿意搭理他。大家正准备回家，刚好牛伯伯走过来吃草。一条小鱼宝宝问小青蛙：「你真的能够变大吗？那你能够变得比牛伯伯还大吗？」\n\n「当然，这对我来说简直就是易如反掌，等着看我的表演吧。」说完，小青蛙猛吸一口气，把肚子鼓得大大的。小鱼宝宝一边看着，一边大喊：「还不够大，你可比牛伯伯小多了。」小青蛙又拼命地吸气，把自己的肚子鼓得更大。他想：哼！我是最伟大的青蛙，我才不会输给牛伯伯呢。他不停地吸呀吸呀，肚皮变得越来越大⋯⋯\n\n突然，大家听到「砰」的一声，原来，青蛙把自己的肚皮撑破了。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch19_w001",
+      "traditional": "驕傲",
+      "simplified": "骄傲",
+      "english": "proud",
+      "pinyin": "jiāo ào",
+      "contextSentence": "這隻小青蛙既驕傲，又愛吹牛，他總認為自己是世界上最厲害的動物，誰也比不過他。",
+      "contextSentenceSimplified": "这只小青蛙既骄傲，又爱吹牛，他总认为自己是世界上最厉害的动物，谁也比不过他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w002",
+      "traditional": "厲害",
+      "simplified": "厉害",
+      "english": "awesome",
+      "pinyin": "lì hài",
+      "contextSentence": "這隻小青蛙既驕傲，又愛吹牛，他總認為自己是世界上最厲害的動物，誰也比不過他。",
+      "contextSentenceSimplified": "这只小青蛙既骄傲，又爱吹牛，他总认为自己是世界上最厉害的动物，谁也比不过他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w003",
+      "traditional": "易如反掌",
+      "simplified": "易如反掌",
+      "english": "as easy as pie",
+      "pinyin": "yì rú fǎn zhǎng",
+      "contextSentence": "當然，這對我來說簡直就是易如反掌，等着看我的表演吧。",
+      "contextSentenceSimplified": "当然，这对我来说简直就是易如反掌，等着看我的表演吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w004",
+      "traditional": "猛吸一口氣",
+      "simplified": "猛吸一口气",
+      "english": "take a deep breath",
+      "pinyin": "měng xī yī kǒu qì",
+      "contextSentence": "說完，小青蛙猛吸一口氣，把肚子鼓得大大的。",
+      "contextSentenceSimplified": "说完，小青蛙猛吸一口气，把肚子鼓得大大的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w005",
+      "traditional": "拼命",
+      "simplified": "拼命",
+      "english": "try desperately",
+      "pinyin": "pīn mìng",
+      "contextSentence": "小青蛙又拼命地吸氣，把自己的肚子鼓得更大。",
+      "contextSentenceSimplified": "小青蛙又拼命地吸气，把自己的肚子鼓得更大。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w006",
+      "traditional": "偉大",
+      "simplified": "伟大",
+      "english": "great",
+      "pinyin": "wěi dà",
+      "contextSentence": "我是最偉大的青蛙，我纔不會輸給牛伯伯呢。",
+      "contextSentenceSimplified": "我是最伟大的青蛙，我才不会输给牛伯伯呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w007",
+      "traditional": "不會輸",
+      "simplified": "不会输",
+      "english": "won't lose",
+      "pinyin": "bù huì shū",
+      "contextSentence": "我是最偉大的青蛙，我纔不會輸給牛伯伯呢。",
+      "contextSentenceSimplified": "我是最伟大的青蛙，我才不会输给牛伯伯呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch19_w008",
+      "traditional": "撐破了",
+      "simplified": "撑破了",
+      "english": "burst open",
+      "pinyin": "chēng pò le",
+      "contextSentence": "他不停地吸呀吸呀，肚皮變得越來越大⋯⋯\n\n突然，大家聽到「砰」的一聲，原來，青蛙把自己的肚皮撐破了。",
+      "contextSentenceSimplified": "他不停地吸呀吸呀，肚皮变得越来越大⋯⋯\n\n突然，大家听到「砰」的一声，原来，青蛙把自己的肚皮撑破了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter19/b02_ch19_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter19/b02_ch19_w008_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter19/b02_ch19_p01_m.mp3",
+        "durationMs": 114456,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4296,
+            "text": "二上：愛吹牛的小青蛙（第五十頁）",
+            "textSimplified": "二上：爱吹牛的小青蛙（第五十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4296,
+            "endMs": 13104,
+            "text": "在一片青青的草地上，住着許多小動物，有牛伯伯、山羊叔叔，還有可愛的小熊子。",
+            "textSimplified": "在一片青青的草地上，住着许多小动物，有牛伯伯、山羊叔叔，还有可爱的小熊子。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 13104,
+            "endMs": 22560,
+            "text": "山羊叔叔和牛伯伯喜歡在草地上喫草，小燕子常常在草地上空自由自在地飛來飛去。",
+            "textSimplified": "山羊叔叔和牛伯伯喜欢在草地上吃草，小燕子常常在草地上空自由自在地飞来飞去。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 22560,
+            "endMs": 29040,
+            "text": "草地旁邊是一個大池塘，裏面住着一隻小青蛙，還有許多小魚。",
+            "textSimplified": "草地旁边是一个大池塘，里面住着一只小青蛙，还有许多小鱼。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 29040,
+            "endMs": 37992,
+            "text": "這隻小青蛙既驕傲，又愛吹牛，他總認為自己是世界上最厲害的動物，誰也比不過他。",
+            "textSimplified": "这只小青蛙既骄傲，又爱吹牛，他总认为自己是世界上最厉害的动物，谁也比不过他。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 37992,
+            "endMs": 43440,
+            "text": "一天早上，小青蛙喫過早餐後，跳到一片荷葉上。",
+            "textSimplified": "一天早上，小青蛙吃过早餐后，跳到一片荷叶上。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 43440,
+            "endMs": 53712,
+            "text": "一邊滿足地摸摸肚皮，一邊開始對水裏的小魚兒們吹起牛來：「我的身體能夠隨意地變大，你們相信嗎？」",
+            "textSimplified": "一边满足地摸摸肚皮，一边开始对水里的小鱼儿们吹起牛来：「我的身体能够随意地变大，你们相信吗？」"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 53712,
+            "endMs": 56856,
+            "text": "「別吹牛了，我們可不相信。」",
+            "textSimplified": "「别吹牛了，我们可不相信。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 56856,
+            "endMs": 61776,
+            "text": "小魚兒們知道小青蛙愛吹牛，都不願意搭理他。",
+            "textSimplified": "小鱼儿们知道小青蛙爱吹牛，都不愿意搭理他。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 61776,
+            "endMs": 66384,
+            "text": "大家正準備回家，剛好牛伯伯走過來喫草。",
+            "textSimplified": "大家正准备回家，刚好牛伯伯走过来吃草。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 66384,
+            "endMs": 70992,
+            "text": "一條小魚寶寶問小青蛙：「你真的能夠變大嗎？",
+            "textSimplified": "一条小鱼宝宝问小青蛙：「你真的能够变大吗？"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 70992,
+            "endMs": 74328,
+            "text": "那你能夠變得比牛伯伯還大嗎？」",
+            "textSimplified": "那你能够变得比牛伯伯还大吗？」"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 74328,
+            "endMs": 80520,
+            "text": "「當然，這對我來說簡直就是易如反掌，等着看我的表演吧。」",
+            "textSimplified": "「当然，这对我来说简直就是易如反掌，等着看我的表演吧。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 80520,
+            "endMs": 85584,
+            "text": "說完，小青蛙猛吸一口氣，把肚子鼓得大大的。",
+            "textSimplified": "说完，小青蛙猛吸一口气，把肚子鼓得大大的。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 85584,
+            "endMs": 92376,
+            "text": "小魚寶寶一邊看着，一邊大喊：「還不夠大，你可比牛伯伯小多了。」",
+            "textSimplified": "小鱼宝宝一边看着，一边大喊：「还不够大，你可比牛伯伯小多了。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 92376,
+            "endMs": 97320,
+            "text": "小青蛙又拼命地吸氣，把自己的肚子鼓得更大。",
+            "textSimplified": "小青蛙又拼命地吸气，把自己的肚子鼓得更大。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 97320,
+            "endMs": 99264,
+            "text": "他想：哼！",
+            "textSimplified": "他想：哼！"
+          },
+          {
+            "index": 17,
+            "paragraph": 10,
+            "startMs": 99264,
+            "endMs": 103800,
+            "text": "我是最偉大的青蛙，我纔不會輸給牛伯伯呢。",
+            "textSimplified": "我是最伟大的青蛙，我才不会输给牛伯伯呢。"
+          },
+          {
+            "index": 18,
+            "paragraph": 10,
+            "startMs": 103800,
+            "endMs": 108168,
+            "text": "他不停地吸呀吸呀，肚皮變得越來越大⋯⋯",
+            "textSimplified": "他不停地吸呀吸呀，肚皮变得越来越大⋯⋯"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 108168,
+            "endMs": 114456,
+            "text": "突然，大家聽到「砰」的一聲，原來，青蛙把自己的肚皮撐破了。",
+            "textSimplified": "突然，大家听到「砰」的一声，原来，青蛙把自己的肚皮撑破了。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter19/b02_ch19_p01_c.mp3",
+        "durationMs": 127416,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4704,
+            "text": "二上：愛吹牛的小青蛙（第五十頁）",
+            "textSimplified": "二上：爱吹牛的小青蛙（第五十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4704,
+            "endMs": 13704,
+            "text": "在一片青青的草地上，住着許多小動物，有牛伯伯、山羊叔叔，還有可愛的小熊子。",
+            "textSimplified": "在一片青青的草地上，住着许多小动物，有牛伯伯、山羊叔叔，还有可爱的小熊子。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 13704,
+            "endMs": 23160,
+            "text": "山羊叔叔和牛伯伯喜歡在草地上喫草，小燕子常常在草地上空自由自在地飛來飛去。",
+            "textSimplified": "山羊叔叔和牛伯伯喜欢在草地上吃草，小燕子常常在草地上空自由自在地飞来飞去。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 23160,
+            "endMs": 30168,
+            "text": "草地旁邊是一個大池塘，裏面住着一隻小青蛙，還有許多小魚。",
+            "textSimplified": "草地旁边是一个大池塘，里面住着一只小青蛙，还有许多小鱼。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 30168,
+            "endMs": 39528,
+            "text": "這隻小青蛙既驕傲，又愛吹牛，他總認為自己是世界上最厲害的動物，誰也比不過他。",
+            "textSimplified": "这只小青蛙既骄傲，又爱吹牛，他总认为自己是世界上最厉害的动物，谁也比不过他。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 39528,
+            "endMs": 45480,
+            "text": "一天早上，小青蛙喫過早餐後，跳到一片荷葉上。",
+            "textSimplified": "一天早上，小青蛙吃过早餐后，跳到一片荷叶上。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 45480,
+            "endMs": 56160,
+            "text": "一邊滿足地摸摸肚皮，一邊開始對水裏的小魚兒們吹起牛來：「我的身體能夠隨意地變大，你們相信嗎？」",
+            "textSimplified": "一边满足地摸摸肚皮，一边开始对水里的小鱼儿们吹起牛来：「我的身体能够随意地变大，你们相信吗？」"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 56160,
+            "endMs": 60624,
+            "text": "「別吹牛了，我們可不相信。」",
+            "textSimplified": "「别吹牛了，我们可不相信。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 60624,
+            "endMs": 66264,
+            "text": "小魚兒們知道小青蛙愛吹牛，都不願意搭理他。",
+            "textSimplified": "小鱼儿们知道小青蛙爱吹牛，都不愿意搭理他。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 66264,
+            "endMs": 71664,
+            "text": "大家正準備回家，剛好牛伯伯走過來喫草。",
+            "textSimplified": "大家正准备回家，刚好牛伯伯走过来吃草。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 71664,
+            "endMs": 77040,
+            "text": "一條小魚寶寶問小青蛙：「你真的能夠變大嗎？",
+            "textSimplified": "一条小鱼宝宝问小青蛙：「你真的能够变大吗？"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 77040,
+            "endMs": 81264,
+            "text": "那你能夠變得比牛伯伯還大嗎？」",
+            "textSimplified": "那你能够变得比牛伯伯还大吗？」"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 81264,
+            "endMs": 88440,
+            "text": "「當然，這對我來說簡直就是易如反掌，等着看我的表演吧。」",
+            "textSimplified": "「当然，这对我来说简直就是易如反掌，等着看我的表演吧。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 88440,
+            "endMs": 94104,
+            "text": "說完，小青蛙猛吸一口氣，把肚子鼓得大大的。",
+            "textSimplified": "说完，小青蛙猛吸一口气，把肚子鼓得大大的。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 94104,
+            "endMs": 101952,
+            "text": "小魚寶寶一邊看着，一邊大喊：「還不夠大，你可比牛伯伯小多了。」",
+            "textSimplified": "小鱼宝宝一边看着，一边大喊：「还不够大，你可比牛伯伯小多了。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 101952,
+            "endMs": 107664,
+            "text": "小青蛙又拼命地吸氣，把自己的肚子鼓得更大。",
+            "textSimplified": "小青蛙又拼命地吸气，把自己的肚子鼓得更大。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 107664,
+            "endMs": 110088,
+            "text": "他想：哼！",
+            "textSimplified": "他想：哼！"
+          },
+          {
+            "index": 17,
+            "paragraph": 10,
+            "startMs": 110088,
+            "endMs": 115416,
+            "text": "我是最偉大的青蛙，我纔不會輸給牛伯伯呢。",
+            "textSimplified": "我是最伟大的青蛙，我才不会输给牛伯伯呢。"
+          },
+          {
+            "index": 18,
+            "paragraph": 10,
+            "startMs": 115416,
+            "endMs": 120456,
+            "text": "他不停地吸呀吸呀，肚皮變得越來越大⋯⋯",
+            "textSimplified": "他不停地吸呀吸呀，肚皮变得越来越大⋯⋯"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 120456,
+            "endMs": 127416,
+            "text": "突然，大家聽到「砰」的一聲，原來，青蛙把自己的肚皮撐破了。",
+            "textSimplified": "突然，大家听到「砰」的一声，原来，青蛙把自己的肚皮撑破了。"
+          }
+        ]
+      }
+    }
+  ]
+}

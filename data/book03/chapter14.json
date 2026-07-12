@@ -1,0 +1,920 @@
+{
+  "bookId": "03",
+  "chapterId": "14",
+  "chapterTitle": "牧羊人和獅子",
+  "chapterTitleSimplified": "牧羊人和狮子",
+  "passages": [
+    "二下 ：牧羊人和獅子（第四十八頁） 一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。這時，一個牧羊人正在森林裏趕路，他忽然看到眼前的獅子，不禁嚇了一大跳。他本能地轉身想跑，可是，他又覺得那獅子看起來並不是那麼兇惡，反而有些痛苦的樣子，便停了下來。獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。 牧羊人一看，原來有一根又細又長的毒刺扎進了獅子的腳爪上。牧羊人看着獅子可憐的樣子，心裏也不免有些難過。於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。獅子非常感激牧羊人，伸出舌頭舔了舔他的手以示感謝，然後，他搖晃了尾巴一瘸一拐地離開了。 一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。當牧羊人被扔到獅子籠裏的時候，獅子認出了自己的恩人。獅子不僅沒有喫牧羊人，反而搖晃着尾巴對他表示友好。國王聽了這件事覺得很奇怪，他向牧羊人詢問了事情的原因，深受感動。他派人重新調查，發現牧羊人是清白的，於是立刻赦免了牧羊人，並讓他帶着那頭獅子回到森林裏。"
+  ],
+  "passagesSimplified": [
+    "二下 ：牧羊人和狮子（第四十八页） 一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。这时，一个牧羊人正在森林里赶路，他忽然看到眼前的狮子，不禁吓了一大跳。他本能地转身想跑，可是，他又觉得那狮子看起来并不是那么凶恶，反而有些痛苦的样子，便停了下来。狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。 牧羊人一看，原来有一根又细又长的毒刺扎进了狮子的脚爪上。牧羊人看着狮子可怜的样子，心里也不免有些难过。于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。狮子非常感激牧羊人，伸出舌头舔了舔他的手以示感谢，然后，他摇晃了尾巴一瘸一拐地离开了。 一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。当牧羊人被扔到狮子笼里的时候，狮子认出了自己的恩人。狮子不仅没有吃牧羊人，反而摇晃着尾巴对他表示友好。国王听了这件事觉得很奇怪，他向牧羊人询问了事情的原因，深受感动。他派人重新调查，发现牧羊人是清白的，于是立刻赦免了牧羊人，并让他带着那头狮子回到森林里。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch14_w001",
+      "traditional": "牧羊人",
+      "simplified": "牧羊人",
+      "english": "shepherd",
+      "pinyin": "mù yáng rén",
+      "contextSentence": "二下 ：牧羊人和獅子",
+      "contextSentenceSimplified": "二下 ：牧羊人和狮子",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w002",
+      "traditional": "槐樹林",
+      "simplified": "槐树林",
+      "english": "locust tree forest",
+      "pinyin": "huái shù lín",
+      "contextSentence": "一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。",
+      "contextSentenceSimplified": "一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w003",
+      "traditional": "一不留神",
+      "simplified": "一不留神",
+      "english": "inadvertently / without noticing",
+      "pinyin": "yī bù liú shén",
+      "contextSentence": "一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。",
+      "contextSentenceSimplified": "一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w004",
+      "traditional": "腳爪",
+      "simplified": "脚爪",
+      "english": "paws / claws (feet)",
+      "pinyin": "jiǎo zhǎo",
+      "contextSentence": "一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。",
+      "contextSentenceSimplified": "一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w005",
+      "traditional": "毒刺",
+      "simplified": "毒刺",
+      "english": "poisonous stinger",
+      "pinyin": "dú cì",
+      "contextSentence": "一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。",
+      "contextSentenceSimplified": "一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w006",
+      "traditional": "不禁",
+      "simplified": "不禁",
+      "english": "cannot help but / involuntarily",
+      "pinyin": "bù jīn",
+      "contextSentence": "這時，一個牧羊人正在森林裏趕路，他忽然看到眼前的獅子，不禁嚇了一大跳。",
+      "contextSentenceSimplified": "这时，一个牧羊人正在森林里赶路，他忽然看到眼前的狮子，不禁吓了一大跳。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w007",
+      "traditional": "本能地",
+      "simplified": "本能地",
+      "english": "instinctively",
+      "pinyin": "běn néng dì",
+      "contextSentence": "他本能地轉身想跑，可是，他又覺得那獅子看起來並不是那麼兇惡，反而有些痛苦的樣子，便停了下來。",
+      "contextSentenceSimplified": "他本能地转身想跑，可是，他又觉得那狮子看起来并不是那么凶恶，反而有些痛苦的样子，便停了下来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w008",
+      "traditional": "兇惡",
+      "simplified": "凶恶",
+      "english": "fierce / vicious",
+      "pinyin": "xiōng è",
+      "contextSentence": "他本能地轉身想跑，可是，他又覺得那獅子看起來並不是那麼兇惡，反而有些痛苦的樣子，便停了下來。",
+      "contextSentenceSimplified": "他本能地转身想跑，可是，他又觉得那狮子看起来并不是那么凶恶，反而有些痛苦的样子，便停了下来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w009",
+      "traditional": "一瘸一拐地",
+      "simplified": "一瘸一拐地",
+      "english": "limping / hobbling",
+      "pinyin": "yī qué yī guǎi dì",
+      "contextSentence": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+      "contextSentenceSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w010",
+      "traditional": "搖晃着",
+      "simplified": "摇晃着",
+      "english": "swaying / shaking",
+      "pinyin": "yáo huǎng zhe",
+      "contextSentence": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+      "contextSentenceSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w011",
+      "traditional": "掃帚",
+      "simplified": "扫帚",
+      "english": "broom",
+      "pinyin": "sǎo zhǒu",
+      "contextSentence": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+      "contextSentenceSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w012",
+      "traditional": "哀叫着",
+      "simplified": "哀叫着",
+      "english": "crying out mournfully",
+      "pinyin": "āi jiào zhe",
+      "contextSentence": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+      "contextSentenceSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w013",
+      "traditional": "懇求",
+      "simplified": "恳求",
+      "english": "to earnestly beg / implore",
+      "pinyin": "kěn qiú",
+      "contextSentence": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+      "contextSentenceSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w014",
+      "traditional": "可憐",
+      "simplified": "可怜",
+      "english": "pitiful /可怜 / pathetic",
+      "pinyin": "kě lián",
+      "contextSentence": "牧羊人看着獅子可憐的樣子，心裏也不免有些難過。",
+      "contextSentenceSimplified": "牧羊人看着狮子可怜的样子，心里也不免有些难过。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w015",
+      "traditional": "不免",
+      "simplified": "不免",
+      "english": "unavoidably / cannot help but",
+      "pinyin": "bù miǎn",
+      "contextSentence": "牧羊人看着獅子可憐的樣子，心裏也不免有些難過。",
+      "contextSentenceSimplified": "牧羊人看着狮子可怜的样子，心里也不免有些难过。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w016",
+      "traditional": "膝蓋",
+      "simplified": "膝盖",
+      "english": "knee",
+      "pinyin": "xī gài",
+      "contextSentence": "於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。",
+      "contextSentenceSimplified": "于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w017",
+      "traditional": "小心翼翼地",
+      "simplified": "小心翼翼地",
+      "english": "cautiously / carefully",
+      "pinyin": "xiǎo xīn yì yì dì",
+      "contextSentence": "於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。",
+      "contextSentenceSimplified": "于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w018",
+      "traditional": "替",
+      "simplified": "替",
+      "english": "for / on behalf of",
+      "pinyin": "tì",
+      "contextSentence": "於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。",
+      "contextSentenceSimplified": "于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w019",
+      "traditional": "拔下了",
+      "simplified": "拔下了",
+      "english": "pulled out /拔掉了",
+      "pinyin": "bá xià le",
+      "contextSentence": "於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。",
+      "contextSentenceSimplified": "于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w020",
+      "traditional": "舔",
+      "simplified": "舔",
+      "english": "to lick",
+      "pinyin": "tiǎn",
+      "contextSentence": "獅子非常感激牧羊人，伸出舌頭舔了舔他的手以示感謝，然後，他搖晃了尾巴一瘸一拐地離開了。",
+      "contextSentenceSimplified": "狮子非常感激牧羊人，伸出舌头舔了舔他的手以示感谢，然后，他摇晃了尾巴一瘸一拐地离开了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w021",
+      "traditional": "以示感謝",
+      "simplified": "以示感谢",
+      "english": "to show gratitude",
+      "pinyin": "yǐ shì gǎn xiè",
+      "contextSentence": "獅子非常感激牧羊人，伸出舌頭舔了舔他的手以示感謝，然後，他搖晃了尾巴一瘸一拐地離開了。",
+      "contextSentenceSimplified": "狮子非常感激牧羊人，伸出舌头舔了舔他的手以示感谢，然后，他摇晃了尾巴一瘸一拐地离开了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w022",
+      "traditional": "打獵",
+      "simplified": "打猎",
+      "english": "to hunt",
+      "pinyin": "dǎ liè",
+      "contextSentence": "一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。",
+      "contextSentenceSimplified": "一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w023",
+      "traditional": "活捉了",
+      "simplified": "活捉了",
+      "english": "captured alive",
+      "pinyin": "huó zhuō le",
+      "contextSentence": "一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。",
+      "contextSentenceSimplified": "一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w024",
+      "traditional": "綑綁着",
+      "simplified": "捆绑着",
+      "english": "tied up / bound",
+      "pinyin": "kǔn bǎng zhe",
+      "contextSentence": "一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。",
+      "contextSentenceSimplified": "一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w025",
+      "traditional": "大牢",
+      "simplified": "大牢",
+      "english": "prison / jail",
+      "pinyin": "dà láo",
+      "contextSentence": "一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。",
+      "contextSentenceSimplified": "一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w026",
+      "traditional": "遭人",
+      "simplified": "遭人",
+      "english": "to suffer from / be victim of",
+      "pinyin": "zāo rén",
+      "contextSentence": "沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。",
+      "contextSentenceSimplified": "没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w027",
+      "traditional": "誣告",
+      "simplified": "诬告",
+      "english": "false accusation / slander",
+      "pinyin": "wū gào",
+      "contextSentence": "沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。",
+      "contextSentenceSimplified": "没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w028",
+      "traditional": "判處",
+      "simplified": "判处",
+      "english": "to sentence / to pronounce judgment",
+      "pinyin": "pàn chù",
+      "contextSentence": "沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。",
+      "contextSentenceSimplified": "没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w029",
+      "traditional": "死刑",
+      "simplified": "死刑",
+      "english": "death penalty / capital punishment",
+      "pinyin": "sǐ xíng",
+      "contextSentence": "沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。",
+      "contextSentenceSimplified": "没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w030",
+      "traditional": "恩人",
+      "simplified": "恩人",
+      "english": "benefactor / someone who helped you",
+      "pinyin": "ēn rén",
+      "contextSentence": "當牧羊人被扔到獅子籠裏的時候，獅子認出了自己的恩人。",
+      "contextSentenceSimplified": "当牧羊人被扔到狮子笼里的时候，狮子认出了自己的恩人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w031",
+      "traditional": "詢問了",
+      "simplified": "询问了",
+      "english": "asked / inquired",
+      "pinyin": "xún wèn le",
+      "contextSentence": "國王聽了這件事覺得很奇怪，他向牧羊人詢問了事情的原因，深受感動。",
+      "contextSentenceSimplified": "国王听了这件事觉得很奇怪，他向牧羊人询问了事情的原因，深受感动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w031_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w031_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w031_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w032",
+      "traditional": "深受感動",
+      "simplified": "深受感动",
+      "english": "deeply moved / touched",
+      "pinyin": "shēn shòu gǎn dòng",
+      "contextSentence": "國王聽了這件事覺得很奇怪，他向牧羊人詢問了事情的原因，深受感動。",
+      "contextSentenceSimplified": "国王听了这件事觉得很奇怪，他向牧羊人询问了事情的原因，深受感动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w032_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w032_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w032_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w032_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w033",
+      "traditional": "調查",
+      "simplified": "调查",
+      "english": "investigation / to investigate",
+      "pinyin": "diào chá",
+      "contextSentence": "他派人重新調查，發現牧羊人是清白的，於是立刻赦免了牧羊人，並讓他帶着那頭獅子回到森林裏。",
+      "contextSentenceSimplified": "他派人重新调查，发现牧羊人是清白的，于是立刻赦免了牧羊人，并让他带着那头狮子回到森林里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w033_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w033_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w033_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w033_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w034",
+      "traditional": "清白的",
+      "simplified": "清白的",
+      "english": "innocent / clean",
+      "pinyin": "qīng bái de",
+      "contextSentence": "他派人重新調查，發現牧羊人是清白的，於是立刻赦免了牧羊人，並讓他帶着那頭獅子回到森林裏。",
+      "contextSentenceSimplified": "他派人重新调查，发现牧羊人是清白的，于是立刻赦免了牧羊人，并让他带着那头狮子回到森林里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w034_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w034_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w034_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w034_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch14_w035",
+      "traditional": "赦免了",
+      "simplified": "赦免了",
+      "english": "pardoned / forgave",
+      "pinyin": "shè miǎn le",
+      "contextSentence": "他派人重新調查，發現牧羊人是清白的，於是立刻赦免了牧羊人，並讓他帶着那頭獅子回到森林裏。",
+      "contextSentenceSimplified": "他派人重新调查，发现牧羊人是清白的，于是立刻赦免了牧羊人，并让他带着那头狮子回到森林里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w035_m_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w035_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter14/b03_ch14_w035_c_isolated.mp3",
+          "sentence": "audio/book03/chapter14/b03_ch14_w035_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter14/b03_ch14_p01_m.mp3",
+        "durationMs": 116736,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10104,
+            "text": "二下 ：牧羊人和獅子（第四十八頁） 一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。",
+            "textSimplified": "二下 ：牧羊人和狮子（第四十八页） 一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10104,
+            "endMs": 18240,
+            "text": "這時，一個牧羊人正在森林裏趕路，他忽然看到眼前的獅子，不禁嚇了一大跳。",
+            "textSimplified": "这时，一个牧羊人正在森林里赶路，他忽然看到眼前的狮子，不禁吓了一大跳。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 18240,
+            "endMs": 29256,
+            "text": "他本能地轉身想跑，可是，他又覺得那獅子看起來並不是那麼兇惡，反而有些痛苦的樣子，便停了下來。",
+            "textSimplified": "他本能地转身想跑，可是，他又觉得那狮子看起来并不是那么凶恶，反而有些痛苦的样子，便停了下来。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29256,
+            "endMs": 41184,
+            "text": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+            "textSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 41184,
+            "endMs": 47664,
+            "text": "牧羊人一看，原來有一根又細又長的毒刺扎進了獅子的腳爪上。",
+            "textSimplified": "牧羊人一看，原来有一根又细又长的毒刺扎进了狮子的脚爪上。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 47664,
+            "endMs": 52944,
+            "text": "牧羊人看着獅子可憐的樣子，心裏也不免有些難過。",
+            "textSimplified": "牧羊人看着狮子可怜的样子，心里也不免有些难过。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 52944,
+            "endMs": 62232,
+            "text": "於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。",
+            "textSimplified": "于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 62232,
+            "endMs": 72696,
+            "text": "獅子非常感激牧羊人，伸出舌頭舔了舔他的手以示感謝，然後，他搖晃了尾巴一瘸一拐地離開了。",
+            "textSimplified": "狮子非常感激牧羊人，伸出舌头舔了舔他的手以示感谢，然后，他摇晃了尾巴一瘸一拐地离开了。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 72696,
+            "endMs": 80112,
+            "text": "一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。",
+            "textSimplified": "一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 80112,
+            "endMs": 86928,
+            "text": "沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。",
+            "textSimplified": "没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 86928,
+            "endMs": 93072,
+            "text": "當牧羊人被扔到獅子籠裏的時候，獅子認出了自己的恩人。",
+            "textSimplified": "当牧羊人被扔到狮子笼里的时候，狮子认出了自己的恩人。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 93072,
+            "endMs": 98928,
+            "text": "獅子不僅沒有喫牧羊人，反而搖晃着尾巴對他表示友好。",
+            "textSimplified": "狮子不仅没有吃牧羊人，反而摇晃着尾巴对他表示友好。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 98928,
+            "endMs": 106440,
+            "text": "國王聽了這件事覺得很奇怪，他向牧羊人詢問了事情的原因，深受感動。",
+            "textSimplified": "国王听了这件事觉得很奇怪，他向牧羊人询问了事情的原因，深受感动。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 106440,
+            "endMs": 116736,
+            "text": "他派人重新調查，發現牧羊人是清白的，於是立刻赦免了牧羊人，並讓他帶着那頭獅子回到森林裏。",
+            "textSimplified": "他派人重新调查，发现牧羊人是清白的，于是立刻赦免了牧羊人，并让他带着那头狮子回到森林里。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter14/b03_ch14_p01_c.mp3",
+        "durationMs": 119232,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10080,
+            "text": "二下 ：牧羊人和獅子（第四十八頁） 一頭獅子路過槐樹林，一不留神，腳爪上扎 了一根大毒刺。",
+            "textSimplified": "二下 ：牧羊人和狮子（第四十八页） 一头狮子路过槐树林，一不留神，脚爪上扎 了一根大毒刺。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10080,
+            "endMs": 18840,
+            "text": "這時，一個牧羊人正在森林裏趕路，他忽然看到眼前的獅子，不禁嚇了一大跳。",
+            "textSimplified": "这时，一个牧羊人正在森林里赶路，他忽然看到眼前的狮子，不禁吓了一大跳。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 18840,
+            "endMs": 29784,
+            "text": "他本能地轉身想跑，可是，他又覺得那獅子看起來並不是那麼兇惡，反而有些痛苦的樣子，便停了下來。",
+            "textSimplified": "他本能地转身想跑，可是，他又觉得那狮子看起来并不是那么凶恶，反而有些痛苦的样子，便停了下来。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29784,
+            "endMs": 41448,
+            "text": "獅子一瘸一拐地來到牧羊人的面前，搖晃着像掃帚一樣的大尾巴，趴下來伸出腳爪，哀叫着懇求牧羊人幫助自己。",
+            "textSimplified": "狮子一瘸一拐地来到牧羊人的面前，摇晃着像扫帚一样的大尾巴，趴下来伸出脚爪，哀叫着恳求牧羊人帮助自己。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 41448,
+            "endMs": 48072,
+            "text": "牧羊人一看，原來有一根又細又長的毒刺扎進了獅子的腳爪上。",
+            "textSimplified": "牧羊人一看，原来有一根又细又长的毒刺扎进了狮子的脚爪上。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 48072,
+            "endMs": 54264,
+            "text": "牧羊人看着獅子可憐的樣子，心裏也不免有些難過。",
+            "textSimplified": "牧羊人看着狮子可怜的样子，心里也不免有些难过。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 54264,
+            "endMs": 63960,
+            "text": "於是，他輕輕地把獅子的爪子放到自己的膝蓋上，小心翼翼地替獅子拔下了那根大毒刺。",
+            "textSimplified": "于是，他轻轻地把狮子的爪子放到自己的膝盖上，小心翼翼地替狮子拔下了那根大毒刺。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 63960,
+            "endMs": 74088,
+            "text": "獅子非常感激牧羊人，伸出舌頭舔了舔他的手以示感謝，然後，他搖晃了尾巴一瘸一拐地離開了。",
+            "textSimplified": "狮子非常感激牧羊人，伸出舌头舔了舔他的手以示感谢，然后，他摇晃了尾巴一瘸一拐地离开了。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 74088,
+            "endMs": 81504,
+            "text": "一天，國王進山打獵，活捉了獅子，並把牠綑綁着扔進了大牢裏。",
+            "textSimplified": "一天，国王进山打猎，活捉了狮子，并把牠捆绑着扔进了大牢里。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 81504,
+            "endMs": 88464,
+            "text": "沒過幾天，牧羊人遭人誣告，結果被判處「丟給獅子喫」的死刑。",
+            "textSimplified": "没过几天，牧羊人遭人诬告，结果被判处「丢给狮子吃」的死刑。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 88464,
+            "endMs": 94680,
+            "text": "當牧羊人被扔到獅子籠裏的時候，獅子認出了自己的恩人。",
+            "textSimplified": "当牧羊人被扔到狮子笼里的时候，狮子认出了自己的恩人。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 94680,
+            "endMs": 101064,
+            "text": "獅子不僅沒有喫牧羊人，反而搖晃着尾巴對他表示友好。",
+            "textSimplified": "狮子不仅没有吃牧羊人，反而摇晃着尾巴对他表示友好。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 101064,
+            "endMs": 109080,
+            "text": "國王聽了這件事覺得很奇怪，他向牧羊人詢問了事情的原因，深受感動。",
+            "textSimplified": "国王听了这件事觉得很奇怪，他向牧羊人询问了事情的原因，深受感动。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 109080,
+            "endMs": 119232,
+            "text": "他派人重新調查，發現牧羊人是清白的，於是立刻赦免了牧羊人，並讓他帶着那頭獅子回到森林裏。",
+            "textSimplified": "他派人重新调查，发现牧羊人是清白的，于是立刻赦免了牧羊人，并让他带着那头狮子回到森林里。"
+          }
+        ]
+      }
+    }
+  ]
+}

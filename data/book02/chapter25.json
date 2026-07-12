@@ -1,0 +1,645 @@
+{
+  "bookId": "02",
+  "chapterId": "25",
+  "chapterTitle": "閱讀評估（學溜冰）",
+  "chapterTitleSimplified": "阅读评估（学溜冰）",
+  "passages": [
+    "二上：閱讀評估（第七十五頁）\n\n每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。這個周未我再三央求爸爸，他終於答應讓我學溜冰。\n\n我和爸爸穿上溜冰鞋，來到溜冰場上。爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。你很快就能學會的。」爸爸說得簡單，學起來可不是那麼容易。剛開始，我雙腿發軟，手不敢離開欄杆，更不敢向前滑。爸爸見了，拉着我的手，讓我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。突然，我一個急轉彎，摔了一跤。\n\n我喫力地站起身，腦子裏想着爸爸教我的動作要領，雙腿彎曲，雙手自然擺動，一步一步慢慢向前滑。十分鐘、半小時，我一次次跌倒，一次次爬起來。漸漸地，我的動作越來越熟練，腳上的溜冰鞋好像也突然變得輕巧起來。我放開腳步，掌握好身體的平衡，在溜冰場上一圈圈地滑行。經過幾個小時的練習，我終於可以自由自在地穿梭在溜冰場上了。「哦，太好了，我學會溜冰了！」我不禁高興得手舞足蹈起來。"
+  ],
+  "passagesSimplified": [
+    "二上：阅读评估（第七十五页）\n\n每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。这个周未我再三央求爸爸，他终于答应让我学溜冰。\n\n我和爸爸穿上溜冰鞋，来到溜冰场上。爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。你很快就能学会的。」爸爸说得简单，学起来可不是那么容易。刚开始，我双腿发软，手不敢离开栏杆，更不敢向前滑。爸爸见了，拉着我的手，让我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。突然，我一个急转弯，摔了一跤。\n\n我吃力地站起身，脑子里想着爸爸教我的动作要领，双腿弯曲，双手自然摆动，一步一步慢慢向前滑。十分钟、半小时，我一次次跌倒，一次次爬起来。渐渐地，我的动作越来越熟练，脚上的溜冰鞋好像也突然变得轻巧起来。我放开脚步，掌握好身体的平衡，在溜冰场上一圈圈地滑行。经过几个小时的练习，我终于可以自由自在地穿梭在溜冰场上了。「哦，太好了，我学会溜冰了！」我不禁高兴得手舞足蹈起来。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch25_w001",
+      "traditional": "穿梭自如",
+      "simplified": "穿梭自如",
+      "english": "move freely",
+      "pinyin": "chuān suō zì rú",
+      "contextSentence": "每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。",
+      "contextSentenceSimplified": "每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w002",
+      "traditional": "瀟灑",
+      "simplified": "潇洒",
+      "english": "dashing",
+      "pinyin": "xiāo sǎ",
+      "contextSentence": "每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。",
+      "contextSentenceSimplified": "每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w003",
+      "traditional": "帥氣",
+      "simplified": "帅气",
+      "english": "handsome",
+      "pinyin": "shuài qì",
+      "contextSentence": "每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。",
+      "contextSentenceSimplified": "每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w004",
+      "traditional": "羨慕",
+      "simplified": "羡慕",
+      "english": "envy",
+      "pinyin": "xiàn mù",
+      "contextSentence": "每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。",
+      "contextSentenceSimplified": "每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w005",
+      "traditional": "再三央求",
+      "simplified": "再三央求",
+      "english": "beg repeatedly",
+      "pinyin": "zài sān yāng qiú",
+      "contextSentence": "這個周未我再三央求爸爸，他終於答應讓我學溜冰。",
+      "contextSentenceSimplified": "这个周未我再三央求爸爸，他终于答应让我学溜冰。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w006",
+      "traditional": "欄杆",
+      "simplified": "栏杆",
+      "english": "railing",
+      "pinyin": "lán gān",
+      "contextSentence": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+      "contextSentenceSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w007",
+      "traditional": "講解動作要領",
+      "simplified": "讲解动作要领",
+      "english": "explain movement technique",
+      "pinyin": "jiǎng jiě dòng zuò yào lǐng",
+      "contextSentence": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+      "contextSentenceSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w008",
+      "traditional": "雙腿彎曲",
+      "simplified": "双腿弯曲",
+      "english": "bend legs",
+      "pinyin": "shuāng tuǐ wān qū",
+      "contextSentence": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+      "contextSentenceSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w009",
+      "traditional": "向前移",
+      "simplified": "向前移",
+      "english": "move forward",
+      "pinyin": "xiàng qián yí",
+      "contextSentence": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+      "contextSentenceSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w010",
+      "traditional": "平衡",
+      "simplified": "平衡",
+      "english": "balance",
+      "pinyin": "píng héng",
+      "contextSentence": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+      "contextSentenceSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w011",
+      "traditional": "小心翼翼",
+      "simplified": "小心翼翼",
+      "english": "very carefully",
+      "pinyin": "xiǎo xīn yì yì",
+      "contextSentence": "爸爸見了，拉着我的手，讓我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。",
+      "contextSentenceSimplified": "爸爸见了，拉着我的手，让我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w012",
+      "traditional": "急轉彎",
+      "simplified": "急转弯",
+      "english": "sharp turn",
+      "pinyin": "jí zhuǎn wān",
+      "contextSentence": "突然，我一個急轉彎，摔了一跤。",
+      "contextSentenceSimplified": "突然，我一个急转弯，摔了一跤。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w013",
+      "traditional": "摔了一跤",
+      "simplified": "摔了一跤",
+      "english": "fell down",
+      "pinyin": "shuāi le yī jiāo",
+      "contextSentence": "突然，我一個急轉彎，摔了一跤。",
+      "contextSentenceSimplified": "突然，我一个急转弯，摔了一跤。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w014",
+      "traditional": "跌倒",
+      "simplified": "跌倒",
+      "english": "fall down",
+      "pinyin": "diē dǎo",
+      "contextSentence": "十分鐘、半小時，我一次次跌倒，一次次爬起來。",
+      "contextSentenceSimplified": "十分钟、半小时，我一次次跌倒，一次次爬起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w015",
+      "traditional": "熟練",
+      "simplified": "熟练",
+      "english": "skilled",
+      "pinyin": "shú liàn",
+      "contextSentence": "漸漸地，我的動作越來越熟練，腳上的溜冰鞋好像也突然變得輕巧起來。",
+      "contextSentenceSimplified": "渐渐地，我的动作越来越熟练，脚上的溜冰鞋好像也突然变得轻巧起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w016",
+      "traditional": "輕巧",
+      "simplified": "轻巧",
+      "english": "light and nimble",
+      "pinyin": "qīng qiǎo",
+      "contextSentence": "漸漸地，我的動作越來越熟練，腳上的溜冰鞋好像也突然變得輕巧起來。",
+      "contextSentenceSimplified": "渐渐地，我的动作越来越熟练，脚上的溜冰鞋好像也突然变得轻巧起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w017",
+      "traditional": "掌握",
+      "simplified": "掌握",
+      "english": "master",
+      "pinyin": "zhǎng wò",
+      "contextSentence": "我放開腳步，掌握好身體的平衡，在溜冰場上一圈圈地滑行。",
+      "contextSentenceSimplified": "我放开脚步，掌握好身体的平衡，在溜冰场上一圈圈地滑行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch25_w018",
+      "traditional": "手舞足蹈",
+      "simplified": "手舞足蹈",
+      "english": "dance with joy",
+      "pinyin": "shǒu wǔ zú dǎo",
+      "contextSentence": "」我不禁高興得手舞足蹈起來。",
+      "contextSentenceSimplified": "」我不禁高兴得手舞足蹈起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter25/b02_ch25_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter25/b02_ch25_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter25/b02_ch25_p01_m.mp3",
+        "durationMs": 105456,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3888,
+            "text": "二上：閱讀評估（第七十五頁）",
+            "textSimplified": "二上：阅读评估（第七十五页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3888,
+            "endMs": 11544,
+            "text": "每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。",
+            "textSimplified": "每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11544,
+            "endMs": 17352,
+            "text": "這個周未我再三央求爸爸，他終於答應讓我學溜冰。",
+            "textSimplified": "这个周未我再三央求爸爸，他终于答应让我学溜冰。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17352,
+            "endMs": 21768,
+            "text": "我和爸爸穿上溜冰鞋，來到溜冰場上。",
+            "textSimplified": "我和爸爸穿上溜冰鞋，来到溜冰场上。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 21768,
+            "endMs": 36624,
+            "text": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+            "textSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 36624,
+            "endMs": 39000,
+            "text": "你很快就能學會的。」",
+            "textSimplified": "你很快就能学会的。」"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 39000,
+            "endMs": 43368,
+            "text": "爸爸說得簡單，學起來可不是那麼容易。",
+            "textSimplified": "爸爸说得简单，学起来可不是那么容易。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 43368,
+            "endMs": 49584,
+            "text": "剛開始，我雙腿發軟，手不敢離開欄杆，更不敢向前滑。",
+            "textSimplified": "刚开始，我双腿发软，手不敢离开栏杆，更不敢向前滑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 49584,
+            "endMs": 57696,
+            "text": "爸爸見了，拉着我的手，讓我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。",
+            "textSimplified": "爸爸见了，拉着我的手，让我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 57696,
+            "endMs": 61536,
+            "text": "突然，我一個急轉彎，摔了一跤。",
+            "textSimplified": "突然，我一个急转弯，摔了一跤。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 61536,
+            "endMs": 72360,
+            "text": "我喫力地站起身，腦子裏想着爸爸教我的動作要領，雙腿彎曲，雙手自然擺動，一步一步慢慢向前滑。",
+            "textSimplified": "我吃力地站起身，脑子里想着爸爸教我的动作要领，双腿弯曲，双手自然摆动，一步一步慢慢向前滑。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 72360,
+            "endMs": 78048,
+            "text": "十分鐘、半小時，我一次次跌倒，一次次爬起來。",
+            "textSimplified": "十分钟、半小时，我一次次跌倒，一次次爬起来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 78048,
+            "endMs": 85560,
+            "text": "漸漸地，我的動作越來越熟練，腳上的溜冰鞋好像也突然變得輕巧起來。",
+            "textSimplified": "渐渐地，我的动作越来越熟练，脚上的溜冰鞋好像也突然变得轻巧起来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 85560,
+            "endMs": 92088,
+            "text": "我放開腳步，掌握好身體的平衡，在溜冰場上一圈圈地滑行。",
+            "textSimplified": "我放开脚步，掌握好身体的平衡，在溜冰场上一圈圈地滑行。"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 92088,
+            "endMs": 98832,
+            "text": "經過幾個小時的練習，我終於可以自由自在地穿梭在溜冰場上了。",
+            "textSimplified": "经过几个小时的练习，我终于可以自由自在地穿梭在溜冰场上了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 98832,
+            "endMs": 102312,
+            "text": "「哦，太好了，我學會溜冰了！」",
+            "textSimplified": "「哦，太好了，我学会溜冰了！」"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 102312,
+            "endMs": 105456,
+            "text": "我不禁高興得手舞足蹈起來。",
+            "textSimplified": "我不禁高兴得手舞足蹈起来。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter25/b02_ch25_p01_c.mp3",
+        "durationMs": 113736,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4152,
+            "text": "二上：閱讀評估（第七十五頁）",
+            "textSimplified": "二上：阅读评估（第七十五页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4152,
+            "endMs": 12312,
+            "text": "每當看到別人在溜冰場上穿梭自如，既瀟灑又帥氣，我不知有多羨慕他們。",
+            "textSimplified": "每当看到别人在溜冰场上穿梭自如，既潇洒又帅气，我不知有多羡慕他们。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 12312,
+            "endMs": 18408,
+            "text": "這個周未我再三央求爸爸，他終於答應讓我學溜冰。",
+            "textSimplified": "这个周未我再三央求爸爸，他终于答应让我学溜冰。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 18408,
+            "endMs": 23256,
+            "text": "我和爸爸穿上溜冰鞋，來到溜冰場上。",
+            "textSimplified": "我和爸爸穿上溜冰鞋，来到溜冰场上。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 23256,
+            "endMs": 38352,
+            "text": "爸爸讓我先扶着欄杆站好，他給我講解動作要領：「先把雙腳張開呈外八字形，雙腿彎曲，身體重心向前移，雙手自然擺動，找到身體的平衡點。",
+            "textSimplified": "爸爸让我先扶着栏杆站好，他给我讲解动作要领：「先把双脚张开呈外八字形，双腿弯曲，身体重心向前移，双手自然摆动，找到身体的平衡点。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 38352,
+            "endMs": 41448,
+            "text": "你很快就能學會的。」",
+            "textSimplified": "你很快就能学会的。」"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 41448,
+            "endMs": 46608,
+            "text": "爸爸說得簡單，學起來可不是那麼容易。",
+            "textSimplified": "爸爸说得简单，学起来可不是那么容易。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 46608,
+            "endMs": 53400,
+            "text": "剛開始，我雙腿發軟，手不敢離開欄杆，更不敢向前滑。",
+            "textSimplified": "刚开始，我双腿发软，手不敢离开栏杆，更不敢向前滑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 53400,
+            "endMs": 62208,
+            "text": "爸爸見了，拉着我的手，讓我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。",
+            "textSimplified": "爸爸见了，拉着我的手，让我和他一起滑，我一步一步往前挪，每一步都小心翼翼的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 62208,
+            "endMs": 66480,
+            "text": "突然，我一個急轉彎，摔了一跤。",
+            "textSimplified": "突然，我一个急转弯，摔了一跤。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 66480,
+            "endMs": 77088,
+            "text": "我喫力地站起身，腦子裏想着爸爸教我的動作要領，雙腿彎曲，雙手自然擺動，一步一步慢慢向前滑。",
+            "textSimplified": "我吃力地站起身，脑子里想着爸爸教我的动作要领，双腿弯曲，双手自然摆动，一步一步慢慢向前滑。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 77088,
+            "endMs": 83328,
+            "text": "十分鐘、半小時，我一次次跌倒，一次次爬起來。",
+            "textSimplified": "十分钟、半小时，我一次次跌倒，一次次爬起来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 83328,
+            "endMs": 91224,
+            "text": "漸漸地，我的動作越來越熟練，腳上的溜冰鞋好像也突然變得輕巧起來。",
+            "textSimplified": "渐渐地，我的动作越来越熟练，脚上的溜冰鞋好像也突然变得轻巧起来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 91224,
+            "endMs": 98088,
+            "text": "我放開腳步，掌握好身體的平衡，在溜冰場上一圈圈地滑行。",
+            "textSimplified": "我放开脚步，掌握好身体的平衡，在溜冰场上一圈圈地滑行。"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 98088,
+            "endMs": 105432,
+            "text": "經過幾個小時的練習，我終於可以自由自在地穿梭在溜冰場上了。",
+            "textSimplified": "经过几个小时的练习，我终于可以自由自在地穿梭在溜冰场上了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 105432,
+            "endMs": 110088,
+            "text": "「哦，太好了，我學會溜冰了！」",
+            "textSimplified": "「哦，太好了，我学会溜冰了！」"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 110088,
+            "endMs": 113736,
+            "text": "我不禁高興得手舞足蹈起來。",
+            "textSimplified": "我不禁高兴得手舞足蹈起来。"
+          }
+        ]
+      }
+    }
+  ]
+}

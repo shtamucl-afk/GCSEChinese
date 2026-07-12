@@ -1,0 +1,693 @@
+{
+  "bookId": "02",
+  "chapterId": "22",
+  "chapterTitle": "給老師的一封信",
+  "chapterTitleSimplified": "给老师的一封信",
+  "passages": [
+    "二上：給老師的一封信（第六十八頁）\n\n敬愛的葉老師：\n\n您好！時光如流水，不知不覺中，一學期過去了。\n在這裏，對您說聲：「謝謝您！老師，您辛苦了。」\n\n記得您剛教我們的時候，我的英文跟不上，您上課讓我回答問題，我的大腦一片空白，完全不知道該怎麼回答。後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。\n\n葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。您還記得嗎？去年學校舉辦作文比賽，您讓我和另一位同學參加。我本以為自己會獲獎，結果卻名落孫山，我很受打擊。從此，我變得不自信，寫作文也不認真了。就在這時候，您及時發現了我的變化，一次次找我聊天談心，不斷鼓勵我。終於，我又振作起來了。\n\n親愛的葉老師，您像媽媽一樣關心我，鼓勵我，是您給了我自信，給了我奮發向上的動力，謝謝您，老師！\n\n祝工作愉快！\n\n學生\n曉東\n三月八日"
+  ],
+  "passagesSimplified": [
+    "二上：给老师的一封信（第六十八页）\n\n敬爱的叶老师：\n\n您好！时光如流水，不知不觉中，一学期过去了。\n在这里，对您说声：「谢谢您！老师，您辛苦了。」\n\n记得您刚教我们的时候，我的英文跟不上，您上课让我回答问题，我的大脑一片空白，完全不知道该怎么回答。后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。\n\n叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。您还记得吗？去年学校举办作文比赛，您让我和另一位同学参加。我本以为自己会获奖，结果却名落孙山，我很受打击。从此，我变得不自信，写作文也不认真了。就在这时候，您及时发现了我的变化，一次次找我聊天谈心，不断鼓励我。终于，我又振作起来了。\n\n亲爱的叶老师，您像妈妈一样关心我，鼓励我，是您给了我自信，给了我奋发向上的动力，谢谢您，老师！\n\n祝工作愉快！\n\n学生\n晓东\n三月八日"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch22_w001",
+      "traditional": "敬愛",
+      "simplified": "敬爱",
+      "english": "respect and love",
+      "pinyin": "jìng ài",
+      "contextSentence": "敬愛的葉老師：\n\n您好！",
+      "contextSentenceSimplified": "敬爱的叶老师：\n\n您好！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w002",
+      "traditional": "耐心",
+      "simplified": "耐心",
+      "english": "patience",
+      "pinyin": "nài xīn",
+      "contextSentence": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+      "contextSentenceSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w003",
+      "traditional": "輔導我",
+      "simplified": "辅导我",
+      "english": "tutor me",
+      "pinyin": "fǔ dǎo wǒ",
+      "contextSentence": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+      "contextSentenceSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w004",
+      "traditional": "單詞",
+      "simplified": "单词",
+      "english": "word",
+      "pinyin": "dān cí",
+      "contextSentence": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+      "contextSentenceSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w005",
+      "traditional": "激發",
+      "simplified": "激发",
+      "english": "stimulate",
+      "pinyin": "jī fā",
+      "contextSentence": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+      "contextSentenceSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w006",
+      "traditional": "領悟",
+      "simplified": "领悟",
+      "english": "realize",
+      "pinyin": "lǐng wù",
+      "contextSentence": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+      "contextSentenceSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w007",
+      "traditional": "不僅",
+      "simplified": "不仅",
+      "english": "not only",
+      "pinyin": "bù jǐn",
+      "contextSentence": "葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。",
+      "contextSentenceSimplified": "叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w008",
+      "traditional": "落後",
+      "simplified": "落后",
+      "english": "backward",
+      "pinyin": "luò hòu",
+      "contextSentence": "葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。",
+      "contextSentenceSimplified": "叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w009",
+      "traditional": "激勵",
+      "simplified": "激励",
+      "english": "inspire",
+      "pinyin": "jī lì",
+      "contextSentence": "葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。",
+      "contextSentenceSimplified": "叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w010",
+      "traditional": "奮發向上",
+      "simplified": "奋发向上",
+      "english": "strive upward",
+      "pinyin": "fèn fā xiàng shàng",
+      "contextSentence": "葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。",
+      "contextSentenceSimplified": "叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w011",
+      "traditional": "舉辦",
+      "simplified": "举办",
+      "english": "to hold / to conduct (an event)",
+      "pinyin": "jǔ bàn",
+      "contextSentence": "去年學校舉辦作文比賽，您讓我和另一位同學參加。",
+      "contextSentenceSimplified": "去年学校举办作文比赛，您让我和另一位同学参加。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w012",
+      "traditional": "名落孫山",
+      "simplified": "名落孙山",
+      "english": "fail the exam",
+      "pinyin": "míng luò sūn shān",
+      "contextSentence": "我本以為自己會獲獎，結果卻名落孫山，我很受打擊。",
+      "contextSentenceSimplified": "我本以为自己会获奖，结果却名落孙山，我很受打击。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w013",
+      "traditional": "受打擊",
+      "simplified": "受打击",
+      "english": "be discouraged",
+      "pinyin": "shòu dǎ jī",
+      "contextSentence": "我本以為自己會獲獎，結果卻名落孫山，我很受打擊。",
+      "contextSentenceSimplified": "我本以为自己会获奖，结果却名落孙山，我很受打击。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w014",
+      "traditional": "聊天談心",
+      "simplified": "聊天谈心",
+      "english": "chat heart-to-heart",
+      "pinyin": "liáo tiān tán xīn",
+      "contextSentence": "就在這時候，您及時發現了我的變化，一次次找我聊天談心，不斷鼓勵我。",
+      "contextSentenceSimplified": "就在这时候，您及时发现了我的变化，一次次找我聊天谈心，不断鼓励我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w015",
+      "traditional": "鼓勵",
+      "simplified": "鼓励",
+      "english": "encourage",
+      "pinyin": "gǔ lì",
+      "contextSentence": "就在這時候，您及時發現了我的變化，一次次找我聊天談心，不斷鼓勵我。",
+      "contextSentenceSimplified": "就在这时候，您及时发现了我的变化，一次次找我聊天谈心，不断鼓励我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w016",
+      "traditional": "振作",
+      "simplified": "振作",
+      "english": "cheer up",
+      "pinyin": "zhèn zuò",
+      "contextSentence": "終於，我又振作起來了。",
+      "contextSentenceSimplified": "终于，我又振作起来了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w017",
+      "traditional": "關心",
+      "simplified": "关心",
+      "english": "care about",
+      "pinyin": "guān xīn",
+      "contextSentence": "親愛的葉老師，您像媽媽一樣關心我，鼓勵我，是您給了我自信，給了我奮發向上的動力，謝謝您，老師！",
+      "contextSentenceSimplified": "亲爱的叶老师，您像妈妈一样关心我，鼓励我，是您给了我自信，给了我奋发向上的动力，谢谢您，老师！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch22_w018",
+      "traditional": "祝工作愉快",
+      "simplified": "祝工作愉快",
+      "english": "wish you a pleasant work",
+      "pinyin": "zhù gōng zuò yú kuài",
+      "contextSentence": "祝工作愉快！",
+      "contextSentenceSimplified": "祝工作愉快！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter22/b02_ch22_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter22/b02_ch22_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter22/b02_ch22_p01_m.mp3",
+        "durationMs": 98088,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4176,
+            "text": "二上：給老師的一封信（第六十八頁）",
+            "textSimplified": "二上：给老师的一封信（第六十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4176,
+            "endMs": 6288,
+            "text": "敬愛的葉老師：",
+            "textSimplified": "敬爱的叶老师："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6288,
+            "endMs": 7560,
+            "text": "您好！",
+            "textSimplified": "您好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 7560,
+            "endMs": 12312,
+            "text": "時光如流水，不知不覺中，一學期過去了。",
+            "textSimplified": "时光如流水，不知不觉中，一学期过去了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 12312,
+            "endMs": 15840,
+            "text": "在這裏，對您說聲：「謝謝您！",
+            "textSimplified": "在这里，对您说声：「谢谢您！"
+          },
+          {
+            "index": 5,
+            "paragraph": 5,
+            "startMs": 15840,
+            "endMs": 18264,
+            "text": "老師，您辛苦了。」",
+            "textSimplified": "老师，您辛苦了。」"
+          },
+          {
+            "index": 6,
+            "paragraph": 7,
+            "startMs": 18264,
+            "endMs": 29136,
+            "text": "記得您剛教我們的時候，我的英文跟不上，您上課讓我回答問題，我的大腦一片空白，完全不知道該怎麼回答。",
+            "textSimplified": "记得您刚教我们的时候，我的英文跟不上，您上课让我回答问题，我的大脑一片空白，完全不知道该怎么回答。"
+          },
+          {
+            "index": 7,
+            "paragraph": 7,
+            "startMs": 29136,
+            "endMs": 45744,
+            "text": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+            "textSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。"
+          },
+          {
+            "index": 8,
+            "paragraph": 9,
+            "startMs": 45744,
+            "endMs": 51960,
+            "text": "葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。",
+            "textSimplified": "叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。"
+          },
+          {
+            "index": 9,
+            "paragraph": 9,
+            "startMs": 51960,
+            "endMs": 53736,
+            "text": "您還記得嗎？",
+            "textSimplified": "您还记得吗？"
+          },
+          {
+            "index": 10,
+            "paragraph": 9,
+            "startMs": 53736,
+            "endMs": 59232,
+            "text": "去年學校舉辦作文比賽，您讓我和另一位同學參加。",
+            "textSimplified": "去年学校举办作文比赛，您让我和另一位同学参加。"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 59232,
+            "endMs": 65136,
+            "text": "我本以為自己會獲獎，結果卻名落孫山，我很受打擊。",
+            "textSimplified": "我本以为自己会获奖，结果却名落孙山，我很受打击。"
+          },
+          {
+            "index": 12,
+            "paragraph": 9,
+            "startMs": 65136,
+            "endMs": 69960,
+            "text": "從此，我變得不自信，寫作文也不認真了。",
+            "textSimplified": "从此，我变得不自信，写作文也不认真了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 69960,
+            "endMs": 77616,
+            "text": "就在這時候，您及時發現了我的變化，一次次找我聊天談心，不斷鼓勵我。",
+            "textSimplified": "就在这时候，您及时发现了我的变化，一次次找我聊天谈心，不断鼓励我。"
+          },
+          {
+            "index": 14,
+            "paragraph": 9,
+            "startMs": 77616,
+            "endMs": 80472,
+            "text": "終於，我又振作起來了。",
+            "textSimplified": "终于，我又振作起来了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 11,
+            "startMs": 80472,
+            "endMs": 91128,
+            "text": "親愛的葉老師，您像媽媽一樣關心我，鼓勵我，是您給了我自信，給了我奮發向上的動力，謝謝您，老師！",
+            "textSimplified": "亲爱的叶老师，您像妈妈一样关心我，鼓励我，是您给了我自信，给了我奋发向上的动力，谢谢您，老师！"
+          },
+          {
+            "index": 16,
+            "paragraph": 13,
+            "startMs": 91128,
+            "endMs": 93072,
+            "text": "祝工作愉快！",
+            "textSimplified": "祝工作愉快！"
+          },
+          {
+            "index": 17,
+            "paragraph": 15,
+            "startMs": 93072,
+            "endMs": 94848,
+            "text": "學生",
+            "textSimplified": "学生"
+          },
+          {
+            "index": 18,
+            "paragraph": 16,
+            "startMs": 94848,
+            "endMs": 96264,
+            "text": "曉東",
+            "textSimplified": "晓东"
+          },
+          {
+            "index": 19,
+            "paragraph": 17,
+            "startMs": 96264,
+            "endMs": 98088,
+            "text": "三月八日",
+            "textSimplified": "三月八日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter22/b02_ch22_p01_c.mp3",
+        "durationMs": 107856,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4608,
+            "text": "二上：給老師的一封信（第六十八頁）",
+            "textSimplified": "二上：给老师的一封信（第六十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4608,
+            "endMs": 7056,
+            "text": "敬愛的葉老師：",
+            "textSimplified": "敬爱的叶老师："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7056,
+            "endMs": 8856,
+            "text": "您好！",
+            "textSimplified": "您好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8856,
+            "endMs": 14424,
+            "text": "時光如流水，不知不覺中，一學期過去了。",
+            "textSimplified": "时光如流水，不知不觉中，一学期过去了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 14424,
+            "endMs": 18720,
+            "text": "在這裏，對您說聲：「謝謝您！",
+            "textSimplified": "在这里，对您说声：「谢谢您！"
+          },
+          {
+            "index": 5,
+            "paragraph": 5,
+            "startMs": 18720,
+            "endMs": 22368,
+            "text": "老師，您辛苦了。」",
+            "textSimplified": "老师，您辛苦了。」"
+          },
+          {
+            "index": 6,
+            "paragraph": 7,
+            "startMs": 22368,
+            "endMs": 33456,
+            "text": "記得您剛教我們的時候，我的英文跟不上，您上課讓我回答問題，我的大腦一片空白，完全不知道該怎麼回答。",
+            "textSimplified": "记得您刚教我们的时候，我的英文跟不上，您上课让我回答问题，我的大脑一片空白，完全不知道该怎么回答。"
+          },
+          {
+            "index": 7,
+            "paragraph": 7,
+            "startMs": 33456,
+            "endMs": 49248,
+            "text": "後來，您總是耐心地輔導我，從記單詞到學句子，從口語到作文，是您激發了我對英文的興趣，是您讓我領悟到了學習英語的樂趣，讓我的英文成績從D變成了A。",
+            "textSimplified": "后来，您总是耐心地辅导我，从记单词到学句子，从口语到作文，是您激发了我对英文的兴趣，是您让我领悟到了学习英语的乐趣，让我的英文成绩从D变成了A。"
+          },
+          {
+            "index": 8,
+            "paragraph": 9,
+            "startMs": 49248,
+            "endMs": 56304,
+            "text": "葉老師，您不僅在英文上幫助落後的我，還激勵我奮發向上。",
+            "textSimplified": "叶老师，您不仅在英文上帮助落后的我，还激励我奋发向上。"
+          },
+          {
+            "index": 9,
+            "paragraph": 9,
+            "startMs": 56304,
+            "endMs": 58512,
+            "text": "您還記得嗎？",
+            "textSimplified": "您还记得吗？"
+          },
+          {
+            "index": 10,
+            "paragraph": 9,
+            "startMs": 58512,
+            "endMs": 64512,
+            "text": "去年學校舉辦作文比賽，您讓我和另一位同學參加。",
+            "textSimplified": "去年学校举办作文比赛，您让我和另一位同学参加。"
+          },
+          {
+            "index": 11,
+            "paragraph": 9,
+            "startMs": 64512,
+            "endMs": 70872,
+            "text": "我本以為自己會獲獎，結果卻名落孫山，我很受打擊。",
+            "textSimplified": "我本以为自己会获奖，结果却名落孙山，我很受打击。"
+          },
+          {
+            "index": 12,
+            "paragraph": 9,
+            "startMs": 70872,
+            "endMs": 76224,
+            "text": "從此，我變得不自信，寫作文也不認真了。",
+            "textSimplified": "从此，我变得不自信，写作文也不认真了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 76224,
+            "endMs": 84600,
+            "text": "就在這時候，您及時發現了我的變化，一次次找我聊天談心，不斷鼓勵我。",
+            "textSimplified": "就在这时候，您及时发现了我的变化，一次次找我聊天谈心，不断鼓励我。"
+          },
+          {
+            "index": 14,
+            "paragraph": 9,
+            "startMs": 84600,
+            "endMs": 88296,
+            "text": "終於，我又振作起來了。",
+            "textSimplified": "终于，我又振作起来了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 11,
+            "startMs": 88296,
+            "endMs": 99600,
+            "text": "親愛的葉老師，您像媽媽一樣關心我，鼓勵我，是您給了我自信，給了我奮發向上的動力，謝謝您，老師！",
+            "textSimplified": "亲爱的叶老师，您像妈妈一样关心我，鼓励我，是您给了我自信，给了我奋发向上的动力，谢谢您，老师！"
+          },
+          {
+            "index": 16,
+            "paragraph": 13,
+            "startMs": 99600,
+            "endMs": 102024,
+            "text": "祝工作愉快！",
+            "textSimplified": "祝工作愉快！"
+          },
+          {
+            "index": 17,
+            "paragraph": 15,
+            "startMs": 102024,
+            "endMs": 103872,
+            "text": "學生",
+            "textSimplified": "学生"
+          },
+          {
+            "index": 18,
+            "paragraph": 16,
+            "startMs": 103872,
+            "endMs": 105648,
+            "text": "曉東",
+            "textSimplified": "晓东"
+          },
+          {
+            "index": 19,
+            "paragraph": 17,
+            "startMs": 105648,
+            "endMs": 107856,
+            "text": "三月八日",
+            "textSimplified": "三月八日"
+          }
+        ]
+      }
+    }
+  ]
+}

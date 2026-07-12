@@ -1,0 +1,664 @@
+{
+  "bookId": "03",
+  "chapterId": "20",
+  "chapterTitle": "我的小房間",
+  "chapterTitleSimplified": "我的小房间",
+  "passages": [
+    "二下 ：我的小房間（第六十二頁） 我有一個小房間，它小小的，卻很溫馨。因為它是真正屬於我自己的小天地，所以我非常喜歡它。 走進我的小房間，正對着的是一扇大大的窗戶，窗戶左邊放着書桌，右邊放着一座鋼琴。在鋼琴上方的牆壁上，掛着一幅全家福，是我們一家人去迪士尼樂園的合照。 鋼琴是我6歲生日時，爸爸送給我的禮物，我非常喜歡它。每當空餘時間，我都會彈奏它。當美妙的曲子從我的指尖流淌出來，一天的疲勞便會一掃而光。 房間左面是我的書桌，上面擺放着一臺電腦。電腦是我學習生活中的好朋友，它常常把我帶進一個奇妙的世界。電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。要是學習累了，我還可以和電腦下象棋，放鬆一下。電腦上方有個書架，上面擺放了許多書，我把它們分了類，有科幻小說、童話故事、百科全書等等。書是我的老師，它幫我打開知識的大門。我愛看〈十萬個為什麼〉，每當我遇到問題時，我都要向它請教；我愛看校園小說，裏面的故事常常逗得我哈哈大笑；我也愛看科幻小說，它把我帶進一個充滿幻想的世界。 這就是我的小天地，我愛這個舒適又溫馨的小天地。"
+  ],
+  "passagesSimplified": [
+    "二下 ：我的小房间（第六十二页） 我有一个小房间，它小小的，却很温馨。因为它是真正属于我自己的小天地，所以我非常喜欢它。 走进我的小房间，正对着的是一扇大大的窗户，窗户左边放着书桌，右边放着一座钢琴。在钢琴上方的墙壁上，挂着一幅全家福，是我们一家人去迪士尼乐园的合照。 钢琴是我6岁生日时，爸爸送给我的礼物，我非常喜欢它。每当空余时间，我都会弹奏它。当美妙的曲子从我的指尖流淌出来，一天的疲劳便会一扫而光。 房间左面是我的书桌，上面摆放着一台电脑。电脑是我学习生活中的好朋友，它常常把我带进一个奇妙的世界。电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。要是学习累了，我还可以和电脑下象棋，放松一下。电脑上方有个书架，上面摆放了许多书，我把它们分了类，有科幻小说、童话故事、百科全书等等。书是我的老师，它帮我打开知识的大门。我爱看〈十万个为什么〉，每当我遇到问题时，我都要向它请教；我爱看校园小说，里面的故事常常逗得我哈哈大笑；我也爱看科幻小说，它把我带进一个充满幻想的世界。 这就是我的小天地，我爱这个舒适又温馨的小天地。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch20_w001",
+      "traditional": "溫馨",
+      "simplified": "温馨",
+      "english": "warm and cozy / affectionate",
+      "pinyin": "wēn xīn",
+      "contextSentence": "二下 ：我的小房間（第六十二頁） 我有一個小房間，它小小的，卻很溫馨。",
+      "contextSentenceSimplified": "二下 ：我的小房间（第六十二页） 我有一个小房间，它小小的，却很温馨。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w002",
+      "traditional": "屬於",
+      "simplified": "属于",
+      "english": "to belong to",
+      "pinyin": "shǔ yú",
+      "contextSentence": "因為它是真正屬於我自己的小天地，所以我非常喜歡它。",
+      "contextSentenceSimplified": "因为它是真正属于我自己的小天地，所以我非常喜欢它。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w003",
+      "traditional": "空餘時間",
+      "simplified": "空余时间",
+      "english": "spare time / free time",
+      "pinyin": "kōng yú shí jiān",
+      "contextSentence": "每當空餘時間，我都會彈奏它。",
+      "contextSentenceSimplified": "每当空余时间，我都会弹奏它。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w004",
+      "traditional": "彈奏",
+      "simplified": "弹奏",
+      "english": "to play (a musical instrument)",
+      "pinyin": "dàn zòu",
+      "contextSentence": "每當空餘時間，我都會彈奏它。",
+      "contextSentenceSimplified": "每当空余时间，我都会弹奏它。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w005",
+      "traditional": "流淌",
+      "simplified": "流淌",
+      "english": "to flow / stream",
+      "pinyin": "liú tǎng",
+      "contextSentence": "當美妙的曲子從我的指尖流淌出來，一天的疲勞便會一掃而光。",
+      "contextSentenceSimplified": "当美妙的曲子从我的指尖流淌出来，一天的疲劳便会一扫而光。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w006",
+      "traditional": "疲勞",
+      "simplified": "疲劳",
+      "english": "fatigue / tiredness",
+      "pinyin": "pí láo",
+      "contextSentence": "當美妙的曲子從我的指尖流淌出來，一天的疲勞便會一掃而光。",
+      "contextSentenceSimplified": "当美妙的曲子从我的指尖流淌出来，一天的疲劳便会一扫而光。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w007",
+      "traditional": "一掃而光",
+      "simplified": "一扫而光",
+      "english": "sweep away completely / finish everything",
+      "pinyin": "yī sǎo ér guāng",
+      "contextSentence": "當美妙的曲子從我的指尖流淌出來，一天的疲勞便會一掃而光。",
+      "contextSentenceSimplified": "当美妙的曲子从我的指尖流淌出来，一天的疲劳便会一扫而光。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w008",
+      "traditional": "互聯網",
+      "simplified": "互联网",
+      "english": "the Internet",
+      "pinyin": "hù lián wǎng",
+      "contextSentence": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+      "contextSentenceSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w009",
+      "traditional": "結交",
+      "simplified": "结交",
+      "english": "to make friends / associate with",
+      "pinyin": "jié jiāo",
+      "contextSentence": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+      "contextSentenceSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w010",
+      "traditional": "查找",
+      "simplified": "查找",
+      "english": "to search / look up",
+      "pinyin": "chá zhǎo",
+      "contextSentence": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+      "contextSentenceSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w011",
+      "traditional": "資料",
+      "simplified": "资料",
+      "english": "data / materials / information",
+      "pinyin": "zī liào",
+      "contextSentence": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+      "contextSentenceSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w012",
+      "traditional": "瞭解",
+      "simplified": "了解",
+      "english": "to understand / to know",
+      "pinyin": "liǎo jiě",
+      "contextSentence": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+      "contextSentenceSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w013",
+      "traditional": "感興趣",
+      "simplified": "感兴趣",
+      "english": "interested in",
+      "pinyin": "gǎn xìng qù",
+      "contextSentence": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+      "contextSentenceSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w014",
+      "traditional": "科幻小說",
+      "simplified": "科幻小说",
+      "english": "science fiction novel",
+      "pinyin": "kē huàn xiǎo shuō",
+      "contextSentence": "電腦上方有個書架，上面擺放了許多書，我把它們分了類，有科幻小說、童話故事、百科全書等等。",
+      "contextSentenceSimplified": "电脑上方有个书架，上面摆放了许多书，我把它们分了类，有科幻小说、童话故事、百科全书等等。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w015",
+      "traditional": "百科全書",
+      "simplified": "百科全书",
+      "english": "encyclopedia",
+      "pinyin": "bǎi kē quán shū",
+      "contextSentence": "電腦上方有個書架，上面擺放了許多書，我把它們分了類，有科幻小說、童話故事、百科全書等等。",
+      "contextSentenceSimplified": "电脑上方有个书架，上面摆放了许多书，我把它们分了类，有科幻小说、童话故事、百科全书等等。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w016",
+      "traditional": "校園小說",
+      "simplified": "校园小说",
+      "english": "school novel / campus fiction",
+      "pinyin": "xiào yuán xiǎo shuō",
+      "contextSentence": "我愛看〈十萬個為什麼〉，每當我遇到問題時，我都要向它請教；我愛看校園小說，裏面的故事常常逗得我哈哈大笑；我也愛看科幻小說，它把我帶進一個充滿幻想的世界。",
+      "contextSentenceSimplified": "我爱看〈十万个为什么〉，每当我遇到问题时，我都要向它请教；我爱看校园小说，里面的故事常常逗得我哈哈大笑；我也爱看科幻小说，它把我带进一个充满幻想的世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w017",
+      "traditional": "逗",
+      "simplified": "逗",
+      "english": "to tease /逗弄 /逗",
+      "pinyin": "dòu",
+      "contextSentence": "我愛看〈十萬個為什麼〉，每當我遇到問題時，我都要向它請教；我愛看校園小說，裏面的故事常常逗得我哈哈大笑；我也愛看科幻小說，它把我帶進一個充滿幻想的世界。",
+      "contextSentenceSimplified": "我爱看〈十万个为什么〉，每当我遇到问题时，我都要向它请教；我爱看校园小说，里面的故事常常逗得我哈哈大笑；我也爱看科幻小说，它把我带进一个充满幻想的世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w018",
+      "traditional": "幻想",
+      "simplified": "幻想",
+      "english": "fantasy / imagination",
+      "pinyin": "huàn xiǎng",
+      "contextSentence": "我愛看〈十萬個為什麼〉，每當我遇到問題時，我都要向它請教；我愛看校園小說，裏面的故事常常逗得我哈哈大笑；我也愛看科幻小說，它把我帶進一個充滿幻想的世界。",
+      "contextSentenceSimplified": "我爱看〈十万个为什么〉，每当我遇到问题时，我都要向它请教；我爱看校园小说，里面的故事常常逗得我哈哈大笑；我也爱看科幻小说，它把我带进一个充满幻想的世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch20_w019",
+      "traditional": "舒適",
+      "simplified": "舒适",
+      "english": "comfortable / cozy",
+      "pinyin": "shū shì",
+      "contextSentence": "這就是我的小天地，我愛這個舒適又溫馨的小天地。",
+      "contextSentenceSimplified": "这就是我的小天地，我爱这个舒适又温馨的小天地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter20/b03_ch20_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter20/b03_ch20_w019_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter20/b03_ch20_p01_m.mp3",
+        "durationMs": 113688,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7512,
+            "text": "二下 ：我的小房間（第六十二頁） 我有一個小房間，它小小的，卻很溫馨。",
+            "textSimplified": "二下 ：我的小房间（第六十二页） 我有一个小房间，它小小的，却很温馨。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 7512,
+            "endMs": 13632,
+            "text": "因為它是真正屬於我自己的小天地，所以我非常喜歡它。",
+            "textSimplified": "因为它是真正属于我自己的小天地，所以我非常喜欢它。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 13632,
+            "endMs": 23088,
+            "text": "走進我的小房間，正對着的是一扇大大的窗戶，窗戶左邊放着書桌，右邊放着一座鋼琴。",
+            "textSimplified": "走进我的小房间，正对着的是一扇大大的窗户，窗户左边放着书桌，右边放着一座钢琴。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 23088,
+            "endMs": 31176,
+            "text": "在鋼琴上方的牆壁上，掛着一幅全家福，是我們一家人去迪士尼樂園的合照。",
+            "textSimplified": "在钢琴上方的墙壁上，挂着一幅全家福，是我们一家人去迪士尼乐园的合照。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 31176,
+            "endMs": 37224,
+            "text": "鋼琴是我6歲生日時，爸爸送給我的禮物，我非常喜歡它。",
+            "textSimplified": "钢琴是我6岁生日时，爸爸送给我的礼物，我非常喜欢它。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 37224,
+            "endMs": 40824,
+            "text": "每當空餘時間，我都會彈奏它。",
+            "textSimplified": "每当空余时间，我都会弹奏它。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 40824,
+            "endMs": 47640,
+            "text": "當美妙的曲子從我的指尖流淌出來，一天的疲勞便會一掃而光。",
+            "textSimplified": "当美妙的曲子从我的指尖流淌出来，一天的疲劳便会一扫而光。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 47640,
+            "endMs": 52560,
+            "text": "房間左面是我的書桌，上面擺放着一臺電腦。",
+            "textSimplified": "房间左面是我的书桌，上面摆放着一台电脑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 52560,
+            "endMs": 59160,
+            "text": "電腦是我學習生活中的好朋友，它常常把我帶進一個奇妙的世界。",
+            "textSimplified": "电脑是我学习生活中的好朋友，它常常把我带进一个奇妙的世界。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 59160,
+            "endMs": 70128,
+            "text": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+            "textSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 70128,
+            "endMs": 75912,
+            "text": "要是學習累了，我還可以和電腦下象棋，放鬆一下。",
+            "textSimplified": "要是学习累了，我还可以和电脑下象棋，放松一下。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 75912,
+            "endMs": 86256,
+            "text": "電腦上方有個書架，上面擺放了許多書，我把它們分了類，有科幻小說、童話故事、百科全書等等。",
+            "textSimplified": "电脑上方有个书架，上面摆放了许多书，我把它们分了类，有科幻小说、童话故事、百科全书等等。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 86256,
+            "endMs": 90600,
+            "text": "書是我的老師，它幫我打開知識的大門。",
+            "textSimplified": "书是我的老师，它帮我打开知识的大门。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 90600,
+            "endMs": 96984,
+            "text": "我愛看〈十萬個為什麼〉，每當我遇到問題時，我都要向它請教；",
+            "textSimplified": "我爱看〈十万个为什么〉，每当我遇到问题时，我都要向它请教；"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 96984,
+            "endMs": 102744,
+            "text": "我愛看校園小說，裏面的故事常常逗得我哈哈大笑；",
+            "textSimplified": "我爱看校园小说，里面的故事常常逗得我哈哈大笑；"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 102744,
+            "endMs": 108216,
+            "text": "我也愛看科幻小說，它把我帶進一個充滿幻想的世界。",
+            "textSimplified": "我也爱看科幻小说，它把我带进一个充满幻想的世界。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 108216,
+            "endMs": 113688,
+            "text": "這就是我的小天地，我愛這個舒適又溫馨的小天地。",
+            "textSimplified": "这就是我的小天地，我爱这个舒适又温馨的小天地。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter20/b03_ch20_p01_c.mp3",
+        "durationMs": 120888,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8208,
+            "text": "二下 ：我的小房間（第六十二頁） 我有一個小房間，它小小的，卻很溫馨。",
+            "textSimplified": "二下 ：我的小房间（第六十二页） 我有一个小房间，它小小的，却很温馨。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8208,
+            "endMs": 14616,
+            "text": "因為它是真正屬於我自己的小天地，所以我非常喜歡它。",
+            "textSimplified": "因为它是真正属于我自己的小天地，所以我非常喜欢它。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 14616,
+            "endMs": 23736,
+            "text": "走進我的小房間，正對着的是一扇大大的窗戶，窗戶左邊放着書桌，右邊放着一座鋼琴。",
+            "textSimplified": "走进我的小房间，正对着的是一扇大大的窗户，窗户左边放着书桌，右边放着一座钢琴。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 23736,
+            "endMs": 31608,
+            "text": "在鋼琴上方的牆壁上，掛着一幅全家福，是我們一家人去迪士尼樂園的合照。",
+            "textSimplified": "在钢琴上方的墙壁上，挂着一幅全家福，是我们一家人去迪士尼乐园的合照。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 31608,
+            "endMs": 38208,
+            "text": "鋼琴是我6歲生日時，爸爸送給我的禮物，我非常喜歡它。",
+            "textSimplified": "钢琴是我6岁生日时，爸爸送给我的礼物，我非常喜欢它。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 38208,
+            "endMs": 42504,
+            "text": "每當空餘時間，我都會彈奏它。",
+            "textSimplified": "每当空余时间，我都会弹奏它。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 42504,
+            "endMs": 49344,
+            "text": "當美妙的曲子從我的指尖流淌出來，一天的疲勞便會一掃而光。",
+            "textSimplified": "当美妙的曲子从我的指尖流淌出来，一天的疲劳便会一扫而光。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 49344,
+            "endMs": 54864,
+            "text": "房間左面是我的書桌，上面擺放着一臺電腦。",
+            "textSimplified": "房间左面是我的书桌，上面摆放着一台电脑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 54864,
+            "endMs": 62088,
+            "text": "電腦是我學習生活中的好朋友，它常常把我帶進一個奇妙的世界。",
+            "textSimplified": "电脑是我学习生活中的好朋友，它常常把我带进一个奇妙的世界。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 62088,
+            "endMs": 73224,
+            "text": "電腦給我的生活帶來了很多便利，例如：我可以通過互聯網結交朋友：可以查找資料，可以瞭解我感興趣的事物。",
+            "textSimplified": "电脑给我的生活带来了很多便利，例如：我可以通过互联网结交朋友：可以查找资料，可以了解我感兴趣的事物。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 73224,
+            "endMs": 79584,
+            "text": "要是學習累了，我還可以和電腦下象棋，放鬆一下。",
+            "textSimplified": "要是学习累了，我还可以和电脑下象棋，放松一下。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 79584,
+            "endMs": 90504,
+            "text": "電腦上方有個書架，上面擺放了許多書，我把它們分了類，有科幻小說、童話故事、百科全書等等。",
+            "textSimplified": "电脑上方有个书架，上面摆放了许多书，我把它们分了类，有科幻小说、童话故事、百科全书等等。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 90504,
+            "endMs": 95424,
+            "text": "書是我的老師，它幫我打開知識的大門。",
+            "textSimplified": "书是我的老师，它帮我打开知识的大门。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 95424,
+            "endMs": 102576,
+            "text": "我愛看〈十萬個為什麼〉，每當我遇到問題時，我都要向它請教；",
+            "textSimplified": "我爱看〈十万个为什么〉，每当我遇到问题时，我都要向它请教；"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 102576,
+            "endMs": 108672,
+            "text": "我愛看校園小說，裏面的故事常常逗得我哈哈大笑；",
+            "textSimplified": "我爱看校园小说，里面的故事常常逗得我哈哈大笑；"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 108672,
+            "endMs": 114960,
+            "text": "我也愛看科幻小說，它把我帶進一個充滿幻想的世界。",
+            "textSimplified": "我也爱看科幻小说，它把我带进一个充满幻想的世界。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 114960,
+            "endMs": 120888,
+            "text": "這就是我的小天地，我愛這個舒適又溫馨的小天地。",
+            "textSimplified": "这就是我的小天地，我爱这个舒适又温馨的小天地。"
+          }
+        ]
+      }
+    }
+  ]
+}

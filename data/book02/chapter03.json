@@ -1,0 +1,730 @@
+{
+  "bookId": "02",
+  "chapterId": "03",
+  "chapterTitle": "難忘的常識比賽",
+  "chapterTitleSimplified": "难忘的常识比赛",
+  "passages": [
+    "二上：難忘的常識比賽（第十頁）\n\n上個月的某一天，老師對我說：「麗雯，學校要舉辦「我愛香港」常識比賽，你代表我們班參加吧！」我一聽，心裡既興奮又緊張，興奮的是老師選我參加比賽，說明老師對我非常信任；緊張的是我雖然在香港長大，但對很多知識並不瞭解。\n\n為了贏得比賽，我開始緊張地「備戰」：讓爸爸給我講解香港的歷史，陪我去博物館參觀；又請媽媽陪我上網查閱資料，瞭解香港的文化。\n\n終於到了比賽那天，我信心滿滿地走進賽場。現場氣氛非常熱烈，大家都是有備而來。第一部分為必答題，每位選手都表現得非常出色，分數也相差不多。第二部分為搶答題，我心想：這可是拉開分數的好時機，我一定要反應快才行！比賽開始了，第一題是列舉香港的三處旅遊景點，我第一時間按了鈴，「有迪士尼樂園、海洋公園和維多利亞港」，我脫口而出。看到評客老師和同學們投來讚許的目光，我更加自信了。後來，我又成功搶到了四道題，獲得了搶答環節的最高分。比賽結束了，我贏得了冠軍。"
+  ],
+  "passagesSimplified": [
+    "二上：难忘的常识比赛（第十页）\n\n上个月的某一天，老师对我说：「丽雯，学校要举办「我爱香港」常识比赛，你代表我们班参加吧！」我一听，心里既兴奋又紧张，兴奋的是老师选我参加比赛，说明老师对我非常信任；紧张的是我虽然在香港长大，但对很多知识并不了解。\n\n为了赢得比赛，我开始紧张地「备战」：让爸爸给我讲解香港的历史，陪我去博物馆参观；又请妈妈陪我上网查阅资料，了解香港的文化。\n\n终于到了比赛那天，我信心满满地走进赛场。现场气氛非常热烈，大家都是有备而来。第一部分为必答题，每位选手都表现得非常出色，分数也相差不多。第二部分为抢答题，我心想：这可是拉开分数的好时机，我一定要反应快才行！比赛开始了，第一题是列举香港的三处旅游景点，我第一时间按了铃，「有迪士尼乐园、海洋公园和维多利亚港」，我脱口而出。看到评客老师和同学们投来赞许的目光，我更加自信了。后来，我又成功抢到了四道题，获得了抢答环节的最高分。比赛结束了，我赢得了冠军。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch03_w001",
+      "traditional": "難忘",
+      "simplified": "难忘",
+      "english": "unforgettable",
+      "pinyin": "nán wàng",
+      "contextSentence": "難忘的常識比賽",
+      "contextSentenceSimplified": "难忘的常识比赛",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w002",
+      "traditional": "舉辦",
+      "simplified": "举办",
+      "english": "to hold / organize",
+      "pinyin": "jǔ bàn",
+      "contextSentence": "學校要舉辦「我愛香港」常識比賽，你代表我們班參加吧！",
+      "contextSentenceSimplified": "学校要举办「我爱香港」常识比赛，你代表我们班参加吧！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w003",
+      "traditional": "代表",
+      "simplified": "代表",
+      "english": "to represent / representative",
+      "pinyin": "dài biǎo",
+      "contextSentence": "學校要舉辦「我愛香港」常識比賽，你代表我們班參加吧！",
+      "contextSentenceSimplified": "学校要举办「我爱香港」常识比赛，你代表我们班参加吧！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w004",
+      "traditional": "信任",
+      "simplified": "信任",
+      "english": "trust / confidence",
+      "pinyin": "xìn rèn",
+      "contextSentence": "老師選我參加比賽，說明老師對我非常信任",
+      "contextSentenceSimplified": "老师选我参加比赛，说明老师对我非常信任",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w005",
+      "traditional": "瞭解",
+      "simplified": "了解",
+      "english": "to understand / to know",
+      "pinyin": "liǎo jiě",
+      "contextSentence": "媽媽陪我上網查閱資料，瞭解香港的文化。",
+      "contextSentenceSimplified": "妈妈陪我上网查阅资料，了解香港的文化。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w006",
+      "traditional": "備戰",
+      "simplified": "备战",
+      "english": "to prepare for battle/competition",
+      "pinyin": "bèi zhàn",
+      "contextSentence": "為了贏得比賽，我開始緊張地「備戰」：讓爸爸給我講解香港的歷史，又陪我去博物館參觀。",
+      "contextSentenceSimplified": "为了赢得比赛，我开始紧张地「备战」：让爸爸给我讲解香港的历史，又陪我去博物馆参观。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w007",
+      "traditional": "講解",
+      "simplified": "讲解",
+      "english": "to explain / to lecture",
+      "pinyin": "jiǎng jiě",
+      "contextSentence": "為了贏得比賽，我開始緊張地「備戰」：讓爸爸給我講解香港的歷史，又陪我去博物館參觀。",
+      "contextSentenceSimplified": "为了赢得比赛，我开始紧张地「备战」：让爸爸给我讲解香港的历史，又陪我去博物馆参观。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w008",
+      "traditional": "參觀",
+      "simplified": "参观",
+      "english": "to visit / to tour",
+      "pinyin": "cān guān",
+      "contextSentence": "為了贏得比賽，我開始緊張地「備戰」：讓爸爸給我講解香港的歷史，又陪我去博物館參觀。",
+      "contextSentenceSimplified": "为了赢得比赛，我开始紧张地「备战」：让爸爸给我讲解香港的历史，又陪我去博物馆参观。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w009",
+      "traditional": "查閱",
+      "simplified": "查阅",
+      "english": "to consult / to look up / to check",
+      "pinyin": "chá yuè",
+      "contextSentence": "媽媽陪我上網查閱資料，瞭解香港的文化。",
+      "contextSentenceSimplified": "妈妈陪我上网查阅资料，了解香港的文化。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w010",
+      "traditional": "信心滿滿",
+      "simplified": "信心满满",
+      "english": "full of confidence",
+      "pinyin": "xìn xīn mǎn mǎn",
+      "contextSentence": "終於到了比賽那天，我信心滿滿地走進賽場。",
+      "contextSentenceSimplified": "终于到了比赛那天，我信心满满地走进赛场。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w011",
+      "traditional": "熱烈",
+      "simplified": "热烈",
+      "english": "warm / enthusiastic / lively",
+      "pinyin": "rè liè",
+      "contextSentence": "現場氣氛非常熱烈，大家都是有備而來。",
+      "contextSentenceSimplified": "现场气氛非常热烈，大家都是有备而来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w012",
+      "traditional": "有備而來",
+      "simplified": "有备而来",
+      "english": "to come well-prepared",
+      "pinyin": "yǒu bèi ér lái",
+      "contextSentence": "現場氣氛非常熱烈，大家都是有備而來。",
+      "contextSentenceSimplified": "现场气氛非常热烈，大家都是有备而来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w013",
+      "traditional": "必答題",
+      "simplified": "必答题",
+      "english": "compulsory questions",
+      "pinyin": "bì dá tí",
+      "contextSentence": "第一部分為必答題，每位選手都表現得非常出色，分數也相差不多。",
+      "contextSentenceSimplified": "第一部分为必答题，每位选手都表现得非常出色，分数也相差不多。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w014",
+      "traditional": "出色",
+      "simplified": "出色",
+      "english": "outstanding / excellent",
+      "pinyin": "chū sè",
+      "contextSentence": "第一部分為必答題，每位選手都表現得非常出色，分數也相差不多。",
+      "contextSentenceSimplified": "第一部分为必答题，每位选手都表现得非常出色，分数也相差不多。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w015",
+      "traditional": "相差不多",
+      "simplified": "相差不多",
+      "english": "not much difference / quite similar",
+      "pinyin": "xiāng chà bù duō",
+      "contextSentence": "第一部分為必答題，每位選手都表現得非常出色，分數也相差不多。",
+      "contextSentenceSimplified": "第一部分为必答题，每位选手都表现得非常出色，分数也相差不多。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w016",
+      "traditional": "搶答題",
+      "simplified": "抢答题",
+      "english": "buzz-in questions /抢答 questions",
+      "pinyin": "qiǎng dá tí",
+      "contextSentence": "第二部分為搶答題，我心想：這可是拉開分數的好時機，我一定要反應快才行！",
+      "contextSentenceSimplified": "第二部分为抢答题，我心想：这可是拉开分数的好时机，我一定要反应快才行！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w017",
+      "traditional": "時機",
+      "simplified": "时机",
+      "english": "timing / opportunity / moment",
+      "pinyin": "shí jī",
+      "contextSentence": "第二部分為搶答題，我心想：這可是拉開分數的好時機，我一定要反應快才行！",
+      "contextSentenceSimplified": "第二部分为抢答题，我心想：这可是拉开分数的好时机，我一定要反应快才行！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w018",
+      "traditional": "反應",
+      "simplified": "反应",
+      "english": "reaction / response",
+      "pinyin": "fǎn yīng",
+      "contextSentence": "第二部分為搶答題，我心想：這可是拉開分數的好時機，我一定要反應快才行！",
+      "contextSentenceSimplified": "第二部分为抢答题，我心想：这可是拉开分数的好时机，我一定要反应快才行！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w019",
+      "traditional": "列舉",
+      "simplified": "列举",
+      "english": "to list / to enumerate",
+      "pinyin": "liè jǔ",
+      "contextSentence": "比賽開始了，第一題是列舉香港的三處旅遊景點，我第一時間按了鈴，「有迪士尼樂園、海洋公園和維多利亞港」，我脫口而出。",
+      "contextSentenceSimplified": "比赛开始了，第一题是列举香港的三处旅游景点，我第一时间按了铃，「有迪士尼乐园、海洋公园和维多利亚港」，我脱口而出。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w020",
+      "traditional": "景點",
+      "simplified": "景点",
+      "english": "tourist attraction / scenic spot",
+      "pinyin": "jǐng diǎn",
+      "contextSentence": "比賽開始了，第一題是列舉香港的三處旅遊景點，我第一時間按了鈴，「有迪士尼樂園、海洋公園和維多利亞港」，我脫口而出。",
+      "contextSentenceSimplified": "比赛开始了，第一题是列举香港的三处旅游景点，我第一时间按了铃，「有迪士尼乐园、海洋公园和维多利亚港」，我脱口而出。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w021",
+      "traditional": "脫口而出",
+      "simplified": "脱口而出",
+      "english": "to blurt out",
+      "pinyin": "tuō kǒu ér chū",
+      "contextSentence": "比賽開始了，第一題是列舉香港的三處旅遊景點，我第一時間按了鈴，「有迪士尼樂園、海洋公園和維多利亞港」，我脫口而出。",
+      "contextSentenceSimplified": "比赛开始了，第一题是列举香港的三处旅游景点，我第一时间按了铃，「有迪士尼乐园、海洋公园和维多利亚港」，我脱口而出。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w022",
+      "traditional": "讚許",
+      "simplified": "赞许",
+      "english": "praise / approval",
+      "pinyin": "zàn xǔ",
+      "contextSentence": "看到評客老師和同學們投來讚許的目光，我更加自信了。",
+      "contextSentenceSimplified": "看到评客老师和同学们投来赞许的目光，我更加自信了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w023",
+      "traditional": "成功",
+      "simplified": "成功",
+      "english": "successfully / success",
+      "pinyin": "chéng gōng",
+      "contextSentence": "後來，我又成功搶到了四道題，獲得了搶答環節的最高分。",
+      "contextSentenceSimplified": "后来，我又成功抢到了四道题，获得了抢答环节的最高分。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w024",
+      "traditional": "環節",
+      "simplified": "环节",
+      "english": "link / stage / segment",
+      "pinyin": "huán jié",
+      "contextSentence": "後來，我又成功搶到了四道題，獲得了搶答環節的最高分。",
+      "contextSentenceSimplified": "后来，我又成功抢到了四道题，获得了抢答环节的最高分。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w024_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w024_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch03_w025",
+      "traditional": "最高分",
+      "simplified": "最高分",
+      "english": "highest score",
+      "pinyin": "zuì gāo fēn",
+      "contextSentence": "後來，我又成功搶到了四道題，獲得了搶答環節的最高分。",
+      "contextSentenceSimplified": "后来，我又成功抢到了四道题，获得了抢答环节的最高分。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w025_m_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter03/b02_ch03_w025_c_isolated.mp3",
+          "sentence": "audio/book02/chapter03/b02_ch03_w025_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter03/b02_ch03_p01_m.mp3",
+        "durationMs": 95208,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4032,
+            "text": "二上：難忘的常識比賽（第十頁）",
+            "textSimplified": "二上：难忘的常识比赛（第十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4032,
+            "endMs": 13392,
+            "text": "上個月的某一天，老師對我說：「麗雯，學校要舉辦「我愛香港」常識比賽，你代表我們班參加吧！」",
+            "textSimplified": "上个月的某一天，老师对我说：「丽雯，学校要举办「我爱香港」常识比赛，你代表我们班参加吧！」"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 13392,
+            "endMs": 22680,
+            "text": "我一聽，心裡既興奮又緊張，興奮的是老師選我參加比賽，說明老師對我非常信任；",
+            "textSimplified": "我一听，心里既兴奋又紧张，兴奋的是老师选我参加比赛，说明老师对我非常信任；"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 22680,
+            "endMs": 28512,
+            "text": "緊張的是我雖然在香港長大，但對很多知識並不瞭解。",
+            "textSimplified": "紧张的是我虽然在香港长大，但对很多知识并不了解。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 28512,
+            "endMs": 37320,
+            "text": "為了贏得比賽，我開始緊張地「備戰」：讓爸爸給我講解香港的歷史，陪我去博物館參觀；",
+            "textSimplified": "为了赢得比赛，我开始紧张地「备战」：让爸爸给我讲解香港的历史，陪我去博物馆参观；"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 37320,
+            "endMs": 42528,
+            "text": "又請媽媽陪我上網查閱資料，瞭解香港的文化。",
+            "textSimplified": "又请妈妈陪我上网查阅资料，了解香港的文化。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 42528,
+            "endMs": 47280,
+            "text": "終於到了比賽那天，我信心滿滿地走進賽場。",
+            "textSimplified": "终于到了比赛那天，我信心满满地走进赛场。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 47280,
+            "endMs": 51768,
+            "text": "現場氣氛非常熱烈，大家都是有備而來。",
+            "textSimplified": "现场气氛非常热烈，大家都是有备而来。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 51768,
+            "endMs": 59160,
+            "text": "第一部分為必答題，每位選手都表現得非常出色，分數也相差不多。",
+            "textSimplified": "第一部分为必答题，每位选手都表现得非常出色，分数也相差不多。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 59160,
+            "endMs": 67056,
+            "text": "第二部分為搶答題，我心想：這可是拉開分數的好時機，我一定要反應快才行！",
+            "textSimplified": "第二部分为抢答题，我心想：这可是拉开分数的好时机，我一定要反应快才行！"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 67056,
+            "endMs": 79920,
+            "text": "比賽開始了，第一題是列舉香港的三處旅遊景點，我第一時間按了鈴，「有迪士尼樂園、海洋公園和維多利亞港」，我脫口而出。",
+            "textSimplified": "比赛开始了，第一题是列举香港的三处旅游景点，我第一时间按了铃，「有迪士尼乐园、海洋公园和维多利亚港」，我脱口而出。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 79920,
+            "endMs": 85752,
+            "text": "看到評客老師和同學們投來讚許的目光，我更加自信了。",
+            "textSimplified": "看到评客老师和同学们投来赞许的目光，我更加自信了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 85752,
+            "endMs": 91824,
+            "text": "後來，我又成功搶到了四道題，獲得了搶答環節的最高分。",
+            "textSimplified": "后来，我又成功抢到了四道题，获得了抢答环节的最高分。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 91824,
+            "endMs": 95208,
+            "text": "比賽結束了，我贏得了冠軍。",
+            "textSimplified": "比赛结束了，我赢得了冠军。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter03/b02_ch03_p01_c.mp3",
+        "durationMs": 102240,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4344,
+            "text": "二上：難忘的常識比賽（第十頁）",
+            "textSimplified": "二上：难忘的常识比赛（第十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4344,
+            "endMs": 14880,
+            "text": "上個月的某一天，老師對我說：「麗雯，學校要舉辦「我愛香港」常識比賽，你代表我們班參加吧！」",
+            "textSimplified": "上个月的某一天，老师对我说：「丽雯，学校要举办「我爱香港」常识比赛，你代表我们班参加吧！」"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 14880,
+            "endMs": 24216,
+            "text": "我一聽，心裡既興奮又緊張，興奮的是老師選我參加比賽，說明老師對我非常信任；",
+            "textSimplified": "我一听，心里既兴奋又紧张，兴奋的是老师选我参加比赛，说明老师对我非常信任；"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 24216,
+            "endMs": 30360,
+            "text": "緊張的是我雖然在香港長大，但對很多知識並不瞭解。",
+            "textSimplified": "紧张的是我虽然在香港长大，但对很多知识并不了解。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 30360,
+            "endMs": 39648,
+            "text": "為了贏得比賽，我開始緊張地「備戰」：讓爸爸給我講解香港的歷史，陪我去博物館參觀；",
+            "textSimplified": "为了赢得比赛，我开始紧张地「备战」：让爸爸给我讲解香港的历史，陪我去博物馆参观；"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 39648,
+            "endMs": 45240,
+            "text": "又請媽媽陪我上網查閱資料，瞭解香港的文化。",
+            "textSimplified": "又请妈妈陪我上网查阅资料，了解香港的文化。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 45240,
+            "endMs": 50832,
+            "text": "終於到了比賽那天，我信心滿滿地走進賽場。",
+            "textSimplified": "终于到了比赛那天，我信心满满地走进赛场。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 50832,
+            "endMs": 55896,
+            "text": "現場氣氛非常熱烈，大家都是有備而來。",
+            "textSimplified": "现场气氛非常热烈，大家都是有备而来。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 55896,
+            "endMs": 63024,
+            "text": "第一部分為必答題，每位選手都表現得非常出色，分數也相差不多。",
+            "textSimplified": "第一部分为必答题，每位选手都表现得非常出色，分数也相差不多。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 63024,
+            "endMs": 71712,
+            "text": "第二部分為搶答題，我心想：這可是拉開分數的好時機，我一定要反應快才行！",
+            "textSimplified": "第二部分为抢答题，我心想：这可是拉开分数的好时机，我一定要反应快才行！"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 71712,
+            "endMs": 84528,
+            "text": "比賽開始了，第一題是列舉香港的三處旅遊景點，我第一時間按了鈴，「有迪士尼樂園、海洋公園和維多利亞港」，我脫口而出。",
+            "textSimplified": "比赛开始了，第一题是列举香港的三处旅游景点，我第一时间按了铃，「有迪士尼乐园、海洋公园和维多利亚港」，我脱口而出。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 84528,
+            "endMs": 91008,
+            "text": "看到評客老師和同學們投來讚許的目光，我更加自信了。",
+            "textSimplified": "看到评客老师和同学们投来赞许的目光，我更加自信了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 91008,
+            "endMs": 98136,
+            "text": "後來，我又成功搶到了四道題，獲得了搶答環節的最高分。",
+            "textSimplified": "后来，我又成功抢到了四道题，获得了抢答环节的最高分。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 98136,
+            "endMs": 102240,
+            "text": "比賽結束了，我贏得了冠軍。",
+            "textSimplified": "比赛结束了，我赢得了冠军。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "bookId": "03",
+  "chapterId": "11",
+  "chapterTitle": "小狗嘟嘟",
+  "chapterTitleSimplified": "小狗嘟嘟",
+  "passages": [
+    "二下 ：小狗嘟嘟（第四十頁） 我家養了一隻寵物狗，我給牠取了個好玩的名字，叫嘟嘟。牠就像一個淘氣的孩子，貪玩又可愛。 嘟嘟的毛黑黑的，眼睛像兩顆黑珍珠一樣明亮。我和嘟嘟相處得很好，牠陪我玩耍，是我的好夥伴。每天早上，我揹着書包準備出門，牠就會在我身邊轉個不停，好像在說：『小主人，別走，別走，再跟我玩一會兒！』每次放學回家，牠便已經早早地在門口搖着尾巴迎接我。 嘟嘟愛喫的食物有火腿、魚丸、雞肉等，但牠最喜歡喫的要數骨頭了。有一天，媽媽做了排骨湯。開飯了，嘟嘟像是聞到了排骨的香味，立刻跑過來，可憐地望着我，好像在說：『小主人，求求你給我一塊骨頭喫吧，瞧我的口水都流出來了。』我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。不一會兒，嘟嘟就把一塊大骨頭消滅了。只見牠舔舔嘴巴，好像還在回味剛才的美味呢。然後，牠又用尾巴蹭了蹭我的褲腿，彷彿在說：『小主人，再給我一塊骨頭吧，好嗎？』看着牠那饞樣，我心想：這小傢伙可真貪喫。 要是牠見到了熟人，就會使勁地搖着牠的小尾巴，圍着你轉來轉去，表示友好。要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。 這就是我家的小狗嘟嘟——一隻貪玩、貪喫又可愛的小狗。"
+  ],
+  "passagesSimplified": [
+    "二下 ：小狗嘟嘟（第四十页） 我家养了一只宠物狗，我给牠取了个好玩的名字，叫嘟嘟。牠就像一个淘气的孩子，贪玩又可爱。 嘟嘟的毛黑黑的，眼睛像两颗黑珍珠一样明亮。我和嘟嘟相处得很好，牠陪我玩耍，是我的好伙伴。每天早上，我揹着书包准备出门，牠就会在我身边转个不停，好像在说：『小主人，别走，别走，再跟我玩一会儿！』每次放学回家，牠便已经早早地在门口摇着尾巴迎接我。 嘟嘟爱吃的食物有火腿、鱼丸、鸡肉等，但牠最喜欢吃的要数骨头了。有一天，妈妈做了排骨汤。开饭了，嘟嘟像是闻到了排骨的香味，立刻跑过来，可怜地望着我，好像在说：『小主人，求求你给我一块骨头吃吧，瞧我的口水都流出来了。』我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。不一会儿，嘟嘟就把一块大骨头消灭了。只见牠舔舔嘴巴，好像还在回味刚才的美味呢。然后，牠又用尾巴蹭了蹭我的裤腿，仿佛在说：『小主人，再给我一块骨头吧，好吗？』看着牠那馋样，我心想：这小家伙可真贪吃。 要是牠见到了熟人，就会使劲地摇着牠的小尾巴，围着你转来转去，表示友好。要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。 这就是我家的小狗嘟嘟——一只贪玩、贪吃又可爱的小狗。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch11_w001",
+      "traditional": "寵物",
+      "simplified": "宠物",
+      "english": "pet",
+      "pinyin": "chǒng wù",
+      "contextSentence": "二下 ：小狗嘟嘟（第四十頁） 我家養了一隻寵物狗，我給牠取了個好玩的名字，叫嘟嘟。",
+      "contextSentenceSimplified": "二下 ：小狗嘟嘟（第四十页） 我家养了一只宠物狗，我给牠取了个好玩的名字，叫嘟嘟。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w002",
+      "traditional": "玩耍",
+      "simplified": "玩耍",
+      "english": "to play / playtime",
+      "pinyin": "wán shuǎ",
+      "contextSentence": "我和嘟嘟相處得很好，牠陪我玩耍，是我的好夥伴。",
+      "contextSentenceSimplified": "我和嘟嘟相处得很好，牠陪我玩耍，是我的好伙伴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w003",
+      "traditional": "夥伴",
+      "simplified": "伙伴",
+      "english": "partner / companion",
+      "pinyin": "huǒ bàn",
+      "contextSentence": "我和嘟嘟相處得很好，牠陪我玩耍，是我的好夥伴。",
+      "contextSentenceSimplified": "我和嘟嘟相处得很好，牠陪我玩耍，是我的好伙伴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w004",
+      "traditional": "轉個不停",
+      "simplified": "转个不停",
+      "english": "spin continuously / keep turning",
+      "pinyin": "zhuǎn gè bù tíng",
+      "contextSentence": "每天早上，我揹着書包準備出門，牠就會在我身邊轉個不停，好像在說：『小主人，別走，別走，再跟我玩一會兒！",
+      "contextSentenceSimplified": "每天早上，我揹着书包准备出门，牠就会在我身边转个不停，好像在说：『小主人，别走，别走，再跟我玩一会儿！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w005",
+      "traditional": "迎接",
+      "simplified": "迎接",
+      "english": "to welcome / greet",
+      "pinyin": "yíng jiē",
+      "contextSentence": "每次放學回家，牠便已經早早地在門口搖着尾巴迎接我。",
+      "contextSentenceSimplified": "每次放学回家，牠便已经早早地在门口摇着尾巴迎接我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w006",
+      "traditional": "魚丸",
+      "simplified": "鱼丸",
+      "english": "fish ball",
+      "pinyin": "yú wán",
+      "contextSentence": "嘟嘟愛喫的食物有火腿、魚丸、雞肉等，但牠最喜歡喫的要數骨頭了。",
+      "contextSentenceSimplified": "嘟嘟爱吃的食物有火腿、鱼丸、鸡肉等，但牠最喜欢吃的要数骨头了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w007",
+      "traditional": "要數",
+      "simplified": "要数",
+      "english": "must be / counts as",
+      "pinyin": "yào shù",
+      "contextSentence": "嘟嘟愛喫的食物有火腿、魚丸、雞肉等，但牠最喜歡喫的要數骨頭了。",
+      "contextSentenceSimplified": "嘟嘟爱吃的食物有火腿、鱼丸、鸡肉等，但牠最喜欢吃的要数骨头了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w008",
+      "traditional": "可憐",
+      "simplified": "可怜",
+      "english": "pitiful /pathetic",
+      "pinyin": "kě lián",
+      "contextSentence": "開飯了，嘟嘟像是聞到了排骨的香味，立刻跑過來，可憐地望着我，好像在說：『小主人，求求你給我一塊骨頭喫吧，瞧我的口水都流出來了。",
+      "contextSentenceSimplified": "开饭了，嘟嘟像是闻到了排骨的香味，立刻跑过来，可怜地望着我，好像在说：『小主人，求求你给我一块骨头吃吧，瞧我的口水都流出来了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w009",
+      "traditional": "夾起",
+      "simplified": "夹起",
+      "english": "to pick up with chopsticks/tongs",
+      "pinyin": "jiā qǐ",
+      "contextSentence": "我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。",
+      "contextSentenceSimplified": "我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w010",
+      "traditional": "食盆",
+      "simplified": "食盆",
+      "english": "food bowl / feeding dish",
+      "pinyin": "shí pén",
+      "contextSentence": "我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。",
+      "contextSentenceSimplified": "我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w011",
+      "traditional": "津津有味",
+      "simplified": "津津有味",
+      "english": "with gusto / with relish",
+      "pinyin": "jīn jīn yǒu wèi",
+      "contextSentence": "我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。",
+      "contextSentenceSimplified": "我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w012",
+      "traditional": "啃",
+      "simplified": "啃",
+      "english": "to gnaw / to nibble",
+      "pinyin": "kěn",
+      "contextSentence": "我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。",
+      "contextSentenceSimplified": "我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w013",
+      "traditional": "消滅",
+      "simplified": "消灭",
+      "english": "to eliminate / destroy",
+      "pinyin": "xiāo miè",
+      "contextSentence": "不一會兒，嘟嘟就把一塊大骨頭消滅了。",
+      "contextSentenceSimplified": "不一会儿，嘟嘟就把一块大骨头消灭了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w014",
+      "traditional": "舔舔嘴巴",
+      "simplified": "舔舔嘴巴",
+      "english": "lick one's lips",
+      "pinyin": "tiǎn tiǎn zuǐ bā",
+      "contextSentence": "只見牠舔舔嘴巴，好像還在回味剛才的美味呢。",
+      "contextSentenceSimplified": "只见牠舔舔嘴巴，好像还在回味刚才的美味呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w015",
+      "traditional": "回味",
+      "simplified": "回味",
+      "english": "aftertaste / to recall fondly",
+      "pinyin": "huí wèi",
+      "contextSentence": "只見牠舔舔嘴巴，好像還在回味剛才的美味呢。",
+      "contextSentenceSimplified": "只见牠舔舔嘴巴，好像还在回味刚才的美味呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w016",
+      "traditional": "蹭",
+      "simplified": "蹭",
+      "english": "rub against / scratch",
+      "pinyin": "cèng",
+      "contextSentence": "然後，牠又用尾巴蹭了蹭我的褲腿，彷彿在說：『小主人，再給我一塊骨頭吧，好嗎？",
+      "contextSentenceSimplified": "然后，牠又用尾巴蹭了蹭我的裤腿，仿佛在说：『小主人，再给我一块骨头吧，好吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w017",
+      "traditional": "褲腿",
+      "simplified": "裤腿",
+      "english": "trouser leg / pant leg",
+      "pinyin": "kù tuǐ",
+      "contextSentence": "然後，牠又用尾巴蹭了蹭我的褲腿，彷彿在說：『小主人，再給我一塊骨頭吧，好嗎？",
+      "contextSentenceSimplified": "然后，牠又用尾巴蹭了蹭我的裤腿，仿佛在说：『小主人，再给我一块骨头吧，好吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w018",
+      "traditional": "饞樣",
+      "simplified": "馋样",
+      "english": "greedy look / hungry appearance",
+      "pinyin": "chán yàng",
+      "contextSentence": "看着牠那饞樣，我心想：這小傢伙可真貪喫。",
+      "contextSentenceSimplified": "看着牠那馋样，我心想：这小家伙可真贪吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w019",
+      "traditional": "使勁",
+      "simplified": "使劲",
+      "english": "to exert effort / with all might",
+      "pinyin": "shǐ jìn",
+      "contextSentence": "要是牠見到了熟人，就會使勁地搖着牠的小尾巴，圍着你轉來轉去，表示友好。",
+      "contextSentenceSimplified": "要是牠见到了熟人，就会使劲地摇着牠的小尾巴，围着你转来转去，表示友好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w020",
+      "traditional": "圍着",
+      "simplified": "围着",
+      "english": "surrounding / circling around",
+      "pinyin": "wéi zhe",
+      "contextSentence": "要是牠見到了熟人，就會使勁地搖着牠的小尾巴，圍着你轉來轉去，表示友好。",
+      "contextSentenceSimplified": "要是牠见到了熟人，就会使劲地摇着牠的小尾巴，围着你转来转去，表示友好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w021",
+      "traditional": "陌生人",
+      "simplified": "陌生人",
+      "english": "stranger",
+      "pinyin": "mò shēng rén",
+      "contextSentence": "要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。",
+      "contextSentenceSimplified": "要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w022",
+      "traditional": "溫順",
+      "simplified": "温顺",
+      "english": "gentle / docile",
+      "pinyin": "wēn shùn",
+      "contextSentence": "要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。",
+      "contextSentenceSimplified": "要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w023",
+      "traditional": "保持",
+      "simplified": "保持",
+      "english": "to maintain / to keep",
+      "pinyin": "bǎo chí",
+      "contextSentence": "要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。",
+      "contextSentenceSimplified": "要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch11_w024",
+      "traditional": "高度警惕",
+      "simplified": "高度警惕",
+      "english": "highly alert / vigilant",
+      "pinyin": "gāo dù jǐng tì",
+      "contextSentence": "要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。",
+      "contextSentenceSimplified": "要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter11/b03_ch11_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter11/b03_ch11_w024_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter11/b03_ch11_p01_m.mp3",
+        "durationMs": 119712,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8736,
+            "text": "二下 ：小狗嘟嘟（第四十頁） 我家養了一隻寵物狗，我給牠取了個好玩的名字，叫嘟嘟。",
+            "textSimplified": "二下 ：小狗嘟嘟（第四十页） 我家养了一只宠物狗，我给牠取了个好玩的名字，叫嘟嘟。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8736,
+            "endMs": 12960,
+            "text": "牠就像一個淘氣的孩子，貪玩又可愛。",
+            "textSimplified": "牠就像一个淘气的孩子，贪玩又可爱。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 12960,
+            "endMs": 18192,
+            "text": "嘟嘟的毛黑黑的，眼睛像兩顆黑珍珠一樣明亮。",
+            "textSimplified": "嘟嘟的毛黑黑的，眼睛像两颗黑珍珠一样明亮。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 18192,
+            "endMs": 23592,
+            "text": "我和嘟嘟相處得很好，牠陪我玩耍，是我的好夥伴。",
+            "textSimplified": "我和嘟嘟相处得很好，牠陪我玩耍，是我的好伙伴。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 23592,
+            "endMs": 35232,
+            "text": "每天早上，我揹着書包準備出門，牠就會在我身邊轉個不停，好像在說：『小主人，別走，別走，再跟我玩一會兒！』",
+            "textSimplified": "每天早上，我揹着书包准备出门，牠就会在我身边转个不停，好像在说：『小主人，别走，别走，再跟我玩一会儿！』"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 35232,
+            "endMs": 41400,
+            "text": "每次放學回家，牠便已經早早地在門口搖着尾巴迎接我。",
+            "textSimplified": "每次放学回家，牠便已经早早地在门口摇着尾巴迎接我。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 41400,
+            "endMs": 49176,
+            "text": "嘟嘟愛喫的食物有火腿、魚丸、雞肉等，但牠最喜歡喫的要數骨頭了。",
+            "textSimplified": "嘟嘟爱吃的食物有火腿、鱼丸、鸡肉等，但牠最喜欢吃的要数骨头了。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 49176,
+            "endMs": 52368,
+            "text": "有一天，媽媽做了排骨湯。",
+            "textSimplified": "有一天，妈妈做了排骨汤。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 52368,
+            "endMs": 66024,
+            "text": "開飯了，嘟嘟像是聞到了排骨的香味，立刻跑過來，可憐地望着我，好像在說：『小主人，求求你給我一塊骨頭喫吧，瞧我的口水都流出來了。』",
+            "textSimplified": "开饭了，嘟嘟像是闻到了排骨的香味，立刻跑过来，可怜地望着我，好像在说：『小主人，求求你给我一块骨头吃吧，瞧我的口水都流出来了。』"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 66024,
+            "endMs": 73176,
+            "text": "我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。",
+            "textSimplified": "我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 73176,
+            "endMs": 77328,
+            "text": "不一會兒，嘟嘟就把一塊大骨頭消滅了。",
+            "textSimplified": "不一会儿，嘟嘟就把一块大骨头消灭了。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 77328,
+            "endMs": 82560,
+            "text": "只見牠舔舔嘴巴，好像還在回味剛才的美味呢。",
+            "textSimplified": "只见牠舔舔嘴巴，好像还在回味刚才的美味呢。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 82560,
+            "endMs": 91224,
+            "text": "然後，牠又用尾巴蹭了蹭我的褲腿，彷彿在說：『小主人，再給我一塊骨頭吧，好嗎？』",
+            "textSimplified": "然后，牠又用尾巴蹭了蹭我的裤腿，仿佛在说：『小主人，再给我一块骨头吧，好吗？』"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 91224,
+            "endMs": 96768,
+            "text": "看着牠那饞樣，我心想：這小傢伙可真貪喫。",
+            "textSimplified": "看着牠那馋样，我心想：这小家伙可真贪吃。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 96768,
+            "endMs": 104904,
+            "text": "要是牠見到了熟人，就會使勁地搖着牠的小尾巴，圍着你轉來轉去，表示友好。",
+            "textSimplified": "要是牠见到了熟人，就会使劲地摇着牠的小尾巴，围着你转来转去，表示友好。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 104904,
+            "endMs": 113664,
+            "text": "要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。",
+            "textSimplified": "要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 113664,
+            "endMs": 119712,
+            "text": "這就是我家的小狗嘟嘟——一隻貪玩、貪喫又可愛的小狗。",
+            "textSimplified": "这就是我家的小狗嘟嘟——一只贪玩、贪吃又可爱的小狗。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter11/b03_ch11_p01_c.mp3",
+        "durationMs": 128088,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9384,
+            "text": "二下 ：小狗嘟嘟（第四十頁） 我家養了一隻寵物狗，我給牠取了個好玩的名字，叫嘟嘟。",
+            "textSimplified": "二下 ：小狗嘟嘟（第四十页） 我家养了一只宠物狗，我给牠取了个好玩的名字，叫嘟嘟。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9384,
+            "endMs": 14256,
+            "text": "牠就像一個淘氣的孩子，貪玩又可愛。",
+            "textSimplified": "牠就像一个淘气的孩子，贪玩又可爱。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 14256,
+            "endMs": 19656,
+            "text": "嘟嘟的毛黑黑的，眼睛像兩顆黑珍珠一樣明亮。",
+            "textSimplified": "嘟嘟的毛黑黑的，眼睛像两颗黑珍珠一样明亮。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 19656,
+            "endMs": 25896,
+            "text": "我和嘟嘟相處得很好，牠陪我玩耍，是我的好夥伴。",
+            "textSimplified": "我和嘟嘟相处得很好，牠陪我玩耍，是我的好伙伴。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 25896,
+            "endMs": 38352,
+            "text": "每天早上，我揹着書包準備出門，牠就會在我身邊轉個不停，好像在說：『小主人，別走，別走，再跟我玩一會兒！』",
+            "textSimplified": "每天早上，我揹着书包准备出门，牠就会在我身边转个不停，好像在说：『小主人，别走，别走，再跟我玩一会儿！』"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 38352,
+            "endMs": 44928,
+            "text": "每次放學回家，牠便已經早早地在門口搖着尾巴迎接我。",
+            "textSimplified": "每次放学回家，牠便已经早早地在门口摇着尾巴迎接我。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 44928,
+            "endMs": 52728,
+            "text": "嘟嘟愛喫的食物有火腿、魚丸、雞肉等，但牠最喜歡喫的要數骨頭了。",
+            "textSimplified": "嘟嘟爱吃的食物有火腿、鱼丸、鸡肉等，但牠最喜欢吃的要数骨头了。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 52728,
+            "endMs": 56400,
+            "text": "有一天，媽媽做了排骨湯。",
+            "textSimplified": "有一天，妈妈做了排骨汤。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 56400,
+            "endMs": 71256,
+            "text": "開飯了，嘟嘟像是聞到了排骨的香味，立刻跑過來，可憐地望着我，好像在說：『小主人，求求你給我一塊骨頭喫吧，瞧我的口水都流出來了。』",
+            "textSimplified": "开饭了，嘟嘟像是闻到了排骨的香味，立刻跑过来，可怜地望着我，好像在说：『小主人，求求你给我一块骨头吃吧，瞧我的口水都流出来了。』"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 71256,
+            "endMs": 78504,
+            "text": "我夾起一塊骨頭放到牠的食盆裏，牠立刻低着頭津津有味地啃起來。",
+            "textSimplified": "我夹起一块骨头放到牠的食盆里，牠立刻低着头津津有味地啃起来。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 78504,
+            "endMs": 83448,
+            "text": "不一會兒，嘟嘟就把一塊大骨頭消滅了。",
+            "textSimplified": "不一会儿，嘟嘟就把一块大骨头消灭了。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 83448,
+            "endMs": 89160,
+            "text": "只見牠舔舔嘴巴，好像還在回味剛才的美味呢。",
+            "textSimplified": "只见牠舔舔嘴巴，好像还在回味刚才的美味呢。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 89160,
+            "endMs": 98712,
+            "text": "然後，牠又用尾巴蹭了蹭我的褲腿，彷彿在說：『小主人，再給我一塊骨頭吧，好嗎？』",
+            "textSimplified": "然后，牠又用尾巴蹭了蹭我的裤腿，仿佛在说：『小主人，再给我一块骨头吧，好吗？』"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 98712,
+            "endMs": 104328,
+            "text": "看着牠那饞樣，我心想：這小傢伙可真貪喫。",
+            "textSimplified": "看着牠那馋样，我心想：这小家伙可真贪吃。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 104328,
+            "endMs": 112896,
+            "text": "要是牠見到了熟人，就會使勁地搖着牠的小尾巴，圍着你轉來轉去，表示友好。",
+            "textSimplified": "要是牠见到了熟人，就会使劲地摇着牠的小尾巴，围着你转来转去，表示友好。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 112896,
+            "endMs": 121776,
+            "text": "要是見到陌生人，牠可就沒那麼溫順了，立刻發出『汪汪』的叫聲，隨時保持高度警惕。",
+            "textSimplified": "要是见到陌生人，牠可就没那么温顺了，立刻发出『汪汪』的叫声，随时保持高度警惕。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 121776,
+            "endMs": 128088,
+            "text": "這就是我家的小狗嘟嘟——一隻貪玩、貪喫又可愛的小狗。",
+            "textSimplified": "这就是我家的小狗嘟嘟——一只贪玩、贪吃又可爱的小狗。"
+          }
+        ]
+      }
+    }
+  ]
+}

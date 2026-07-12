@@ -1,0 +1,603 @@
+{
+  "bookId": "03",
+  "chapterId": "09",
+  "chapterTitle": "可愛的金魚",
+  "chapterTitleSimplified": "可爱的金鱼",
+  "passages": [
+    "二下 ：可愛的金魚（第三十六頁） 我家的魚缸裏，有阿姨送我的幾條美麗的金魚，有紅色的、黑色的、金色的⋯⋯你看，牠們搖着尾巴在水中游來游去，就像是美麗的仙女一樣。 我最喜歡那條金色的，牠的樣子十分可愛，一雙圓溜溜的大眼睛鑲嵌在頭的兩側，張開的小嘴就像大大的字母『O』。最引人注目的是那條金色的尾巴，就像妹妹穿着芭蕾舞裙一樣，漂亮極了。 金魚喫東西的時候很有趣。每當我把食物放進去，牠們就『刷』地一下子游過來，爭先恐後地展開奪食大戰。 瞧，小黑第一個搶到了食物，那樣子可真得意。其他金魚也不甘示弱，紛紛加入了搶食的隊伍，牠們一個個好像餓了一整天似的。金魚們紛紛搶到了食物，不一會兒，就喫得飽飽的。喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。最膽小的小紅帽緊貼在缸底，小嘴一張一合，眼睛直直地盯着我，好像在對我說：『主人，快救救我吧！』牠那驚慌失措的樣子把我逗得哈哈大笑。 這些可愛的金魚就像一道亮麗的風景線，把我家的生活點綴得更加美麗。"
+  ],
+  "passagesSimplified": [
+    "二下 ：可爱的金鱼（第三十六页） 我家的鱼缸里，有阿姨送我的几条美丽的金鱼，有红色的、黑色的、金色的⋯⋯你看，牠们摇着尾巴在水中游来游去，就像是美丽的仙女一样。 我最喜欢那条金色的，牠的样子十分可爱，一双圆溜溜的大眼睛镶嵌在头的两侧，张开的小嘴就像大大的字母『O』。最引人注目的是那条金色的尾巴，就像妹妹穿着芭蕾舞裙一样，漂亮极了。 金鱼吃东西的时候很有趣。每当我把食物放进去，牠们就『刷』地一下子游过来，争先恐后地展开夺食大战。 瞧，小黑第一个抢到了食物，那样子可真得意。其他金鱼也不甘示弱，纷纷加入了抢食的队伍，牠们一个个好像饿了一整天似的。金鱼们纷纷抢到了食物，不一会儿，就吃得饱饱的。吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。最胆小的小红帽紧贴在缸底，小嘴一张一合，眼睛直直地盯着我，好像在对我说：『主人，快救救我吧！』牠那惊慌失措的样子把我逗得哈哈大笑。 这些可爱的金鱼就像一道亮丽的风景线，把我家的生活点缀得更加美丽。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch09_w001",
+      "traditional": "魚缸",
+      "simplified": "鱼缸",
+      "english": "fish tank / aquarium",
+      "pinyin": "yú gāng",
+      "contextSentence": "二下 ：可愛的金魚（第三十六頁） 我家的魚缸裏，有阿姨送我的幾條美麗的金魚，有紅色的、黑色的、金色的⋯⋯你看，牠們搖着尾巴在水中游來游去，就像是美麗的仙女一樣。",
+      "contextSentenceSimplified": "二下 ：可爱的金鱼（第三十六页） 我家的鱼缸里，有阿姨送我的几条美丽的金鱼，有红色的、黑色的、金色的⋯⋯你看，牠们摇着尾巴在水中游来游去，就像是美丽的仙女一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w002",
+      "traditional": "鑲嵌",
+      "simplified": "镶嵌",
+      "english": "to inlay / embed /镶嵌",
+      "pinyin": "xiāng qiàn",
+      "contextSentence": "我最喜歡那條金色的，牠的樣子十分可愛，一雙圓溜溜的大眼睛鑲嵌在頭的兩側，張開的小嘴就像大大的字母『O』。",
+      "contextSentenceSimplified": "我最喜欢那条金色的，牠的样子十分可爱，一双圆溜溜的大眼睛镶嵌在头的两侧，张开的小嘴就像大大的字母『O』。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w003",
+      "traditional": "引人注目",
+      "simplified": "引人注目",
+      "english": "attract attention / eye-catching",
+      "pinyin": "yǐn rén zhù mù",
+      "contextSentence": "最引人注目的是那條金色的尾巴，就像妹妹穿着芭蕾舞裙一樣，漂亮極了。",
+      "contextSentenceSimplified": "最引人注目的是那条金色的尾巴，就像妹妹穿着芭蕾舞裙一样，漂亮极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w004",
+      "traditional": "芭蕾舞裙",
+      "simplified": "芭蕾舞裙",
+      "english": "ballet skirt / tutu",
+      "pinyin": "bā lěi wǔ qún",
+      "contextSentence": "最引人注目的是那條金色的尾巴，就像妹妹穿着芭蕾舞裙一樣，漂亮極了。",
+      "contextSentenceSimplified": "最引人注目的是那条金色的尾巴，就像妹妹穿着芭蕾舞裙一样，漂亮极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w005",
+      "traditional": "爭先恐後",
+      "simplified": "争先恐后",
+      "english": "vie for priority / rush forward",
+      "pinyin": "zhēng xiān kǒng hòu",
+      "contextSentence": "每當我把食物放進去，牠們就『刷』地一下子游過來，爭先恐後地展開奪食大戰。",
+      "contextSentenceSimplified": "每当我把食物放进去，牠们就『刷』地一下子游过来，争先恐后地展开夺食大战。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w006",
+      "traditional": "奪食大戰",
+      "simplified": "夺食大战",
+      "english": "battle for food / food抢夺 war",
+      "pinyin": "duó shí dà zhàn",
+      "contextSentence": "每當我把食物放進去，牠們就『刷』地一下子游過來，爭先恐後地展開奪食大戰。",
+      "contextSentenceSimplified": "每当我把食物放进去，牠们就『刷』地一下子游过来，争先恐后地展开夺食大战。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w007",
+      "traditional": "不甘示弱",
+      "simplified": "不甘示弱",
+      "english": "unwilling to show weakness / refuse to be inferior",
+      "pinyin": "bù gān shì ruò",
+      "contextSentence": "其他金魚也不甘示弱，紛紛加入了搶食的隊伍，牠們一個個好像餓了一整天似的。",
+      "contextSentenceSimplified": "其他金鱼也不甘示弱，纷纷加入了抢食的队伍，牠们一个个好像饿了一整天似的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w008",
+      "traditional": "搶食",
+      "simplified": "抢食",
+      "english": "to抢 food / snatch food",
+      "pinyin": "qiǎng shí",
+      "contextSentence": "其他金魚也不甘示弱，紛紛加入了搶食的隊伍，牠們一個個好像餓了一整天似的。",
+      "contextSentenceSimplified": "其他金鱼也不甘示弱，纷纷加入了抢食的队伍，牠们一个个好像饿了一整天似的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w009",
+      "traditional": "喫飽喝足",
+      "simplified": "吃饱喝足",
+      "english": "full of food and drink / well-fed",
+      "pinyin": "chī bǎo hē zú",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w010",
+      "traditional": "吐",
+      "simplified": "吐",
+      "english": "to spit / to vomit",
+      "pinyin": "tǔ",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w011",
+      "traditional": "追逐",
+      "simplified": "追逐",
+      "english": "to chase / pursue",
+      "pinyin": "zhuī zhú",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w012",
+      "traditional": "閉目養神",
+      "simplified": "闭目养神",
+      "english": "close eyes to rest",
+      "pinyin": "bì mù yǎng shén",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w013",
+      "traditional": "硬幣",
+      "simplified": "硬币",
+      "english": "coin",
+      "pinyin": "yìng bì",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w014",
+      "traditional": "濺起",
+      "simplified": "溅起",
+      "english": "splash up / spatter",
+      "pinyin": "jiàn qǐ",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w015",
+      "traditional": "不知所措",
+      "simplified": "不知所措",
+      "english": "at a loss / don't know what to do",
+      "pinyin": "bù zhī suǒ cuò",
+      "contextSentence": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+      "contextSentenceSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w016",
+      "traditional": "緊貼",
+      "simplified": "紧贴",
+      "english": "stick closely /紧贴",
+      "pinyin": "jǐn tiē",
+      "contextSentence": "最膽小的小紅帽緊貼在缸底，小嘴一張一合，眼睛直直地盯着我，好像在對我說：『主人，快救救我吧！",
+      "contextSentenceSimplified": "最胆小的小红帽紧贴在缸底，小嘴一张一合，眼睛直直地盯着我，好像在对我说：『主人，快救救我吧！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w017",
+      "traditional": "驚慌失措",
+      "simplified": "惊慌失措",
+      "english": "panic / lose one's head",
+      "pinyin": "jīng huāng shī cuò",
+      "contextSentence": "牠那驚慌失措的樣子把我逗得哈哈大笑。",
+      "contextSentenceSimplified": "牠那惊慌失措的样子把我逗得哈哈大笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w018",
+      "traditional": "亮麗",
+      "simplified": "亮丽",
+      "english": "bright and beautiful / brilliant",
+      "pinyin": "liàng lì",
+      "contextSentence": "這些可愛的金魚就像一道亮麗的風景線，把我家的生活點綴得更加美麗。",
+      "contextSentenceSimplified": "这些可爱的金鱼就像一道亮丽的风景线，把我家的生活点缀得更加美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w019",
+      "traditional": "風景線",
+      "simplified": "风景线",
+      "english": "scenic line /风景线",
+      "pinyin": "fēng jǐng xiàn",
+      "contextSentence": "這些可愛的金魚就像一道亮麗的風景線，把我家的生活點綴得更加美麗。",
+      "contextSentenceSimplified": "这些可爱的金鱼就像一道亮丽的风景线，把我家的生活点缀得更加美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch09_w020",
+      "traditional": "點綴",
+      "simplified": "点缀",
+      "english": "decorate",
+      "pinyin": "diǎn zhuì",
+      "contextSentence": "這些可愛的金魚就像一道亮麗的風景線，把我家的生活點綴得更加美麗。",
+      "contextSentenceSimplified": "这些可爱的金鱼就像一道亮丽的风景线，把我家的生活点缀得更加美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter09/b03_ch09_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter09/b03_ch09_w020_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter09/b03_ch09_p01_m.mp3",
+        "durationMs": 108360,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 17208,
+            "text": "二下 ：可愛的金魚（第三十六頁） 我家的魚缸裏，有阿姨送我的幾條美麗的金魚，有紅色的、黑色的、金色的⋯⋯你看，牠們搖着尾巴在水中游來游去，就像是美麗的仙女一樣。",
+            "textSimplified": "二下 ：可爱的金鱼（第三十六页） 我家的鱼缸里，有阿姨送我的几条美丽的金鱼，有红色的、黑色的、金色的⋯⋯你看，牠们摇着尾巴在水中游来游去，就像是美丽的仙女一样。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 17208,
+            "endMs": 28800,
+            "text": "我最喜歡那條金色的，牠的樣子十分可愛，一雙圓溜溜的大眼睛鑲嵌在頭的兩側，張開的小嘴就像大大的字母『O』。",
+            "textSimplified": "我最喜欢那条金色的，牠的样子十分可爱，一双圆溜溜的大眼睛镶嵌在头的两侧，张开的小嘴就像大大的字母『O』。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 28800,
+            "endMs": 36696,
+            "text": "最引人注目的是那條金色的尾巴，就像妹妹穿着芭蕾舞裙一樣，漂亮極了。",
+            "textSimplified": "最引人注目的是那条金色的尾巴，就像妹妹穿着芭蕾舞裙一样，漂亮极了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 36696,
+            "endMs": 39960,
+            "text": "金魚喫東西的時候很有趣。",
+            "textSimplified": "金鱼吃东西的时候很有趣。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 39960,
+            "endMs": 47760,
+            "text": "每當我把食物放進去，牠們就『刷』地一下子游過來，爭先恐後地展開奪食大戰。",
+            "textSimplified": "每当我把食物放进去，牠们就『刷』地一下子游过来，争先恐后地展开夺食大战。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 47760,
+            "endMs": 53088,
+            "text": "瞧，小黑第一個搶到了食物，那樣子可真得意。",
+            "textSimplified": "瞧，小黑第一个抢到了食物，那样子可真得意。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 53088,
+            "endMs": 61128,
+            "text": "其他金魚也不甘示弱，紛紛加入了搶食的隊伍，牠們一個個好像餓了一整天似的。",
+            "textSimplified": "其他金鱼也不甘示弱，纷纷加入了抢食的队伍，牠们一个个好像饿了一整天似的。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 61128,
+            "endMs": 66336,
+            "text": "金魚們紛紛搶到了食物，不一會兒，就喫得飽飽的。",
+            "textSimplified": "金鱼们纷纷抢到了食物，不一会儿，就吃得饱饱的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 66336,
+            "endMs": 85608,
+            "text": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+            "textSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 85608,
+            "endMs": 96192,
+            "text": "最膽小的小紅帽緊貼在缸底，小嘴一張一合，眼睛直直地盯着我，好像在對我說：『主人，快救救我吧！』",
+            "textSimplified": "最胆小的小红帽紧贴在缸底，小嘴一张一合，眼睛直直地盯着我，好像在对我说：『主人，快救救我吧！』"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 96192,
+            "endMs": 100704,
+            "text": "牠那驚慌失措的樣子把我逗得哈哈大笑。",
+            "textSimplified": "牠那惊慌失措的样子把我逗得哈哈大笑。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 100704,
+            "endMs": 108360,
+            "text": "這些可愛的金魚就像一道亮麗的風景線，把我家的生活點綴得更加美麗。",
+            "textSimplified": "这些可爱的金鱼就像一道亮丽的风景线，把我家的生活点缀得更加美丽。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter09/b03_ch09_p01_c.mp3",
+        "durationMs": 111168,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 16512,
+            "text": "二下 ：可愛的金魚（第三十六頁） 我家的魚缸裏，有阿姨送我的幾條美麗的金魚，有紅色的、黑色的、金色的⋯⋯你看，牠們搖着尾巴在水中游來游去，就像是美麗的仙女一樣。",
+            "textSimplified": "二下 ：可爱的金鱼（第三十六页） 我家的鱼缸里，有阿姨送我的几条美丽的金鱼，有红色的、黑色的、金色的⋯⋯你看，牠们摇着尾巴在水中游来游去，就像是美丽的仙女一样。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 16512,
+            "endMs": 28584,
+            "text": "我最喜歡那條金色的，牠的樣子十分可愛，一雙圓溜溜的大眼睛鑲嵌在頭的兩側，張開的小嘴就像大大的字母『O』。",
+            "textSimplified": "我最喜欢那条金色的，牠的样子十分可爱，一双圆溜溜的大眼睛镶嵌在头的两侧，张开的小嘴就像大大的字母『O』。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 28584,
+            "endMs": 36720,
+            "text": "最引人注目的是那條金色的尾巴，就像妹妹穿着芭蕾舞裙一樣，漂亮極了。",
+            "textSimplified": "最引人注目的是那条金色的尾巴，就像妹妹穿着芭蕾舞裙一样，漂亮极了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 36720,
+            "endMs": 40320,
+            "text": "金魚喫東西的時候很有趣。",
+            "textSimplified": "金鱼吃东西的时候很有趣。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 40320,
+            "endMs": 48792,
+            "text": "每當我把食物放進去，牠們就『刷』地一下子游過來，爭先恐後地展開奪食大戰。",
+            "textSimplified": "每当我把食物放进去，牠们就『刷』地一下子游过来，争先恐后地展开夺食大战。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 48792,
+            "endMs": 54480,
+            "text": "瞧，小黑第一個搶到了食物，那樣子可真得意。",
+            "textSimplified": "瞧，小黑第一个抢到了食物，那样子可真得意。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 54480,
+            "endMs": 62736,
+            "text": "其他金魚也不甘示弱，紛紛加入了搶食的隊伍，牠們一個個好像餓了一整天似的。",
+            "textSimplified": "其他金鱼也不甘示弱，纷纷加入了抢食的队伍，牠们一个个好像饿了一整天似的。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 62736,
+            "endMs": 68568,
+            "text": "金魚們紛紛搶到了食物，不一會兒，就喫得飽飽的。",
+            "textSimplified": "金鱼们纷纷抢到了食物，不一会儿，就吃得饱饱的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 68568,
+            "endMs": 87360,
+            "text": "喫飽喝足後，有的頑皮地吐着泡泡，有的互相追逐嬉戲，還有的則靜靜地躺在水底閉目養神⋯⋯ 有一次，我不小心把硬幣掉進了魚缸裏，『咚』的一聲，硬幣濺起朵朵水花，金魚們頓時被嚇得不知所措。",
+            "textSimplified": "吃饱喝足后，有的顽皮地吐着泡泡，有的互相追逐嬉戏，还有的则静静地躺在水底闭目养神⋯⋯ 有一次，我不小心把硬币掉进了鱼缸里，『咚』的一声，硬币溅起朵朵水花，金鱼们顿时被吓得不知所措。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 87360,
+            "endMs": 98424,
+            "text": "最膽小的小紅帽緊貼在缸底，小嘴一張一合，眼睛直直地盯着我，好像在對我說：『主人，快救救我吧！』",
+            "textSimplified": "最胆小的小红帽紧贴在缸底，小嘴一张一合，眼睛直直地盯着我，好像在对我说：『主人，快救救我吧！』"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 98424,
+            "endMs": 103536,
+            "text": "牠那驚慌失措的樣子把我逗得哈哈大笑。",
+            "textSimplified": "牠那惊慌失措的样子把我逗得哈哈大笑。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 103536,
+            "endMs": 111168,
+            "text": "這些可愛的金魚就像一道亮麗的風景線，把我家的生活點綴得更加美麗。",
+            "textSimplified": "这些可爱的金鱼就像一道亮丽的风景线，把我家的生活点缀得更加美丽。"
+          }
+        ]
+      }
+    }
+  ]
+}

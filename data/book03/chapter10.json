@@ -1,0 +1,866 @@
+{
+  "bookId": "03",
+  "chapterId": "10",
+  "chapterTitle": "小瓷馬",
+  "chapterTitleSimplified": "小瓷马",
+  "passages": [
+    "二下 ：小瓷馬（第三十八頁） 在我的書桌上，有一對小瓷馬。它們是爸爸去江西景德鎮旅遊時給我帶回來的禮物。 這對小瓷馬長約15釐米，高約8釐米。左邊的小馬是一匹棗紅色的戰馬，它的頭昂得高高的，雙眼目視前方，鬃毛像被風颳得飛了起來，尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。 看着它，我立刻想到了關羽的坐騎——赤兔馬，於是也給它取了這個名字。右邊的小馬是白色的，黑寶石般的眼睛讓它看起來十分高貴，我給它取了個名字叫白龍馬，它後腿着地，前腿凌空，好像一個要出征戰場的勇士一樣。嘴微微張開，像是要發出嘶鳴，又好像在呼喚旁邊的同伴。 爸爸告訴我，這對小瓷馬象徵着積極向上的精神，他希望我也能像馬一樣頑強奮鬥。 從此，我對這份禮物有了新的認識。它們天天在書桌上陪伴我學習。每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！』它們時刻提醒着我，遇到困難要勇往直前，不能後退。 我非常喜歡這對小瓷馬，因為它們有着特殊的意義。"
+  ],
+  "passagesSimplified": [
+    "二下 ：小瓷马（第三十八页） 在我的书桌上，有一对小瓷马。它们是爸爸去江西景德镇旅游时给我带回来的礼物。 这对小瓷马长约15厘米，高约8厘米。左边的小马是一匹枣红色的战马，它的头昂得高高的，双眼目视前方，鬃毛像被风刮得飞了起来，尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。 看着它，我立刻想到了关羽的坐骑——赤兔马，于是也给它取了这个名字。右边的小马是白色的，黑宝石般的眼睛让它看起来十分高贵，我给它取了个名字叫白龙马，它后腿着地，前腿凌空，好像一个要出征战场的勇士一样。嘴微微张开，像是要发出嘶鸣，又好像在呼唤旁边的同伴。 爸爸告诉我，这对小瓷马象征着积极向上的精神，他希望我也能像马一样顽强奋斗。 从此，我对这份礼物有了新的认识。它们天天在书桌上陪伴我学习。每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！』它们时刻提醒着我，遇到困难要勇往直前，不能后退。 我非常喜欢这对小瓷马，因为它们有着特殊的意义。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch10_w001",
+      "traditional": "瓷馬",
+      "simplified": "瓷马",
+      "english": "porcelain horse",
+      "pinyin": "cí mǎ",
+      "contextSentence": "在我的書桌上，有一對小瓷馬。",
+      "contextSentenceSimplified": "在我的书桌上，有一对小瓷马。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w002",
+      "traditional": "景德鎮",
+      "simplified": "景德镇",
+      "english": "Jingdezhen (famous for ceramics)",
+      "pinyin": "jǐng dé zhèn",
+      "contextSentence": "它們是爸爸去江西景德鎮旅遊時給我帶回來的禮物。",
+      "contextSentenceSimplified": "它们是爸爸去江西景德镇旅游时给我带回来的礼物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w003",
+      "traditional": "釐米",
+      "simplified": "厘米",
+      "english": "centimeter",
+      "pinyin": "lí mǐ",
+      "contextSentence": "這對小瓷馬長約15釐米，高約8釐米。",
+      "contextSentenceSimplified": "这对小瓷马长约15厘米，高约8厘米。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w004",
+      "traditional": "棗紅色",
+      "simplified": "枣红色",
+      "english": "jujube red / dark reddish-brown",
+      "pinyin": "zǎo hóng sè",
+      "contextSentence": "左邊的小馬是一匹棗紅色的戰馬，它的頭昂得高高的…",
+      "contextSentenceSimplified": "左边的小马是一匹枣红色的战马，它的头昂得高高的…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w005",
+      "traditional": "戰馬",
+      "simplified": "战马",
+      "english": "warhorse",
+      "pinyin": "zhàn mǎ",
+      "contextSentence": "左邊的小馬是一匹棗紅色的戰馬，它的頭昂得高高的…",
+      "contextSentenceSimplified": "左边的小马是一匹枣红色的战马，它的头昂得高高的…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w006",
+      "traditional": "昂",
+      "simplified": "昂",
+      "english": "to raise head / high-priced",
+      "pinyin": "áng",
+      "contextSentence": "左邊的小馬是一匹棗紅色的戰馬，它的頭昂得高高的…",
+      "contextSentenceSimplified": "左边的小马是一匹枣红色的战马，它的头昂得高高的…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w007",
+      "traditional": "目視前方",
+      "simplified": "目视前方",
+      "english": "look straight ahead",
+      "pinyin": "mù shì qián fāng",
+      "contextSentence": "它的頭昂得高高的，雙眼目視前方，鬃毛像被風颳得飛了起來…",
+      "contextSentenceSimplified": "它的头昂得高高的，双眼目视前方，鬃毛像被风刮得飞了起来…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w008",
+      "traditional": "鬃毛",
+      "simplified": "鬃毛",
+      "english": "mane (horse's)",
+      "pinyin": "zōng máo",
+      "contextSentence": "它的頭昂得高高的，雙眼目視前方，鬃毛像被風颳得飛了起來…",
+      "contextSentenceSimplified": "它的头昂得高高的，双眼目视前方，鬃毛像被风刮得飞了起来…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w009",
+      "traditional": "颳",
+      "simplified": "刮",
+      "english": "刮 /刮风 / wind blows",
+      "pinyin": "guā",
+      "contextSentence": "雙眼目視前方，鬃毛像被風颳得飛了起來，尾稍呈『S』形，…",
+      "contextSentenceSimplified": "双眼目视前方，鬃毛像被风刮得飞了起来，尾稍呈『S』形，…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w010",
+      "traditional": "尾稍",
+      "simplified": "尾稍",
+      "english": "tail tip / end of tail",
+      "pinyin": "wěi shāo",
+      "contextSentence": "雙眼目視前方，鬃毛像被風颳得飛了起來，尾稍呈『S』形，…",
+      "contextSentenceSimplified": "双眼目视前方，鬃毛像被风刮得飞了起来，尾稍呈『S』形，…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w011",
+      "traditional": "呈",
+      "simplified": "呈",
+      "english": "to present / to show / appears",
+      "pinyin": "chéng",
+      "contextSentence": "雙眼目視前方，鬃毛像被風颳得飛了起來，尾稍呈『S』形，…",
+      "contextSentenceSimplified": "双眼目视前方，鬃毛像被风刮得飞了起来，尾稍呈『S』形，…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w012",
+      "traditional": "翹",
+      "simplified": "翘",
+      "english": "翘起 /翘 /翘起来",
+      "pinyin": "qiào",
+      "contextSentence": "尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。",
+      "contextSentenceSimplified": "尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w013",
+      "traditional": "前蹄",
+      "simplified": "前蹄",
+      "english": "front hooves / front legs (animal)",
+      "pinyin": "qián tí",
+      "contextSentence": "尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。",
+      "contextSentenceSimplified": "尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w014",
+      "traditional": "弓",
+      "simplified": "弓",
+      "english": "bow (weapon)",
+      "pinyin": "gōng",
+      "contextSentence": "尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。",
+      "contextSentenceSimplified": "尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w015",
+      "traditional": "仰天長嘯",
+      "simplified": "仰天长啸",
+      "english": "let out a long roar to the sky",
+      "pinyin": "yǎng tiān zhǎng xiào",
+      "contextSentence": "尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。",
+      "contextSentenceSimplified": "尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w016",
+      "traditional": "坐騎",
+      "simplified": "坐骑",
+      "english": "mount / riding animal",
+      "pinyin": "zuò qí",
+      "contextSentence": "看着它，我立刻想到了關羽的坐騎——赤兔馬，於是也給它取了這個名字。",
+      "contextSentenceSimplified": "看着它，我立刻想到了关羽的坐骑——赤兔马，于是也给它取了这个名字。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w017",
+      "traditional": "赤兔馬",
+      "simplified": "赤兔马",
+      "english": "Red Hare (famous horse)",
+      "pinyin": "chì tù mǎ",
+      "contextSentence": "看着它，我立刻想到了關羽的坐騎——赤兔馬，於是也給它取了這個名字。",
+      "contextSentenceSimplified": "看着它，我立刻想到了关羽的坐骑——赤兔马，于是也给它取了这个名字。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w018",
+      "traditional": "凌空",
+      "simplified": "凌空",
+      "english": "in mid-air / soaring",
+      "pinyin": "líng kōng",
+      "contextSentence": "右邊的小馬是白色的，黑寶石般的眼睛讓它看起來十分高貴，我給它取了個名字叫白龍馬，它後腿着地，前腿凌空，好像一個要出征戰場的勇士一樣。",
+      "contextSentenceSimplified": "右边的小马是白色的，黑宝石般的眼睛让它看起来十分高贵，我给它取了个名字叫白龙马，它后腿着地，前腿凌空，好像一个要出征战场的勇士一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w019",
+      "traditional": "出征",
+      "simplified": "出征",
+      "english": "to set out on a campaign / expedition",
+      "pinyin": "chū zhēng",
+      "contextSentence": "右邊的小馬是白色的，黑寶石般的眼睛讓它看起來十分高貴，我給它取了個名字叫白龍馬，它後腿着地，前腿凌空，好像一個要出征戰場的勇士一樣。",
+      "contextSentenceSimplified": "右边的小马是白色的，黑宝石般的眼睛让它看起来十分高贵，我给它取了个名字叫白龙马，它后腿着地，前腿凌空，好像一个要出征战场的勇士一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w020",
+      "traditional": "勇士",
+      "simplified": "勇士",
+      "english": "warrior / brave person",
+      "pinyin": "yǒng shì",
+      "contextSentence": "右邊的小馬是白色的，黑寶石般的眼睛讓它看起來十分高貴，我給它取了個名字叫白龍馬，它後腿着地，前腿凌空，好像一個要出征戰場的勇士一樣。",
+      "contextSentenceSimplified": "右边的小马是白色的，黑宝石般的眼睛让它看起来十分高贵，我给它取了个名字叫白龙马，它后腿着地，前腿凌空，好像一个要出征战场的勇士一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w021",
+      "traditional": "嘶鳴",
+      "simplified": "嘶鸣",
+      "english": "neigh (horse's sound)",
+      "pinyin": "sī míng",
+      "contextSentence": "嘴微微張開，像是要發出嘶鳴，又好像在呼喚旁邊的同伴。",
+      "contextSentenceSimplified": "嘴微微张开，像是要发出嘶鸣，又好像在呼唤旁边的同伴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w022",
+      "traditional": "呼喚",
+      "simplified": "呼唤",
+      "english": "to call out / to summon",
+      "pinyin": "hū huàn",
+      "contextSentence": "嘴微微張開，像是要發出嘶鳴，又好像在呼喚旁邊的同伴。",
+      "contextSentenceSimplified": "嘴微微张开，像是要发出嘶鸣，又好像在呼唤旁边的同伴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w023",
+      "traditional": "象徵",
+      "simplified": "象征",
+      "english": "symbolize",
+      "pinyin": "xiàng zhēng",
+      "contextSentence": "爸爸告訴我，這對小瓷馬象徵着積極向上的精神，他希望我也能像馬一樣頑強奮鬥。",
+      "contextSentenceSimplified": "爸爸告诉我，这对小瓷马象征着积极向上的精神，他希望我也能像马一样顽强奋斗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w024",
+      "traditional": "積極向上",
+      "simplified": "积极向上",
+      "english": "positive and upward",
+      "pinyin": "jī jí xiàng shàng",
+      "contextSentence": "爸爸告訴我，這對小瓷馬象徵着積極向上的精神，他希望我也能像馬一樣頑強奮鬥。",
+      "contextSentenceSimplified": "爸爸告诉我，这对小瓷马象征着积极向上的精神，他希望我也能像马一样顽强奋斗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w025",
+      "traditional": "頑強奮鬥",
+      "simplified": "顽强奋斗",
+      "english": "persevere and struggle",
+      "pinyin": "wán qiáng fèn dòu",
+      "contextSentence": "爸爸告訴我，這對小瓷馬象徵着積極向上的精神，他希望我也能像馬一樣頑強奮鬥。",
+      "contextSentenceSimplified": "爸爸告诉我，这对小瓷马象征着积极向上的精神，他希望我也能像马一样顽强奋斗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w026",
+      "traditional": "碰",
+      "simplified": "碰",
+      "english": "to touch / bump / encounter",
+      "pinyin": "pèng",
+      "contextSentence": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！",
+      "contextSentenceSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w027",
+      "traditional": "放棄",
+      "simplified": "放弃",
+      "english": "to give up / abandon",
+      "pinyin": "fàng qì",
+      "contextSentence": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！",
+      "contextSentenceSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w028",
+      "traditional": "飛馳",
+      "simplified": "飞驰",
+      "english": "gallop / speed / fly",
+      "pinyin": "fēi chí",
+      "contextSentence": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！",
+      "contextSentenceSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w029",
+      "traditional": "貪玩",
+      "simplified": "贪玩",
+      "english": "fond of play / playful",
+      "pinyin": "tān wán",
+      "contextSentence": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！",
+      "contextSentenceSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w030",
+      "traditional": "拼搏",
+      "simplified": "拼搏",
+      "english": "to fight / strive hard",
+      "pinyin": "pīn bó",
+      "contextSentence": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！",
+      "contextSentenceSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w031",
+      "traditional": "勇往直前",
+      "simplified": "勇往直前",
+      "english": "march forward courageously",
+      "pinyin": "yǒng wǎng zhí qián",
+      "contextSentence": "它們時刻提醒着我，遇到困難要勇往直前，不能後退。",
+      "contextSentenceSimplified": "它们时刻提醒着我，遇到困难要勇往直前，不能后退。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w031_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w031_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w031_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w032",
+      "traditional": "後退",
+      "simplified": "后退",
+      "english": "to move backward / retreat",
+      "pinyin": "hòu tuì",
+      "contextSentence": "它們時刻提醒着我，遇到困難要勇往直前，不能後退。",
+      "contextSentenceSimplified": "它们时刻提醒着我，遇到困难要勇往直前，不能后退。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w032_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w032_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w032_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w032_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch10_w033",
+      "traditional": "特殊",
+      "simplified": "特殊",
+      "english": "special / unusual / exceptional",
+      "pinyin": "tè shū",
+      "contextSentence": "我非常喜歡這對小瓷馬，因為它們有着特殊的意義。",
+      "contextSentenceSimplified": "我非常喜欢这对小瓷马，因为它们有着特殊的意义。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w033_m_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w033_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter10/b03_ch10_w033_c_isolated.mp3",
+          "sentence": "audio/book03/chapter10/b03_ch10_w033_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter10/b03_ch10_p01_m.mp3",
+        "durationMs": 107544,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 6432,
+            "text": "二下 ：小瓷馬（第三十八頁） 在我的書桌上，有一對小瓷馬。",
+            "textSimplified": "二下 ：小瓷马（第三十八页） 在我的书桌上，有一对小瓷马。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 6432,
+            "endMs": 11976,
+            "text": "它們是爸爸去江西景德鎮旅遊時給我帶回來的禮物。",
+            "textSimplified": "它们是爸爸去江西景德镇旅游时给我带回来的礼物。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 11976,
+            "endMs": 16680,
+            "text": "這對小瓷馬長約15釐米，高約8釐米。",
+            "textSimplified": "这对小瓷马长约15厘米，高约8厘米。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 16680,
+            "endMs": 35016,
+            "text": "左邊的小馬是一匹棗紅色的戰馬，它的頭昂得高高的，雙眼目視前方，鬃毛像被風颳得飛了起來，尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。",
+            "textSimplified": "左边的小马是一匹枣红色的战马，它的头昂得高高的，双眼目视前方，鬃毛像被风刮得飞了起来，尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35016,
+            "endMs": 42384,
+            "text": "看着它，我立刻想到了關羽的坐騎——赤兔馬，於是也給它取了這個名字。",
+            "textSimplified": "看着它，我立刻想到了关羽的坐骑——赤兔马，于是也给它取了这个名字。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 42384,
+            "endMs": 57408,
+            "text": "右邊的小馬是白色的，黑寶石般的眼睛讓它看起來十分高貴，我給它取了個名字叫白龍馬，它後腿着地，前腿凌空，好像一個要出征戰場的勇士一樣。",
+            "textSimplified": "右边的小马是白色的，黑宝石般的眼睛让它看起来十分高贵，我给它取了个名字叫白龙马，它后腿着地，前腿凌空，好像一个要出征战场的勇士一样。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 57408,
+            "endMs": 64128,
+            "text": "嘴微微張開，像是要發出嘶鳴，又好像在呼喚旁邊的同伴。",
+            "textSimplified": "嘴微微张开，像是要发出嘶鸣，又好像在呼唤旁边的同伴。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 64128,
+            "endMs": 72984,
+            "text": "爸爸告訴我，這對小瓷馬象徵着積極向上的精神，他希望我也能像馬一樣頑強奮鬥。",
+            "textSimplified": "爸爸告诉我，这对小瓷马象征着积极向上的精神，他希望我也能像马一样顽强奋斗。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 72984,
+            "endMs": 77256,
+            "text": "從此，我對這份禮物有了新的認識。",
+            "textSimplified": "从此，我对这份礼物有了新的认识。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 77256,
+            "endMs": 81000,
+            "text": "它們天天在書桌上陪伴我學習。",
+            "textSimplified": "它们天天在书桌上陪伴我学习。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 81000,
+            "endMs": 96336,
+            "text": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！』",
+            "textSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！』"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 96336,
+            "endMs": 102360,
+            "text": "它們時刻提醒着我，遇到困難要勇往直前，不能後退。",
+            "textSimplified": "它们时刻提醒着我，遇到困难要勇往直前，不能后退。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 102360,
+            "endMs": 107544,
+            "text": "我非常喜歡這對小瓷馬，因為它們有着特殊的意義。",
+            "textSimplified": "我非常喜欢这对小瓷马，因为它们有着特殊的意义。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter10/b03_ch10_p01_c.mp3",
+        "durationMs": 111672,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7128,
+            "text": "二下 ：小瓷馬（第三十八頁） 在我的書桌上，有一對小瓷馬。",
+            "textSimplified": "二下 ：小瓷马（第三十八页） 在我的书桌上，有一对小瓷马。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 7128,
+            "endMs": 12768,
+            "text": "它們是爸爸去江西景德鎮旅遊時給我帶回來的禮物。",
+            "textSimplified": "它们是爸爸去江西景德镇旅游时给我带回来的礼物。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 12768,
+            "endMs": 18000,
+            "text": "這對小瓷馬長約15釐米，高約8釐米。",
+            "textSimplified": "这对小瓷马长约15厘米，高约8厘米。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 18000,
+            "endMs": 35664,
+            "text": "左邊的小馬是一匹棗紅色的戰馬，它的頭昂得高高的，雙眼目視前方，鬃毛像被風颳得飛了起來，尾稍呈『S』形，擺在後腿旁，整個身體向上翹，前蹄向後弓，似乎在仰天長嘯。",
+            "textSimplified": "左边的小马是一匹枣红色的战马，它的头昂得高高的，双眼目视前方，鬃毛像被风刮得飞了起来，尾稍呈『S』形，摆在后腿旁，整个身体向上翘，前蹄向后弓，似乎在仰天长啸。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35664,
+            "endMs": 43704,
+            "text": "看着它，我立刻想到了關羽的坐騎——赤兔馬，於是也給它取了這個名字。",
+            "textSimplified": "看着它，我立刻想到了关羽的坐骑——赤兔马，于是也给它取了这个名字。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 43704,
+            "endMs": 58464,
+            "text": "右邊的小馬是白色的，黑寶石般的眼睛讓它看起來十分高貴，我給它取了個名字叫白龍馬，它後腿着地，前腿凌空，好像一個要出征戰場的勇士一樣。",
+            "textSimplified": "右边的小马是白色的，黑宝石般的眼睛让它看起来十分高贵，我给它取了个名字叫白龙马，它后腿着地，前腿凌空，好像一个要出征战场的勇士一样。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 58464,
+            "endMs": 65184,
+            "text": "嘴微微張開，像是要發出嘶鳴，又好像在呼喚旁邊的同伴。",
+            "textSimplified": "嘴微微张开，像是要发出嘶鸣，又好像在呼唤旁边的同伴。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 65184,
+            "endMs": 74232,
+            "text": "爸爸告訴我，這對小瓷馬象徵着積極向上的精神，他希望我也能像馬一樣頑強奮鬥。",
+            "textSimplified": "爸爸告诉我，这对小瓷马象征着积极向上的精神，他希望我也能像马一样顽强奋斗。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 74232,
+            "endMs": 78864,
+            "text": "從此，我對這份禮物有了新的認識。",
+            "textSimplified": "从此，我对这份礼物有了新的认识。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 78864,
+            "endMs": 82992,
+            "text": "它們天天在書桌上陪伴我學習。",
+            "textSimplified": "它们天天在书桌上陪伴我学习。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 82992,
+            "endMs": 99216,
+            "text": "每當我想偷懶，或者碰到難題想要放棄時，看到這對飛馳的小瓷馬，它們好像在說：『小主人，你可千萬別貪玩，也別放棄，你要像我們一樣，不 斷拼搏哦！』",
+            "textSimplified": "每当我想偷懒，或者碰到难题想要放弃时，看到这对飞驰的小瓷马，它们好像在说：『小主人，你可千万别贪玩，也别放弃，你要像我们一样，不 断拼搏哦！』"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 99216,
+            "endMs": 105600,
+            "text": "它們時刻提醒着我，遇到困難要勇往直前，不能後退。",
+            "textSimplified": "它们时刻提醒着我，遇到困难要勇往直前，不能后退。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 105600,
+            "endMs": 111672,
+            "text": "我非常喜歡這對小瓷馬，因為它們有着特殊的意義。",
+            "textSimplified": "我非常喜欢这对小瓷马，因为它们有着特殊的意义。"
+          }
+        ]
+      }
+    }
+  ]
+}

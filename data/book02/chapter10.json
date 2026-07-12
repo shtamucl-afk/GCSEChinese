@@ -1,0 +1,289 @@
+{
+  "bookId": "02",
+  "chapterId": "10",
+  "chapterTitle": "假如風有顏色",
+  "chapterTitleSimplified": "假如风有颜色",
+  "passages": [
+    "二上：假如風有顏色（第二十八頁）\n\n假如風有顏色， 春天的風一定是綠色的。 它吹綠了樹木， 為樹木穿上碧綠的新衣裳。 它吹綠了大地， 為大地鋪上一層綠油油的地毯。\n\n假如風有顏色， 秋天的風一定是金色的。 它吹黃了樹葉， 片片樹葉彷彿金色的蝴蝶在飛舞。 它吹黃了田野， 吹黃了一個金色的豐收年。\n\n假如風有顏色， 它一定會是五彩繽紛的。 看它把這世界點綴得多麼美麗， 多麼生動。"
+  ],
+  "passagesSimplified": [
+    "二上：假如风有颜色（第二十八页）\n\n假如风有颜色， 春天的风一定是绿色的。 它吹绿了树木， 为树木穿上碧绿的新衣裳。 它吹绿了大地， 为大地铺上一层绿油油的地毯。\n\n假如风有颜色， 秋天的风一定是金色的。 它吹黄了树叶， 片片树叶仿佛金色的蝴蝶在飞舞。 它吹黄了田野， 吹黄了一个金色的丰收年。\n\n假如风有颜色， 它一定会是五彩缤纷的。 看它把这世界点缀得多么美丽， 多么生动。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch10_w001",
+      "traditional": "碧綠",
+      "simplified": "碧绿",
+      "english": "emerald green",
+      "pinyin": "bì lǜ",
+      "contextSentence": "它吹綠了樹木， 為樹木穿上碧綠的新衣裳。",
+      "contextSentenceSimplified": "它吹绿了树木， 为树木穿上碧绿的新衣裳。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch10_w002",
+      "traditional": "為大地鋪上",
+      "simplified": "为大地铺上",
+      "english": "blanket the earth",
+      "pinyin": "wèi dà dì pù shàng",
+      "contextSentence": "它吹綠了大地， 為大地鋪上一層綠油油的地毯。",
+      "contextSentenceSimplified": "它吹绿了大地， 为大地铺上一层绿油油的地毯。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch10_w003",
+      "traditional": "田野",
+      "simplified": "田野",
+      "english": "fields",
+      "pinyin": "tián yě",
+      "contextSentence": "它吹黃了田野， 吹黃了一個金色的豐收年。",
+      "contextSentenceSimplified": "它吹黄了田野， 吹黄了一个金色的丰收年。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch10_w004",
+      "traditional": "豐收",
+      "simplified": "丰收",
+      "english": "bountiful harvest",
+      "pinyin": "fēng shōu",
+      "contextSentence": "它吹黃了田野， 吹黃了一個金色的豐收年。",
+      "contextSentenceSimplified": "它吹黄了田野， 吹黄了一个金色的丰收年。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch10_w005",
+      "traditional": "五彩繽紛",
+      "simplified": "五彩缤纷",
+      "english": "colorful and brilliant",
+      "pinyin": "wǔ cǎi bīn fēn",
+      "contextSentence": "假如風有顏色， 它一定會是五彩繽紛的。",
+      "contextSentenceSimplified": "假如风有颜色， 它一定会是五彩缤纷的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch10_w006",
+      "traditional": "點綴",
+      "simplified": "点缀",
+      "english": "decorate",
+      "pinyin": "diǎn zhuì",
+      "contextSentence": "看它把這世界點綴得多麼美麗， 多麼生動。",
+      "contextSentenceSimplified": "看它把这世界点缀得多么美丽， 多么生动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter10/b02_ch10_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter10/b02_ch10_w006_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter10/b02_ch10_p01_m.mp3",
+        "durationMs": 42648,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4248,
+            "text": "二上：假如風有顏色（第二十八頁）",
+            "textSimplified": "二上：假如风有颜色（第二十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4248,
+            "endMs": 8808,
+            "text": "假如風有顏色， 春天的風一定是綠色的。",
+            "textSimplified": "假如风有颜色， 春天的风一定是绿色的。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8808,
+            "endMs": 13560,
+            "text": "它吹綠了樹木， 為樹木穿上碧綠的新衣裳。",
+            "textSimplified": "它吹绿了树木， 为树木穿上碧绿的新衣裳。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 13560,
+            "endMs": 18648,
+            "text": "它吹綠了大地， 為大地鋪上一層綠油油的地毯。",
+            "textSimplified": "它吹绿了大地， 为大地铺上一层绿油油的地毯。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 18648,
+            "endMs": 23256,
+            "text": "假如風有顏色， 秋天的風一定是金色的。",
+            "textSimplified": "假如风有颜色， 秋天的风一定是金色的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 23256,
+            "endMs": 29064,
+            "text": "它吹黃了樹葉， 片片樹葉彷彿金色的蝴蝶在飛舞。",
+            "textSimplified": "它吹黄了树叶， 片片树叶仿佛金色的蝴蝶在飞舞。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 29064,
+            "endMs": 33672,
+            "text": "它吹黃了田野， 吹黃了一個金色的豐收年。",
+            "textSimplified": "它吹黄了田野， 吹黄了一个金色的丰收年。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 33672,
+            "endMs": 37992,
+            "text": "假如風有顏色， 它一定會是五彩繽紛的。",
+            "textSimplified": "假如风有颜色， 它一定会是五彩缤纷的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 37992,
+            "endMs": 42648,
+            "text": "看它把這世界點綴得多麼美麗， 多麼生動。",
+            "textSimplified": "看它把这世界点缀得多么美丽， 多么生动。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter10/b02_ch10_p01_c.mp3",
+        "durationMs": 45072,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4416,
+            "text": "二上：假如風有顏色（第二十八頁）",
+            "textSimplified": "二上：假如风有颜色（第二十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4416,
+            "endMs": 9168,
+            "text": "假如風有顏色， 春天的風一定是綠色的。",
+            "textSimplified": "假如风有颜色， 春天的风一定是绿色的。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9168,
+            "endMs": 14064,
+            "text": "它吹綠了樹木， 為樹木穿上碧綠的新衣裳。",
+            "textSimplified": "它吹绿了树木， 为树木穿上碧绿的新衣裳。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14064,
+            "endMs": 19608,
+            "text": "它吹綠了大地， 為大地鋪上一層綠油油的地毯。",
+            "textSimplified": "它吹绿了大地， 为大地铺上一层绿油油的地毯。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 19608,
+            "endMs": 24336,
+            "text": "假如風有顏色， 秋天的風一定是金色的。",
+            "textSimplified": "假如风有颜色， 秋天的风一定是金色的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 24336,
+            "endMs": 30024,
+            "text": "它吹黃了樹葉， 片片樹葉彷彿金色的蝴蝶在飛舞。",
+            "textSimplified": "它吹黄了树叶， 片片树叶仿佛金色的蝴蝶在飞舞。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 30024,
+            "endMs": 35088,
+            "text": "它吹黃了田野， 吹黃了一個金色的豐收年。",
+            "textSimplified": "它吹黄了田野， 吹黄了一个金色的丰收年。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 35088,
+            "endMs": 39960,
+            "text": "假如風有顏色， 它一定會是五彩繽紛的。",
+            "textSimplified": "假如风有颜色， 它一定会是五彩缤纷的。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 39960,
+            "endMs": 45072,
+            "text": "看它把這世界點綴得多麼美麗， 多麼生動。",
+            "textSimplified": "看它把这世界点缀得多么美丽， 多么生动。"
+          }
+        ]
+      }
+    }
+  ]
+}

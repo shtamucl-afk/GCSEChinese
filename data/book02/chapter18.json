@@ -1,0 +1,721 @@
+{
+  "bookId": "02",
+  "chapterId": "18",
+  "chapterTitle": "樂羊子的故事",
+  "chapterTitleSimplified": "乐羊子的故事",
+  "passages": [
+    "二上：樂羊子的故事（第四十八頁）\n\n古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。\n\n一天，妻子對樂羊子說：「你是個男子漢，要多學些有用的知識，天天在家裏開闊不了眼界，不如到遠方去找名師學習本領吧。」樂羊子聽了，決定去拜師求學。\n\n樂羊子才學了不到一年，就返回了家鄉。他踏入家門的時候，妻子正在織布。妻子見樂羊子突然回家，疑惑地問：「你怎麼突然回來了？」樂羊子說：「因為我太想家了。」妻子聽了他的話，非常生氣，她抓起剪刀，快步走到織布機前把織了一大半的布剪斷了。樂羊子驚訝地問妻子為什麼要剪斷織好的布。妻子回答說：「這匹布我日日夜夜不停地織呀織呀，它才一絲一縷地積累起來。現在我把它剪斷了，以前的辛苦都白費了。學習也是一樣的道理，要一點一滴地積累才能成功。你現在半途而廢和我剪斷布不是一樣可惜嗎？」\n\n樂羊子聽了很羞愧，便再次出發去求學。七年後，他終於完成學業，返回了家鄉。\n樂羊子的故事告訴我們學習要持之以恆，我們應該磨煉自己的意志，不懈地努力。"
+  ],
+  "passagesSimplified": [
+    "二上：乐羊子的故事（第四十八页）\n\n古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。\n\n一天，妻子对乐羊子说：「你是个男子汉，要多学些有用的知识，天天在家里开阔不了眼界，不如到远方去找名师学习本领吧。」乐羊子听了，决定去拜师求学。\n\n乐羊子才学了不到一年，就返回了家乡。他踏入家门的时候，妻子正在织布。妻子见乐羊子突然回家，疑惑地问：「你怎么突然回来了？」乐羊子说：「因为我太想家了。」妻子听了他的话，非常生气，她抓起剪刀，快步走到织布机前把织了一大半的布剪断了。乐羊子惊讶地问妻子为什么要剪断织好的布。妻子回答说：「这匹布我日日夜夜不停地织呀织呀，它才一丝一缕地积累起来。现在我把它剪断了，以前的辛苦都白费了。学习也是一样的道理，要一点一滴地积累才能成功。你现在半途而废和我剪断布不是一样可惜吗？」\n\n乐羊子听了很羞愧，便再次出发去求学。七年后，他终于完成学业，返回了家乡。\n乐羊子的故事告诉我们学习要持之以恒，我们应该磨炼自己的意志，不懈地努力。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch18_w001",
+      "traditional": "娶了",
+      "simplified": "娶了",
+      "english": "married (Groom 娶了 bride)",
+      "pinyin": "qǔ le",
+      "contextSentence": "古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。",
+      "contextSentenceSimplified": "古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w002",
+      "traditional": "勤勞",
+      "simplified": "勤劳",
+      "english": "diligent",
+      "pinyin": "qín láo",
+      "contextSentence": "古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。",
+      "contextSentenceSimplified": "古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w003",
+      "traditional": "賢慧",
+      "simplified": "贤慧",
+      "english": "virtuous",
+      "pinyin": "xián huì",
+      "contextSentence": "古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。",
+      "contextSentenceSimplified": "古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w004",
+      "traditional": "妻子",
+      "simplified": "妻子",
+      "english": "wife",
+      "pinyin": "qī zǐ",
+      "contextSentence": "古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。",
+      "contextSentenceSimplified": "古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w005",
+      "traditional": "開闊",
+      "simplified": "开阔",
+      "english": "open",
+      "pinyin": "kāi kuò",
+      "contextSentence": "一天，妻子對樂羊子說：「你是個男子漢，要多學些有用的知識，天天在家裏開闊不了眼界，不如到遠方去找名師學習本領吧。",
+      "contextSentenceSimplified": "一天，妻子对乐羊子说：「你是个男子汉，要多学些有用的知识，天天在家里开阔不了眼界，不如到远方去找名师学习本领吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w006",
+      "traditional": "眼界",
+      "simplified": "眼界",
+      "english": "horizon",
+      "pinyin": "yǎn jiè",
+      "contextSentence": "一天，妻子對樂羊子說：「你是個男子漢，要多學些有用的知識，天天在家裏開闊不了眼界，不如到遠方去找名師學習本領吧。",
+      "contextSentenceSimplified": "一天，妻子对乐羊子说：「你是个男子汉，要多学些有用的知识，天天在家里开阔不了眼界，不如到远方去找名师学习本领吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w007",
+      "traditional": "學習本領",
+      "simplified": "学习本领",
+      "english": "learn skills",
+      "pinyin": "xué xí běn lǐng",
+      "contextSentence": "一天，妻子對樂羊子說：「你是個男子漢，要多學些有用的知識，天天在家裏開闊不了眼界，不如到遠方去找名師學習本領吧。",
+      "contextSentenceSimplified": "一天，妻子对乐羊子说：「你是个男子汉，要多学些有用的知识，天天在家里开阔不了眼界，不如到远方去找名师学习本领吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w008",
+      "traditional": "拜師",
+      "simplified": "拜师",
+      "english": "be accepted by a master to become a student",
+      "pinyin": "bài shī",
+      "contextSentence": "樂羊子聽了，決定去拜師求學。",
+      "contextSentenceSimplified": "乐羊子听了，决定去拜师求学。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w009",
+      "traditional": "踏入家門",
+      "simplified": "踏入家门",
+      "english": "step into home",
+      "pinyin": "tà rù jiā mén",
+      "contextSentence": "他踏入家門的時候，妻子正在織布。",
+      "contextSentenceSimplified": "他踏入家门的时候，妻子正在织布。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w010",
+      "traditional": "疑惑",
+      "simplified": "疑惑",
+      "english": "doubt",
+      "pinyin": "yí huò",
+      "contextSentence": "妻子見樂羊子突然回家，疑惑地問：「你怎麼突然回來了？",
+      "contextSentenceSimplified": "妻子见乐羊子突然回家，疑惑地问：「你怎么突然回来了？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w011",
+      "traditional": "驚訝",
+      "simplified": "惊讶",
+      "english": "surprised",
+      "pinyin": "jīng yà",
+      "contextSentence": "樂羊子驚訝地問妻子為什麼要剪斷織好的布。",
+      "contextSentenceSimplified": "乐羊子惊讶地问妻子为什么要剪断织好的布。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w012",
+      "traditional": "一絲一縷",
+      "simplified": "一丝一缕",
+      "english": "every single thread",
+      "pinyin": "yī sī yī lǚ",
+      "contextSentence": "妻子回答說：「這匹布我日日夜夜不停地織呀織呀，它才一絲一縷地積累起來。",
+      "contextSentenceSimplified": "妻子回答说：「这匹布我日日夜夜不停地织呀织呀，它才一丝一缕地积累起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w013",
+      "traditional": "積累",
+      "simplified": "积累",
+      "english": "accumulate",
+      "pinyin": "jī lèi",
+      "contextSentence": "妻子回答說：「這匹布我日日夜夜不停地織呀織呀，它才一絲一縷地積累起來。",
+      "contextSentenceSimplified": "妻子回答说：「这匹布我日日夜夜不停地织呀织呀，它才一丝一缕地积累起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w014",
+      "traditional": "辛苦",
+      "simplified": "辛苦",
+      "english": "hard work",
+      "pinyin": "xīn kǔ",
+      "contextSentence": "現在我把它剪斷了，以前的辛苦都白費了。",
+      "contextSentenceSimplified": "现在我把它剪断了，以前的辛苦都白费了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w015",
+      "traditional": "白費了",
+      "simplified": "白费了",
+      "english": "wasted",
+      "pinyin": "bái fèi le",
+      "contextSentence": "現在我把它剪斷了，以前的辛苦都白費了。",
+      "contextSentenceSimplified": "现在我把它剪断了，以前的辛苦都白费了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w016",
+      "traditional": "半途而廢",
+      "simplified": "半途而废",
+      "english": "give up halfway",
+      "pinyin": "bàn tú ér fèi",
+      "contextSentence": "你現在半途而廢和我剪斷布不是一樣可惜嗎？",
+      "contextSentenceSimplified": "你现在半途而废和我剪断布不是一样可惜吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w017",
+      "traditional": "可惜",
+      "simplified": "可惜",
+      "english": "what a pity",
+      "pinyin": "kě xī",
+      "contextSentence": "你現在半途而廢和我剪斷布不是一樣可惜嗎？",
+      "contextSentenceSimplified": "你现在半途而废和我剪断布不是一样可惜吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w018",
+      "traditional": "羞愧",
+      "simplified": "羞愧",
+      "english": "ashamed / ashamed and guilty",
+      "pinyin": "xiū kuì",
+      "contextSentence": "樂羊子聽了很羞愧，便再次出發去求學。",
+      "contextSentenceSimplified": "乐羊子听了很羞愧，便再次出发去求学。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w019",
+      "traditional": "學業",
+      "simplified": "学业",
+      "english": "studies",
+      "pinyin": "xué yè",
+      "contextSentence": "七年後，他終於完成學業，返回了家鄉。",
+      "contextSentenceSimplified": "七年后，他终于完成学业，返回了家乡。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w020",
+      "traditional": "持之以恆",
+      "simplified": "持之以恒",
+      "english": "persevere",
+      "pinyin": "chí zhī yǐ héng",
+      "contextSentence": "樂羊子的故事告訴我們學習要持之以恆，我們應該磨煉自己的意志，不懈地努力。",
+      "contextSentenceSimplified": "乐羊子的故事告诉我们学习要持之以恒，我们应该磨炼自己的意志，不懈地努力。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w021",
+      "traditional": "磨煉自己的意志",
+      "simplified": "磨炼自己的意志",
+      "english": "temper one's will",
+      "pinyin": "mó liàn zì jǐ de yì zhì",
+      "contextSentence": "樂羊子的故事告訴我們學習要持之以恆，我們應該磨煉自己的意志，不懈地努力。",
+      "contextSentenceSimplified": "乐羊子的故事告诉我们学习要持之以恒，我们应该磨炼自己的意志，不懈地努力。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch18_w022",
+      "traditional": "不懈地努力",
+      "simplified": "不懈地努力",
+      "english": "tireless efforts",
+      "pinyin": "bù xiè dì nǔ lì 。",
+      "contextSentence": "樂羊子的故事告訴我們學習要持之以恆，我們應該磨煉自己的意志，不懈地努力。",
+      "contextSentenceSimplified": "乐羊子的故事告诉我们学习要持之以恒，我们应该磨炼自己的意志，不懈地努力。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter18/b02_ch18_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter18/b02_ch18_w022_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter18/b02_ch18_p01_m.mp3",
+        "durationMs": 99336,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4224,
+            "text": "二上：樂羊子的故事（第四十八頁）",
+            "textSimplified": "二上：乐羊子的故事（第四十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4224,
+            "endMs": 10584,
+            "text": "古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。",
+            "textSimplified": "古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 10584,
+            "endMs": 23448,
+            "text": "一天，妻子對樂羊子說：「你是個男子漢，要多學些有用的知識，天天在家裏開闊不了眼界，不如到遠方去找名師學習本領吧。」",
+            "textSimplified": "一天，妻子对乐羊子说：「你是个男子汉，要多学些有用的知识，天天在家里开阔不了眼界，不如到远方去找名师学习本领吧。」"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 23448,
+            "endMs": 27168,
+            "text": "樂羊子聽了，決定去拜師求學。",
+            "textSimplified": "乐羊子听了，决定去拜师求学。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 27168,
+            "endMs": 31656,
+            "text": "樂羊子才學了不到一年，就返回了家鄉。",
+            "textSimplified": "乐羊子才学了不到一年，就返回了家乡。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 31656,
+            "endMs": 35664,
+            "text": "他踏入家門的時候，妻子正在織布。",
+            "textSimplified": "他踏入家门的时候，妻子正在织布。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 35664,
+            "endMs": 41400,
+            "text": "妻子見樂羊子突然回家，疑惑地問：「你怎麼突然回來了？」",
+            "textSimplified": "妻子见乐羊子突然回家，疑惑地问：「你怎么突然回来了？」"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 41400,
+            "endMs": 44760,
+            "text": "樂羊子說：「因為我太想家了。」",
+            "textSimplified": "乐羊子说：「因为我太想家了。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 44760,
+            "endMs": 53784,
+            "text": "妻子聽了他的話，非常生氣，她抓起剪刀，快步走到織布機前把織了一大半的布剪斷了。",
+            "textSimplified": "妻子听了他的话，非常生气，她抓起剪刀，快步走到织布机前把织了一大半的布剪断了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 53784,
+            "endMs": 58800,
+            "text": "樂羊子驚訝地問妻子為什麼要剪斷織好的布。",
+            "textSimplified": "乐羊子惊讶地问妻子为什么要剪断织好的布。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 58800,
+            "endMs": 66960,
+            "text": "妻子回答說：「這匹布我日日夜夜不停地織呀織呀，它才一絲一縷地積累起來。",
+            "textSimplified": "妻子回答说：「这匹布我日日夜夜不停地织呀织呀，它才一丝一缕地积累起来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 66960,
+            "endMs": 71400,
+            "text": "現在我把它剪斷了，以前的辛苦都白費了。",
+            "textSimplified": "现在我把它剪断了，以前的辛苦都白费了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 71400,
+            "endMs": 77016,
+            "text": "學習也是一樣的道理，要一點一滴地積累才能成功。",
+            "textSimplified": "学习也是一样的道理，要一点一滴地积累才能成功。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 77016,
+            "endMs": 81864,
+            "text": "你現在半途而廢和我剪斷布不是一樣可惜嗎？」",
+            "textSimplified": "你现在半途而废和我剪断布不是一样可惜吗？」"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 81864,
+            "endMs": 86520,
+            "text": "樂羊子聽了很羞愧，便再次出發去求學。",
+            "textSimplified": "乐羊子听了很羞愧，便再次出发去求学。"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 86520,
+            "endMs": 91224,
+            "text": "七年後，他終於完成學業，返回了家鄉。",
+            "textSimplified": "七年后，他终于完成学业，返回了家乡。"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 91224,
+            "endMs": 99336,
+            "text": "樂羊子的故事告訴我們學習要持之以恆，我們應該磨煉自己的意志，不懈地努力。",
+            "textSimplified": "乐羊子的故事告诉我们学习要持之以恒，我们应该磨炼自己的意志，不懈地努力。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter18/b02_ch18_p01_c.mp3",
+        "durationMs": 107424,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4584,
+            "text": "二上：樂羊子的故事（第四十八頁）",
+            "textSimplified": "二上：乐羊子的故事（第四十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4584,
+            "endMs": 11256,
+            "text": "古時候有個叫樂羊子的人，他娶了一位勤勞、賢慧的好妻子。",
+            "textSimplified": "古时候有个叫乐羊子的人，他娶了一位勤劳、贤慧的好妻子。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 11256,
+            "endMs": 24384,
+            "text": "一天，妻子對樂羊子說：「你是個男子漢，要多學些有用的知識，天天在家裏開闊不了眼界，不如到遠方去找名師學習本領吧。」",
+            "textSimplified": "一天，妻子对乐羊子说：「你是个男子汉，要多学些有用的知识，天天在家里开阔不了眼界，不如到远方去找名师学习本领吧。」"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 24384,
+            "endMs": 28680,
+            "text": "樂羊子聽了，決定去拜師求學。",
+            "textSimplified": "乐羊子听了，决定去拜师求学。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 28680,
+            "endMs": 33552,
+            "text": "樂羊子才學了不到一年，就返回了家鄉。",
+            "textSimplified": "乐羊子才学了不到一年，就返回了家乡。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 33552,
+            "endMs": 38088,
+            "text": "他踏入家門的時候，妻子正在織布。",
+            "textSimplified": "他踏入家门的时候，妻子正在织布。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 38088,
+            "endMs": 44736,
+            "text": "妻子見樂羊子突然回家，疑惑地問：「你怎麼突然回來了？」",
+            "textSimplified": "妻子见乐羊子突然回家，疑惑地问：「你怎么突然回来了？」"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 44736,
+            "endMs": 49320,
+            "text": "樂羊子說：「因為我太想家了。」",
+            "textSimplified": "乐羊子说：「因为我太想家了。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 49320,
+            "endMs": 58968,
+            "text": "妻子聽了他的話，非常生氣，她抓起剪刀，快步走到織布機前把織了一大半的布剪斷了。",
+            "textSimplified": "妻子听了他的话，非常生气，她抓起剪刀，快步走到织布机前把织了一大半的布剪断了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 58968,
+            "endMs": 64392,
+            "text": "樂羊子驚訝地問妻子為什麼要剪斷織好的布。",
+            "textSimplified": "乐羊子惊讶地问妻子为什么要剪断织好的布。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 64392,
+            "endMs": 72168,
+            "text": "妻子回答說：「這匹布我日日夜夜不停地織呀織呀，它才一絲一縷地積累起來。",
+            "textSimplified": "妻子回答说：「这匹布我日日夜夜不停地织呀织呀，它才一丝一缕地积累起来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 72168,
+            "endMs": 77232,
+            "text": "現在我把它剪斷了，以前的辛苦都白費了。",
+            "textSimplified": "现在我把它剪断了，以前的辛苦都白费了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 77232,
+            "endMs": 83136,
+            "text": "學習也是一樣的道理，要一點一滴地積累才能成功。",
+            "textSimplified": "学习也是一样的道理，要一点一滴地积累才能成功。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 83136,
+            "endMs": 88368,
+            "text": "你現在半途而廢和我剪斷布不是一樣可惜嗎？」",
+            "textSimplified": "你现在半途而废和我剪断布不是一样可惜吗？」"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 88368,
+            "endMs": 93528,
+            "text": "樂羊子聽了很羞愧，便再次出發去求學。",
+            "textSimplified": "乐羊子听了很羞愧，便再次出发去求学。"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 93528,
+            "endMs": 98808,
+            "text": "七年後，他終於完成學業，返回了家鄉。",
+            "textSimplified": "七年后，他终于完成学业，返回了家乡。"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 98808,
+            "endMs": 107424,
+            "text": "樂羊子的故事告訴我們學習要持之以恆，我們應該磨煉自己的意志，不懈地努力。",
+            "textSimplified": "乐羊子的故事告诉我们学习要持之以恒，我们应该磨炼自己的意志，不懈地努力。"
+          }
+        ]
+      }
+    }
+  ]
+}

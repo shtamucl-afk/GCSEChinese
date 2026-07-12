@@ -1,0 +1,778 @@
+{
+  "bookId": "03",
+  "chapterId": "15",
+  "chapterTitle": "酸葡萄和甜葡萄",
+  "chapterTitleSimplified": "酸葡萄和甜葡萄",
+  "passages": [
+    "二下 ：酸葡萄和甜葡萄（第五十頁） 一個炎熱的夏天，沒有一絲風，太陽火辣辣地照着大地。農夫的葡萄園裏種滿了各種各樣的果樹，有蘋果、梨和葡萄，上面結滿了沉甸甸的果實，看上去十分誘人。 這時，一隻狐狸經過果園，他抬頭望着葡萄架上晶瑩透亮的葡萄，不禁饞得直流口水。 終於，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下來。狐狸摸了摸餓扁的肚子，從早上到現在還一點兒東西也沒喫呢。狐狸想：『我正餓着呢，先摘點葡萄填填肚子。』可是他的個子太矮了，夠不着，這可怎麼辦呢？忽然，他想到一個好辦法，只見他後退了幾步，鼓足了勁向前一衝，猛地一下跳了起來，可還是跳得不夠高。 狐狸不甘心，後退又試。一次，兩次，三次，直到再也跳不動了才癱坐在葡萄架下。他昂起頭，望着那一串串葡萄，長歎一聲，對自己說：『哼，有什麼好喫的？我敢肯定那葡萄是酸的，這種葡萄白送給我，我也不喫。』狐狸強忍着飢餓，裝着快樂的樣子離開了。 一隻孔雀飛來，正要摘葡萄解渴，她聽到了狐狸的話，只好搖搖頭說：『既然是酸的那就不摘了。』孔雀準備離開，恰巧遇到了猴子，猴子正爬到樹上摘葡萄喫，孔雀見了，連忙大聲對猴子喊道：『這葡萄是酸的，不能喫。』猴子笑了笑說：『我纔不信呢。』說完，他摘下一串葡萄美滋滋地喫了起來，呀，這葡萄可真甜啊！"
+  ],
+  "passagesSimplified": [
+    "二下 ：酸葡萄和甜葡萄（第五十页） 一个炎热的夏天，没有一丝风，太阳火辣辣地照着大地。农夫的葡萄园里种满了各种各样的果树，有苹果、梨和葡萄，上面结满了沉甸甸的果实，看上去十分诱人。 这时，一只狐狸经过果园，他抬头望着葡萄架上晶莹透亮的葡萄，不禁馋得直流口水。 终于，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下来。狐狸摸了摸饿扁的肚子，从早上到现在还一点儿东西也没吃呢。狐狸想：『我正饿着呢，先摘点葡萄填填肚子。』可是他的个子太矮了，够不着，这可怎么办呢？忽然，他想到一个好办法，只见他后退了几步，鼓足了劲向前一冲，猛地一下跳了起来，可还是跳得不够高。 狐狸不甘心，后退又试。一次，两次，三次，直到再也跳不动了才瘫坐在葡萄架下。他昂起头，望着那一串串葡萄，长叹一声，对自己说：『哼，有什么好吃的？我敢肯定那葡萄是酸的，这种葡萄白送给我，我也不吃。』狐狸强忍着饥饿，装着快乐的样子离开了。 一只孔雀飞来，正要摘葡萄解渴，她听到了狐狸的话，只好摇摇头说：『既然是酸的那就不摘了。』孔雀准备离开，恰巧遇到了猴子，猴子正爬到树上摘葡萄吃，孔雀见了，连忙大声对猴子喊道：『这葡萄是酸的，不能吃。』猴子笑了笑说：『我才不信呢。』说完，他摘下一串葡萄美滋滋地吃了起来，呀，这葡萄可真甜啊！"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch15_w001",
+      "traditional": "炎熱",
+      "simplified": "炎热",
+      "english": "hot / scorching",
+      "pinyin": "yán rè",
+      "contextSentence": "一個炎熱的夏天，沒有一絲風，太陽火辣辣地照着大地。",
+      "contextSentenceSimplified": "一个炎热的夏天，没有一丝风，太阳火辣辣地照着大地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w002",
+      "traditional": "火辣辣地",
+      "simplified": "火辣辣地",
+      "english": "burning hot / stinging",
+      "pinyin": "huǒ là là dì",
+      "contextSentence": "一個炎熱的夏天，沒有一絲風，太陽火辣辣地照着大地。",
+      "contextSentenceSimplified": "一个炎热的夏天，没有一丝风，太阳火辣辣地照着大地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w003",
+      "traditional": "葡萄園",
+      "simplified": "葡萄园",
+      "english": "vineyard",
+      "pinyin": "pú táo yuán",
+      "contextSentence": "農夫的葡萄園裏種滿了各種各樣的果樹，有蘋果、梨和葡萄，上面結滿了沉甸甸的果實，看上去十分誘人。",
+      "contextSentenceSimplified": "农夫的葡萄园里种满了各种各样的果树，有苹果、梨和葡萄，上面结满了沉甸甸的果实，看上去十分诱人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w004",
+      "traditional": "沉甸甸",
+      "simplified": "沉甸甸",
+      "english": "heavy / weighty",
+      "pinyin": "chén diàn diàn",
+      "contextSentence": "農夫的葡萄園裏種滿了各種各樣的果樹，有蘋果、梨和葡萄，上面結滿了沉甸甸的果實，看上去十分誘人。",
+      "contextSentenceSimplified": "农夫的葡萄园里种满了各种各样的果树，有苹果、梨和葡萄，上面结满了沉甸甸的果实，看上去十分诱人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w005",
+      "traditional": "誘人",
+      "simplified": "诱人",
+      "english": "tempting / attractive",
+      "pinyin": "yòu rén",
+      "contextSentence": "農夫的葡萄園裏種滿了各種各樣的果樹，有蘋果、梨和葡萄，上面結滿了沉甸甸的果實，看上去十分誘人。",
+      "contextSentenceSimplified": "农夫的葡萄园里种满了各种各样的果树，有苹果、梨和葡萄，上面结满了沉甸甸的果实，看上去十分诱人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w006",
+      "traditional": "晶瑩透亮",
+      "simplified": "晶莹透亮",
+      "english": "crystal clear / translucent",
+      "pinyin": "jīng yíng tòu liàng",
+      "contextSentence": "這時，一隻狐狸經過果園，他抬頭望着葡萄架上晶瑩透亮的葡萄，不禁饞得直流口水。",
+      "contextSentenceSimplified": "这时，一只狐狸经过果园，他抬头望着葡萄架上晶莹透亮的葡萄，不禁馋得直流口水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w007",
+      "traditional": "不禁",
+      "simplified": "不禁",
+      "english": "cannot help but / involuntarily",
+      "pinyin": "bù jīn",
+      "contextSentence": "這時，一隻狐狸經過果園，他抬頭望着葡萄架上晶瑩透亮的葡萄，不禁饞得直流口水。",
+      "contextSentenceSimplified": "这时，一只狐狸经过果园，他抬头望着葡萄架上晶莹透亮的葡萄，不禁馋得直流口水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w008",
+      "traditional": "饞得直流口水",
+      "simplified": "馋得直流口水",
+      "english": "mouth-watering / drooling",
+      "pinyin": "chán dé zhí liú kǒu shuǐ",
+      "contextSentence": "這時，一隻狐狸經過果園，他抬頭望着葡萄架上晶瑩透亮的葡萄，不禁饞得直流口水。",
+      "contextSentenceSimplified": "这时，一只狐狸经过果园，他抬头望着葡萄架上晶莹透亮的葡萄，不禁馋得直流口水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w009",
+      "traditional": "忍不住",
+      "simplified": "忍不住",
+      "english": "cannot help / can't resist",
+      "pinyin": "rěn bù zhù",
+      "contextSentence": "終於，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下來。",
+      "contextSentenceSimplified": "终于，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w010",
+      "traditional": "熟透多汁",
+      "simplified": "熟透多汁",
+      "english": "ripe and juicy",
+      "pinyin": "shú tòu duō zhī",
+      "contextSentence": "終於，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下來。",
+      "contextSentenceSimplified": "终于，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w011",
+      "traditional": "餓扁",
+      "simplified": "饿扁",
+      "english": "starving / very hungry",
+      "pinyin": "è biǎn",
+      "contextSentence": "狐狸摸了摸餓扁的肚子，從早上到現在還一點兒東西也沒喫呢。",
+      "contextSentenceSimplified": "狐狸摸了摸饿扁的肚子，从早上到现在还一点儿东西也没吃呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w012",
+      "traditional": "填填肚子",
+      "simplified": "填填肚子",
+      "english": "to fill one's stomach / eat to fill up",
+      "pinyin": "tián tián dǔ zi",
+      "contextSentence": "狐狸想：『我正餓着呢，先摘點葡萄填填肚子。",
+      "contextSentenceSimplified": "狐狸想：『我正饿着呢，先摘点葡萄填填肚子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w013",
+      "traditional": "鼓足了勁",
+      "simplified": "鼓足了劲",
+      "english": "muster all strength",
+      "pinyin": "gǔ zú le jìn",
+      "contextSentence": "忽然，他想到一個好辦法，只見他後退了幾步，鼓足了勁向前一衝，猛地一下跳了起來，可還是跳得不夠高。",
+      "contextSentenceSimplified": "忽然，他想到一个好办法，只见他后退了几步，鼓足了劲向前一冲，猛地一下跳了起来，可还是跳得不够高。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w014",
+      "traditional": "猛地",
+      "simplified": "猛地",
+      "english": "suddenly / violently",
+      "pinyin": "měng dì",
+      "contextSentence": "忽然，他想到一個好辦法，只見他後退了幾步，鼓足了勁向前一衝，猛地一下跳了起來，可還是跳得不夠高。",
+      "contextSentenceSimplified": "忽然，他想到一个好办法，只见他后退了几步，鼓足了劲向前一冲，猛地一下跳了起来，可还是跳得不够高。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w015",
+      "traditional": "不甘心",
+      "simplified": "不甘心",
+      "english": "unwilling to accept / resentful",
+      "pinyin": "bù gān xīn",
+      "contextSentence": "狐狸不甘心，後退又試。",
+      "contextSentenceSimplified": "狐狸不甘心，后退又试。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w016",
+      "traditional": "癱坐在",
+      "simplified": "瘫坐在",
+      "english": "slump down / sit collapsed",
+      "pinyin": "tān zuò zài",
+      "contextSentence": "一次，兩次，三次，直到再也跳不動了才癱坐在葡萄架下。",
+      "contextSentenceSimplified": "一次，两次，三次，直到再也跳不动了才瘫坐在葡萄架下。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w017",
+      "traditional": "昂起頭",
+      "simplified": "昂起头",
+      "english": "raise one's head high",
+      "pinyin": "áng qǐ tóu",
+      "contextSentence": "他昂起頭，望着那一串串葡萄，長歎一聲，對自己說：『哼，有什麼好喫的？",
+      "contextSentenceSimplified": "他昂起头，望着那一串串葡萄，长叹一声，对自己说：『哼，有什么好吃的？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w018",
+      "traditional": "長歎一聲",
+      "simplified": "长叹一声",
+      "english": "let out a long sigh",
+      "pinyin": "zhǎng tàn yī shēng",
+      "contextSentence": "他昂起頭，望着那一串串葡萄，長歎一聲，對自己說：『哼，有什麼好喫的？",
+      "contextSentenceSimplified": "他昂起头，望着那一串串葡萄，长叹一声，对自己说：『哼，有什么好吃的？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w019",
+      "traditional": "敢肯定",
+      "simplified": "敢肯定",
+      "english": "dare to be sure / confident",
+      "pinyin": "gǎn kěn dìng",
+      "contextSentence": "我敢肯定那葡萄是酸的，這種葡萄白送給我，我也不喫。",
+      "contextSentenceSimplified": "我敢肯定那葡萄是酸的，这种葡萄白送给我，我也不吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w020",
+      "traditional": "強忍",
+      "simplified": "强忍",
+      "english": "to restrain / hold back",
+      "pinyin": "qiáng rěn",
+      "contextSentence": "狐狸強忍着飢餓，裝着快樂的樣子離開了。",
+      "contextSentenceSimplified": "狐狸强忍着饥饿，装着快乐的样子离开了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w021",
+      "traditional": "裝着",
+      "simplified": "装着",
+      "english": "pretend / act as if",
+      "pinyin": "zhuāng zhe",
+      "contextSentence": "狐狸強忍着飢餓，裝着快樂的樣子離開了。",
+      "contextSentenceSimplified": "狐狸强忍着饥饿，装着快乐的样子离开了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w022",
+      "traditional": "解渴",
+      "simplified": "解渴",
+      "english": "to quench thirst",
+      "pinyin": "jiě kě",
+      "contextSentence": "一隻孔雀飛來，正要摘葡萄解渴，她聽到了狐狸的話，只好搖搖頭說：『既然是酸的那就不摘了。",
+      "contextSentenceSimplified": "一只孔雀飞来，正要摘葡萄解渴，她听到了狐狸的话，只好摇摇头说：『既然是酸的那就不摘了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w023",
+      "traditional": "既然",
+      "simplified": "既然",
+      "english": "since / now that",
+      "pinyin": "jì rán",
+      "contextSentence": "一隻孔雀飛來，正要摘葡萄解渴，她聽到了狐狸的話，只好搖搖頭說：『既然是酸的那就不摘了。",
+      "contextSentenceSimplified": "一只孔雀飞来，正要摘葡萄解渴，她听到了狐狸的话，只好摇摇头说：『既然是酸的那就不摘了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w024",
+      "traditional": "恰巧",
+      "simplified": "恰巧",
+      "english": "coincidentally / by chance",
+      "pinyin": "qià qiǎo",
+      "contextSentence": "孔雀準備離開，恰巧遇到了猴子，猴子正爬到樹上摘葡萄喫，孔雀見了，連忙大聲對猴子喊道：『這葡萄是酸的，不能喫。",
+      "contextSentenceSimplified": "孔雀准备离开，恰巧遇到了猴子，猴子正爬到树上摘葡萄吃，孔雀见了，连忙大声对猴子喊道：『这葡萄是酸的，不能吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch15_w025",
+      "traditional": "美滋滋地",
+      "simplified": "美滋滋地",
+      "english": "happily / with delight",
+      "pinyin": "měi zī zī dì",
+      "contextSentence": "說完，他摘下一串葡萄美滋滋地喫了起來，呀，這葡萄可真甜啊！",
+      "contextSentenceSimplified": "说完，他摘下一串葡萄美滋滋地吃了起来，呀，这葡萄可真甜啊！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter15/b03_ch15_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter15/b03_ch15_w025_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter15/b03_ch15_p01_m.mp3",
+        "durationMs": 125880,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9528,
+            "text": "二下 ：酸葡萄和甜葡萄（第五十頁） 一個炎熱的夏天，沒有一絲風，太陽火辣辣地照着大地。",
+            "textSimplified": "二下 ：酸葡萄和甜葡萄（第五十页） 一个炎热的夏天，没有一丝风，太阳火辣辣地照着大地。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9528,
+            "endMs": 20712,
+            "text": "農夫的葡萄園裏種滿了各種各樣的果樹，有蘋果、梨和葡萄，上面結滿了沉甸甸的果實，看上去十分誘人。",
+            "textSimplified": "农夫的葡萄园里种满了各种各样的果树，有苹果、梨和葡萄，上面结满了沉甸甸的果实，看上去十分诱人。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 20712,
+            "endMs": 29784,
+            "text": "這時，一隻狐狸經過果園，他抬頭望着葡萄架上晶瑩透亮的葡萄，不禁饞得直流口水。",
+            "textSimplified": "这时，一只狐狸经过果园，他抬头望着葡萄架上晶莹透亮的葡萄，不禁馋得直流口水。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29784,
+            "endMs": 36504,
+            "text": "終於，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下來。",
+            "textSimplified": "终于，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 36504,
+            "endMs": 43248,
+            "text": "狐狸摸了摸餓扁的肚子，從早上到現在還一點兒東西也沒喫呢。",
+            "textSimplified": "狐狸摸了摸饿扁的肚子，从早上到现在还一点儿东西也没吃呢。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 43248,
+            "endMs": 48360,
+            "text": "狐狸想：『我正餓着呢，先摘點葡萄填填肚子。』",
+            "textSimplified": "狐狸想：『我正饿着呢，先摘点葡萄填填肚子。』"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 48360,
+            "endMs": 53376,
+            "text": "可是他的個子太矮了，夠不着，這可怎麼辦呢？",
+            "textSimplified": "可是他的个子太矮了，够不着，这可怎么办呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 53376,
+            "endMs": 64152,
+            "text": "忽然，他想到一個好辦法，只見他後退了幾步，鼓足了勁向前一衝，猛地一下跳了起來，可還是跳得不夠高。",
+            "textSimplified": "忽然，他想到一个好办法，只见他后退了几步，鼓足了劲向前一冲，猛地一下跳了起来，可还是跳得不够高。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 64152,
+            "endMs": 67344,
+            "text": "狐狸不甘心，後退又試。",
+            "textSimplified": "狐狸不甘心，后退又试。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 67344,
+            "endMs": 74400,
+            "text": "一次，兩次，三次，直到再也跳不動了才癱坐在葡萄架下。",
+            "textSimplified": "一次，两次，三次，直到再也跳不动了才瘫坐在葡萄架下。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 74400,
+            "endMs": 82200,
+            "text": "他昂起頭，望着那一串串葡萄，長歎一聲，對自己說：『哼，有什麼好喫的？",
+            "textSimplified": "他昂起头，望着那一串串葡萄，长叹一声，对自己说：『哼，有什么好吃的？"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 82200,
+            "endMs": 88296,
+            "text": "我敢肯定那葡萄是酸的，這種葡萄白送給我，我也不喫。』",
+            "textSimplified": "我敢肯定那葡萄是酸的，这种葡萄白送给我，我也不吃。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 88296,
+            "endMs": 92808,
+            "text": "狐狸強忍着飢餓，裝着快樂的樣子離開了。",
+            "textSimplified": "狐狸强忍着饥饿，装着快乐的样子离开了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 92808,
+            "endMs": 102504,
+            "text": "一隻孔雀飛來，正要摘葡萄解渴，她聽到了狐狸的話，只好搖搖頭說：『既然是酸的那就不摘了。』",
+            "textSimplified": "一只孔雀飞来，正要摘葡萄解渴，她听到了狐狸的话，只好摇摇头说：『既然是酸的那就不摘了。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 102504,
+            "endMs": 115632,
+            "text": "孔雀準備離開，恰巧遇到了猴子，猴子正爬到樹上摘葡萄喫，孔雀見了，連忙大聲對猴子喊道：『這葡萄是酸的，不能喫。』",
+            "textSimplified": "孔雀准备离开，恰巧遇到了猴子，猴子正爬到树上摘葡萄吃，孔雀见了，连忙大声对猴子喊道：『这葡萄是酸的，不能吃。』"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 115632,
+            "endMs": 118992,
+            "text": "猴子笑了笑說：『我纔不信呢。』",
+            "textSimplified": "猴子笑了笑说：『我才不信呢。』"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 118992,
+            "endMs": 125880,
+            "text": "說完，他摘下一串葡萄美滋滋地喫了起來，呀，這葡萄可真甜啊！",
+            "textSimplified": "说完，他摘下一串葡萄美滋滋地吃了起来，呀，这葡萄可真甜啊！"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter15/b03_ch15_p01_c.mp3",
+        "durationMs": 133848,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10056,
+            "text": "二下 ：酸葡萄和甜葡萄（第五十頁） 一個炎熱的夏天，沒有一絲風，太陽火辣辣地照着大地。",
+            "textSimplified": "二下 ：酸葡萄和甜葡萄（第五十页） 一个炎热的夏天，没有一丝风，太阳火辣辣地照着大地。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10056,
+            "endMs": 20904,
+            "text": "農夫的葡萄園裏種滿了各種各樣的果樹，有蘋果、梨和葡萄，上面結滿了沉甸甸的果實，看上去十分誘人。",
+            "textSimplified": "农夫的葡萄园里种满了各种各样的果树，有苹果、梨和葡萄，上面结满了沉甸甸的果实，看上去十分诱人。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 20904,
+            "endMs": 30600,
+            "text": "這時，一隻狐狸經過果園，他抬頭望着葡萄架上晶瑩透亮的葡萄，不禁饞得直流口水。",
+            "textSimplified": "这时，一只狐狸经过果园，他抬头望着葡萄架上晶莹透亮的葡萄，不禁馋得直流口水。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 30600,
+            "endMs": 37584,
+            "text": "終於，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下來。",
+            "textSimplified": "终于，狐狸忍不住了，他在一大串熟透多汁的葡萄前停了下来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 37584,
+            "endMs": 44472,
+            "text": "狐狸摸了摸餓扁的肚子，從早上到現在還一點兒東西也沒喫呢。",
+            "textSimplified": "狐狸摸了摸饿扁的肚子，从早上到现在还一点儿东西也没吃呢。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 44472,
+            "endMs": 50544,
+            "text": "狐狸想：『我正餓着呢，先摘點葡萄填填肚子。』",
+            "textSimplified": "狐狸想：『我正饿着呢，先摘点葡萄填填肚子。』"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 50544,
+            "endMs": 56088,
+            "text": "可是他的個子太矮了，夠不着，這可怎麼辦呢？",
+            "textSimplified": "可是他的个子太矮了，够不着，这可怎么办呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 56088,
+            "endMs": 67176,
+            "text": "忽然，他想到一個好辦法，只見他後退了幾步，鼓足了勁向前一衝，猛地一下跳了起來，可還是跳得不夠高。",
+            "textSimplified": "忽然，他想到一个好办法，只见他后退了几步，鼓足了劲向前一冲，猛地一下跳了起来，可还是跳得不够高。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 67176,
+            "endMs": 70824,
+            "text": "狐狸不甘心，後退又試。",
+            "textSimplified": "狐狸不甘心，后退又试。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 70824,
+            "endMs": 78240,
+            "text": "一次，兩次，三次，直到再也跳不動了才癱坐在葡萄架下。",
+            "textSimplified": "一次，两次，三次，直到再也跳不动了才瘫坐在葡萄架下。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 78240,
+            "endMs": 86712,
+            "text": "他昂起頭，望着那一串串葡萄，長歎一聲，對自己說：『哼，有什麼好喫的？",
+            "textSimplified": "他昂起头，望着那一串串葡萄，长叹一声，对自己说：『哼，有什么好吃的？"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 86712,
+            "endMs": 93360,
+            "text": "我敢肯定那葡萄是酸的，這種葡萄白送給我，我也不喫。』",
+            "textSimplified": "我敢肯定那葡萄是酸的，这种葡萄白送给我，我也不吃。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 93360,
+            "endMs": 98616,
+            "text": "狐狸強忍着飢餓，裝着快樂的樣子離開了。",
+            "textSimplified": "狐狸强忍着饥饿，装着快乐的样子离开了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 98616,
+            "endMs": 108960,
+            "text": "一隻孔雀飛來，正要摘葡萄解渴，她聽到了狐狸的話，只好搖搖頭說：『既然是酸的那就不摘了。』",
+            "textSimplified": "一只孔雀飞来，正要摘葡萄解渴，她听到了狐狸的话，只好摇摇头说：『既然是酸的那就不摘了。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 108960,
+            "endMs": 121896,
+            "text": "孔雀準備離開，恰巧遇到了猴子，猴子正爬到樹上摘葡萄喫，孔雀見了，連忙大聲對猴子喊道：『這葡萄是酸的，不能喫。』",
+            "textSimplified": "孔雀准备离开，恰巧遇到了猴子，猴子正爬到树上摘葡萄吃，孔雀见了，连忙大声对猴子喊道：『这葡萄是酸的，不能吃。』"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 121896,
+            "endMs": 126216,
+            "text": "猴子笑了笑說：『我纔不信呢。』",
+            "textSimplified": "猴子笑了笑说：『我才不信呢。』"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 126216,
+            "endMs": 133848,
+            "text": "說完，他摘下一串葡萄美滋滋地喫了起來，呀，這葡萄可真甜啊！",
+            "textSimplified": "说完，他摘下一串葡萄美滋滋地吃了起来，呀，这葡萄可真甜啊！"
+          }
+        ]
+      }
+    }
+  ]
+}

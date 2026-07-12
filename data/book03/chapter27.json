@@ -1,0 +1,794 @@
+{
+  "bookId": "03",
+  "chapterId": "27",
+  "chapterTitle": "獅子和小老鼠",
+  "chapterTitleSimplified": "狮子和小老鼠",
+  "passages": [
+    "二下 ：獅子和小老鼠（第七十九頁） 一天，一隻大獅子正趴在草地上睡大覺。這時，一隻淘氣的小老鼠跑了過來，他把獅子的後背當成了滑梯，一會兒爬上，一會兒滑下來，玩得非常高興。獅子很快就被小老鼠吵醒了。他一把將小老鼠從背上抓了下來。小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。」 獅子覺得很好笑，他看了看小老鼠，說：「哈哈！你一隻小小的老鼠能幫我什麼忙呢？還想報答我，我看算了吧。」 獅子斜着眼睛看了看可憐巴巴的小老鼠，覺得喫了他還不夠塞牙縫呢，於是就把他放了。 過了幾天，獅子不小心掉進了獵人的陷阱。獵人想將獅子獻給國王，就把他用繩子綑在一棵大樹上，然後去找馬車。獅子用盡了全力拼命掙扎，還是無法逃脫，他惱怒極了。 小老鼠剛好路過，他聽到獅子的吼聲，急忙跑了過來。小老鼠一邊安慰獅子，一邊撕咬繩子。小老鼠不停地咬啊咬，繩子終於被咬斷了。獅子重新獲得了自由。 獅子非常真誠地感謝小老鼠救了他。小老鼠聽了，不好意思地說：「如果那天你沒有放過我，今天我怎麼有機會救你呢？」"
+  ],
+  "passagesSimplified": [
+    "二下 ：狮子和小老鼠（第七十九页） 一天，一只大狮子正趴在草地上睡大觉。这时，一只淘气的小老鼠跑了过来，他把狮子的后背当成了滑梯，一会儿爬上，一会儿滑下来，玩得非常高兴。狮子很快就被小老鼠吵醒了。他一把将小老鼠从背上抓了下来。小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。」 狮子觉得很好笑，他看了看小老鼠，说：「哈哈！你一只小小的老鼠能帮我什么忙呢？还想报答我，我看算了吧。」 狮子斜着眼睛看了看可怜巴巴的小老鼠，觉得吃了他还不够塞牙缝呢，于是就把他放了。 过了几天，狮子不小心掉进了猎人的陷阱。猎人想将狮子献给国王，就把他用绳子捆在一棵大树上，然后去找马车。狮子用尽了全力拼命挣扎，还是无法逃脱，他恼怒极了。 小老鼠刚好路过，他听到狮子的吼声，急忙跑了过来。小老鼠一边安慰狮子，一边撕咬绳子。小老鼠不停地咬啊咬，绳子终于被咬断了。狮子重新获得了自由。 狮子非常真诚地感谢小老鼠救了他。小老鼠听了，不好意思地说：「如果那天你没有放过我，今天我怎么有机会救你呢？」"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch27_w001",
+      "traditional": "淘氣",
+      "simplified": "淘气",
+      "english": "naughty",
+      "pinyin": "táo qì",
+      "contextSentence": "這時，一隻淘氣的小老鼠跑了過來，他把獅子的後背當成了滑梯，一會兒爬上，一會兒滑下來，玩得非常高興。",
+      "contextSentenceSimplified": "这时，一只淘气的小老鼠跑了过来，他把狮子的后背当成了滑梯，一会儿爬上，一会儿滑下来，玩得非常高兴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w002",
+      "traditional": "滑梯",
+      "simplified": "滑梯",
+      "english": "slide (playground)",
+      "pinyin": "huá tī",
+      "contextSentence": "這時，一隻淘氣的小老鼠跑了過來，他把獅子的後背當成了滑梯，一會兒爬上，一會兒滑下來，玩得非常高興。",
+      "contextSentenceSimplified": "这时，一只淘气的小老鼠跑了过来，他把狮子的后背当成了滑梯，一会儿爬上，一会儿滑下来，玩得非常高兴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w003",
+      "traditional": "吵醒",
+      "simplified": "吵醒",
+      "english": "to wake up (by noise)",
+      "pinyin": "chǎo xǐng",
+      "contextSentence": "獅子很快就被小老鼠吵醒了。",
+      "contextSentenceSimplified": "狮子很快就被小老鼠吵醒了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w004",
+      "traditional": "哀求",
+      "simplified": "哀求",
+      "english": "to beg / plead",
+      "pinyin": "āi qiú",
+      "contextSentence": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。",
+      "contextSentenceSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w005",
+      "traditional": "尊敬的",
+      "simplified": "尊敬的",
+      "english": "respected / honorable",
+      "pinyin": "zūn jìng de",
+      "contextSentence": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。",
+      "contextSentenceSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w006",
+      "traditional": "獅子大王",
+      "simplified": "狮子大王",
+      "english": "lion king",
+      "pinyin": "shī zi dà wáng",
+      "contextSentence": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。",
+      "contextSentenceSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w007",
+      "traditional": "冒犯",
+      "simplified": "冒犯",
+      "english": "to offend / insult",
+      "pinyin": "mào fàn",
+      "contextSentence": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。",
+      "contextSentenceSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w008",
+      "traditional": "報答",
+      "simplified": "报答",
+      "english": "to repay / reward",
+      "pinyin": "bào dá",
+      "contextSentence": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。",
+      "contextSentenceSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w009",
+      "traditional": "塞牙縫",
+      "simplified": "塞牙缝",
+      "english": "not enough to fill the teeth (insignificant)",
+      "pinyin": "sāi yá fèng",
+      "contextSentence": "獅子斜着眼睛看了看可憐巴巴的小老鼠，覺得喫了他還不夠塞牙縫呢，於是就把他放了。",
+      "contextSentenceSimplified": "狮子斜着眼睛看了看可怜巴巴的小老鼠，觉得吃了他还不够塞牙缝呢，于是就把他放了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w010",
+      "traditional": "掉進",
+      "simplified": "掉进",
+      "english": "fall into / drop into",
+      "pinyin": "diào jìn",
+      "contextSentence": "過了幾天，獅子不小心掉進了獵人的陷阱。",
+      "contextSentenceSimplified": "过了几天，狮子不小心掉进了猎人的陷阱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w011",
+      "traditional": "獵人",
+      "simplified": "猎人",
+      "english": "hunter",
+      "pinyin": "liè rén",
+      "contextSentence": "過了幾天，獅子不小心掉進了獵人的陷阱。",
+      "contextSentenceSimplified": "过了几天，狮子不小心掉进了猎人的陷阱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w012",
+      "traditional": "陷阱",
+      "simplified": "陷阱",
+      "english": "trap / pitfall",
+      "pinyin": "xiàn jǐng",
+      "contextSentence": "過了幾天，獅子不小心掉進了獵人的陷阱。",
+      "contextSentenceSimplified": "过了几天，狮子不小心掉进了猎人的陷阱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w013",
+      "traditional": "獻給",
+      "simplified": "献给",
+      "english": "dedicated to / offered to",
+      "pinyin": "xiàn gěi",
+      "contextSentence": "獵人想將獅子獻給國王，就把他用繩子綑在一棵大樹上，然後去找馬車。",
+      "contextSentenceSimplified": "猎人想将狮子献给国王，就把他用绳子捆在一棵大树上，然后去找马车。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w014",
+      "traditional": "國王",
+      "simplified": "国王",
+      "english": "king",
+      "pinyin": "guó wáng",
+      "contextSentence": "獵人想將獅子獻給國王，就把他用繩子綑在一棵大樹上，然後去找馬車。",
+      "contextSentenceSimplified": "猎人想将狮子献给国王，就把他用绳子捆在一棵大树上，然后去找马车。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w015",
+      "traditional": "綑在",
+      "simplified": "捆在",
+      "english": "tied to / bound to",
+      "pinyin": "kǔn zài",
+      "contextSentence": "獵人想將獅子獻給國王，就把他用繩子綑在一棵大樹上，然後去找馬車。",
+      "contextSentenceSimplified": "猎人想将狮子献给国王，就把他用绳子捆在一棵大树上，然后去找马车。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w016",
+      "traditional": "拼命掙扎",
+      "simplified": "拼命挣扎",
+      "english": "struggle desperately",
+      "pinyin": "pīn mìng zhēng zhā",
+      "contextSentence": "獅子用盡了全力拼命掙扎，還是無法逃脫，他惱怒極了。",
+      "contextSentenceSimplified": "狮子用尽了全力拼命挣扎，还是无法逃脱，他恼怒极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w017",
+      "traditional": "無法逃脫",
+      "simplified": "无法逃脱",
+      "english": "cannot escape / inescapable",
+      "pinyin": "wú fǎ táo tuō",
+      "contextSentence": "獅子用盡了全力拼命掙扎，還是無法逃脫，他惱怒極了。",
+      "contextSentenceSimplified": "狮子用尽了全力拼命挣扎，还是无法逃脱，他恼怒极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w018",
+      "traditional": "惱怒極了",
+      "simplified": "恼怒极了",
+      "english": "extremely annoyed / furious",
+      "pinyin": "nǎo nù jí le",
+      "contextSentence": "獅子用盡了全力拼命掙扎，還是無法逃脫，他惱怒極了。",
+      "contextSentenceSimplified": "狮子用尽了全力拼命挣扎，还是无法逃脱，他恼怒极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w019",
+      "traditional": "吼聲",
+      "simplified": "吼声",
+      "english": "roar / bellow",
+      "pinyin": "hǒu shēng",
+      "contextSentence": "小老鼠剛好路過，他聽到獅子的吼聲，急忙跑了過來。",
+      "contextSentenceSimplified": "小老鼠刚好路过，他听到狮子的吼声，急忙跑了过来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w020",
+      "traditional": "急忙",
+      "simplified": "急忙",
+      "english": "in haste / hurriedly",
+      "pinyin": "jí máng",
+      "contextSentence": "小老鼠剛好路過，他聽到獅子的吼聲，急忙跑了過來。",
+      "contextSentenceSimplified": "小老鼠刚好路过，他听到狮子的吼声，急忙跑了过来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w021",
+      "traditional": "安慰",
+      "simplified": "安慰",
+      "english": "to comfort / consolation",
+      "pinyin": "ān wèi",
+      "contextSentence": "小老鼠一邊安慰獅子，一邊撕咬繩子。",
+      "contextSentenceSimplified": "小老鼠一边安慰狮子，一边撕咬绳子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w022",
+      "traditional": "撕咬",
+      "simplified": "撕咬",
+      "english": "to tear and bite",
+      "pinyin": "sī yǎo",
+      "contextSentence": "小老鼠一邊安慰獅子，一邊撕咬繩子。",
+      "contextSentenceSimplified": "小老鼠一边安慰狮子，一边撕咬绳子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w023",
+      "traditional": "咬斷",
+      "simplified": "咬断",
+      "english": "to bite through / bite off",
+      "pinyin": "yǎo duàn",
+      "contextSentence": "小老鼠不停地咬啊咬，繩子終於被咬斷了。",
+      "contextSentenceSimplified": "小老鼠不停地咬啊咬，绳子终于被咬断了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w024",
+      "traditional": "重新獲得",
+      "simplified": "重新获得",
+      "english": "regain / obtain again",
+      "pinyin": "chóng xīn huò dé",
+      "contextSentence": "獅子重新獲得了自由。",
+      "contextSentenceSimplified": "狮子重新获得了自由。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch27_w025",
+      "traditional": "真誠地",
+      "simplified": "真诚地",
+      "english": "sincerely / genuinely",
+      "pinyin": "zhēn chéng dì",
+      "contextSentence": "獅子非常真誠地感謝小老鼠救了他。",
+      "contextSentenceSimplified": "狮子非常真诚地感谢小老鼠救了他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter27/b03_ch27_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter27/b03_ch27_w025_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter27/b03_ch27_p01_m.mp3",
+        "durationMs": 108240,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8472,
+            "text": "二下 ：獅子和小老鼠（第七十九頁） 一天，一隻大獅子正趴在草地上睡大覺。",
+            "textSimplified": "二下 ：狮子和小老鼠（第七十九页） 一天，一只大狮子正趴在草地上睡大觉。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8472,
+            "endMs": 19656,
+            "text": "這時，一隻淘氣的小老鼠跑了過來，他把獅子的後背當成了滑梯，一會兒爬上，一會兒滑下來，玩得非常高興。",
+            "textSimplified": "这时，一只淘气的小老鼠跑了过来，他把狮子的后背当成了滑梯，一会儿爬上，一会儿滑下来，玩得非常高兴。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19656,
+            "endMs": 22944,
+            "text": "獅子很快就被小老鼠吵醒了。",
+            "textSimplified": "狮子很快就被小老鼠吵醒了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 22944,
+            "endMs": 26640,
+            "text": "他一把將小老鼠從背上抓了下來。",
+            "textSimplified": "他一把将小老鼠从背上抓了下来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 26640,
+            "endMs": 39264,
+            "text": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。」",
+            "textSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。」"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 39264,
+            "endMs": 44664,
+            "text": "獅子覺得很好笑，他看了看小老鼠，說：「哈哈！",
+            "textSimplified": "狮子觉得很好笑，他看了看小老鼠，说：「哈哈！"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 44664,
+            "endMs": 48360,
+            "text": "你一隻小小的老鼠能幫我什麼忙呢？",
+            "textSimplified": "你一只小小的老鼠能帮我什么忙呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 48360,
+            "endMs": 51504,
+            "text": "還想報答我，我看算了吧。」",
+            "textSimplified": "还想报答我，我看算了吧。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 51504,
+            "endMs": 60480,
+            "text": "獅子斜着眼睛看了看可憐巴巴的小老鼠，覺得喫了他還不夠塞牙縫呢，於是就把他放了。",
+            "textSimplified": "狮子斜着眼睛看了看可怜巴巴的小老鼠，觉得吃了他还不够塞牙缝呢，于是就把他放了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 60480,
+            "endMs": 65064,
+            "text": "過了幾天，獅子不小心掉進了獵人的陷阱。",
+            "textSimplified": "过了几天，狮子不小心掉进了猎人的陷阱。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 65064,
+            "endMs": 72576,
+            "text": "獵人想將獅子獻給國王，就把他用繩子綑在一棵大樹上，然後去找馬車。",
+            "textSimplified": "猎人想将狮子献给国王，就把他用绳子捆在一棵大树上，然后去找马车。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 72576,
+            "endMs": 78576,
+            "text": "獅子用盡了全力拼命掙扎，還是無法逃脫，他惱怒極了。",
+            "textSimplified": "狮子用尽了全力拼命挣扎，还是无法逃脱，他恼怒极了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 78576,
+            "endMs": 84240,
+            "text": "小老鼠剛好路過，他聽到獅子的吼聲，急忙跑了過來。",
+            "textSimplified": "小老鼠刚好路过，他听到狮子的吼声，急忙跑了过来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 84240,
+            "endMs": 88584,
+            "text": "小老鼠一邊安慰獅子，一邊撕咬繩子。",
+            "textSimplified": "小老鼠一边安慰狮子，一边撕咬绳子。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 88584,
+            "endMs": 93096,
+            "text": "小老鼠不停地咬啊咬，繩子終於被咬斷了。",
+            "textSimplified": "小老鼠不停地咬啊咬，绳子终于被咬断了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 93096,
+            "endMs": 95856,
+            "text": "獅子重新獲得了自由。",
+            "textSimplified": "狮子重新获得了自由。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 95856,
+            "endMs": 99768,
+            "text": "獅子非常真誠地感謝小老鼠救了他。",
+            "textSimplified": "狮子非常真诚地感谢小老鼠救了他。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 99768,
+            "endMs": 108240,
+            "text": "小老鼠聽了，不好意思地說：「如果那天你沒有放過我，今天我怎麼有機會救你呢？」",
+            "textSimplified": "小老鼠听了，不好意思地说：「如果那天你没有放过我，今天我怎么有机会救你呢？」"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter27/b03_ch27_p01_c.mp3",
+        "durationMs": 119760,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8688,
+            "text": "二下 ：獅子和小老鼠（第七十九頁） 一天，一隻大獅子正趴在草地上睡大覺。",
+            "textSimplified": "二下 ：狮子和小老鼠（第七十九页） 一天，一只大狮子正趴在草地上睡大觉。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8688,
+            "endMs": 20568,
+            "text": "這時，一隻淘氣的小老鼠跑了過來，他把獅子的後背當成了滑梯，一會兒爬上，一會兒滑下來，玩得非常高興。",
+            "textSimplified": "这时，一只淘气的小老鼠跑了过来，他把狮子的后背当成了滑梯，一会儿爬上，一会儿滑下来，玩得非常高兴。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 20568,
+            "endMs": 24528,
+            "text": "獅子很快就被小老鼠吵醒了。",
+            "textSimplified": "狮子很快就被小老鼠吵醒了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 24528,
+            "endMs": 28776,
+            "text": "他一把將小老鼠從背上抓了下來。",
+            "textSimplified": "他一把将小老鼠从背上抓了下来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 28776,
+            "endMs": 41832,
+            "text": "小老鼠害怕極了，他用發抖的聲音哀求說：「尊敬的獅子大王，我不是有意要冒犯你的，請你放了我吧，以後我一定會好好報答你的。」",
+            "textSimplified": "小老鼠害怕极了，他用发抖的声音哀求说：「尊敬的狮子大王，我不是有意要冒犯你的，请你放了我吧，以后我一定会好好报答你的。」"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 41832,
+            "endMs": 47904,
+            "text": "獅子覺得很好笑，他看了看小老鼠，說：「哈哈！",
+            "textSimplified": "狮子觉得很好笑，他看了看小老鼠，说：「哈哈！"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 47904,
+            "endMs": 52176,
+            "text": "你一隻小小的老鼠能幫我什麼忙呢？",
+            "textSimplified": "你一只小小的老鼠能帮我什么忙呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 52176,
+            "endMs": 56760,
+            "text": "還想報答我，我看算了吧。」",
+            "textSimplified": "还想报答我，我看算了吧。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 56760,
+            "endMs": 66024,
+            "text": "獅子斜着眼睛看了看可憐巴巴的小老鼠，覺得喫了他還不夠塞牙縫呢，於是就把他放了。",
+            "textSimplified": "狮子斜着眼睛看了看可怜巴巴的小老鼠，觉得吃了他还不够塞牙缝呢，于是就把他放了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 66024,
+            "endMs": 71088,
+            "text": "過了幾天，獅子不小心掉進了獵人的陷阱。",
+            "textSimplified": "过了几天，狮子不小心掉进了猎人的陷阱。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 71088,
+            "endMs": 79128,
+            "text": "獵人想將獅子獻給國王，就把他用繩子綑在一棵大樹上，然後去找馬車。",
+            "textSimplified": "猎人想将狮子献给国王，就把他用绳子捆在一棵大树上，然后去找马车。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 79128,
+            "endMs": 85608,
+            "text": "獅子用盡了全力拼命掙扎，還是無法逃脫，他惱怒極了。",
+            "textSimplified": "狮子用尽了全力拼命挣扎，还是无法逃脱，他恼怒极了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 85608,
+            "endMs": 92136,
+            "text": "小老鼠剛好路過，他聽到獅子的吼聲，急忙跑了過來。",
+            "textSimplified": "小老鼠刚好路过，他听到狮子的吼声，急忙跑了过来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 92136,
+            "endMs": 97248,
+            "text": "小老鼠一邊安慰獅子，一邊撕咬繩子。",
+            "textSimplified": "小老鼠一边安慰狮子，一边撕咬绳子。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 97248,
+            "endMs": 102624,
+            "text": "小老鼠不停地咬啊咬，繩子終於被咬斷了。",
+            "textSimplified": "小老鼠不停地咬啊咬，绳子终于被咬断了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 102624,
+            "endMs": 105816,
+            "text": "獅子重新獲得了自由。",
+            "textSimplified": "狮子重新获得了自由。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 105816,
+            "endMs": 110520,
+            "text": "獅子非常真誠地感謝小老鼠救了他。",
+            "textSimplified": "狮子非常真诚地感谢小老鼠救了他。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 110520,
+            "endMs": 119760,
+            "text": "小老鼠聽了，不好意思地說：「如果那天你沒有放過我，今天我怎麼有機會救你呢？」",
+            "textSimplified": "小老鼠听了，不好意思地说：「如果那天你没有放过我，今天我怎么有机会救你呢？」"
+          }
+        ]
+      }
+    }
+  ]
+}

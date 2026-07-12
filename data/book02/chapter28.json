@@ -1,0 +1,774 @@
+{
+  "bookId": "02",
+  "chapterId": "28",
+  "chapterTitle": "迷人的「東方之珠」",
+  "chapterTitleSimplified": "迷人的「东方之珠」",
+  "passages": [
+    "二上：迷人的「東方之珠」（第八十二頁）\n\n我生活的城市——香港，它位於廣東省的南部，是中國通向世界的南大門。這裏的景色非常迷人，有繁華的街道、著名的公園，還有迷人的沙灘。\n\n銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。\n\n香港的海洋公園舉世聞名。在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。你看，在碧波盪漾的水面上，幾隻海豚和海獅正在表演節目。牠們有的頂球，有的轉圈，有的嬉戲跳躍，逗得遊客們哈哈大笑，連連叫好。\n\n淺水灣是香港著名的旅遊度假勝地，這裏浪平沙細，陽光和煦。每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。\n\n香港的夜景也十分美麗，每當夜幕降臨，便可以看到萬家燈火的繁華景色，整個香港頓時變成了一片璀璨的燈海，恍如黑夜中的明珠，香港因而也被稱為「東方之珠」。\n\n這就是迷人的香港，我深深地愛着它。"
+  ],
+  "passagesSimplified": [
+    "二上：迷人的「东方之珠」（第八十二页）\n\n我生活的城市——香港，它位于广东省的南部，是中国通向世界的南大门。这里的景色非常迷人，有繁华的街道、著名的公园，还有迷人的沙滩。\n\n铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。\n\n香港的海洋公园举世闻名。在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。你看，在碧波荡漾的水面上，几只海豚和海狮正在表演节目。牠们有的顶球，有的转圈，有的嬉戏跳跃，逗得游客们哈哈大笑，连连叫好。\n\n浅水湾是香港著名的旅游度假胜地，这里浪平沙细，阳光和煦。每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。\n\n香港的夜景也十分美丽，每当夜幕降临，便可以看到万家灯火的繁华景色，整个香港顿时变成了一片璀璨的灯海，恍如黑夜中的明珠，香港因而也被称为「东方之珠」。\n\n这就是迷人的香港，我深深地爱着它。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch28_w001",
+      "traditional": "廣東省",
+      "simplified": "广东省",
+      "english": "Guangdong Province",
+      "pinyin": "guǎng dōng shěng",
+      "contextSentence": "我生活的城市——香港，它位於廣東省的南部，是中國通向世界的南大門。",
+      "contextSentenceSimplified": "我生活的城市——香港，它位于广东省的南部，是中国通向世界的南大门。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w002",
+      "traditional": "繁華",
+      "simplified": "繁华",
+      "english": "bustling",
+      "pinyin": "fán huá",
+      "contextSentence": "這裏的景色非常迷人，有繁華的街道、著名的公園，還有迷人的沙灘。",
+      "contextSentenceSimplified": "这里的景色非常迷人，有繁华的街道、著名的公园，还有迷人的沙滩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w003",
+      "traditional": "銅鑼灣",
+      "simplified": "铜锣湾",
+      "english": "Causeway Bay",
+      "pinyin": "tóng luó wān",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w004",
+      "traditional": "鬧市",
+      "simplified": "闹市",
+      "english": "busy market",
+      "pinyin": "nào shì",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w005",
+      "traditional": "摩天大樓",
+      "simplified": "摩天大楼",
+      "english": "skyscraper",
+      "pinyin": "mó tiān dà lóu",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w006",
+      "traditional": "鱗次櫛比",
+      "simplified": "鳞次栉比",
+      "english": "closely packed",
+      "pinyin": "lín cì zhì bǐ",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w007",
+      "traditional": "隨處可見",
+      "simplified": "随处可见",
+      "english": "everywhere",
+      "pinyin": "suí chù kě jiàn",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w008",
+      "traditional": "寬闊",
+      "simplified": "宽阔",
+      "english": "vast",
+      "pinyin": "kuān kuò",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w009",
+      "traditional": "人流如潮",
+      "simplified": "人流如潮",
+      "english": "crowds like a tide",
+      "pinyin": "rén liú rú cháo",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w010",
+      "traditional": "購物者",
+      "simplified": "购物者",
+      "english": "shoppers",
+      "pinyin": "gòu wù zhě",
+      "contextSentence": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+      "contextSentenceSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w011",
+      "traditional": "舉世聞名",
+      "simplified": "举世闻名",
+      "english": "world-famous",
+      "pinyin": "jǔ shì wén míng",
+      "contextSentence": "香港的海洋公園舉世聞名。",
+      "contextSentenceSimplified": "香港的海洋公园举世闻名。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w012",
+      "traditional": "海洋劇場",
+      "simplified": "海洋剧场",
+      "english": "ocean theater",
+      "pinyin": "hǎi yáng jù chǎng",
+      "contextSentence": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+      "contextSentenceSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w013",
+      "traditional": "興高采烈",
+      "simplified": "兴高采烈",
+      "english": "in high spirits",
+      "pinyin": "xìng gāo cǎi liè",
+      "contextSentence": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+      "contextSentenceSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w014",
+      "traditional": "觀賞",
+      "simplified": "观赏",
+      "english": "admire",
+      "pinyin": "guān shǎng",
+      "contextSentence": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+      "contextSentenceSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w015",
+      "traditional": "海豚",
+      "simplified": "海豚",
+      "english": "dolphin",
+      "pinyin": "hǎi tún",
+      "contextSentence": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+      "contextSentenceSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w016",
+      "traditional": "海獅",
+      "simplified": "海狮",
+      "english": "sea lion",
+      "pinyin": "hǎi shī",
+      "contextSentence": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+      "contextSentenceSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w017",
+      "traditional": "精彩表演",
+      "simplified": "精彩表演",
+      "english": "wonderful performance",
+      "pinyin": "jīng cǎi biǎo yǎn",
+      "contextSentence": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+      "contextSentenceSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w018",
+      "traditional": "碧波盪漾",
+      "simplified": "碧波荡漾",
+      "english": "rippling blue waves",
+      "pinyin": "bì bō dàng yàng",
+      "contextSentence": "你看，在碧波盪漾的水面上，幾隻海豚和海獅正在表演節目。",
+      "contextSentenceSimplified": "你看，在碧波荡漾的水面上，几只海豚和海狮正在表演节目。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w019",
+      "traditional": "頂球",
+      "simplified": "顶球",
+      "english": "balance ball on head",
+      "pinyin": "dǐng qiú",
+      "contextSentence": "牠們有的頂球，有的轉圈，有的嬉戲跳躍，逗得遊客們哈哈大笑，連連叫好。",
+      "contextSentenceSimplified": "牠们有的顶球，有的转圈，有的嬉戏跳跃，逗得游客们哈哈大笑，连连叫好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w020",
+      "traditional": "嬉戲跳躍",
+      "simplified": "嬉戏跳跃",
+      "english": "play and jump",
+      "pinyin": "xī xì tiào yuè",
+      "contextSentence": "牠們有的頂球，有的轉圈，有的嬉戲跳躍，逗得遊客們哈哈大笑，連連叫好。",
+      "contextSentenceSimplified": "牠们有的顶球，有的转圈，有的嬉戏跳跃，逗得游客们哈哈大笑，连连叫好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w021",
+      "traditional": "度假勝地",
+      "simplified": "度假胜地",
+      "english": "resort",
+      "pinyin": "dù jià shèng dì",
+      "contextSentence": "淺水灣是香港著名的旅遊度假勝地，這裏浪平沙細，陽光和煦。",
+      "contextSentenceSimplified": "浅水湾是香港著名的旅游度假胜地，这里浪平沙细，阳光和煦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w022",
+      "traditional": "陽光和煦",
+      "simplified": "阳光和煦",
+      "english": "gentle sunlight",
+      "pinyin": "yáng guāng hé xù",
+      "contextSentence": "淺水灣是香港著名的旅遊度假勝地，這裏浪平沙細，陽光和煦。",
+      "contextSentenceSimplified": "浅水湾是香港著名的旅游度假胜地，这里浪平沙细，阳光和煦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w023",
+      "traditional": "沐浴",
+      "simplified": "沐浴",
+      "english": "bathe in",
+      "pinyin": "mù yù",
+      "contextSentence": "每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。",
+      "contextSentenceSimplified": "每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w024",
+      "traditional": "傾聽",
+      "simplified": "倾听",
+      "english": "listen attentively",
+      "pinyin": "qīng tīng",
+      "contextSentence": "每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。",
+      "contextSentenceSimplified": "每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w024_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w024_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w025",
+      "traditional": "海濤拍岸",
+      "simplified": "海涛拍岸",
+      "english": "waves crash on shore",
+      "pinyin": "hǎi tāo pāi àn",
+      "contextSentence": "每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。",
+      "contextSentenceSimplified": "每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w025_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w025_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w026",
+      "traditional": "愜意",
+      "simplified": "惬意",
+      "english": "comfortable",
+      "pinyin": "qiè yì",
+      "contextSentence": "每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。",
+      "contextSentenceSimplified": "每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w026_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w026_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w027",
+      "traditional": "夜幕降臨",
+      "simplified": "夜幕降临",
+      "english": "night falls",
+      "pinyin": "yè mù jiàng lín",
+      "contextSentence": "香港的夜景也十分美麗，每當夜幕降臨，便可以看到萬家燈火的繁華景色，整個香港頓時變成了一片璀璨的燈海，恍如黑夜中的明珠，香港因而也被稱為「東方之珠」。",
+      "contextSentenceSimplified": "香港的夜景也十分美丽，每当夜幕降临，便可以看到万家灯火的繁华景色，整个香港顿时变成了一片璀璨的灯海，恍如黑夜中的明珠，香港因而也被称为「东方之珠」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w027_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w027_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w028",
+      "traditional": "璀璨",
+      "simplified": "璀璨",
+      "english": "bright and brilliant",
+      "pinyin": "cuǐ càn",
+      "contextSentence": "香港的夜景也十分美麗，每當夜幕降臨，便可以看到萬家燈火的繁華景色，整個香港頓時變成了一片璀璨的燈海，恍如黑夜中的明珠，香港因而也被稱為「東方之珠」。",
+      "contextSentenceSimplified": "香港的夜景也十分美丽，每当夜幕降临，便可以看到万家灯火的繁华景色，整个香港顿时变成了一片璀璨的灯海，恍如黑夜中的明珠，香港因而也被称为「东方之珠」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w028_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w028_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch28_w029",
+      "traditional": "恍如",
+      "simplified": "恍如",
+      "english": "as if",
+      "pinyin": "huǎng rú",
+      "contextSentence": "香港的夜景也十分美麗，每當夜幕降臨，便可以看到萬家燈火的繁華景色，整個香港頓時變成了一片璀璨的燈海，恍如黑夜中的明珠，香港因而也被稱為「東方之珠」。",
+      "contextSentenceSimplified": "香港的夜景也十分美丽，每当夜幕降临，便可以看到万家灯火的繁华景色，整个香港顿时变成了一片璀璨的灯海，恍如黑夜中的明珠，香港因而也被称为「东方之珠」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w029_m_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter28/b02_ch28_w029_c_isolated.mp3",
+          "sentence": "audio/book02/chapter28/b02_ch28_w029_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter28/b02_ch28_p01_m.mp3",
+        "durationMs": 101640,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4248,
+            "text": "二上：迷人的「東方之珠」（第八十二頁）",
+            "textSimplified": "二上：迷人的「东方之珠」（第八十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4248,
+            "endMs": 11856,
+            "text": "我生活的城市——香港，它位於廣東省的南部，是中國通向世界的南大門。",
+            "textSimplified": "我生活的城市——香港，它位于广东省的南部，是中国通向世界的南大门。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11856,
+            "endMs": 19032,
+            "text": "這裏的景色非常迷人，有繁華的街道、著名的公園，還有迷人的沙灘。",
+            "textSimplified": "这里的景色非常迷人，有繁华的街道、著名的公园，还有迷人的沙滩。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19032,
+            "endMs": 33144,
+            "text": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+            "textSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 33144,
+            "endMs": 36528,
+            "text": "香港的海洋公園舉世聞名。",
+            "textSimplified": "香港的海洋公园举世闻名。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 36528,
+            "endMs": 46056,
+            "text": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+            "textSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 46056,
+            "endMs": 52920,
+            "text": "你看，在碧波盪漾的水面上，幾隻海豚和海獅正在表演節目。",
+            "textSimplified": "你看，在碧波荡漾的水面上，几只海豚和海狮正在表演节目。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 52920,
+            "endMs": 60984,
+            "text": "牠們有的頂球，有的轉圈，有的嬉戲跳躍，逗得遊客們哈哈大笑，連連叫好。",
+            "textSimplified": "牠们有的顶球，有的转圈，有的嬉戏跳跃，逗得游客们哈哈大笑，连连叫好。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 60984,
+            "endMs": 68256,
+            "text": "淺水灣是香港著名的旅遊度假勝地，這裏浪平沙細，陽光和煦。",
+            "textSimplified": "浅水湾是香港著名的旅游度假胜地，这里浪平沙细，阳光和煦。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 68256,
+            "endMs": 80712,
+            "text": "每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。",
+            "textSimplified": "每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 80712,
+            "endMs": 97512,
+            "text": "香港的夜景也十分美麗，每當夜幕降臨，便可以看到萬家燈火的繁華景色，整個香港頓時變成了一片璀璨的燈海，恍如黑夜中的明珠，香港因而也被稱為「東方之珠」。",
+            "textSimplified": "香港的夜景也十分美丽，每当夜幕降临，便可以看到万家灯火的繁华景色，整个香港顿时变成了一片璀璨的灯海，恍如黑夜中的明珠，香港因而也被称为「东方之珠」。"
+          },
+          {
+            "index": 11,
+            "paragraph": 12,
+            "startMs": 97512,
+            "endMs": 101640,
+            "text": "這就是迷人的香港，我深深地愛着它。",
+            "textSimplified": "这就是迷人的香港，我深深地爱着它。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter28/b02_ch28_p01_c.mp3",
+        "durationMs": 105480,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4872,
+            "text": "二上：迷人的「東方之珠」（第八十二頁）",
+            "textSimplified": "二上：迷人的「东方之珠」（第八十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4872,
+            "endMs": 13080,
+            "text": "我生活的城市——香港，它位於廣東省的南部，是中國通向世界的南大門。",
+            "textSimplified": "我生活的城市——香港，它位于广东省的南部，是中国通向世界的南大门。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 13080,
+            "endMs": 20616,
+            "text": "這裏的景色非常迷人，有繁華的街道、著名的公園，還有迷人的沙灘。",
+            "textSimplified": "这里的景色非常迷人，有繁华的街道、著名的公园，还有迷人的沙滩。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 20616,
+            "endMs": 34560,
+            "text": "銅鑼灣是香港三大鬧市之一，這裏摩天大樓鱗次櫛比，購物中心、高級酒店隨處可見，寬闊的街道上人流如潮，這裏是購物者的天堂。",
+            "textSimplified": "铜锣湾是香港三大闹市之一，这里摩天大楼鳞次栉比，购物中心、高级酒店随处可见，宽阔的街道上人流如潮，这里是购物者的天堂。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 34560,
+            "endMs": 38208,
+            "text": "香港的海洋公園舉世聞名。",
+            "textSimplified": "香港的海洋公园举世闻名。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 38208,
+            "endMs": 48216,
+            "text": "在海洋劇場裏，每天都有來自世界各地的遊客，他們興高采烈地觀賞海豚和海獅的精彩表演。",
+            "textSimplified": "在海洋剧场里，每天都有来自世界各地的游客，他们兴高采烈地观赏海豚和海狮的精彩表演。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 48216,
+            "endMs": 55272,
+            "text": "你看，在碧波盪漾的水面上，幾隻海豚和海獅正在表演節目。",
+            "textSimplified": "你看，在碧波荡漾的水面上，几只海豚和海狮正在表演节目。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 55272,
+            "endMs": 63792,
+            "text": "牠們有的頂球，有的轉圈，有的嬉戲跳躍，逗得遊客們哈哈大笑，連連叫好。",
+            "textSimplified": "牠们有的顶球，有的转圈，有的嬉戏跳跃，逗得游客们哈哈大笑，连连叫好。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 63792,
+            "endMs": 71424,
+            "text": "淺水灣是香港著名的旅遊度假勝地，這裏浪平沙細，陽光和煦。",
+            "textSimplified": "浅水湾是香港著名的旅游度假胜地，这里浪平沙细，阳光和煦。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 71424,
+            "endMs": 84168,
+            "text": "每到節日假期，人們都會結伴來到這裏，漫步在金色的沙灘上，沐浴着輕柔的海風，傾聽着海濤拍岸的聲音，真是愜意極了。",
+            "textSimplified": "每到节日假期，人们都会结伴来到这里，漫步在金色的沙滩上，沐浴着轻柔的海风，倾听着海涛拍岸的声音，真是惬意极了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 84168,
+            "endMs": 100536,
+            "text": "香港的夜景也十分美麗，每當夜幕降臨，便可以看到萬家燈火的繁華景色，整個香港頓時變成了一片璀璨的燈海，恍如黑夜中的明珠，香港因而也被稱為「東方之珠」。",
+            "textSimplified": "香港的夜景也十分美丽，每当夜幕降临，便可以看到万家灯火的繁华景色，整个香港顿时变成了一片璀璨的灯海，恍如黑夜中的明珠，香港因而也被称为「东方之珠」。"
+          },
+          {
+            "index": 11,
+            "paragraph": 12,
+            "startMs": 100536,
+            "endMs": 105480,
+            "text": "這就是迷人的香港，我深深地愛着它。",
+            "textSimplified": "这就是迷人的香港，我深深地爱着它。"
+          }
+        ]
+      }
+    }
+  ]
+}

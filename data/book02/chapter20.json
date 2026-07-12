@@ -1,0 +1,559 @@
+{
+  "bookId": "02",
+  "chapterId": "20",
+  "chapterTitle": "會生金蛋的母雞",
+  "chapterTitleSimplified": "会生金蛋的母鸡",
+  "passages": [
+    "二上：會生金蛋的母雞（第五十二頁）\n\n有一個貧窮的農夫養了一隻母雞。有一天，他去雞窩裏撿雞蛋時，發現母雞竟然生了一隻金蛋。農夫趕緊把好消息告訴妻子，妻子看到金蛋，笑得合不攏嘴。\n\n從此，農夫更加細心地照顧母雞。他在廚房的一角為母雞精心準備了一個雞窩，鋪上了軟軟的乾草。每天晚上，他都會親自把母雞放在窩裏，然後給牠準備一碗清水和一盤最好的米。\n\n每天早上，農夫起牀後第一件事，就是去看看母雞，從雞窩裏撿出一隻熱乎乎、金燦燦的雞蛋。漸漸地，農夫越來越富有了。有一天，妻子對農夫說：「老頭子，一天撿一隻金蛋實在是太慢了，我有個主意，你看，母雞肚子胖乎乎的，裏面一定有許多金蛋，我們乾脆把牠宰了，這樣不就可以一次拿到所有的金蛋嗎？」農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？於是他到廚房拿來刀，把母雞宰了。夫妻倆興沖沖地準備拿金蛋時，卻發現母雞肚子裏空空的，連金蛋的影子都沒有。\n\n農夫癱倒在地上，什麼話也說不出來。"
+  ],
+  "passagesSimplified": [
+    "二上：会生金蛋的母鸡（第五十二页）\n\n有一个贫穷的农夫养了一只母鸡。有一天，他去鸡窝里捡鸡蛋时，发现母鸡竟然生了一只金蛋。农夫赶紧把好消息告诉妻子，妻子看到金蛋，笑得合不拢嘴。\n\n从此，农夫更加细心地照顾母鸡。他在厨房的一角为母鸡精心准备了一个鸡窝，铺上了软软的干草。每天晚上，他都会亲自把母鸡放在窝里，然后给牠准备一碗清水和一盘最好的米。\n\n每天早上，农夫起床后第一件事，就是去看看母鸡，从鸡窝里捡出一只热乎乎、金灿灿的鸡蛋。渐渐地，农夫越来越富有了。有一天，妻子对农夫说：「老头子，一天捡一只金蛋实在是太慢了，我有个主意，你看，母鸡肚子胖乎乎的，里面一定有许多金蛋，我们干脆把牠宰了，这样不就可以一次拿到所有的金蛋吗？」农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？于是他到厨房拿来刀，把母鸡宰了。夫妻俩兴冲冲地准备拿金蛋时，却发现母鸡肚子里空空的，连金蛋的影子都没有。\n\n农夫瘫倒在地上，什么话也说不出来。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch20_w001",
+      "traditional": "貧窮",
+      "simplified": "贫穷",
+      "english": "poverty",
+      "pinyin": "pín qióng",
+      "contextSentence": "有一個貧窮的農夫養了一隻母雞。",
+      "contextSentenceSimplified": "有一个贫穷的农夫养了一只母鸡。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w002",
+      "traditional": "雞窩裏撿雞蛋",
+      "simplified": "鸡窝里捡鸡蛋",
+      "english": "pick eggs in chicken coop",
+      "pinyin": "jī wō lǐ jiǎn jī dàn",
+      "contextSentence": "有一天，他去雞窩裏撿雞蛋時，發現母雞竟然生了一隻金蛋。",
+      "contextSentenceSimplified": "有一天，他去鸡窝里捡鸡蛋时，发现母鸡竟然生了一只金蛋。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w003",
+      "traditional": "廚房",
+      "simplified": "厨房",
+      "english": "kitchen",
+      "pinyin": "chú fáng",
+      "contextSentence": "他在廚房的一角為母雞精心準備了一個雞窩，鋪上了軟軟的乾草。",
+      "contextSentenceSimplified": "他在厨房的一角为母鸡精心准备了一个鸡窝，铺上了软软的干草。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w004",
+      "traditional": "鋪上",
+      "simplified": "铺上",
+      "english": "spread on",
+      "pinyin": "pù shàng",
+      "contextSentence": "他在廚房的一角為母雞精心準備了一個雞窩，鋪上了軟軟的乾草。",
+      "contextSentenceSimplified": "他在厨房的一角为母鸡精心准备了一个鸡窝，铺上了软软的干草。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w005",
+      "traditional": "熱乎乎",
+      "simplified": "热乎乎",
+      "english": "warm",
+      "pinyin": "rè hū hū",
+      "contextSentence": "每天早上，農夫起牀後第一件事，就是去看看母雞，從雞窩裏撿出一隻熱乎乎、金燦燦的雞蛋。",
+      "contextSentenceSimplified": "每天早上，农夫起床后第一件事，就是去看看母鸡，从鸡窝里捡出一只热乎乎、金灿灿的鸡蛋。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w006",
+      "traditional": "富有",
+      "simplified": "富有",
+      "english": "wealthy",
+      "pinyin": "fù yǒu",
+      "contextSentence": "漸漸地，農夫越來越富有了。",
+      "contextSentenceSimplified": "渐渐地，农夫越来越富有了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w007",
+      "traditional": "乾脆",
+      "simplified": "干脆",
+      "english": "simply and directly",
+      "pinyin": "qián cuì",
+      "contextSentence": "有一天，妻子對農夫說：「老頭子，一天撿一隻金蛋實在是太慢了，我有個主意，你看，母雞肚子胖乎乎的，裏面一定有許多金蛋，我們乾脆把牠宰了，這樣不就可以一次拿到所有的金蛋嗎？",
+      "contextSentenceSimplified": "有一天，妻子对农夫说：「老头子，一天捡一只金蛋实在是太慢了，我有个主意，你看，母鸡肚子胖乎乎的，里面一定有许多金蛋，我们干脆把牠宰了，这样不就可以一次拿到所有的金蛋吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w008",
+      "traditional": "宰了",
+      "simplified": "宰了",
+      "english": "slaughter",
+      "pinyin": "zǎi le",
+      "contextSentence": "有一天，妻子對農夫說：「老頭子，一天撿一隻金蛋實在是太慢了，我有個主意，你看，母雞肚子胖乎乎的，裏面一定有許多金蛋，我們乾脆把牠宰了，這樣不就可以一次拿到所有的金蛋嗎？",
+      "contextSentenceSimplified": "有一天，妻子对农夫说：「老头子，一天捡一只金蛋实在是太慢了，我有个主意，你看，母鸡肚子胖乎乎的，里面一定有许多金蛋，我们干脆把牠宰了，这样不就可以一次拿到所有的金蛋吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w009",
+      "traditional": "猶豫",
+      "simplified": "犹豫",
+      "english": "hesitate",
+      "pinyin": "yóu yù",
+      "contextSentence": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+      "contextSentenceSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w010",
+      "traditional": "對待",
+      "simplified": "对待",
+      "english": "treat",
+      "pinyin": "duì dài",
+      "contextSentence": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+      "contextSentenceSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w011",
+      "traditional": "殘忍",
+      "simplified": "残忍",
+      "english": "cruel",
+      "pinyin": "cán rěn",
+      "contextSentence": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+      "contextSentenceSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w012",
+      "traditional": "一大堆",
+      "simplified": "一大堆",
+      "english": "a huge pile",
+      "pinyin": "yī dà duī",
+      "contextSentence": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+      "contextSentenceSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w013",
+      "traditional": "發財",
+      "simplified": "发财",
+      "english": "get rich",
+      "pinyin": "fā cái",
+      "contextSentence": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+      "contextSentenceSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w014",
+      "traditional": "夫妻倆",
+      "simplified": "夫妻俩",
+      "english": "the couple",
+      "pinyin": "fū qī liǎ",
+      "contextSentence": "夫妻倆興沖沖地準備拿金蛋時，卻發現母雞肚子裏空空的，連金蛋的影子都沒有。",
+      "contextSentenceSimplified": "夫妻俩兴冲冲地准备拿金蛋时，却发现母鸡肚子里空空的，连金蛋的影子都没有。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w015",
+      "traditional": "興沖沖",
+      "simplified": "兴冲冲",
+      "english": "excitedly",
+      "pinyin": "xìng chōng chōng",
+      "contextSentence": "夫妻倆興沖沖地準備拿金蛋時，卻發現母雞肚子裏空空的，連金蛋的影子都沒有。",
+      "contextSentenceSimplified": "夫妻俩兴冲冲地准备拿金蛋时，却发现母鸡肚子里空空的，连金蛋的影子都没有。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch20_w016",
+      "traditional": "癱倒",
+      "simplified": "瘫倒",
+      "english": "collapse",
+      "pinyin": "tān dào",
+      "contextSentence": "農夫癱倒在地上，什麼話也說不出來。",
+      "contextSentenceSimplified": "农夫瘫倒在地上，什么话也说不出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter20/b02_ch20_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter20/b02_ch20_w016_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter20/b02_ch20_p01_m.mp3",
+        "durationMs": 101640,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4344,
+            "text": "二上：會生金蛋的母雞（第五十二頁）",
+            "textSimplified": "二上：会生金蛋的母鸡（第五十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4344,
+            "endMs": 8040,
+            "text": "有一個貧窮的農夫養了一隻母雞。",
+            "textSimplified": "有一个贫穷的农夫养了一只母鸡。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8040,
+            "endMs": 14520,
+            "text": "有一天，他去雞窩裏撿雞蛋時，發現母雞竟然生了一隻金蛋。",
+            "textSimplified": "有一天，他去鸡窝里捡鸡蛋时，发现母鸡竟然生了一只金蛋。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14520,
+            "endMs": 21240,
+            "text": "農夫趕緊把好消息告訴妻子，妻子看到金蛋，笑得合不攏嘴。",
+            "textSimplified": "农夫赶紧把好消息告诉妻子，妻子看到金蛋，笑得合不拢嘴。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 21240,
+            "endMs": 25344,
+            "text": "從此，農夫更加細心地照顧母雞。",
+            "textSimplified": "从此，农夫更加细心地照顾母鸡。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 25344,
+            "endMs": 32040,
+            "text": "他在廚房的一角為母雞精心準備了一個雞窩，鋪上了軟軟的乾草。",
+            "textSimplified": "他在厨房的一角为母鸡精心准备了一个鸡窝，铺上了软软的干草。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 32040,
+            "endMs": 40896,
+            "text": "每天晚上，他都會親自把母雞放在窩裏，然後給牠準備一碗清水和一盤最好的米。",
+            "textSimplified": "每天晚上，他都会亲自把母鸡放在窝里，然后给牠准备一碗清水和一盘最好的米。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 40896,
+            "endMs": 51192,
+            "text": "每天早上，農夫起牀後第一件事，就是去看看母雞，從雞窩裏撿出一隻熱乎乎、金燦燦的雞蛋。",
+            "textSimplified": "每天早上，农夫起床后第一件事，就是去看看母鸡，从鸡窝里捡出一只热乎乎、金灿灿的鸡蛋。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 51192,
+            "endMs": 54504,
+            "text": "漸漸地，農夫越來越富有了。",
+            "textSimplified": "渐渐地，农夫越来越富有了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 54504,
+            "endMs": 72576,
+            "text": "有一天，妻子對農夫說：「老頭子，一天撿一隻金蛋實在是太慢了，我有個主意，你看，母雞肚子胖乎乎的，裏面一定有許多金蛋，我們乾脆把牠宰了，這樣不就可以一次拿到所有的金蛋嗎？」",
+            "textSimplified": "有一天，妻子对农夫说：「老头子，一天捡一只金蛋实在是太慢了，我有个主意，你看，母鸡肚子胖乎乎的，里面一定有许多金蛋，我们干脆把牠宰了，这样不就可以一次拿到所有的金蛋吗？」"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 72576,
+            "endMs": 84216,
+            "text": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+            "textSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 84216,
+            "endMs": 88488,
+            "text": "於是他到廚房拿來刀，把母雞宰了。",
+            "textSimplified": "于是他到厨房拿来刀，把母鸡宰了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 88488,
+            "endMs": 97320,
+            "text": "夫妻倆興沖沖地準備拿金蛋時，卻發現母雞肚子裏空空的，連金蛋的影子都沒有。",
+            "textSimplified": "夫妻俩兴冲冲地准备拿金蛋时，却发现母鸡肚子里空空的，连金蛋的影子都没有。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 97320,
+            "endMs": 101640,
+            "text": "農夫癱倒在地上，什麼話也說不出來。",
+            "textSimplified": "农夫瘫倒在地上，什么话也说不出来。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter20/b02_ch20_p01_c.mp3",
+        "durationMs": 106296,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4776,
+            "text": "二上：會生金蛋的母雞（第五十二頁）",
+            "textSimplified": "二上：会生金蛋的母鸡（第五十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4776,
+            "endMs": 8880,
+            "text": "有一個貧窮的農夫養了一隻母雞。",
+            "textSimplified": "有一个贫穷的农夫养了一只母鸡。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8880,
+            "endMs": 15768,
+            "text": "有一天，他去雞窩裏撿雞蛋時，發現母雞竟然生了一隻金蛋。",
+            "textSimplified": "有一天，他去鸡窝里捡鸡蛋时，发现母鸡竟然生了一只金蛋。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 15768,
+            "endMs": 22848,
+            "text": "農夫趕緊把好消息告訴妻子，妻子看到金蛋，笑得合不攏嘴。",
+            "textSimplified": "农夫赶紧把好消息告诉妻子，妻子看到金蛋，笑得合不拢嘴。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 22848,
+            "endMs": 27648,
+            "text": "從此，農夫更加細心地照顧母雞。",
+            "textSimplified": "从此，农夫更加细心地照顾母鸡。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 27648,
+            "endMs": 34728,
+            "text": "他在廚房的一角為母雞精心準備了一個雞窩，鋪上了軟軟的乾草。",
+            "textSimplified": "他在厨房的一角为母鸡精心准备了一个鸡窝，铺上了软软的干草。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 34728,
+            "endMs": 43416,
+            "text": "每天晚上，他都會親自把母雞放在窩裏，然後給牠準備一碗清水和一盤最好的米。",
+            "textSimplified": "每天晚上，他都会亲自把母鸡放在窝里，然后给牠准备一碗清水和一盘最好的米。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 43416,
+            "endMs": 53592,
+            "text": "每天早上，農夫起牀後第一件事，就是去看看母雞，從雞窩裏撿出一隻熱乎乎、金燦燦的雞蛋。",
+            "textSimplified": "每天早上，农夫起床后第一件事，就是去看看母鸡，从鸡窝里捡出一只热乎乎、金灿灿的鸡蛋。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 53592,
+            "endMs": 57744,
+            "text": "漸漸地，農夫越來越富有了。",
+            "textSimplified": "渐渐地，农夫越来越富有了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 57744,
+            "endMs": 76968,
+            "text": "有一天，妻子對農夫說：「老頭子，一天撿一隻金蛋實在是太慢了，我有個主意，你看，母雞肚子胖乎乎的，裏面一定有許多金蛋，我們乾脆把牠宰了，這樣不就可以一次拿到所有的金蛋嗎？」",
+            "textSimplified": "有一天，妻子对农夫说：「老头子，一天捡一只金蛋实在是太慢了，我有个主意，你看，母鸡肚子胖乎乎的，里面一定有许多金蛋，我们干脆把牠宰了，这样不就可以一次拿到所有的金蛋吗？」"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 76968,
+            "endMs": 88368,
+            "text": "農夫聽了心裏有些猶豫，這樣對待母雞好像太殘忍了，可他轉念一想，如果得到一大堆金蛋自己不就發財了嗎？",
+            "textSimplified": "农夫听了心里有些犹豫，这样对待母鸡好像太残忍了，可他转念一想，如果得到一大堆金蛋自己不就发财了吗？"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 88368,
+            "endMs": 93072,
+            "text": "於是他到廚房拿來刀，把母雞宰了。",
+            "textSimplified": "于是他到厨房拿来刀，把母鸡宰了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 93072,
+            "endMs": 101664,
+            "text": "夫妻倆興沖沖地準備拿金蛋時，卻發現母雞肚子裏空空的，連金蛋的影子都沒有。",
+            "textSimplified": "夫妻俩兴冲冲地准备拿金蛋时，却发现母鸡肚子里空空的，连金蛋的影子都没有。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 101664,
+            "endMs": 106296,
+            "text": "農夫癱倒在地上，什麼話也說不出來。",
+            "textSimplified": "农夫瘫倒在地上，什么话也说不出来。"
+          }
+        ]
+      }
+    }
+  ]
+}

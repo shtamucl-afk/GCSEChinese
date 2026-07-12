@@ -1,0 +1,787 @@
+{
+  "bookId": "03",
+  "chapterId": "12",
+  "chapterTitle": "爺爺家的榕樹",
+  "chapterTitleSimplified": "爷爷家的榕树",
+  "passages": [
+    "二下 ：爺爺家的榕樹（第四十二頁） 在爺爺的家鄉潮汕鄉下有一棵大榕樹，聽說它已經有一百多歲了，真是一位高齡的榕樹爺爺啊。 去年暑假，我第一次見到了這棵百年老樹。遠遠望去，榕樹真高啊！足足有兩層樓房那麼高。它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。走到近處一看，一片片的榕樹葉子長得密密麻麻，非常茂盛，彷彿成千上萬個小綠娃娃擠在媽媽的懷抱裏。在陽光的照射下，綠綠的葉子隨風點點頭，好像在對我說：『歡迎你啊，小客人。榕樹的樹幹是深褐色的，蒼勁挺拔，要兩三個小朋友手拉手才能把它合抱住。枝幹上長着許多鬚根，一根根垂下來，就像老爺爺的鬍鬚。站在榕樹底下，陣陣清風吹來，真舒服啊。 每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！ 聽爺爺說，到了冬天，其他樹都變得光禿禿了，只有大榕樹的葉子還是翠綠的。 我喜歡這棵粗壯挺拔的大榕樹，因為它給人們送上了蔭涼，帶給人們快樂和歡笑。"
+  ],
+  "passagesSimplified": [
+    "二下 ：爷爷家的榕树（第四十二页） 在爷爷的家乡潮汕乡下有一棵大榕树，听说它已经有一百多岁了，真是一位高龄的榕树爷爷啊。 去年暑假，我第一次见到了这棵百年老树。远远望去，榕树真高啊！足足有两层楼房那么高。它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。走到近处一看，一片片的榕树叶子长得密密麻麻，非常茂盛，仿佛成千上万个小绿娃娃挤在妈妈的怀抱里。在阳光的照射下，绿绿的叶子随风点点头，好像在对我说：『欢迎你啊，小客人。榕树的树干是深褐色的，苍劲挺拔，要两三个小朋友手拉手才能把它合抱住。枝干上长着许多须根，一根根垂下来，就像老爷爷的胡须。站在榕树底下，阵阵清风吹来，真舒服啊。 每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！ 听爷爷说，到了冬天，其他树都变得光秃秃了，只有大榕树的叶子还是翠绿的。 我喜欢这棵粗壮挺拔的大榕树，因为它给人们送上了荫凉，带给人们快乐和欢笑。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch12_w001",
+      "traditional": "潮汕",
+      "simplified": "潮汕",
+      "english": "Chaoshan (region in Guangdong)",
+      "pinyin": "cháo shàn",
+      "contextSentence": "在爺爺的家鄉潮汕鄉下有一棵大榕樹，聽說它已經有一百多歲了，真是一位高齡的榕樹爺爺啊。",
+      "contextSentenceSimplified": "在爷爷的家乡潮汕乡下有一棵大榕树，听说它已经有一百多岁了，真是一位高龄的榕树爷爷啊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w002",
+      "traditional": "鄉下",
+      "simplified": "乡下",
+      "english": "countryside / rural area",
+      "pinyin": "xiāng xià",
+      "contextSentence": "在爺爺的家鄉潮汕鄉下有一棵大榕樹，聽說它已經有一百多歲了，真是一位高齡的榕樹爺爺啊。",
+      "contextSentenceSimplified": "在爷爷的家乡潮汕乡下有一棵大榕树，听说它已经有一百多岁了，真是一位高龄的榕树爷爷啊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w003",
+      "traditional": "高齡",
+      "simplified": "高龄",
+      "english": "advanced age / elderly",
+      "pinyin": "gāo líng",
+      "contextSentence": "在爺爺的家鄉潮汕鄉下有一棵大榕樹，聽說它已經有一百多歲了，真是一位高齡的榕樹爺爺啊。",
+      "contextSentenceSimplified": "在爷爷的家乡潮汕乡下有一棵大榕树，听说它已经有一百多岁了，真是一位高龄的榕树爷爷啊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w004",
+      "traditional": "枝葉",
+      "simplified": "枝叶",
+      "english": "branches and leaves",
+      "pinyin": "zhī yè",
+      "contextSentence": "它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。",
+      "contextSentenceSimplified": "它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w005",
+      "traditional": "伸展開去",
+      "simplified": "伸展开去",
+      "english": "stretch out / extend",
+      "pinyin": "shēn zhǎn kāi qù",
+      "contextSentence": "它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。",
+      "contextSentenceSimplified": "它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w006",
+      "traditional": "帳篷",
+      "simplified": "帐篷",
+      "english": "tent",
+      "pinyin": "zhàng péng",
+      "contextSentence": "它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。",
+      "contextSentenceSimplified": "它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w007",
+      "traditional": "遮天蔽日",
+      "simplified": "遮天蔽日",
+      "english": "block the sky and sun / vast",
+      "pinyin": "zhē tiān bì rì",
+      "contextSentence": "它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。",
+      "contextSentenceSimplified": "它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w008",
+      "traditional": "密密麻麻",
+      "simplified": "密密麻麻",
+      "english": "dense and crowded",
+      "pinyin": "mì mì má má",
+      "contextSentence": "走到近處一看，一片片的榕樹葉子長得密密麻麻，非常茂盛，彷彿成千上萬個小綠娃娃擠在媽媽的懷抱裏。",
+      "contextSentenceSimplified": "走到近处一看，一片片的榕树叶子长得密密麻麻，非常茂盛，仿佛成千上万个小绿娃娃挤在妈妈的怀抱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w009",
+      "traditional": "茂盛",
+      "simplified": "茂盛",
+      "english": "lush / luxuriant (plants)",
+      "pinyin": "mào shèng",
+      "contextSentence": "走到近處一看，一片片的榕樹葉子長得密密麻麻，非常茂盛，彷彿成千上萬個小綠娃娃擠在媽媽的懷抱裏。",
+      "contextSentenceSimplified": "走到近处一看，一片片的榕树叶子长得密密麻麻，非常茂盛，仿佛成千上万个小绿娃娃挤在妈妈的怀抱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w010",
+      "traditional": "成千上萬",
+      "simplified": "成千上万",
+      "english": "thousands upon thousands",
+      "pinyin": "chéng qiān shàng wàn",
+      "contextSentence": "走到近處一看，一片片的榕樹葉子長得密密麻麻，非常茂盛，彷彿成千上萬個小綠娃娃擠在媽媽的懷抱裏。",
+      "contextSentenceSimplified": "走到近处一看，一片片的榕树叶子长得密密麻麻，非常茂盛，仿佛成千上万个小绿娃娃挤在妈妈的怀抱里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w011",
+      "traditional": "照射",
+      "simplified": "照射",
+      "english": "to shine / irradiate",
+      "pinyin": "zhào shè",
+      "contextSentence": "在陽光的照射下，綠綠的葉子隨風點點頭，好像在對我說：『歡迎你啊，小客人。",
+      "contextSentenceSimplified": "在阳光的照射下，绿绿的叶子随风点点头，好像在对我说：『欢迎你啊，小客人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w012",
+      "traditional": "深褐色",
+      "simplified": "深褐色",
+      "english": "dark brown",
+      "pinyin": "shēn hè sè",
+      "contextSentence": "榕樹的樹幹是深褐色的，蒼勁挺拔，要兩三個小朋友手拉手才能把它合抱住。",
+      "contextSentenceSimplified": "榕树的树干是深褐色的，苍劲挺拔，要两三个小朋友手拉手才能把它合抱住。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w013",
+      "traditional": "蒼勁挺拔",
+      "simplified": "苍劲挺拔",
+      "english": "vigorous and upright (trees)",
+      "pinyin": "cāng jìn tǐng bá",
+      "contextSentence": "榕樹的樹幹是深褐色的，蒼勁挺拔，要兩三個小朋友手拉手才能把它合抱住。",
+      "contextSentenceSimplified": "榕树的树干是深褐色的，苍劲挺拔，要两三个小朋友手拉手才能把它合抱住。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w014",
+      "traditional": "枝幹",
+      "simplified": "枝干",
+      "english": "branches and trunk",
+      "pinyin": "zhī gàn",
+      "contextSentence": "枝幹上長着許多鬚根，一根根垂下來，就像老爺爺的鬍鬚。",
+      "contextSentenceSimplified": "枝干上长着许多须根，一根根垂下来，就像老爷爷的胡须。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w015",
+      "traditional": "鬚根",
+      "simplified": "须根",
+      "english": "root of whiskers/beard",
+      "pinyin": "xū gēn",
+      "contextSentence": "枝幹上長着許多鬚根，一根根垂下來，就像老爺爺的鬍鬚。",
+      "contextSentenceSimplified": "枝干上长着许多须根，一根根垂下来，就像老爷爷的胡须。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w016",
+      "traditional": "垂下來",
+      "simplified": "垂下来",
+      "english": "hang down / droop",
+      "pinyin": "chuí xià lái",
+      "contextSentence": "枝幹上長着許多鬚根，一根根垂下來，就像老爺爺的鬍鬚。",
+      "contextSentenceSimplified": "枝干上长着许多须根，一根根垂下来，就像老爷爷的胡须。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w017",
+      "traditional": "乘涼",
+      "simplified": "乘凉",
+      "english": "to enjoy the cool shade",
+      "pinyin": "chéng liáng",
+      "contextSentence": "每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。",
+      "contextSentenceSimplified": "每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w018",
+      "traditional": "下象棋",
+      "simplified": "下象棋",
+      "english": "to play Chinese chess",
+      "pinyin": "xià xiàng qí",
+      "contextSentence": "每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。",
+      "contextSentenceSimplified": "每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w019",
+      "traditional": "拉二胡",
+      "simplified": "拉二胡",
+      "english": "to play the erhu (Chinese fiddle)",
+      "pinyin": "lā èr hú",
+      "contextSentence": "每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。",
+      "contextSentenceSimplified": "每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w020",
+      "traditional": "別提多熱鬧了",
+      "simplified": "别提多热闹了",
+      "english": "it was so lively (can't describe)",
+      "pinyin": "bié tí duō rè nào le",
+      "contextSentence": "每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。",
+      "contextSentenceSimplified": "每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w021",
+      "traditional": "三三兩兩",
+      "simplified": "三三两两",
+      "english": "in small groups of two or three",
+      "pinyin": "sān sān liǎng liǎng",
+      "contextSentence": "三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！",
+      "contextSentenceSimplified": "三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w022",
+      "traditional": "捉迷藏",
+      "simplified": "捉迷藏",
+      "english": "hide-and-seek",
+      "pinyin": "zhuō mí cáng",
+      "contextSentence": "三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！",
+      "contextSentenceSimplified": "三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w023",
+      "traditional": "丟沙包",
+      "simplified": "丢沙包",
+      "english": "to play dodgeball / beanbag game",
+      "pinyin": "diū shā bāo",
+      "contextSentence": "三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！",
+      "contextSentenceSimplified": "三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w024",
+      "traditional": "跳飛機",
+      "simplified": "跳飞机",
+      "english": "hopscotch",
+      "pinyin": "tiào fēi jī",
+      "contextSentence": "三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！",
+      "contextSentenceSimplified": "三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w025",
+      "traditional": "光禿禿",
+      "simplified": "光秃秃",
+      "english": "bare / bald / barren",
+      "pinyin": "guāng tū tū",
+      "contextSentence": "聽爺爺說，到了冬天，其他樹都變得光禿禿了，只有大榕樹的葉子還是翠綠的。",
+      "contextSentenceSimplified": "听爷爷说，到了冬天，其他树都变得光秃秃了，只有大榕树的叶子还是翠绿的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w026",
+      "traditional": "翠綠",
+      "simplified": "翠绿",
+      "english": "emerald green / lush green",
+      "pinyin": "cuì lǜ",
+      "contextSentence": "聽爺爺說，到了冬天，其他樹都變得光禿禿了，只有大榕樹的葉子還是翠綠的。",
+      "contextSentenceSimplified": "听爷爷说，到了冬天，其他树都变得光秃秃了，只有大榕树的叶子还是翠绿的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w027",
+      "traditional": "粗壯挺拔",
+      "simplified": "粗壮挺拔",
+      "english": "sturdy and tall / robust",
+      "pinyin": "cū zhuàng tǐng bá",
+      "contextSentence": "我喜歡這棵粗壯挺拔的大榕樹，因為它給人們送上了蔭涼，帶給人們快樂和歡笑。",
+      "contextSentenceSimplified": "我喜欢这棵粗壮挺拔的大榕树，因为它给人们送上了荫凉，带给人们快乐和欢笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch12_w028",
+      "traditional": "蔭涼",
+      "simplified": "荫凉",
+      "english": "shady and cool",
+      "pinyin": "yīn liáng",
+      "contextSentence": "我喜歡這棵粗壯挺拔的大榕樹，因為它給人們送上了蔭涼，帶給人們快樂和歡笑。",
+      "contextSentenceSimplified": "我喜欢这棵粗壮挺拔的大榕树，因为它给人们送上了荫凉，带给人们快乐和欢笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter12/b03_ch12_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter12/b03_ch12_w028_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter12/b03_ch12_p01_m.mp3",
+        "durationMs": 107664,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 13104,
+            "text": "二下 ：爺爺家的榕樹（第四十二頁） 在爺爺的家鄉潮汕鄉下有一棵大榕樹，聽說它已經有一百多歲了，真是一位高齡的榕樹爺爺啊。",
+            "textSimplified": "二下 ：爷爷家的榕树（第四十二页） 在爷爷的家乡潮汕乡下有一棵大榕树，听说它已经有一百多岁了，真是一位高龄的榕树爷爷啊。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 13104,
+            "endMs": 17640,
+            "text": "去年暑假，我第一次見到了這棵百年老樹。",
+            "textSimplified": "去年暑假，我第一次见到了这棵百年老树。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 17640,
+            "endMs": 20712,
+            "text": "遠遠望去，榕樹真高啊！",
+            "textSimplified": "远远望去，榕树真高啊！"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 20712,
+            "endMs": 23784,
+            "text": "足足有兩層樓房那麼高。",
+            "textSimplified": "足足有两层楼房那么高。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 23784,
+            "endMs": 30792,
+            "text": "它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。",
+            "textSimplified": "它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 30792,
+            "endMs": 41856,
+            "text": "走到近處一看，一片片的榕樹葉子長得密密麻麻，非常茂盛，彷彿成千上萬個小綠娃娃擠在媽媽的懷抱裏。",
+            "textSimplified": "走到近处一看，一片片的榕树叶子长得密密麻麻，非常茂盛，仿佛成千上万个小绿娃娃挤在妈妈的怀抱里。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 41856,
+            "endMs": 50232,
+            "text": "在陽光的照射下，綠綠的葉子隨風點點頭，好像在對我說：『歡迎你啊，小客人。",
+            "textSimplified": "在阳光的照射下，绿绿的叶子随风点点头，好像在对我说：『欢迎你啊，小客人。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 50232,
+            "endMs": 58416,
+            "text": "榕樹的樹幹是深褐色的，蒼勁挺拔，要兩三個小朋友手拉手才能把它合抱住。",
+            "textSimplified": "榕树的树干是深褐色的，苍劲挺拔，要两三个小朋友手拉手才能把它合抱住。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 58416,
+            "endMs": 64464,
+            "text": "枝幹上長着許多鬚根，一根根垂下來，就像老爺爺的鬍鬚。",
+            "textSimplified": "枝干上长着许多须根，一根根垂下来，就像老爷爷的胡须。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 64464,
+            "endMs": 69360,
+            "text": "站在榕樹底下，陣陣清風吹來，真舒服啊。",
+            "textSimplified": "站在榕树底下，阵阵清风吹来，真舒服啊。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 69360,
+            "endMs": 80904,
+            "text": "每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。",
+            "textSimplified": "每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 80904,
+            "endMs": 91392,
+            "text": "三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！",
+            "textSimplified": "三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 91392,
+            "endMs": 99672,
+            "text": "聽爺爺說，到了冬天，其他樹都變得光禿禿了，只有大榕樹的葉子還是翠綠的。",
+            "textSimplified": "听爷爷说，到了冬天，其他树都变得光秃秃了，只有大榕树的叶子还是翠绿的。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 99672,
+            "endMs": 107664,
+            "text": "我喜歡這棵粗壯挺拔的大榕樹，因為它給人們送上了蔭涼，帶給人們快樂和歡笑。",
+            "textSimplified": "我喜欢这棵粗壮挺拔的大榕树，因为它给人们送上了荫凉，带给人们快乐和欢笑。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter12/b03_ch12_p01_c.mp3",
+        "durationMs": 111912,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 12888,
+            "text": "二下 ：爺爺家的榕樹（第四十二頁） 在爺爺的家鄉潮汕鄉下有一棵大榕樹，聽說它已經有一百多歲了，真是一位高齡的榕樹爺爺啊。",
+            "textSimplified": "二下 ：爷爷家的榕树（第四十二页） 在爷爷的家乡潮汕乡下有一棵大榕树，听说它已经有一百多岁了，真是一位高龄的榕树爷爷啊。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 12888,
+            "endMs": 18264,
+            "text": "去年暑假，我第一次見到了這棵百年老樹。",
+            "textSimplified": "去年暑假，我第一次见到了这棵百年老树。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 18264,
+            "endMs": 21816,
+            "text": "遠遠望去，榕樹真高啊！",
+            "textSimplified": "远远望去，榕树真高啊！"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 21816,
+            "endMs": 25176,
+            "text": "足足有兩層樓房那麼高。",
+            "textSimplified": "足足有两层楼房那么高。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 25176,
+            "endMs": 32472,
+            "text": "它的枝葉向四面伸展開去，就像一頂巨大的綠色帳篷，遮天蔽日。",
+            "textSimplified": "它的枝叶向四面伸展开去，就像一顶巨大的绿色帐篷，遮天蔽日。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 32472,
+            "endMs": 43440,
+            "text": "走到近處一看，一片片的榕樹葉子長得密密麻麻，非常茂盛，彷彿成千上萬個小綠娃娃擠在媽媽的懷抱裏。",
+            "textSimplified": "走到近处一看，一片片的榕树叶子长得密密麻麻，非常茂盛，仿佛成千上万个小绿娃娃挤在妈妈的怀抱里。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 43440,
+            "endMs": 52080,
+            "text": "在陽光的照射下，綠綠的葉子隨風點點頭，好像在對我說：『歡迎你啊，小客人。",
+            "textSimplified": "在阳光的照射下，绿绿的叶子随风点点头，好像在对我说：『欢迎你啊，小客人。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 52080,
+            "endMs": 60360,
+            "text": "榕樹的樹幹是深褐色的，蒼勁挺拔，要兩三個小朋友手拉手才能把它合抱住。",
+            "textSimplified": "榕树的树干是深褐色的，苍劲挺拔，要两三个小朋友手拉手才能把它合抱住。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 60360,
+            "endMs": 66960,
+            "text": "枝幹上長着許多鬚根，一根根垂下來，就像老爺爺的鬍鬚。",
+            "textSimplified": "枝干上长着许多须根，一根根垂下来，就像老爷爷的胡须。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 66960,
+            "endMs": 72504,
+            "text": "站在榕樹底下，陣陣清風吹來，真舒服啊。",
+            "textSimplified": "站在榕树底下，阵阵清风吹来，真舒服啊。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 72504,
+            "endMs": 83976,
+            "text": "每到下午，爺爺就會約上老朋友們去大榕樹下乘涼，有的喝茶聊天，有的下象棋，有的拉二胡，別提多熱鬧了。",
+            "textSimplified": "每到下午，爷爷就会约上老朋友们去大榕树下乘凉，有的喝茶聊天，有的下象棋，有的拉二胡，别提多热闹了。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 83976,
+            "endMs": 95088,
+            "text": "三三兩兩的小朋友也喜歡在大榕樹下玩耍，大家捉迷藏、丟沙包、看螞蟻、跳飛機，開心極了！",
+            "textSimplified": "三三两两的小朋友也喜欢在大榕树下玩耍，大家捉迷藏、丢沙包、看蚂蚁、跳飞机，开心极了！"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 95088,
+            "endMs": 103440,
+            "text": "聽爺爺說，到了冬天，其他樹都變得光禿禿了，只有大榕樹的葉子還是翠綠的。",
+            "textSimplified": "听爷爷说，到了冬天，其他树都变得光秃秃了，只有大榕树的叶子还是翠绿的。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 103440,
+            "endMs": 111912,
+            "text": "我喜歡這棵粗壯挺拔的大榕樹，因為它給人們送上了蔭涼，帶給人們快樂和歡笑。",
+            "textSimplified": "我喜欢这棵粗壮挺拔的大榕树，因为它给人们送上了荫凉，带给人们快乐和欢笑。"
+          }
+        ]
+      }
+    }
+  ]
+}

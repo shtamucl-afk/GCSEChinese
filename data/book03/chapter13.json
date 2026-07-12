@@ -1,0 +1,554 @@
+{
+  "bookId": "03",
+  "chapterId": "13",
+  "chapterTitle": "誰的本領大",
+  "chapterTitleSimplified": "谁的本领大",
+  "passages": [
+    "二下 ：誰的本領大（第四十六頁） 小公雞和小鴨子是非常要好的朋友，平時他們總愛一起玩耍。 一天，小公雞對小鴨子說：『我的本領比你大。』可小鴨子毫不示弱：『不對，我的本領才比你大呢！』小公雞和小鴨子都不服輸，他們決定比一比。 他們首先比賽跑步。小公雞連飛帶跑，一路領先。小鴨子跟在後面一搖一擺，怎麼也趕不上。小公雞率先到達了終點，他得意地對落後的小鴨子喊道：『哈哈！還是我的本領大吧？』小鴨子撅起嘴巴，不肯認輸。 之後，他們來到小河邊比賽游泳。小鴨子游得又好又快，一下子游到了河對岸。而小公雞還站在岸邊，不敢下水呢。這下，鴨子也得意洋洋地對小公雞說：『怎麼樣，我說我的本領大吧！』小公雞也不服氣。 接下來，小公雞和小鴨子又比賽了捉蟲子和捉小魚。 小公雞用尖尖的嘴巴輕而易舉地捉到了蟲子。小鴨子用扁扁的嘴巴往河裏一伸，一下捉到了小魚。兩個好朋友又打成了平手。 不管怎麼比，對方還是不服氣，小公雞和小鴨子為此爭論起來。他們倆找來鵝媽媽評理，鵝媽媽說：『每個人都有長處和短處，你們倆都看到了自己的長處，卻看不到自己的短處，這怎麼行呀？』小公雞和小鴨子聽了，慚愧地低下了頭。"
+  ],
+  "passagesSimplified": [
+    "二下 ：谁的本领大（第四十六页） 小公鸡和小鸭子是非常要好的朋友，平时他们总爱一起玩耍。 一天，小公鸡对小鸭子说：『我的本领比你大。』可小鸭子毫不示弱：『不对，我的本领才比你大呢！』小公鸡和小鸭子都不服输，他们决定比一比。 他们首先比赛跑步。小公鸡连飞带跑，一路领先。小鸭子跟在后面一摇一摆，怎么也赶不上。小公鸡率先到达了终点，他得意地对落后的小鸭子喊道：『哈哈！还是我的本领大吧？』小鸭子撅起嘴巴，不肯认输。 之后，他们来到小河边比赛游泳。小鸭子游得又好又快，一下子游到了河对岸。而小公鸡还站在岸边，不敢下水呢。这下，鸭子也得意洋洋地对小公鸡说：『怎么样，我说我的本领大吧！』小公鸡也不服气。 接下来，小公鸡和小鸭子又比赛了捉虫子和捉小鱼。 小公鸡用尖尖的嘴巴轻而易举地捉到了虫子。小鸭子用扁扁的嘴巴往河里一伸，一下捉到了小鱼。两个好朋友又打成了平手。 不管怎么比，对方还是不服气，小公鸡和小鸭子为此争论起来。他们俩找来鹅妈妈评理，鹅妈妈说：『每个人都有长处和短处，你们俩都看到了自己的长处，却看不到自己的短处，这怎么行呀？』小公鸡和小鸭子听了，惭愧地低下了头。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch13_w001",
+      "traditional": "毫不示弱",
+      "simplified": "毫不示弱",
+      "english": "not show weakness at all",
+      "pinyin": "háo bù shì ruò",
+      "contextSentence": "可小鴨子毫不示弱：『不對，我的本領才比你大呢！",
+      "contextSentenceSimplified": "可小鸭子毫不示弱：『不对，我的本领才比你大呢！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w002",
+      "traditional": "率先",
+      "simplified": "率先",
+      "english": "to take the lead / first",
+      "pinyin": "shuài xiān",
+      "contextSentence": "小公雞率先到達了終點，他得意地對落後的小鴨子喊道：『哈哈！",
+      "contextSentenceSimplified": "小公鸡率先到达了终点，他得意地对落后的小鸭子喊道：『哈哈！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w003",
+      "traditional": "撅起嘴巴",
+      "simplified": "撅起嘴巴",
+      "english": "pout / stick out lips",
+      "pinyin": "juē qǐ zuǐ bā",
+      "contextSentence": "小鴨子撅起嘴巴，不肯認輸。",
+      "contextSentenceSimplified": "小鸭子撅起嘴巴，不肯认输。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w004",
+      "traditional": "不肯",
+      "simplified": "不肯",
+      "english": "unwilling to / refuse to",
+      "pinyin": "bù kěn",
+      "contextSentence": "小鴨子撅起嘴巴，不肯認輸。",
+      "contextSentenceSimplified": "小鸭子撅起嘴巴，不肯认输。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w005",
+      "traditional": "對岸",
+      "simplified": "对岸",
+      "english": "the opposite shore / other side",
+      "pinyin": "duì àn",
+      "contextSentence": "小鴨子游得又好又快，一下子游到了河對岸。",
+      "contextSentenceSimplified": "小鸭子游得又好又快，一下子游到了河对岸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w006",
+      "traditional": "輕而易舉",
+      "simplified": "轻而易举",
+      "english": "effortless / easy",
+      "pinyin": "qīng ér yì jǔ",
+      "contextSentence": "小公雞用尖尖的嘴巴輕而易舉地捉到了蟲子。",
+      "contextSentenceSimplified": "小公鸡用尖尖的嘴巴轻而易举地捉到了虫子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w007",
+      "traditional": "為此爭論",
+      "simplified": "为此争论",
+      "english": "argue about this",
+      "pinyin": "wèi cǐ zhēng lùn",
+      "contextSentence": "不管怎麼比，對方還是不服氣，小公雞和小鴨子為此爭論起來。",
+      "contextSentenceSimplified": "不管怎么比，对方还是不服气，小公鸡和小鸭子为此争论起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w008",
+      "traditional": "評理",
+      "simplified": "评理",
+      "english": "to judge / settle a dispute",
+      "pinyin": "píng lǐ",
+      "contextSentence": "他們倆找來鵝媽媽評理，鵝媽媽說：『每個人都有長處和短處，你們倆都看到了自己的長處，卻看不到自己的短處，這怎麼行呀？",
+      "contextSentenceSimplified": "他们俩找来鹅妈妈评理，鹅妈妈说：『每个人都有长处和短处，你们俩都看到了自己的长处，却看不到自己的短处，这怎么行呀？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch13_w009",
+      "traditional": "慚愧",
+      "simplified": "惭愧",
+      "english": "ashamed / guilty",
+      "pinyin": "cán kuì",
+      "contextSentence": "小公雞和小鴨子聽了，慚愧地低下了頭。",
+      "contextSentenceSimplified": "小公鸡和小鸭子听了，惭愧地低下了头。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter13/b03_ch13_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter13/b03_ch13_w009_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter13/b03_ch13_p01_m.mp3",
+        "durationMs": 113784,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9936,
+            "text": "二下 ：誰的本領大（第四十六頁） 小公雞和小鴨子是非常要好的朋友，平時他們總愛一起玩耍。",
+            "textSimplified": "二下 ：谁的本领大（第四十六页） 小公鸡和小鸭子是非常要好的朋友，平时他们总爱一起玩耍。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9936,
+            "endMs": 14952,
+            "text": "一天，小公雞對小鴨子說：『我的本領比你大。』",
+            "textSimplified": "一天，小公鸡对小鸭子说：『我的本领比你大。』"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 14952,
+            "endMs": 20136,
+            "text": "可小鴨子毫不示弱：『不對，我的本領才比你大呢！』",
+            "textSimplified": "可小鸭子毫不示弱：『不对，我的本领才比你大呢！』"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 20136,
+            "endMs": 25008,
+            "text": "小公雞和小鴨子都不服輸，他們決定比一比。",
+            "textSimplified": "小公鸡和小鸭子都不服输，他们决定比一比。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 25008,
+            "endMs": 27480,
+            "text": "他們首先比賽跑步。",
+            "textSimplified": "他们首先比赛跑步。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 27480,
+            "endMs": 31008,
+            "text": "小公雞連飛帶跑，一路領先。",
+            "textSimplified": "小公鸡连飞带跑，一路领先。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 31008,
+            "endMs": 35496,
+            "text": "小鴨子跟在後面一搖一擺，怎麼也趕不上。",
+            "textSimplified": "小鸭子跟在后面一摇一摆，怎么也赶不上。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 35496,
+            "endMs": 42216,
+            "text": "小公雞率先到達了終點，他得意地對落後的小鴨子喊道：『哈哈！",
+            "textSimplified": "小公鸡率先到达了终点，他得意地对落后的小鸭子喊道：『哈哈！"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 42216,
+            "endMs": 44544,
+            "text": "還是我的本領大吧？』",
+            "textSimplified": "还是我的本领大吧？』"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 44544,
+            "endMs": 48048,
+            "text": "小鴨子撅起嘴巴，不肯認輸。",
+            "textSimplified": "小鸭子撅起嘴巴，不肯认输。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 48048,
+            "endMs": 51864,
+            "text": "之後，他們來到小河邊比賽游泳。",
+            "textSimplified": "之后，他们来到小河边比赛游泳。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 51864,
+            "endMs": 56568,
+            "text": "小鴨子游得又好又快，一下子游到了河對岸。",
+            "textSimplified": "小鸭子游得又好又快，一下子游到了河对岸。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 56568,
+            "endMs": 60792,
+            "text": "而小公雞還站在岸邊，不敢下水呢。",
+            "textSimplified": "而小公鸡还站在岸边，不敢下水呢。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 60792,
+            "endMs": 67608,
+            "text": "這下，鴨子也得意洋洋地對小公雞說：『怎麼樣，我說我的本領大吧！』",
+            "textSimplified": "这下，鸭子也得意洋洋地对小公鸡说：『怎么样，我说我的本领大吧！』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 67608,
+            "endMs": 69936,
+            "text": "小公雞也不服氣。",
+            "textSimplified": "小公鸡也不服气。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 69936,
+            "endMs": 76032,
+            "text": "接下來，小公雞和小鴨子又比賽了捉蟲子和捉小魚。",
+            "textSimplified": "接下来，小公鸡和小鸭子又比赛了捉虫子和捉小鱼。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 76032,
+            "endMs": 81144,
+            "text": "小公雞用尖尖的嘴巴輕而易舉地捉到了蟲子。",
+            "textSimplified": "小公鸡用尖尖的嘴巴轻而易举地捉到了虫子。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 81144,
+            "endMs": 86712,
+            "text": "小鴨子用扁扁的嘴巴往河裏一伸，一下捉到了小魚。",
+            "textSimplified": "小鸭子用扁扁的嘴巴往河里一伸，一下捉到了小鱼。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 86712,
+            "endMs": 89976,
+            "text": "兩個好朋友又打成了平手。",
+            "textSimplified": "两个好朋友又打成了平手。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 89976,
+            "endMs": 96792,
+            "text": "不管怎麼比，對方還是不服氣，小公雞和小鴨子為此爭論起來。",
+            "textSimplified": "不管怎么比，对方还是不服气，小公鸡和小鸭子为此争论起来。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 96792,
+            "endMs": 109200,
+            "text": "他們倆找來鵝媽媽評理，鵝媽媽說：『每個人都有長處和短處，你們倆都看到了自己的長處，卻看不到自己的短處，這怎麼行呀？』",
+            "textSimplified": "他们俩找来鹅妈妈评理，鹅妈妈说：『每个人都有长处和短处，你们俩都看到了自己的长处，却看不到自己的短处，这怎么行呀？』"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 109200,
+            "endMs": 113784,
+            "text": "小公雞和小鴨子聽了，慚愧地低下了頭。",
+            "textSimplified": "小公鸡和小鸭子听了，惭愧地低下了头。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter13/b03_ch13_p01_c.mp3",
+        "durationMs": 128808,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10080,
+            "text": "二下 ：誰的本領大（第四十六頁） 小公雞和小鴨子是非常要好的朋友，平時他們總愛一起玩耍。",
+            "textSimplified": "二下 ：谁的本领大（第四十六页） 小公鸡和小鸭子是非常要好的朋友，平时他们总爱一起玩耍。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10080,
+            "endMs": 16032,
+            "text": "一天，小公雞對小鴨子說：『我的本領比你大。』",
+            "textSimplified": "一天，小公鸡对小鸭子说：『我的本领比你大。』"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 16032,
+            "endMs": 22392,
+            "text": "可小鴨子毫不示弱：『不對，我的本領才比你大呢！』",
+            "textSimplified": "可小鸭子毫不示弱：『不对，我的本领才比你大呢！』"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 22392,
+            "endMs": 27864,
+            "text": "小公雞和小鴨子都不服輸，他們決定比一比。",
+            "textSimplified": "小公鸡和小鸭子都不服输，他们决定比一比。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 27864,
+            "endMs": 30984,
+            "text": "他們首先比賽跑步。",
+            "textSimplified": "他们首先比赛跑步。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 30984,
+            "endMs": 35304,
+            "text": "小公雞連飛帶跑，一路領先。",
+            "textSimplified": "小公鸡连飞带跑，一路领先。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 35304,
+            "endMs": 40632,
+            "text": "小鴨子跟在後面一搖一擺，怎麼也趕不上。",
+            "textSimplified": "小鸭子跟在后面一摇一摆，怎么也赶不上。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 40632,
+            "endMs": 48048,
+            "text": "小公雞率先到達了終點，他得意地對落後的小鴨子喊道：『哈哈！",
+            "textSimplified": "小公鸡率先到达了终点，他得意地对落后的小鸭子喊道：『哈哈！"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 48048,
+            "endMs": 51384,
+            "text": "還是我的本領大吧？』",
+            "textSimplified": "还是我的本领大吧？』"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 51384,
+            "endMs": 55440,
+            "text": "小鴨子撅起嘴巴，不肯認輸。",
+            "textSimplified": "小鸭子撅起嘴巴，不肯认输。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 55440,
+            "endMs": 60168,
+            "text": "之後，他們來到小河邊比賽游泳。",
+            "textSimplified": "之后，他们来到小河边比赛游泳。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 60168,
+            "endMs": 65736,
+            "text": "小鴨子游得又好又快，一下子游到了河對岸。",
+            "textSimplified": "小鸭子游得又好又快，一下子游到了河对岸。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 65736,
+            "endMs": 70488,
+            "text": "而小公雞還站在岸邊，不敢下水呢。",
+            "textSimplified": "而小公鸡还站在岸边，不敢下水呢。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 70488,
+            "endMs": 78864,
+            "text": "這下，鴨子也得意洋洋地對小公雞說：『怎麼樣，我說我的本領大吧！』",
+            "textSimplified": "这下，鸭子也得意洋洋地对小公鸡说：『怎么样，我说我的本领大吧！』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 78864,
+            "endMs": 81720,
+            "text": "小公雞也不服氣。",
+            "textSimplified": "小公鸡也不服气。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 81720,
+            "endMs": 88056,
+            "text": "接下來，小公雞和小鴨子又比賽了捉蟲子和捉小魚。",
+            "textSimplified": "接下来，小公鸡和小鸭子又比赛了捉虫子和捉小鱼。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 88056,
+            "endMs": 93456,
+            "text": "小公雞用尖尖的嘴巴輕而易舉地捉到了蟲子。",
+            "textSimplified": "小公鸡用尖尖的嘴巴轻而易举地捉到了虫子。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 93456,
+            "endMs": 99672,
+            "text": "小鴨子用扁扁的嘴巴往河裏一伸，一下捉到了小魚。",
+            "textSimplified": "小鸭子用扁扁的嘴巴往河里一伸，一下捉到了小鱼。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 99672,
+            "endMs": 103320,
+            "text": "兩個好朋友又打成了平手。",
+            "textSimplified": "两个好朋友又打成了平手。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 103320,
+            "endMs": 110400,
+            "text": "不管怎麼比，對方還是不服氣，小公雞和小鴨子為此爭論起來。",
+            "textSimplified": "不管怎么比，对方还是不服气，小公鸡和小鸭子为此争论起来。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 110400,
+            "endMs": 123672,
+            "text": "他們倆找來鵝媽媽評理，鵝媽媽說：『每個人都有長處和短處，你們倆都看到了自己的長處，卻看不到自己的短處，這怎麼行呀？』",
+            "textSimplified": "他们俩找来鹅妈妈评理，鹅妈妈说：『每个人都有长处和短处，你们俩都看到了自己的长处，却看不到自己的短处，这怎么行呀？』"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 123672,
+            "endMs": 128808,
+            "text": "小公雞和小鴨子聽了，慚愧地低下了頭。",
+            "textSimplified": "小公鸡和小鸭子听了，惭愧地低下了头。"
+          }
+        ]
+      }
+    }
+  ]
+}

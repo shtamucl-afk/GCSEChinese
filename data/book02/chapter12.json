@@ -1,0 +1,263 @@
+{
+  "bookId": "02",
+  "chapterId": "12",
+  "chapterTitle": "如果我有一枝魔法棒",
+  "chapterTitleSimplified": "如果我有一枝魔法棒",
+  "passages": [
+    "二上：如果我有一枝魔法棒（第三十二頁）\n\n如果我有一枝魔法棒， 我要給非洲的小朋友變出很多大米， 讓他們都能喫到香噴噴的米飯， 再也不會肚子餓得咕咕叫。\n\n如果我有一枝魔法棒， 我要為災區的小朋友變一所新學校， 讓他們能夠在寬敞的課室裏， 好好學習，天天向上。\n\n如果我有一枝魔法棒， 我要給盲人變出一雙明亮的眼睛， 讓他們能夠重見光明， 親眼看看這五彩斑爛的世界。\n\n如果我有一枝魔法棒， 我要把世界變成一個開心的城堡， 沒有飢餓，沒有寒冷， 人人臉上都洋溢着幸福的微笑。"
+  ],
+  "passagesSimplified": [
+    "二上：如果我有一枝魔法棒（第三十二页）\n\n如果我有一枝魔法棒， 我要给非洲的小朋友变出很多大米， 让他们都能吃到香喷喷的米饭， 再也不会肚子饿得咕咕叫。\n\n如果我有一枝魔法棒， 我要为灾区的小朋友变一所新学校， 让他们能够在宽敞的课室里， 好好学习，天天向上。\n\n如果我有一枝魔法棒， 我要给盲人变出一双明亮的眼睛， 让他们能够重见光明， 亲眼看看这五彩斑烂的世界。\n\n如果我有一枝魔法棒， 我要把世界变成一个开心的城堡， 没有饥饿，没有寒冷， 人人脸上都洋溢着幸福的微笑。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch12_w001",
+      "traditional": "魔法棒",
+      "simplified": "魔法棒",
+      "english": "magic wand",
+      "pinyin": "mó fǎ bàng",
+      "contextSentence": "如果我有一枝魔法棒， 我要給非洲的小朋友變出很多大米， 讓他們都能喫到香噴噴的米飯， 再也不會肚子餓得咕咕叫。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要给非洲的小朋友变出很多大米， 让他们都能吃到香喷喷的米饭， 再也不会肚子饿得咕咕叫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w002",
+      "traditional": "非洲",
+      "simplified": "非洲",
+      "english": "Africa",
+      "pinyin": "fēi zhōu",
+      "contextSentence": "如果我有一枝魔法棒， 我要給非洲的小朋友變出很多大米， 讓他們都能喫到香噴噴的米飯， 再也不會肚子餓得咕咕叫。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要给非洲的小朋友变出很多大米， 让他们都能吃到香喷喷的米饭， 再也不会肚子饿得咕咕叫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w003",
+      "traditional": "災區",
+      "simplified": "灾区",
+      "english": "disaster area",
+      "pinyin": "zāi qū",
+      "contextSentence": "如果我有一枝魔法棒， 我要為災區的小朋友變一所新學校， 讓他們能夠在寬敞的課室裏， 好好學習，天天向上。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要为灾区的小朋友变一所新学校， 让他们能够在宽敞的课室里， 好好学习，天天向上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w004",
+      "traditional": "寬敞",
+      "simplified": "宽敞",
+      "english": "spacious",
+      "pinyin": "kuān chǎng",
+      "contextSentence": "如果我有一枝魔法棒， 我要為災區的小朋友變一所新學校， 讓他們能夠在寬敞的課室裏， 好好學習，天天向上。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要为灾区的小朋友变一所新学校， 让他们能够在宽敞的课室里， 好好学习，天天向上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w005",
+      "traditional": "盲人",
+      "simplified": "盲人",
+      "english": "blind person",
+      "pinyin": "máng rén",
+      "contextSentence": "如果我有一枝魔法棒， 我要給盲人變出一雙明亮的眼睛， 讓他們能夠重見光明， 親眼看看這五彩斑爛的世界。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要给盲人变出一双明亮的眼睛， 让他们能够重见光明， 亲眼看看这五彩斑烂的世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w006",
+      "traditional": "城堡",
+      "simplified": "城堡",
+      "english": "castle",
+      "pinyin": "chéng bǎo",
+      "contextSentence": "如果我有一枝魔法棒， 我要把世界變成一個開心的城堡， 沒有飢餓，沒有寒冷， 人人臉上都洋溢着幸福的微笑。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要把世界变成一个开心的城堡， 没有饥饿，没有寒冷， 人人脸上都洋溢着幸福的微笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w007",
+      "traditional": "飢餓",
+      "simplified": "饥饿",
+      "english": "hungry",
+      "pinyin": "jī è",
+      "contextSentence": "如果我有一枝魔法棒， 我要把世界變成一個開心的城堡， 沒有飢餓，沒有寒冷， 人人臉上都洋溢着幸福的微笑。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要把世界变成一个开心的城堡， 没有饥饿，没有寒冷， 人人脸上都洋溢着幸福的微笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch12_w008",
+      "traditional": "洋溢着幸福的微笑",
+      "simplified": "洋溢着幸福的微笑",
+      "english": "smile brimming with happiness",
+      "pinyin": "yáng yì zhe xìng fú de wēi xiào",
+      "contextSentence": "如果我有一枝魔法棒， 我要把世界變成一個開心的城堡， 沒有飢餓，沒有寒冷， 人人臉上都洋溢着幸福的微笑。",
+      "contextSentenceSimplified": "如果我有一枝魔法棒， 我要把世界变成一个开心的城堡， 没有饥饿，没有寒冷， 人人脸上都洋溢着幸福的微笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter12/b02_ch12_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter12/b02_ch12_w008_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter12/b02_ch12_p01_m.mp3",
+        "durationMs": 49896,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4536,
+            "text": "二上：如果我有一枝魔法棒（第三十二頁）",
+            "textSimplified": "二上：如果我有一枝魔法棒（第三十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4536,
+            "endMs": 16056,
+            "text": "如果我有一枝魔法棒， 我要給非洲的小朋友變出很多大米， 讓他們都能喫到香噴噴的米飯， 再也不會肚子餓得咕咕叫。",
+            "textSimplified": "如果我有一枝魔法棒， 我要给非洲的小朋友变出很多大米， 让他们都能吃到香喷喷的米饭， 再也不会肚子饿得咕咕叫。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 16056,
+            "endMs": 27384,
+            "text": "如果我有一枝魔法棒， 我要為災區的小朋友變一所新學校， 讓他們能夠在寬敞的課室裏， 好好學習，天天向上。",
+            "textSimplified": "如果我有一枝魔法棒， 我要为灾区的小朋友变一所新学校， 让他们能够在宽敞的课室里， 好好学习，天天向上。"
+          },
+          {
+            "index": 3,
+            "paragraph": 6,
+            "startMs": 27384,
+            "endMs": 38784,
+            "text": "如果我有一枝魔法棒， 我要給盲人變出一雙明亮的眼睛， 讓他們能夠重見光明， 親眼看看這五彩斑爛的世界。",
+            "textSimplified": "如果我有一枝魔法棒， 我要给盲人变出一双明亮的眼睛， 让他们能够重见光明， 亲眼看看这五彩斑烂的世界。"
+          },
+          {
+            "index": 4,
+            "paragraph": 8,
+            "startMs": 38784,
+            "endMs": 49896,
+            "text": "如果我有一枝魔法棒， 我要把世界變成一個開心的城堡， 沒有飢餓，沒有寒冷， 人人臉上都洋溢着幸福的微笑。",
+            "textSimplified": "如果我有一枝魔法棒， 我要把世界变成一个开心的城堡， 没有饥饿，没有寒冷， 人人脸上都洋溢着幸福的微笑。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter12/b02_ch12_p01_c.mp3",
+        "durationMs": 50904,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 5064,
+            "text": "二上：如果我有一枝魔法棒（第三十二頁）",
+            "textSimplified": "二上：如果我有一枝魔法棒（第三十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 5064,
+            "endMs": 16824,
+            "text": "如果我有一枝魔法棒， 我要給非洲的小朋友變出很多大米， 讓他們都能喫到香噴噴的米飯， 再也不會肚子餓得咕咕叫。",
+            "textSimplified": "如果我有一枝魔法棒， 我要给非洲的小朋友变出很多大米， 让他们都能吃到香喷喷的米饭， 再也不会肚子饿得咕咕叫。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 16824,
+            "endMs": 28248,
+            "text": "如果我有一枝魔法棒， 我要為災區的小朋友變一所新學校， 讓他們能夠在寬敞的課室裏， 好好學習，天天向上。",
+            "textSimplified": "如果我有一枝魔法棒， 我要为灾区的小朋友变一所新学校， 让他们能够在宽敞的课室里， 好好学习，天天向上。"
+          },
+          {
+            "index": 3,
+            "paragraph": 6,
+            "startMs": 28248,
+            "endMs": 39312,
+            "text": "如果我有一枝魔法棒， 我要給盲人變出一雙明亮的眼睛， 讓他們能夠重見光明， 親眼看看這五彩斑爛的世界。",
+            "textSimplified": "如果我有一枝魔法棒， 我要给盲人变出一双明亮的眼睛， 让他们能够重见光明， 亲眼看看这五彩斑烂的世界。"
+          },
+          {
+            "index": 4,
+            "paragraph": 8,
+            "startMs": 39312,
+            "endMs": 50904,
+            "text": "如果我有一枝魔法棒， 我要把世界變成一個開心的城堡， 沒有飢餓，沒有寒冷， 人人臉上都洋溢着幸福的微笑。",
+            "textSimplified": "如果我有一枝魔法棒， 我要把世界变成一个开心的城堡， 没有饥饿，没有寒冷， 人人脸上都洋溢着幸福的微笑。"
+          }
+        ]
+      }
+    }
+  ]
+}

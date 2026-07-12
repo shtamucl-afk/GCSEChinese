@@ -1,0 +1,690 @@
+{
+  "bookId": "03",
+  "chapterId": "06",
+  "chapterTitle": "小小動物專家",
+  "chapterTitleSimplified": "小小动物专家",
+  "passages": [
+    "二下 ：小小動物專家（第十八頁） 弟弟今年五歲，十分討人喜歡。你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。要是誰不小心惹他生氣了，他就會瞪大雙眼，小嘴又是一撅，看那氣呼呼的樣子，小嘴上都快能掛個小水壺了。 弟弟很喜歡小動物，自稱是『小小動物專家』。每到週末，他就開始『動物研究工作』。不過，只要他一研究，那些小動物可就要『遭殃』了。有一天，弟弟突發奇想：咦，要是給家裏的小貓咪剪掉半邊鬍鬚，會怎樣呢？那樣，牠看起來會更精神吧。於是，他找來小剪刀，三下兩下就給小貓咪剪掉了半邊鬍鬚。爸爸發現後問他為什麼這麼做，他瞪大眼睛無辜地望着爸爸說：『你不是每天早上都刮鬍子嗎？小貓長大了，也該刮刮鬍子了。』爸爸聽了哭笑不得，決定給他上一堂自然課。爸爸告訴弟弟：『貓的鬍鬚就像一把尺子，能幫助貓測量老鼠洞口的大小。如果把貓的鬍鬚剪掉，牠就很難捉到老鼠了。』弟弟聽了，以後再也不亂剪貓咪的鬍鬚了。 還有一次，阿姨買了一隻小白兔送給弟弟。小白兔在弟弟身上撒了一泡尿。這個動物專家不僅不生氣，還開心地自言自語：『小白兔你怎麼知道我熱啊？正好幫我洗個澡。』聽了他的話，我們都哈哈大笑起來。 這就是我的弟弟，一個頑皮、好奇又充滿愛心的『小小動物專家』。"
+  ],
+  "passagesSimplified": [
+    "二下 ：小小动物专家（第十八页） 弟弟今年五岁，十分讨人喜欢。你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。要是谁不小心惹他生气了，他就会瞪大双眼，小嘴又是一撅，看那气呼呼的样子，小嘴上都快能挂个小水壶了。 弟弟很喜欢小动物，自称是『小小动物专家』。每到周末，他就开始『动物研究工作』。不过，只要他一研究，那些小动物可就要『遭殃』了。有一天，弟弟突发奇想：咦，要是给家里的小猫咪剪掉半边胡须，会怎样呢？那样，牠看起来会更精神吧。于是，他找来小剪刀，三下两下就给小猫咪剪掉了半边胡须。爸爸发现后问他为什么这么做，他瞪大眼睛无辜地望着爸爸说：『你不是每天早上都刮胡子吗？小猫长大了，也该刮刮胡子了。』爸爸听了哭笑不得，决定给他上一堂自然课。爸爸告诉弟弟：『猫的胡须就像一把尺子，能帮助猫测量老鼠洞口的大小。如果把猫的胡须剪掉，牠就很难捉到老鼠了。』弟弟听了，以后再也不乱剪猫咪的胡须了。 还有一次，阿姨买了一只小白兔送给弟弟。小白兔在弟弟身上撒了一泡尿。这个动物专家不仅不生气，还开心地自言自语：『小白兔你怎么知道我热啊？正好帮我洗个澡。』听了他的话，我们都哈哈大笑起来。 这就是我的弟弟，一个顽皮、好奇又充满爱心的『小小动物专家』。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch06_w001",
+      "traditional": "專家",
+      "simplified": "专家",
+      "english": "expert",
+      "pinyin": "zhuān jiā",
+      "contextSentence": "這就是我的弟弟，一個頑皮、好奇又充滿愛心的『小小動物專家』。",
+      "contextSentenceSimplified": "这就是我的弟弟，一个顽皮、好奇又充满爱心的『小小动物专家』。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w002",
+      "traditional": "討人喜歡",
+      "simplified": "讨人喜欢",
+      "english": "likable / charming",
+      "pinyin": "tǎo rén xǐ huān",
+      "contextSentence": "弟弟今年五歲，十分討人喜歡。",
+      "contextSentenceSimplified": "弟弟今年五岁，十分讨人喜欢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w003",
+      "traditional": "嵌着",
+      "simplified": "嵌着",
+      "english": "inlaid / embedded",
+      "pinyin": "qiàn zhe",
+      "contextSentence": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+      "contextSentenceSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w004",
+      "traditional": "烏溜溜",
+      "simplified": "乌溜溜",
+      "english": "jet black / shiny black",
+      "pinyin": "wū liū liū",
+      "contextSentence": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+      "contextSentenceSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w005",
+      "traditional": "一撅",
+      "simplified": "一撅",
+      "english": "to pout / to stick out (lips)",
+      "pinyin": "yī juē",
+      "contextSentence": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+      "contextSentenceSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w006",
+      "traditional": "一瞇",
+      "simplified": "一瞇",
+      "english": "to squint slightly",
+      "pinyin": "yī mī",
+      "contextSentence": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+      "contextSentenceSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w007",
+      "traditional": "小酒窩",
+      "simplified": "小酒窝",
+      "english": "dimples",
+      "pinyin": "xiǎo jiǔ wō",
+      "contextSentence": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+      "contextSentenceSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w008",
+      "traditional": "惹他生氣",
+      "simplified": "惹他生气",
+      "english": "make him angry / provoke him",
+      "pinyin": "rě tā shēng qì",
+      "contextSentence": "要是誰不小心惹他生氣了，他就會瞪大雙眼，小嘴又是一撅，看那氣呼呼的樣子，小嘴上都快能掛個小水壺了。",
+      "contextSentenceSimplified": "要是谁不小心惹他生气了，他就会瞪大双眼，小嘴又是一撅，看那气呼呼的样子，小嘴上都快能挂个小水壶了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w009",
+      "traditional": "自稱",
+      "simplified": "自称",
+      "english": "claim to be / call oneself",
+      "pinyin": "zì chēng",
+      "contextSentence": "弟弟很喜歡小動物，自稱是『小小動物專家』。",
+      "contextSentenceSimplified": "弟弟很喜欢小动物，自称是『小小动物专家』。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w010",
+      "traditional": "遭殃",
+      "simplified": "遭殃",
+      "english": "to suffer misfortune / suffer",
+      "pinyin": "zāo yāng",
+      "contextSentence": "不過，只要他一研究，那些小動物可就要『遭殃』了。",
+      "contextSentenceSimplified": "不过，只要他一研究，那些小动物可就要『遭殃』了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w011",
+      "traditional": "突發奇想",
+      "simplified": "突发奇想",
+      "english": "sudden whim / brilliant idea",
+      "pinyin": "tū fā qí xiǎng",
+      "contextSentence": "有一天，弟弟突發奇想：咦，要是給家裏的小貓咪剪掉半邊鬍鬚，會怎樣呢？",
+      "contextSentenceSimplified": "有一天，弟弟突发奇想：咦，要是给家里的小猫咪剪掉半边胡须，会怎样呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w012",
+      "traditional": "無辜",
+      "simplified": "无辜",
+      "english": "innocent / blameless",
+      "pinyin": "wú gū",
+      "contextSentence": "爸爸發現後問他為什麼這麼做，他瞪大眼睛無辜地望着爸爸說：『你不是每天早上都刮鬍子嗎？",
+      "contextSentenceSimplified": "爸爸发现后问他为什么这么做，他瞪大眼睛无辜地望着爸爸说：『你不是每天早上都刮胡子吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w013",
+      "traditional": "刮鬍子",
+      "simplified": "刮胡子",
+      "english": "to shave",
+      "pinyin": "guā hú zi",
+      "contextSentence": "爸爸發現後問他為什麼這麼做，他瞪大眼睛無辜地望着爸爸說：『你不是每天早上都刮鬍子嗎？",
+      "contextSentenceSimplified": "爸爸发现后问他为什么这么做，他瞪大眼睛无辜地望着爸爸说：『你不是每天早上都刮胡子吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w014",
+      "traditional": "哭笑不得",
+      "simplified": "哭笑不得",
+      "english": "between laughter and tears / awkward",
+      "pinyin": "kū xiào bù dé",
+      "contextSentence": "爸爸聽了哭笑不得，決定給他上一堂自然課。",
+      "contextSentenceSimplified": "爸爸听了哭笑不得，决定给他上一堂自然课。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w015",
+      "traditional": "測量",
+      "simplified": "测量",
+      "english": "to measure / measurement",
+      "pinyin": "cè liàng",
+      "contextSentence": "爸爸告訴弟弟：『貓的鬍鬚就像一把尺子，能幫助貓測量老鼠洞口的大小。",
+      "contextSentenceSimplified": "爸爸告诉弟弟：『猫的胡须就像一把尺子，能帮助猫测量老鼠洞口的大小。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w016",
+      "traditional": "撒了一泡尿",
+      "simplified": "撒了一泡尿",
+      "english": "urinated / peed",
+      "pinyin": "sā le yī pào niào",
+      "contextSentence": "小白兔在弟弟身上撒了一泡尿。",
+      "contextSentenceSimplified": "小白兔在弟弟身上撒了一泡尿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch06_w017",
+      "traditional": "頑皮",
+      "simplified": "顽皮",
+      "english": "naughty / mischievous",
+      "pinyin": "wán pí",
+      "contextSentence": "這就是我的弟弟，一個頑皮、好奇又充滿愛心的『小小動物專家』。",
+      "contextSentenceSimplified": "这就是我的弟弟，一个顽皮、好奇又充满爱心的『小小动物专家』。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter06/b03_ch06_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter06/b03_ch06_w017_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter06/b03_ch06_p01_m.mp3",
+        "durationMs": 126648,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7008,
+            "text": "二下 ：小小動物專家（第十八頁） 弟弟今年五歲，十分討人喜歡。",
+            "textSimplified": "二下 ：小小动物专家（第十八页） 弟弟今年五岁，十分讨人喜欢。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 7008,
+            "endMs": 19368,
+            "text": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+            "textSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19368,
+            "endMs": 30672,
+            "text": "要是誰不小心惹他生氣了，他就會瞪大雙眼，小嘴又是一撅，看那氣呼呼的樣子，小嘴上都快能掛個小水壺了。",
+            "textSimplified": "要是谁不小心惹他生气了，他就会瞪大双眼，小嘴又是一撅，看那气呼呼的样子，小嘴上都快能挂个小水壶了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 30672,
+            "endMs": 35376,
+            "text": "弟弟很喜歡小動物，自稱是『小小動物專家』。",
+            "textSimplified": "弟弟很喜欢小动物，自称是『小小动物专家』。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35376,
+            "endMs": 39240,
+            "text": "每到週末，他就開始『動物研究工作』。",
+            "textSimplified": "每到周末，他就开始『动物研究工作』。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 39240,
+            "endMs": 44640,
+            "text": "不過，只要他一研究，那些小動物可就要『遭殃』了。",
+            "textSimplified": "不过，只要他一研究，那些小动物可就要『遭殃』了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 44640,
+            "endMs": 53088,
+            "text": "有一天，弟弟突發奇想：咦，要是給家裏的小貓咪剪掉半邊鬍鬚，會怎樣呢？",
+            "textSimplified": "有一天，弟弟突发奇想：咦，要是给家里的小猫咪剪掉半边胡须，会怎样呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 53088,
+            "endMs": 56472,
+            "text": "那樣，牠看起來會更精神吧。",
+            "textSimplified": "那样，牠看起来会更精神吧。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 56472,
+            "endMs": 63600,
+            "text": "於是，他找來小剪刀，三下兩下就給小貓咪剪掉了半邊鬍鬚。",
+            "textSimplified": "于是，他找来小剪刀，三下两下就给小猫咪剪掉了半边胡须。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 63600,
+            "endMs": 73008,
+            "text": "爸爸發現後問他為什麼這麼做，他瞪大眼睛無辜地望着爸爸說：『你不是每天早上都刮鬍子嗎？",
+            "textSimplified": "爸爸发现后问他为什么这么做，他瞪大眼睛无辜地望着爸爸说：『你不是每天早上都刮胡子吗？"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 73008,
+            "endMs": 76656,
+            "text": "小貓長大了，也該刮刮鬍子了。』",
+            "textSimplified": "小猫长大了，也该刮刮胡子了。』"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 76656,
+            "endMs": 81288,
+            "text": "爸爸聽了哭笑不得，決定給他上一堂自然課。",
+            "textSimplified": "爸爸听了哭笑不得，决定给他上一堂自然课。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 81288,
+            "endMs": 89064,
+            "text": "爸爸告訴弟弟：『貓的鬍鬚就像一把尺子，能幫助貓測量老鼠洞口的大小。",
+            "textSimplified": "爸爸告诉弟弟：『猫的胡须就像一把尺子，能帮助猫测量老鼠洞口的大小。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 89064,
+            "endMs": 93816,
+            "text": "如果把貓的鬍鬚剪掉，牠就很難捉到老鼠了。』",
+            "textSimplified": "如果把猫的胡须剪掉，牠就很难捉到老鼠了。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 93816,
+            "endMs": 98256,
+            "text": "弟弟聽了，以後再也不亂剪貓咪的鬍鬚了。",
+            "textSimplified": "弟弟听了，以后再也不乱剪猫咪的胡须了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 98256,
+            "endMs": 102912,
+            "text": "還有一次，阿姨買了一隻小白兔送給弟弟。",
+            "textSimplified": "还有一次，阿姨买了一只小白兔送给弟弟。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 102912,
+            "endMs": 106512,
+            "text": "小白兔在弟弟身上撒了一泡尿。",
+            "textSimplified": "小白兔在弟弟身上撒了一泡尿。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 106512,
+            "endMs": 114240,
+            "text": "這個動物專家不僅不生氣，還開心地自言自語：『小白兔你怎麼知道我熱啊？",
+            "textSimplified": "这个动物专家不仅不生气，还开心地自言自语：『小白兔你怎么知道我热啊？"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 114240,
+            "endMs": 116424,
+            "text": "正好幫我洗個澡。』",
+            "textSimplified": "正好帮我洗个澡。』"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 116424,
+            "endMs": 120120,
+            "text": "聽了他的話，我們都哈哈大笑起來。",
+            "textSimplified": "听了他的话，我们都哈哈大笑起来。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 120120,
+            "endMs": 126648,
+            "text": "這就是我的弟弟，一個頑皮、好奇又充滿愛心的『小小動物專家』。",
+            "textSimplified": "这就是我的弟弟，一个顽皮、好奇又充满爱心的『小小动物专家』。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter06/b03_ch06_p01_c.mp3",
+        "durationMs": 139608,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 7584,
+            "text": "二下 ：小小動物專家（第十八頁） 弟弟今年五歲，十分討人喜歡。",
+            "textSimplified": "二下 ：小小动物专家（第十八页） 弟弟今年五岁，十分讨人喜欢。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 7584,
+            "endMs": 19728,
+            "text": "你看：圓圓的臉上嵌着一雙烏溜溜的眼睛，嘴巴小小的，要是高興起來，他小嘴一撅，眼睛一瞇，還現出一對小酒窩呢。",
+            "textSimplified": "你看：圆圆的脸上嵌着一双乌溜溜的眼睛，嘴巴小小的，要是高兴起来，他小嘴一撅，眼睛一瞇，还现出一对小酒窝呢。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19728,
+            "endMs": 31008,
+            "text": "要是誰不小心惹他生氣了，他就會瞪大雙眼，小嘴又是一撅，看那氣呼呼的樣子，小嘴上都快能掛個小水壺了。",
+            "textSimplified": "要是谁不小心惹他生气了，他就会瞪大双眼，小嘴又是一撅，看那气呼呼的样子，小嘴上都快能挂个小水壶了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 31008,
+            "endMs": 36744,
+            "text": "弟弟很喜歡小動物，自稱是『小小動物專家』。",
+            "textSimplified": "弟弟很喜欢小动物，自称是『小小动物专家』。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 36744,
+            "endMs": 41712,
+            "text": "每到週末，他就開始『動物研究工作』。",
+            "textSimplified": "每到周末，他就开始『动物研究工作』。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 41712,
+            "endMs": 47544,
+            "text": "不過，只要他一研究，那些小動物可就要『遭殃』了。",
+            "textSimplified": "不过，只要他一研究，那些小动物可就要『遭殃』了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 47544,
+            "endMs": 56016,
+            "text": "有一天，弟弟突發奇想：咦，要是給家裏的小貓咪剪掉半邊鬍鬚，會怎樣呢？",
+            "textSimplified": "有一天，弟弟突发奇想：咦，要是给家里的小猫咪剪掉半边胡须，会怎样呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 56016,
+            "endMs": 60168,
+            "text": "那樣，牠看起來會更精神吧。",
+            "textSimplified": "那样，牠看起来会更精神吧。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 60168,
+            "endMs": 67392,
+            "text": "於是，他找來小剪刀，三下兩下就給小貓咪剪掉了半邊鬍鬚。",
+            "textSimplified": "于是，他找来小剪刀，三下两下就给小猫咪剪掉了半边胡须。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 67392,
+            "endMs": 77280,
+            "text": "爸爸發現後問他為什麼這麼做，他瞪大眼睛無辜地望着爸爸說：『你不是每天早上都刮鬍子嗎？",
+            "textSimplified": "爸爸发现后问他为什么这么做，他瞪大眼睛无辜地望着爸爸说：『你不是每天早上都刮胡子吗？"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 77280,
+            "endMs": 82128,
+            "text": "小貓長大了，也該刮刮鬍子了。』",
+            "textSimplified": "小猫长大了，也该刮刮胡子了。』"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 82128,
+            "endMs": 87336,
+            "text": "爸爸聽了哭笑不得，決定給他上一堂自然課。",
+            "textSimplified": "爸爸听了哭笑不得，决定给他上一堂自然课。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 87336,
+            "endMs": 95544,
+            "text": "爸爸告訴弟弟：『貓的鬍鬚就像一把尺子，能幫助貓測量老鼠洞口的大小。",
+            "textSimplified": "爸爸告诉弟弟：『猫的胡须就像一把尺子，能帮助猫测量老鼠洞口的大小。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 95544,
+            "endMs": 101424,
+            "text": "如果把貓的鬍鬚剪掉，牠就很難捉到老鼠了。』",
+            "textSimplified": "如果把猫的胡须剪掉，牠就很难捉到老鼠了。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 101424,
+            "endMs": 106392,
+            "text": "弟弟聽了，以後再也不亂剪貓咪的鬍鬚了。",
+            "textSimplified": "弟弟听了，以后再也不乱剪猫咪的胡须了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 106392,
+            "endMs": 111768,
+            "text": "還有一次，阿姨買了一隻小白兔送給弟弟。",
+            "textSimplified": "还有一次，阿姨买了一只小白兔送给弟弟。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 111768,
+            "endMs": 115968,
+            "text": "小白兔在弟弟身上撒了一泡尿。",
+            "textSimplified": "小白兔在弟弟身上撒了一泡尿。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 115968,
+            "endMs": 124032,
+            "text": "這個動物專家不僅不生氣，還開心地自言自語：『小白兔你怎麼知道我熱啊？",
+            "textSimplified": "这个动物专家不仅不生气，还开心地自言自语：『小白兔你怎么知道我热啊？"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 124032,
+            "endMs": 127392,
+            "text": "正好幫我洗個澡。』",
+            "textSimplified": "正好帮我洗个澡。』"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 127392,
+            "endMs": 132072,
+            "text": "聽了他的話，我們都哈哈大笑起來。",
+            "textSimplified": "听了他的话，我们都哈哈大笑起来。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 132072,
+            "endMs": 139608,
+            "text": "這就是我的弟弟，一個頑皮、好奇又充滿愛心的『小小動物專家』。",
+            "textSimplified": "这就是我的弟弟，一个顽皮、好奇又充满爱心的『小小动物专家』。"
+          }
+        ]
+      }
+    }
+  ]
+}

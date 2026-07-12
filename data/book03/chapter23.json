@@ -1,0 +1,972 @@
+{
+  "bookId": "03",
+  "chapterId": "23",
+  "chapterTitle": "日記一則（三）",
+  "chapterTitleSimplified": "日记一则（三）",
+  "passages": [
+    "二下 ：日記一則（三）（第七十頁） 九月六日 星期四 陰 今天下午的班主任課，老師要為我們班選風紀。 誰不想當風紀呢？我做夢都想啊。於是，我坐得直直的，胸挺得高高的。眼睛不時偷看其他同學，希望大家都把注意力放在我身上。 選舉開始了。大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。接着便輪到選風紀了，我自認為自己成績優秀，品德良好，應該會有人選我。這時，我終於聽到有人提我的名字了。可是，大家又提了另外幾個各方面都很優秀的同學。看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。結果，我落選了。孫簡明被選為風紀。我真想哭，可是又怕同學們笑話，只好強忍住了淚水。 晚上，我傷心地回到家。喫過晚飯，我躺在牀上怎麼也睡不着，腦海裏不時浮現出白天改選的情景。我發現，孫簡明的確比我更有實力當選風紀。他不僅體育成績出色，而且樂於助人。記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。再想想我自已，除了成績好以外，在和同學的相處中，我不夠謙虛，不願聽取別人的意見。想到這裏，我不禁有些羞愧。老師說得對：我們不能因為已有的一點點成績而沾沾自喜，而應該腳踏實地，使自己在各方面都做得更好。"
+  ],
+  "passagesSimplified": [
+    "二下 ：日记一则（三）（第七十页） 九月六日 星期四 阴 今天下午的班主任课，老师要为我们班选风纪。 谁不想当风纪呢？我做梦都想啊。于是，我坐得直直的，胸挺得高高的。眼睛不时偷看其他同学，希望大家都把注意力放在我身上。 选举开始了。大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。接着便轮到选风纪了，我自认为自己成绩优秀，品德良好，应该会有人选我。这时，我终于听到有人提我的名字了。可是，大家又提了另外几个各方面都很优秀的同学。看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。结果，我落选了。孙简明被选为风纪。我真想哭，可是又怕同学们笑话，只好强忍住了泪水。 晚上，我伤心地回到家。吃过晚饭，我躺在床上怎么也睡不着，脑海里不时浮现出白天改选的情景。我发现，孙简明的确比我更有实力当选风纪。他不仅体育成绩出色，而且乐于助人。记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。再想想我自已，除了成绩好以外，在和同学的相处中，我不够谦虚，不愿听取别人的意见。想到这里，我不禁有些羞愧。老师说得对：我们不能因为已有的一点点成绩而沾沾自喜，而应该脚踏实地，使自己在各方面都做得更好。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch23_w001",
+      "traditional": "班主任",
+      "simplified": "班主任",
+      "english": "homeroom teacher",
+      "pinyin": "bān zhǔ rèn",
+      "contextSentence": "今天下午的班主任課，老師要為我們班選風紀。",
+      "contextSentenceSimplified": "今天下午的班主任课，老师要为我们班选风纪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w002",
+      "traditional": "風紀",
+      "simplified": "风纪",
+      "english": "prefect",
+      "pinyin": "fēng jì",
+      "contextSentence": "今天下午的班主任課，老師要為我們班選風紀。",
+      "contextSentenceSimplified": "今天下午的班主任课，老师要为我们班选风纪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w003",
+      "traditional": "胸",
+      "simplified": "胸",
+      "english": "chest / breast",
+      "pinyin": "xiōng",
+      "contextSentence": "於是，我坐得直直的，胸挺得高高的。",
+      "contextSentenceSimplified": "于是，我坐得直直的，胸挺得高高的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w004",
+      "traditional": "注意力",
+      "simplified": "注意力",
+      "english": "attention / concentration",
+      "pinyin": "zhù yì lì",
+      "contextSentence": "眼睛不時偷看其他同學，希望大家都把注意力放在我身上。",
+      "contextSentenceSimplified": "眼睛不时偷看其他同学，希望大家都把注意力放在我身上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w005",
+      "traditional": "選舉",
+      "simplified": "选举",
+      "english": "election / to elect",
+      "pinyin": "xuǎn jǔ",
+      "contextSentence": "選舉開始了。",
+      "contextSentenceSimplified": "选举开始了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w006",
+      "traditional": "一致",
+      "simplified": "一致",
+      "english": "consistent / in agreement",
+      "pinyin": "yí zhì",
+      "contextSentence": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+      "contextSentenceSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w007",
+      "traditional": "李",
+      "simplified": "李",
+      "english": "surname Li",
+      "pinyin": "lǐ",
+      "contextSentence": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+      "contextSentenceSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w008",
+      "traditional": "擔任",
+      "simplified": "担任",
+      "english": "to serve as / to hold a position",
+      "pinyin": "dān rèn",
+      "contextSentence": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+      "contextSentenceSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w009",
+      "traditional": "友善",
+      "simplified": "友善",
+      "english": "friendly / kind",
+      "pinyin": "yǒu shàn",
+      "contextSentence": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+      "contextSentenceSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w010",
+      "traditional": "優秀",
+      "simplified": "优秀",
+      "english": "excellent / outstanding",
+      "pinyin": "yōu xiù",
+      "contextSentence": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+      "contextSentenceSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w011",
+      "traditional": "自認為",
+      "simplified": "自认为",
+      "english": "consider oneself as",
+      "pinyin": "zì rèn wèi",
+      "contextSentence": "接着便輪到選風紀了，我自認為自己成績優秀，品德良好，應該會有人選我。",
+      "contextSentenceSimplified": "接着便轮到选风纪了，我自认为自己成绩优秀，品德良好，应该会有人选我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w012",
+      "traditional": "品德",
+      "simplified": "品德",
+      "english": "moral character / virtue",
+      "pinyin": "pǐn dé",
+      "contextSentence": "接着便輪到選風紀了，我自認為自己成績優秀，品德良好，應該會有人選我。",
+      "contextSentenceSimplified": "接着便轮到选风纪了，我自认为自己成绩优秀，品德良好，应该会有人选我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w013",
+      "traditional": "提名",
+      "simplified": "提名",
+      "english": "nomination / to nominate",
+      "pinyin": "tí míng",
+      "contextSentence": "看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。",
+      "contextSentenceSimplified": "看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w014",
+      "traditional": "偏偏",
+      "simplified": "偏偏",
+      "english": "contrary to expectations",
+      "pinyin": "piān piān",
+      "contextSentence": "看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。",
+      "contextSentenceSimplified": "看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w015",
+      "traditional": "競爭",
+      "simplified": "竞争",
+      "english": "competition / compete",
+      "pinyin": "jìng zhēng",
+      "contextSentence": "看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。",
+      "contextSentenceSimplified": "看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w016",
+      "traditional": "殘酷",
+      "simplified": "残酷",
+      "english": "cruel / brutal",
+      "pinyin": "cán kù",
+      "contextSentence": "看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。",
+      "contextSentenceSimplified": "看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w017",
+      "traditional": "落選",
+      "simplified": "落选",
+      "english": "to fail to be selected / rejected",
+      "pinyin": "luò xuǎn",
+      "contextSentence": "結果，我落選了。",
+      "contextSentenceSimplified": "结果，我落选了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w018",
+      "traditional": "孫",
+      "simplified": "孙",
+      "english": "surname",
+      "pinyin": "sūn",
+      "contextSentence": "孫簡明被選為風紀。",
+      "contextSentenceSimplified": "孙简明被选为风纪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w019",
+      "traditional": "強忍",
+      "simplified": "强忍",
+      "english": "to restrain / hold back",
+      "pinyin": "qiáng rěn",
+      "contextSentence": "我真想哭，可是又怕同學們笑話，只好強忍住了淚水。",
+      "contextSentenceSimplified": "我真想哭，可是又怕同学们笑话，只好强忍住了泪水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w020",
+      "traditional": "浮現",
+      "simplified": "浮现",
+      "english": "emerge / appear / float up",
+      "pinyin": "fú xiàn",
+      "contextSentence": "喫過晚飯，我躺在牀上怎麼也睡不着，腦海裏不時浮現出白天改選的情景。",
+      "contextSentenceSimplified": "吃过晚饭，我躺在床上怎么也睡不着，脑海里不时浮现出白天改选的情景。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w021",
+      "traditional": "實力",
+      "simplified": "实力",
+      "english": "strength / capability / real power",
+      "pinyin": "shí lì",
+      "contextSentence": "我發現，孫簡明的確比我更有實力當選風紀。",
+      "contextSentenceSimplified": "我发现，孙简明的确比我更有实力当选风纪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w022",
+      "traditional": "骨折",
+      "simplified": "骨折",
+      "english": "bone fracture / broken bone",
+      "pinyin": "gǔ zhé",
+      "contextSentence": "記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。",
+      "contextSentenceSimplified": "记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w023",
+      "traditional": "擔負",
+      "simplified": "担负",
+      "english": "to bear / shoulder (responsibility)",
+      "pinyin": "dān fù",
+      "contextSentence": "記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。",
+      "contextSentenceSimplified": "记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w024",
+      "traditional": "補課",
+      "simplified": "补课",
+      "english": "make-up class / extra lesson",
+      "pinyin": "bǔ kè",
+      "contextSentence": "記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。",
+      "contextSentenceSimplified": "记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w025",
+      "traditional": "任務",
+      "simplified": "任务",
+      "english": "mission / task",
+      "pinyin": "rèn wù",
+      "contextSentence": "記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。",
+      "contextSentenceSimplified": "记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w026",
+      "traditional": "相處",
+      "simplified": "相处",
+      "english": "to get along / interact",
+      "pinyin": "xiāng chù",
+      "contextSentence": "再想想我自已，除了成績好以外，在和同學的相處中，我不夠謙虛，不願聽取別人的意見。",
+      "contextSentenceSimplified": "再想想我自已，除了成绩好以外，在和同学的相处中，我不够谦虚，不愿听取别人的意见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w027",
+      "traditional": "謙虛",
+      "simplified": "谦虚",
+      "english": "humble / modest",
+      "pinyin": "qiān xū",
+      "contextSentence": "再想想我自已，除了成績好以外，在和同學的相處中，我不夠謙虛，不願聽取別人的意見。",
+      "contextSentenceSimplified": "再想想我自已，除了成绩好以外，在和同学的相处中，我不够谦虚，不愿听取别人的意见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w028",
+      "traditional": "不禁",
+      "simplified": "不禁",
+      "english": "cannot help but / involuntarily",
+      "pinyin": "bù jīn",
+      "contextSentence": "想到這裏，我不禁有些羞愧。",
+      "contextSentenceSimplified": "想到这里，我不禁有些羞愧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w029",
+      "traditional": "羞愧",
+      "simplified": "羞愧",
+      "english": "ashamed / ashamed and guilty",
+      "pinyin": "xiū kuì",
+      "contextSentence": "想到這裏，我不禁有些羞愧。",
+      "contextSentenceSimplified": "想到这里，我不禁有些羞愧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w030",
+      "traditional": "沾沾自喜",
+      "simplified": "沾沾自喜",
+      "english": "smug / complacent",
+      "pinyin": "zhān zhān zì xǐ",
+      "contextSentence": "老師說得對：我們不能因為已有的一點點成績而沾沾自喜，而應該腳踏實地，使自己在各方面都做得更好。",
+      "contextSentenceSimplified": "老师说得对：我们不能因为已有的一点点成绩而沾沾自喜，而应该脚踏实地，使自己在各方面都做得更好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch23_w031",
+      "traditional": "腳踏實地",
+      "simplified": "脚踏实地",
+      "english": "down-to-earth / practical",
+      "pinyin": "jiǎo tà shí dì",
+      "contextSentence": "老師說得對：我們不能因為已有的一點點成績而沾沾自喜，而應該腳踏實地，使自己在各方面都做得更好。",
+      "contextSentenceSimplified": "老师说得对：我们不能因为已有的一点点成绩而沾沾自喜，而应该脚踏实地，使自己在各方面都做得更好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w031_m_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter23/b03_ch23_w031_c_isolated.mp3",
+          "sentence": "audio/book03/chapter23/b03_ch23_w031_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter23/b03_ch23_p01_m.mp3",
+        "durationMs": 131736,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 11376,
+            "text": "二下 ：日記一則（三）（第七十頁） 九月六日 星期四 陰 今天下午的班主任課，老師要為我們班選風紀。",
+            "textSimplified": "二下 ：日记一则（三）（第七十页） 九月六日 星期四 阴 今天下午的班主任课，老师要为我们班选风纪。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 11376,
+            "endMs": 13680,
+            "text": "誰不想當風紀呢？",
+            "textSimplified": "谁不想当风纪呢？"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 13680,
+            "endMs": 15696,
+            "text": "我做夢都想啊。",
+            "textSimplified": "我做梦都想啊。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 15696,
+            "endMs": 19944,
+            "text": "於是，我坐得直直的，胸挺得高高的。",
+            "textSimplified": "于是，我坐得直直的，胸挺得高高的。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 19944,
+            "endMs": 25944,
+            "text": "眼睛不時偷看其他同學，希望大家都把注意力放在我身上。",
+            "textSimplified": "眼睛不时偷看其他同学，希望大家都把注意力放在我身上。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 25944,
+            "endMs": 27984,
+            "text": "選舉開始了。",
+            "textSimplified": "选举开始了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 27984,
+            "endMs": 39432,
+            "text": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+            "textSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 39432,
+            "endMs": 48000,
+            "text": "接着便輪到選風紀了，我自認為自己成績優秀，品德良好，應該會有人選我。",
+            "textSimplified": "接着便轮到选风纪了，我自认为自己成绩优秀，品德良好，应该会有人选我。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 48000,
+            "endMs": 52200,
+            "text": "這時，我終於聽到有人提我的名字了。",
+            "textSimplified": "这时，我终于听到有人提我的名字了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 52200,
+            "endMs": 57696,
+            "text": "可是，大家又提了另外幾個各方面都很優秀的同學。",
+            "textSimplified": "可是，大家又提了另外几个各方面都很优秀的同学。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 57696,
+            "endMs": 66888,
+            "text": "看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。",
+            "textSimplified": "看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 66888,
+            "endMs": 69288,
+            "text": "結果，我落選了。",
+            "textSimplified": "结果，我落选了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 69288,
+            "endMs": 72048,
+            "text": "孫簡明被選為風紀。",
+            "textSimplified": "孙简明被选为风纪。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 72048,
+            "endMs": 77832,
+            "text": "我真想哭，可是又怕同學們笑話，只好強忍住了淚水。",
+            "textSimplified": "我真想哭，可是又怕同学们笑话，只好强忍住了泪水。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 77832,
+            "endMs": 80832,
+            "text": "晚上，我傷心地回到家。",
+            "textSimplified": "晚上，我伤心地回到家。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 80832,
+            "endMs": 89160,
+            "text": "喫過晚飯，我躺在牀上怎麼也睡不着，腦海裏不時浮現出白天改選的情景。",
+            "textSimplified": "吃过晚饭，我躺在床上怎么也睡不着，脑海里不时浮现出白天改选的情景。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 89160,
+            "endMs": 94296,
+            "text": "我發現，孫簡明的確比我更有實力當選風紀。",
+            "textSimplified": "我发现，孙简明的确比我更有实力当选风纪。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 94296,
+            "endMs": 98544,
+            "text": "他不僅體育成績出色，而且樂於助人。",
+            "textSimplified": "他不仅体育成绩出色，而且乐于助人。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 98544,
+            "endMs": 108000,
+            "text": "記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。",
+            "textSimplified": "记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 108000,
+            "endMs": 117168,
+            "text": "再想想我自已，除了成績好以外，在和同學的相處中，我不夠謙虛，不願聽取別人的意見。",
+            "textSimplified": "再想想我自已，除了成绩好以外，在和同学的相处中，我不够谦虚，不愿听取别人的意见。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 117168,
+            "endMs": 120600,
+            "text": "想到這裏，我不禁有些羞愧。",
+            "textSimplified": "想到这里，我不禁有些羞愧。"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 120600,
+            "endMs": 131736,
+            "text": "老師說得對：我們不能因為已有的一點點成績而沾沾自喜，而應該腳踏實地，使自己在各方面都做得更好。",
+            "textSimplified": "老师说得对：我们不能因为已有的一点点成绩而沾沾自喜，而应该脚踏实地，使自己在各方面都做得更好。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter23/b03_ch23_p01_c.mp3",
+        "durationMs": 137184,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10608,
+            "text": "二下 ：日記一則（三）（第七十頁） 九月六日 星期四 陰 今天下午的班主任課，老師要為我們班選風紀。",
+            "textSimplified": "二下 ：日记一则（三）（第七十页） 九月六日 星期四 阴 今天下午的班主任课，老师要为我们班选风纪。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10608,
+            "endMs": 13344,
+            "text": "誰不想當風紀呢？",
+            "textSimplified": "谁不想当风纪呢？"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 13344,
+            "endMs": 15888,
+            "text": "我做夢都想啊。",
+            "textSimplified": "我做梦都想啊。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 15888,
+            "endMs": 20568,
+            "text": "於是，我坐得直直的，胸挺得高高的。",
+            "textSimplified": "于是，我坐得直直的，胸挺得高高的。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 20568,
+            "endMs": 27312,
+            "text": "眼睛不時偷看其他同學，希望大家都把注意力放在我身上。",
+            "textSimplified": "眼睛不时偷看其他同学，希望大家都把注意力放在我身上。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 27312,
+            "endMs": 29784,
+            "text": "選舉開始了。",
+            "textSimplified": "选举开始了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 29784,
+            "endMs": 40848,
+            "text": "大家一致同意李民繼續擔任班長，因為他實在是太出色了，對班中各同學都非常友善，學業成績也很優秀。",
+            "textSimplified": "大家一致同意李民继续担任班长，因为他实在是太出色了，对班中各同学都非常友善，学业成绩也很优秀。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 40848,
+            "endMs": 49104,
+            "text": "接着便輪到選風紀了，我自認為自己成績優秀，品德良好，應該會有人選我。",
+            "textSimplified": "接着便轮到选风纪了，我自认为自己成绩优秀，品德良好，应该会有人选我。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 49104,
+            "endMs": 54072,
+            "text": "這時，我終於聽到有人提我的名字了。",
+            "textSimplified": "这时，我终于听到有人提我的名字了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 54072,
+            "endMs": 60120,
+            "text": "可是，大家又提了另外幾個各方面都很優秀的同學。",
+            "textSimplified": "可是，大家又提了另外几个各方面都很优秀的同学。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 60120,
+            "endMs": 69264,
+            "text": "看着他們的名字也出現在黑板上，我有些着急了，好不容易被提名，偏偏競爭這麼殘酷。",
+            "textSimplified": "看着他们的名字也出现在黑板上，我有些着急了，好不容易被提名，偏偏竞争这么残酷。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 69264,
+            "endMs": 72336,
+            "text": "結果，我落選了。",
+            "textSimplified": "结果，我落选了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 72336,
+            "endMs": 75456,
+            "text": "孫簡明被選為風紀。",
+            "textSimplified": "孙简明被选为风纪。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 75456,
+            "endMs": 81720,
+            "text": "我真想哭，可是又怕同學們笑話，只好強忍住了淚水。",
+            "textSimplified": "我真想哭，可是又怕同学们笑话，只好强忍住了泪水。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 81720,
+            "endMs": 85584,
+            "text": "晚上，我傷心地回到家。",
+            "textSimplified": "晚上，我伤心地回到家。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 85584,
+            "endMs": 93600,
+            "text": "喫過晚飯，我躺在牀上怎麼也睡不着，腦海裏不時浮現出白天改選的情景。",
+            "textSimplified": "吃过晚饭，我躺在床上怎么也睡不着，脑海里不时浮现出白天改选的情景。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 93600,
+            "endMs": 99000,
+            "text": "我發現，孫簡明的確比我更有實力當選風紀。",
+            "textSimplified": "我发现，孙简明的确比我更有实力当选风纪。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 99000,
+            "endMs": 103416,
+            "text": "他不僅體育成績出色，而且樂於助人。",
+            "textSimplified": "他不仅体育成绩出色，而且乐于助人。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 103416,
+            "endMs": 112632,
+            "text": "記得有一次，王文浩的胳膊骨折了，不能來上學，孫簡明就主動擔負起了給他補課的任務。",
+            "textSimplified": "记得有一次，王文浩的胳膊骨折了，不能来上学，孙简明就主动担负起了给他补课的任务。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 112632,
+            "endMs": 122208,
+            "text": "再想想我自已，除了成績好以外，在和同學的相處中，我不夠謙虛，不願聽取別人的意見。",
+            "textSimplified": "再想想我自已，除了成绩好以外，在和同学的相处中，我不够谦虚，不愿听取别人的意见。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 122208,
+            "endMs": 126504,
+            "text": "想到這裏，我不禁有些羞愧。",
+            "textSimplified": "想到这里，我不禁有些羞愧。"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 126504,
+            "endMs": 137184,
+            "text": "老師說得對：我們不能因為已有的一點點成績而沾沾自喜，而應該腳踏實地，使自己在各方面都做得更好。",
+            "textSimplified": "老师说得对：我们不能因为已有的一点点成绩而沾沾自喜，而应该脚踏实地，使自己在各方面都做得更好。"
+          }
+        ]
+      }
+    }
+  ]
+}

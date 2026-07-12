@@ -1,0 +1,613 @@
+{
+  "bookId": "02",
+  "chapterId": "08",
+  "chapterTitle": "愛跳舞的小表妹",
+  "chapterTitleSimplified": "爱跳舞的小表妹",
+  "passages": [
+    "二上：愛跳舞的小表妹（第二十二頁）\n\n我有一個活潑可愛的表妹，她今年七歲。表妹喜歡穿粉紅色的裙子，紮粉紅色的蝴蝶結，把自己打扮得像一個漂亮的芭比娃娃。\n\n雖說她是個小女孩，有時候可比小男孩還淘氣呢。那天，我去她家作客，表妹正在書房裏塗塗畫畫，一副專心致志的模樣。我走近一看，原來，這小淘氣正在舅舅的照片上「創作」呢。只見照片被她用彩色筆塗上了顏色，她還給舅舅塗上了紅嘴脣，描上了耳環，更淘氣的是她還畫上了兩撇小鬍子。\n\n別看錶妹淘氣，她也有認真的時候。她非常喜歡跳舞，不論走到哪兒，只要音樂響起，她就立刻搖身一變成了大舞蹈家，隨着音樂舞動起來。六歲時，表妹開始學習舞蹈，從繃腳尖、壓腿基本功練起。她學習壓腿時，動作總是做不到位，看到同學做得出色，她心裏急得就像一隻熱鍋上的螞蟻。每天放學回到家，她都會自覺地做五組壓腿動作，每次練習完，她都直喊腿痛，可是即使這樣她還是堅持了下來。就這樣過了一週，表妹終於能完美地做出壓腿動作了。\n\n聽，歡快的樂曲響起了，一個小女孩正踏着節拍舞蹈，她舞步輕盈，就像一隻歡快的小鳥。她就是我的表妹。"
+  ],
+  "passagesSimplified": [
+    "二上：爱跳舞的小表妹（第二十二页）\n\n我有一个活泼可爱的表妹，她今年七岁。表妹喜欢穿粉红色的裙子，扎粉红色的蝴蝶结，把自己打扮得像一个漂亮的芭比娃娃。\n\n虽说她是个小女孩，有时候可比小男孩还淘气呢。那天，我去她家作客，表妹正在书房里涂涂画画，一副专心致志的模样。我走近一看，原来，这小淘气正在舅舅的照片上「创作」呢。只见照片被她用彩色笔涂上了颜色，她还给舅舅涂上了红嘴唇，描上了耳环，更淘气的是她还画上了两撇小胡子。\n\n别看表妹淘气，她也有认真的时候。她非常喜欢跳舞，不论走到哪儿，只要音乐响起，她就立刻摇身一变成了大舞蹈家，随着音乐舞动起来。六岁时，表妹开始学习舞蹈，从绷脚尖、压腿基本功练起。她学习压腿时，动作总是做不到位，看到同学做得出色，她心里急得就像一只热锅上的蚂蚁。每天放学回到家，她都会自觉地做五组压腿动作，每次练习完，她都直喊腿痛，可是即使这样她还是坚持了下来。就这样过了一周，表妹终于能完美地做出压腿动作了。\n\n听，欢快的乐曲响起了，一个小女孩正踏着节拍舞蹈，她舞步轻盈，就像一只欢快的小鸟。她就是我的表妹。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch08_w001",
+      "traditional": "活潑",
+      "simplified": "活泼",
+      "english": "lively",
+      "pinyin": "huó pō",
+      "contextSentence": "我有一個活潑可愛的表妹，她今年七歲。",
+      "contextSentenceSimplified": "我有一个活泼可爱的表妹，她今年七岁。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w002",
+      "traditional": "紮",
+      "simplified": "扎",
+      "english": "tie",
+      "pinyin": "zā",
+      "contextSentence": "表妹喜歡穿粉紅色的裙子，紮粉紅色的蝴蝶結，把自己打扮得像一個漂亮的芭比娃娃。",
+      "contextSentenceSimplified": "表妹喜欢穿粉红色的裙子，扎粉红色的蝴蝶结，把自己打扮得像一个漂亮的芭比娃娃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w003",
+      "traditional": "蝴蝶結",
+      "simplified": "蝴蝶结",
+      "english": "bow",
+      "pinyin": "hú dié jié",
+      "contextSentence": "表妹喜歡穿粉紅色的裙子，紮粉紅色的蝴蝶結，把自己打扮得像一個漂亮的芭比娃娃。",
+      "contextSentenceSimplified": "表妹喜欢穿粉红色的裙子，扎粉红色的蝴蝶结，把自己打扮得像一个漂亮的芭比娃娃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w004",
+      "traditional": "淘氣",
+      "simplified": "淘气",
+      "english": "naughty",
+      "pinyin": "táo qì",
+      "contextSentence": "雖說她是個小女孩，有時候可比小男孩還淘氣呢。",
+      "contextSentenceSimplified": "虽说她是个小女孩，有时候可比小男孩还淘气呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w005",
+      "traditional": "塗塗畫畫",
+      "simplified": "涂涂画画",
+      "english": "doodle and draw",
+      "pinyin": "tú tú huà huà",
+      "contextSentence": "那天，我去她家作客，表妹正在書房裏塗塗畫畫，一副專心致志的模樣。",
+      "contextSentenceSimplified": "那天，我去她家作客，表妹正在书房里涂涂画画，一副专心致志的模样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w006",
+      "traditional": "專心致志",
+      "simplified": "专心致志",
+      "english": "concentrate fully",
+      "pinyin": "zhuān xīn zhì zhì",
+      "contextSentence": "那天，我去她家作客，表妹正在書房裏塗塗畫畫，一副專心致志的模樣。",
+      "contextSentenceSimplified": "那天，我去她家作客，表妹正在书房里涂涂画画，一副专心致志的模样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w007",
+      "traditional": "創作",
+      "simplified": "创作",
+      "english": "creative work / creation",
+      "pinyin": "chuàng zuò",
+      "contextSentence": "我走近一看，原來，這小淘氣正在舅舅的照片上「創作」呢。",
+      "contextSentenceSimplified": "我走近一看，原来，这小淘气正在舅舅的照片上「创作」呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w008",
+      "traditional": "兩撇小鬍子",
+      "simplified": "两撇小胡子",
+      "english": "two small mustaches",
+      "pinyin": "liǎng piē xiǎo hú zi",
+      "contextSentence": "只見照片被她用彩色筆塗上了顏色，她還給舅舅塗上了紅嘴脣，描上了耳環，更淘氣的是她還畫上了兩撇小鬍子。",
+      "contextSentenceSimplified": "只见照片被她用彩色笔涂上了颜色，她还给舅舅涂上了红嘴唇，描上了耳环，更淘气的是她还画上了两撇小胡子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w009",
+      "traditional": "搖身一變",
+      "simplified": "摇身一变",
+      "english": "transform instantly",
+      "pinyin": "yáo shēn yī biàn",
+      "contextSentence": "她非常喜歡跳舞，不論走到哪兒，只要音樂響起，她就立刻搖身一變成了大舞蹈家，隨着音樂舞動起來。",
+      "contextSentenceSimplified": "她非常喜欢跳舞，不论走到哪儿，只要音乐响起，她就立刻摇身一变成了大舞蹈家，随着音乐舞动起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w010",
+      "traditional": "大舞蹈家",
+      "simplified": "大舞蹈家",
+      "english": "great dancer",
+      "pinyin": "dà wǔ dǎo jiā",
+      "contextSentence": "她非常喜歡跳舞，不論走到哪兒，只要音樂響起，她就立刻搖身一變成了大舞蹈家，隨着音樂舞動起來。",
+      "contextSentenceSimplified": "她非常喜欢跳舞，不论走到哪儿，只要音乐响起，她就立刻摇身一变成了大舞蹈家，随着音乐舞动起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w011",
+      "traditional": "繃腳尖",
+      "simplified": "绷脚尖",
+      "english": "point toes",
+      "pinyin": "běng jiǎo jiān",
+      "contextSentence": "六歲時，表妹開始學習舞蹈，從繃腳尖、壓腿基本功練起。",
+      "contextSentenceSimplified": "六岁时，表妹开始学习舞蹈，从绷脚尖、压腿基本功练起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w012",
+      "traditional": "壓腿",
+      "simplified": "压腿",
+      "english": "stretch legs",
+      "pinyin": "yā tuǐ",
+      "contextSentence": "六歲時，表妹開始學習舞蹈，從繃腳尖、壓腿基本功練起。",
+      "contextSentenceSimplified": "六岁时，表妹开始学习舞蹈，从绷脚尖、压腿基本功练起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w013",
+      "traditional": "基本功練起",
+      "simplified": "基本功练起",
+      "english": "start with basics",
+      "pinyin": "jī běn gōng liàn qǐ",
+      "contextSentence": "六歲時，表妹開始學習舞蹈，從繃腳尖、壓腿基本功練起。",
+      "contextSentenceSimplified": "六岁时，表妹开始学习舞蹈，从绷脚尖、压腿基本功练起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w014",
+      "traditional": "到位",
+      "simplified": "到位",
+      "english": "in place",
+      "pinyin": "dào wèi",
+      "contextSentence": "她學習壓腿時，動作總是做不到位，看到同學做得出色，她心裏急得就像一隻熱鍋上的螞蟻。",
+      "contextSentenceSimplified": "她学习压腿时，动作总是做不到位，看到同学做得出色，她心里急得就像一只热锅上的蚂蚁。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w015",
+      "traditional": "急得就像一隻熱鍋上的螞蟻",
+      "simplified": "急得就像一只热锅上的蚂蚁",
+      "english": "anxious like an ant on hot pan",
+      "pinyin": "jí dé jiù xiàng yī zhī rè guō shàng de mǎ yǐ",
+      "contextSentence": "她學習壓腿時，動作總是做不到位，看到同學做得出色，她心裏急得就像一隻熱鍋上的螞蟻。",
+      "contextSentenceSimplified": "她学习压腿时，动作总是做不到位，看到同学做得出色，她心里急得就像一只热锅上的蚂蚁。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w016",
+      "traditional": "完美",
+      "simplified": "完美",
+      "english": "perfect",
+      "pinyin": "wán měi",
+      "contextSentence": "就這樣過了一週，表妹終於能完美地做出壓腿動作了。",
+      "contextSentenceSimplified": "就这样过了一周，表妹终于能完美地做出压腿动作了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w017",
+      "traditional": "踏着節拍",
+      "simplified": "踏着节拍",
+      "english": "keep the beat",
+      "pinyin": "tà zhe jié pāi",
+      "contextSentence": "聽，歡快的樂曲響起了，一個小女孩正踏着節拍舞蹈，她舞步輕盈，就像一隻歡快的小鳥。",
+      "contextSentenceSimplified": "听，欢快的乐曲响起了，一个小女孩正踏着节拍舞蹈，她舞步轻盈，就像一只欢快的小鸟。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch08_w018",
+      "traditional": "舞步輕盈",
+      "simplified": "舞步轻盈",
+      "english": "light dance steps",
+      "pinyin": "wǔ bù qīng yíng",
+      "contextSentence": "聽，歡快的樂曲響起了，一個小女孩正踏着節拍舞蹈，她舞步輕盈，就像一隻歡快的小鳥。",
+      "contextSentenceSimplified": "听，欢快的乐曲响起了，一个小女孩正踏着节拍舞蹈，她舞步轻盈，就像一只欢快的小鸟。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter08/b02_ch08_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter08/b02_ch08_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter08/b02_ch08_p01_m.mp3",
+        "durationMs": 107760,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4248,
+            "text": "二上：愛跳舞的小表妹（第二十二頁）",
+            "textSimplified": "二上：爱跳舞的小表妹（第二十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4248,
+            "endMs": 8472,
+            "text": "我有一個活潑可愛的表妹，她今年七歲。",
+            "textSimplified": "我有一个活泼可爱的表妹，她今年七岁。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8472,
+            "endMs": 17232,
+            "text": "表妹喜歡穿粉紅色的裙子，紮粉紅色的蝴蝶結，把自己打扮得像一個漂亮的芭比娃娃。",
+            "textSimplified": "表妹喜欢穿粉红色的裙子，扎粉红色的蝴蝶结，把自己打扮得像一个漂亮的芭比娃娃。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17232,
+            "endMs": 22560,
+            "text": "雖說她是個小女孩，有時候可比小男孩還淘氣呢。",
+            "textSimplified": "虽说她是个小女孩，有时候可比小男孩还淘气呢。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 22560,
+            "endMs": 30216,
+            "text": "那天，我去她家作客，表妹正在書房裏塗塗畫畫，一副專心致志的模樣。",
+            "textSimplified": "那天，我去她家作客，表妹正在书房里涂涂画画，一副专心致志的模样。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 30216,
+            "endMs": 36408,
+            "text": "我走近一看，原來，這小淘氣正在舅舅的照片上「創作」呢。",
+            "textSimplified": "我走近一看，原来，这小淘气正在舅舅的照片上「创作」呢。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 36408,
+            "endMs": 48384,
+            "text": "只見照片被她用彩色筆塗上了顏色，她還給舅舅塗上了紅嘴脣，描上了耳環，更淘氣的是她還畫上了兩撇小鬍子。",
+            "textSimplified": "只见照片被她用彩色笔涂上了颜色，她还给舅舅涂上了红嘴唇，描上了耳环，更淘气的是她还画上了两撇小胡子。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 48384,
+            "endMs": 52392,
+            "text": "別看錶妹淘氣，她也有認真的時候。",
+            "textSimplified": "别看表妹淘气，她也有认真的时候。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 52392,
+            "endMs": 62712,
+            "text": "她非常喜歡跳舞，不論走到哪兒，只要音樂響起，她就立刻搖身一變成了大舞蹈家，隨着音樂舞動起來。",
+            "textSimplified": "她非常喜欢跳舞，不论走到哪儿，只要音乐响起，她就立刻摇身一变成了大舞蹈家，随着音乐舞动起来。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 62712,
+            "endMs": 69792,
+            "text": "六歲時，表妹開始學習舞蹈，從繃腳尖、壓腿基本功練起。",
+            "textSimplified": "六岁时，表妹开始学习舞蹈，从绷脚尖、压腿基本功练起。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 69792,
+            "endMs": 79320,
+            "text": "她學習壓腿時，動作總是做不到位，看到同學做得出色，她心裏急得就像一隻熱鍋上的螞蟻。",
+            "textSimplified": "她学习压腿时，动作总是做不到位，看到同学做得出色，她心里急得就像一只热锅上的蚂蚁。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 79320,
+            "endMs": 90984,
+            "text": "每天放學回到家，她都會自覺地做五組壓腿動作，每次練習完，她都直喊腿痛，可是即使這樣她還是堅持了下來。",
+            "textSimplified": "每天放学回到家，她都会自觉地做五组压腿动作，每次练习完，她都直喊腿痛，可是即使这样她还是坚持了下来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 90984,
+            "endMs": 96264,
+            "text": "就這樣過了一週，表妹終於能完美地做出壓腿動作了。",
+            "textSimplified": "就这样过了一周，表妹终于能完美地做出压腿动作了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 96264,
+            "endMs": 105600,
+            "text": "聽，歡快的樂曲響起了，一個小女孩正踏着節拍舞蹈，她舞步輕盈，就像一隻歡快的小鳥。",
+            "textSimplified": "听，欢快的乐曲响起了，一个小女孩正踏着节拍舞蹈，她舞步轻盈，就像一只欢快的小鸟。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 105600,
+            "endMs": 107760,
+            "text": "她就是我的表妹。",
+            "textSimplified": "她就是我的表妹。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter08/b02_ch08_p01_c.mp3",
+        "durationMs": 114096,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4872,
+            "text": "二上：愛跳舞的小表妹（第二十二頁）",
+            "textSimplified": "二上：爱跳舞的小表妹（第二十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4872,
+            "endMs": 9888,
+            "text": "我有一個活潑可愛的表妹，她今年七歲。",
+            "textSimplified": "我有一个活泼可爱的表妹，她今年七岁。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9888,
+            "endMs": 18696,
+            "text": "表妹喜歡穿粉紅色的裙子，紮粉紅色的蝴蝶結，把自己打扮得像一個漂亮的芭比娃娃。",
+            "textSimplified": "表妹喜欢穿粉红色的裙子，扎粉红色的蝴蝶结，把自己打扮得像一个漂亮的芭比娃娃。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 18696,
+            "endMs": 24504,
+            "text": "雖說她是個小女孩，有時候可比小男孩還淘氣呢。",
+            "textSimplified": "虽说她是个小女孩，有时候可比小男孩还淘气呢。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 24504,
+            "endMs": 32808,
+            "text": "那天，我去她家作客，表妹正在書房裏塗塗畫畫，一副專心致志的模樣。",
+            "textSimplified": "那天，我去她家作客，表妹正在书房里涂涂画画，一副专心致志的模样。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 32808,
+            "endMs": 39672,
+            "text": "我走近一看，原來，這小淘氣正在舅舅的照片上「創作」呢。",
+            "textSimplified": "我走近一看，原来，这小淘气正在舅舅的照片上「创作」呢。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 39672,
+            "endMs": 51552,
+            "text": "只見照片被她用彩色筆塗上了顏色，她還給舅舅塗上了紅嘴脣，描上了耳環，更淘氣的是她還畫上了兩撇小鬍子。",
+            "textSimplified": "只见照片被她用彩色笔涂上了颜色，她还给舅舅涂上了红嘴唇，描上了耳环，更淘气的是她还画上了两撇小胡子。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 51552,
+            "endMs": 56160,
+            "text": "別看錶妹淘氣，她也有認真的時候。",
+            "textSimplified": "别看表妹淘气，她也有认真的时候。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 56160,
+            "endMs": 67032,
+            "text": "她非常喜歡跳舞，不論走到哪兒，只要音樂響起，她就立刻搖身一變成了大舞蹈家，隨着音樂舞動起來。",
+            "textSimplified": "她非常喜欢跳舞，不论走到哪儿，只要音乐响起，她就立刻摇身一变成了大舞蹈家，随着音乐舞动起来。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 67032,
+            "endMs": 74328,
+            "text": "六歲時，表妹開始學習舞蹈，從繃腳尖、壓腿基本功練起。",
+            "textSimplified": "六岁时，表妹开始学习舞蹈，从绷脚尖、压腿基本功练起。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 74328,
+            "endMs": 83808,
+            "text": "她學習壓腿時，動作總是做不到位，看到同學做得出色，她心裏急得就像一隻熱鍋上的螞蟻。",
+            "textSimplified": "她学习压腿时，动作总是做不到位，看到同学做得出色，她心里急得就像一只热锅上的蚂蚁。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 83808,
+            "endMs": 95448,
+            "text": "每天放學回到家，她都會自覺地做五組壓腿動作，每次練習完，她都直喊腿痛，可是即使這樣她還是堅持了下來。",
+            "textSimplified": "每天放学回到家，她都会自觉地做五组压腿动作，每次练习完，她都直喊腿痛，可是即使这样她还是坚持了下来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 95448,
+            "endMs": 101568,
+            "text": "就這樣過了一週，表妹終於能完美地做出壓腿動作了。",
+            "textSimplified": "就这样过了一周，表妹终于能完美地做出压腿动作了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 101568,
+            "endMs": 111264,
+            "text": "聽，歡快的樂曲響起了，一個小女孩正踏着節拍舞蹈，她舞步輕盈，就像一隻歡快的小鳥。",
+            "textSimplified": "听，欢快的乐曲响起了，一个小女孩正踏着节拍舞蹈，她舞步轻盈，就像一只欢快的小鸟。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 111264,
+            "endMs": 114096,
+            "text": "她就是我的表妹。",
+            "textSimplified": "她就是我的表妹。"
+          }
+        ]
+      }
+    }
+  ]
+}

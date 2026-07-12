@@ -1,0 +1,681 @@
+{
+  "bookId": "03",
+  "chapterId": "01",
+  "chapterTitle": "難忘的常識課",
+  "chapterTitleSimplified": "难忘的常识课",
+  "passages": [
+    "二下 ：難忘的常識課 （第六頁） 「叮鈴鈴」，清脆的鈴聲響起，常識課開始了。只見老師拿着兩個玻璃杯和一些小紙片走進了課室。同學們見了，頓時有些丈二和尚摸不着頭腦，都好奇地張望着。 「今天，我們來做一個科學小實驗。」老師說完，拿出一個杯子，「嘩嘩嘩」往裏面倒滿水。然後，他把一張小紙片平放在杯口上。這時，老師環視了一下課室，問道：「我把杯子倒過來會怎樣呢？」「水當然會灑出來啦！」有的同學脫口而出。「不對不對，水不會灑出來。」同學們七嘴八舌地議論着。「現在，請大家看仔細了！」同學們目不轉睛地盯着老師手裏的杯子，課室裏靜悄悄的，彷彿連根針掉在地上也能聽見。只見老師用右手托住杯底，將左手按在小紙片上面，並用掌心緊緊壓住杯口。然後，他突然快速地翻轉杯子，慢慢地移開了按在杯口的左手。 「啊！」同學們不禁發出驚呼聲，生怕…可這時，奇跡發生了：杯口的小紙片沒有掉下來，杯中的水也沒有流出來。「這是怎麼回事呢？」同學們瞪大了雙眼，好像觀看了一場神奇的魔術表演。「同學們，你們一定覺得很神奇吧？其實這是大氣壓力在起作用。」老師解釋道。最後，老師又讓我們自己動手做實驗。"
+  ],
+  "passagesSimplified": [
+    "二下 ：难忘的常识课 （第六页） 「叮铃铃」，清脆的铃声响起，常识课开始了。只见老师拿着两个玻璃杯和一些小纸片走进了课室。同学们见了，顿时有些丈二和尚摸不着头脑，都好奇地张望着。 「今天，我们来做一个科学小实验。」老师说完，拿出一个杯子，「哗哗哗」往里面倒满水。然后，他把一张小纸片平放在杯口上。这时，老师环视了一下课室，问道：「我把杯子倒过来会怎样呢？」「水当然会洒出来啦！」有的同学脱口而出。「不对不对，水不会洒出来。」同学们七嘴八舌地议论着。「现在，请大家看仔细了！」同学们目不转睛地盯着老师手里的杯子，课室里静悄悄的，仿佛连根针掉在地上也能听见。只见老师用右手托住杯底，将左手按在小纸片上面，并用掌心紧紧压住杯口。然后，他突然快速地翻转杯子，慢慢地移开了按在杯口的左手。 「啊！」同学们不禁发出惊呼声，生怕…可这时，奇迹发生了：杯口的小纸片没有掉下来，杯中的水也没有流出来。「这是怎么回事呢？」同学们瞪大了双眼，好像观看了一场神奇的魔术表演。「同学们，你们一定觉得很神奇吧？其实这是大气压力在起作用。」老师解释道。最后，老师又让我们自己动手做实验。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch01_w001",
+      "traditional": "丈二和尚摸不着頭腦",
+      "simplified": "丈二和尚摸不着头脑",
+      "english": "completely baffled / at a loss (idiom)",
+      "pinyin": "zhàng èr hé shàng mō bù zháo tóu nǎo",
+      "contextSentence": "同學們見了，頓時有些丈二和尚摸不着頭腦，都好奇地張望着。",
+      "contextSentenceSimplified": "同学们见了，顿时有些丈二和尚摸不着头脑，都好奇地张望着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w002",
+      "traditional": "小實驗",
+      "simplified": "小实验",
+      "english": "small experiment",
+      "pinyin": "xiǎo shí yàn",
+      "contextSentence": "今天，我們來做一個科學小實驗。",
+      "contextSentenceSimplified": "今天，我们来做一个科学小实验。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w003",
+      "traditional": "脫口而出",
+      "simplified": "脱口而出",
+      "english": "to blurt out",
+      "pinyin": "tuō kǒu ér chū",
+      "contextSentence": "有的同學脫口而出。",
+      "contextSentenceSimplified": "有的同学脱口而出。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w004",
+      "traditional": "七嘴八舌",
+      "simplified": "七嘴八舌",
+      "english": "everyone talking at once / a babel of voices",
+      "pinyin": "qī zuǐ bā shé",
+      "contextSentence": "同學們七嘴八舌地議論着。",
+      "contextSentenceSimplified": "同学们七嘴八舌地议论着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w005",
+      "traditional": "議論",
+      "simplified": "议论",
+      "english": "to discuss / to debate",
+      "pinyin": "yì lùn",
+      "contextSentence": "同學們七嘴八舌地議論着。",
+      "contextSentenceSimplified": "同学们七嘴八舌地议论着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w006",
+      "traditional": "目不轉睛",
+      "simplified": "目不转睛",
+      "english": "stare fixedly / eyes unwavering",
+      "pinyin": "mù bù zhuǎn jīng",
+      "contextSentence": "同學們目不轉睛地盯着老師手裏的杯子，課室裏靜悄悄的，彷彿連根針掉在地上也能聽見。",
+      "contextSentenceSimplified": "同学们目不转睛地盯着老师手里的杯子，课室里静悄悄的，仿佛连根针掉在地上也能听见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w007",
+      "traditional": "盯着",
+      "simplified": "盯着",
+      "english": "stare at / fix gaze on",
+      "pinyin": "dīng zhe",
+      "contextSentence": "同學們目不轉睛地盯着老師手裏的杯子，課室裏靜悄悄的，彷彿連根針掉在地上也能聽見。",
+      "contextSentenceSimplified": "同学们目不转睛地盯着老师手里的杯子，课室里静悄悄的，仿佛连根针掉在地上也能听见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w008",
+      "traditional": "靜悄悄",
+      "simplified": "静悄悄",
+      "english": "quiet / silent / still",
+      "pinyin": "jìng qiāo qiāo",
+      "contextSentence": "同學們目不轉睛地盯着老師手裏的杯子，課室裏靜悄悄的，彷彿連根針掉在地上也能聽見。",
+      "contextSentenceSimplified": "同学们目不转睛地盯着老师手里的杯子，课室里静悄悄的，仿佛连根针掉在地上也能听见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w009",
+      "traditional": "移開",
+      "simplified": "移开",
+      "english": "to move away / shift",
+      "pinyin": "yí kāi",
+      "contextSentence": "然後，他突然快速地翻轉杯子，慢慢地移開了按在杯口的左手。",
+      "contextSentenceSimplified": "然后，他突然快速地翻转杯子，慢慢地移开了按在杯口的左手。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w010",
+      "traditional": "不禁發出驚呼聲",
+      "simplified": "不禁发出惊呼声",
+      "english": "couldn't help but exclaim",
+      "pinyin": "bù jīn fā chū jīng hū shēng",
+      "contextSentence": "同學們不禁發出驚呼聲，生怕…可這時，奇跡發生了：杯口的小紙片沒有掉下來，杯中的水也沒有流出來。",
+      "contextSentenceSimplified": "同学们不禁发出惊呼声，生怕…可这时，奇迹发生了：杯口的小纸片没有掉下来，杯中的水也没有流出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w011",
+      "traditional": "奇跡",
+      "simplified": "奇迹",
+      "english": "miracle",
+      "pinyin": "qí jī",
+      "contextSentence": "同學們不禁發出驚呼聲，生怕…可這時，奇跡發生了：杯口的小紙片沒有掉下來，杯中的水也沒有流出來。",
+      "contextSentenceSimplified": "同学们不禁发出惊呼声，生怕…可这时，奇迹发生了：杯口的小纸片没有掉下来，杯中的水也没有流出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w012",
+      "traditional": "魔術表演",
+      "simplified": "魔术表演",
+      "english": "magic show / performance",
+      "pinyin": "mó shù biǎo yǎn",
+      "contextSentence": "同學們瞪大了雙眼，好像觀看了一場神奇的魔術表演。",
+      "contextSentenceSimplified": "同学们瞪大了双眼，好像观看了一场神奇的魔术表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w013",
+      "traditional": "壓力",
+      "simplified": "压力",
+      "english": "pressure / stress",
+      "pinyin": "yā lì",
+      "contextSentence": "其實這是大氣壓力在起作用。",
+      "contextSentenceSimplified": "其实这是大气压力在起作用。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch01_w014",
+      "traditional": "解釋",
+      "simplified": "解释",
+      "english": "to explain / explanation",
+      "pinyin": "jiě shì",
+      "contextSentence": "老師解釋道。",
+      "contextSentenceSimplified": "老师解释道。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter01/b03_ch01_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter01/b03_ch01_w014_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter01/b03_ch01_p01_m.mp3",
+        "durationMs": 114912,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8160,
+            "text": "二下 ：難忘的常識課 （第六頁） 「叮鈴鈴」，清脆的鈴聲響起，常識課開始了。",
+            "textSimplified": "二下 ：难忘的常识课 （第六页） 「叮铃铃」，清脆的铃声响起，常识课开始了。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8160,
+            "endMs": 13920,
+            "text": "只見老師拿着兩個玻璃杯和一些小紙片走進了課室。",
+            "textSimplified": "只见老师拿着两个玻璃杯和一些小纸片走进了课室。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 13920,
+            "endMs": 20736,
+            "text": "同學們見了，頓時有些丈二和尚摸不着頭腦，都好奇地張望着。",
+            "textSimplified": "同学们见了，顿时有些丈二和尚摸不着头脑，都好奇地张望着。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 20736,
+            "endMs": 24384,
+            "text": "「今天，我們來做一個科學小實驗。」",
+            "textSimplified": "「今天，我们来做一个科学小实验。」"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 24384,
+            "endMs": 29784,
+            "text": "老師說完，拿出一個杯子，「嘩嘩嘩」往裏面倒滿水。",
+            "textSimplified": "老师说完，拿出一个杯子，「哗哗哗」往里面倒满水。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 29784,
+            "endMs": 34296,
+            "text": "然後，他把一張小紙片平放在杯口上。",
+            "textSimplified": "然后，他把一张小纸片平放在杯口上。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 34296,
+            "endMs": 41304,
+            "text": "這時，老師環視了一下課室，問道：「我把杯子倒過來會怎樣呢？」",
+            "textSimplified": "这时，老师环视了一下课室，问道：「我把杯子倒过来会怎样呢？」"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 41304,
+            "endMs": 43752,
+            "text": "「水當然會灑出來啦！」",
+            "textSimplified": "「水当然会洒出来啦！」"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 43752,
+            "endMs": 46248,
+            "text": "有的同學脫口而出。",
+            "textSimplified": "有的同学脱口而出。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 46248,
+            "endMs": 49368,
+            "text": "「不對不對，水不會灑出來。」",
+            "textSimplified": "「不对不对，水不会洒出来。」"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 49368,
+            "endMs": 52608,
+            "text": "同學們七嘴八舌地議論着。",
+            "textSimplified": "同学们七嘴八舌地议论着。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 52608,
+            "endMs": 55560,
+            "text": "「現在，請大家看仔細了！」",
+            "textSimplified": "「现在，请大家看仔细了！」"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 55560,
+            "endMs": 64800,
+            "text": "同學們目不轉睛地盯着老師手裏的杯子，課室裏靜悄悄的，彷彿連根針掉在地上也能聽見。",
+            "textSimplified": "同学们目不转睛地盯着老师手里的杯子，课室里静悄悄的，仿佛连根针掉在地上也能听见。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 64800,
+            "endMs": 73488,
+            "text": "只見老師用右手托住杯底，將左手按在小紙片上面，並用掌心緊緊壓住杯口。",
+            "textSimplified": "只见老师用右手托住杯底，将左手按在小纸片上面，并用掌心紧紧压住杯口。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 73488,
+            "endMs": 80256,
+            "text": "然後，他突然快速地翻轉杯子，慢慢地移開了按在杯口的左手。",
+            "textSimplified": "然后，他突然快速地翻转杯子，慢慢地移开了按在杯口的左手。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 80256,
+            "endMs": 81480,
+            "text": "「啊！」",
+            "textSimplified": "「啊！」"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 81480,
+            "endMs": 85224,
+            "text": "同學們不禁發出驚呼聲，生怕…",
+            "textSimplified": "同学们不禁发出惊呼声，生怕…"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 85224,
+            "endMs": 93384,
+            "text": "可這時，奇跡發生了：杯口的小紙片沒有掉下來，杯中的水也沒有流出來。",
+            "textSimplified": "可这时，奇迹发生了：杯口的小纸片没有掉下来，杯中的水也没有流出来。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 93384,
+            "endMs": 95592,
+            "text": "「這是怎麼回事呢？」",
+            "textSimplified": "「这是怎么回事呢？」"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 95592,
+            "endMs": 101352,
+            "text": "同學們瞪大了雙眼，好像觀看了一場神奇的魔術表演。",
+            "textSimplified": "同学们瞪大了双眼，好像观看了一场神奇的魔术表演。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 101352,
+            "endMs": 104976,
+            "text": "「同學們，你們一定覺得很神奇吧？",
+            "textSimplified": "「同学们，你们一定觉得很神奇吧？"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 104976,
+            "endMs": 108576,
+            "text": "其實這是大氣壓力在起作用。」",
+            "textSimplified": "其实这是大气压力在起作用。」"
+          },
+          {
+            "index": 22,
+            "paragraph": 0,
+            "startMs": 108576,
+            "endMs": 110544,
+            "text": "老師解釋道。",
+            "textSimplified": "老师解释道。"
+          },
+          {
+            "index": 23,
+            "paragraph": 0,
+            "startMs": 110544,
+            "endMs": 114912,
+            "text": "最後，老師又讓我們自己動手做實驗。",
+            "textSimplified": "最后，老师又让我们自己动手做实验。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter01/b03_ch01_p01_c.mp3",
+        "durationMs": 129168,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8472,
+            "text": "二下 ：難忘的常識課 （第六頁） 「叮鈴鈴」，清脆的鈴聲響起，常識課開始了。",
+            "textSimplified": "二下 ：难忘的常识课 （第六页） 「叮铃铃」，清脆的铃声响起，常识课开始了。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8472,
+            "endMs": 14184,
+            "text": "只見老師拿着兩個玻璃杯和一些小紙片走進了課室。",
+            "textSimplified": "只见老师拿着两个玻璃杯和一些小纸片走进了课室。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 14184,
+            "endMs": 21336,
+            "text": "同學們見了，頓時有些丈二和尚摸不着頭腦，都好奇地張望着。",
+            "textSimplified": "同学们见了，顿时有些丈二和尚摸不着头脑，都好奇地张望着。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 21336,
+            "endMs": 26208,
+            "text": "「今天，我們來做一個科學小實驗。」",
+            "textSimplified": "「今天，我们来做一个科学小实验。」"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 26208,
+            "endMs": 32424,
+            "text": "老師說完，拿出一個杯子，「嘩嘩嘩」往裏面倒滿水。",
+            "textSimplified": "老师说完，拿出一个杯子，「哗哗哗」往里面倒满水。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 32424,
+            "endMs": 37584,
+            "text": "然後，他把一張小紙片平放在杯口上。",
+            "textSimplified": "然后，他把一张小纸片平放在杯口上。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 37584,
+            "endMs": 45480,
+            "text": "這時，老師環視了一下課室，問道：「我把杯子倒過來會怎樣呢？」",
+            "textSimplified": "这时，老师环视了一下课室，问道：「我把杯子倒过来会怎样呢？」"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 45480,
+            "endMs": 48960,
+            "text": "「水當然會灑出來啦！」",
+            "textSimplified": "「水当然会洒出来啦！」"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 48960,
+            "endMs": 51768,
+            "text": "有的同學脫口而出。",
+            "textSimplified": "有的同学脱口而出。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 51768,
+            "endMs": 55752,
+            "text": "「不對不對，水不會灑出來。」",
+            "textSimplified": "「不对不对，水不会洒出来。」"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 55752,
+            "endMs": 59352,
+            "text": "同學們七嘴八舌地議論着。",
+            "textSimplified": "同学们七嘴八舌地议论着。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 59352,
+            "endMs": 63528,
+            "text": "「現在，請大家看仔細了！」",
+            "textSimplified": "「现在，请大家看仔细了！」"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 63528,
+            "endMs": 73152,
+            "text": "同學們目不轉睛地盯着老師手裏的杯子，課室裏靜悄悄的，彷彿連根針掉在地上也能聽見。",
+            "textSimplified": "同学们目不转睛地盯着老师手里的杯子，课室里静悄悄的，仿佛连根针掉在地上也能听见。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 73152,
+            "endMs": 81840,
+            "text": "只見老師用右手托住杯底，將左手按在小紙片上面，並用掌心緊緊壓住杯口。",
+            "textSimplified": "只见老师用右手托住杯底，将左手按在小纸片上面，并用掌心紧紧压住杯口。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 81840,
+            "endMs": 89232,
+            "text": "然後，他突然快速地翻轉杯子，慢慢地移開了按在杯口的左手。",
+            "textSimplified": "然后，他突然快速地翻转杯子，慢慢地移开了按在杯口的左手。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 89232,
+            "endMs": 91176,
+            "text": "「啊！」",
+            "textSimplified": "「啊！」"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 91176,
+            "endMs": 95448,
+            "text": "同學們不禁發出驚呼聲，生怕…",
+            "textSimplified": "同学们不禁发出惊呼声，生怕…"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 95448,
+            "endMs": 103464,
+            "text": "可這時，奇跡發生了：杯口的小紙片沒有掉下來，杯中的水也沒有流出來。",
+            "textSimplified": "可这时，奇迹发生了：杯口的小纸片没有掉下来，杯中的水也没有流出来。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 103464,
+            "endMs": 106536,
+            "text": "「這是怎麼回事呢？」",
+            "textSimplified": "「这是怎么回事呢？」"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 106536,
+            "endMs": 112704,
+            "text": "同學們瞪大了雙眼，好像觀看了一場神奇的魔術表演。",
+            "textSimplified": "同学们瞪大了双眼，好像观看了一场神奇的魔术表演。"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 112704,
+            "endMs": 117216,
+            "text": "「同學們，你們一定覺得很神奇吧？",
+            "textSimplified": "「同学们，你们一定觉得很神奇吧？"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 117216,
+            "endMs": 121752,
+            "text": "其實這是大氣壓力在起作用。」",
+            "textSimplified": "其实这是大气压力在起作用。」"
+          },
+          {
+            "index": 22,
+            "paragraph": 0,
+            "startMs": 121752,
+            "endMs": 124200,
+            "text": "老師解釋道。",
+            "textSimplified": "老师解释道。"
+          },
+          {
+            "index": 23,
+            "paragraph": 0,
+            "startMs": 124200,
+            "endMs": 129168,
+            "text": "最後，老師又讓我們自己動手做實驗。",
+            "textSimplified": "最后，老师又让我们自己动手做实验。"
+          }
+        ]
+      }
+    }
+  ]
+}

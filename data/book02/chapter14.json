@@ -1,0 +1,708 @@
+{
+  "bookId": "02",
+  "chapterId": "14",
+  "chapterTitle": "美麗的香港",
+  "chapterTitleSimplified": "美丽的香港",
+  "passages": [
+    "二上：美麗的香港（第三十八頁）\n\n香港是一個繁華而現代化的城市，不論是白天還是夜晚，時時刻刻，處處都流動着美。\n\n你知道太平山嗎？它是香港的旅遊景點。登上太平山頂，可以俯瞰整個香港。一座座高樓大廈彷彿聳立在淡淡的雲海之中，在香港島和九龍半島之間，靜靜躺着的就是美麗的維多利亞港。水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。向遠處望去，海天一色，真像一幅美麗的圖畫。\n\n到了夜晚，街上各種各樣的燈點亮了，一下子，香港成了一片浪漫迷人的燈海。坐在郵輪裏，慢悠悠地行駛在維多利亞港上。夜幕下的維多利亞港彷彿是一位美麗的女神，顯得格外優雅婀娜。向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。此時，岸上的高樓大廈在燈光的照射下顯得更加華麗，彷彿一下子變成了金光閃閃的宮殿。這時，維多利亞港上空突然綻放出各種各樣、五顏六色的煙火，把整個海面都照亮了。\n\n啊，我愛美麗的香港，願它永遠這樣迷人。"
+  ],
+  "passagesSimplified": [
+    "二上：美丽的香港（第三十八页）\n\n香港是一个繁华而现代化的城市，不论是白天还是夜晚，时时刻刻，处处都流动着美。\n\n你知道太平山吗？它是香港的旅游景点。登上太平山顶，可以俯瞰整个香港。一座座高楼大厦仿佛耸立在淡淡的云海之中，在香港岛和九龙半岛之间，静静躺着的就是美丽的维多利亚港。水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。向远处望去，海天一色，真像一幅美丽的图画。\n\n到了夜晚，街上各种各样的灯点亮了，一下子，香港成了一片浪漫迷人的灯海。坐在邮轮里，慢悠悠地行驶在维多利亚港上。夜幕下的维多利亚港仿佛是一位美丽的女神，显得格外优雅婀娜。向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。此时，岸上的高楼大厦在灯光的照射下显得更加华丽，仿佛一下子变成了金光闪闪的宫殿。这时，维多利亚港上空突然绽放出各种各样、五颜六色的烟火，把整个海面都照亮了。\n\n啊，我爱美丽的香港，愿它永远这样迷人。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch14_w001",
+      "traditional": "繁華",
+      "simplified": "繁华",
+      "english": "bustling",
+      "pinyin": "fán huá",
+      "contextSentence": "香港是一個繁華而現代化的城市，不論是白天還是夜晚，時時刻刻，處處都流動着美。",
+      "contextSentenceSimplified": "香港是一个繁华而现代化的城市，不论是白天还是夜晚，时时刻刻，处处都流动着美。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w002",
+      "traditional": "現代化",
+      "simplified": "现代化",
+      "english": "modernization",
+      "pinyin": "xiàn dài huà",
+      "contextSentence": "香港是一個繁華而現代化的城市，不論是白天還是夜晚，時時刻刻，處處都流動着美。",
+      "contextSentenceSimplified": "香港是一个繁华而现代化的城市，不论是白天还是夜晚，时时刻刻，处处都流动着美。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w003",
+      "traditional": "俯瞰",
+      "simplified": "俯瞰",
+      "english": "look down from above",
+      "pinyin": "fǔ kàn",
+      "contextSentence": "登上太平山頂，可以俯瞰整個香港。",
+      "contextSentenceSimplified": "登上太平山顶，可以俯瞰整个香港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w004",
+      "traditional": "整個",
+      "simplified": "整个",
+      "english": "whole",
+      "pinyin": "zhěng gè",
+      "contextSentence": "登上太平山頂，可以俯瞰整個香港。",
+      "contextSentenceSimplified": "登上太平山顶，可以俯瞰整个香港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w005",
+      "traditional": "聳立",
+      "simplified": "耸立",
+      "english": "tower",
+      "pinyin": "sǒng lì",
+      "contextSentence": "一座座高樓大廈彷彿聳立在淡淡的雲海之中，在香港島和九龍半島之間，靜靜躺着的就是美麗的維多利亞港。",
+      "contextSentenceSimplified": "一座座高楼大厦仿佛耸立在淡淡的云海之中，在香港岛和九龙半岛之间，静静躺着的就是美丽的维多利亚港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w006",
+      "traditional": "半島",
+      "simplified": "半岛",
+      "english": "peninsula",
+      "pinyin": "bàn dǎo",
+      "contextSentence": "一座座高樓大廈彷彿聳立在淡淡的雲海之中，在香港島和九龍半島之間，靜靜躺着的就是美麗的維多利亞港。",
+      "contextSentenceSimplified": "一座座高楼大厦仿佛耸立在淡淡的云海之中，在香港岛和九龙半岛之间，静静躺着的就是美丽的维多利亚港。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w007",
+      "traditional": "閃爍",
+      "simplified": "闪烁",
+      "english": "twinkle",
+      "pinyin": "shǎn shuò",
+      "contextSentence": "水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。",
+      "contextSentenceSimplified": "水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w008",
+      "traditional": "巨大",
+      "simplified": "巨大",
+      "english": "huge",
+      "pinyin": "jù dà",
+      "contextSentence": "水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。",
+      "contextSentenceSimplified": "水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w009",
+      "traditional": "郵輪",
+      "simplified": "邮轮",
+      "english": "cruise ship",
+      "pinyin": "yóu lún",
+      "contextSentence": "水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。",
+      "contextSentenceSimplified": "水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w010",
+      "traditional": "緩緩",
+      "simplified": "缓缓",
+      "english": "slowly",
+      "pinyin": "huǎn huǎn",
+      "contextSentence": "水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。",
+      "contextSentenceSimplified": "水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w011",
+      "traditional": "浪漫迷人",
+      "simplified": "浪漫迷人",
+      "english": "romantic and charming",
+      "pinyin": "làng màn mí rén",
+      "contextSentence": "到了夜晚，街上各種各樣的燈點亮了，一下子，香港成了一片浪漫迷人的燈海。",
+      "contextSentenceSimplified": "到了夜晚，街上各种各样的灯点亮了，一下子，香港成了一片浪漫迷人的灯海。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w012",
+      "traditional": "夜幕",
+      "simplified": "夜幕",
+      "english": "nightfall",
+      "pinyin": "yè mù",
+      "contextSentence": "夜幕下的維多利亞港彷彿是一位美麗的女神，顯得格外優雅婀娜。",
+      "contextSentenceSimplified": "夜幕下的维多利亚港仿佛是一位美丽的女神，显得格外优雅婀娜。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w013",
+      "traditional": "優雅婀娜",
+      "simplified": "优雅婀娜",
+      "english": "elegant and graceful",
+      "pinyin": "yōu yǎ ē nuó",
+      "contextSentence": "夜幕下的維多利亞港彷彿是一位美麗的女神，顯得格外優雅婀娜。",
+      "contextSentenceSimplified": "夜幕下的维多利亚港仿佛是一位美丽的女神，显得格外优雅婀娜。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w014",
+      "traditional": "霓虹燈",
+      "simplified": "霓虹灯",
+      "english": "neon lights",
+      "pinyin": "ní hóng dēng",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w015",
+      "traditional": "倒映",
+      "simplified": "倒映",
+      "english": "reflected image",
+      "pinyin": "dào yìng",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w016",
+      "traditional": "波光粼粼",
+      "simplified": "波光粼粼",
+      "english": "sparkling waves",
+      "pinyin": "bō guāng lín lín",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w017",
+      "traditional": "打翻",
+      "simplified": "打翻",
+      "english": "knock over",
+      "pinyin": "dǎ fān",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w018",
+      "traditional": "珠寶盒",
+      "simplified": "珠宝盒",
+      "english": "jewelry box",
+      "pinyin": "zhū bǎo hé",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w019",
+      "traditional": "耀眼",
+      "simplified": "耀眼",
+      "english": "dazzling",
+      "pinyin": "yào yǎn",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w020",
+      "traditional": "灑落",
+      "simplified": "洒落",
+      "english": "scatter",
+      "pinyin": "sǎ luò",
+      "contextSentence": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+      "contextSentenceSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w021",
+      "traditional": "華麗",
+      "simplified": "华丽",
+      "english": "magnificent",
+      "pinyin": "huá lì",
+      "contextSentence": "此時，岸上的高樓大廈在燈光的照射下顯得更加華麗，彷彿一下子變成了金光閃閃的宮殿。",
+      "contextSentenceSimplified": "此时，岸上的高楼大厦在灯光的照射下显得更加华丽，仿佛一下子变成了金光闪闪的宫殿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w022",
+      "traditional": "宮殿",
+      "simplified": "宫殿",
+      "english": "palace",
+      "pinyin": "gōng diàn",
+      "contextSentence": "此時，岸上的高樓大廈在燈光的照射下顯得更加華麗，彷彿一下子變成了金光閃閃的宮殿。",
+      "contextSentenceSimplified": "此时，岸上的高楼大厦在灯光的照射下显得更加华丽，仿佛一下子变成了金光闪闪的宫殿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch14_w023",
+      "traditional": "綻放",
+      "simplified": "绽放",
+      "english": "bloom",
+      "pinyin": "zhàn fàng",
+      "contextSentence": "這時，維多利亞港上空突然綻放出各種各樣、五顏六色的煙火，把整個海面都照亮了。",
+      "contextSentenceSimplified": "这时，维多利亚港上空突然绽放出各种各样、五颜六色的烟火，把整个海面都照亮了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter14/b02_ch14_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter14/b02_ch14_w023_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter14/b02_ch14_p01_m.mp3",
+        "durationMs": 103632,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3984,
+            "text": "二上：美麗的香港（第三十八頁）",
+            "textSimplified": "二上：美丽的香港（第三十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3984,
+            "endMs": 13104,
+            "text": "香港是一個繁華而現代化的城市，不論是白天還是夜晚，時時刻刻，處處都流動着美。",
+            "textSimplified": "香港是一个繁华而现代化的城市，不论是白天还是夜晚，时时刻刻，处处都流动着美。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 13104,
+            "endMs": 15408,
+            "text": "你知道太平山嗎？",
+            "textSimplified": "你知道太平山吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 15408,
+            "endMs": 18024,
+            "text": "它是香港的旅遊景點。",
+            "textSimplified": "它是香港的旅游景点。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 18024,
+            "endMs": 22152,
+            "text": "登上太平山頂，可以俯瞰整個香港。",
+            "textSimplified": "登上太平山顶，可以俯瞰整个香港。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 22152,
+            "endMs": 33552,
+            "text": "一座座高樓大廈彷彿聳立在淡淡的雲海之中，在香港島和九龍半島之間，靜靜躺着的就是美麗的維多利亞港。",
+            "textSimplified": "一座座高楼大厦仿佛耸立在淡淡的云海之中，在香港岛和九龙半岛之间，静静躺着的就是美丽的维多利亚港。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 33552,
+            "endMs": 41424,
+            "text": "水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。",
+            "textSimplified": "水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 41424,
+            "endMs": 46752,
+            "text": "向遠處望去，海天一色，真像一幅美麗的圖畫。",
+            "textSimplified": "向远处望去，海天一色，真像一幅美丽的图画。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 46752,
+            "endMs": 54768,
+            "text": "到了夜晚，街上各種各樣的燈點亮了，一下子，香港成了一片浪漫迷人的燈海。",
+            "textSimplified": "到了夜晚，街上各种各样的灯点亮了，一下子，香港成了一片浪漫迷人的灯海。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 54768,
+            "endMs": 59664,
+            "text": "坐在郵輪裏，慢悠悠地行駛在維多利亞港上。",
+            "textSimplified": "坐在邮轮里，慢悠悠地行驶在维多利亚港上。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 59664,
+            "endMs": 66552,
+            "text": "夜幕下的維多利亞港彷彿是一位美麗的女神，顯得格外優雅婀娜。",
+            "textSimplified": "夜幕下的维多利亚港仿佛是一位美丽的女神，显得格外优雅婀娜。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 66552,
+            "endMs": 79824,
+            "text": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+            "textSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 79824,
+            "endMs": 89664,
+            "text": "此時，岸上的高樓大廈在燈光的照射下顯得更加華麗，彷彿一下子變成了金光閃閃的宮殿。",
+            "textSimplified": "此时，岸上的高楼大厦在灯光的照射下显得更加华丽，仿佛一下子变成了金光闪闪的宫殿。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 89664,
+            "endMs": 98952,
+            "text": "這時，維多利亞港上空突然綻放出各種各樣、五顏六色的煙火，把整個海面都照亮了。",
+            "textSimplified": "这时，维多利亚港上空突然绽放出各种各样、五颜六色的烟火，把整个海面都照亮了。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 98952,
+            "endMs": 103632,
+            "text": "啊，我愛美麗的香港，願它永遠這樣迷人。",
+            "textSimplified": "啊，我爱美丽的香港，愿它永远这样迷人。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter14/b02_ch14_p01_c.mp3",
+        "durationMs": 108744,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4344,
+            "text": "二上：美麗的香港（第三十八頁）",
+            "textSimplified": "二上：美丽的香港（第三十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4344,
+            "endMs": 13656,
+            "text": "香港是一個繁華而現代化的城市，不論是白天還是夜晚，時時刻刻，處處都流動着美。",
+            "textSimplified": "香港是一个繁华而现代化的城市，不论是白天还是夜晚，时时刻刻，处处都流动着美。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 13656,
+            "endMs": 16488,
+            "text": "你知道太平山嗎？",
+            "textSimplified": "你知道太平山吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 16488,
+            "endMs": 19824,
+            "text": "它是香港的旅遊景點。",
+            "textSimplified": "它是香港的旅游景点。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 19824,
+            "endMs": 24816,
+            "text": "登上太平山頂，可以俯瞰整個香港。",
+            "textSimplified": "登上太平山顶，可以俯瞰整个香港。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 24816,
+            "endMs": 36192,
+            "text": "一座座高樓大廈彷彿聳立在淡淡的雲海之中，在香港島和九龍半島之間，靜靜躺着的就是美麗的維多利亞港。",
+            "textSimplified": "一座座高楼大厦仿佛耸立在淡淡的云海之中，在香港岛和九龙半岛之间，静静躺着的就是美丽的维多利亚港。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 36192,
+            "endMs": 44112,
+            "text": "水面上，碧波盪漾，銀光閃爍，巨大的郵輪和漁船正緩緩地行駛着。",
+            "textSimplified": "水面上，碧波荡漾，银光闪烁，巨大的邮轮和渔船正缓缓地行驶着。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 44112,
+            "endMs": 49848,
+            "text": "向遠處望去，海天一色，真像一幅美麗的圖畫。",
+            "textSimplified": "向远处望去，海天一色，真像一幅美丽的图画。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 49848,
+            "endMs": 58584,
+            "text": "到了夜晚，街上各種各樣的燈點亮了，一下子，香港成了一片浪漫迷人的燈海。",
+            "textSimplified": "到了夜晚，街上各种各样的灯点亮了，一下子，香港成了一片浪漫迷人的灯海。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 58584,
+            "endMs": 64296,
+            "text": "坐在郵輪裏，慢悠悠地行駛在維多利亞港上。",
+            "textSimplified": "坐在邮轮里，慢悠悠地行驶在维多利亚港上。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 64296,
+            "endMs": 71160,
+            "text": "夜幕下的維多利亞港彷彿是一位美麗的女神，顯得格外優雅婀娜。",
+            "textSimplified": "夜幕下的维多利亚港仿佛是一位美丽的女神，显得格外优雅婀娜。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 71160,
+            "endMs": 83928,
+            "text": "向窗外望去，五顏六色的霓虹燈倒映在水面上，波光粼粼，好像天上的仙女打翻了珠寶盒，把一顆顆耀眼的珍珠灑落在人間。",
+            "textSimplified": "向窗外望去，五颜六色的霓虹灯倒映在水面上，波光粼粼，好像天上的仙女打翻了珠宝盒，把一颗颗耀眼的珍珠洒落在人间。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 83928,
+            "endMs": 93936,
+            "text": "此時，岸上的高樓大廈在燈光的照射下顯得更加華麗，彷彿一下子變成了金光閃閃的宮殿。",
+            "textSimplified": "此时，岸上的高楼大厦在灯光的照射下显得更加华丽，仿佛一下子变成了金光闪闪的宫殿。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 93936,
+            "endMs": 103536,
+            "text": "這時，維多利亞港上空突然綻放出各種各樣、五顏六色的煙火，把整個海面都照亮了。",
+            "textSimplified": "这时，维多利亚港上空突然绽放出各种各样、五颜六色的烟火，把整个海面都照亮了。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 103536,
+            "endMs": 108744,
+            "text": "啊，我愛美麗的香港，願它永遠這樣迷人。",
+            "textSimplified": "啊，我爱美丽的香港，愿它永远这样迷人。"
+          }
+        ]
+      }
+    }
+  ]
+}

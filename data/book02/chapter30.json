@@ -1,0 +1,711 @@
+{
+  "bookId": "02",
+  "chapterId": "30",
+  "chapterTitle": "閱讀評估（鄉下的外婆）",
+  "chapterTitleSimplified": "阅读评估（乡下的外婆）",
+  "passages": [
+    "二上：閱讀評估（第八十六頁）\n\n住在鄉下的外婆家養了一隻大公雞。牠尖尖的嘴巴讓人望而卻步，一對機靈的小眼睛又黑又亮，紅紅的雞冠好像一團燃燒的火，頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。\n\n大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏，牠就傲慢地踱着步走過來，喫幾口再觀望下四周，好像在提防別人搶走牠的美食。比起穀子，牠更喜歡喫蟲子。有一次我們在菜地裏捉到一條蚯蚓，牠看到了，就立刻衝過來把蚯蚓叼在嘴裏，牠叼着蚯蚓滿院子跑，好像在炫耀一樣，等其他雞過來搶蟲子，牠就三口兩口地迅速把蚯蚓吞下肚去了。最神奇的是，大公雞還能喫小石子，聽說這樣做是因為雞沒有牙齒，只有靠石子在體內磨碎食物，幫助消化。\n\n大公雞平時會保護家中的母雞和小雞，是一個合格的衛士。牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。\n大公雞不但會保護小雞，還能看家護院呢。有一次，一個速遞員叔叔來外婆家送信，大公雞竟然衝上去追趕着人家，幸好沒有把他啄傷，我們都替他捏了一把汗。但是速遞員叔叔一點也不生氣，他笑着說：「這隻大公雞很兇猛，就是缺少點智慧，不會分辦好人壞人。」我們聽了 都哈哈大笑。\n\n大公雞給我的童年帶來了很多歡樂，我非常喜歡牠。"
+  ],
+  "passagesSimplified": [
+    "二上：阅读评估（第八十六页）\n\n住在乡下的外婆家养了一只大公鸡。牠尖尖的嘴巴让人望而却步，一对机灵的小眼睛又黑又亮，红红的鸡冠好像一团燃烧的火，颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。\n\n大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里，牠就傲慢地踱着步走过来，吃几口再观望下四周，好像在提防别人抢走牠的美食。比起谷子，牠更喜欢吃虫子。有一次我们在菜地里捉到一条蚯蚓，牠看到了，就立刻冲过来把蚯蚓叼在嘴里，牠叼着蚯蚓满院子跑，好像在炫耀一样，等其他鸡过来抢虫子，牠就三口两口地迅速把蚯蚓吞下肚去了。最神奇的是，大公鸡还能吃小石子，听说这样做是因为鸡没有牙齿，只有靠石子在体内磨碎食物，帮助消化。\n\n大公鸡平时会保护家中的母鸡和小鸡，是一个合格的卫士。牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。\n大公鸡不但会保护小鸡，还能看家护院呢。有一次，一个速递员叔叔来外婆家送信，大公鸡竟然冲上去追赶着人家，幸好没有把他啄伤，我们都替他捏了一把汗。但是速递员叔叔一点也不生气，他笑着说：「这只大公鸡很凶猛，就是缺少点智慧，不会分办好人坏人。」我们听了 都哈哈大笑。\n\n大公鸡给我的童年带来了很多欢乐，我非常喜欢牠。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch30_w001",
+      "traditional": "望而卻步",
+      "simplified": "望而却步",
+      "english": "shrink back in fear",
+      "pinyin": "wàng ér què bù",
+      "contextSentence": "牠尖尖的嘴巴讓人望而卻步，一對機靈的小眼睛又黑又亮，紅紅的雞冠好像一團燃燒的火，...",
+      "contextSentenceSimplified": "牠尖尖的嘴巴让人望而却步，一对机灵的小眼睛又黑又亮，红红的鸡冠好像一团燃烧的火，...",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w002",
+      "traditional": "一團燃燒的火",
+      "simplified": "一团燃烧的火",
+      "english": "a ball of burning fire",
+      "pinyin": "yī tuán rán shāo de huǒ",
+      "contextSentence": "牠尖尖的嘴巴讓人望而卻步，一對機靈的小眼睛又黑又亮，紅紅的雞冠好像一團燃燒的火，...",
+      "contextSentenceSimplified": "牠尖尖的嘴巴让人望而却步，一对机灵的小眼睛又黑又亮，红红的鸡冠好像一团燃烧的火，...",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w003",
+      "traditional": "頸部",
+      "simplified": "颈部",
+      "english": "neck",
+      "pinyin": "jǐng bù",
+      "contextSentence": "頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。",
+      "contextSentenceSimplified": "颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w004",
+      "traditional": "渾身則布滿棕黃色的翎毛",
+      "simplified": "浑身则布满棕黄色的翎毛",
+      "english": "covered in brown-yellow feathers",
+      "pinyin": "hún shēn zé bù mǎn zōng huáng sè de líng máo",
+      "contextSentence": "頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。",
+      "contextSentenceSimplified": "颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w005",
+      "traditional": "昂首挺胸",
+      "simplified": "昂首挺胸",
+      "english": "hold head high",
+      "pinyin": "áng shǒu tǐng xiōng",
+      "contextSentence": "頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。",
+      "contextSentenceSimplified": "颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w006",
+      "traditional": "神氣",
+      "simplified": "神气",
+      "english": "proud",
+      "pinyin": "shén qì",
+      "contextSentence": "頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。",
+      "contextSentenceSimplified": "颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w007",
+      "traditional": "穀子",
+      "simplified": "谷子",
+      "english": "millet",
+      "pinyin": "gǔ zi",
+      "contextSentence": "大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏…",
+      "contextSentenceSimplified": "大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w008",
+      "traditional": "撒",
+      "simplified": "撒",
+      "english": "scatter",
+      "pinyin": "sā",
+      "contextSentence": "大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏…",
+      "contextSentenceSimplified": "大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w009",
+      "traditional": "傲慢",
+      "simplified": "傲慢",
+      "english": "arrogant",
+      "pinyin": "ào màn",
+      "contextSentence": "大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏，牠就傲慢地踱着步走過來，喫幾口再觀望下四周，好像在提防別人搶走牠的美食。",
+      "contextSentenceSimplified": "大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里，牠就傲慢地踱着步走过来，吃几口再观望下四周，好像在提防别人抢走牠的美食。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w010",
+      "traditional": "搶走",
+      "simplified": "抢走",
+      "english": "snatch away",
+      "pinyin": "qiǎng zǒu",
+      "contextSentence": "大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏，牠就傲慢地踱着步走過來，喫幾口再觀望下四周，好像在提防別人搶走牠的美食。",
+      "contextSentenceSimplified": "大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里，牠就傲慢地踱着步走过来，吃几口再观望下四周，好像在提防别人抢走牠的美食。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w011",
+      "traditional": "蚯蚓",
+      "simplified": "蚯蚓",
+      "english": "earthworm",
+      "pinyin": "qiū yǐn",
+      "contextSentence": "有一次我們在菜地裏捉到一條蚯蚓，牠看到了，就立刻衝過來把蚯蚓叼在嘴裏，牠叼着蚯蚓滿院子跑，好像在炫耀一樣…",
+      "contextSentenceSimplified": "有一次我们在菜地里捉到一条蚯蚓，牠看到了，就立刻冲过来把蚯蚓叼在嘴里，牠叼着蚯蚓满院子跑，好像在炫耀一样…",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w012",
+      "traditional": "炫耀",
+      "simplified": "炫耀",
+      "english": "show off",
+      "pinyin": "xuàn yào",
+      "contextSentence": "牠叼着蚯蚓滿院子跑，好像在炫耀一樣，等其他雞過來搶蟲子，牠就三口兩口地迅速把蚯蚓吞下肚去了。",
+      "contextSentenceSimplified": "牠叼着蚯蚓满院子跑，好像在炫耀一样，等其他鸡过来抢虫子，牠就三口两口地迅速把蚯蚓吞下肚去了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w013",
+      "traditional": "磨碎",
+      "simplified": "磨碎",
+      "english": "grind into pieces",
+      "pinyin": "mó suì",
+      "contextSentence": "最神奇的是，大公雞還能喫小石子，聽說這樣做是因為雞沒有牙齒，只有靠石子在體內磨碎食物，幫助消化。",
+      "contextSentenceSimplified": "最神奇的是，大公鸡还能吃小石子，听说这样做是因为鸡没有牙齿，只有靠石子在体内磨碎食物，帮助消化。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w014",
+      "traditional": "衛士",
+      "simplified": "卫士",
+      "english": "guard",
+      "pinyin": "wèi shì",
+      "contextSentence": "大公雞平時會保護家中的母雞和小雞，是一個合格的衛士。",
+      "contextSentenceSimplified": "大公鸡平时会保护家中的母鸡和小鸡，是一个合格的卫士。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w015",
+      "traditional": "脖子",
+      "simplified": "脖子",
+      "english": "neck",
+      "pinyin": "bó zi",
+      "contextSentence": "牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。",
+      "contextSentenceSimplified": "牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w016",
+      "traditional": "豎起來",
+      "simplified": "竖起来",
+      "english": "stand up",
+      "pinyin": "shù qǐ lái",
+      "contextSentence": "牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。",
+      "contextSentenceSimplified": "牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w017",
+      "traditional": "咄咄逼人",
+      "simplified": "咄咄逼人",
+      "english": "aggressive",
+      "pinyin": "duō duō bī rén",
+      "contextSentence": "牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。",
+      "contextSentenceSimplified": "牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w018",
+      "traditional": "不寒而慄",
+      "simplified": "不寒而栗",
+      "english": "tremble with fear",
+      "pinyin": "bù hán ér lì",
+      "contextSentence": "牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。",
+      "contextSentenceSimplified": "牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w019",
+      "traditional": "速遞員",
+      "simplified": "速递员",
+      "english": "courier",
+      "pinyin": "sù dì yuán",
+      "contextSentence": "有一次，一個速遞員叔叔來外婆家送信，大公雞竟然衝上去追趕着人家，幸好沒有把他啄傷，我們都替他捏了一把汗。",
+      "contextSentenceSimplified": "有一次，一个速递员叔叔来外婆家送信，大公鸡竟然冲上去追赶着人家，幸好没有把他啄伤，我们都替他捏了一把汗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w020",
+      "traditional": "追趕",
+      "simplified": "追赶",
+      "english": "chase",
+      "pinyin": "zhuī gǎn",
+      "contextSentence": "有一次，一個速遞員叔叔來外婆家送信，大公雞竟然衝上去追趕着人家，幸好沒有把他啄傷，我們都替他捏了一把汗。",
+      "contextSentenceSimplified": "有一次，一个速递员叔叔来外婆家送信，大公鸡竟然冲上去追赶着人家，幸好没有把他啄伤，我们都替他捏了一把汗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w021",
+      "traditional": "捏了一把汗",
+      "simplified": "捏了一把汗",
+      "english": "broke out in sweat",
+      "pinyin": "niē le yī bǎ hàn",
+      "contextSentence": "有一次，一個速遞員叔叔來外婆家送信，大公雞竟然衝上去追趕着人家，幸好沒有把他啄傷，我們都替他捏了一把汗。",
+      "contextSentenceSimplified": "有一次，一个速递员叔叔来外婆家送信，大公鸡竟然冲上去追赶着人家，幸好没有把他啄伤，我们都替他捏了一把汗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w022",
+      "traditional": "兇猛",
+      "simplified": "凶猛",
+      "english": "fierce",
+      "pinyin": "xiōng měng",
+      "contextSentence": "但是速遞員叔叔一點也不生氣，他笑着說：「這隻大公雞很兇猛，就是缺少點智慧，不會分辦好人壞人。",
+      "contextSentenceSimplified": "但是速递员叔叔一点也不生气，他笑着说：「这只大公鸡很凶猛，就是缺少点智慧，不会分办好人坏人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w023",
+      "traditional": "缺少點智慧",
+      "simplified": "缺少点智慧",
+      "english": "lack some wisdom",
+      "pinyin": "quē shǎo diǎn zhì huì",
+      "contextSentence": "但是速遞員叔叔一點也不生氣，他笑着說：「這隻大公雞很兇猛，就是缺少點智慧，不會分辦好人壞人。",
+      "contextSentenceSimplified": "但是速递员叔叔一点也不生气，他笑着说：「这只大公鸡很凶猛，就是缺少点智慧，不会分办好人坏人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch30_w024",
+      "traditional": "分辦",
+      "simplified": "分办",
+      "english": "distinguish",
+      "pinyin": "fēn bàn",
+      "contextSentence": "但是速遞員叔叔一點也不生氣，他笑着說：「這隻大公雞很兇猛，就是缺少點智慧，不會分辦好人壞人。",
+      "contextSentenceSimplified": "但是速递员叔叔一点也不生气，他笑着说：「这只大公鸡很凶猛，就是缺少点智慧，不会分办好人坏人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w024_m_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter30/b02_ch30_w024_c_isolated.mp3",
+          "sentence": "audio/book02/chapter30/b02_ch30_w024_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter30/b02_ch30_p01_m.mp3",
+        "durationMs": 125496,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3864,
+            "text": "二上：閱讀評估（第八十六頁）",
+            "textSimplified": "二上：阅读评估（第八十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3864,
+            "endMs": 7872,
+            "text": "住在鄉下的外婆家養了一隻大公雞。",
+            "textSimplified": "住在乡下的外婆家养了一只大公鸡。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7872,
+            "endMs": 26208,
+            "text": "牠尖尖的嘴巴讓人望而卻步，一對機靈的小眼睛又黑又亮，紅紅的雞冠好像一團燃燒的火，頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。",
+            "textSimplified": "牠尖尖的嘴巴让人望而却步，一对机灵的小眼睛又黑又亮，红红的鸡冠好像一团燃烧的火，颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 26208,
+            "endMs": 39720,
+            "text": "大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏，牠就傲慢地踱着步走過來，喫幾口再觀望下四周，好像在提防別人搶走牠的美食。",
+            "textSimplified": "大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里，牠就傲慢地踱着步走过来，吃几口再观望下四周，好像在提防别人抢走牠的美食。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 39720,
+            "endMs": 43368,
+            "text": "比起穀子，牠更喜歡喫蟲子。",
+            "textSimplified": "比起谷子，牠更喜欢吃虫子。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 43368,
+            "endMs": 62136,
+            "text": "有一次我們在菜地裏捉到一條蚯蚓，牠看到了，就立刻衝過來把蚯蚓叼在嘴裏，牠叼着蚯蚓滿院子跑，好像在炫耀一樣，等其他雞過來搶蟲子，牠就三口兩口地迅速把蚯蚓吞下肚去了。",
+            "textSimplified": "有一次我们在菜地里捉到一条蚯蚓，牠看到了，就立刻冲过来把蚯蚓叼在嘴里，牠叼着蚯蚓满院子跑，好像在炫耀一样，等其他鸡过来抢虫子，牠就三口两口地迅速把蚯蚓吞下肚去了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 62136,
+            "endMs": 73680,
+            "text": "最神奇的是，大公雞還能喫小石子，聽說這樣做是因為雞沒有牙齒，只有靠石子在體內磨碎食物，幫助消化。",
+            "textSimplified": "最神奇的是，大公鸡还能吃小石子，听说这样做是因为鸡没有牙齿，只有靠石子在体内磨碎食物，帮助消化。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 73680,
+            "endMs": 79896,
+            "text": "大公雞平時會保護家中的母雞和小雞，是一個合格的衛士。",
+            "textSimplified": "大公鸡平时会保护家中的母鸡和小鸡，是一个合格的卫士。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 79896,
+            "endMs": 89712,
+            "text": "牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。",
+            "textSimplified": "牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。"
+          },
+          {
+            "index": 9,
+            "paragraph": 7,
+            "startMs": 89712,
+            "endMs": 94272,
+            "text": "大公雞不但會保護小雞，還能看家護院呢。",
+            "textSimplified": "大公鸡不但会保护小鸡，还能看家护院呢。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 94272,
+            "endMs": 106344,
+            "text": "有一次，一個速遞員叔叔來外婆家送信，大公雞竟然衝上去追趕着人家，幸好沒有把他啄傷，我們都替他捏了一把汗。",
+            "textSimplified": "有一次，一个速递员叔叔来外婆家送信，大公鸡竟然冲上去追赶着人家，幸好没有把他啄伤，我们都替他捏了一把汗。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 106344,
+            "endMs": 117168,
+            "text": "但是速遞員叔叔一點也不生氣，他笑着說：「這隻大公雞很兇猛，就是缺少點智慧，不會分辦好人壞人。」",
+            "textSimplified": "但是速递员叔叔一点也不生气，他笑着说：「这只大公鸡很凶猛，就是缺少点智慧，不会分办好人坏人。」"
+          },
+          {
+            "index": 12,
+            "paragraph": 7,
+            "startMs": 117168,
+            "endMs": 120096,
+            "text": "我們聽了 都哈哈大笑。",
+            "textSimplified": "我们听了 都哈哈大笑。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 120096,
+            "endMs": 125496,
+            "text": "大公雞給我的童年帶來了很多歡樂，我非常喜歡牠。",
+            "textSimplified": "大公鸡给我的童年带来了很多欢乐，我非常喜欢牠。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter30/b02_ch30_p01_c.mp3",
+        "durationMs": 125928,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4080,
+            "text": "二上：閱讀評估（第八十六頁）",
+            "textSimplified": "二上：阅读评估（第八十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4080,
+            "endMs": 8544,
+            "text": "住在鄉下的外婆家養了一隻大公雞。",
+            "textSimplified": "住在乡下的外婆家养了一只大公鸡。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8544,
+            "endMs": 25848,
+            "text": "牠尖尖的嘴巴讓人望而卻步，一對機靈的小眼睛又黑又亮，紅紅的雞冠好像一團燃燒的火，頸部有一圈金色的毛，渾身則布滿棕黃色的翎毛，走起路來昂首挺胸，看上去十分神氣。",
+            "textSimplified": "牠尖尖的嘴巴让人望而却步，一对机灵的小眼睛又黑又亮，红红的鸡冠好像一团燃烧的火，颈部有一圈金色的毛，浑身则布满棕黄色的翎毛，走起路来昂首挺胸，看上去十分神气。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 25848,
+            "endMs": 39072,
+            "text": "大公雞喜歡喫米，我經常抓一把穀子撒在庭院裏，牠就傲慢地踱着步走過來，喫幾口再觀望下四周，好像在提防別人搶走牠的美食。",
+            "textSimplified": "大公鸡喜欢吃米，我经常抓一把谷子撒在庭院里，牠就傲慢地踱着步走过来，吃几口再观望下四周，好像在提防别人抢走牠的美食。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 39072,
+            "endMs": 43272,
+            "text": "比起穀子，牠更喜歡喫蟲子。",
+            "textSimplified": "比起谷子，牠更喜欢吃虫子。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 43272,
+            "endMs": 61200,
+            "text": "有一次我們在菜地裏捉到一條蚯蚓，牠看到了，就立刻衝過來把蚯蚓叼在嘴裏，牠叼着蚯蚓滿院子跑，好像在炫耀一樣，等其他雞過來搶蟲子，牠就三口兩口地迅速把蚯蚓吞下肚去了。",
+            "textSimplified": "有一次我们在菜地里捉到一条蚯蚓，牠看到了，就立刻冲过来把蚯蚓叼在嘴里，牠叼着蚯蚓满院子跑，好像在炫耀一样，等其他鸡过来抢虫子，牠就三口两口地迅速把蚯蚓吞下肚去了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 61200,
+            "endMs": 72672,
+            "text": "最神奇的是，大公雞還能喫小石子，聽說這樣做是因為雞沒有牙齒，只有靠石子在體內磨碎食物，幫助消化。",
+            "textSimplified": "最神奇的是，大公鸡还能吃小石子，听说这样做是因为鸡没有牙齿，只有靠石子在体内磨碎食物，帮助消化。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 72672,
+            "endMs": 79080,
+            "text": "大公雞平時會保護家中的母雞和小雞，是一個合格的衛士。",
+            "textSimplified": "大公鸡平时会保护家中的母鸡和小鸡，是一个合格的卫士。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 79080,
+            "endMs": 88800,
+            "text": "牠生氣的時候脖子上的毛都豎起來，喔喔地叫着向前衝，那咄咄逼人的樣子真是讓人不寒而慄。",
+            "textSimplified": "牠生气的时候脖子上的毛都竖起来，喔喔地叫着向前冲，那咄咄逼人的样子真是让人不寒而栗。"
+          },
+          {
+            "index": 9,
+            "paragraph": 7,
+            "startMs": 88800,
+            "endMs": 93936,
+            "text": "大公雞不但會保護小雞，還能看家護院呢。",
+            "textSimplified": "大公鸡不但会保护小鸡，还能看家护院呢。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 93936,
+            "endMs": 105912,
+            "text": "有一次，一個速遞員叔叔來外婆家送信，大公雞竟然衝上去追趕着人家，幸好沒有把他啄傷，我們都替他捏了一把汗。",
+            "textSimplified": "有一次，一个速递员叔叔来外婆家送信，大公鸡竟然冲上去追赶着人家，幸好没有把他啄伤，我们都替他捏了一把汗。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 105912,
+            "endMs": 116832,
+            "text": "但是速遞員叔叔一點也不生氣，他笑着說：「這隻大公雞很兇猛，就是缺少點智慧，不會分辦好人壞人。」",
+            "textSimplified": "但是速递员叔叔一点也不生气，他笑着说：「这只大公鸡很凶猛，就是缺少点智慧，不会分办好人坏人。」"
+          },
+          {
+            "index": 12,
+            "paragraph": 7,
+            "startMs": 116832,
+            "endMs": 120120,
+            "text": "我們聽了 都哈哈大笑。",
+            "textSimplified": "我们听了 都哈哈大笑。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 120120,
+            "endMs": 125928,
+            "text": "大公雞給我的童年帶來了很多歡樂，我非常喜歡牠。",
+            "textSimplified": "大公鸡给我的童年带来了很多欢乐，我非常喜欢牠。"
+          }
+        ]
+      }
+    }
+  ]
+}

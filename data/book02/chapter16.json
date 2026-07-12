@@ -1,0 +1,756 @@
+{
+  "bookId": "02",
+  "chapterId": "16",
+  "chapterTitle": "木棉花",
+  "chapterTitleSimplified": "木棉花",
+  "passages": [
+    "二上：木棉花（第四十二頁）\n\n在我家附近的街道邊，種着一排高大挺拔的木棉樹，它們彷佛是一隊站崗的戰士，守衞着這座城市。\n\n木棉樹的樹幹蒼勁挺拔，棕黑相間。上面長着許多像粗針一樣的刺，要是你不小心摸上去，可是會扎手哦。它的樹冠總是高出周圍的樹木，好像要爭取更多的陽光和雨露。因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。\n\n一天，我路過街邊，不由自主地停住了腳步。啊，好美的木棉花呀！只見樹上一朵朵火紅火紅的木棉花，好像要映紅整個天空似的。木棉花有的已經全開了，彷彿一個個紅燈籠；有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。這時，只聽「啪」的一聲，一朵木棉花從樹上掉落下來。啊！木棉花真不愧是「英雄花」，連它的墜落也這樣擲地有聲，它在空中打了幾個轉兒，便飛舞而下，落到地面時仍保持着高貴的姿態。我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。\n\n我愛你，美麗的木棉花。我讚美你，英雄的木棉花？"
+  ],
+  "passagesSimplified": [
+    "二上：木棉花（第四十二页）\n\n在我家附近的街道边，种着一排高大挺拔的木棉树，它们彷佛是一队站岗的战士，守衞着这座城市。\n\n木棉树的树干苍劲挺拔，棕黑相间。上面长着许多像粗针一样的刺，要是你不小心摸上去，可是会扎手哦。它的树冠总是高出周围的树木，好像要争取更多的阳光和雨露。因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。\n\n一天，我路过街边，不由自主地停住了脚步。啊，好美的木棉花呀！只见树上一朵朵火红火红的木棉花，好像要映红整个天空似的。木棉花有的已经全开了，仿佛一个个红灯笼；有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。这时，只听「啪」的一声，一朵木棉花从树上掉落下来。啊！木棉花真不愧是「英雄花」，连它的坠落也这样掷地有声，它在空中打了几个转儿，便飞舞而下，落到地面时仍保持着高贵的姿态。我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。\n\n我爱你，美丽的木棉花。我赞美你，英雄的木棉花？"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch16_w001",
+      "traditional": "挺拔",
+      "simplified": "挺拔",
+      "english": "tall and straight",
+      "pinyin": "tǐng bá",
+      "contextSentence": "在我家附近的街道邊，種着一排高大挺拔的木棉樹，它們彷佛是一隊站崗的戰士，守衞着這座城市。",
+      "contextSentenceSimplified": "在我家附近的街道边，种着一排高大挺拔的木棉树，它们彷佛是一队站岗的战士，守衞着这座城市。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w002",
+      "traditional": "一隊站崗的戰士",
+      "simplified": "一队站岗的战士",
+      "english": "a squad of guards",
+      "pinyin": "yī duì zhàn gǎng de zhàn shì",
+      "contextSentence": "在我家附近的街道邊，種着一排高大挺拔的木棉樹，它們彷佛是一隊站崗的戰士，守衞着這座城市。",
+      "contextSentenceSimplified": "在我家附近的街道边，种着一排高大挺拔的木棉树，它们彷佛是一队站岗的战士，守衞着这座城市。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w003",
+      "traditional": "守衞",
+      "simplified": "守衞",
+      "english": "guard",
+      "pinyin": "shǒu wèi",
+      "contextSentence": "在我家附近的街道邊，種着一排高大挺拔的木棉樹，它們彷佛是一隊站崗的戰士，守衞着這座城市。",
+      "contextSentenceSimplified": "在我家附近的街道边，种着一排高大挺拔的木棉树，它们彷佛是一队站岗的战士，守衞着这座城市。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w004",
+      "traditional": "樹幹蒼勁",
+      "simplified": "树干苍劲",
+      "english": "vigorous tree trunk",
+      "pinyin": "shù gàn cāng jìn",
+      "contextSentence": "木棉樹的樹幹蒼勁挺拔，棕黑相間。",
+      "contextSentenceSimplified": "木棉树的树干苍劲挺拔，棕黑相间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w005",
+      "traditional": "棕黑相間",
+      "simplified": "棕黑相间",
+      "english": "brown and black stripes",
+      "pinyin": "zōng hēi xiāng jiān",
+      "contextSentence": "木棉樹的樹幹蒼勁挺拔，棕黑相間。",
+      "contextSentenceSimplified": "木棉树的树干苍劲挺拔，棕黑相间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w006",
+      "traditional": "粗針一樣的刺",
+      "simplified": "粗针一样的刺",
+      "english": "thorns like coarse needles",
+      "pinyin": "cū zhēn yī yàng de cì",
+      "contextSentence": "上面長着許多像粗針一樣的刺，要是你不小心摸上去，可是會扎手哦。",
+      "contextSentenceSimplified": "上面长着许多像粗针一样的刺，要是你不小心摸上去，可是会扎手哦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w007",
+      "traditional": "扎手",
+      "simplified": "扎手",
+      "english": "prickly",
+      "pinyin": "zhā shǒu",
+      "contextSentence": "上面長着許多像粗針一樣的刺，要是你不小心摸上去，可是會扎手哦。",
+      "contextSentenceSimplified": "上面长着许多像粗针一样的刺，要是你不小心摸上去，可是会扎手哦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w008",
+      "traditional": "奮發向上的精神",
+      "simplified": "奋发向上的精神",
+      "english": "spirit of striving upward",
+      "pinyin": "fèn fā xiàng shàng de jīng shén",
+      "contextSentence": "因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。",
+      "contextSentenceSimplified": "因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w009",
+      "traditional": "鮮豔似火",
+      "simplified": "鲜艳似火",
+      "english": "bright as fire",
+      "pinyin": "xiān yàn shì huǒ",
+      "contextSentence": "因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。",
+      "contextSentenceSimplified": "因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w010",
+      "traditional": "英雄",
+      "simplified": "英雄",
+      "english": "hero",
+      "pinyin": "yīng xióng",
+      "contextSentence": "因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。",
+      "contextSentenceSimplified": "因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w011",
+      "traditional": "稱為",
+      "simplified": "称为",
+      "english": "called",
+      "pinyin": "chēng wèi",
+      "contextSentence": "因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。",
+      "contextSentenceSimplified": "因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w012",
+      "traditional": "不由自主地",
+      "simplified": "不由自主地",
+      "english": "involuntarily",
+      "pinyin": "bù yóu zì zhǔ dì",
+      "contextSentence": "一天，我路過街邊，不由自主地停住了腳步。",
+      "contextSentenceSimplified": "一天，我路过街边，不由自主地停住了脚步。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w013",
+      "traditional": "花瓣",
+      "simplified": "花瓣",
+      "english": "petal",
+      "pinyin": "huā bàn",
+      "contextSentence": "木棉花有的已經全開了，彷彿一個個紅燈籠；有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。",
+      "contextSentenceSimplified": "木棉花有的已经全开了，仿佛一个个红灯笼；有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w014",
+      "traditional": "害羞",
+      "simplified": "害羞",
+      "english": "shy",
+      "pinyin": "hài xiū",
+      "contextSentence": "木棉花有的已經全開了，彷彿一個個紅燈籠；有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。",
+      "contextSentenceSimplified": "木棉花有的已经全开了，仿佛一个个红灯笼；有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w015",
+      "traditional": "努力",
+      "simplified": "努力",
+      "english": "work hard",
+      "pinyin": "nǔ lì",
+      "contextSentence": "木棉花有的已經全開了，彷彿一個個紅燈籠；有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。",
+      "contextSentenceSimplified": "木棉花有的已经全开了，仿佛一个个红灯笼；有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w016",
+      "traditional": "準備綻放",
+      "simplified": "准备绽放",
+      "english": "ready to bloom",
+      "pinyin": "zhǔn bèi zhàn fàng",
+      "contextSentence": "木棉花有的已經全開了，彷彿一個個紅燈籠；有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。",
+      "contextSentenceSimplified": "木棉花有的已经全开了，仿佛一个个红灯笼；有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w017",
+      "traditional": "不愧是",
+      "simplified": "不愧是",
+      "english": "truly worthy of",
+      "pinyin": "bù kuì shì",
+      "contextSentence": "木棉花真不愧是「英雄花」，連它的墜落也這樣擲地有聲，它在空中打了幾個轉兒，便飛舞而下，落到地面時仍保持着高貴的姿態。",
+      "contextSentenceSimplified": "木棉花真不愧是「英雄花」，连它的坠落也这样掷地有声，它在空中打了几个转儿，便飞舞而下，落到地面时仍保持着高贵的姿态。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w018",
+      "traditional": "擲地",
+      "simplified": "掷地",
+      "english": "throw to ground",
+      "pinyin": "zhì dì",
+      "contextSentence": "木棉花真不愧是「英雄花」，連它的墜落也這樣擲地有聲，它在空中打了幾個轉兒，便飛舞而下，落到地面時仍保持着高貴的姿態。",
+      "contextSentenceSimplified": "木棉花真不愧是「英雄花」，连它的坠落也这样掷地有声，它在空中打了几个转儿，便飞舞而下，落到地面时仍保持着高贵的姿态。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w019",
+      "traditional": "仔細端詳",
+      "simplified": "仔细端详",
+      "english": "examine carefully",
+      "pinyin": "zǎi xì duān xiáng",
+      "contextSentence": "我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。",
+      "contextSentenceSimplified": "我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w020",
+      "traditional": "花蕊",
+      "simplified": "花蕊",
+      "english": "stamen",
+      "pinyin": "huā ruǐ",
+      "contextSentence": "我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。",
+      "contextSentenceSimplified": "我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w021",
+      "traditional": "花托",
+      "simplified": "花托",
+      "english": "flower receptacle",
+      "pinyin": "huā tuō",
+      "contextSentence": "我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。",
+      "contextSentenceSimplified": "我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w022",
+      "traditional": "乍眼看",
+      "simplified": "乍眼看",
+      "english": "at first glance",
+      "pinyin": "zhà yǎn kàn",
+      "contextSentence": "我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。",
+      "contextSentenceSimplified": "我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch16_w023",
+      "traditional": "讚美你",
+      "simplified": "赞美你",
+      "english": "praise you",
+      "pinyin": "zàn měi nǐ",
+      "contextSentence": "我讚美你，英雄的木棉花？",
+      "contextSentenceSimplified": "我赞美你，英雄的木棉花？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter16/b02_ch16_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter16/b02_ch16_w023_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter16/b02_ch16_p01_m.mp3",
+        "durationMs": 117384,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3528,
+            "text": "二上：木棉花（第四十二頁）",
+            "textSimplified": "二上：木棉花（第四十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3528,
+            "endMs": 13944,
+            "text": "在我家附近的街道邊，種着一排高大挺拔的木棉樹，它們彷佛是一隊站崗的戰士，守衞着這座城市。",
+            "textSimplified": "在我家附近的街道边，种着一排高大挺拔的木棉树，它们彷佛是一队站岗的战士，守衞着这座城市。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 13944,
+            "endMs": 18336,
+            "text": "木棉樹的樹幹蒼勁挺拔，棕黑相間。",
+            "textSimplified": "木棉树的树干苍劲挺拔，棕黑相间。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 18336,
+            "endMs": 25248,
+            "text": "上面長着許多像粗針一樣的刺，要是你不小心摸上去，可是會扎手哦。",
+            "textSimplified": "上面长着许多像粗针一样的刺，要是你不小心摸上去，可是会扎手哦。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25248,
+            "endMs": 32136,
+            "text": "它的樹冠總是高出周圍的樹木，好像要爭取更多的陽光和雨露。",
+            "textSimplified": "它的树冠总是高出周围的树木，好像要争取更多的阳光和雨露。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 32136,
+            "endMs": 45480,
+            "text": "因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。",
+            "textSimplified": "因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 45480,
+            "endMs": 50280,
+            "text": "一天，我路過街邊，不由自主地停住了腳步。",
+            "textSimplified": "一天，我路过街边，不由自主地停住了脚步。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 50280,
+            "endMs": 53088,
+            "text": "啊，好美的木棉花呀！",
+            "textSimplified": "啊，好美的木棉花呀！"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 53088,
+            "endMs": 59640,
+            "text": "只見樹上一朵朵火紅火紅的木棉花，好像要映紅整個天空似的。",
+            "textSimplified": "只见树上一朵朵火红火红的木棉花，好像要映红整个天空似的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 59640,
+            "endMs": 64248,
+            "text": "木棉花有的已經全開了，彷彿一個個紅燈籠；",
+            "textSimplified": "木棉花有的已经全开了，仿佛一个个红灯笼；"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 64248,
+            "endMs": 71256,
+            "text": "有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；",
+            "textSimplified": "有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 71256,
+            "endMs": 77088,
+            "text": "有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。",
+            "textSimplified": "有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 77088,
+            "endMs": 82728,
+            "text": "這時，只聽「啪」的一聲，一朵木棉花從樹上掉落下來。",
+            "textSimplified": "这时，只听「啪」的一声，一朵木棉花从树上掉落下来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 82728,
+            "endMs": 83952,
+            "text": "啊！",
+            "textSimplified": "啊！"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 83952,
+            "endMs": 96744,
+            "text": "木棉花真不愧是「英雄花」，連它的墜落也這樣擲地有聲，它在空中打了幾個轉兒，便飛舞而下，落到地面時仍保持着高貴的姿態。",
+            "textSimplified": "木棉花真不愧是「英雄花」，连它的坠落也这样掷地有声，它在空中打了几个转儿，便飞舞而下，落到地面时仍保持着高贵的姿态。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 96744,
+            "endMs": 111168,
+            "text": "我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。",
+            "textSimplified": "我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 111168,
+            "endMs": 114192,
+            "text": "我愛你，美麗的木棉花。",
+            "textSimplified": "我爱你，美丽的木棉花。"
+          },
+          {
+            "index": 17,
+            "paragraph": 8,
+            "startMs": 114192,
+            "endMs": 117384,
+            "text": "我讚美你，英雄的木棉花？",
+            "textSimplified": "我赞美你，英雄的木棉花？"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter16/b02_ch16_p01_c.mp3",
+        "durationMs": 123840,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3984,
+            "text": "二上：木棉花（第四十二頁）",
+            "textSimplified": "二上：木棉花（第四十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3984,
+            "endMs": 14496,
+            "text": "在我家附近的街道邊，種着一排高大挺拔的木棉樹，它們彷佛是一隊站崗的戰士，守衞着這座城市。",
+            "textSimplified": "在我家附近的街道边，种着一排高大挺拔的木棉树，它们彷佛是一队站岗的战士，守衞着这座城市。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 14496,
+            "endMs": 19152,
+            "text": "木棉樹的樹幹蒼勁挺拔，棕黑相間。",
+            "textSimplified": "木棉树的树干苍劲挺拔，棕黑相间。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19152,
+            "endMs": 26832,
+            "text": "上面長着許多像粗針一樣的刺，要是你不小心摸上去，可是會扎手哦。",
+            "textSimplified": "上面长着许多像粗针一样的刺，要是你不小心摸上去，可是会扎手哦。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 26832,
+            "endMs": 33720,
+            "text": "它的樹冠總是高出周圍的樹木，好像要爭取更多的陽光和雨露。",
+            "textSimplified": "它的树冠总是高出周围的树木，好像要争取更多的阳光和雨露。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 33720,
+            "endMs": 46944,
+            "text": "因為木棉樹這種奮發向上的精神，也因為它鮮豔似火的花朵，紅得就像是用英雄的鮮血染紅似的，所以木棉花也被人們稱為「英雄花」。",
+            "textSimplified": "因为木棉树这种奋发向上的精神，也因为它鲜艳似火的花朵，红得就像是用英雄的鲜血染红似的，所以木棉花也被人们称为「英雄花」。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 46944,
+            "endMs": 52704,
+            "text": "一天，我路過街邊，不由自主地停住了腳步。",
+            "textSimplified": "一天，我路过街边，不由自主地停住了脚步。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 52704,
+            "endMs": 55968,
+            "text": "啊，好美的木棉花呀！",
+            "textSimplified": "啊，好美的木棉花呀！"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 55968,
+            "endMs": 62832,
+            "text": "只見樹上一朵朵火紅火紅的木棉花，好像要映紅整個天空似的。",
+            "textSimplified": "只见树上一朵朵火红火红的木棉花，好像要映红整个天空似的。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 62832,
+            "endMs": 68040,
+            "text": "木棉花有的已經全開了，彷彿一個個紅燈籠；",
+            "textSimplified": "木棉花有的已经全开了，仿佛一个个红灯笼；"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 68040,
+            "endMs": 75336,
+            "text": "有的花瓣才露出一絲小縫，好像一個個害羞的小姑娘正偷偷張望着；",
+            "textSimplified": "有的花瓣才露出一丝小缝，好像一个个害羞的小姑娘正偷偷张望着；"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 75336,
+            "endMs": 81960,
+            "text": "有的還是花骨朵兒，它們正努力着，似乎隨時準備綻放。",
+            "textSimplified": "有的还是花骨朵儿，它们正努力着，似乎随时准备绽放。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 81960,
+            "endMs": 88056,
+            "text": "這時，只聽「啪」的一聲，一朵木棉花從樹上掉落下來。",
+            "textSimplified": "这时，只听「啪」的一声，一朵木棉花从树上掉落下来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 88056,
+            "endMs": 89520,
+            "text": "啊！",
+            "textSimplified": "啊！"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 89520,
+            "endMs": 102264,
+            "text": "木棉花真不愧是「英雄花」，連它的墜落也這樣擲地有聲，它在空中打了幾個轉兒，便飛舞而下，落到地面時仍保持着高貴的姿態。",
+            "textSimplified": "木棉花真不愧是「英雄花」，连它的坠落也这样掷地有声，它在空中打了几个转儿，便飞舞而下，落到地面时仍保持着高贵的姿态。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 102264,
+            "endMs": 116592,
+            "text": "我上前拾起掉落的木棉花，仔細端詳起來：它有五片花瓣，包圍着一束密密的黃色花蕊，花朵底部有一個小花托，乍眼看還真有點像個小飯碗呢。",
+            "textSimplified": "我上前拾起掉落的木棉花，仔细端详起来：它有五片花瓣，包围着一束密密的黄色花蕊，花朵底部有一个小花托，乍眼看还真有点像个小饭碗呢。"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 116592,
+            "endMs": 120072,
+            "text": "我愛你，美麗的木棉花。",
+            "textSimplified": "我爱你，美丽的木棉花。"
+          },
+          {
+            "index": 17,
+            "paragraph": 8,
+            "startMs": 120072,
+            "endMs": 123840,
+            "text": "我讚美你，英雄的木棉花？",
+            "textSimplified": "我赞美你，英雄的木棉花？"
+          }
+        ]
+      }
+    }
+  ]
+}

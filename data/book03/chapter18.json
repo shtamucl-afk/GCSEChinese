@@ -1,0 +1,825 @@
+{
+  "bookId": "03",
+  "chapterId": "18",
+  "chapterTitle": "小貓",
+  "chapterTitleSimplified": "小猫",
+  "passages": [
+    "二下 ：小貓（第五十八頁） 很多人都把貓當成寵物，牠溫順、活潑、可愛、能捉老鼠，所以特別討人們的歡心。貓的頭圓圓的，臉十分小巧，兩隻大眼睛像兩顆寶石，小鼻子紅撲撲的，非常討人喜歡。 貓的爪子很尖，腳掌上有肥厚而柔軟的肉墊，所以貓走起路來悄然無聲。 在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。這使牠不僅能在平地上疾走如飛，還能沿壁上房，爬樹跳牆。而且，在捕鼠的時候也不會驚動老鼠。 貓很貪喫，魚和老鼠是牠的最愛，如果你給牠蔬菜或水果，牠一定嗅一嗅就跑開了。 貓很貪睡，一天中有14到15個小時是在睡眠中度過，還有的貓要睡20個小時以上，所以常常被人們稱為『懶貓』。但是，如果你仔細觀察貓睡覺時的樣子，就會發現，只要有一丁點聲響，貓的耳朵就會動，要是有人走近，牠就會騰地一下子起來。貓能敏銳地感覺到外界的一切動靜，所以牠睡得並不是那麼沉。 貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。所以，貓很任性，常常我行我素。有時候，你怎麼叫牠，牠都當沒聽見。貓還愛撒嬌，有時候，牠會像小寶寶一樣爬上主人的膝蓋，在主人懷裏撒嬌，那樣子十分可愛呢。"
+  ],
+  "passagesSimplified": [
+    "二下 ：小猫（第五十八页） 很多人都把猫当成宠物，牠温顺、活泼、可爱、能捉老鼠，所以特别讨人们的欢心。猫的头圆圆的，脸十分小巧，两只大眼睛像两颗宝石，小鼻子红扑扑的，非常讨人喜欢。 猫的爪子很尖，脚掌上有肥厚而柔软的肉垫，所以猫走起路来悄然无声。 在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。这使牠不仅能在平地上疾走如飞，还能沿壁上房，爬树跳墙。而且，在捕鼠的时候也不会惊动老鼠。 猫很贪吃，鱼和老鼠是牠的最爱，如果你给牠蔬菜或水果，牠一定嗅一嗅就跑开了。 猫很贪睡，一天中有14到15个小时是在睡眠中度过，还有的猫要睡20个小时以上，所以常常被人们称为『懒猫』。但是，如果你仔细观察猫睡觉时的样子，就会发现，只要有一丁点声响，猫的耳朵就会动，要是有人走近，牠就会腾地一下子起来。猫能敏锐地感觉到外界的一切动静，所以牠睡得并不是那么沉。 猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。所以，猫很任性，常常我行我素。有时候，你怎么叫牠，牠都当没听见。猫还爱撒娇，有时候，牠会像小宝宝一样爬上主人的膝盖，在主人怀里撒娇，那样子十分可爱呢。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch18_w001",
+      "traditional": "溫順",
+      "simplified": "温顺",
+      "english": "gentle / docile",
+      "pinyin": "wēn shùn",
+      "contextSentence": "很多人都把貓當成寵物，牠溫順、活潑、可愛、能捉老鼠，所以特別討人們的歡心。",
+      "contextSentenceSimplified": "很多人都把猫当成宠物，牠温顺、活泼、可爱、能捉老鼠，所以特别讨人们的欢心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w002",
+      "traditional": "討人們的歡心",
+      "simplified": "讨人们的欢心",
+      "english": "win people's favor",
+      "pinyin": "tǎo rén men de huān xīn",
+      "contextSentence": "很多人都把貓當成寵物，牠溫順、活潑、可愛、能捉老鼠，所以特別討人們的歡心。",
+      "contextSentenceSimplified": "很多人都把猫当成宠物，牠温顺、活泼、可爱、能捉老鼠，所以特别讨人们的欢心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w003",
+      "traditional": "小巧",
+      "simplified": "小巧",
+      "english": "dainty /小巧玲珑 / compact",
+      "pinyin": "xiǎo qiǎo",
+      "contextSentence": "貓的頭圓圓的，臉十分小巧，兩隻大眼睛像兩顆寶石，小鼻子紅撲撲的，非常討人喜歡。",
+      "contextSentenceSimplified": "猫的头圆圆的，脸十分小巧，两只大眼睛像两颗宝石，小鼻子红扑扑的，非常讨人喜欢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w004",
+      "traditional": "紅撲撲的",
+      "simplified": "红扑扑的",
+      "english": "rosy / flushed red",
+      "pinyin": "hóng pū pū de",
+      "contextSentence": "貓的頭圓圓的，臉十分小巧，兩隻大眼睛像兩顆寶石，小鼻子紅撲撲的，非常討人喜歡。",
+      "contextSentenceSimplified": "猫的头圆圆的，脸十分小巧，两只大眼睛像两颗宝石，小鼻子红扑扑的，非常讨人喜欢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w005",
+      "traditional": "肥厚而柔軟",
+      "simplified": "肥厚而柔软",
+      "english": "thick and soft",
+      "pinyin": "féi hòu ér róu ruǎn",
+      "contextSentence": "貓的爪子很尖，腳掌上有肥厚而柔軟的肉墊，所以貓走起路來悄然無聲。",
+      "contextSentenceSimplified": "猫的爪子很尖，脚掌上有肥厚而柔软的肉垫，所以猫走起路来悄然无声。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w006",
+      "traditional": "肉墊",
+      "simplified": "肉垫",
+      "english": "paw pads / meat cushions",
+      "pinyin": "ròu diàn",
+      "contextSentence": "貓的爪子很尖，腳掌上有肥厚而柔軟的肉墊，所以貓走起路來悄然無聲。",
+      "contextSentenceSimplified": "猫的爪子很尖，脚掌上有肥厚而柔软的肉垫，所以猫走起路来悄然无声。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w007",
+      "traditional": "悄然無聲",
+      "simplified": "悄然无声",
+      "english": "silently / without a sound",
+      "pinyin": "qiǎo rán wú shēng",
+      "contextSentence": "貓的爪子很尖，腳掌上有肥厚而柔軟的肉墊，所以貓走起路來悄然無聲。",
+      "contextSentenceSimplified": "猫的爪子很尖，脚掌上有肥厚而柔软的肉垫，所以猫走起路来悄然无声。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w008",
+      "traditional": "末端",
+      "simplified": "末端",
+      "english": "end / tip / extremity",
+      "pinyin": "mò duān",
+      "contextSentence": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+      "contextSentenceSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w009",
+      "traditional": "銳利",
+      "simplified": "锐利",
+      "english": "sharp / keen / acute",
+      "pinyin": "ruì lì",
+      "contextSentence": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+      "contextSentenceSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w010",
+      "traditional": "鈎爪",
+      "simplified": "钩爪",
+      "english": "hook claw / grappling hook",
+      "pinyin": "gōu zhǎo",
+      "contextSentence": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+      "contextSentenceSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w011",
+      "traditional": "隨意",
+      "simplified": "随意",
+      "english": "casual / at will /随意",
+      "pinyin": "suí yì",
+      "contextSentence": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+      "contextSentenceSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w012",
+      "traditional": "伸縮",
+      "simplified": "伸缩",
+      "english": "expand and contract /伸缩able",
+      "pinyin": "shēn suō",
+      "contextSentence": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+      "contextSentenceSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w013",
+      "traditional": "疾走如飛",
+      "simplified": "疾走如飞",
+      "english": "walk swiftly like flying",
+      "pinyin": "jí zǒu rú fēi",
+      "contextSentence": "這使牠不僅能在平地上疾走如飛，還能沿壁上房，爬樹跳牆。",
+      "contextSentenceSimplified": "这使牠不仅能在平地上疾走如飞，还能沿壁上房，爬树跳墙。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w014",
+      "traditional": "沿壁上房",
+      "simplified": "沿壁上房",
+      "english": "climb the wall / scale the wall",
+      "pinyin": "yán bì shàng fáng",
+      "contextSentence": "這使牠不僅能在平地上疾走如飛，還能沿壁上房，爬樹跳牆。",
+      "contextSentenceSimplified": "这使牠不仅能在平地上疾走如飞，还能沿壁上房，爬树跳墙。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w015",
+      "traditional": "跳牆",
+      "simplified": "跳墙",
+      "english": "to jump over the wall",
+      "pinyin": "tiào qiáng",
+      "contextSentence": "這使牠不僅能在平地上疾走如飛，還能沿壁上房，爬樹跳牆。",
+      "contextSentenceSimplified": "这使牠不仅能在平地上疾走如飞，还能沿壁上房，爬树跳墙。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w016",
+      "traditional": "捕鼠",
+      "simplified": "捕鼠",
+      "english": "catching mice / rat-catching",
+      "pinyin": "bǔ shǔ",
+      "contextSentence": "而且，在捕鼠的時候也不會驚動老鼠。",
+      "contextSentenceSimplified": "而且，在捕鼠的时候也不会惊动老鼠。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w017",
+      "traditional": "驚動",
+      "simplified": "惊动",
+      "english": "to disturb / alarm",
+      "pinyin": "jīng dòng",
+      "contextSentence": "而且，在捕鼠的時候也不會驚動老鼠。",
+      "contextSentenceSimplified": "而且，在捕鼠的时候也不会惊动老鼠。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w018",
+      "traditional": "嗅一嗅",
+      "simplified": "嗅一嗅",
+      "english": "to sniff / to smell",
+      "pinyin": "xiù yī xiù",
+      "contextSentence": "貓很貪喫，魚和老鼠是牠的最愛，如果你給牠蔬菜或水果，牠一定嗅一嗅就跑開了。",
+      "contextSentenceSimplified": "猫很贪吃，鱼和老鼠是牠的最爱，如果你给牠蔬菜或水果，牠一定嗅一嗅就跑开了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w019",
+      "traditional": "騰地一下子",
+      "simplified": "腾地一下子",
+      "english": "suddenly / in an instant",
+      "pinyin": "téng dì yī xià zi",
+      "contextSentence": "但是，如果你仔細觀察貓睡覺時的樣子，就會發現，只要有一丁點聲響，貓的耳朵就會動，要是有人走近，牠就會騰地一下子起來。",
+      "contextSentenceSimplified": "但是，如果你仔细观察猫睡觉时的样子，就会发现，只要有一丁点声响，猫的耳朵就会动，要是有人走近，牠就会腾地一下子起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w020",
+      "traditional": "敏銳",
+      "simplified": "敏锐",
+      "english": "sharp / keen / acute",
+      "pinyin": "mǐn ruì",
+      "contextSentence": "貓能敏銳地感覺到外界的一切動靜，所以牠睡得並不是那麼沉。",
+      "contextSentenceSimplified": "猫能敏锐地感觉到外界的一切动静，所以牠睡得并不是那么沉。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w021",
+      "traditional": "動靜",
+      "simplified": "动静",
+      "english": "movement / sound / activity",
+      "pinyin": "dòng jìng",
+      "contextSentence": "貓能敏銳地感覺到外界的一切動靜，所以牠睡得並不是那麼沉。",
+      "contextSentenceSimplified": "猫能敏锐地感觉到外界的一切动静，所以牠睡得并不是那么沉。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w022",
+      "traditional": "沉",
+      "simplified": "沉",
+      "english": "deep sleep / (alternative meaning: sink)",
+      "pinyin": "chén",
+      "contextSentence": "貓能敏銳地感覺到外界的一切動靜，所以牠睡得並不是那麼沉。",
+      "contextSentenceSimplified": "猫能敏锐地感觉到外界的一切动静，所以牠睡得并不是那么沉。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w023",
+      "traditional": "單獨行動",
+      "simplified": "单独行动",
+      "english": "act alone / take independent action",
+      "pinyin": "dān dú xíng dòng",
+      "contextSentence": "貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。",
+      "contextSentenceSimplified": "猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w024",
+      "traditional": "聽從",
+      "simplified": "听从",
+      "english": "to obey / listen to",
+      "pinyin": "tīng cóng",
+      "contextSentence": "貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。",
+      "contextSentenceSimplified": "猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w025",
+      "traditional": "命令",
+      "simplified": "命令",
+      "english": "order / command",
+      "pinyin": "mìng lìng",
+      "contextSentence": "貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。",
+      "contextSentenceSimplified": "猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w026",
+      "traditional": "集體行動",
+      "simplified": "集体行动",
+      "english": "collective action / group action",
+      "pinyin": "jí tǐ xíng dòng",
+      "contextSentence": "貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。",
+      "contextSentenceSimplified": "猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w027",
+      "traditional": "任性",
+      "simplified": "任性",
+      "english": "willful / headstrong",
+      "pinyin": "rèn xìng",
+      "contextSentence": "所以，貓很任性，常常我行我素。",
+      "contextSentenceSimplified": "所以，猫很任性，常常我行我素。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w028",
+      "traditional": "我行我素",
+      "simplified": "我行我素",
+      "english": "do one's own thing / ignore others",
+      "pinyin": "wǒ xíng wǒ sù",
+      "contextSentence": "所以，貓很任性，常常我行我素。",
+      "contextSentenceSimplified": "所以，猫很任性，常常我行我素。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w029",
+      "traditional": "撒嬌",
+      "simplified": "撒娇",
+      "english": "to act spoiled / coquettish",
+      "pinyin": "sā jiāo",
+      "contextSentence": "貓還愛撒嬌，有時候，牠會像小寶寶一樣爬上主人的膝蓋，在主人懷裏撒嬌，那樣子十分可愛呢。",
+      "contextSentenceSimplified": "猫还爱撒娇，有时候，牠会像小宝宝一样爬上主人的膝盖，在主人怀里撒娇，那样子十分可爱呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch18_w030",
+      "traditional": "膝蓋",
+      "simplified": "膝盖",
+      "english": "knee",
+      "pinyin": "xī gài",
+      "contextSentence": "貓還愛撒嬌，有時候，牠會像小寶寶一樣爬上主人的膝蓋，在主人懷裏撒嬌，那樣子十分可愛呢。",
+      "contextSentenceSimplified": "猫还爱撒娇，有时候，牠会像小宝宝一样爬上主人的膝盖，在主人怀里撒娇，那样子十分可爱呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter18/b03_ch18_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter18/b03_ch18_w030_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter18/b03_ch18_p01_m.mp3",
+        "durationMs": 114096,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 11808,
+            "text": "二下 ：小貓（第五十八頁） 很多人都把貓當成寵物，牠溫順、活潑、可愛、能捉老鼠，所以特別討人們的歡心。",
+            "textSimplified": "二下 ：小猫（第五十八页） 很多人都把猫当成宠物，牠温顺、活泼、可爱、能捉老鼠，所以特别讨人们的欢心。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 11808,
+            "endMs": 21432,
+            "text": "貓的頭圓圓的，臉十分小巧，兩隻大眼睛像兩顆寶石，小鼻子紅撲撲的，非常討人喜歡。",
+            "textSimplified": "猫的头圆圆的，脸十分小巧，两只大眼睛像两颗宝石，小鼻子红扑扑的，非常讨人喜欢。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 21432,
+            "endMs": 29640,
+            "text": "貓的爪子很尖，腳掌上有肥厚而柔軟的肉墊，所以貓走起路來悄然無聲。",
+            "textSimplified": "猫的爪子很尖，脚掌上有肥厚而柔软的肉垫，所以猫走起路来悄然无声。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29640,
+            "endMs": 34944,
+            "text": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+            "textSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 34944,
+            "endMs": 41640,
+            "text": "這使牠不僅能在平地上疾走如飛，還能沿壁上房，爬樹跳牆。",
+            "textSimplified": "这使牠不仅能在平地上疾走如飞，还能沿壁上房，爬树跳墙。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 41640,
+            "endMs": 46320,
+            "text": "而且，在捕鼠的時候也不會驚動老鼠。",
+            "textSimplified": "而且，在捕鼠的时候也不会惊动老鼠。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 46320,
+            "endMs": 55080,
+            "text": "貓很貪喫，魚和老鼠是牠的最愛，如果你給牠蔬菜或水果，牠一定嗅一嗅就跑開了。",
+            "textSimplified": "猫很贪吃，鱼和老鼠是牠的最爱，如果你给牠蔬菜或水果，牠一定嗅一嗅就跑开了。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 55080,
+            "endMs": 67032,
+            "text": "貓很貪睡，一天中有14到15個小時是在睡眠中度過，還有的貓要睡20個小時以上，所以常常被人們稱為『懶貓』。",
+            "textSimplified": "猫很贪睡，一天中有14到15个小时是在睡眠中度过，还有的猫要睡20个小时以上，所以常常被人们称为『懒猫』。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 67032,
+            "endMs": 80040,
+            "text": "但是，如果你仔細觀察貓睡覺時的樣子，就會發現，只要有一丁點聲響，貓的耳朵就會動，要是有人走近，牠就會騰地一下子起來。",
+            "textSimplified": "但是，如果你仔细观察猫睡觉时的样子，就会发现，只要有一丁点声响，猫的耳朵就会动，要是有人走近，牠就会腾地一下子起来。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 80040,
+            "endMs": 87288,
+            "text": "貓能敏銳地感覺到外界的一切動靜，所以牠睡得並不是那麼沉。",
+            "textSimplified": "猫能敏锐地感觉到外界的一切动静，所以牠睡得并不是那么沉。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 87288,
+            "endMs": 95496,
+            "text": "貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。",
+            "textSimplified": "猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 95496,
+            "endMs": 99624,
+            "text": "所以，貓很任性，常常我行我素。",
+            "textSimplified": "所以，猫很任性，常常我行我素。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 99624,
+            "endMs": 103968,
+            "text": "有時候，你怎麼叫牠，牠都當沒聽見。",
+            "textSimplified": "有时候，你怎么叫牠，牠都当没听见。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 103968,
+            "endMs": 114096,
+            "text": "貓還愛撒嬌，有時候，牠會像小寶寶一樣爬上主人的膝蓋，在主人懷裏撒嬌，那樣子十分可愛呢。",
+            "textSimplified": "猫还爱撒娇，有时候，牠会像小宝宝一样爬上主人的膝盖，在主人怀里撒娇，那样子十分可爱呢。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter18/b03_ch18_p01_c.mp3",
+        "durationMs": 117120,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 12072,
+            "text": "二下 ：小貓（第五十八頁） 很多人都把貓當成寵物，牠溫順、活潑、可愛、能捉老鼠，所以特別討人們的歡心。",
+            "textSimplified": "二下 ：小猫（第五十八页） 很多人都把猫当成宠物，牠温顺、活泼、可爱、能捉老鼠，所以特别讨人们的欢心。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 12072,
+            "endMs": 21504,
+            "text": "貓的頭圓圓的，臉十分小巧，兩隻大眼睛像兩顆寶石，小鼻子紅撲撲的，非常討人喜歡。",
+            "textSimplified": "猫的头圆圆的，脸十分小巧，两只大眼睛像两颗宝石，小鼻子红扑扑的，非常讨人喜欢。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 21504,
+            "endMs": 29520,
+            "text": "貓的爪子很尖，腳掌上有肥厚而柔軟的肉墊，所以貓走起路來悄然無聲。",
+            "textSimplified": "猫的爪子很尖，脚掌上有肥厚而柔软的肉垫，所以猫走起路来悄然无声。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29520,
+            "endMs": 35232,
+            "text": "在貓的腳趾末端長着銳利的鈎爪，可以隨意伸縮。",
+            "textSimplified": "在猫的脚趾末端长着锐利的钩爪，可以随意伸缩。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35232,
+            "endMs": 42192,
+            "text": "這使牠不僅能在平地上疾走如飛，還能沿壁上房，爬樹跳牆。",
+            "textSimplified": "这使牠不仅能在平地上疾走如飞，还能沿壁上房，爬树跳墙。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 42192,
+            "endMs": 47256,
+            "text": "而且，在捕鼠的時候也不會驚動老鼠。",
+            "textSimplified": "而且，在捕鼠的时候也不会惊动老鼠。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 47256,
+            "endMs": 56328,
+            "text": "貓很貪喫，魚和老鼠是牠的最愛，如果你給牠蔬菜或水果，牠一定嗅一嗅就跑開了。",
+            "textSimplified": "猫很贪吃，鱼和老鼠是牠的最爱，如果你给牠蔬菜或水果，牠一定嗅一嗅就跑开了。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 56328,
+            "endMs": 68472,
+            "text": "貓很貪睡，一天中有14到15個小時是在睡眠中度過，還有的貓要睡20個小時以上，所以常常被人們稱為『懶貓』。",
+            "textSimplified": "猫很贪睡，一天中有14到15个小时是在睡眠中度过，还有的猫要睡20个小时以上，所以常常被人们称为『懒猫』。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 68472,
+            "endMs": 81960,
+            "text": "但是，如果你仔細觀察貓睡覺時的樣子，就會發現，只要有一丁點聲響，貓的耳朵就會動，要是有人走近，牠就會騰地一下子起來。",
+            "textSimplified": "但是，如果你仔细观察猫睡觉时的样子，就会发现，只要有一丁点声响，猫的耳朵就会动，要是有人走近，牠就会腾地一下子起来。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 81960,
+            "endMs": 89040,
+            "text": "貓能敏銳地感覺到外界的一切動靜，所以牠睡得並不是那麼沉。",
+            "textSimplified": "猫能敏锐地感觉到外界的一切动静，所以牠睡得并不是那么沉。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 89040,
+            "endMs": 97248,
+            "text": "貓是喜歡單獨行動的動物，牠不像狗一樣，能夠聽從主人的命令，集體行動。",
+            "textSimplified": "猫是喜欢单独行动的动物，牠不像狗一样，能够听从主人的命令，集体行动。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 97248,
+            "endMs": 101976,
+            "text": "所以，貓很任性，常常我行我素。",
+            "textSimplified": "所以，猫很任性，常常我行我素。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 101976,
+            "endMs": 106920,
+            "text": "有時候，你怎麼叫牠，牠都當沒聽見。",
+            "textSimplified": "有时候，你怎么叫牠，牠都当没听见。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 106920,
+            "endMs": 117120,
+            "text": "貓還愛撒嬌，有時候，牠會像小寶寶一樣爬上主人的膝蓋，在主人懷裏撒嬌，那樣子十分可愛呢。",
+            "textSimplified": "猫还爱撒娇，有时候，牠会像小宝宝一样爬上主人的膝盖，在主人怀里撒娇，那样子十分可爱呢。"
+          }
+        ]
+      }
+    }
+  ]
+}

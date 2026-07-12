@@ -1,0 +1,746 @@
+{
+  "bookId": "02",
+  "chapterId": "15",
+  "chapterTitle": "觀日落",
+  "chapterTitleSimplified": "观日落",
+  "passages": [
+    "二上：觀日落（第四十頁）\n\n週末，老師帶領我們去郊外觀日落。我們到達的時候，太陽還高高地掛在天上，發出耀眼的光芒。萬裏無雲的天空，藍藍的，像一塊乾淨的畫布。\n\n過了一會兒，太陽開始收斂起剛才那耀眼的光芒，慢慢變成一個金燦燦的圓盤。漸漸地，天空的顏色也越來越濃，變成了鵝黃色。太陽公公伸了伸懶腰，慢慢地往下落。突然，他好像想起什麼似的，一下子漲紅了臉，向大地、向天空，向萬物噴出一片紅光。天空被染成了紅色，大地被染成了紅色，就連同學們的臉也好像被染成了紅色。遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。\n\n這時，在夕陽周圍出現了一大片燦爛的晚霞，它們不停地變幻着色彩，先是紅色，然後是粉紅，再之後又變成了淡淡的紫色。看起來美麗極了。隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。\n\n夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。不一會，太陽只剩下了小半張臉，最後，它灑下一束光芒，依依不捨地下山了。"
+  ],
+  "passagesSimplified": [
+    "二上：观日落（第四十页）\n\n周末，老师带领我们去郊外观日落。我们到达的时候，太阳还高高地挂在天上，发出耀眼的光芒。万里无云的天空，蓝蓝的，像一块干净的画布。\n\n过了一会儿，太阳开始收敛起刚才那耀眼的光芒，慢慢变成一个金灿灿的圆盘。渐渐地，天空的颜色也越来越浓，变成了鹅黄色。太阳公公伸了伸懒腰，慢慢地往下落。突然，他好像想起什么似的，一下子涨红了脸，向大地、向天空，向万物喷出一片红光。天空被染成了红色，大地被染成了红色，就连同学们的脸也好像被染成了红色。远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。\n\n这时，在夕阳周围出现了一大片灿烂的晚霞，它们不停地变幻着色彩，先是红色，然后是粉红，再之后又变成了淡淡的紫色。看起来美丽极了。随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。\n\n夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。不一会，太阳只剩下了小半张脸，最后，它洒下一束光芒，依依不舍地下山了。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch15_w001",
+      "traditional": "收斂",
+      "simplified": "收敛",
+      "english": "restrain",
+      "pinyin": "shōu liǎn",
+      "contextSentence": "過了一會兒，太陽開始收斂起剛才那耀眼的光芒，慢慢變成一個金燦燦的圓盤。",
+      "contextSentenceSimplified": "过了一会儿，太阳开始收敛起刚才那耀眼的光芒，慢慢变成一个金灿灿的圆盘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w002",
+      "traditional": "金燦燦",
+      "simplified": "金灿灿",
+      "english": "golden",
+      "pinyin": "jīn càn càn",
+      "contextSentence": "過了一會兒，太陽開始收斂起剛才那耀眼的光芒，慢慢變成一個金燦燦的圓盤。",
+      "contextSentenceSimplified": "过了一会儿，太阳开始收敛起刚才那耀眼的光芒，慢慢变成一个金灿灿的圆盘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w003",
+      "traditional": "圓盤",
+      "simplified": "圆盘",
+      "english": "round plate",
+      "pinyin": "yuán pán",
+      "contextSentence": "過了一會兒，太陽開始收斂起剛才那耀眼的光芒，慢慢變成一個金燦燦的圓盤。",
+      "contextSentenceSimplified": "过了一会儿，太阳开始收敛起刚才那耀眼的光芒，慢慢变成一个金灿灿的圆盘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w004",
+      "traditional": "濃",
+      "simplified": "浓",
+      "english": "thick",
+      "pinyin": "nóng",
+      "contextSentence": "漸漸地，天空的顏色也越來越濃，變成了鵝黃色。",
+      "contextSentenceSimplified": "渐渐地，天空的颜色也越来越浓，变成了鹅黄色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w005",
+      "traditional": "懶腰",
+      "simplified": "懒腰",
+      "english": "stretch lazily",
+      "pinyin": "lǎn yāo",
+      "contextSentence": "太陽公公伸了伸懶腰，慢慢地往下落。",
+      "contextSentenceSimplified": "太阳公公伸了伸懒腰，慢慢地往下落。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w006",
+      "traditional": "噴出",
+      "simplified": "喷出",
+      "english": "spray out",
+      "pinyin": "pēn chū",
+      "contextSentence": "突然，他好像想起什麼似的，一下子漲紅了臉，向大地、向天空，向萬物噴出一片紅光。",
+      "contextSentenceSimplified": "突然，他好像想起什么似的，一下子涨红了脸，向大地、向天空，向万物喷出一片红光。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w007",
+      "traditional": "染成",
+      "simplified": "染成",
+      "english": "dye into",
+      "pinyin": "rǎn chéng",
+      "contextSentence": "天空被染成了紅色，大地被染成了紅色，就連同學們的臉也好像被染成了紅色。",
+      "contextSentenceSimplified": "天空被染成了红色，大地被染成了红色，就连同学们的脸也好像被染成了红色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w008",
+      "traditional": "巍峨",
+      "simplified": "巍峨",
+      "english": "towering",
+      "pinyin": "wēi é",
+      "contextSentence": "遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。",
+      "contextSentenceSimplified": "远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w009",
+      "traditional": "山巒",
+      "simplified": "山峦",
+      "english": "mountain range",
+      "pinyin": "shān luán",
+      "contextSentence": "遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。",
+      "contextSentenceSimplified": "远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w010",
+      "traditional": "夕陽",
+      "simplified": "夕阳",
+      "english": "sunset",
+      "pinyin": "xī yáng",
+      "contextSentence": "遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。",
+      "contextSentenceSimplified": "远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w011",
+      "traditional": "鑲上",
+      "simplified": "镶上",
+      "english": "inlay with",
+      "pinyin": "xiāng shàng",
+      "contextSentence": "遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。",
+      "contextSentenceSimplified": "远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w012",
+      "traditional": "周圍",
+      "simplified": "周围",
+      "english": "surroundings",
+      "pinyin": "zhōu wéi",
+      "contextSentence": "這時，在夕陽周圍出現了一大片燦爛的晚霞，它們不停地變幻着色彩，先是紅色，然後是粉紅，再之後又變成了淡淡的紫色。",
+      "contextSentenceSimplified": "这时，在夕阳周围出现了一大片灿烂的晚霞，它们不停地变幻着色彩，先是红色，然后是粉红，再之后又变成了淡淡的紫色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w013",
+      "traditional": "晚霞",
+      "simplified": "晚霞",
+      "english": "sunset clouds",
+      "pinyin": "wǎn xiá",
+      "contextSentence": "這時，在夕陽周圍出現了一大片燦爛的晚霞，它們不停地變幻着色彩，先是紅色，然後是粉紅，再之後又變成了淡淡的紫色。",
+      "contextSentenceSimplified": "这时，在夕阳周围出现了一大片灿烂的晚霞，它们不停地变幻着色彩，先是红色，然后是粉红，再之后又变成了淡淡的紫色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w014",
+      "traditional": "變幻",
+      "simplified": "变幻",
+      "english": "change",
+      "pinyin": "biàn huàn",
+      "contextSentence": "這時，在夕陽周圍出現了一大片燦爛的晚霞，它們不停地變幻着色彩，先是紅色，然後是粉紅，再之後又變成了淡淡的紫色。",
+      "contextSentenceSimplified": "这时，在夕阳周围出现了一大片灿烂的晚霞，它们不停地变幻着色彩，先是红色，然后是粉红，再之后又变成了淡淡的紫色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w015",
+      "traditional": "姿態",
+      "simplified": "姿态",
+      "english": "posture",
+      "pinyin": "zī tài",
+      "contextSentence": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+      "contextSentenceSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w016",
+      "traditional": "起初",
+      "simplified": "起初",
+      "english": "at first",
+      "pinyin": "qǐ chū",
+      "contextSentence": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+      "contextSentenceSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w017",
+      "traditional": "披着",
+      "simplified": "披着",
+      "english": "draped with",
+      "pinyin": "pī zhe",
+      "contextSentence": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+      "contextSentenceSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w018",
+      "traditional": "孔雀",
+      "simplified": "孔雀",
+      "english": "peacock",
+      "pinyin": "kǒng què",
+      "contextSentence": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+      "contextSentenceSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w019",
+      "traditional": "綢緞",
+      "simplified": "绸缎",
+      "english": "satin",
+      "pinyin": "chóu duàn",
+      "contextSentence": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+      "contextSentenceSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w020",
+      "traditional": "映襯",
+      "simplified": "映衬",
+      "english": "set off",
+      "pinyin": "yìng chèn",
+      "contextSentence": "夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。",
+      "contextSentenceSimplified": "夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w021",
+      "traditional": "向下墜",
+      "simplified": "向下坠",
+      "english": "fall downward",
+      "pinyin": "xiàng xià zhuì",
+      "contextSentence": "夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。",
+      "contextSentenceSimplified": "夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w022",
+      "traditional": "留戀",
+      "simplified": "留恋",
+      "english": "reluctant to leave",
+      "pinyin": "liú liàn",
+      "contextSentence": "夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。",
+      "contextSentenceSimplified": "夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w023",
+      "traditional": "呆一會兒",
+      "simplified": "呆一会儿",
+      "english": "stay for a while",
+      "pinyin": "dāi yī huì ér",
+      "contextSentence": "夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。",
+      "contextSentenceSimplified": "夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w024",
+      "traditional": "剩下",
+      "simplified": "剩下",
+      "english": "remaining",
+      "pinyin": "shèng xià",
+      "contextSentence": "不一會，太陽只剩下了小半張臉，最後，它灑下一束光芒，依依不捨地下山了。",
+      "contextSentenceSimplified": "不一会，太阳只剩下了小半张脸，最后，它洒下一束光芒，依依不舍地下山了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w024_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w024_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch15_w025",
+      "traditional": "依依不捨",
+      "simplified": "依依不舍",
+      "english": "reluctant to part",
+      "pinyin": "yī yī bù shě",
+      "contextSentence": "不一會，太陽只剩下了小半張臉，最後，它灑下一束光芒，依依不捨地下山了。",
+      "contextSentenceSimplified": "不一会，太阳只剩下了小半张脸，最后，它洒下一束光芒，依依不舍地下山了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w025_m_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter15/b02_ch15_w025_c_isolated.mp3",
+          "sentence": "audio/book02/chapter15/b02_ch15_w025_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter15/b02_ch15_p01_m.mp3",
+        "durationMs": 107568,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3360,
+            "text": "二上：觀日落（第四十頁）",
+            "textSimplified": "二上：观日落（第四十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3360,
+            "endMs": 7584,
+            "text": "週末，老師帶領我們去郊外觀日落。",
+            "textSimplified": "周末，老师带领我们去郊外观日落。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7584,
+            "endMs": 14208,
+            "text": "我們到達的時候，太陽還高高地掛在天上，發出耀眼的光芒。",
+            "textSimplified": "我们到达的时候，太阳还高高地挂在天上，发出耀眼的光芒。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14208,
+            "endMs": 19152,
+            "text": "萬裏無雲的天空，藍藍的，像一塊乾淨的畫布。",
+            "textSimplified": "万里无云的天空，蓝蓝的，像一块干净的画布。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 19152,
+            "endMs": 27576,
+            "text": "過了一會兒，太陽開始收斂起剛才那耀眼的光芒，慢慢變成一個金燦燦的圓盤。",
+            "textSimplified": "过了一会儿，太阳开始收敛起刚才那耀眼的光芒，慢慢变成一个金灿灿的圆盘。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 27576,
+            "endMs": 33096,
+            "text": "漸漸地，天空的顏色也越來越濃，變成了鵝黃色。",
+            "textSimplified": "渐渐地，天空的颜色也越来越浓，变成了鹅黄色。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 33096,
+            "endMs": 37344,
+            "text": "太陽公公伸了伸懶腰，慢慢地往下落。",
+            "textSimplified": "太阳公公伸了伸懒腰，慢慢地往下落。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 37344,
+            "endMs": 46632,
+            "text": "突然，他好像想起什麼似的，一下子漲紅了臉，向大地、向天空，向萬物噴出一片紅光。",
+            "textSimplified": "突然，他好像想起什么似的，一下子涨红了脸，向大地、向天空，向万物喷出一片红光。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 46632,
+            "endMs": 54768,
+            "text": "天空被染成了紅色，大地被染成了紅色，就連同學們的臉也好像被染成了紅色。",
+            "textSimplified": "天空被染成了红色，大地被染成了红色，就连同学们的脸也好像被染成了红色。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 54768,
+            "endMs": 61920,
+            "text": "遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。",
+            "textSimplified": "远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 61920,
+            "endMs": 75240,
+            "text": "這時，在夕陽周圍出現了一大片燦爛的晚霞，它們不停地變幻着色彩，先是紅色，然後是粉紅，再之後又變成了淡淡的紫色。",
+            "textSimplified": "这时，在夕阳周围出现了一大片灿烂的晚霞，它们不停地变幻着色彩，先是红色，然后是粉红，再之后又变成了淡淡的紫色。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 75240,
+            "endMs": 77520,
+            "text": "看起來美麗極了。",
+            "textSimplified": "看起来美丽极了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 77520,
+            "endMs": 89880,
+            "text": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+            "textSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 89880,
+            "endMs": 99288,
+            "text": "夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。",
+            "textSimplified": "夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 99288,
+            "endMs": 107568,
+            "text": "不一會，太陽只剩下了小半張臉，最後，它灑下一束光芒，依依不捨地下山了。",
+            "textSimplified": "不一会，太阳只剩下了小半张脸，最后，它洒下一束光芒，依依不舍地下山了。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter15/b02_ch15_p01_c.mp3",
+        "durationMs": 111672,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3624,
+            "text": "二上：觀日落（第四十頁）",
+            "textSimplified": "二上：观日落（第四十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3624,
+            "endMs": 8064,
+            "text": "週末，老師帶領我們去郊外觀日落。",
+            "textSimplified": "周末，老师带领我们去郊外观日落。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8064,
+            "endMs": 14976,
+            "text": "我們到達的時候，太陽還高高地掛在天上，發出耀眼的光芒。",
+            "textSimplified": "我们到达的时候，太阳还高高地挂在天上，发出耀眼的光芒。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 14976,
+            "endMs": 20496,
+            "text": "萬裏無雲的天空，藍藍的，像一塊乾淨的畫布。",
+            "textSimplified": "万里无云的天空，蓝蓝的，像一块干净的画布。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 20496,
+            "endMs": 28944,
+            "text": "過了一會兒，太陽開始收斂起剛才那耀眼的光芒，慢慢變成一個金燦燦的圓盤。",
+            "textSimplified": "过了一会儿，太阳开始收敛起刚才那耀眼的光芒，慢慢变成一个金灿灿的圆盘。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 28944,
+            "endMs": 34752,
+            "text": "漸漸地，天空的顏色也越來越濃，變成了鵝黃色。",
+            "textSimplified": "渐渐地，天空的颜色也越来越浓，变成了鹅黄色。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 34752,
+            "endMs": 39504,
+            "text": "太陽公公伸了伸懶腰，慢慢地往下落。",
+            "textSimplified": "太阳公公伸了伸懒腰，慢慢地往下落。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 39504,
+            "endMs": 49368,
+            "text": "突然，他好像想起什麼似的，一下子漲紅了臉，向大地、向天空，向萬物噴出一片紅光。",
+            "textSimplified": "突然，他好像想起什么似的，一下子涨红了脸，向大地、向天空，向万物喷出一片红光。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 49368,
+            "endMs": 57432,
+            "text": "天空被染成了紅色，大地被染成了紅色，就連同學們的臉也好像被染成了紅色。",
+            "textSimplified": "天空被染成了红色，大地被染成了红色，就连同学们的脸也好像被染成了红色。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 57432,
+            "endMs": 64992,
+            "text": "遠處巍峨的山巒，在夕陽的映照下，被鑲上了一道金邊，非常美麗。",
+            "textSimplified": "远处巍峨的山峦，在夕阳的映照下，被镶上了一道金边，非常美丽。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 64992,
+            "endMs": 77904,
+            "text": "這時，在夕陽周圍出現了一大片燦爛的晚霞，它們不停地變幻着色彩，先是紅色，然後是粉紅，再之後又變成了淡淡的紫色。",
+            "textSimplified": "这时，在夕阳周围出现了一大片灿烂的晚霞，它们不停地变幻着色彩，先是红色，然后是粉红，再之后又变成了淡淡的紫色。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 77904,
+            "endMs": 80688,
+            "text": "看起來美麗極了。",
+            "textSimplified": "看起来美丽极了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 80688,
+            "endMs": 93432,
+            "text": "隨着色彩的變化，晚霞也在變幻着姿態，起初，它看起來像一隻披着漂亮羽毛的孔雀，不一會兒，又變成了一大片綢緞。",
+            "textSimplified": "随着色彩的变化，晚霞也在变幻着姿态，起初，它看起来像一只披着漂亮羽毛的孔雀，不一会儿，又变成了一大片绸缎。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 93432,
+            "endMs": 102960,
+            "text": "夕陽在晚霞的映襯下，又慢慢地向下墜，但它好像十分留戀這美麗的天空，想再多呆一會兒。",
+            "textSimplified": "夕阳在晚霞的映衬下，又慢慢地向下坠，但它好像十分留恋这美丽的天空，想再多呆一会儿。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 102960,
+            "endMs": 111672,
+            "text": "不一會，太陽只剩下了小半張臉，最後，它灑下一束光芒，依依不捨地下山了。",
+            "textSimplified": "不一会，太阳只剩下了小半张脸，最后，它洒下一束光芒，依依不舍地下山了。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+{
+  "bookId": "03",
+  "chapterId": "26",
+  "chapterTitle": "美味的糉子",
+  "chapterTitleSimplified": "美味的粽子",
+  "passages": [
+    "二下 ：美味的糉子（第七十七頁） 每到五月初五端午節，四處都飄散着糉子的清香，讓人垂涎欲滴。端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。 糉子的樣子很特別，既不像包子那樣圓，也不像饅頭那樣方方的，而是有棱有角，像個錐形。糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。 由於各地的飲食習慣不同，糉子也形成了不同的風味。 北京糉子是北方糉子的代表，個頭較小，為斜四角形或三角形。北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。 我最愛喫的要數鹹肉糉了。糉子煮熟後，葉子散發着清香。剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。 糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。"
+  ],
+  "passagesSimplified": [
+    "二下 ：美味的粽子（第七十七页） 每到五月初五端午节，四处都飘散着粽子的清香，让人垂涎欲滴。端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。 粽子的样子很特别，既不像包子那样圆，也不像馒头那样方方的，而是有棱有角，像个锥形。粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。 由于各地的饮食习惯不同，粽子也形成了不同的风味。 北京粽子是北方粽子的代表，个头较小，为斜四角形或三角形。北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。 我最爱吃的要数咸肉粽了。粽子煮熟后，叶子散发着清香。剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。 粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch26_w001",
+      "traditional": "垂涎欲滴",
+      "simplified": "垂涎欲滴",
+      "english": "mouth-watering / drooling with desire",
+      "pinyin": "chuí xián yù dī",
+      "contextSentence": "每到五月初五端午節，四處都飄散着糉子的清香，讓人垂涎欲滴。",
+      "contextSentenceSimplified": "每到五月初五端午节，四处都飘散着粽子的清香，让人垂涎欲滴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w002",
+      "traditional": "傳統習俗",
+      "simplified": "传统习俗",
+      "english": "traditional customs",
+      "pinyin": "chuán tǒng xí sú",
+      "contextSentence": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+      "contextSentenceSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w003",
+      "traditional": "相傳",
+      "simplified": "相传",
+      "english": "legend has it / it is said",
+      "pinyin": "xiāng chuán",
+      "contextSentence": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+      "contextSentenceSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w004",
+      "traditional": "紀念",
+      "simplified": "纪念",
+      "english": "commemorate / memorial",
+      "pinyin": "jì niàn",
+      "contextSentence": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+      "contextSentenceSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w005",
+      "traditional": "愛國詩人",
+      "simplified": "爱国诗人",
+      "english": "patriotic poet",
+      "pinyin": "ài guó shī rén",
+      "contextSentence": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+      "contextSentenceSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w006",
+      "traditional": "屈原",
+      "simplified": "屈原",
+      "english": "Qu Yuan (ancient poet)",
+      "pinyin": "qū yuán",
+      "contextSentence": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+      "contextSentenceSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w007",
+      "traditional": "有棱有角",
+      "simplified": "有棱有角",
+      "english": "angular / having edges and corners",
+      "pinyin": "yǒu léng yǒu jiǎo",
+      "contextSentence": "糉子的樣子很特別，既不像包子那樣圓，也不像饅頭那樣方方的，而是有棱有角，像個錐形。",
+      "contextSentenceSimplified": "粽子的样子很特别，既不像包子那样圆，也不像馒头那样方方的，而是有棱有角，像个锥形。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w008",
+      "traditional": "錐形",
+      "simplified": "锥形",
+      "english": "conical / cone-shaped",
+      "pinyin": "zhuī xíng",
+      "contextSentence": "糉子的樣子很特別，既不像包子那樣圓，也不像饅頭那樣方方的，而是有棱有角，像個錐形。",
+      "contextSentenceSimplified": "粽子的样子很特别，既不像包子那样圆，也不像馒头那样方方的，而是有棱有角，像个锥形。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w009",
+      "traditional": "翠綠",
+      "simplified": "翠绿",
+      "english": "emerald green / lush green",
+      "pinyin": "cuì lǜ",
+      "contextSentence": "糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。",
+      "contextSentenceSimplified": "粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w010",
+      "traditional": "雪白",
+      "simplified": "雪白",
+      "english": "snow white / pure white",
+      "pinyin": "xuě bái",
+      "contextSentence": "糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。",
+      "contextSentenceSimplified": "粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w011",
+      "traditional": "糯米",
+      "simplified": "糯米",
+      "english": "glutinous rice / sticky rice",
+      "pinyin": "nuò mǐ",
+      "contextSentence": "糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。",
+      "contextSentenceSimplified": "粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w012",
+      "traditional": "餡料",
+      "simplified": "馅料",
+      "english": "filling (for dumplings etc.)",
+      "pinyin": "xiàn liào",
+      "contextSentence": "糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。",
+      "contextSentenceSimplified": "粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w013",
+      "traditional": "風味",
+      "simplified": "风味",
+      "english": "flavor / local speciality",
+      "pinyin": "fēng wèi",
+      "contextSentence": "由於各地的飲食習慣不同，糉子也形成了不同的風味。",
+      "contextSentenceSimplified": "由于各地的饮食习惯不同，粽子也形成了不同的风味。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w014",
+      "traditional": "代表",
+      "simplified": "代表",
+      "english": "to represent / representative",
+      "pinyin": "dài biǎo",
+      "contextSentence": "北京糉子是北方糉子的代表，個頭較小，為斜四角形或三角形。",
+      "contextSentenceSimplified": "北京粽子是北方粽子的代表，个头较小，为斜四角形或三角形。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w015",
+      "traditional": "斜四角形",
+      "simplified": "斜四角形",
+      "english": "parallelogram / oblique quadrilateral",
+      "pinyin": "xié sì jiǎo xíng",
+      "contextSentence": "北京糉子是北方糉子的代表，個頭較小，為斜四角形或三角形。",
+      "contextSentenceSimplified": "北京粽子是北方粽子的代表，个头较小，为斜四角形或三角形。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w016",
+      "traditional": "紅棗",
+      "simplified": "红枣",
+      "english": "red date / jujube",
+      "pinyin": "hóng zǎo",
+      "contextSentence": "北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。",
+      "contextSentenceSimplified": "北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w017",
+      "traditional": "果脯",
+      "simplified": "果脯",
+      "english": "preserved fruit / candied fruit",
+      "pinyin": "guǒ pú",
+      "contextSentence": "北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。",
+      "contextSentenceSimplified": "北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w018",
+      "traditional": "黏而不膩",
+      "simplified": "黏而不腻",
+      "english": "sticky but not greasy",
+      "pinyin": "nián ér bù nì",
+      "contextSentence": "北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。",
+      "contextSentenceSimplified": "北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w019",
+      "traditional": "別具風味",
+      "simplified": "别具风味",
+      "english": "have a unique flavor / distinctive charm",
+      "pinyin": "bié jù fēng wèi",
+      "contextSentence": "北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。",
+      "contextSentenceSimplified": "北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w020",
+      "traditional": "金字塔",
+      "simplified": "金字塔",
+      "english": "pyramid",
+      "pinyin": "jīn zì tǎ",
+      "contextSentence": "廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。",
+      "contextSentenceSimplified": "广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w021",
+      "traditional": "隆起",
+      "simplified": "隆起",
+      "english": "bulge / rise / protrude",
+      "pinyin": "lóng qǐ",
+      "contextSentence": "廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。",
+      "contextSentenceSimplified": "广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w022",
+      "traditional": "尖角",
+      "simplified": "尖角",
+      "english": "sharp corner / acute angle",
+      "pinyin": "jiān jiǎo",
+      "contextSentence": "廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。",
+      "contextSentenceSimplified": "广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w023",
+      "traditional": "錐子",
+      "simplified": "锥子",
+      "english": "awl / pointed tool",
+      "pinyin": "zhuī zi",
+      "contextSentence": "廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。",
+      "contextSentenceSimplified": "广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w024",
+      "traditional": "豆沙糉",
+      "simplified": "豆沙粽",
+      "english": "red bean paste zongzi",
+      "pinyin": "dòu shā zòng",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w025",
+      "traditional": "蓮蓉糭",
+      "simplified": "莲蓉糭",
+      "english": "lotus paste zongzi",
+      "pinyin": "lián róng zòng",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w026",
+      "traditional": "鹼水糉",
+      "simplified": "碱水粽",
+      "english": "lye water zongzi",
+      "pinyin": "jiǎn shuǐ zòng",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w027",
+      "traditional": "鹹肉糉",
+      "simplified": "咸肉粽",
+      "english": "salted meat zongzi",
+      "pinyin": "xián ròu zòng",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w028",
+      "traditional": "肉丁",
+      "simplified": "肉丁",
+      "english": "diced meat / meat cubes",
+      "pinyin": "ròu dīng",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w029",
+      "traditional": "冬菇",
+      "simplified": "冬菇",
+      "english": "shiitake mushroom",
+      "pinyin": "dōng gū",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w030",
+      "traditional": "調配",
+      "simplified": "调配",
+      "english": "to adjust and match",
+      "pinyin": "diào pèi",
+      "contextSentence": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+      "contextSentenceSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w031",
+      "traditional": "剝開",
+      "simplified": "剥开",
+      "english": "to peel open / to strip off",
+      "pinyin": "bō kāi",
+      "contextSentence": "剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。",
+      "contextSentenceSimplified": "剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w031_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w031_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w031_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w032",
+      "traditional": "墨綠",
+      "simplified": "墨绿",
+      "english": "dark green / ink green",
+      "pinyin": "mò lǜ",
+      "contextSentence": "剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。",
+      "contextSentenceSimplified": "剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w032_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w032_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w032_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w032_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w033",
+      "traditional": "饞得人直流口水",
+      "simplified": "馋得人直流口水",
+      "english": "make one's mouth water",
+      "pinyin": "chán dé rén zhí liú kǒu shuǐ",
+      "contextSentence": "剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。",
+      "contextSentenceSimplified": "剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w033_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w033_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w033_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w033_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w034",
+      "traditional": "忍不住",
+      "simplified": "忍不住",
+      "english": "cannot help / can't resist",
+      "pinyin": "rěn bù zhù",
+      "contextSentence": "剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。",
+      "contextSentenceSimplified": "剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w034_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w034_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w034_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w034_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w035",
+      "traditional": "消暑",
+      "simplified": "消暑",
+      "english": "to beat the heat / cool off",
+      "pinyin": "xiāo shǔ",
+      "contextSentence": "糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。",
+      "contextSentenceSimplified": "粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w035_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w035_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w035_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w035_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w036",
+      "traditional": "開胃美食",
+      "simplified": "开胃美食",
+      "english": "appetizing delicacy",
+      "pinyin": "kāi wèi měi shí",
+      "contextSentence": "糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。",
+      "contextSentenceSimplified": "粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w036_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w036_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w036_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w036_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w037",
+      "traditional": "營養豐富",
+      "simplified": "营养丰富",
+      "english": "rich in nutrients / nutritious",
+      "pinyin": "yíng yǎng fēng fù",
+      "contextSentence": "糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。",
+      "contextSentenceSimplified": "粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w037_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w037_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w037_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w037_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch26_w038",
+      "traditional": "過節佳品",
+      "simplified": "过节佳品",
+      "english": "perfect for the holiday",
+      "pinyin": "guò jié jiā pǐn",
+      "contextSentence": "糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。",
+      "contextSentenceSimplified": "粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w038_m_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w038_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter26/b03_ch26_w038_c_isolated.mp3",
+          "sentence": "audio/book03/chapter26/b03_ch26_w038_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter26/b03_ch26_p01_m.mp3",
+        "durationMs": 103560,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10392,
+            "text": "二下 ：美味的糉子（第七十七頁） 每到五月初五端午節，四處都飄散着糉子的清香，讓人垂涎欲滴。",
+            "textSimplified": "二下 ：美味的粽子（第七十七页） 每到五月初五端午节，四处都飘散着粽子的清香，让人垂涎欲滴。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10392,
+            "endMs": 19368,
+            "text": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+            "textSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19368,
+            "endMs": 28968,
+            "text": "糉子的樣子很特別，既不像包子那樣圓，也不像饅頭那樣方方的，而是有棱有角，像個錐形。",
+            "textSimplified": "粽子的样子很特别，既不像包子那样圆，也不像馒头那样方方的，而是有棱有角，像个锥形。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 28968,
+            "endMs": 37080,
+            "text": "糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。",
+            "textSimplified": "粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 37080,
+            "endMs": 42888,
+            "text": "由於各地的飲食習慣不同，糉子也形成了不同的風味。",
+            "textSimplified": "由于各地的饮食习惯不同，粽子也形成了不同的风味。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 42888,
+            "endMs": 50400,
+            "text": "北京糉子是北方糉子的代表，個頭較小，為斜四角形或三角形。",
+            "textSimplified": "北京粽子是北方粽子的代表，个头较小，为斜四角形或三角形。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 50400,
+            "endMs": 58896,
+            "text": "北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。",
+            "textSimplified": "北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 58896,
+            "endMs": 69432,
+            "text": "廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。",
+            "textSimplified": "广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 69432,
+            "endMs": 81168,
+            "text": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+            "textSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 81168,
+            "endMs": 84480,
+            "text": "我最愛喫的要數鹹肉糉了。",
+            "textSimplified": "我最爱吃的要数咸肉粽了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 84480,
+            "endMs": 88368,
+            "text": "糉子煮熟後，葉子散發着清香。",
+            "textSimplified": "粽子煮熟后，叶子散发着清香。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 88368,
+            "endMs": 95880,
+            "text": "剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。",
+            "textSimplified": "剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 95880,
+            "endMs": 103560,
+            "text": "糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。",
+            "textSimplified": "粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter26/b03_ch26_p01_c.mp3",
+        "durationMs": 104400,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10464,
+            "text": "二下 ：美味的糉子（第七十七頁） 每到五月初五端午節，四處都飄散着糉子的清香，讓人垂涎欲滴。",
+            "textSimplified": "二下 ：美味的粽子（第七十七页） 每到五月初五端午节，四处都飘散着粽子的清香，让人垂涎欲滴。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10464,
+            "endMs": 19272,
+            "text": "端午節喫糉子，是中國人的傳統習俗，相傳是為了紀念愛國詩人屈原而流傳下來的。",
+            "textSimplified": "端午节吃粽子，是中国人的传统习俗，相传是为了纪念爱国诗人屈原而流传下来的。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19272,
+            "endMs": 28824,
+            "text": "糉子的樣子很特別，既不像包子那樣圓，也不像饅頭那樣方方的，而是有棱有角，像個錐形。",
+            "textSimplified": "粽子的样子很特别，既不像包子那样圆，也不像馒头那样方方的，而是有棱有角，像个锥形。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 28824,
+            "endMs": 36600,
+            "text": "糉子是用翠綠的葉片包裹着雪白的糯米做成，裏面還包上各種美味的餡料。",
+            "textSimplified": "粽子是用翠绿的叶片包裹着雪白的糯米做成，里面还包上各种美味的馅料。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 36600,
+            "endMs": 42672,
+            "text": "由於各地的飲食習慣不同，糉子也形成了不同的風味。",
+            "textSimplified": "由于各地的饮食习惯不同，粽子也形成了不同的风味。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 42672,
+            "endMs": 50064,
+            "text": "北京糉子是北方糉子的代表，個頭較小，為斜四角形或三角形。",
+            "textSimplified": "北京粽子是北方粽子的代表，个头较小，为斜四角形或三角形。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 50064,
+            "endMs": 58536,
+            "text": "北京糉子喜歡用紅棗、豆沙做餡，也有用果脯做餡的，黏而不膩，別具風味。",
+            "textSimplified": "北京粽子喜欢用红枣、豆沙做馅，也有用果脯做馅的，黏而不腻，别具风味。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 58536,
+            "endMs": 69240,
+            "text": "廣東糉子是南方糉子的代表，個頭較大，像一個小小的金字塔，後面隆起一隻尖角，形狀像錐子。",
+            "textSimplified": "广东粽子是南方粽子的代表，个头较大，像一个小小的金字塔，后面隆起一只尖角，形状像锥子。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 69240,
+            "endMs": 81072,
+            "text": "南方的糉子種類很多，有豆沙糉、蓮蓉糭，還有鹼水糉、鹹肉糉，以及用肉丁、冬菇、綠豆等調配為餡的糉。",
+            "textSimplified": "南方的粽子种类很多，有豆沙粽、莲蓉糭，还有碱水粽、咸肉粽，以及用肉丁、冬菇、绿豆等调配为馅的粽。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 81072,
+            "endMs": 84600,
+            "text": "我最愛喫的要數鹹肉糉了。",
+            "textSimplified": "我最爱吃的要数咸肉粽了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 84600,
+            "endMs": 88824,
+            "text": "糉子煮熟後，葉子散發着清香。",
+            "textSimplified": "粽子煮熟后，叶子散发着清香。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 88824,
+            "endMs": 96792,
+            "text": "剝開墨綠的葉子，露出黏黏的糯米，饞得人直流口水，忍不住咬上一口。",
+            "textSimplified": "剥开墨绿的叶子，露出黏黏的糯米，馋得人直流口水，忍不住咬上一口。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 96792,
+            "endMs": 104400,
+            "text": "糉子既是消暑的開胃美食，又是營養豐富的過節佳品，大人小孩都愛喫。",
+            "textSimplified": "粽子既是消暑的开胃美食，又是营养丰富的过节佳品，大人小孩都爱吃。"
+          }
+        ]
+      }
+    }
+  ]
+}

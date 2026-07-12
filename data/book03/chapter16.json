@@ -1,0 +1,911 @@
+{
+  "bookId": "03",
+  "chapterId": "16",
+  "chapterTitle": "森林裏的唱歌家",
+  "chapterTitleSimplified": "森林里的唱歌家",
+  "passages": [
+    "二下 ：森林裏的歌唱家（第五十二頁） 森林裏有一隻美麗的夜鶯，她的歌聲非常動聽。每當她唱起歌來，動物朋友們都會不自覺地停下來傾聽，就連路人也常常被她的歌聲吸引而迷路。所以，大家一致認為夜鶯是森林裏的歌唱家。 人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。她甚至連自己的生活習慣都改變了：以前，夜鶯到了晚上纔出來唱歌；現在，她常常白天就出來唱歌。 一天，好朋友蝙蝠勸她說：『夜鶯啊，你現在白天出來唱歌，萬一被人抓住了怎麼辦啊？』 夜鶯根本聽不進蝙蝠的話，她說：『哼，你這樣講，一定是嫉妒我美妙的歌喉，我以後再也不和你做朋友了。』 從此以後，夜鶯每天白天夜晚都出來唱歌，名聲也越來越大。於是，一些想發財的人盯上了夜鶯，他們成羣結隊地來到森林裏，想捉住她。終於有一天，夜鶯被人捉住了，並且賣給了城裏的富翁。 在城市裏，夜鶯被關在一個鳥籠裏供人觀賞。此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。一天晚上，夜鶯唱起了悲傷的歌。歌聲引來了蝙蝠，夜鶯說：『我真後悔沒有聽你的話。』蝙蝠聽了夜鶯的話，搖搖頭說：『你現在後悔，已經太遲了！』"
+  ],
+  "passagesSimplified": [
+    "二下 ：森林里的歌唱家（第五十二页） 森林里有一只美丽的夜莺，她的歌声非常动听。每当她唱起歌来，动物朋友们都会不自觉地停下来倾听，就连路人也常常被她的歌声吸引而迷路。所以，大家一致认为夜莺是森林里的歌唱家。 人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。她甚至连自己的生活习惯都改变了：以前，夜莺到了晚上才出来唱歌；现在，她常常白天就出来唱歌。 一天，好朋友蝙蝠劝她说：『夜莺啊，你现在白天出来唱歌，万一被人抓住了怎么办啊？』 夜莺根本听不进蝙蝠的话，她说：『哼，你这样讲，一定是嫉妒我美妙的歌喉，我以后再也不和你做朋友了。』 从此以后，夜莺每天白天夜晚都出来唱歌，名声也越来越大。于是，一些想发财的人盯上了夜莺，他们成群结队地来到森林里，想捉住她。终于有一天，夜莺被人捉住了，并且卖给了城里的富翁。 在城市里，夜莺被关在一个鸟笼里供人观赏。此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。一天晚上，夜莺唱起了悲伤的歌。歌声引来了蝙蝠，夜莺说：『我真后悔没有听你的话。』蝙蝠听了夜莺的话，摇摇头说：『你现在后悔，已经太迟了！』"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch16_w001",
+      "traditional": "夜鶯",
+      "simplified": "夜莺",
+      "english": "nightingale",
+      "pinyin": "yè yīng",
+      "contextSentence": "森林裏有一隻美麗的夜鶯，她的歌聲非常動聽。",
+      "contextSentenceSimplified": "森林里有一只美丽的夜莺，她的歌声非常动听。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w002",
+      "traditional": "動聽",
+      "simplified": "动听",
+      "english": "pleasant to hear / melodious",
+      "pinyin": "dòng tīng",
+      "contextSentence": "森林裏有一隻美麗的夜鶯，她的歌聲非常動聽。",
+      "contextSentenceSimplified": "森林里有一只美丽的夜莺，她的歌声非常动听。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w003",
+      "traditional": "不自覺地",
+      "simplified": "不自觉地",
+      "english": "unconsciously / involuntarily",
+      "pinyin": "bù zì jué dì",
+      "contextSentence": "每當她唱起歌來，動物朋友們都會不自覺地停下來傾聽，就連路人也常常被她的歌聲吸引而迷路。",
+      "contextSentenceSimplified": "每当她唱起歌来，动物朋友们都会不自觉地停下来倾听，就连路人也常常被她的歌声吸引而迷路。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w004",
+      "traditional": "傾聽",
+      "simplified": "倾听",
+      "english": "listen attentively",
+      "pinyin": "qīng tīng",
+      "contextSentence": "每當她唱起歌來，動物朋友們都會不自覺地停下來傾聽，就連路人也常常被她的歌聲吸引而迷路。",
+      "contextSentenceSimplified": "每当她唱起歌来，动物朋友们都会不自觉地停下来倾听，就连路人也常常被她的歌声吸引而迷路。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w005",
+      "traditional": "一致",
+      "simplified": "一致",
+      "english": "consistent / in agreement",
+      "pinyin": "yí zhì",
+      "contextSentence": "所以，大家一致認為夜鶯是森林裏的歌唱家。",
+      "contextSentenceSimplified": "所以，大家一致认为夜莺是森林里的歌唱家。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w006",
+      "traditional": "誇獎",
+      "simplified": "夸奖",
+      "english": "to praise / compliment",
+      "pinyin": "kuā jiǎng",
+      "contextSentence": "人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。",
+      "contextSentenceSimplified": "人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w007",
+      "traditional": "美妙",
+      "simplified": "美妙",
+      "english": "wonderful / beautiful",
+      "pinyin": "měi miào",
+      "contextSentence": "人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。",
+      "contextSentenceSimplified": "人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w008",
+      "traditional": "漸漸地",
+      "simplified": "渐渐地",
+      "english": "gradually / slowly",
+      "pinyin": "jiàn jiàn dì",
+      "contextSentence": "人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。",
+      "contextSentenceSimplified": "人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w009",
+      "traditional": "驕傲",
+      "simplified": "骄傲",
+      "english": "proud",
+      "pinyin": "jiāo ào",
+      "contextSentence": "人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。",
+      "contextSentenceSimplified": "人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w010",
+      "traditional": "從而",
+      "simplified": "从而",
+      "english": "thereby / thus / consequently",
+      "pinyin": "cóng ér",
+      "contextSentence": "於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。",
+      "contextSentenceSimplified": "于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w011",
+      "traditional": "贏得",
+      "simplified": "赢得",
+      "english": "to win / to earn",
+      "pinyin": "yíng dé",
+      "contextSentence": "於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。",
+      "contextSentenceSimplified": "于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w012",
+      "traditional": "掌聲",
+      "simplified": "掌声",
+      "english": "applause / clapping",
+      "pinyin": "zhǎng shēng",
+      "contextSentence": "於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。",
+      "contextSentenceSimplified": "于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w013",
+      "traditional": "讚揚",
+      "simplified": "赞扬",
+      "english": "praise",
+      "pinyin": "zàn yáng",
+      "contextSentence": "於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。",
+      "contextSentenceSimplified": "于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w014",
+      "traditional": "生活習慣",
+      "simplified": "生活习惯",
+      "english": "living habits / lifestyle",
+      "pinyin": "shēng huó xí guàn",
+      "contextSentence": "她甚至連自己的生活習慣都改變了：以前，夜鶯到了晚上纔出來唱歌；現在，她常常白天就出來唱歌。",
+      "contextSentenceSimplified": "她甚至连自己的生活习惯都改变了：以前，夜莺到了晚上才出来唱歌；现在，她常常白天就出来唱歌。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w015",
+      "traditional": "勸",
+      "simplified": "劝",
+      "english": "to advise / to persuade",
+      "pinyin": "quàn",
+      "contextSentence": "一天，好朋友蝙蝠勸她說：『夜鶯啊，你現在白天出來唱歌，萬一被人抓住了怎麼辦啊？",
+      "contextSentenceSimplified": "一天，好朋友蝙蝠劝她说：『夜莺啊，你现在白天出来唱歌，万一被人抓住了怎么办啊？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w016",
+      "traditional": "萬一",
+      "simplified": "万一",
+      "english": "just in case / if by any chance",
+      "pinyin": "wàn yī",
+      "contextSentence": "一天，好朋友蝙蝠勸她說：『夜鶯啊，你現在白天出來唱歌，萬一被人抓住了怎麼辦啊？",
+      "contextSentenceSimplified": "一天，好朋友蝙蝠劝她说：『夜莺啊，你现在白天出来唱歌，万一被人抓住了怎么办啊？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w017",
+      "traditional": "根本",
+      "simplified": "根本",
+      "english": "fundamental / root / basically",
+      "pinyin": "gēn běn",
+      "contextSentence": "夜鶯根本聽不進蝙蝠的話，她說：『哼，你這樣講，一定是嫉妒我美妙的歌喉，我以後再也不和你做朋友了。",
+      "contextSentenceSimplified": "夜莺根本听不进蝙蝠的话，她说：『哼，你这样讲，一定是嫉妒我美妙的歌喉，我以后再也不和你做朋友了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w018",
+      "traditional": "嫉妒",
+      "simplified": "嫉妒",
+      "english": "jealousy / envy",
+      "pinyin": "jí dù",
+      "contextSentence": "夜鶯根本聽不進蝙蝠的話，她說：『哼，你這樣講，一定是嫉妒我美妙的歌喉，我以後再也不和你做朋友了。",
+      "contextSentenceSimplified": "夜莺根本听不进蝙蝠的话，她说：『哼，你这样讲，一定是嫉妒我美妙的歌喉，我以后再也不和你做朋友了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w019",
+      "traditional": "歌喉",
+      "simplified": "歌喉",
+      "english": "singing voice / vocal cords",
+      "pinyin": "gē hóu",
+      "contextSentence": "夜鶯根本聽不進蝙蝠的話，她說：『哼，你這樣講，一定是嫉妒我美妙的歌喉，我以後再也不和你做朋友了。",
+      "contextSentenceSimplified": "夜莺根本听不进蝙蝠的话，她说：『哼，你这样讲，一定是嫉妒我美妙的歌喉，我以后再也不和你做朋友了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w020",
+      "traditional": "名聲",
+      "simplified": "名声",
+      "english": "reputation / fame",
+      "pinyin": "míng shēng",
+      "contextSentence": "從此以後，夜鶯每天白天夜晚都出來唱歌，名聲也越來越大。",
+      "contextSentenceSimplified": "从此以后，夜莺每天白天夜晚都出来唱歌，名声也越来越大。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w021",
+      "traditional": "發財",
+      "simplified": "发财",
+      "english": "get rich",
+      "pinyin": "fā cái",
+      "contextSentence": "於是，一些想發財的人盯上了夜鶯，他們成羣結隊地來到森林裏，想捉住她。",
+      "contextSentenceSimplified": "于是，一些想发财的人盯上了夜莺，他们成群结队地来到森林里，想捉住她。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w022",
+      "traditional": "盯上",
+      "simplified": "盯上",
+      "english": "to盯 / fix eyes on",
+      "pinyin": "dīng shàng",
+      "contextSentence": "於是，一些想發財的人盯上了夜鶯，他們成羣結隊地來到森林裏，想捉住她。",
+      "contextSentenceSimplified": "于是，一些想发财的人盯上了夜莺，他们成群结队地来到森林里，想捉住她。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w023",
+      "traditional": "成羣結隊",
+      "simplified": "成群结队",
+      "english": "in groups / in flocks",
+      "pinyin": "chéng qún jié duì",
+      "contextSentence": "於是，一些想發財的人盯上了夜鶯，他們成羣結隊地來到森林裏，想捉住她。",
+      "contextSentenceSimplified": "于是，一些想发财的人盯上了夜莺，他们成群结队地来到森林里，想捉住她。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w024",
+      "traditional": "富翁",
+      "simplified": "富翁",
+      "english": "millionaire / wealthy person",
+      "pinyin": "fù wēng",
+      "contextSentence": "終於有一天，夜鶯被人捉住了，並且賣給了城裏的富翁。",
+      "contextSentenceSimplified": "终于有一天，夜莺被人捉住了，并且卖给了城里的富翁。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w025",
+      "traditional": "鳥籠",
+      "simplified": "鸟笼",
+      "english": "birdcage",
+      "pinyin": "niǎo lóng",
+      "contextSentence": "在城市裏，夜鶯被關在一個鳥籠裏供人觀賞。",
+      "contextSentenceSimplified": "在城市里，夜莺被关在一个鸟笼里供人观赏。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w026",
+      "traditional": "供人觀賞",
+      "simplified": "供人观赏",
+      "english": "for people to admire / for viewing",
+      "pinyin": "gōng rén guān shǎng",
+      "contextSentence": "在城市裏，夜鶯被關在一個鳥籠裏供人觀賞。",
+      "contextSentenceSimplified": "在城市里，夜莺被关在一个鸟笼里供人观赏。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w027",
+      "traditional": "此時",
+      "simplified": "此时",
+      "english": "at this moment / now",
+      "pinyin": "cǐ shí",
+      "contextSentence": "此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。",
+      "contextSentenceSimplified": "此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w028",
+      "traditional": "失去",
+      "simplified": "失去",
+      "english": "lose",
+      "pinyin": "shī qù",
+      "contextSentence": "此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。",
+      "contextSentenceSimplified": "此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w029",
+      "traditional": "自由",
+      "simplified": "自由",
+      "english": "freedom / free",
+      "pinyin": "zì yóu",
+      "contextSentence": "此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。",
+      "contextSentenceSimplified": "此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w030",
+      "traditional": "沒有心思",
+      "simplified": "没有心思",
+      "english": "not in the mood / no heart for",
+      "pinyin": "méi yǒu xīn sī",
+      "contextSentence": "此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。",
+      "contextSentenceSimplified": "此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w031",
+      "traditional": "悲傷",
+      "simplified": "悲伤",
+      "english": "sadness / sorrow",
+      "pinyin": "bēi shāng",
+      "contextSentence": "一天晚上，夜鶯唱起了悲傷的歌。",
+      "contextSentenceSimplified": "一天晚上，夜莺唱起了悲伤的歌。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w031_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w031_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w031_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch16_w032",
+      "traditional": "後悔",
+      "simplified": "后悔",
+      "english": "to regret / remorse",
+      "pinyin": "hòu huǐ",
+      "contextSentence": "歌聲引來了蝙蝠，夜鶯說：『我真後悔沒有聽你的話。",
+      "contextSentenceSimplified": "歌声引来了蝙蝠，夜莺说：『我真后悔没有听你的话。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w032_m_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w032_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter16/b03_ch16_w032_c_isolated.mp3",
+          "sentence": "audio/book03/chapter16/b03_ch16_w032_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter16/b03_ch16_p01_m.mp3",
+        "durationMs": 118704,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8808,
+            "text": "二下 ：森林裏的歌唱家（第五十二頁） 森林裏有一隻美麗的夜鶯，她的歌聲非常動聽。",
+            "textSimplified": "二下 ：森林里的歌唱家（第五十二页） 森林里有一只美丽的夜莺，她的歌声非常动听。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8808,
+            "endMs": 18840,
+            "text": "每當她唱起歌來，動物朋友們都會不自覺地停下來傾聽，就連路人也常常被她的歌聲吸引而迷路。",
+            "textSimplified": "每当她唱起歌来，动物朋友们都会不自觉地停下来倾听，就连路人也常常被她的歌声吸引而迷路。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 18840,
+            "endMs": 23856,
+            "text": "所以，大家一致認為夜鶯是森林裏的歌唱家。",
+            "textSimplified": "所以，大家一致认为夜莺是森林里的歌唱家。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 23856,
+            "endMs": 30312,
+            "text": "人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。",
+            "textSimplified": "人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 30312,
+            "endMs": 37800,
+            "text": "於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。",
+            "textSimplified": "于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 37800,
+            "endMs": 45168,
+            "text": "她甚至連自己的生活習慣都改變了：以前，夜鶯到了晚上纔出來唱歌；",
+            "textSimplified": "她甚至连自己的生活习惯都改变了：以前，夜莺到了晚上才出来唱歌；"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 45168,
+            "endMs": 49224,
+            "text": "現在，她常常白天就出來唱歌。",
+            "textSimplified": "现在，她常常白天就出来唱歌。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 49224,
+            "endMs": 58608,
+            "text": "一天，好朋友蝙蝠勸她說：『夜鶯啊，你現在白天出來唱歌，萬一被人抓住了怎麼辦啊？』",
+            "textSimplified": "一天，好朋友蝙蝠劝她说：『夜莺啊，你现在白天出来唱歌，万一被人抓住了怎么办啊？』"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 58608,
+            "endMs": 69408,
+            "text": "夜鶯根本聽不進蝙蝠的話，她說：『哼，你這樣講，一定是嫉妒我美妙的歌喉，我以後再也不和你做朋友了。』",
+            "textSimplified": "夜莺根本听不进蝙蝠的话，她说：『哼，你这样讲，一定是嫉妒我美妙的歌喉，我以后再也不和你做朋友了。』"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 69408,
+            "endMs": 75936,
+            "text": "從此以後，夜鶯每天白天夜晚都出來唱歌，名聲也越來越大。",
+            "textSimplified": "从此以后，夜莺每天白天夜晚都出来唱歌，名声也越来越大。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 75936,
+            "endMs": 84312,
+            "text": "於是，一些想發財的人盯上了夜鶯，他們成羣結隊地來到森林裏，想捉住她。",
+            "textSimplified": "于是，一些想发财的人盯上了夜莺，他们成群结队地来到森林里，想捉住她。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 84312,
+            "endMs": 90120,
+            "text": "終於有一天，夜鶯被人捉住了，並且賣給了城裏的富翁。",
+            "textSimplified": "终于有一天，夜莺被人捉住了，并且卖给了城里的富翁。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 90120,
+            "endMs": 95376,
+            "text": "在城市裏，夜鶯被關在一個鳥籠裏供人觀賞。",
+            "textSimplified": "在城市里，夜莺被关在一个鸟笼里供人观赏。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 95376,
+            "endMs": 102864,
+            "text": "此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。",
+            "textSimplified": "此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 102864,
+            "endMs": 106776,
+            "text": "一天晚上，夜鶯唱起了悲傷的歌。",
+            "textSimplified": "一天晚上，夜莺唱起了悲伤的歌。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 106776,
+            "endMs": 112440,
+            "text": "歌聲引來了蝙蝠，夜鶯說：『我真後悔沒有聽你的話。』",
+            "textSimplified": "歌声引来了蝙蝠，夜莺说：『我真后悔没有听你的话。』"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 112440,
+            "endMs": 118704,
+            "text": "蝙蝠聽了夜鶯的話，搖搖頭說：『你現在後悔，已經太遲了！』",
+            "textSimplified": "蝙蝠听了夜莺的话，摇摇头说：『你现在后悔，已经太迟了！』"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter16/b03_ch16_p01_c.mp3",
+        "durationMs": 125976,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9168,
+            "text": "二下 ：森林裏的歌唱家（第五十二頁） 森林裏有一隻美麗的夜鶯，她的歌聲非常動聽。",
+            "textSimplified": "二下 ：森林里的歌唱家（第五十二页） 森林里有一只美丽的夜莺，她的歌声非常动听。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9168,
+            "endMs": 19104,
+            "text": "每當她唱起歌來，動物朋友們都會不自覺地停下來傾聽，就連路人也常常被她的歌聲吸引而迷路。",
+            "textSimplified": "每当她唱起歌来，动物朋友们都会不自觉地停下来倾听，就连路人也常常被她的歌声吸引而迷路。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 19104,
+            "endMs": 24600,
+            "text": "所以，大家一致認為夜鶯是森林裏的歌唱家。",
+            "textSimplified": "所以，大家一致认为夜莺是森林里的歌唱家。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 24600,
+            "endMs": 31344,
+            "text": "人們經常誇獎夜鶯美妙的歌聲，漸漸地，夜鶯有些驕傲了。",
+            "textSimplified": "人们经常夸奖夜莺美妙的歌声，渐渐地，夜莺有些骄傲了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 31344,
+            "endMs": 38904,
+            "text": "於是，她想到離森林更遠的地方去唱歌，從而贏得更多的掌聲和讚揚。",
+            "textSimplified": "于是，她想到离森林更远的地方去唱歌，从而赢得更多的掌声和赞扬。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 38904,
+            "endMs": 46656,
+            "text": "她甚至連自己的生活習慣都改變了：以前，夜鶯到了晚上纔出來唱歌；",
+            "textSimplified": "她甚至连自己的生活习惯都改变了：以前，夜莺到了晚上才出来唱歌；"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 46656,
+            "endMs": 51048,
+            "text": "現在，她常常白天就出來唱歌。",
+            "textSimplified": "现在，她常常白天就出来唱歌。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 51048,
+            "endMs": 60864,
+            "text": "一天，好朋友蝙蝠勸她說：『夜鶯啊，你現在白天出來唱歌，萬一被人抓住了怎麼辦啊？』",
+            "textSimplified": "一天，好朋友蝙蝠劝她说：『夜莺啊，你现在白天出来唱歌，万一被人抓住了怎么办啊？』"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 60864,
+            "endMs": 72576,
+            "text": "夜鶯根本聽不進蝙蝠的話，她說：『哼，你這樣講，一定是嫉妒我美妙的歌喉，我以後再也不和你做朋友了。』",
+            "textSimplified": "夜莺根本听不进蝙蝠的话，她说：『哼，你这样讲，一定是嫉妒我美妙的歌喉，我以后再也不和你做朋友了。』"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 72576,
+            "endMs": 79560,
+            "text": "從此以後，夜鶯每天白天夜晚都出來唱歌，名聲也越來越大。",
+            "textSimplified": "从此以后，夜莺每天白天夜晚都出来唱歌，名声也越来越大。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 79560,
+            "endMs": 88080,
+            "text": "於是，一些想發財的人盯上了夜鶯，他們成羣結隊地來到森林裏，想捉住她。",
+            "textSimplified": "于是，一些想发财的人盯上了夜莺，他们成群结队地来到森林里，想捉住她。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 88080,
+            "endMs": 94416,
+            "text": "終於有一天，夜鶯被人捉住了，並且賣給了城裏的富翁。",
+            "textSimplified": "终于有一天，夜莺被人捉住了，并且卖给了城里的富翁。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 94416,
+            "endMs": 100032,
+            "text": "在城市裏，夜鶯被關在一個鳥籠裏供人觀賞。",
+            "textSimplified": "在城市里，夜莺被关在一个鸟笼里供人观赏。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 100032,
+            "endMs": 107784,
+            "text": "此時的她失去了自由，已經沒有心思唱歌了，她開始想念森林裏的朋友們。",
+            "textSimplified": "此时的她失去了自由，已经没有心思唱歌了，她开始想念森林里的朋友们。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 107784,
+            "endMs": 112296,
+            "text": "一天晚上，夜鶯唱起了悲傷的歌。",
+            "textSimplified": "一天晚上，夜莺唱起了悲伤的歌。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 112296,
+            "endMs": 118608,
+            "text": "歌聲引來了蝙蝠，夜鶯說：『我真後悔沒有聽你的話。』",
+            "textSimplified": "歌声引来了蝙蝠，夜莺说：『我真后悔没有听你的话。』"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 118608,
+            "endMs": 125976,
+            "text": "蝙蝠聽了夜鶯的話，搖搖頭說：『你現在後悔，已經太遲了！』",
+            "textSimplified": "蝙蝠听了夜莺的话，摇摇头说：『你现在后悔，已经太迟了！』"
+          }
+        ]
+      }
+    }
+  ]
+}

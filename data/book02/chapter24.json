@@ -1,0 +1,693 @@
+{
+  "bookId": "02",
+  "chapterId": "24",
+  "chapterTitle": "給叔叔的一封信",
+  "chapterTitleSimplified": "给叔叔的一封信",
+  "passages": [
+    "二上：給叔叔的一封信（第七十二頁）\n\n親愛的叔叔：\n\n你好！自從您去了法國留學，我已經好幾個月沒有見到您了，非常掛念您。您在法國生活得習慣嗎？\n\n我有兩件高興的事情要跟您分享：\n\n第一件事是我去參觀了科學館舉辦的太空展覽。您知道嗎？我是一個小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨遊那該多好啊！我的夢想是成為一名太空人，您說會實現嗎？\n\n第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。我表演的是白雪公主，表演完後，老師讚揚我，說我的英文發音標準，而且我在表演時非常有感情。叔叔您還記得嗎？您以前給我補習英文時，常常鼓勵我要有自信，不要害怕說錯，要勇敢地說，就像說自己的母語一樣。您的話至今都牢牢地印在我心裏，我相信，有了您的鼓勵，我在決賽中一定會表現得更加出色。叔叔，為我加油吧！\n\n祝生活愉快！\n\n姪女\n敏敏\n三月五日"
+  ],
+  "passagesSimplified": [
+    "二上：给叔叔的一封信（第七十二页）\n\n亲爱的叔叔：\n\n你好！自从您去了法国留学，我已经好几个月没有见到您了，非常挂念您。您在法国生活得习惯吗？\n\n我有两件高兴的事情要跟您分享：\n\n第一件事是我去参观了科学馆举办的太空展览。您知道吗？我是一个小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨游那该多好啊！我的梦想是成为一名太空人，您说会实现吗？\n\n第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。我表演的是白雪公主，表演完后，老师赞扬我，说我的英文发音标准，而且我在表演时非常有感情。叔叔您还记得吗？您以前给我补习英文时，常常鼓励我要有自信，不要害怕说错，要勇敢地说，就像说自己的母语一样。您的话至今都牢牢地印在我心里，我相信，有了您的鼓励，我在决赛中一定会表现得更加出色。叔叔，为我加油吧！\n\n祝生活愉快！\n\n姪女\n敏敏\n三月五日"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch24_w001",
+      "traditional": "掛念",
+      "simplified": "挂念",
+      "english": "worry about",
+      "pinyin": "guà niàn",
+      "contextSentence": "自從您去了法國留學，我已經好幾個月沒有見到您了，非常掛念您。",
+      "contextSentenceSimplified": "自从您去了法国留学，我已经好几个月没有见到您了，非常挂念您。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w002",
+      "traditional": "習慣",
+      "simplified": "习惯",
+      "english": "habit",
+      "pinyin": "xí guàn",
+      "contextSentence": "您在法國生活得習慣嗎？",
+      "contextSentenceSimplified": "您在法国生活得习惯吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w003",
+      "traditional": "分享",
+      "simplified": "分享",
+      "english": "share",
+      "pinyin": "fēn xiǎng",
+      "contextSentence": "我有兩件高興的事情要跟您分享：\n\n第一件事是我去參觀了科學館舉辦的太空展覽。",
+      "contextSentenceSimplified": "我有两件高兴的事情要跟您分享：\n\n第一件事是我去参观了科学馆举办的太空展览。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w004",
+      "traditional": "展覽",
+      "simplified": "展览",
+      "english": "exhibition",
+      "pinyin": "zhǎn lǎn",
+      "contextSentence": "我有兩件高興的事情要跟您分享：\n\n第一件事是我去參觀了科學館舉辦的太空展覽。",
+      "contextSentenceSimplified": "我有两件高兴的事情要跟您分享：\n\n第一件事是我去参观了科学馆举办的太空展览。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w005",
+      "traditional": "模型",
+      "simplified": "模型",
+      "english": "model",
+      "pinyin": "mó xíng",
+      "contextSentence": "我是一個小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨遊那該多好啊！",
+      "contextSentenceSimplified": "我是一个小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨游那该多好啊！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w006",
+      "traditional": "遨遊",
+      "simplified": "遨游",
+      "english": "roam",
+      "pinyin": "áo yóu",
+      "contextSentence": "我是一個小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨遊那該多好啊！",
+      "contextSentenceSimplified": "我是一个小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨游那该多好啊！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w007",
+      "traditional": "童話",
+      "simplified": "童话",
+      "english": "fairy tale",
+      "pinyin": "tóng huà",
+      "contextSentence": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+      "contextSentenceSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w008",
+      "traditional": "戲劇",
+      "simplified": "戏剧",
+      "english": "drama",
+      "pinyin": "xì jù",
+      "contextSentence": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+      "contextSentenceSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w009",
+      "traditional": "並且",
+      "simplified": "并且",
+      "english": "and furthermore",
+      "pinyin": "bìng qiě",
+      "contextSentence": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+      "contextSentenceSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w010",
+      "traditional": "順利",
+      "simplified": "顺利",
+      "english": "smoothly",
+      "pinyin": "shùn lì",
+      "contextSentence": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+      "contextSentenceSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w011",
+      "traditional": "預賽",
+      "simplified": "预赛",
+      "english": "preliminary round",
+      "pinyin": "yù sài",
+      "contextSentence": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+      "contextSentenceSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w012",
+      "traditional": "讚揚",
+      "simplified": "赞扬",
+      "english": "praise",
+      "pinyin": "zàn yáng",
+      "contextSentence": "我表演的是白雪公主，表演完後，老師讚揚我，說我的英文發音標準，而且我在表演時非常有感情。",
+      "contextSentenceSimplified": "我表演的是白雪公主，表演完后，老师赞扬我，说我的英文发音标准，而且我在表演时非常有感情。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w013",
+      "traditional": "標準",
+      "simplified": "标准",
+      "english": "standard",
+      "pinyin": "biāo zhǔn",
+      "contextSentence": "我表演的是白雪公主，表演完後，老師讚揚我，說我的英文發音標準，而且我在表演時非常有感情。",
+      "contextSentenceSimplified": "我表演的是白雪公主，表演完后，老师赞扬我，说我的英文发音标准，而且我在表演时非常有感情。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w014",
+      "traditional": "補習",
+      "simplified": "补习",
+      "english": "tutoring",
+      "pinyin": "bǔ xí",
+      "contextSentence": "您以前給我補習英文時，常常鼓勵我要有自信，不要害怕說錯，要勇敢地說，就像說自己的母語一樣。",
+      "contextSentenceSimplified": "您以前给我补习英文时，常常鼓励我要有自信，不要害怕说错，要勇敢地说，就像说自己的母语一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w015",
+      "traditional": "至今",
+      "simplified": "至今",
+      "english": "until now",
+      "pinyin": "zhì jīn",
+      "contextSentence": "您的話至今都牢牢地印在我心裏，我相信，有了您的鼓勵，我在決賽中一定會表現得更加出色。",
+      "contextSentenceSimplified": "您的话至今都牢牢地印在我心里，我相信，有了您的鼓励，我在决赛中一定会表现得更加出色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w016",
+      "traditional": "牢牢地印在",
+      "simplified": "牢牢地印在",
+      "english": "firmly imprinted on",
+      "pinyin": "láo láo dì yìn zài",
+      "contextSentence": "您的話至今都牢牢地印在我心裏，我相信，有了您的鼓勵，我在決賽中一定會表現得更加出色。",
+      "contextSentenceSimplified": "您的话至今都牢牢地印在我心里，我相信，有了您的鼓励，我在决赛中一定会表现得更加出色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w017",
+      "traditional": "決賽",
+      "simplified": "决赛",
+      "english": "final match",
+      "pinyin": "jué sài",
+      "contextSentence": "您的話至今都牢牢地印在我心裏，我相信，有了您的鼓勵，我在決賽中一定會表現得更加出色。",
+      "contextSentenceSimplified": "您的话至今都牢牢地印在我心里，我相信，有了您的鼓励，我在决赛中一定会表现得更加出色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch24_w018",
+      "traditional": "姪女",
+      "simplified": "姪女",
+      "english": "niece",
+      "pinyin": "zhí nǚ",
+      "contextSentence": "姪女\n敏敏\n三月五日",
+      "contextSentenceSimplified": "姪女\n敏敏\n三月五日",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter24/b02_ch24_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter24/b02_ch24_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter24/b02_ch24_p01_m.mp3",
+        "durationMs": 92592,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4224,
+            "text": "二上：給叔叔的一封信（第七十二頁）",
+            "textSimplified": "二上：给叔叔的一封信（第七十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4224,
+            "endMs": 6168,
+            "text": "親愛的叔叔：",
+            "textSimplified": "亲爱的叔叔："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6168,
+            "endMs": 7944,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 7944,
+            "endMs": 14568,
+            "text": "自從您去了法國留學，我已經好幾個月沒有見到您了，非常掛念您。",
+            "textSimplified": "自从您去了法国留学，我已经好几个月没有见到您了，非常挂念您。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 14568,
+            "endMs": 17328,
+            "text": "您在法國生活得習慣嗎？",
+            "textSimplified": "您在法国生活得习惯吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 17328,
+            "endMs": 21096,
+            "text": "我有兩件高興的事情要跟您分享：",
+            "textSimplified": "我有两件高兴的事情要跟您分享："
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 21096,
+            "endMs": 26136,
+            "text": "第一件事是我去參觀了科學館舉辦的太空展覽。",
+            "textSimplified": "第一件事是我去参观了科学馆举办的太空展览。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 26136,
+            "endMs": 27816,
+            "text": "您知道嗎？",
+            "textSimplified": "您知道吗？"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 27816,
+            "endMs": 37296,
+            "text": "我是一個小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨遊那該多好啊！",
+            "textSimplified": "我是一个小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨游那该多好啊！"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 37296,
+            "endMs": 42192,
+            "text": "我的夢想是成為一名太空人，您說會實現嗎？",
+            "textSimplified": "我的梦想是成为一名太空人，您说会实现吗？"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 42192,
+            "endMs": 50856,
+            "text": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+            "textSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 50856,
+            "endMs": 61464,
+            "text": "我表演的是白雪公主，表演完後，老師讚揚我，說我的英文發音標準，而且我在表演時非常有感情。",
+            "textSimplified": "我表演的是白雪公主，表演完后，老师赞扬我，说我的英文发音标准，而且我在表演时非常有感情。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 61464,
+            "endMs": 63672,
+            "text": "叔叔您還記得嗎？",
+            "textSimplified": "叔叔您还记得吗？"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 63672,
+            "endMs": 73704,
+            "text": "您以前給我補習英文時，常常鼓勵我要有自信，不要害怕說錯，要勇敢地說，就像說自己的母語一樣。",
+            "textSimplified": "您以前给我补习英文时，常常鼓励我要有自信，不要害怕说错，要勇敢地说，就像说自己的母语一样。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 73704,
+            "endMs": 83352,
+            "text": "您的話至今都牢牢地印在我心裏，我相信，有了您的鼓勵，我在決賽中一定會表現得更加出色。",
+            "textSimplified": "您的话至今都牢牢地印在我心里，我相信，有了您的鼓励，我在决赛中一定会表现得更加出色。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 83352,
+            "endMs": 85968,
+            "text": "叔叔，為我加油吧！",
+            "textSimplified": "叔叔，为我加油吧！"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 85968,
+            "endMs": 87936,
+            "text": "祝生活愉快！",
+            "textSimplified": "祝生活愉快！"
+          },
+          {
+            "index": 17,
+            "paragraph": 14,
+            "startMs": 87936,
+            "endMs": 89328,
+            "text": "姪女",
+            "textSimplified": "姪女"
+          },
+          {
+            "index": 18,
+            "paragraph": 15,
+            "startMs": 89328,
+            "endMs": 90744,
+            "text": "敏敏",
+            "textSimplified": "敏敏"
+          },
+          {
+            "index": 19,
+            "paragraph": 16,
+            "startMs": 90744,
+            "endMs": 92592,
+            "text": "三月五日",
+            "textSimplified": "三月五日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter24/b02_ch24_p01_c.mp3",
+        "durationMs": 99312,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4536,
+            "text": "二上：給叔叔的一封信（第七十二頁）",
+            "textSimplified": "二上：给叔叔的一封信（第七十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4536,
+            "endMs": 6720,
+            "text": "親愛的叔叔：",
+            "textSimplified": "亲爱的叔叔："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6720,
+            "endMs": 8544,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8544,
+            "endMs": 15960,
+            "text": "自從您去了法國留學，我已經好幾個月沒有見到您了，非常掛念您。",
+            "textSimplified": "自从您去了法国留学，我已经好几个月没有见到您了，非常挂念您。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 15960,
+            "endMs": 19296,
+            "text": "您在法國生活得習慣嗎？",
+            "textSimplified": "您在法国生活得习惯吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 19296,
+            "endMs": 23448,
+            "text": "我有兩件高興的事情要跟您分享：",
+            "textSimplified": "我有两件高兴的事情要跟您分享："
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 23448,
+            "endMs": 28776,
+            "text": "第一件事是我去參觀了科學館舉辦的太空展覽。",
+            "textSimplified": "第一件事是我去参观了科学馆举办的太空展览。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 28776,
+            "endMs": 30864,
+            "text": "您知道嗎？",
+            "textSimplified": "您知道吗？"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 30864,
+            "endMs": 40512,
+            "text": "我是一個小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨遊那該多好啊！",
+            "textSimplified": "我是一个小太空迷，看着那些太空模型，我在想，要是有一天我也能去太空遨游那该多好啊！"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 40512,
+            "endMs": 45696,
+            "text": "我的夢想是成為一名太空人，您說會實現嗎？",
+            "textSimplified": "我的梦想是成为一名太空人，您说会实现吗？"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 45696,
+            "endMs": 54648,
+            "text": "第二件事是上星期，我參加了學校舉辦的英語童話戲劇表演，並且順利通過了預賽。",
+            "textSimplified": "第二件事是上星期，我参加了学校举办的英语童话戏剧表演，并且顺利通过了预赛。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 54648,
+            "endMs": 65208,
+            "text": "我表演的是白雪公主，表演完後，老師讚揚我，說我的英文發音標準，而且我在表演時非常有感情。",
+            "textSimplified": "我表演的是白雪公主，表演完后，老师赞扬我，说我的英文发音标准，而且我在表演时非常有感情。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 65208,
+            "endMs": 67848,
+            "text": "叔叔您還記得嗎？",
+            "textSimplified": "叔叔您还记得吗？"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 67848,
+            "endMs": 78408,
+            "text": "您以前給我補習英文時，常常鼓勵我要有自信，不要害怕說錯，要勇敢地說，就像說自己的母語一樣。",
+            "textSimplified": "您以前给我补习英文时，常常鼓励我要有自信，不要害怕说错，要勇敢地说，就像说自己的母语一样。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 78408,
+            "endMs": 88032,
+            "text": "您的話至今都牢牢地印在我心裏，我相信，有了您的鼓勵，我在決賽中一定會表現得更加出色。",
+            "textSimplified": "您的话至今都牢牢地印在我心里，我相信，有了您的鼓励，我在决赛中一定会表现得更加出色。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 88032,
+            "endMs": 91104,
+            "text": "叔叔，為我加油吧！",
+            "textSimplified": "叔叔，为我加油吧！"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 91104,
+            "endMs": 93504,
+            "text": "祝生活愉快！",
+            "textSimplified": "祝生活愉快！"
+          },
+          {
+            "index": 17,
+            "paragraph": 14,
+            "startMs": 93504,
+            "endMs": 95304,
+            "text": "姪女",
+            "textSimplified": "姪女"
+          },
+          {
+            "index": 18,
+            "paragraph": 15,
+            "startMs": 95304,
+            "endMs": 97080,
+            "text": "敏敏",
+            "textSimplified": "敏敏"
+          },
+          {
+            "index": 19,
+            "paragraph": 16,
+            "startMs": 97080,
+            "endMs": 99312,
+            "text": "三月五日",
+            "textSimplified": "三月五日"
+          }
+        ]
+      }
+    }
+  ]
+}

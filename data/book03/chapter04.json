@@ -1,0 +1,575 @@
+{
+  "bookId": "03",
+  "chapterId": "04",
+  "chapterTitle": "一次有意義的愛心行動",
+  "chapterTitleSimplified": "一次有意义的爱心行动",
+  "passages": [
+    "二下 ：一次有意義的愛心行動（第十二頁） 重陽節這天，我們在老師的帶領下進行了一次有意義的愛心行動——去安老院看望老人。 上午八點，我們帶着準備好的水果、點心和禮物，坐上巴士，帶着滿腔的熱情和愛心出發了。 我們到達安老院時，公公婆婆們已經在等候我們了。 見到我們，他們一個個都樂開了花。之後，我們一起來到活動室。我們紛紛把準備好的水果、點心和禮物拿出來，送到每位公公、婆婆的手裏。看到他們拿到禮物樂呵呵的樣子，我們也非常高興。 我們為公公婆婆們精心準備了節目，大家輪流表演了唱歌、跳舞、詩歌朗誦等。看到我們的精彩表演，有幾位老公公也躍躍欲試，唱起了家鄉歌，還表演了精彩的粵劇。 節目表演完後，我們便和公公婆婆們談心。一位七十歲的老公公告訴我，他有一個兒子在內地工作，平時工作太忙，很少有時間陪他。他在香港沒什麼親人照料，兒子不放心，就把他送到了安老院。我覺得他像我的爺爺一樣慈祥，便為他捶捶背，揉揉腿，公公開心極了。 下午三點，我們才依依不捨地離開了安老院。 今天我過得非常有意義，我明白了幫助別人不但可以帶給別人快樂，而且會讓自己快樂。"
+  ],
+  "passagesSimplified": [
+    "二下 ：一次有意义的爱心行动（第十二页） 重阳节这天，我们在老师的带领下进行了一次有意义的爱心行动——去安老院看望老人。 上午八点，我们带着准备好的水果、点心和礼物，坐上巴士，带着满腔的热情和爱心出发了。 我们到达安老院时，公公婆婆们已经在等候我们了。 见到我们，他们一个个都乐开了花。之后，我们一起来到活动室。我们纷纷把准备好的水果、点心和礼物拿出来，送到每位公公、婆婆的手里。看到他们拿到礼物乐呵呵的样子，我们也非常高兴。 我们为公公婆婆们精心准备了节目，大家轮流表演了唱歌、跳舞、诗歌朗诵等。看到我们的精彩表演，有几位老公公也跃跃欲试，唱起了家乡歌，还表演了精彩的粤剧。 节目表演完后，我们便和公公婆婆们谈心。一位七十岁的老公公告诉我，他有一个儿子在内地工作，平时工作太忙，很少有时间陪他。他在香港没什么亲人照料，儿子不放心，就把他送到了安老院。我觉得他像我的爷爷一样慈祥，便为他捶捶背，揉揉腿，公公开心极了。 下午三点，我们才依依不舍地离开了安老院。 今天我过得非常有意义，我明白了帮助别人不但可以带给别人快乐，而且会让自己快乐。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch04_w001",
+      "traditional": "意義",
+      "simplified": "意义",
+      "english": "meaning / significance",
+      "pinyin": "yì yì",
+      "contextSentence": "重陽節這天，我們在老師的帶領下進行了一次有意義的愛心行動——去安老院看望老人。",
+      "contextSentenceSimplified": "重阳节这天，我们在老师的带领下进行了一次有意义的爱心行动——去安老院看望老人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w002",
+      "traditional": "愛心行動",
+      "simplified": "爱心行动",
+      "english": "act of love / charitable action",
+      "pinyin": "ài xīn xíng dòng",
+      "contextSentence": "重陽節這天，我們在老師的帶領下進行了一次有意義的愛心行動——去安老院看望老人。",
+      "contextSentenceSimplified": "重阳节这天，我们在老师的带领下进行了一次有意义的爱心行动——去安老院看望老人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w003",
+      "traditional": "安老院",
+      "simplified": "安老院",
+      "english": "nursing home / elderly care",
+      "pinyin": "ān lǎo yuàn",
+      "contextSentence": "重陽節這天，我們在老師的帶領下進行了一次有意義的愛心行動——去安老院看望老人。",
+      "contextSentenceSimplified": "重阳节这天，我们在老师的带领下进行了一次有意义的爱心行动——去安老院看望老人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w004",
+      "traditional": "滿腔的熱情",
+      "simplified": "满腔的热情",
+      "english": "full of enthusiasm",
+      "pinyin": "mǎn qiāng de rè qíng",
+      "contextSentence": "上午八點，我們帶着準備好的水果、點心和禮物，坐上巴士，帶着滿腔的熱情和愛心出發了。",
+      "contextSentenceSimplified": "上午八点，我们带着准备好的水果、点心和礼物，坐上巴士，带着满腔的热情和爱心出发了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w005",
+      "traditional": "樂開了花",
+      "simplified": "乐开了花",
+      "english": "beaming with joy / overjoyed",
+      "pinyin": "lè kāi le huā",
+      "contextSentence": "見到我們，他們一個個都樂開了花。",
+      "contextSentenceSimplified": "见到我们，他们一个个都乐开了花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w006",
+      "traditional": "精心準備",
+      "simplified": "精心准备",
+      "english": "carefully prepared",
+      "pinyin": "jīng xīn zhǔn bèi",
+      "contextSentence": "我們為公公婆婆們精心準備了節目，大家輪流表演了唱歌、跳舞、詩歌朗誦等。",
+      "contextSentenceSimplified": "我们为公公婆婆们精心准备了节目，大家轮流表演了唱歌、跳舞、诗歌朗诵等。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w007",
+      "traditional": "詩歌朗誦",
+      "simplified": "诗歌朗诵",
+      "english": "poetry recitation",
+      "pinyin": "shī gē lǎng sòng",
+      "contextSentence": "我們為公公婆婆們精心準備了節目，大家輪流表演了唱歌、跳舞、詩歌朗誦等。",
+      "contextSentenceSimplified": "我们为公公婆婆们精心准备了节目，大家轮流表演了唱歌、跳舞、诗歌朗诵等。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w008",
+      "traditional": "躍躍欲試",
+      "simplified": "跃跃欲试",
+      "english": "eager to try / itching to try",
+      "pinyin": "yuè yuè yù shì",
+      "contextSentence": "看到我們的精彩表演，有幾位老公公也躍躍欲試，唱起了家鄉歌，還表演了精彩的粵劇。",
+      "contextSentenceSimplified": "看到我们的精彩表演，有几位老公公也跃跃欲试，唱起了家乡歌，还表演了精彩的粤剧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w009",
+      "traditional": "家鄉",
+      "simplified": "家乡",
+      "english": "hometown / native place",
+      "pinyin": "jiā xiāng",
+      "contextSentence": "看到我們的精彩表演，有幾位老公公也躍躍欲試，唱起了家鄉歌，還表演了精彩的粵劇。",
+      "contextSentenceSimplified": "看到我们的精彩表演，有几位老公公也跃跃欲试，唱起了家乡歌，还表演了精彩的粤剧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w010",
+      "traditional": "粵劇",
+      "simplified": "粤剧",
+      "english": "Cantonese opera",
+      "pinyin": "yuè jù",
+      "contextSentence": "看到我們的精彩表演，有幾位老公公也躍躍欲試，唱起了家鄉歌，還表演了精彩的粵劇。",
+      "contextSentenceSimplified": "看到我们的精彩表演，有几位老公公也跃跃欲试，唱起了家乡歌，还表演了精彩的粤剧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w011",
+      "traditional": "談心",
+      "simplified": "谈心",
+      "english": "heart-to-heart talk",
+      "pinyin": "tán xīn",
+      "contextSentence": "節目表演完後，我們便和公公婆婆們談心。",
+      "contextSentenceSimplified": "节目表演完后，我们便和公公婆婆们谈心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w012",
+      "traditional": "照料",
+      "simplified": "照料",
+      "english": "to take care of / look after",
+      "pinyin": "zhào liào",
+      "contextSentence": "他在香港沒什麼親人照料，兒子不放心，就把他送到了安老院。",
+      "contextSentenceSimplified": "他在香港没什么亲人照料，儿子不放心，就把他送到了安老院。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w013",
+      "traditional": "慈祥",
+      "simplified": "慈祥",
+      "english": "kind and gentle (elderly)",
+      "pinyin": "cí xiáng",
+      "contextSentence": "我覺得他像我的爺爺一樣慈祥，便為他捶捶背，揉揉腿，公公開心極了。",
+      "contextSentenceSimplified": "我觉得他像我的爷爷一样慈祥，便为他捶捶背，揉揉腿，公公开心极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w014",
+      "traditional": "捶背",
+      "simplified": "捶背",
+      "english": "to pat/rub the back",
+      "pinyin": "chuí bèi",
+      "contextSentence": "我覺得他像我的爺爺一樣慈祥，便為他捶捶背，揉揉腿，公公開心極了。",
+      "contextSentenceSimplified": "我觉得他像我的爷爷一样慈祥，便为他捶捶背，揉揉腿，公公开心极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w015",
+      "traditional": "揉腿",
+      "simplified": "揉腿",
+      "english": "to rub/massage the legs",
+      "pinyin": "róu tuǐ",
+      "contextSentence": "我覺得他像我的爺爺一樣慈祥，便為他捶捶背，揉揉腿，公公開心極了。",
+      "contextSentenceSimplified": "我觉得他像我的爷爷一样慈祥，便为他捶捶背，揉揉腿，公公开心极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch04_w016",
+      "traditional": "依依不捨",
+      "simplified": "依依不舍",
+      "english": "reluctant to part",
+      "pinyin": "yī yī bù shě",
+      "contextSentence": "下午三點，我們才依依不捨地離開了安老院。",
+      "contextSentenceSimplified": "下午三点，我们才依依不舍地离开了安老院。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter04/b03_ch04_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter04/b03_ch04_w016_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter04/b03_ch04_p01_m.mp3",
+        "durationMs": 108672,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 12768,
+            "text": "二下 ：一次有意義的愛心行動（第十二頁） 重陽節這天，我們在老師的帶領下進行了一次有意義的愛心行動——去安老院看望老人。",
+            "textSimplified": "二下 ：一次有意义的爱心行动（第十二页） 重阳节这天，我们在老师的带领下进行了一次有意义的爱心行动——去安老院看望老人。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 12768,
+            "endMs": 22488,
+            "text": "上午八點，我們帶着準備好的水果、點心和禮物，坐上巴士，帶着滿腔的熱情和愛心出發了。",
+            "textSimplified": "上午八点，我们带着准备好的水果、点心和礼物，坐上巴士，带着满腔的热情和爱心出发了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 22488,
+            "endMs": 27768,
+            "text": "我們到達安老院時，公公婆婆們已經在等候我們了。",
+            "textSimplified": "我们到达安老院时，公公婆婆们已经在等候我们了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 27768,
+            "endMs": 31560,
+            "text": "見到我們，他們一個個都樂開了花。",
+            "textSimplified": "见到我们，他们一个个都乐开了花。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 31560,
+            "endMs": 35184,
+            "text": "之後，我們一起來到活動室。",
+            "textSimplified": "之后，我们一起来到活动室。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 35184,
+            "endMs": 42888,
+            "text": "我們紛紛把準備好的水果、點心和禮物拿出來，送到每位公公、婆婆的手裏。",
+            "textSimplified": "我们纷纷把准备好的水果、点心和礼物拿出来，送到每位公公、婆婆的手里。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 42888,
+            "endMs": 48360,
+            "text": "看到他們拿到禮物樂呵呵的樣子，我們也非常高興。",
+            "textSimplified": "看到他们拿到礼物乐呵呵的样子，我们也非常高兴。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 48360,
+            "endMs": 56712,
+            "text": "我們為公公婆婆們精心準備了節目，大家輪流表演了唱歌、跳舞、詩歌朗誦等。",
+            "textSimplified": "我们为公公婆婆们精心准备了节目，大家轮流表演了唱歌、跳舞、诗歌朗诵等。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 56712,
+            "endMs": 65712,
+            "text": "看到我們的精彩表演，有幾位老公公也躍躍欲試，唱起了家鄉歌，還表演了精彩的粵劇。",
+            "textSimplified": "看到我们的精彩表演，有几位老公公也跃跃欲试，唱起了家乡歌，还表演了精彩的粤剧。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 65712,
+            "endMs": 70416,
+            "text": "節目表演完後，我們便和公公婆婆們談心。",
+            "textSimplified": "节目表演完后，我们便和公公婆婆们谈心。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 70416,
+            "endMs": 79584,
+            "text": "一位七十歲的老公公告訴我，他有一個兒子在內地工作，平時工作太忙，很少有時間陪他。",
+            "textSimplified": "一位七十岁的老公公告诉我，他有一个儿子在内地工作，平时工作太忙，很少有时间陪他。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 79584,
+            "endMs": 86544,
+            "text": "他在香港沒什麼親人照料，兒子不放心，就把他送到了安老院。",
+            "textSimplified": "他在香港没什么亲人照料，儿子不放心，就把他送到了安老院。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 86544,
+            "endMs": 94512,
+            "text": "我覺得他像我的爺爺一樣慈祥，便為他捶捶背，揉揉腿，公公開心極了。",
+            "textSimplified": "我觉得他像我的爷爷一样慈祥，便为他捶捶背，揉揉腿，公公开心极了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 94512,
+            "endMs": 99192,
+            "text": "下午三點，我們才依依不捨地離開了安老院。",
+            "textSimplified": "下午三点，我们才依依不舍地离开了安老院。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 99192,
+            "endMs": 108672,
+            "text": "今天我過得非常有意義，我明白了幫助別人不但可以帶給別人快樂，而且會讓自己快樂。",
+            "textSimplified": "今天我过得非常有意义，我明白了帮助别人不但可以带给别人快乐，而且会让自己快乐。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter04/b03_ch04_p01_c.mp3",
+        "durationMs": 114600,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 12744,
+            "text": "二下 ：一次有意義的愛心行動（第十二頁） 重陽節這天，我們在老師的帶領下進行了一次有意義的愛心行動——去安老院看望老人。",
+            "textSimplified": "二下 ：一次有意义的爱心行动（第十二页） 重阳节这天，我们在老师的带领下进行了一次有意义的爱心行动——去安老院看望老人。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 12744,
+            "endMs": 22968,
+            "text": "上午八點，我們帶着準備好的水果、點心和禮物，坐上巴士，帶着滿腔的熱情和愛心出發了。",
+            "textSimplified": "上午八点，我们带着准备好的水果、点心和礼物，坐上巴士，带着满腔的热情和爱心出发了。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 22968,
+            "endMs": 29136,
+            "text": "我們到達安老院時，公公婆婆們已經在等候我們了。",
+            "textSimplified": "我们到达安老院时，公公婆婆们已经在等候我们了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29136,
+            "endMs": 33648,
+            "text": "見到我們，他們一個個都樂開了花。",
+            "textSimplified": "见到我们，他们一个个都乐开了花。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 33648,
+            "endMs": 37608,
+            "text": "之後，我們一起來到活動室。",
+            "textSimplified": "之后，我们一起来到活动室。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 37608,
+            "endMs": 45888,
+            "text": "我們紛紛把準備好的水果、點心和禮物拿出來，送到每位公公、婆婆的手裏。",
+            "textSimplified": "我们纷纷把准备好的水果、点心和礼物拿出来，送到每位公公、婆婆的手里。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 45888,
+            "endMs": 51960,
+            "text": "看到他們拿到禮物樂呵呵的樣子，我們也非常高興。",
+            "textSimplified": "看到他们拿到礼物乐呵呵的样子，我们也非常高兴。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 51960,
+            "endMs": 60864,
+            "text": "我們為公公婆婆們精心準備了節目，大家輪流表演了唱歌、跳舞、詩歌朗誦等。",
+            "textSimplified": "我们为公公婆婆们精心准备了节目，大家轮流表演了唱歌、跳舞、诗歌朗诵等。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 60864,
+            "endMs": 69912,
+            "text": "看到我們的精彩表演，有幾位老公公也躍躍欲試，唱起了家鄉歌，還表演了精彩的粵劇。",
+            "textSimplified": "看到我们的精彩表演，有几位老公公也跃跃欲试，唱起了家乡歌，还表演了精彩的粤剧。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 69912,
+            "endMs": 75312,
+            "text": "節目表演完後，我們便和公公婆婆們談心。",
+            "textSimplified": "节目表演完后，我们便和公公婆婆们谈心。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 75312,
+            "endMs": 84816,
+            "text": "一位七十歲的老公公告訴我，他有一個兒子在內地工作，平時工作太忙，很少有時間陪他。",
+            "textSimplified": "一位七十岁的老公公告诉我，他有一个儿子在内地工作，平时工作太忙，很少有时间陪他。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 84816,
+            "endMs": 91968,
+            "text": "他在香港沒什麼親人照料，兒子不放心，就把他送到了安老院。",
+            "textSimplified": "他在香港没什么亲人照料，儿子不放心，就把他送到了安老院。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 91968,
+            "endMs": 99984,
+            "text": "我覺得他像我的爺爺一樣慈祥，便為他捶捶背，揉揉腿，公公開心極了。",
+            "textSimplified": "我觉得他像我的爷爷一样慈祥，便为他捶捶背，揉揉腿，公公开心极了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 99984,
+            "endMs": 105648,
+            "text": "下午三點，我們才依依不捨地離開了安老院。",
+            "textSimplified": "下午三点，我们才依依不舍地离开了安老院。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 105648,
+            "endMs": 114600,
+            "text": "今天我過得非常有意義，我明白了幫助別人不但可以帶給別人快樂，而且會讓自己快樂。",
+            "textSimplified": "今天我过得非常有意义，我明白了帮助别人不但可以带给别人快乐，而且会让自己快乐。"
+          }
+        ]
+      }
+    }
+  ]
+}

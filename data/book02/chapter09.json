@@ -1,0 +1,266 @@
+{
+  "bookId": "02",
+  "chapterId": "09",
+  "chapterTitle": "假如我是一隻小鳥",
+  "chapterTitleSimplified": "假如我是一只小鸟",
+  "passages": [
+    "二上：假如我是一隻小鳥（第二十六頁）\n\n假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。\n\n假如我是一隻小鳥， 我要張開翅膀， 飛向藍天媽媽的懷抱， 和白雲嬉戲， 跟太陽問好， 告訴它自由自在飛翔的感覺真奇妙。\n\n假如我是一隻小鳥， 我要召集所有的同伴， 為孩子們放聲歌唱， 幫他們趕走煩惱， 為大家帶來歡笑， 希望他們的童年更美好。"
+  ],
+  "passagesSimplified": [
+    "二上：假如我是一只小鸟（第二十六页）\n\n假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。\n\n假如我是一只小鸟， 我要张开翅膀， 飞向蓝天妈妈的怀抱， 和白云嬉戏， 跟太阳问好， 告诉它自由自在飞翔的感觉真奇妙。\n\n假如我是一只小鸟， 我要召集所有的同伴， 为孩子们放声歌唱， 帮他们赶走烦恼， 为大家带来欢笑， 希望他们的童年更美好。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch09_w001",
+      "traditional": "樹梢",
+      "simplified": "树梢",
+      "english": "tree top",
+      "pinyin": "shù shāo",
+      "contextSentence": "假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w002",
+      "traditional": "肩頭",
+      "simplified": "肩头",
+      "english": "shoulder",
+      "pinyin": "jiān tóu",
+      "contextSentence": "假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w003",
+      "traditional": "孤單",
+      "simplified": "孤单",
+      "english": "lonely",
+      "pinyin": "gū dān",
+      "contextSentence": "假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w004",
+      "traditional": "擁有依靠",
+      "simplified": "拥有依靠",
+      "english": "have someone to rely on",
+      "pinyin": "yōng yǒu yī kào",
+      "contextSentence": "假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w005",
+      "traditional": "懷抱",
+      "simplified": "怀抱",
+      "english": "embrace",
+      "pinyin": "huái bào",
+      "contextSentence": "假如我是一隻小鳥， 我要張開翅膀， 飛向藍天媽媽的懷抱， 和白雲嬉戲， 跟太陽問好， 告訴它自由自在飛翔的感覺真奇妙。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要张开翅膀， 飞向蓝天妈妈的怀抱， 和白云嬉戏， 跟太阳问好， 告诉它自由自在飞翔的感觉真奇妙。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w006",
+      "traditional": "嬉戲",
+      "simplified": "嬉戏",
+      "english": "play around",
+      "pinyin": "xī xì",
+      "contextSentence": "假如我是一隻小鳥， 我要張開翅膀， 飛向藍天媽媽的懷抱， 和白雲嬉戲， 跟太陽問好， 告訴它自由自在飛翔的感覺真奇妙。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要张开翅膀， 飞向蓝天妈妈的怀抱， 和白云嬉戏， 跟太阳问好， 告诉它自由自在飞翔的感觉真奇妙。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w007",
+      "traditional": "奇妙",
+      "simplified": "奇妙",
+      "english": "wonderful",
+      "pinyin": "qí miào",
+      "contextSentence": "假如我是一隻小鳥， 我要張開翅膀， 飛向藍天媽媽的懷抱， 和白雲嬉戲， 跟太陽問好， 告訴它自由自在飛翔的感覺真奇妙。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要张开翅膀， 飞向蓝天妈妈的怀抱， 和白云嬉戏， 跟太阳问好， 告诉它自由自在飞翔的感觉真奇妙。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w008",
+      "traditional": "召集",
+      "simplified": "召集",
+      "english": "summon",
+      "pinyin": "zhào jí",
+      "contextSentence": "假如我是一隻小鳥， 我要召集所有的同伴， 為孩子們放聲歌唱， 幫他們趕走煩惱， 為大家帶來歡笑， 希望他們的童年更美好。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要召集所有的同伴， 为孩子们放声歌唱， 帮他们赶走烦恼， 为大家带来欢笑， 希望他们的童年更美好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch09_w009",
+      "traditional": "煩惱",
+      "simplified": "烦恼",
+      "english": "trouble",
+      "pinyin": "fán nǎo",
+      "contextSentence": "假如我是一隻小鳥， 我要召集所有的同伴， 為孩子們放聲歌唱， 幫他們趕走煩惱， 為大家帶來歡笑， 希望他們的童年更美好。",
+      "contextSentenceSimplified": "假如我是一只小鸟， 我要召集所有的同伴， 为孩子们放声歌唱， 帮他们赶走烦恼， 为大家带来欢笑， 希望他们的童年更美好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter09/b02_ch09_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter09/b02_ch09_w009_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter09/b02_ch09_p01_m.mp3",
+        "durationMs": 40128,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4488,
+            "text": "二上：假如我是一隻小鳥（第二十六頁）",
+            "textSimplified": "二上：假如我是一只小鸟（第二十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4488,
+            "endMs": 15216,
+            "text": "假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。",
+            "textSimplified": "假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 15216,
+            "endMs": 27720,
+            "text": "假如我是一隻小鳥， 我要張開翅膀， 飛向藍天媽媽的懷抱， 和白雲嬉戲， 跟太陽問好， 告訴它自由自在飛翔的感覺真奇妙。",
+            "textSimplified": "假如我是一只小鸟， 我要张开翅膀， 飞向蓝天妈妈的怀抱， 和白云嬉戏， 跟太阳问好， 告诉它自由自在飞翔的感觉真奇妙。"
+          },
+          {
+            "index": 3,
+            "paragraph": 6,
+            "startMs": 27720,
+            "endMs": 40128,
+            "text": "假如我是一隻小鳥， 我要召集所有的同伴， 為孩子們放聲歌唱， 幫他們趕走煩惱， 為大家帶來歡笑， 希望他們的童年更美好。",
+            "textSimplified": "假如我是一只小鸟， 我要召集所有的同伴， 为孩子们放声歌唱， 帮他们赶走烦恼， 为大家带来欢笑， 希望他们的童年更美好。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter09/b02_ch09_p01_c.mp3",
+        "durationMs": 42000,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4872,
+            "text": "二上：假如我是一隻小鳥（第二十六頁）",
+            "textSimplified": "二上：假如我是一只小鸟（第二十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4872,
+            "endMs": 16128,
+            "text": "假如我是一隻小鳥， 我要飛上樹梢， 落在樹伯伯肩頭， 為他高歌， 為他舞蹈， 讓他不再孤單，擁有依靠。",
+            "textSimplified": "假如我是一只小鸟， 我要飞上树梢， 落在树伯伯肩头， 为他高歌， 为他舞蹈， 让他不再孤单，拥有依靠。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 16128,
+            "endMs": 29016,
+            "text": "假如我是一隻小鳥， 我要張開翅膀， 飛向藍天媽媽的懷抱， 和白雲嬉戲， 跟太陽問好， 告訴它自由自在飛翔的感覺真奇妙。",
+            "textSimplified": "假如我是一只小鸟， 我要张开翅膀， 飞向蓝天妈妈的怀抱， 和白云嬉戏， 跟太阳问好， 告诉它自由自在飞翔的感觉真奇妙。"
+          },
+          {
+            "index": 3,
+            "paragraph": 6,
+            "startMs": 29016,
+            "endMs": 42000,
+            "text": "假如我是一隻小鳥， 我要召集所有的同伴， 為孩子們放聲歌唱， 幫他們趕走煩惱， 為大家帶來歡笑， 希望他們的童年更美好。",
+            "textSimplified": "假如我是一只小鸟， 我要召集所有的同伴， 为孩子们放声歌唱， 帮他们赶走烦恼， 为大家带来欢笑， 希望他们的童年更美好。"
+          }
+        ]
+      }
+    }
+  ]
+}

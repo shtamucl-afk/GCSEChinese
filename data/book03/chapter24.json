@@ -1,0 +1,712 @@
+{
+  "bookId": "03",
+  "chapterId": "24",
+  "chapterTitle": "日記一則（四）",
+  "chapterTitleSimplified": "日记一则（四）",
+  "passages": [
+    "二下 ：日記一則（四）（第七十二頁） 十月八日 星期日 晴 今天上午，表妹琳琳來我家玩。正好爸爸在家，我們便央求爸爸帶我們去溜冰。 琳琳是個初學者，溜冰技術不太好。到了溜冰場，我迫不及待地換上溜冰鞋，開始在冰上熟練地滑來滑去。琳 琳站在冰上，一步也不敢挪動，她的樣子就像一隻笨拙的小熊。我見了，連忙溜到琳琳身邊，鼓勵她：「琳琳，別害怕，盡量保持身體平衡。」這時，爸爸也過來給琳琳講解了溜冰的要領。之後，我拉著琳琳的手，慢慢地，一步一步往前滑。琳琳很快掌握了方法，「溜冰一點也不難學啊！」琳琳高興地對我說。說完，她鬆開我的手，猛地一加速，飛快地向前滑去。突然，琳琳的腳一歪，身子向後一傾，「撲通」一聲摔倒在地。「哎喲，好痛呀！」琳琳嘟囔著，慢慢站起來，歪歪扭扭地向我們走來。沒想到她重心不穩，又重重地摔了個四腳朝天。我和爸爸見了，急忙上前扶起琳琳，帶她走出了溜冰場。 我幫助琳琳脫下溜冰鞋，捲起琳琳的褲管一看，她的一條腿摔得有些紅腫，走路都有些困難。我們急忙帶了琳琳去醫院。幸好沒有什麼大礙，醫生說只要休養幾天，擦些藥膏就能康復。 回到家，我決定寫一張慰問卡給琳琳，希望她早日康復。"
+  ],
+  "passagesSimplified": [
+    "二下 ：日记一则（四）（第七十二页） 十月八日 星期日 晴 今天上午，表妹琳琳来我家玩。正好爸爸在家，我们便央求爸爸带我们去溜冰。 琳琳是个初学者，溜冰技术不太好。到了溜冰场，我迫不及待地换上溜冰鞋，开始在冰上熟练地滑来滑去。琳 琳站在冰上，一步也不敢挪动，她的样子就像一只笨拙的小熊。我见了，连忙溜到琳琳身边，鼓励她：「琳琳，别害怕，尽量保持身体平衡。」这时，爸爸也过来给琳琳讲解了溜冰的要领。之后，我拉著琳琳的手，慢慢地，一步一步往前滑。琳琳很快掌握了方法，「溜冰一点也不难学啊！」琳琳高兴地对我说。说完，她松开我的手，猛地一加速，飞快地向前滑去。突然，琳琳的脚一歪，身子向后一倾，「扑通」一声摔倒在地。「哎哟，好痛呀！」琳琳嘟囔著，慢慢站起来，歪歪扭扭地向我们走来。没想到她重心不稳，又重重地摔了个四脚朝天。我和爸爸见了，急忙上前扶起琳琳，带她走出了溜冰场。 我帮助琳琳脱下溜冰鞋，卷起琳琳的裤管一看，她的一条腿摔得有些红肿，走路都有些困难。我们急忙带了琳琳去医院。幸好没有什么大碍，医生说只要休养几天，擦些药膏就能康复。 回到家，我决定写一张慰问卡给琳琳，希望她早日康复。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch24_w001",
+      "traditional": "央求",
+      "simplified": "央求",
+      "english": "to beg earnestly / implore",
+      "pinyin": "yāng qiú",
+      "contextSentence": "正好爸爸在家，我們便央求爸爸帶我們去溜冰。",
+      "contextSentenceSimplified": "正好爸爸在家，我们便央求爸爸带我们去溜冰。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w002",
+      "traditional": "技術",
+      "simplified": "技术",
+      "english": "technology / skill / technique",
+      "pinyin": "jì shù",
+      "contextSentence": "琳琳是個初學者，溜冰技術不太好。",
+      "contextSentenceSimplified": "琳琳是个初学者，溜冰技术不太好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w003",
+      "traditional": "迫不及待",
+      "simplified": "迫不及待",
+      "english": "can't wait / impatient",
+      "pinyin": "pò bù jí dài",
+      "contextSentence": "到了溜冰場，我迫不及待地換上溜冰鞋，開始在冰上熟練地滑來滑去。",
+      "contextSentenceSimplified": "到了溜冰场，我迫不及待地换上溜冰鞋，开始在冰上熟练地滑来滑去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w004",
+      "traditional": "熟練",
+      "simplified": "熟练",
+      "english": "skilled",
+      "pinyin": "shú liàn",
+      "contextSentence": "到了溜冰場，我迫不及待地換上溜冰鞋，開始在冰上熟練地滑來滑去。",
+      "contextSentenceSimplified": "到了溜冰场，我迫不及待地换上溜冰鞋，开始在冰上熟练地滑来滑去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w005",
+      "traditional": "笨拙",
+      "simplified": "笨拙",
+      "english": "clumsy / awkward",
+      "pinyin": "bèn zhuō",
+      "contextSentence": "琳 琳站在冰上，一步也不敢挪動，她的樣子就像一隻笨拙的小熊。",
+      "contextSentenceSimplified": "琳 琳站在冰上，一步也不敢挪动，她的样子就像一只笨拙的小熊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w006",
+      "traditional": "平衡",
+      "simplified": "平衡",
+      "english": "balance",
+      "pinyin": "píng héng",
+      "contextSentence": "我見了，連忙溜到琳琳身邊，鼓勵她：「琳琳，別害怕，盡量保持身體平衡。",
+      "contextSentenceSimplified": "我见了，连忙溜到琳琳身边，鼓励她：「琳琳，别害怕，尽量保持身体平衡。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w007",
+      "traditional": "要領",
+      "simplified": "要领",
+      "english": "main point / gist",
+      "pinyin": "yào lǐng",
+      "contextSentence": "這時，爸爸也過來給琳琳講解了溜冰的要領。",
+      "contextSentenceSimplified": "这时，爸爸也过来给琳琳讲解了溜冰的要领。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w008",
+      "traditional": "掌握",
+      "simplified": "掌握",
+      "english": "master",
+      "pinyin": "zhǎng wò",
+      "contextSentence": "琳琳很快掌握了方法，「溜冰一點也不難學啊！",
+      "contextSentenceSimplified": "琳琳很快掌握了方法，「溜冰一点也不难学啊！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w009",
+      "traditional": "歪",
+      "simplified": "歪",
+      "english": "crooked / tilted / askew",
+      "pinyin": "wāi",
+      "contextSentence": "突然，琳琳的腳一歪，身子向後一傾，「撲通」一聲摔倒在地。",
+      "contextSentenceSimplified": "突然，琳琳的脚一歪，身子向后一倾，「扑通」一声摔倒在地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w010",
+      "traditional": "嘟囔",
+      "simplified": "嘟囔",
+      "english": "to mutter / grumble",
+      "pinyin": "dū nāng",
+      "contextSentence": "琳琳嘟囔著，慢慢站起來，歪歪扭扭地向我們走來。",
+      "contextSentenceSimplified": "琳琳嘟囔著，慢慢站起来，歪歪扭扭地向我们走来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w011",
+      "traditional": "重心不穩",
+      "simplified": "重心不稳",
+      "english": "unstable center of gravity",
+      "pinyin": "zhòng xīn bù wěn",
+      "contextSentence": "沒想到她重心不穩，又重重地摔了個四腳朝天。",
+      "contextSentenceSimplified": "没想到她重心不稳，又重重地摔了个四脚朝天。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w012",
+      "traditional": "四腳朝天",
+      "simplified": "四脚朝天",
+      "english": "on one's back / four legs up",
+      "pinyin": "sì jiǎo cháo tiān",
+      "contextSentence": "沒想到她重心不穩，又重重地摔了個四腳朝天。",
+      "contextSentenceSimplified": "没想到她重心不稳，又重重地摔了个四脚朝天。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w013",
+      "traditional": "脫",
+      "simplified": "脱",
+      "english": "to take off",
+      "pinyin": "tuō",
+      "contextSentence": "我幫助琳琳脫下溜冰鞋，捲起琳琳的褲管一看，她的一條腿摔得有些紅腫，走路都有些困難。",
+      "contextSentenceSimplified": "我帮助琳琳脱下溜冰鞋，卷起琳琳的裤管一看，她的一条腿摔得有些红肿，走路都有些困难。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w014",
+      "traditional": "紅腫",
+      "simplified": "红肿",
+      "english": "red and swollen",
+      "pinyin": "hóng zhǒng",
+      "contextSentence": "我幫助琳琳脫下溜冰鞋，捲起琳琳的褲管一看，她的一條腿摔得有些紅腫，走路都有些困難。",
+      "contextSentenceSimplified": "我帮助琳琳脱下溜冰鞋，卷起琳琳的裤管一看，她的一条腿摔得有些红肿，走路都有些困难。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w015",
+      "traditional": "大礙",
+      "simplified": "大碍",
+      "english": "serious trouble / major problem",
+      "pinyin": "dà ài",
+      "contextSentence": "幸好沒有什麼大礙，醫生說只要休養幾天，擦些藥膏就能康復。",
+      "contextSentenceSimplified": "幸好没有什么大碍，医生说只要休养几天，擦些药膏就能康复。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w016",
+      "traditional": "休養",
+      "simplified": "休养",
+      "english": "to rest and recuperate",
+      "pinyin": "xiū yǎng",
+      "contextSentence": "幸好沒有什麼大礙，醫生說只要休養幾天，擦些藥膏就能康復。",
+      "contextSentenceSimplified": "幸好没有什么大碍，医生说只要休养几天，擦些药膏就能康复。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w017",
+      "traditional": "康復",
+      "simplified": "康复",
+      "english": "recovery / to recover",
+      "pinyin": "kāng fù",
+      "contextSentence": "幸好沒有什麼大礙，醫生說只要休養幾天，擦些藥膏就能康復。",
+      "contextSentenceSimplified": "幸好没有什么大碍，医生说只要休养几天，擦些药膏就能康复。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w018",
+      "traditional": "慰問卡",
+      "simplified": "慰问卡",
+      "english": "sympathy card / get-well card",
+      "pinyin": "wèi wèn kǎ",
+      "contextSentence": "回到家，我決定寫一張慰問卡給琳琳，希望她早日康復。",
+      "contextSentenceSimplified": "回到家，我决定写一张慰问卡给琳琳，希望她早日康复。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch24_w019",
+      "traditional": "慰問",
+      "simplified": "慰问",
+      "english": "to condole / to offer sympathy",
+      "pinyin": "wèi wèn",
+      "contextSentence": "回到家，我決定寫一張慰問卡給琳琳，希望她早日康復。",
+      "contextSentenceSimplified": "回到家，我决定写一张慰问卡给琳琳，希望她早日康复。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter24/b03_ch24_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter24/b03_ch24_w019_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter24/b03_ch24_p01_m.mp3",
+        "durationMs": 116544,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10008,
+            "text": "二下 ：日記一則（四）（第七十二頁） 十月八日 星期日 晴 今天上午，表妹琳琳來我家玩。",
+            "textSimplified": "二下 ：日记一则（四）（第七十二页） 十月八日 星期日 晴 今天上午，表妹琳琳来我家玩。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10008,
+            "endMs": 14904,
+            "text": "正好爸爸在家，我們便央求爸爸帶我們去溜冰。",
+            "textSimplified": "正好爸爸在家，我们便央求爸爸带我们去溜冰。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 14904,
+            "endMs": 19008,
+            "text": "琳琳是個初學者，溜冰技術不太好。",
+            "textSimplified": "琳琳是个初学者，溜冰技术不太好。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 19008,
+            "endMs": 26280,
+            "text": "到了溜冰場，我迫不及待地換上溜冰鞋，開始在冰上熟練地滑來滑去。",
+            "textSimplified": "到了溜冰场，我迫不及待地换上溜冰鞋，开始在冰上熟练地滑来滑去。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 26280,
+            "endMs": 34128,
+            "text": "琳 琳站在冰上，一步也不敢挪動，她的樣子就像一隻笨拙的小熊。",
+            "textSimplified": "琳 琳站在冰上，一步也不敢挪动，她的样子就像一只笨拙的小熊。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 34128,
+            "endMs": 42456,
+            "text": "我見了，連忙溜到琳琳身邊，鼓勵她：「琳琳，別害怕，盡量保持身體平衡。」",
+            "textSimplified": "我见了，连忙溜到琳琳身边，鼓励她：「琳琳，别害怕，尽量保持身体平衡。」"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 42456,
+            "endMs": 47352,
+            "text": "這時，爸爸也過來給琳琳講解了溜冰的要領。",
+            "textSimplified": "这时，爸爸也过来给琳琳讲解了溜冰的要领。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 47352,
+            "endMs": 52848,
+            "text": "之後，我拉著琳琳的手，慢慢地，一步一步往前滑。",
+            "textSimplified": "之后，我拉著琳琳的手，慢慢地，一步一步往前滑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 52848,
+            "endMs": 57216,
+            "text": "琳琳很快掌握了方法，「溜冰一點也不難學啊！」",
+            "textSimplified": "琳琳很快掌握了方法，「溜冰一点也不难学啊！」"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 57216,
+            "endMs": 59640,
+            "text": "琳琳高興地對我說。",
+            "textSimplified": "琳琳高兴地对我说。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 59640,
+            "endMs": 65568,
+            "text": "說完，她鬆開我的手，猛地一加速，飛快地向前滑去。",
+            "textSimplified": "说完，她松开我的手，猛地一加速，飞快地向前滑去。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 65568,
+            "endMs": 71856,
+            "text": "突然，琳琳的腳一歪，身子向後一傾，「撲通」一聲摔倒在地。",
+            "textSimplified": "突然，琳琳的脚一歪，身子向后一倾，「扑通」一声摔倒在地。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 71856,
+            "endMs": 74160,
+            "text": "「哎喲，好痛呀！」",
+            "textSimplified": "「哎哟，好痛呀！」"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 74160,
+            "endMs": 79704,
+            "text": "琳琳嘟囔著，慢慢站起來，歪歪扭扭地向我們走來。",
+            "textSimplified": "琳琳嘟囔著，慢慢站起来，歪歪扭扭地向我们走来。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 79704,
+            "endMs": 84912,
+            "text": "沒想到她重心不穩，又重重地摔了個四腳朝天。",
+            "textSimplified": "没想到她重心不稳，又重重地摔了个四脚朝天。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 84912,
+            "endMs": 91128,
+            "text": "我和爸爸見了，急忙上前扶起琳琳，帶她走出了溜冰場。",
+            "textSimplified": "我和爸爸见了，急忙上前扶起琳琳，带她走出了溜冰场。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 91128,
+            "endMs": 100800,
+            "text": "我幫助琳琳脫下溜冰鞋，捲起琳琳的褲管一看，她的一條腿摔得有些紅腫，走路都有些困難。",
+            "textSimplified": "我帮助琳琳脱下溜冰鞋，卷起琳琳的裤管一看，她的一条腿摔得有些红肿，走路都有些困难。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 100800,
+            "endMs": 103776,
+            "text": "我們急忙帶了琳琳去醫院。",
+            "textSimplified": "我们急忙带了琳琳去医院。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 103776,
+            "endMs": 110592,
+            "text": "幸好沒有什麼大礙，醫生說只要休養幾天，擦些藥膏就能康復。",
+            "textSimplified": "幸好没有什么大碍，医生说只要休养几天，擦些药膏就能康复。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 110592,
+            "endMs": 116544,
+            "text": "回到家，我決定寫一張慰問卡給琳琳，希望她早日康復。",
+            "textSimplified": "回到家，我决定写一张慰问卡给琳琳，希望她早日康复。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter24/b03_ch24_p01_c.mp3",
+        "durationMs": 125664,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 9456,
+            "text": "二下 ：日記一則（四）（第七十二頁） 十月八日 星期日 晴 今天上午，表妹琳琳來我家玩。",
+            "textSimplified": "二下 ：日记一则（四）（第七十二页） 十月八日 星期日 晴 今天上午，表妹琳琳来我家玩。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 9456,
+            "endMs": 15120,
+            "text": "正好爸爸在家，我們便央求爸爸帶我們去溜冰。",
+            "textSimplified": "正好爸爸在家，我们便央求爸爸带我们去溜冰。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 15120,
+            "endMs": 19944,
+            "text": "琳琳是個初學者，溜冰技術不太好。",
+            "textSimplified": "琳琳是个初学者，溜冰技术不太好。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 19944,
+            "endMs": 27744,
+            "text": "到了溜冰場，我迫不及待地換上溜冰鞋，開始在冰上熟練地滑來滑去。",
+            "textSimplified": "到了溜冰场，我迫不及待地换上溜冰鞋，开始在冰上熟练地滑来滑去。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 27744,
+            "endMs": 34944,
+            "text": "琳 琳站在冰上，一步也不敢挪動，她的樣子就像一隻笨拙的小熊。",
+            "textSimplified": "琳 琳站在冰上，一步也不敢挪动，她的样子就像一只笨拙的小熊。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 34944,
+            "endMs": 44208,
+            "text": "我見了，連忙溜到琳琳身邊，鼓勵她：「琳琳，別害怕，盡量保持身體平衡。」",
+            "textSimplified": "我见了，连忙溜到琳琳身边，鼓励她：「琳琳，别害怕，尽量保持身体平衡。」"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 44208,
+            "endMs": 49728,
+            "text": "這時，爸爸也過來給琳琳講解了溜冰的要領。",
+            "textSimplified": "这时，爸爸也过来给琳琳讲解了溜冰的要领。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 49728,
+            "endMs": 56040,
+            "text": "之後，我拉著琳琳的手，慢慢地，一步一步往前滑。",
+            "textSimplified": "之后，我拉著琳琳的手，慢慢地，一步一步往前滑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 56040,
+            "endMs": 62040,
+            "text": "琳琳很快掌握了方法，「溜冰一點也不難學啊！」",
+            "textSimplified": "琳琳很快掌握了方法，「溜冰一点也不难学啊！」"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 62040,
+            "endMs": 64944,
+            "text": "琳琳高興地對我說。",
+            "textSimplified": "琳琳高兴地对我说。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 64944,
+            "endMs": 71496,
+            "text": "說完，她鬆開我的手，猛地一加速，飛快地向前滑去。",
+            "textSimplified": "说完，她松开我的手，猛地一加速，飞快地向前滑去。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 71496,
+            "endMs": 78240,
+            "text": "突然，琳琳的腳一歪，身子向後一傾，「撲通」一聲摔倒在地。",
+            "textSimplified": "突然，琳琳的脚一歪，身子向后一倾，「扑通」一声摔倒在地。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 78240,
+            "endMs": 81264,
+            "text": "「哎喲，好痛呀！」",
+            "textSimplified": "「哎哟，好痛呀！」"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 81264,
+            "endMs": 87360,
+            "text": "琳琳嘟囔著，慢慢站起來，歪歪扭扭地向我們走來。",
+            "textSimplified": "琳琳嘟囔著，慢慢站起来，歪歪扭扭地向我们走来。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 87360,
+            "endMs": 93024,
+            "text": "沒想到她重心不穩，又重重地摔了個四腳朝天。",
+            "textSimplified": "没想到她重心不稳，又重重地摔了个四脚朝天。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 93024,
+            "endMs": 99480,
+            "text": "我和爸爸見了，急忙上前扶起琳琳，帶她走出了溜冰場。",
+            "textSimplified": "我和爸爸见了，急忙上前扶起琳琳，带她走出了溜冰场。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 99480,
+            "endMs": 108840,
+            "text": "我幫助琳琳脫下溜冰鞋，捲起琳琳的褲管一看，她的一條腿摔得有些紅腫，走路都有些困難。",
+            "textSimplified": "我帮助琳琳脱下溜冰鞋，卷起琳琳的裤管一看，她的一条腿摔得有些红肿，走路都有些困难。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 108840,
+            "endMs": 112392,
+            "text": "我們急忙帶了琳琳去醫院。",
+            "textSimplified": "我们急忙带了琳琳去医院。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 112392,
+            "endMs": 119304,
+            "text": "幸好沒有什麼大礙，醫生說只要休養幾天，擦些藥膏就能康復。",
+            "textSimplified": "幸好没有什么大碍，医生说只要休养几天，擦些药膏就能康复。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 119304,
+            "endMs": 125664,
+            "text": "回到家，我決定寫一張慰問卡給琳琳，希望她早日康復。",
+            "textSimplified": "回到家，我决定写一张慰问卡给琳琳，希望她早日康复。"
+          }
+        ]
+      }
+    }
+  ]
+}

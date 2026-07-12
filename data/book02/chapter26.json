@@ -1,0 +1,708 @@
+{
+  "bookId": "02",
+  "chapterId": "26",
+  "chapterTitle": "美麗的植物園",
+  "chapterTitleSimplified": "美丽的植物园",
+  "passages": [
+    "二上：美麗的植物園（第七十七頁）\n\n我們學校有一個迷人的植物園，裏面種滿了各種各樣的植物，就像一個植物王國。\n\n今天，老師帶領我們來到植物園，一起觀察植物。我們來到植物園的入口處，只見道路兩邊種着玉蘭花：它們猶如亭亭玉立的少女，正羞澀地向我們點頭、微笑，好像在歡迎我們的到來。\n\n我們沿着小路一邊走一邊認真觀察。前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。再往前走，遠遠的，我就看見一棵開滿花的木棉樹，一朵朵木棉花像小燈籠一樣掛在樹梢上，微風一吹，小燈籠彷彿跳起了優美的圓舞曲。往左邊看，是一排綠樹成蔭的大榕樹。大榕樹真高大啊，它的葉子密密麻麻的，就像一把把綠色的大傘，帶給我們涼快的感覺。我坐在榕樹下的椅子上，陽光透過樹葉的縫隙灑在地上，星星點點的，好像一個個小太陽在地上跳動。小路右邊有一間玻璃房子，裏面種滿了許多沙漠植物。看，那些仙人掌，它們彷彿是士兵一樣站得直直的，身上的刺一根根豎立着，好像時刻準備戰鬥一樣。\n\n在小路的盡頭，有一個金魚池，池裏有好多金魚，牠們三個一羣，兩個一夥，正悠閒地遊來游去。池水清澈見底，藍天白雲倒映在水中，真像一幅美麗的山水畫。\n\n這就是我們學校的植物園，我愛美麗的植物園。"
+  ],
+  "passagesSimplified": [
+    "二上：美丽的植物园（第七十七页）\n\n我们学校有一个迷人的植物园，里面种满了各种各样的植物，就像一个植物王国。\n\n今天，老师带领我们来到植物园，一起观察植物。我们来到植物园的入口处，只见道路两边种着玉兰花：它们犹如亭亭玉立的少女，正羞涩地向我们点头、微笑，好像在欢迎我们的到来。\n\n我们沿着小路一边走一边认真观察。前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。再往前走，远远的，我就看见一棵开满花的木棉树，一朵朵木棉花像小灯笼一样挂在树梢上，微风一吹，小灯笼仿佛跳起了优美的圆舞曲。往左边看，是一排绿树成荫的大榕树。大榕树真高大啊，它的叶子密密麻麻的，就像一把把绿色的大伞，带给我们凉快的感觉。我坐在榕树下的椅子上，阳光透过树叶的缝隙洒在地上，星星点点的，好像一个个小太阳在地上跳动。小路右边有一间玻璃房子，里面种满了许多沙漠植物。看，那些仙人掌，它们仿佛是士兵一样站得直直的，身上的刺一根根竖立着，好像时刻准备战斗一样。\n\n在小路的尽头，有一个金鱼池，池里有好多金鱼，牠们三个一群，两个一伙，正悠闲地游来游去。池水清澈见底，蓝天白云倒映在水中，真像一幅美丽的山水画。\n\n这就是我们学校的植物园，我爱美丽的植物园。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch26_w001",
+      "traditional": "猶如",
+      "simplified": "犹如",
+      "english": "just like",
+      "pinyin": "yóu rú",
+      "contextSentence": "我們來到植物園的入口處，只見道路兩邊種着玉蘭花：它們猶如亭亭玉立的少女，正羞澀地向我們點頭、微笑，好像在歡迎我們的到來。",
+      "contextSentenceSimplified": "我们来到植物园的入口处，只见道路两边种着玉兰花：它们犹如亭亭玉立的少女，正羞涩地向我们点头、微笑，好像在欢迎我们的到来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w002",
+      "traditional": "羞澀",
+      "simplified": "羞涩",
+      "english": "bashful",
+      "pinyin": "xiū sè",
+      "contextSentence": "我們來到植物園的入口處，只見道路兩邊種着玉蘭花：它們猶如亭亭玉立的少女，正羞澀地向我們點頭、微笑，好像在歡迎我們的到來。",
+      "contextSentenceSimplified": "我们来到植物园的入口处，只见道路两边种着玉兰花：它们犹如亭亭玉立的少女，正羞涩地向我们点头、微笑，好像在欢迎我们的到来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w003",
+      "traditional": "芬芳撲鼻",
+      "simplified": "芬芳扑鼻",
+      "english": "fragrant",
+      "pinyin": "fēn fāng pū bí",
+      "contextSentence": "前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。",
+      "contextSentenceSimplified": "前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w004",
+      "traditional": "杜鵑花",
+      "simplified": "杜鹃花",
+      "english": "azalea",
+      "pinyin": "dù juān huā",
+      "contextSentence": "前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。",
+      "contextSentenceSimplified": "前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w005",
+      "traditional": "扶桑花",
+      "simplified": "扶桑花",
+      "english": "hibiscus flower",
+      "pinyin": "fú sāng huā",
+      "contextSentence": "前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。",
+      "contextSentenceSimplified": "前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w006",
+      "traditional": "競相開放",
+      "simplified": "竞相开放",
+      "english": "bloom in competition",
+      "pinyin": "jìng xiāng kāi fàng",
+      "contextSentence": "前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。",
+      "contextSentenceSimplified": "前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w007",
+      "traditional": "樹梢",
+      "simplified": "树梢",
+      "english": "tree top",
+      "pinyin": "shù shāo",
+      "contextSentence": "再往前走，遠遠的，我就看見一棵開滿花的木棉樹，一朵朵木棉花像小燈籠一樣掛在樹梢上，微風一吹，小燈籠彷彿跳起了優美的圓舞曲。",
+      "contextSentenceSimplified": "再往前走，远远的，我就看见一棵开满花的木棉树，一朵朵木棉花像小灯笼一样挂在树梢上，微风一吹，小灯笼仿佛跳起了优美的圆舞曲。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w008",
+      "traditional": "優美",
+      "simplified": "优美",
+      "english": "graceful",
+      "pinyin": "yōu měi",
+      "contextSentence": "再往前走，遠遠的，我就看見一棵開滿花的木棉樹，一朵朵木棉花像小燈籠一樣掛在樹梢上，微風一吹，小燈籠彷彿跳起了優美的圓舞曲。",
+      "contextSentenceSimplified": "再往前走，远远的，我就看见一棵开满花的木棉树，一朵朵木棉花像小灯笼一样挂在树梢上，微风一吹，小灯笼仿佛跳起了优美的圆舞曲。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w009",
+      "traditional": "圓舞曲",
+      "simplified": "圆舞曲",
+      "english": "waltz",
+      "pinyin": "yuán wǔ qǔ",
+      "contextSentence": "再往前走，遠遠的，我就看見一棵開滿花的木棉樹，一朵朵木棉花像小燈籠一樣掛在樹梢上，微風一吹，小燈籠彷彿跳起了優美的圓舞曲。",
+      "contextSentenceSimplified": "再往前走，远远的，我就看见一棵开满花的木棉树，一朵朵木棉花像小灯笼一样挂在树梢上，微风一吹，小灯笼仿佛跳起了优美的圆舞曲。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w010",
+      "traditional": "綠樹成蔭",
+      "simplified": "绿树成荫",
+      "english": "trees provide shade",
+      "pinyin": "lǜ shù chéng yīn",
+      "contextSentence": "往左邊看，是一排綠樹成蔭的大榕樹。",
+      "contextSentenceSimplified": "往左边看，是一排绿树成荫的大榕树。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w011",
+      "traditional": "大榕樹",
+      "simplified": "大榕树",
+      "english": "big banyan tree",
+      "pinyin": "dà róng shù",
+      "contextSentence": "往左邊看，是一排綠樹成蔭的大榕樹。",
+      "contextSentenceSimplified": "往左边看，是一排绿树成荫的大榕树。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w012",
+      "traditional": "密密麻麻",
+      "simplified": "密密麻麻",
+      "english": "dense and crowded",
+      "pinyin": "mì mì má má",
+      "contextSentence": "大榕樹真高大啊，它的葉子密密麻麻的，就像一把把綠色的大傘，帶給我們涼快的感覺。",
+      "contextSentenceSimplified": "大榕树真高大啊，它的叶子密密麻麻的，就像一把把绿色的大伞，带给我们凉快的感觉。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w013",
+      "traditional": "涼快",
+      "simplified": "凉快",
+      "english": "cool",
+      "pinyin": "liáng kuài",
+      "contextSentence": "大榕樹真高大啊，它的葉子密密麻麻的，就像一把把綠色的大傘，帶給我們涼快的感覺。",
+      "contextSentenceSimplified": "大榕树真高大啊，它的叶子密密麻麻的，就像一把把绿色的大伞，带给我们凉快的感觉。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w014",
+      "traditional": "陽光透過樹葉的縫隙灑在地上",
+      "simplified": "阳光透过树叶的缝隙洒在地上",
+      "english": "sunlight filters through leaves",
+      "pinyin": "yáng guāng tòu guò shù yè de fèng xì sǎ zài dì shàng",
+      "contextSentence": "我坐在榕樹下的椅子上，陽光透過樹葉的縫隙灑在地上，星星點點的，好像一個個小太陽在地上跳動。",
+      "contextSentenceSimplified": "我坐在榕树下的椅子上，阳光透过树叶的缝隙洒在地上，星星点点的，好像一个个小太阳在地上跳动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w015",
+      "traditional": "玻璃",
+      "simplified": "玻璃",
+      "english": "glass",
+      "pinyin": "bō lí",
+      "contextSentence": "小路右邊有一間玻璃房子，裏面種滿了許多沙漠植物。",
+      "contextSentenceSimplified": "小路右边有一间玻璃房子，里面种满了许多沙漠植物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w016",
+      "traditional": "沙漠",
+      "simplified": "沙漠",
+      "english": "desert",
+      "pinyin": "shā mò",
+      "contextSentence": "小路右邊有一間玻璃房子，裏面種滿了許多沙漠植物。",
+      "contextSentenceSimplified": "小路右边有一间玻璃房子，里面种满了许多沙漠植物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w017",
+      "traditional": "士兵",
+      "simplified": "士兵",
+      "english": "soldier",
+      "pinyin": "shì bīng",
+      "contextSentence": "看，那些仙人掌，它們彷彿是士兵一樣站得直直的，身上的刺一根根豎立着，好像時刻準備戰鬥一樣。",
+      "contextSentenceSimplified": "看，那些仙人掌，它们仿佛是士兵一样站得直直的，身上的刺一根根竖立着，好像时刻准备战斗一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w018",
+      "traditional": "身上的刺一根根豎立着",
+      "simplified": "身上的刺一根根竖立着",
+      "english": "spines stand upright",
+      "pinyin": "shēn shàng de cì yī gēn gēn shù lì zhe",
+      "contextSentence": "看，那些仙人掌，它們彷彿是士兵一樣站得直直的，身上的刺一根根豎立着，好像時刻準備戰鬥一樣。",
+      "contextSentenceSimplified": "看，那些仙人掌，它们仿佛是士兵一样站得直直的，身上的刺一根根竖立着，好像时刻准备战斗一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w018_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w018_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w019",
+      "traditional": "戰鬥",
+      "simplified": "战斗",
+      "english": "battle",
+      "pinyin": "zhàn dòu",
+      "contextSentence": "看，那些仙人掌，它們彷彿是士兵一樣站得直直的，身上的刺一根根豎立着，好像時刻準備戰鬥一樣。",
+      "contextSentenceSimplified": "看，那些仙人掌，它们仿佛是士兵一样站得直直的，身上的刺一根根竖立着，好像时刻准备战斗一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w019_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w019_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w020",
+      "traditional": "盡頭",
+      "simplified": "尽头",
+      "english": "end",
+      "pinyin": "jǐn tóu",
+      "contextSentence": "在小路的盡頭，有一個金魚池，池裏有好多金魚，牠們三個一羣，兩個一夥，正悠閒地遊來游去。",
+      "contextSentenceSimplified": "在小路的尽头，有一个金鱼池，池里有好多金鱼，牠们三个一群，两个一伙，正悠闲地游来游去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w020_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w020_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w021",
+      "traditional": "悠閒",
+      "simplified": "悠闲",
+      "english": "leisurely",
+      "pinyin": "yōu xián",
+      "contextSentence": "在小路的盡頭，有一個金魚池，池裏有好多金魚，牠們三個一羣，兩個一夥，正悠閒地遊來游去。",
+      "contextSentenceSimplified": "在小路的尽头，有一个金鱼池，池里有好多金鱼，牠们三个一群，两个一伙，正悠闲地游来游去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w021_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w021_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w022",
+      "traditional": "清澈",
+      "simplified": "清澈",
+      "english": "clear",
+      "pinyin": "qīng chè",
+      "contextSentence": "池水清澈見底，藍天白雲倒映在水中，真像一幅美麗的山水畫。",
+      "contextSentenceSimplified": "池水清澈见底，蓝天白云倒映在水中，真像一幅美丽的山水画。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w022_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w022_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch26_w023",
+      "traditional": "倒映",
+      "simplified": "倒映",
+      "english": "reflected image",
+      "pinyin": "dào yìng",
+      "contextSentence": "池水清澈見底，藍天白雲倒映在水中，真像一幅美麗的山水畫。",
+      "contextSentenceSimplified": "池水清澈见底，蓝天白云倒映在水中，真像一幅美丽的山水画。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w023_m_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter26/b02_ch26_w023_c_isolated.mp3",
+          "sentence": "audio/book02/chapter26/b02_ch26_w023_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter26/b02_ch26_p01_m.mp3",
+        "durationMs": 117840,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4176,
+            "text": "二上：美麗的植物園（第七十七頁）",
+            "textSimplified": "二上：美丽的植物园（第七十七页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4176,
+            "endMs": 11832,
+            "text": "我們學校有一個迷人的植物園，裏面種滿了各種各樣的植物，就像一個植物王國。",
+            "textSimplified": "我们学校有一个迷人的植物园，里面种满了各种各样的植物，就像一个植物王国。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 11832,
+            "endMs": 17496,
+            "text": "今天，老師帶領我們來到植物園，一起觀察植物。",
+            "textSimplified": "今天，老师带领我们来到植物园，一起观察植物。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17496,
+            "endMs": 30720,
+            "text": "我們來到植物園的入口處，只見道路兩邊種着玉蘭花：它們猶如亭亭玉立的少女，正羞澀地向我們點頭、微笑，好像在歡迎我們的到來。",
+            "textSimplified": "我们来到植物园的入口处，只见道路两边种着玉兰花：它们犹如亭亭玉立的少女，正羞涩地向我们点头、微笑，好像在欢迎我们的到来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 30720,
+            "endMs": 34704,
+            "text": "我們沿着小路一邊走一邊認真觀察。",
+            "textSimplified": "我们沿着小路一边走一边认真观察。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 34704,
+            "endMs": 42120,
+            "text": "前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。",
+            "textSimplified": "前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 42120,
+            "endMs": 56472,
+            "text": "再往前走，遠遠的，我就看見一棵開滿花的木棉樹，一朵朵木棉花像小燈籠一樣掛在樹梢上，微風一吹，小燈籠彷彿跳起了優美的圓舞曲。",
+            "textSimplified": "再往前走，远远的，我就看见一棵开满花的木棉树，一朵朵木棉花像小灯笼一样挂在树梢上，微风一吹，小灯笼仿佛跳起了优美的圆舞曲。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 56472,
+            "endMs": 60816,
+            "text": "往左邊看，是一排綠樹成蔭的大榕樹。",
+            "textSimplified": "往左边看，是一排绿树成荫的大榕树。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 60816,
+            "endMs": 69264,
+            "text": "大榕樹真高大啊，它的葉子密密麻麻的，就像一把把綠色的大傘，帶給我們涼快的感覺。",
+            "textSimplified": "大榕树真高大啊，它的叶子密密麻麻的，就像一把把绿色的大伞，带给我们凉快的感觉。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 69264,
+            "endMs": 79632,
+            "text": "我坐在榕樹下的椅子上，陽光透過樹葉的縫隙灑在地上，星星點點的，好像一個個小太陽在地上跳動。",
+            "textSimplified": "我坐在榕树下的椅子上，阳光透过树叶的缝隙洒在地上，星星点点的，好像一个个小太阳在地上跳动。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 79632,
+            "endMs": 85440,
+            "text": "小路右邊有一間玻璃房子，裏面種滿了許多沙漠植物。",
+            "textSimplified": "小路右边有一间玻璃房子，里面种满了许多沙漠植物。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 85440,
+            "endMs": 96288,
+            "text": "看，那些仙人掌，它們彷彿是士兵一樣站得直直的，身上的刺一根根豎立着，好像時刻準備戰鬥一樣。",
+            "textSimplified": "看，那些仙人掌，它们仿佛是士兵一样站得直直的，身上的刺一根根竖立着，好像时刻准备战斗一样。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 96288,
+            "endMs": 106080,
+            "text": "在小路的盡頭，有一個金魚池，池裏有好多金魚，牠們三個一羣，兩個一夥，正悠閒地遊來游去。",
+            "textSimplified": "在小路的尽头，有一个金鱼池，池里有好多金鱼，牠们三个一群，两个一伙，正悠闲地游来游去。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 106080,
+            "endMs": 113088,
+            "text": "池水清澈見底，藍天白雲倒映在水中，真像一幅美麗的山水畫。",
+            "textSimplified": "池水清澈见底，蓝天白云倒映在水中，真像一幅美丽的山水画。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 113088,
+            "endMs": 117840,
+            "text": "這就是我們學校的植物園，我愛美麗的植物園。",
+            "textSimplified": "这就是我们学校的植物园，我爱美丽的植物园。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter26/b02_ch26_p01_c.mp3",
+        "durationMs": 120912,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4344,
+            "text": "二上：美麗的植物園（第七十七頁）",
+            "textSimplified": "二上：美丽的植物园（第七十七页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4344,
+            "endMs": 12144,
+            "text": "我們學校有一個迷人的植物園，裏面種滿了各種各樣的植物，就像一個植物王國。",
+            "textSimplified": "我们学校有一个迷人的植物园，里面种满了各种各样的植物，就像一个植物王国。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 12144,
+            "endMs": 17760,
+            "text": "今天，老師帶領我們來到植物園，一起觀察植物。",
+            "textSimplified": "今天，老师带领我们来到植物园，一起观察植物。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17760,
+            "endMs": 31008,
+            "text": "我們來到植物園的入口處，只見道路兩邊種着玉蘭花：它們猶如亭亭玉立的少女，正羞澀地向我們點頭、微笑，好像在歡迎我們的到來。",
+            "textSimplified": "我们来到植物园的入口处，只见道路两边种着玉兰花：它们犹如亭亭玉立的少女，正羞涩地向我们点头、微笑，好像在欢迎我们的到来。"
+          },
+          {
+            "index": 4,
+            "paragraph": 6,
+            "startMs": 31008,
+            "endMs": 35256,
+            "text": "我們沿着小路一邊走一邊認真觀察。",
+            "textSimplified": "我们沿着小路一边走一边认真观察。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 35256,
+            "endMs": 43032,
+            "text": "前方是芬芳撲鼻的花木區，杜鵑花、三角梅、扶桑花等競相開放。",
+            "textSimplified": "前方是芬芳扑鼻的花木区，杜鹃花、三角梅、扶桑花等竞相开放。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 43032,
+            "endMs": 57144,
+            "text": "再往前走，遠遠的，我就看見一棵開滿花的木棉樹，一朵朵木棉花像小燈籠一樣掛在樹梢上，微風一吹，小燈籠彷彿跳起了優美的圓舞曲。",
+            "textSimplified": "再往前走，远远的，我就看见一棵开满花的木棉树，一朵朵木棉花像小灯笼一样挂在树梢上，微风一吹，小灯笼仿佛跳起了优美的圆舞曲。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 57144,
+            "endMs": 61824,
+            "text": "往左邊看，是一排綠樹成蔭的大榕樹。",
+            "textSimplified": "往左边看，是一排绿树成荫的大榕树。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 61824,
+            "endMs": 70752,
+            "text": "大榕樹真高大啊，它的葉子密密麻麻的，就像一把把綠色的大傘，帶給我們涼快的感覺。",
+            "textSimplified": "大榕树真高大啊，它的叶子密密麻麻的，就像一把把绿色的大伞，带给我们凉快的感觉。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 70752,
+            "endMs": 81312,
+            "text": "我坐在榕樹下的椅子上，陽光透過樹葉的縫隙灑在地上，星星點點的，好像一個個小太陽在地上跳動。",
+            "textSimplified": "我坐在榕树下的椅子上，阳光透过树叶的缝隙洒在地上，星星点点的，好像一个个小太阳在地上跳动。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 81312,
+            "endMs": 87408,
+            "text": "小路右邊有一間玻璃房子，裏面種滿了許多沙漠植物。",
+            "textSimplified": "小路右边有一间玻璃房子，里面种满了许多沙漠植物。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 87408,
+            "endMs": 98328,
+            "text": "看，那些仙人掌，它們彷彿是士兵一樣站得直直的，身上的刺一根根豎立着，好像時刻準備戰鬥一樣。",
+            "textSimplified": "看，那些仙人掌，它们仿佛是士兵一样站得直直的，身上的刺一根根竖立着，好像时刻准备战斗一样。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 98328,
+            "endMs": 108312,
+            "text": "在小路的盡頭，有一個金魚池，池裏有好多金魚，牠們三個一羣，兩個一夥，正悠閒地遊來游去。",
+            "textSimplified": "在小路的尽头，有一个金鱼池，池里有好多金鱼，牠们三个一群，两个一伙，正悠闲地游来游去。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 108312,
+            "endMs": 115560,
+            "text": "池水清澈見底，藍天白雲倒映在水中，真像一幅美麗的山水畫。",
+            "textSimplified": "池水清澈见底，蓝天白云倒映在水中，真像一幅美丽的山水画。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 115560,
+            "endMs": 120912,
+            "text": "這就是我們學校的植物園，我愛美麗的植物園。",
+            "textSimplified": "这就是我们学校的植物园，我爱美丽的植物园。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "bookId": "02",
+  "chapterId": "29",
+  "chapterTitle": "我的外籍老師",
+  "chapterTitleSimplified": "我的外籍老师",
+  "passages": [
+    "二上：我的外籍老師（第八十四頁）\n\n他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。\n\n文森老師非常幽默，他的中文不太好，有時候上英文課，你會看到他站在講臺上指手劃腳的模樣，看起來十分惹笑。記得一次英文課，當講到「袋鼠」這個詞時，他模仿了半天，我們也沒明白他扮的是什麼動物。文森老師急得頭上直冒汗，突然，他好像一下有了靈感。只見他找同學借了一個書包掛在胸前，並且找來一根繩子做尾巴，然後，他把雙手放在身前，在講臺上一蹦一跳的，我們這才恍然大悟，原來他要告訴我們的是「袋鼠」。\n\n文森老師很愛笑，就連責備人的時候，嘴角也掛着一絲微笑。一次英文課上，我用中文記筆記，沒想到被文森老師發現了。他微笑着對我說：「在我的課堂上，我希望你可以暫時忘記方塊字，學會和這些『小蝌蚪』打交道。這樣，你才能更好地掌握這門語言。」以後，每次上英文課，當我想用中文記筆記時，就會想到文森老師的話。很快，我便能自如地用英文記筆記了，並且愛上了這些「小蝌蚪」。\n\n文森老師就是這樣一個既幽默又愛笑的人，他那一堂堂生動有趣的課，至今都深深地印在我的腦海中。"
+  ],
+  "passagesSimplified": [
+    "二上：我的外籍老师（第八十四页）\n\n他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。\n\n文森老师非常幽默，他的中文不太好，有时候上英文课，你会看到他站在讲台上指手划脚的模样，看起来十分惹笑。记得一次英文课，当讲到「袋鼠」这个词时，他模仿了半天，我们也没明白他扮的是什么动物。文森老师急得头上直冒汗，突然，他好像一下有了灵感。只见他找同学借了一个书包挂在胸前，并且找来一根绳子做尾巴，然后，他把双手放在身前，在讲台上一蹦一跳的，我们这才恍然大悟，原来他要告诉我们的是「袋鼠」。\n\n文森老师很爱笑，就连责备人的时候，嘴角也挂着一丝微笑。一次英文课上，我用中文记笔记，没想到被文森老师发现了。他微笑着对我说：「在我的课堂上，我希望你可以暂时忘记方块字，学会和这些『小蝌蚪』打交道。这样，你才能更好地掌握这门语言。」以后，每次上英文课，当我想用中文记笔记时，就会想到文森老师的话。很快，我便能自如地用英文记笔记了，并且爱上了这些「小蝌蚪」。\n\n文森老师就是这样一个既幽默又爱笑的人，他那一堂堂生动有趣的课，至今都深深地印在我的脑海中。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch29_w001",
+      "traditional": "外籍",
+      "simplified": "外籍",
+      "english": "foreign nationality",
+      "pinyin": "wài jí",
+      "contextSentence": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+      "contextSentenceSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w002",
+      "traditional": "深陷",
+      "simplified": "深陷",
+      "english": "deeply set",
+      "pinyin": "shēn xiàn",
+      "contextSentence": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+      "contextSentenceSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w003",
+      "traditional": "鬈曲",
+      "simplified": "鬈曲",
+      "english": "curly",
+      "pinyin": "quán qū",
+      "contextSentence": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+      "contextSentenceSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w004",
+      "traditional": "覆蓋",
+      "simplified": "覆盖",
+      "english": "cover",
+      "pinyin": "fù gài",
+      "contextSentence": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+      "contextSentenceSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w005",
+      "traditional": "額頭",
+      "simplified": "额头",
+      "english": "forehead",
+      "pinyin": "é tóu",
+      "contextSentence": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+      "contextSentenceSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w006",
+      "traditional": "平易近人",
+      "simplified": "平易近人",
+      "english": "approachable",
+      "pinyin": "píng yì jìn rén",
+      "contextSentence": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+      "contextSentenceSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w007",
+      "traditional": "幽默",
+      "simplified": "幽默",
+      "english": "humorous",
+      "pinyin": "yōu mò",
+      "contextSentence": "文森老師非常幽默，他的中文不太好，有時候上英文課，你會看到他站在講臺上指手劃腳的模樣，看起來十分惹笑。",
+      "contextSentenceSimplified": "文森老师非常幽默，他的中文不太好，有时候上英文课，你会看到他站在讲台上指手划脚的模样，看起来十分惹笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w008",
+      "traditional": "指手劃腳",
+      "simplified": "指手划脚",
+      "english": "gesture wildly",
+      "pinyin": "zhǐ shǒu huà jiǎo",
+      "contextSentence": "文森老師非常幽默，他的中文不太好，有時候上英文課，你會看到他站在講臺上指手劃腳的模樣，看起來十分惹笑。",
+      "contextSentenceSimplified": "文森老师非常幽默，他的中文不太好，有时候上英文课，你会看到他站在讲台上指手划脚的模样，看起来十分惹笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w009",
+      "traditional": "惹笑",
+      "simplified": "惹笑",
+      "english": "amusing",
+      "pinyin": "rě xiào",
+      "contextSentence": "文森老師非常幽默，他的中文不太好，有時候上英文課，你會看到他站在講臺上指手劃腳的模樣，看起來十分惹笑。",
+      "contextSentenceSimplified": "文森老师非常幽默，他的中文不太好，有时候上英文课，你会看到他站在讲台上指手划脚的模样，看起来十分惹笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w010",
+      "traditional": "袋鼠",
+      "simplified": "袋鼠",
+      "english": "kangaroo",
+      "pinyin": "dài shǔ",
+      "contextSentence": "記得一次英文課，當講到「袋鼠」這個詞時，他模仿了半天，我們也沒明白他扮的是什麼動物。",
+      "contextSentenceSimplified": "记得一次英文课，当讲到「袋鼠」这个词时，他模仿了半天，我们也没明白他扮的是什么动物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w011",
+      "traditional": "模仿",
+      "simplified": "模仿",
+      "english": "imitate",
+      "pinyin": "mó fǎng",
+      "contextSentence": "記得一次英文課，當講到「袋鼠」這個詞時，他模仿了半天，我們也沒明白他扮的是什麼動物。",
+      "contextSentenceSimplified": "记得一次英文课，当讲到「袋鼠」这个词时，他模仿了半天，我们也没明白他扮的是什么动物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w012",
+      "traditional": "扮",
+      "simplified": "扮",
+      "english": "dress up as",
+      "pinyin": "bàn",
+      "contextSentence": "記得一次英文課，當講到「袋鼠」這個詞時，他模仿了半天，我們也沒明白他扮的是什麼動物。",
+      "contextSentenceSimplified": "记得一次英文课，当讲到「袋鼠」这个词时，他模仿了半天，我们也没明白他扮的是什么动物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w013",
+      "traditional": "急得頭上直冒汗",
+      "simplified": "急得头上直冒汗",
+      "english": "sweating from anxiety",
+      "pinyin": "jí dé tóu shàng zhí mào hàn",
+      "contextSentence": "文森老師急得頭上直冒汗，突然，他好像一下有了靈感。",
+      "contextSentenceSimplified": "文森老师急得头上直冒汗，突然，他好像一下有了灵感。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w014",
+      "traditional": "靈感",
+      "simplified": "灵感",
+      "english": "inspiration",
+      "pinyin": "líng gǎn",
+      "contextSentence": "文森老師急得頭上直冒汗，突然，他好像一下有了靈感。",
+      "contextSentenceSimplified": "文森老师急得头上直冒汗，突然，他好像一下有了灵感。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w015",
+      "traditional": "方塊字",
+      "simplified": "方块字",
+      "english": "Chinese characters",
+      "pinyin": "fāng kuài zì",
+      "contextSentence": "他微笑着對我說：「在我的課堂上，我希望你可以暫時忘記方塊字，學會和這些『小蝌蚪』打交道。",
+      "contextSentenceSimplified": "他微笑着对我说：「在我的课堂上，我希望你可以暂时忘记方块字，学会和这些『小蝌蚪』打交道。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w016",
+      "traditional": "小蝌蚪",
+      "simplified": "小蝌蚪",
+      "english": "tadpole",
+      "pinyin": "xiǎo kē dǒu",
+      "contextSentence": "他微笑着對我說：「在我的課堂上，我希望你可以暫時忘記方塊字，學會和這些『小蝌蚪』打交道。",
+      "contextSentenceSimplified": "他微笑着对我说：「在我的课堂上，我希望你可以暂时忘记方块字，学会和这些『小蝌蚪』打交道。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch29_w017",
+      "traditional": "打交道",
+      "simplified": "打交道",
+      "english": "deal with",
+      "pinyin": "dǎ jiāo dào",
+      "contextSentence": "他微笑着對我說：「在我的課堂上，我希望你可以暫時忘記方塊字，學會和這些『小蝌蚪』打交道。",
+      "contextSentenceSimplified": "他微笑着对我说：「在我的课堂上，我希望你可以暂时忘记方块字，学会和这些『小蝌蚪』打交道。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w017_m_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter29/b02_ch29_w017_c_isolated.mp3",
+          "sentence": "audio/book02/chapter29/b02_ch29_w017_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter29/b02_ch29_p01_m.mp3",
+        "durationMs": 113376,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4104,
+            "text": "二上：我的外籍老師（第八十四頁）",
+            "textSimplified": "二上：我的外籍老师（第八十四页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4104,
+            "endMs": 18888,
+            "text": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+            "textSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 18888,
+            "endMs": 30816,
+            "text": "文森老師非常幽默，他的中文不太好，有時候上英文課，你會看到他站在講臺上指手劃腳的模樣，看起來十分惹笑。",
+            "textSimplified": "文森老师非常幽默，他的中文不太好，有时候上英文课，你会看到他站在讲台上指手划脚的模样，看起来十分惹笑。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 30816,
+            "endMs": 39960,
+            "text": "記得一次英文課，當講到「袋鼠」這個詞時，他模仿了半天，我們也沒明白他扮的是什麼動物。",
+            "textSimplified": "记得一次英文课，当讲到「袋鼠」这个词时，他模仿了半天，我们也没明白他扮的是什么动物。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 39960,
+            "endMs": 46392,
+            "text": "文森老師急得頭上直冒汗，突然，他好像一下有了靈感。",
+            "textSimplified": "文森老师急得头上直冒汗，突然，他好像一下有了灵感。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 46392,
+            "endMs": 62520,
+            "text": "只見他找同學借了一個書包掛在胸前，並且找來一根繩子做尾巴，然後，他把雙手放在身前，在講臺上一蹦一跳的，我們這才恍然大悟，原來他要告訴我們的是「袋鼠」。",
+            "textSimplified": "只见他找同学借了一个书包挂在胸前，并且找来一根绳子做尾巴，然后，他把双手放在身前，在讲台上一蹦一跳的，我们这才恍然大悟，原来他要告诉我们的是「袋鼠」。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 62520,
+            "endMs": 69072,
+            "text": "文森老師很愛笑，就連責備人的時候，嘴角也掛着一絲微笑。",
+            "textSimplified": "文森老师很爱笑，就连责备人的时候，嘴角也挂着一丝微笑。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 69072,
+            "endMs": 75480,
+            "text": "一次英文課上，我用中文記筆記，沒想到被文森老師發現了。",
+            "textSimplified": "一次英文课上，我用中文记笔记，没想到被文森老师发现了。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 75480,
+            "endMs": 84912,
+            "text": "他微笑着對我說：「在我的課堂上，我希望你可以暫時忘記方塊字，學會和這些『小蝌蚪』打交道。",
+            "textSimplified": "他微笑着对我说：「在我的课堂上，我希望你可以暂时忘记方块字，学会和这些『小蝌蚪』打交道。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 84912,
+            "endMs": 88728,
+            "text": "這樣，你才能更好地掌握這門語言。」",
+            "textSimplified": "这样，你才能更好地掌握这门语言。」"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 88728,
+            "endMs": 96312,
+            "text": "以後，每次上英文課，當我想用中文記筆記時，就會想到文森老師的話。",
+            "textSimplified": "以后，每次上英文课，当我想用中文记笔记时，就会想到文森老师的话。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 96312,
+            "endMs": 103128,
+            "text": "很快，我便能自如地用英文記筆記了，並且愛上了這些「小蝌蚪」。",
+            "textSimplified": "很快，我便能自如地用英文记笔记了，并且爱上了这些「小蝌蚪」。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 103128,
+            "endMs": 113376,
+            "text": "文森老師就是這樣一個既幽默又愛笑的人，他那一堂堂生動有趣的課，至今都深深地印在我的腦海中。",
+            "textSimplified": "文森老师就是这样一个既幽默又爱笑的人，他那一堂堂生动有趣的课，至今都深深地印在我的脑海中。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter29/b02_ch29_p01_c.mp3",
+        "durationMs": 119112,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4776,
+            "text": "二上：我的外籍老師（第八十四頁）",
+            "textSimplified": "二上：我的外籍老师（第八十四页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4776,
+            "endMs": 19488,
+            "text": "他，來自英國，高高的鼻子，碧藍的眼睛深陷着，—頭鬈曲的頭髮覆蓋着寬闊的額頭，看起來十分平易近人，他就是我的外籍老師——文森老師。",
+            "textSimplified": "他，来自英国，高高的鼻子，碧蓝的眼睛深陷着，—头鬈曲的头发覆盖着宽阔的额头，看起来十分平易近人，他就是我的外籍老师——文森老师。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 19488,
+            "endMs": 31416,
+            "text": "文森老師非常幽默，他的中文不太好，有時候上英文課，你會看到他站在講臺上指手劃腳的模樣，看起來十分惹笑。",
+            "textSimplified": "文森老师非常幽默，他的中文不太好，有时候上英文课，你会看到他站在讲台上指手划脚的模样，看起来十分惹笑。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 31416,
+            "endMs": 40584,
+            "text": "記得一次英文課，當講到「袋鼠」這個詞時，他模仿了半天，我們也沒明白他扮的是什麼動物。",
+            "textSimplified": "记得一次英文课，当讲到「袋鼠」这个词时，他模仿了半天，我们也没明白他扮的是什么动物。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 40584,
+            "endMs": 46992,
+            "text": "文森老師急得頭上直冒汗，突然，他好像一下有了靈感。",
+            "textSimplified": "文森老师急得头上直冒汗，突然，他好像一下有了灵感。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 46992,
+            "endMs": 63912,
+            "text": "只見他找同學借了一個書包掛在胸前，並且找來一根繩子做尾巴，然後，他把雙手放在身前，在講臺上一蹦一跳的，我們這才恍然大悟，原來他要告訴我們的是「袋鼠」。",
+            "textSimplified": "只见他找同学借了一个书包挂在胸前，并且找来一根绳子做尾巴，然后，他把双手放在身前，在讲台上一蹦一跳的，我们这才恍然大悟，原来他要告诉我们的是「袋鼠」。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 63912,
+            "endMs": 70800,
+            "text": "文森老師很愛笑，就連責備人的時候，嘴角也掛着一絲微笑。",
+            "textSimplified": "文森老师很爱笑，就连责备人的时候，嘴角也挂着一丝微笑。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 70800,
+            "endMs": 77688,
+            "text": "一次英文課上，我用中文記筆記，沒想到被文森老師發現了。",
+            "textSimplified": "一次英文课上，我用中文记笔记，没想到被文森老师发现了。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 77688,
+            "endMs": 87672,
+            "text": "他微笑着對我說：「在我的課堂上，我希望你可以暫時忘記方塊字，學會和這些『小蝌蚪』打交道。",
+            "textSimplified": "他微笑着对我说：「在我的课堂上，我希望你可以暂时忘记方块字，学会和这些『小蝌蚪』打交道。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 87672,
+            "endMs": 92880,
+            "text": "這樣，你才能更好地掌握這門語言。」",
+            "textSimplified": "这样，你才能更好地掌握这门语言。」"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 92880,
+            "endMs": 100776,
+            "text": "以後，每次上英文課，當我想用中文記筆記時，就會想到文森老師的話。",
+            "textSimplified": "以后，每次上英文课，当我想用中文记笔记时，就会想到文森老师的话。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 100776,
+            "endMs": 108792,
+            "text": "很快，我便能自如地用英文記筆記了，並且愛上了這些「小蝌蚪」。",
+            "textSimplified": "很快，我便能自如地用英文记笔记了，并且爱上了这些「小蝌蚪」。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 108792,
+            "endMs": 119112,
+            "text": "文森老師就是這樣一個既幽默又愛笑的人，他那一堂堂生動有趣的課，至今都深深地印在我的腦海中。",
+            "textSimplified": "文森老师就是这样一个既幽默又爱笑的人，他那一堂堂生动有趣的课，至今都深深地印在我的脑海中。"
+          }
+        ]
+      }
+    }
+  ]
+}

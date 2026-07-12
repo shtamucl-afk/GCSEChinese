@@ -1,0 +1,436 @@
+{
+  "bookId": "02",
+  "chapterId": "27",
+  "chapterTitle": "閱讀評估（親愛的愛蓮表妹）",
+  "chapterTitleSimplified": "阅读评估（亲爱的爱莲表妹）",
+  "passages": [
+    "二上：閱讀評估（第七十九頁）\n\n親愛的愛蓮表妹：\n\n你好！昨天，舅舅來我家作客，他說你感冒了，現在好點了嗎？我很擔心你。你一定要好好聽醫生的話，按時喫藥，注意休息。\n\n前幾天的手工課上我們學習了玻璃繪畫，非常好玩，上完課大家都興致不減，想要多做一些作品呢。\n\n我回家後用顏料在牛奶瓶上畫了一幅《可愛的鴨子》，非常有成就感，我把它放在家中的櫥窗裏，下次你來我家就可以看到了。玻璃畫其實很簡單，等聖誕節到了，我們一起在窗子上畫聖誕樹，好不好？\n\n上次你來我家玩，說很喜歡我的書，於是，我和媽媽去書店親自為你挑選了一套《環保小衞士》。昨天，我已經交給舅舅轉交給你，希望你會喜歡。我自己也買了這套書，我們倆來個比賽吧，看誰先讀完它。在讀書的過程中，你有什麼感想，也可以寫信告訴我。\n\n祝早日康復！\n\n表姐\n麗雯\n十二月十日"
+  ],
+  "passagesSimplified": [
+    "二上：阅读评估（第七十九页）\n\n亲爱的爱莲表妹：\n\n你好！昨天，舅舅来我家作客，他说你感冒了，现在好点了吗？我很担心你。你一定要好好听医生的话，按时吃药，注意休息。\n\n前几天的手工课上我们学习了玻璃绘画，非常好玩，上完课大家都兴致不减，想要多做一些作品呢。\n\n我回家后用颜料在牛奶瓶上画了一幅《可爱的鸭子》，非常有成就感，我把它放在家中的橱窗里，下次你来我家就可以看到了。玻璃画其实很简单，等圣诞节到了，我们一起在窗子上画圣诞树，好不好？\n\n上次你来我家玩，说很喜欢我的书，于是，我和妈妈去书店亲自为你挑选了一套《环保小衞士》。昨天，我已经交给舅舅转交给你，希望你会喜欢。我自己也买了这套书，我们俩来个比赛吧，看谁先读完它。在读书的过程中，你有什么感想，也可以写信告诉我。\n\n祝早日康复！\n\n表姐\n丽雯\n十二月十日"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch27_w001",
+      "traditional": "作客",
+      "simplified": "作客",
+      "english": "visit as a guest",
+      "pinyin": "zuò kè",
+      "contextSentence": "昨天，舅舅來我家作客，他說你感冒了，現在好點了嗎？",
+      "contextSentenceSimplified": "昨天，舅舅来我家作客，他说你感冒了，现在好点了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch27_w002",
+      "traditional": "感冒",
+      "simplified": "感冒",
+      "english": "cold (the illness)",
+      "pinyin": "gǎn mào",
+      "contextSentence": "昨天，舅舅來我家作客，他說你感冒了，現在好點了嗎？",
+      "contextSentenceSimplified": "昨天，舅舅来我家作客，他说你感冒了，现在好点了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch27_w003",
+      "traditional": "按時",
+      "simplified": "按时",
+      "english": "on time",
+      "pinyin": "àn shí",
+      "contextSentence": "你一定要好好聽醫生的話，按時喫藥，注意休息。",
+      "contextSentenceSimplified": "你一定要好好听医生的话，按时吃药，注意休息。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch27_w004",
+      "traditional": "興致不減",
+      "simplified": "兴致不减",
+      "english": "interest remains",
+      "pinyin": "xìng zhì bù jiǎn",
+      "contextSentence": "前幾天的手工課上我們學習了玻璃繪畫，非常好玩，上完課大家都興致不減，想要多做一些作品呢。",
+      "contextSentenceSimplified": "前几天的手工课上我们学习了玻璃绘画，非常好玩，上完课大家都兴致不减，想要多做一些作品呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch27_w005",
+      "traditional": "成就感",
+      "simplified": "成就感",
+      "english": "sense of achievement",
+      "pinyin": "chéng jiù gǎn",
+      "contextSentence": "我回家後用顏料在牛奶瓶上畫了一幅《可愛的鴨子》，非常有成就感，我把它放在家中的櫥窗裏，下次你來我家就可以看到了。",
+      "contextSentenceSimplified": "我回家后用颜料在牛奶瓶上画了一幅《可爱的鸭子》，非常有成就感，我把它放在家中的橱窗里，下次你来我家就可以看到了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch27_w006",
+      "traditional": "櫥窗",
+      "simplified": "橱窗",
+      "english": "show window",
+      "pinyin": "chú chuāng",
+      "contextSentence": "我回家後用顏料在牛奶瓶上畫了一幅《可愛的鴨子》，非常有成就感，我把它放在家中的櫥窗裏，下次你來我家就可以看到了。",
+      "contextSentenceSimplified": "我回家后用颜料在牛奶瓶上画了一幅《可爱的鸭子》，非常有成就感，我把它放在家中的橱窗里，下次你来我家就可以看到了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch27_w007",
+      "traditional": "衞士",
+      "simplified": "衞士",
+      "english": "guard",
+      "pinyin": "wèi shì",
+      "contextSentence": "上次你來我家玩，說很喜歡我的書，於是，我和媽媽去書店親自為你挑選了一套《環保小衞士》。",
+      "contextSentenceSimplified": "上次你来我家玩，说很喜欢我的书，于是，我和妈妈去书店亲自为你挑选了一套《环保小衞士》。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter27/b02_ch27_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter27/b02_ch27_w007_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter27/b02_ch27_p01_m.mp3",
+        "durationMs": 83496,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3912,
+            "text": "二上：閱讀評估（第七十九頁）",
+            "textSimplified": "二上：阅读评估（第七十九页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3912,
+            "endMs": 6240,
+            "text": "親愛的愛蓮表妹：",
+            "textSimplified": "亲爱的爱莲表妹："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6240,
+            "endMs": 8016,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8016,
+            "endMs": 13920,
+            "text": "昨天，舅舅來我家作客，他說你感冒了，現在好點了嗎？",
+            "textSimplified": "昨天，舅舅来我家作客，他说你感冒了，现在好点了吗？"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 13920,
+            "endMs": 15840,
+            "text": "我很擔心你。",
+            "textSimplified": "我很担心你。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 15840,
+            "endMs": 20856,
+            "text": "你一定要好好聽醫生的話，按時喫藥，注意休息。",
+            "textSimplified": "你一定要好好听医生的话，按时吃药，注意休息。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 20856,
+            "endMs": 31032,
+            "text": "前幾天的手工課上我們學習了玻璃繪畫，非常好玩，上完課大家都興致不減，想要多做一些作品呢。",
+            "textSimplified": "前几天的手工课上我们学习了玻璃绘画，非常好玩，上完课大家都兴致不减，想要多做一些作品呢。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 31032,
+            "endMs": 43080,
+            "text": "我回家後用顏料在牛奶瓶上畫了一幅《可愛的鴨子》，非常有成就感，我把它放在家中的櫥窗裏，下次你來我家就可以看到了。",
+            "textSimplified": "我回家后用颜料在牛奶瓶上画了一幅《可爱的鸭子》，非常有成就感，我把它放在家中的橱窗里，下次你来我家就可以看到了。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 43080,
+            "endMs": 50664,
+            "text": "玻璃畫其實很簡單，等聖誕節到了，我們一起在窗子上畫聖誕樹，好不好？",
+            "textSimplified": "玻璃画其实很简单，等圣诞节到了，我们一起在窗子上画圣诞树，好不好？"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 50664,
+            "endMs": 60096,
+            "text": "上次你來我家玩，說很喜歡我的書，於是，我和媽媽去書店親自為你挑選了一套《環保小衞士》。",
+            "textSimplified": "上次你来我家玩，说很喜欢我的书，于是，我和妈妈去书店亲自为你挑选了一套《环保小衞士》。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 60096,
+            "endMs": 65496,
+            "text": "昨天，我已經交給舅舅轉交給你，希望你會喜歡。",
+            "textSimplified": "昨天，我已经交给舅舅转交给你，希望你会喜欢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 65496,
+            "endMs": 71376,
+            "text": "我自己也買了這套書，我們倆來個比賽吧，看誰先讀完它。",
+            "textSimplified": "我自己也买了这套书，我们俩来个比赛吧，看谁先读完它。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 71376,
+            "endMs": 76776,
+            "text": "在讀書的過程中，你有什麼感想，也可以寫信告訴我。",
+            "textSimplified": "在读书的过程中，你有什么感想，也可以写信告诉我。"
+          },
+          {
+            "index": 13,
+            "paragraph": 12,
+            "startMs": 76776,
+            "endMs": 78768,
+            "text": "祝早日康復！",
+            "textSimplified": "祝早日康复！"
+          },
+          {
+            "index": 14,
+            "paragraph": 14,
+            "startMs": 78768,
+            "endMs": 80160,
+            "text": "表姐",
+            "textSimplified": "表姐"
+          },
+          {
+            "index": 15,
+            "paragraph": 15,
+            "startMs": 80160,
+            "endMs": 81504,
+            "text": "麗雯",
+            "textSimplified": "丽雯"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 81504,
+            "endMs": 83496,
+            "text": "十二月十日",
+            "textSimplified": "十二月十日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter27/b02_ch27_p01_c.mp3",
+        "durationMs": 92736,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4128,
+            "text": "二上：閱讀評估（第七十九頁）",
+            "textSimplified": "二上：阅读评估（第七十九页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4128,
+            "endMs": 6936,
+            "text": "親愛的愛蓮表妹：",
+            "textSimplified": "亲爱的爱莲表妹："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6936,
+            "endMs": 8760,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8760,
+            "endMs": 15288,
+            "text": "昨天，舅舅來我家作客，他說你感冒了，現在好點了嗎？",
+            "textSimplified": "昨天，舅舅来我家作客，他说你感冒了，现在好点了吗？"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 15288,
+            "endMs": 17736,
+            "text": "我很擔心你。",
+            "textSimplified": "我很担心你。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 17736,
+            "endMs": 23376,
+            "text": "你一定要好好聽醫生的話，按時喫藥，注意休息。",
+            "textSimplified": "你一定要好好听医生的话，按时吃药，注意休息。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 23376,
+            "endMs": 33960,
+            "text": "前幾天的手工課上我們學習了玻璃繪畫，非常好玩，上完課大家都興致不減，想要多做一些作品呢。",
+            "textSimplified": "前几天的手工课上我们学习了玻璃绘画，非常好玩，上完课大家都兴致不减，想要多做一些作品呢。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 33960,
+            "endMs": 46392,
+            "text": "我回家後用顏料在牛奶瓶上畫了一幅《可愛的鴨子》，非常有成就感，我把它放在家中的櫥窗裏，下次你來我家就可以看到了。",
+            "textSimplified": "我回家后用颜料在牛奶瓶上画了一幅《可爱的鸭子》，非常有成就感，我把它放在家中的橱窗里，下次你来我家就可以看到了。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 46392,
+            "endMs": 54888,
+            "text": "玻璃畫其實很簡單，等聖誕節到了，我們一起在窗子上畫聖誕樹，好不好？",
+            "textSimplified": "玻璃画其实很简单，等圣诞节到了，我们一起在窗子上画圣诞树，好不好？"
+          },
+          {
+            "index": 9,
+            "paragraph": 10,
+            "startMs": 54888,
+            "endMs": 65712,
+            "text": "上次你來我家玩，說很喜歡我的書，於是，我和媽媽去書店親自為你挑選了一套《環保小衞士》。",
+            "textSimplified": "上次你来我家玩，说很喜欢我的书，于是，我和妈妈去书店亲自为你挑选了一套《环保小衞士》。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 65712,
+            "endMs": 71640,
+            "text": "昨天，我已經交給舅舅轉交給你，希望你會喜歡。",
+            "textSimplified": "昨天，我已经交给舅舅转交给你，希望你会喜欢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 71640,
+            "endMs": 78456,
+            "text": "我自己也買了這套書，我們倆來個比賽吧，看誰先讀完它。",
+            "textSimplified": "我自己也买了这套书，我们俩来个比赛吧，看谁先读完它。"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 78456,
+            "endMs": 84624,
+            "text": "在讀書的過程中，你有什麼感想，也可以寫信告訴我。",
+            "textSimplified": "在读书的过程中，你有什么感想，也可以写信告诉我。"
+          },
+          {
+            "index": 13,
+            "paragraph": 12,
+            "startMs": 84624,
+            "endMs": 86904,
+            "text": "祝早日康復！",
+            "textSimplified": "祝早日康复！"
+          },
+          {
+            "index": 14,
+            "paragraph": 14,
+            "startMs": 86904,
+            "endMs": 88680,
+            "text": "表姐",
+            "textSimplified": "表姐"
+          },
+          {
+            "index": 15,
+            "paragraph": 15,
+            "startMs": 88680,
+            "endMs": 90456,
+            "text": "麗雯",
+            "textSimplified": "丽雯"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 90456,
+            "endMs": 92736,
+            "text": "十二月十日",
+            "textSimplified": "十二月十日"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "bookId": "03",
+  "chapterId": "17",
+  "chapterTitle": "童話書的自述",
+  "chapterTitleSimplified": "童话书的自述",
+  "passages": [
+    "二下 ：童話書的自述（第五十六頁） 小朋友，你好，我是一本漂亮的童話書。 我身穿一件美麗的花衣服，看：我衣服的底色是藍色的，上面印有三隻小豬的圖案，在它們的點綴下，我顯得十分活潑、可愛。我的形狀是長方形的，不寬也不窄，厚度大概有一釐米，100頁左右。 每天，小主人放學回家，都會把我找出來看上幾頁。我的肚子裏裝了好多好多的學問，我身上密密麻麻的文字可以告訴小主人許多好聽的故事，教給小主人知識。除了文字以外，我身上還有很多圖畫，像可愛的小紅帽啊，美麗的人魚公主啊，它們把我打扮得美麗極了。小主人認真閱讀着我身上的文字，可真投入啊。有時候，他還會在我身上勾勾畫畫，把一些好詞佳句勾畫出來。雖然，我的肚皮上有了些斑斑點點的痕跡，但是，我一點也不難過，因為只要能給小主人服務，我就非常快樂。 別看我只是一本小小的童話書，我的作用可大了。在我身上，你不僅能讀到好多好聽的童話故事，還能明白一些做人的道理，開闊眼界呢。我希望每一個閱讀我的小朋友都有豐富的知識，在閱讀或者寫作的時候能妙語連珠、下筆如有神。 怎麼樣？聽了我的介紹，你是不是也想趕快來閱讀我這本童話書呢？ 小朋友，希望我能給你們帶來幫助，希望你們都是愛閱讀、愛學習的好孩子。"
+  ],
+  "passagesSimplified": [
+    "二下 ：童话书的自述（第五十六页） 小朋友，你好，我是一本漂亮的童话书。 我身穿一件美丽的花衣服，看：我衣服的底色是蓝色的，上面印有三只小猪的图案，在它们的点缀下，我显得十分活泼、可爱。我的形状是长方形的，不宽也不窄，厚度大概有一厘米，100页左右。 每天，小主人放学回家，都会把我找出来看上几页。我的肚子里装了好多好多的学问，我身上密密麻麻的文字可以告诉小主人许多好听的故事，教给小主人知识。除了文字以外，我身上还有很多图画，像可爱的小红帽啊，美丽的人鱼公主啊，它们把我打扮得美丽极了。小主人认真阅读着我身上的文字，可真投入啊。有时候，他还会在我身上勾勾画画，把一些好词佳句勾画出来。虽然，我的肚皮上有了些斑斑点点的痕迹，但是，我一点也不难过，因为只要能给小主人服务，我就非常快乐。 别看我只是一本小小的童话书，我的作用可大了。在我身上，你不仅能读到好多好听的童话故事，还能明白一些做人的道理，开阔眼界呢。我希望每一个阅读我的小朋友都有丰富的知识，在阅读或者写作的时候能妙语连珠、下笔如有神。 怎么样？听了我的介绍，你是不是也想赶快来阅读我这本童话书呢？ 小朋友，希望我能给你们带来帮助，希望你们都是爱阅读、爱学习的好孩子。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch17_w001",
+      "traditional": "自述",
+      "simplified": "自述",
+      "english": "autobiography / self-account",
+      "pinyin": "zì shù",
+      "contextSentence": "童話書的自述:    小朋友，你好，我是一本漂亮的童話書。",
+      "contextSentenceSimplified": "童话书的自述:    小朋友，你好，我是一本漂亮的童话书。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w002",
+      "traditional": "印",
+      "simplified": "印",
+      "english": "to print / to stamp / mark",
+      "pinyin": "yìn",
+      "contextSentence": "我身穿一件美麗的花衣服，看：我衣服的底色是藍色的，上面印有三隻小豬的圖案，在它們的點綴下，我顯得十分活潑、可愛。",
+      "contextSentenceSimplified": "我身穿一件美丽的花衣服，看：我衣服的底色是蓝色的，上面印有三只小猪的图案，在它们的点缀下，我显得十分活泼、可爱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w003",
+      "traditional": "點綴",
+      "simplified": "点缀",
+      "english": "decorate",
+      "pinyin": "diǎn zhuì",
+      "contextSentence": "我身穿一件美麗的花衣服，看：我衣服的底色是藍色的，上面印有三隻小豬的圖案，在它們的點綴下，我顯得十分活潑、可愛。",
+      "contextSentenceSimplified": "我身穿一件美丽的花衣服，看：我衣服的底色是蓝色的，上面印有三只小猪的图案，在它们的点缀下，我显得十分活泼、可爱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w004",
+      "traditional": "不寬也不窄",
+      "simplified": "不宽也不窄",
+      "english": "neither wide nor narrow / just right",
+      "pinyin": "bù kuān yě bù zhǎi",
+      "contextSentence": "我的形狀是長方形的，不寬也不窄，厚度大概有一釐米，100頁左右。",
+      "contextSentenceSimplified": "我的形状是长方形的，不宽也不窄，厚度大概有一厘米，100页左右。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w005",
+      "traditional": "投入",
+      "simplified": "投入",
+      "english": "to put into / devote to",
+      "pinyin": "tóu rù",
+      "contextSentence": "小主人認真閱讀着我身上的文字，可真投入啊。",
+      "contextSentenceSimplified": "小主人认真阅读着我身上的文字，可真投入啊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w006",
+      "traditional": "勾勾畫畫",
+      "simplified": "勾勾画画",
+      "english": "to doodle / to sketch",
+      "pinyin": "gōu gōu huà huà",
+      "contextSentence": "有時候，他還會在我身上勾勾畫畫，把一些好詞佳句勾畫出來。",
+      "contextSentenceSimplified": "有时候，他还会在我身上勾勾画画，把一些好词佳句勾画出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w007",
+      "traditional": "好詞佳句",
+      "simplified": "好词佳句",
+      "english": "beautiful words and phrases",
+      "pinyin": "hǎo cí jiā jù",
+      "contextSentence": "有時候，他還會在我身上勾勾畫畫，把一些好詞佳句勾畫出來。",
+      "contextSentenceSimplified": "有时候，他还会在我身上勾勾画画，把一些好词佳句勾画出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w008",
+      "traditional": "痕跡",
+      "simplified": "痕迹",
+      "english": "trace / mark / track",
+      "pinyin": "hén jī",
+      "contextSentence": "雖然，我的肚皮上有了些斑斑點點的痕跡，但是，我一點也不難過，因為只要能給小主人服務，我就非常快樂。",
+      "contextSentenceSimplified": "虽然，我的肚皮上有了些斑斑点点的痕迹，但是，我一点也不难过，因为只要能给小主人服务，我就非常快乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w009",
+      "traditional": "服務",
+      "simplified": "服务",
+      "english": "service / to serve",
+      "pinyin": "fú wù",
+      "contextSentence": "雖然，我的肚皮上有了些斑斑點點的痕跡，但是，我一點也不難過，因為只要能給小主人服務，我就非常快樂。",
+      "contextSentenceSimplified": "虽然，我的肚皮上有了些斑斑点点的痕迹，但是，我一点也不难过，因为只要能给小主人服务，我就非常快乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w010",
+      "traditional": "開闊眼界",
+      "simplified": "开阔眼界",
+      "english": "broaden one's horizons",
+      "pinyin": "kāi kuò yǎn jiè",
+      "contextSentence": "在我身上，你不僅能讀到好多好聽的童話故事，還能明白一些做人的道理，開闊眼界呢。",
+      "contextSentenceSimplified": "在我身上，你不仅能读到好多好听的童话故事，还能明白一些做人的道理，开阔眼界呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w011",
+      "traditional": "豐富",
+      "simplified": "丰富",
+      "english": "rich / abundant",
+      "pinyin": "fēng fù",
+      "contextSentence": "我希望每一個閱讀我的小朋友都有豐富的知識，在閱讀或者寫作的時候能妙語連珠、下筆如有神。",
+      "contextSentenceSimplified": "我希望每一个阅读我的小朋友都有丰富的知识，在阅读或者写作的时候能妙语连珠、下笔如有神。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w012",
+      "traditional": "妙語連珠",
+      "simplified": "妙语连珠",
+      "english": "witty remarks flowing like pearls",
+      "pinyin": "miào yǔ lián zhū",
+      "contextSentence": "我希望每一個閱讀我的小朋友都有豐富的知識，在閱讀或者寫作的時候能妙語連珠、下筆如有神。",
+      "contextSentenceSimplified": "我希望每一个阅读我的小朋友都有丰富的知识，在阅读或者写作的时候能妙语连珠、下笔如有神。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w013",
+      "traditional": "下筆如有神",
+      "simplified": "下笔如有神",
+      "english": "write with divine inspiration / write fluently",
+      "pinyin": "xià bǐ rú yǒu shén",
+      "contextSentence": "我希望每一個閱讀我的小朋友都有豐富的知識，在閱讀或者寫作的時候能妙語連珠、下筆如有神。",
+      "contextSentenceSimplified": "我希望每一个阅读我的小朋友都有丰富的知识，在阅读或者写作的时候能妙语连珠、下笔如有神。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch17_w014",
+      "traditional": "介紹",
+      "simplified": "介绍",
+      "english": "to introduce / introduction",
+      "pinyin": "jiè shào",
+      "contextSentence": "聽了我的介紹，你是不是也想趕快來閱讀我這本童話書呢？",
+      "contextSentenceSimplified": "听了我的介绍，你是不是也想赶快来阅读我这本童话书呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter17/b03_ch17_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter17/b03_ch17_w014_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter17/b03_ch17_p01_m.mp3",
+        "durationMs": 116400,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8064,
+            "text": "二下 ：童話書的自述（第五十六頁） 小朋友，你好，我是一本漂亮的童話書。",
+            "textSimplified": "二下 ：童话书的自述（第五十六页） 小朋友，你好，我是一本漂亮的童话书。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8064,
+            "endMs": 20808,
+            "text": "我身穿一件美麗的花衣服，看：我衣服的底色是藍色的，上面印有三隻小豬的圖案，在它們的點綴下，我顯得十分活潑、可愛。",
+            "textSimplified": "我身穿一件美丽的花衣服，看：我衣服的底色是蓝色的，上面印有三只小猪的图案，在它们的点缀下，我显得十分活泼、可爱。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 20808,
+            "endMs": 28152,
+            "text": "我的形狀是長方形的，不寬也不窄，厚度大概有一釐米，100頁左右。",
+            "textSimplified": "我的形状是长方形的，不宽也不窄，厚度大概有一厘米，100页左右。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 28152,
+            "endMs": 33864,
+            "text": "每天，小主人放學回家，都會把我找出來看上幾頁。",
+            "textSimplified": "每天，小主人放学回家，都会把我找出来看上几页。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 33864,
+            "endMs": 44736,
+            "text": "我的肚子裏裝了好多好多的學問，我身上密密麻麻的文字可以告訴小主人許多好聽的故事，教給小主人知識。",
+            "textSimplified": "我的肚子里装了好多好多的学问，我身上密密麻麻的文字可以告诉小主人许多好听的故事，教给小主人知识。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 44736,
+            "endMs": 54864,
+            "text": "除了文字以外，我身上還有很多圖畫，像可愛的小紅帽啊，美麗的人魚公主啊，它們把我打扮得美麗極了。",
+            "textSimplified": "除了文字以外，我身上还有很多图画，像可爱的小红帽啊，美丽的人鱼公主啊，它们把我打扮得美丽极了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 54864,
+            "endMs": 59904,
+            "text": "小主人認真閱讀着我身上的文字，可真投入啊。",
+            "textSimplified": "小主人认真阅读着我身上的文字，可真投入啊。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 59904,
+            "endMs": 66528,
+            "text": "有時候，他還會在我身上勾勾畫畫，把一些好詞佳句勾畫出來。",
+            "textSimplified": "有时候，他还会在我身上勾勾画画，把一些好词佳句勾画出来。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 66528,
+            "endMs": 77616,
+            "text": "雖然，我的肚皮上有了些斑斑點點的痕跡，但是，我一點也不難過，因為只要能給小主人服務，我就非常快樂。",
+            "textSimplified": "虽然，我的肚皮上有了些斑斑点点的痕迹，但是，我一点也不难过，因为只要能给小主人服务，我就非常快乐。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 77616,
+            "endMs": 82584,
+            "text": "別看我只是一本小小的童話書，我的作用可大了。",
+            "textSimplified": "别看我只是一本小小的童话书，我的作用可大了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 82584,
+            "endMs": 91152,
+            "text": "在我身上，你不僅能讀到好多好聽的童話故事，還能明白一些做人的道理，開闊眼界呢。",
+            "textSimplified": "在我身上，你不仅能读到好多好听的童话故事，还能明白一些做人的道理，开阔眼界呢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 91152,
+            "endMs": 101160,
+            "text": "我希望每一個閱讀我的小朋友都有豐富的知識，在閱讀或者寫作的時候能妙語連珠、下筆如有神。",
+            "textSimplified": "我希望每一个阅读我的小朋友都有丰富的知识，在阅读或者写作的时候能妙语连珠、下笔如有神。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 101160,
+            "endMs": 102936,
+            "text": "怎麼樣？",
+            "textSimplified": "怎么样？"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 102936,
+            "endMs": 108528,
+            "text": "聽了我的介紹，你是不是也想趕快來閱讀我這本童話書呢？",
+            "textSimplified": "听了我的介绍，你是不是也想赶快来阅读我这本童话书呢？"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 108528,
+            "endMs": 116400,
+            "text": "小朋友，希望我能給你們帶來幫助，希望你們都是愛閱讀、愛學習的好孩子。",
+            "textSimplified": "小朋友，希望我能给你们带来帮助，希望你们都是爱阅读、爱学习的好孩子。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter17/b03_ch17_p01_c.mp3",
+        "durationMs": 123072,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 8760,
+            "text": "二下 ：童話書的自述（第五十六頁） 小朋友，你好，我是一本漂亮的童話書。",
+            "textSimplified": "二下 ：童话书的自述（第五十六页） 小朋友，你好，我是一本漂亮的童话书。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 8760,
+            "endMs": 21480,
+            "text": "我身穿一件美麗的花衣服，看：我衣服的底色是藍色的，上面印有三隻小豬的圖案，在它們的點綴下，我顯得十分活潑、可愛。",
+            "textSimplified": "我身穿一件美丽的花衣服，看：我衣服的底色是蓝色的，上面印有三只小猪的图案，在它们的点缀下，我显得十分活泼、可爱。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 21480,
+            "endMs": 29016,
+            "text": "我的形狀是長方形的，不寬也不窄，厚度大概有一釐米，100頁左右。",
+            "textSimplified": "我的形状是长方形的，不宽也不窄，厚度大概有一厘米，100页左右。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 29016,
+            "endMs": 35184,
+            "text": "每天，小主人放學回家，都會把我找出來看上幾頁。",
+            "textSimplified": "每天，小主人放学回家，都会把我找出来看上几页。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 35184,
+            "endMs": 45936,
+            "text": "我的肚子裏裝了好多好多的學問，我身上密密麻麻的文字可以告訴小主人許多好聽的故事，教給小主人知識。",
+            "textSimplified": "我的肚子里装了好多好多的学问，我身上密密麻麻的文字可以告诉小主人许多好听的故事，教给小主人知识。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 45936,
+            "endMs": 56808,
+            "text": "除了文字以外，我身上還有很多圖畫，像可愛的小紅帽啊，美麗的人魚公主啊，它們把我打扮得美麗極了。",
+            "textSimplified": "除了文字以外，我身上还有很多图画，像可爱的小红帽啊，美丽的人鱼公主啊，它们把我打扮得美丽极了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 56808,
+            "endMs": 62304,
+            "text": "小主人認真閱讀着我身上的文字，可真投入啊。",
+            "textSimplified": "小主人认真阅读着我身上的文字，可真投入啊。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 62304,
+            "endMs": 69480,
+            "text": "有時候，他還會在我身上勾勾畫畫，把一些好詞佳句勾畫出來。",
+            "textSimplified": "有时候，他还会在我身上勾勾画画，把一些好词佳句勾画出来。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 69480,
+            "endMs": 81096,
+            "text": "雖然，我的肚皮上有了些斑斑點點的痕跡，但是，我一點也不難過，因為只要能給小主人服務，我就非常快樂。",
+            "textSimplified": "虽然，我的肚皮上有了些斑斑点点的痕迹，但是，我一点也不难过，因为只要能给小主人服务，我就非常快乐。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 81096,
+            "endMs": 86856,
+            "text": "別看我只是一本小小的童話書，我的作用可大了。",
+            "textSimplified": "别看我只是一本小小的童话书，我的作用可大了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 86856,
+            "endMs": 96168,
+            "text": "在我身上，你不僅能讀到好多好聽的童話故事，還能明白一些做人的道理，開闊眼界呢。",
+            "textSimplified": "在我身上，你不仅能读到好多好听的童话故事，还能明白一些做人的道理，开阔眼界呢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 96168,
+            "endMs": 105768,
+            "text": "我希望每一個閱讀我的小朋友都有豐富的知識，在閱讀或者寫作的時候能妙語連珠、下筆如有神。",
+            "textSimplified": "我希望每一个阅读我的小朋友都有丰富的知识，在阅读或者写作的时候能妙语连珠、下笔如有神。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 105768,
+            "endMs": 107760,
+            "text": "怎麼樣？",
+            "textSimplified": "怎么样？"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 107760,
+            "endMs": 114360,
+            "text": "聽了我的介紹，你是不是也想趕快來閱讀我這本童話書呢？",
+            "textSimplified": "听了我的介绍，你是不是也想赶快来阅读我这本童话书呢？"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 114360,
+            "endMs": 123072,
+            "text": "小朋友，希望我能給你們帶來幫助，希望你們都是愛閱讀、愛學習的好孩子。",
+            "textSimplified": "小朋友，希望我能给你们带来帮助，希望你们都是爱阅读、爱学习的好孩子。"
+          }
+        ]
+      }
+    }
+  ]
+}

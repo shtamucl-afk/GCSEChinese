@@ -1,0 +1,965 @@
+{
+  "bookId": "03",
+  "chapterId": "19",
+  "chapterTitle": "香蕉",
+  "chapterTitleSimplified": "香蕉",
+  "passages": [
+    "二下 ：香蕉（第六十頁） 『身穿黃衣裳，彎彎像月亮。兄弟排一起，個個甜蜜蜜。』你知道這個謎語的謎底嗎？對了，就是香蕉。 香蕉像個魔術師，它最喜歡換衣服。你瞧，在它沒成熟的時候，它穿着一件綠色的外衣；等到成熟了，衣服又逐漸變成了黃色；要是香蕉熟透了，慢慢的，黃色的衣服會漸漸變暗，有時上面還會布滿黑色的小斑點；如果它不小心爛掉了，它的衣服又變成了黑色。 香蕉香味濃鬱，味道甜美。撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。輕輕咬一口，軟軟的，甜甜的，喫完一口讓人迫不及待想喫下一口。 香蕉不僅好喫，而且營養豐富，所以深受大家的喜愛。據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。 香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。 喫着甜甜的香蕉，你會變得更加快樂，你會發現我們的生活也像香蕉一樣甜。"
+  ],
+  "passagesSimplified": [
+    "二下 ：香蕉（第六十页） 『身穿黄衣裳，弯弯像月亮。兄弟排一起，个个甜蜜蜜。』你知道这个谜语的谜底吗？对了，就是香蕉。 香蕉像个魔术师，它最喜欢换衣服。你瞧，在它没成熟的时候，它穿着一件绿色的外衣；等到成熟了，衣服又逐渐变成了黄色；要是香蕉熟透了，慢慢的，黄色的衣服会渐渐变暗，有时上面还会布满黑色的小斑点；如果它不小心烂掉了，它的衣服又变成了黑色。 香蕉香味浓郁，味道甜美。撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。轻轻咬一口，软软的，甜甜的，吃完一口让人迫不及待想吃下一口。 香蕉不仅好吃，而且营养丰富，所以深受大家的喜爱。据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。 香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。 吃着甜甜的香蕉，你会变得更加快乐，你会发现我们的生活也像香蕉一样甜。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch19_w001",
+      "traditional": "衣裳",
+      "simplified": "衣裳",
+      "english": "clothes",
+      "pinyin": "yī shang",
+      "contextSentence": "身穿黃衣裳，彎彎像月亮。",
+      "contextSentenceSimplified": "身穿黄衣裳，弯弯像月亮。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w002",
+      "traditional": "謎語",
+      "simplified": "谜语",
+      "english": "riddle",
+      "pinyin": "mí yǔ",
+      "contextSentence": "你知道這個謎語的謎底嗎？",
+      "contextSentenceSimplified": "你知道这个谜语的谜底吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w003",
+      "traditional": "謎底",
+      "simplified": "谜底",
+      "english": "answer to a riddle /谜底",
+      "pinyin": "mí dǐ",
+      "contextSentence": "你知道這個謎語的謎底嗎？",
+      "contextSentenceSimplified": "你知道这个谜语的谜底吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w004",
+      "traditional": "魔術師",
+      "simplified": "魔术师",
+      "english": "magician / illusionist",
+      "pinyin": "mó shù shī",
+      "contextSentence": "香蕉像個魔術師，它最喜歡換衣服。",
+      "contextSentenceSimplified": "香蕉像个魔术师，它最喜欢换衣服。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w005",
+      "traditional": "逐漸",
+      "simplified": "逐渐",
+      "english": "gradually / progressively",
+      "pinyin": "zhú jiàn",
+      "contextSentence": "你瞧，在它沒成熟的時候，它穿着一件綠色的外衣；等到成熟了，衣服又逐漸變成了黃色；要是香蕉熟透了，慢慢的，黃色的衣服會漸漸變暗，有時上面還會布滿黑色的小斑點；如果它不小心爛掉了，它的衣服又變成了黑色。",
+      "contextSentenceSimplified": "你瞧，在它没成熟的时候，它穿着一件绿色的外衣；等到成熟了，衣服又逐渐变成了黄色；要是香蕉熟透了，慢慢的，黄色的衣服会渐渐变暗，有时上面还会布满黑色的小斑点；如果它不小心烂掉了，它的衣服又变成了黑色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w006",
+      "traditional": "爛掉",
+      "simplified": "烂掉",
+      "english": "to rot / spoil",
+      "pinyin": "làn diào",
+      "contextSentence": "你瞧，在它沒成熟的時候，它穿着一件綠色的外衣；等到成熟了，衣服又逐漸變成了黃色；要是香蕉熟透了，慢慢的，黃色的衣服會漸漸變暗，有時上面還會布滿黑色的小斑點；如果它不小心爛掉了，它的衣服又變成了黑色。",
+      "contextSentenceSimplified": "你瞧，在它没成熟的时候，它穿着一件绿色的外衣；等到成熟了，衣服又逐渐变成了黄色；要是香蕉熟透了，慢慢的，黄色的衣服会渐渐变暗，有时上面还会布满黑色的小斑点；如果它不小心烂掉了，它的衣服又变成了黑色。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w007",
+      "traditional": "濃鬱",
+      "simplified": "浓郁",
+      "english": "rich / strong (scent/flavor)",
+      "pinyin": "nóng yù",
+      "contextSentence": "香蕉香味濃鬱，味道甜美。",
+      "contextSentenceSimplified": "香蕉香味浓郁，味道甜美。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w008",
+      "traditional": "撕開",
+      "simplified": "撕开",
+      "english": "to tear open / rip",
+      "pinyin": "sī kāi",
+      "contextSentence": "撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。",
+      "contextSentenceSimplified": "撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w009",
+      "traditional": "泛黃",
+      "simplified": "泛黄",
+      "english": "turn yellow / yellowed",
+      "pinyin": "fàn huáng",
+      "contextSentence": "撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。",
+      "contextSentenceSimplified": "撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w010",
+      "traditional": "一股",
+      "simplified": "一股",
+      "english": "a wisp / a stream / a smell of",
+      "pinyin": "yī gǔ",
+      "contextSentence": "撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。",
+      "contextSentenceSimplified": "撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w011",
+      "traditional": "撲鼻而來",
+      "simplified": "扑鼻而来",
+      "english": "hit the nose / pungent smell",
+      "pinyin": "pū bí ér lái",
+      "contextSentence": "撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。",
+      "contextSentenceSimplified": "撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w012",
+      "traditional": "迫不及待",
+      "simplified": "迫不及待",
+      "english": "can't wait / impatient",
+      "pinyin": "pò bù jí dài",
+      "contextSentence": "輕輕咬一口，軟軟的，甜甜的，喫完一口讓人迫不及待想喫下一口。",
+      "contextSentenceSimplified": "轻轻咬一口，软软的，甜甜的，吃完一口让人迫不及待想吃下一口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w013",
+      "traditional": "營養豐富",
+      "simplified": "营养丰富",
+      "english": "rich in nutrients / nutritious",
+      "pinyin": "yíng yǎng fēng fù",
+      "contextSentence": "香蕉不僅好喫，而且營養豐富，所以深受大家的喜愛。",
+      "contextSentenceSimplified": "香蕉不仅好吃，而且营养丰富，所以深受大家的喜爱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w014",
+      "traditional": "深受",
+      "simplified": "深受",
+      "english": "deeply affected / deeply",
+      "pinyin": "shēn shòu",
+      "contextSentence": "香蕉不僅好喫，而且營養豐富，所以深受大家的喜愛。",
+      "contextSentenceSimplified": "香蕉不仅好吃，而且营养丰富，所以深受大家的喜爱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w015",
+      "traditional": "喜愛",
+      "simplified": "喜爱",
+      "english": "to love / to like dearly",
+      "pinyin": "xǐ ài",
+      "contextSentence": "香蕉不僅好喫，而且營養豐富，所以深受大家的喜愛。",
+      "contextSentenceSimplified": "香蕉不仅好吃，而且营养丰富，所以深受大家的喜爱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w016",
+      "traditional": "據說",
+      "simplified": "据说",
+      "english": "it is said / reportedly",
+      "pinyin": "jù shuō",
+      "contextSentence": "據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。",
+      "contextSentenceSimplified": "据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w017",
+      "traditional": "歐洲",
+      "simplified": "欧洲",
+      "english": "Europe",
+      "pinyin": "ōu zhōu",
+      "contextSentence": "據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。",
+      "contextSentenceSimplified": "据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w018",
+      "traditional": "解除",
+      "simplified": "解除",
+      "english": "to be relieved of",
+      "pinyin": "jiě chú",
+      "contextSentence": "據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。",
+      "contextSentenceSimplified": "据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w019",
+      "traditional": "憂鬱",
+      "simplified": "忧郁",
+      "english": "melancholy / depressed / blue",
+      "pinyin": "yōu yù",
+      "contextSentence": "據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。",
+      "contextSentenceSimplified": "据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w020",
+      "traditional": "智慧",
+      "simplified": "智慧",
+      "english": "wisdom",
+      "pinyin": "zhì huì",
+      "contextSentence": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+      "contextSentenceSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w021",
+      "traditional": "傳說",
+      "simplified": "传说",
+      "english": "legend / folklore",
+      "pinyin": "chuán shuō",
+      "contextSentence": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+      "contextSentenceSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w022",
+      "traditional": "佛祖",
+      "simplified": "佛祖",
+      "english": "Buddha",
+      "pinyin": "fó zǔ",
+      "contextSentence": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+      "contextSentenceSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w023",
+      "traditional": "釋迦牟尼",
+      "simplified": "释迦牟尼",
+      "english": "Shakyamuni Buddha",
+      "pinyin": "shì jiā móu ní",
+      "contextSentence": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+      "contextSentenceSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w024",
+      "traditional": "獲得",
+      "simplified": "获得",
+      "english": "to obtain / gain / achieve",
+      "pinyin": "huò dé",
+      "contextSentence": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+      "contextSentenceSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w024_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w024_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w025",
+      "traditional": "營養價值",
+      "simplified": "营养价值",
+      "english": "nutritional value",
+      "pinyin": "yíng yǎng jià zhí",
+      "contextSentence": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+      "contextSentenceSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w025_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w025_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w026",
+      "traditional": "熱量",
+      "simplified": "热量",
+      "english": "calories / heat energy",
+      "pinyin": "rè liàng",
+      "contextSentence": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+      "contextSentenceSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w026_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w026_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w027",
+      "traditional": "磷",
+      "simplified": "磷",
+      "english": "phosphorus",
+      "pinyin": "lín",
+      "contextSentence": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+      "contextSentenceSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w027_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w027_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w028",
+      "traditional": "蛋白質",
+      "simplified": "蛋白质",
+      "english": "protein",
+      "pinyin": "dàn bái zhì",
+      "contextSentence": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+      "contextSentenceSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w028_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w028_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w029",
+      "traditional": "維他命",
+      "simplified": "维他命",
+      "english": "vitamin",
+      "pinyin": "wéi tā mìng",
+      "contextSentence": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+      "contextSentenceSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w029_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w029_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w030",
+      "traditional": "膳食纖維",
+      "simplified": "膳食纤维",
+      "english": "dietary fiber",
+      "pinyin": "shàn shí xiān wéi",
+      "contextSentence": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+      "contextSentenceSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w030_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w030_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w031",
+      "traditional": "原產於",
+      "simplified": "原产于",
+      "english": "originally from / native to",
+      "pinyin": "yuán chǎn yú",
+      "contextSentence": "香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。",
+      "contextSentenceSimplified": "香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w031_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w031_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w031_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w032",
+      "traditional": "熱帶",
+      "simplified": "热带",
+      "english": "tropical",
+      "pinyin": "rè dài",
+      "contextSentence": "香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。",
+      "contextSentenceSimplified": "香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w032_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w032_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w032_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w032_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w033",
+      "traditional": "亞熱帶",
+      "simplified": "亚热带",
+      "english": "subtropical",
+      "pinyin": "yà rè dài",
+      "contextSentence": "香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。",
+      "contextSentenceSimplified": "香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w033_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w033_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w033_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w033_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch19_w034",
+      "traditional": "分佈",
+      "simplified": "分布",
+      "english": "distribution / scattered",
+      "pinyin": "fēn bù",
+      "contextSentence": "香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。",
+      "contextSentenceSimplified": "香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w034_m_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w034_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter19/b03_ch19_w034_c_isolated.mp3",
+          "sentence": "audio/book03/chapter19/b03_ch19_w034_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter19/b03_ch19_p01_m.mp3",
+        "durationMs": 119832,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 5928,
+            "text": "二下 ：香蕉（第六十頁） 『身穿黃衣裳，彎彎像月亮。",
+            "textSimplified": "二下 ：香蕉（第六十页） 『身穿黄衣裳，弯弯像月亮。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 5928,
+            "endMs": 9264,
+            "text": "兄弟排一起，個個甜蜜蜜。』",
+            "textSimplified": "兄弟排一起，个个甜蜜蜜。』"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 9264,
+            "endMs": 12096,
+            "text": "你知道這個謎語的謎底嗎？",
+            "textSimplified": "你知道这个谜语的谜底吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 12096,
+            "endMs": 14592,
+            "text": "對了，就是香蕉。",
+            "textSimplified": "对了，就是香蕉。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 14592,
+            "endMs": 18768,
+            "text": "香蕉像個魔術師，它最喜歡換衣服。",
+            "textSimplified": "香蕉像个魔术师，它最喜欢换衣服。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 18768,
+            "endMs": 24168,
+            "text": "你瞧，在它沒成熟的時候，它穿着一件綠色的外衣；",
+            "textSimplified": "你瞧，在它没成熟的时候，它穿着一件绿色的外衣；"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 24168,
+            "endMs": 28440,
+            "text": "等到成熟了，衣服又逐漸變成了黃色；",
+            "textSimplified": "等到成熟了，衣服又逐渐变成了黄色；"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 28440,
+            "endMs": 37656,
+            "text": "要是香蕉熟透了，慢慢的，黃色的衣服會漸漸變暗，有時上面還會布滿黑色的小斑點；",
+            "textSimplified": "要是香蕉熟透了，慢慢的，黄色的衣服会渐渐变暗，有时上面还会布满黑色的小斑点；"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 37656,
+            "endMs": 42648,
+            "text": "如果它不小心爛掉了，它的衣服又變成了黑色。",
+            "textSimplified": "如果它不小心烂掉了，它的衣服又变成了黑色。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 42648,
+            "endMs": 46104,
+            "text": "香蕉香味濃鬱，味道甜美。",
+            "textSimplified": "香蕉香味浓郁，味道甜美。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 46104,
+            "endMs": 56856,
+            "text": "撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。",
+            "textSimplified": "撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 56856,
+            "endMs": 64248,
+            "text": "輕輕咬一口，軟軟的，甜甜的，喫完一口讓人迫不及待想喫下一口。",
+            "textSimplified": "轻轻咬一口，软软的，甜甜的，吃完一口让人迫不及待想吃下一口。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 64248,
+            "endMs": 70344,
+            "text": "香蕉不僅好喫，而且營養豐富，所以深受大家的喜愛。",
+            "textSimplified": "香蕉不仅好吃，而且营养丰富，所以深受大家的喜爱。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 70344,
+            "endMs": 78912,
+            "text": "據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。",
+            "textSimplified": "据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 78912,
+            "endMs": 88104,
+            "text": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+            "textSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 88104,
+            "endMs": 100656,
+            "text": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+            "textSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 100656,
+            "endMs": 111936,
+            "text": "香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。",
+            "textSimplified": "香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 111936,
+            "endMs": 119832,
+            "text": "喫着甜甜的香蕉，你會變得更加快樂，你會發現我們的生活也像香蕉一樣甜。",
+            "textSimplified": "吃着甜甜的香蕉，你会变得更加快乐，你会发现我们的生活也像香蕉一样甜。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter19/b03_ch19_p01_c.mp3",
+        "durationMs": 124512,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 6696,
+            "text": "二下 ：香蕉（第六十頁） 『身穿黃衣裳，彎彎像月亮。",
+            "textSimplified": "二下 ：香蕉（第六十页） 『身穿黄衣裳，弯弯像月亮。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 6696,
+            "endMs": 10704,
+            "text": "兄弟排一起，個個甜蜜蜜。』",
+            "textSimplified": "兄弟排一起，个个甜蜜蜜。』"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 10704,
+            "endMs": 14136,
+            "text": "你知道這個謎語的謎底嗎？",
+            "textSimplified": "你知道这个谜语的谜底吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 14136,
+            "endMs": 17208,
+            "text": "對了，就是香蕉。",
+            "textSimplified": "对了，就是香蕉。"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 17208,
+            "endMs": 21936,
+            "text": "香蕉像個魔術師，它最喜歡換衣服。",
+            "textSimplified": "香蕉像个魔术师，它最喜欢换衣服。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 21936,
+            "endMs": 28056,
+            "text": "你瞧，在它沒成熟的時候，它穿着一件綠色的外衣；",
+            "textSimplified": "你瞧，在它没成熟的时候，它穿着一件绿色的外衣；"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 28056,
+            "endMs": 32688,
+            "text": "等到成熟了，衣服又逐漸變成了黃色；",
+            "textSimplified": "等到成熟了，衣服又逐渐变成了黄色；"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 32688,
+            "endMs": 41808,
+            "text": "要是香蕉熟透了，慢慢的，黃色的衣服會漸漸變暗，有時上面還會布滿黑色的小斑點；",
+            "textSimplified": "要是香蕉熟透了，慢慢的，黄色的衣服会渐渐变暗，有时上面还会布满黑色的小斑点；"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 41808,
+            "endMs": 47376,
+            "text": "如果它不小心爛掉了，它的衣服又變成了黑色。",
+            "textSimplified": "如果它不小心烂掉了，它的衣服又变成了黑色。"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 47376,
+            "endMs": 51240,
+            "text": "香蕉香味濃鬱，味道甜美。",
+            "textSimplified": "香蕉香味浓郁，味道甜美。"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 51240,
+            "endMs": 61488,
+            "text": "撕開香蕉黃色的外皮，可以看到它的果肉是象牙白色的，白中泛黃，一股又香又甜的氣味撲鼻而來。",
+            "textSimplified": "撕开香蕉黄色的外皮，可以看到它的果肉是象牙白色的，白中泛黄，一股又香又甜的气味扑鼻而来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 61488,
+            "endMs": 68856,
+            "text": "輕輕咬一口，軟軟的，甜甜的，喫完一口讓人迫不及待想喫下一口。",
+            "textSimplified": "轻轻咬一口，软软的，甜甜的，吃完一口让人迫不及待想吃下一口。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 68856,
+            "endMs": 75024,
+            "text": "香蕉不僅好喫，而且營養豐富，所以深受大家的喜愛。",
+            "textSimplified": "香蕉不仅好吃，而且营养丰富，所以深受大家的喜爱。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 75024,
+            "endMs": 83880,
+            "text": "據說在歐洲，香蕉被稱為『快樂水果』，因為它能幫助人們解除憂鬱，讓人們變得快樂。",
+            "textSimplified": "据说在欧洲，香蕉被称为『快乐水果』，因为它能帮助人们解除忧郁，让人们变得快乐。"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 83880,
+            "endMs": 92880,
+            "text": "此外，香蕉也被稱為『智慧之果』，傳說佛祖釋迦牟尼就是因為喫了香蕉而獲得了智慧。",
+            "textSimplified": "此外，香蕉也被称为『智慧之果』，传说佛祖释迦牟尼就是因为吃了香蕉而获得了智慧。"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 92880,
+            "endMs": 105264,
+            "text": "香蕉營養價值高、熱量低，含有被稱為『智慧之鹽』的磷，又有豐富的蛋白質、維他命、膳食纖維等，是非常好的營養食品。",
+            "textSimplified": "香蕉营养价值高、热量低，含有被称为『智慧之盐』的磷，又有丰富的蛋白质、维他命、膳食纤维等，是非常好的营养食品。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 105264,
+            "endMs": 116616,
+            "text": "香蕉原產於亞洲東南部的熱帶和亞熱帶地區，在中國，香蕉主要分佈在廣東、廣西、福建、海南等地。",
+            "textSimplified": "香蕉原产于亚洲东南部的热带和亚热带地区，在中国，香蕉主要分布在广东、广西、福建、海南等地。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 116616,
+            "endMs": 124512,
+            "text": "喫着甜甜的香蕉，你會變得更加快樂，你會發現我們的生活也像香蕉一樣甜。",
+            "textSimplified": "吃着甜甜的香蕉，你会变得更加快乐，你会发现我们的生活也像香蕉一样甜。"
+          }
+        ]
+      }
+    }
+  ]
+}

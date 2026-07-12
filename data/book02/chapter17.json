@@ -1,0 +1,719 @@
+{
+  "bookId": "02",
+  "chapterId": "17",
+  "chapterTitle": "水滴石穿",
+  "chapterTitleSimplified": "水滴石穿",
+  "passages": [
+    "二上：水滴石穿（第四十六頁）\n\n一天，雨淅淅瀝瀝地下着，屋簷上的水一滴一滴地落下來，落在屋簷下的石階上。\n\n石階見了，笑着說：『小傢伙，你是要替我洗澡嗎？ 還是知道我口渴了，給我送水呢？說實話，你這點水也大少了，還不夠我潤潤喉嚨呢。』小水滴說：『我既不是替你洗澡，也不是給你送水喝，而是要滴穿你。』\n\n石階聽了小水滴的話，嘲笑着說：『小傢伙，我勸你別做夢了，還從來沒有誰敢跟我說這樣的話。「水滴石穿」只是傳說，你居然相信？哈哈哈。。。。。。』小水滴不說話了，仍舊一滴一滴往下滴。他在心裏給自己鼓起勁兒：等着吧，總有一天我會做到的。\n\n第二天是晴天，屋簷上的水都隨太陽蒸發了，再也沒有水滴到石階上了。石階以為小水滴認輸了，心裏不知道有多得意。慢慢的，石階完全忘記了這件事。\n\n又是一個下雨天，小水滴又開始一滴一滴地滴到石階上。一年過去了，十年，幾十年過去了。有一天，一個小男孩來到石階前，他好奇地對媽媽說：『媽媽，這塊石階上有個小孔，可以看到地面呢。』\n\n原來，石階早已經被小水滴滴穿了。這個故事告訴我們：只要有恆心，不斷努力，就能獲得成功。"
+  ],
+  "passagesSimplified": [
+    "二上：水滴石穿（第四十六页）\n\n一天，雨淅淅沥沥地下着，屋簷上的水一滴一滴地落下来，落在屋簷下的石阶上。\n\n石阶见了，笑着说：『小家伙，你是要替我洗澡吗？ 还是知道我口渴了，给我送水呢？说实话，你这点水也大少了，还不够我润润喉咙呢。』小水滴说：『我既不是替你洗澡，也不是给你送水喝，而是要滴穿你。』\n\n石阶听了小水滴的话，嘲笑着说：『小家伙，我劝你别做梦了，还从来没有谁敢跟我说这样的话。「水滴石穿」只是传说，你居然相信？哈哈哈。。。。。。』小水滴不说话了，仍旧一滴一滴往下滴。他在心里给自己鼓起劲儿：等着吧，总有一天我会做到的。\n\n第二天是晴天，屋簷上的水都随太阳蒸发了，再也没有水滴到石阶上了。石阶以为小水滴认输了，心里不知道有多得意。慢慢的，石阶完全忘记了这件事。\n\n又是一个下雨天，小水滴又开始一滴一滴地滴到石阶上。一年过去了，十年，几十年过去了。有一天，一个小男孩来到石阶前，他好奇地对妈妈说：『妈妈，这块石阶上有个小孔，可以看到地面呢。』\n\n原来，石阶早已经被小水滴滴穿了。这个故事告诉我们：只要有恒心，不断努力，就能获得成功。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch17_w001",
+      "traditional": "雨淅淅瀝瀝地下着",
+      "simplified": "雨淅淅沥沥地下着",
+      "english": "rain patters down",
+      "pinyin": "yǔ xī xī lì lì dì xià zhe",
+      "contextSentence": "一天，雨淅淅瀝瀝地下着，屋簷上的水一滴一滴地落下來，落在屋簷下的石階上。",
+      "contextSentenceSimplified": "一天，雨淅淅沥沥地下着，屋簷上的水一滴一滴地落下来，落在屋簷下的石阶上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w002",
+      "traditional": "石階",
+      "simplified": "石阶",
+      "english": "stone steps",
+      "pinyin": "shí jiē",
+      "contextSentence": "一天，雨淅淅瀝瀝地下着，屋簷上的水一滴一滴地落下來，落在屋簷下的石階上。",
+      "contextSentenceSimplified": "一天，雨淅淅沥沥地下着，屋簷上的水一滴一滴地落下来，落在屋簷下的石阶上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w003",
+      "traditional": "替我洗澡",
+      "simplified": "替我洗澡",
+      "english": "bathe me",
+      "pinyin": "tì wǒ xǐ zǎo",
+      "contextSentence": "石階見了，笑着說：『小傢伙，你是要替我洗澡嗎？",
+      "contextSentenceSimplified": "石阶见了，笑着说：『小家伙，你是要替我洗澡吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w004",
+      "traditional": "說實話",
+      "simplified": "说实话",
+      "english": "to tell the truth",
+      "pinyin": "shuō shí huà",
+      "contextSentence": "說實話，你這點水也大少了，還不夠我潤潤喉嚨呢。",
+      "contextSentenceSimplified": "说实话，你这点水也大少了，还不够我润润喉咙呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w005",
+      "traditional": "潤潤喉嚨",
+      "simplified": "润润喉咙",
+      "english": "moisten throat",
+      "pinyin": "rùn rùn hóu lóng",
+      "contextSentence": "說實話，你這點水也大少了，還不夠我潤潤喉嚨呢。",
+      "contextSentenceSimplified": "说实话，你这点水也大少了，还不够我润润喉咙呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w006",
+      "traditional": "勸你",
+      "simplified": "劝你",
+      "english": "advise you",
+      "pinyin": "quàn nǐ",
+      "contextSentence": "石階聽了小水滴的話，嘲笑着說：『小傢伙，我勸你別做夢了，還從來沒有誰敢跟我說這樣的話。』",
+      "contextSentenceSimplified": "石阶听了小水滴的话，嘲笑着说：『小家伙，我劝你别做梦了，还从来没有谁敢跟我说这样的话。』",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w007",
+      "traditional": "做夢",
+      "simplified": "做梦",
+      "english": "dream",
+      "pinyin": "zuò mèng",
+      "contextSentence": "石階聽了小水滴的話，嘲笑着說：『小傢伙，我勸你別做夢了，還從來沒有誰敢跟我說這樣的話。』",
+      "contextSentenceSimplified": "石阶听了小水滴的话，嘲笑着说：『小家伙，我劝你别做梦了，还从来没有谁敢跟我说这样的话。』",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w008",
+      "traditional": "居然",
+      "simplified": "居然",
+      "english": "unexpectedly",
+      "pinyin": "jū rán",
+      "contextSentence": "「水滴石穿」只是傳說，你居然相信？",
+      "contextSentenceSimplified": "「水滴石穿」只是传说，你居然相信？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w009",
+      "traditional": "相信",
+      "simplified": "相信",
+      "english": "believe",
+      "pinyin": "xiāng xìn",
+      "contextSentence": "「水滴石穿」只是傳說，你居然相信？",
+      "contextSentenceSimplified": "「水滴石穿」只是传说，你居然相信？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w010",
+      "traditional": "仍舊",
+      "simplified": "仍旧",
+      "english": "still",
+      "pinyin": "réng jiù",
+      "contextSentence": "小水滴不說話了，仍舊一滴一滴往下滴。』",
+      "contextSentenceSimplified": "小水滴不说话了，仍旧一滴一滴往下滴。』",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w011",
+      "traditional": "蒸發",
+      "simplified": "蒸发",
+      "english": "evaporate",
+      "pinyin": "zhēng fā",
+      "contextSentence": "第二天是晴天，屋簷上的水都隨太陽蒸發了，再也沒有水滴到石階上了。",
+      "contextSentenceSimplified": "第二天是晴天，屋簷上的水都随太阳蒸发了，再也没有水滴到石阶上了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w012",
+      "traditional": "認輸",
+      "simplified": "认输",
+      "english": "admit defeat",
+      "pinyin": "rèn shū",
+      "contextSentence": "石階以為小水滴認輸了，心裏不知道有多得意。",
+      "contextSentenceSimplified": "石阶以为小水滴认输了，心里不知道有多得意。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w013",
+      "traditional": "小孔",
+      "simplified": "小孔",
+      "english": "small hole",
+      "pinyin": "xiǎo kǒng",
+      "contextSentence": "有一天，一個小男孩來到石階前，他好奇地對媽媽說：『媽媽，這塊石階上有個小孔，可以看到地面呢。』",
+      "contextSentenceSimplified": "有一天，一个小男孩来到石阶前，他好奇地对妈妈说：『妈妈，这块石阶上有个小孔，可以看到地面呢。』",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w014",
+      "traditional": "恆心",
+      "simplified": "恒心",
+      "english": "perseverance",
+      "pinyin": "héng xīn",
+      "contextSentence": "這個故事告訴我們：只要有恆心，不斷努力，就能獲得成功。",
+      "contextSentenceSimplified": "这个故事告诉我们：只要有恒心，不断努力，就能获得成功。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w015",
+      "traditional": "不斷努力",
+      "simplified": "不断努力",
+      "english": "keep trying hard",
+      "pinyin": "bù duàn nǔ lì",
+      "contextSentence": "這個故事告訴我們：只要有恆心，不斷努力，就能獲得成功。",
+      "contextSentenceSimplified": "这个故事告诉我们：只要有恒心，不断努力，就能获得成功。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch17_w016",
+      "traditional": "獲得成功",
+      "simplified": "获得成功",
+      "english": "achieve success",
+      "pinyin": "huò dé chéng gōng",
+      "contextSentence": "這個故事告訴我們：只要有恆心，不斷努力，就能獲得成功。",
+      "contextSentenceSimplified": "这个故事告诉我们：只要有恒心，不断努力，就能获得成功。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w016_m_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter17/b02_ch17_w016_c_isolated.mp3",
+          "sentence": "audio/book02/chapter17/b02_ch17_w016_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter17/b02_ch17_p01_m.mp3",
+        "durationMs": 105552,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3912,
+            "text": "二上：水滴石穿（第四十六頁）",
+            "textSimplified": "二上：水滴石穿（第四十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3912,
+            "endMs": 12336,
+            "text": "一天，雨淅淅瀝瀝地下着，屋簷上的水一滴一滴地落下來，落在屋簷下的石階上。",
+            "textSimplified": "一天，雨淅淅沥沥地下着，屋簷上的水一滴一滴地落下来，落在屋簷下的石阶上。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 12336,
+            "endMs": 17856,
+            "text": "石階見了，笑着說：『小傢伙，你是要替我洗澡嗎？",
+            "textSimplified": "石阶见了，笑着说：『小家伙，你是要替我洗澡吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17856,
+            "endMs": 21576,
+            "text": "還是知道我口渴了，給我送水呢？",
+            "textSimplified": "还是知道我口渴了，给我送水呢？"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 21576,
+            "endMs": 26952,
+            "text": "說實話，你這點水也大少了，還不夠我潤潤喉嚨呢。』",
+            "textSimplified": "说实话，你这点水也大少了，还不够我润润喉咙呢。』"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 26952,
+            "endMs": 33960,
+            "text": "小水滴說：『我既不是替你洗澡，也不是給你送水喝，而是要滴穿你。』",
+            "textSimplified": "小水滴说：『我既不是替你洗澡，也不是给你送水喝，而是要滴穿你。』"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 33960,
+            "endMs": 43536,
+            "text": "石階聽了小水滴的話，嘲笑着說：『小傢伙，我勸你別做夢了，還從來沒有誰敢跟我說這樣的話。",
+            "textSimplified": "石阶听了小水滴的话，嘲笑着说：『小家伙，我劝你别做梦了，还从来没有谁敢跟我说这样的话。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 43536,
+            "endMs": 47496,
+            "text": "「水滴石穿」只是傳說，你居然相信？",
+            "textSimplified": "「水滴石穿」只是传说，你居然相信？"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 47496,
+            "endMs": 48984,
+            "text": "哈哈哈。",
+            "textSimplified": "哈哈哈。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 48984,
+            "endMs": 48984,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 48984,
+            "endMs": 48984,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 48984,
+            "endMs": 48984,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 48984,
+            "endMs": 48984,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 48984,
+            "endMs": 48984,
+            "text": "。』",
+            "textSimplified": "。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 48984,
+            "endMs": 53256,
+            "text": "小水滴不說話了，仍舊一滴一滴往下滴。",
+            "textSimplified": "小水滴不说话了，仍旧一滴一滴往下滴。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 53256,
+            "endMs": 58968,
+            "text": "他在心裏給自己鼓起勁兒：等着吧，總有一天我會做到的。",
+            "textSimplified": "他在心里给自己鼓起劲儿：等着吧，总有一天我会做到的。"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 58968,
+            "endMs": 66264,
+            "text": "第二天是晴天，屋簷上的水都隨太陽蒸發了，再也沒有水滴到石階上了。",
+            "textSimplified": "第二天是晴天，屋簷上的水都随太阳蒸发了，再也没有水滴到石阶上了。"
+          },
+          {
+            "index": 17,
+            "paragraph": 8,
+            "startMs": 66264,
+            "endMs": 71304,
+            "text": "石階以為小水滴認輸了，心裏不知道有多得意。",
+            "textSimplified": "石阶以为小水滴认输了，心里不知道有多得意。"
+          },
+          {
+            "index": 18,
+            "paragraph": 8,
+            "startMs": 71304,
+            "endMs": 75096,
+            "text": "慢慢的，石階完全忘記了這件事。",
+            "textSimplified": "慢慢的，石阶完全忘记了这件事。"
+          },
+          {
+            "index": 19,
+            "paragraph": 10,
+            "startMs": 75096,
+            "endMs": 80952,
+            "text": "又是一個下雨天，小水滴又開始一滴一滴地滴到石階上。",
+            "textSimplified": "又是一个下雨天，小水滴又开始一滴一滴地滴到石阶上。"
+          },
+          {
+            "index": 20,
+            "paragraph": 10,
+            "startMs": 80952,
+            "endMs": 85008,
+            "text": "一年過去了，十年，幾十年過去了。",
+            "textSimplified": "一年过去了，十年，几十年过去了。"
+          },
+          {
+            "index": 21,
+            "paragraph": 10,
+            "startMs": 85008,
+            "endMs": 95352,
+            "text": "有一天，一個小男孩來到石階前，他好奇地對媽媽說：『媽媽，這塊石階上有個小孔，可以看到地面呢。』",
+            "textSimplified": "有一天，一个小男孩来到石阶前，他好奇地对妈妈说：『妈妈，这块石阶上有个小孔，可以看到地面呢。』"
+          },
+          {
+            "index": 22,
+            "paragraph": 12,
+            "startMs": 95352,
+            "endMs": 99360,
+            "text": "原來，石階早已經被小水滴滴穿了。",
+            "textSimplified": "原来，石阶早已经被小水滴滴穿了。"
+          },
+          {
+            "index": 23,
+            "paragraph": 12,
+            "startMs": 99360,
+            "endMs": 105552,
+            "text": "這個故事告訴我們：只要有恆心，不斷努力，就能獲得成功。",
+            "textSimplified": "这个故事告诉我们：只要有恒心，不断努力，就能获得成功。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter17/b02_ch17_p01_c.mp3",
+        "durationMs": 118152,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4080,
+            "text": "二上：水滴石穿（第四十六頁）",
+            "textSimplified": "二上：水滴石穿（第四十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4080,
+            "endMs": 12624,
+            "text": "一天，雨淅淅瀝瀝地下着，屋簷上的水一滴一滴地落下來，落在屋簷下的石階上。",
+            "textSimplified": "一天，雨淅淅沥沥地下着，屋簷上的水一滴一滴地落下来，落在屋簷下的石阶上。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 12624,
+            "endMs": 19152,
+            "text": "石階見了，笑着說：『小傢伙，你是要替我洗澡嗎？",
+            "textSimplified": "石阶见了，笑着说：『小家伙，你是要替我洗澡吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19152,
+            "endMs": 23664,
+            "text": "還是知道我口渴了，給我送水呢？",
+            "textSimplified": "还是知道我口渴了，给我送水呢？"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 23664,
+            "endMs": 30120,
+            "text": "說實話，你這點水也大少了，還不夠我潤潤喉嚨呢。』",
+            "textSimplified": "说实话，你这点水也大少了，还不够我润润喉咙呢。』"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 30120,
+            "endMs": 37992,
+            "text": "小水滴說：『我既不是替你洗澡，也不是給你送水喝，而是要滴穿你。』",
+            "textSimplified": "小水滴说：『我既不是替你洗澡，也不是给你送水喝，而是要滴穿你。』"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 37992,
+            "endMs": 47976,
+            "text": "石階聽了小水滴的話，嘲笑着說：『小傢伙，我勸你別做夢了，還從來沒有誰敢跟我說這樣的話。",
+            "textSimplified": "石阶听了小水滴的话，嘲笑着说：『小家伙，我劝你别做梦了，还从来没有谁敢跟我说这样的话。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 47976,
+            "endMs": 52704,
+            "text": "「水滴石穿」只是傳說，你居然相信？",
+            "textSimplified": "「水滴石穿」只是传说，你居然相信？"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 52704,
+            "endMs": 54840,
+            "text": "哈哈哈。",
+            "textSimplified": "哈哈哈。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 54840,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 54840,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 54840,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 54840,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 54840,
+            "text": "。』",
+            "textSimplified": "。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 54840,
+            "endMs": 59616,
+            "text": "小水滴不說話了，仍舊一滴一滴往下滴。",
+            "textSimplified": "小水滴不说话了，仍旧一滴一滴往下滴。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 59616,
+            "endMs": 65856,
+            "text": "他在心裏給自己鼓起勁兒：等着吧，總有一天我會做到的。",
+            "textSimplified": "他在心里给自己鼓起劲儿：等着吧，总有一天我会做到的。"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 65856,
+            "endMs": 73992,
+            "text": "第二天是晴天，屋簷上的水都隨太陽蒸發了，再也沒有水滴到石階上了。",
+            "textSimplified": "第二天是晴天，屋簷上的水都随太阳蒸发了，再也没有水滴到石阶上了。"
+          },
+          {
+            "index": 17,
+            "paragraph": 8,
+            "startMs": 73992,
+            "endMs": 79752,
+            "text": "石階以為小水滴認輸了，心裏不知道有多得意。",
+            "textSimplified": "石阶以为小水滴认输了，心里不知道有多得意。"
+          },
+          {
+            "index": 18,
+            "paragraph": 8,
+            "startMs": 79752,
+            "endMs": 84312,
+            "text": "慢慢的，石階完全忘記了這件事。",
+            "textSimplified": "慢慢的，石阶完全忘记了这件事。"
+          },
+          {
+            "index": 19,
+            "paragraph": 10,
+            "startMs": 84312,
+            "endMs": 90576,
+            "text": "又是一個下雨天，小水滴又開始一滴一滴地滴到石階上。",
+            "textSimplified": "又是一个下雨天，小水滴又开始一滴一滴地滴到石阶上。"
+          },
+          {
+            "index": 20,
+            "paragraph": 10,
+            "startMs": 90576,
+            "endMs": 95184,
+            "text": "一年過去了，十年，幾十年過去了。",
+            "textSimplified": "一年过去了，十年，几十年过去了。"
+          },
+          {
+            "index": 21,
+            "paragraph": 10,
+            "startMs": 95184,
+            "endMs": 106632,
+            "text": "有一天，一個小男孩來到石階前，他好奇地對媽媽說：『媽媽，這塊石階上有個小孔，可以看到地面呢。』",
+            "textSimplified": "有一天，一个小男孩来到石阶前，他好奇地对妈妈说：『妈妈，这块石阶上有个小孔，可以看到地面呢。』"
+          },
+          {
+            "index": 22,
+            "paragraph": 12,
+            "startMs": 106632,
+            "endMs": 111432,
+            "text": "原來，石階早已經被小水滴滴穿了。",
+            "textSimplified": "原来，石阶早已经被小水滴滴穿了。"
+          },
+          {
+            "index": 23,
+            "paragraph": 12,
+            "startMs": 111432,
+            "endMs": 118152,
+            "text": "這個故事告訴我們：只要有恆心，不斷努力，就能獲得成功。",
+            "textSimplified": "这个故事告诉我们：只要有恒心，不断努力，就能获得成功。"
+          }
+        ]
+      }
+    }
+  ]
+}

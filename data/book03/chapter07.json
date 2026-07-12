@@ -1,0 +1,820 @@
+{
+  "bookId": "03",
+  "chapterId": "07",
+  "chapterTitle": "好友美美",
+  "chapterTitleSimplified": "好友美美",
+  "passages": [
+    "二下 ：好友美美（第二十頁） 我的好朋友美美，和她的名字一樣，長得非常漂亮，就像一朵冰清玉潔的玉蘭花。尤其是她那雙亮晶晶的眼睛，彷彿星星閃耀着光芒。 她很愛乾淨，每天都打扮得漂漂亮亮的。有一天下雨，放學後雖然雨停了，但是地上積了水，我叫她一起回家，她卻說：『地上的水會弄髒我的新裙子，我要等媽媽來接我。』聽了她的話，我覺得她就像個撒嬌的公主。 但是，後來發生了一件事，改變了我對她的看法。 新學期，我們班來了一個插班生，他叫子豪。老實說，我真有些瞧不起他。你看：他的臉色蒼白得像一張白紙；胳膊又細又長，就像兩根細竹竿；身子比我還單薄，彷彿一陣風就能把他吹跑。 一天課後，課室裏只剩下美美、子豪和我。突然，我聽到『哎呀』一聲尖叫，原來子豪不小心割破了手指，正在流血呢。『真不小心！』我心裏暗暗說了句，可美美卻連忙跑上前，關切地問：『沒事吧？』她邊問邊掏出手帕為子豪包紮。我突然覺得有些羞愧。我想起書包裏好像有藥水膠布，翻開書包果然找到了。我站起身，想告訴美美我有藥水膠布，可我的嘴巴卻像生了鏽一樣，一句話也說不出來。美美皺了皺眉說：『出血太多了，我陪你到醫務室包紮吧！』說完，她便拉着子豪走出了課室。 我呆呆地看着他們的背影漸漸遠去，我發現，美美的心靈是那樣的純潔和美麗。"
+  ],
+  "passagesSimplified": [
+    "二下 ：好友美美（第二十页） 我的好朋友美美，和她的名字一样，长得非常漂亮，就像一朵冰清玉洁的玉兰花。尤其是她那双亮晶晶的眼睛，仿佛星星闪耀着光芒。 她很爱干净，每天都打扮得漂漂亮亮的。有一天下雨，放学后虽然雨停了，但是地上积了水，我叫她一起回家，她却说：『地上的水会弄脏我的新裙子，我要等妈妈来接我。』听了她的话，我觉得她就像个撒娇的公主。 但是，后来发生了一件事，改变了我对她的看法。 新学期，我们班来了一个插班生，他叫子豪。老实说，我真有些瞧不起他。你看：他的脸色苍白得像一张白纸；胳膊又细又长，就像两根细竹竿；身子比我还单薄，仿佛一阵风就能把他吹跑。 一天课后，课室里只剩下美美、子豪和我。突然，我听到『哎呀』一声尖叫，原来子豪不小心割破了手指，正在流血呢。『真不小心！』我心里暗暗说了句，可美美却连忙跑上前，关切地问：『没事吧？』她边问边掏出手帕为子豪包扎。我突然觉得有些羞愧。我想起书包里好像有药水胶布，翻开书包果然找到了。我站起身，想告诉美美我有药水胶布，可我的嘴巴却像生了锈一样，一句话也说不出来。美美皱了皱眉说：『出血太多了，我陪你到医务室包扎吧！』说完，她便拉着子豪走出了课室。 我呆呆地看着他们的背影渐渐远去，我发现，美美的心灵是那样的纯洁和美丽。"
+  ],
+  "vocab": [
+    {
+      "id": "b03_ch07_w001",
+      "traditional": "冰清玉潔",
+      "simplified": "冰清玉洁",
+      "english": "pure and clean / virtuous (like ice and jade)",
+      "pinyin": "bīng qīng yù jié",
+      "contextSentence": "我的好朋友美美，和她的名字一樣，長得非常漂亮，就像一朵冰清玉潔的玉蘭花。",
+      "contextSentenceSimplified": "我的好朋友美美，和她的名字一样，长得非常漂亮，就像一朵冰清玉洁的玉兰花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w001_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w001_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w002",
+      "traditional": "閃耀",
+      "simplified": "闪耀",
+      "english": "to shine / sparkle",
+      "pinyin": "shǎn yào",
+      "contextSentence": "尤其是她那雙亮晶晶的眼睛，彷彿星星閃耀着光芒。",
+      "contextSentenceSimplified": "尤其是她那双亮晶晶的眼睛，仿佛星星闪耀着光芒。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w002_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w002_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w003",
+      "traditional": "光芒",
+      "simplified": "光芒",
+      "english": "rays of light",
+      "pinyin": "guāng máng",
+      "contextSentence": "尤其是她那雙亮晶晶的眼睛，彷彿星星閃耀着光芒。",
+      "contextSentenceSimplified": "尤其是她那双亮晶晶的眼睛，仿佛星星闪耀着光芒。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w003_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w003_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w004",
+      "traditional": "弄髒",
+      "simplified": "弄脏",
+      "english": "to make dirty / soil",
+      "pinyin": "nòng zāng",
+      "contextSentence": "有一天下雨，放學後雖然雨停了，但是地上積了水，我叫她一起回家，她卻說：『地上的水會弄髒我的新裙子，我要等媽媽來接我。",
+      "contextSentenceSimplified": "有一天下雨，放学后虽然雨停了，但是地上积了水，我叫她一起回家，她却说：『地上的水会弄脏我的新裙子，我要等妈妈来接我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w004_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w004_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w005",
+      "traditional": "撒嬌",
+      "simplified": "撒娇",
+      "english": "to act spoiled / coquettish",
+      "pinyin": "sā jiāo",
+      "contextSentence": "聽了她的話，我覺得她就像個撒嬌的公主。",
+      "contextSentenceSimplified": "听了她的话，我觉得她就像个撒娇的公主。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w005_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w005_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w006",
+      "traditional": "插班生",
+      "simplified": "插班生",
+      "english": "transfer student",
+      "pinyin": "chā bān shēng",
+      "contextSentence": "新學期，我們班來了一個插班生，他叫子豪。",
+      "contextSentenceSimplified": "新学期，我们班来了一个插班生，他叫子豪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w006_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w006_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w007",
+      "traditional": "老實說",
+      "simplified": "老实说",
+      "english": "to be honest / frankly",
+      "pinyin": "lǎo shí shuō",
+      "contextSentence": "老實說，我真有些瞧不起他。",
+      "contextSentenceSimplified": "老实说，我真有些瞧不起他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w007_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w007_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w008",
+      "traditional": "瞧不起",
+      "simplified": "瞧不起",
+      "english": "look down on / despise",
+      "pinyin": "qiáo bù qǐ",
+      "contextSentence": "老實說，我真有些瞧不起他。",
+      "contextSentenceSimplified": "老实说，我真有些瞧不起他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w008_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w008_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w009",
+      "traditional": "蒼白",
+      "simplified": "苍白",
+      "english": "pale / wan",
+      "pinyin": "cāng bái",
+      "contextSentence": "你看：他的臉色蒼白得像一張白紙；胳膊又細又長，就像兩根細竹竿；身子比我還單薄，彷彿一陣風就能把他吹跑。",
+      "contextSentenceSimplified": "你看：他的脸色苍白得像一张白纸；胳膊又细又长，就像两根细竹竿；身子比我还单薄，仿佛一阵风就能把他吹跑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w009_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w009_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w010",
+      "traditional": "胳膊",
+      "simplified": "胳膊",
+      "english": "arm",
+      "pinyin": "gē bó",
+      "contextSentence": "你看：他的臉色蒼白得像一張白紙；胳膊又細又長，就像兩根細竹竿；身子比我還單薄，彷彿一陣風就能把他吹跑。",
+      "contextSentenceSimplified": "你看：他的脸色苍白得像一张白纸；胳膊又细又长，就像两根细竹竿；身子比我还单薄，仿佛一阵风就能把他吹跑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w010_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w010_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w011",
+      "traditional": "竹竿",
+      "simplified": "竹竿",
+      "english": "bamboo pole / bamboo stick",
+      "pinyin": "zhú gān",
+      "contextSentence": "你看：他的臉色蒼白得像一張白紙；胳膊又細又長，就像兩根細竹竿；身子比我還單薄，彷彿一陣風就能把他吹跑。",
+      "contextSentenceSimplified": "你看：他的脸色苍白得像一张白纸；胳膊又细又长，就像两根细竹竿；身子比我还单薄，仿佛一阵风就能把他吹跑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w011_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w011_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w012",
+      "traditional": "單薄",
+      "simplified": "单薄",
+      "english": "thin / weak / frail",
+      "pinyin": "dān báo",
+      "contextSentence": "你看：他的臉色蒼白得像一張白紙；胳膊又細又長，就像兩根細竹竿；身子比我還單薄，彷彿一陣風就能把他吹跑。",
+      "contextSentenceSimplified": "你看：他的脸色苍白得像一张白纸；胳膊又细又长，就像两根细竹竿；身子比我还单薄，仿佛一阵风就能把他吹跑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w012_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w012_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w013",
+      "traditional": "只剩下",
+      "simplified": "只剩下",
+      "english": "only ... remains / left with only",
+      "pinyin": "zhǐ shèng xià",
+      "contextSentence": "一天課後，課室裏只剩下美美、子豪和我。",
+      "contextSentenceSimplified": "一天课后，课室里只剩下美美、子豪和我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w013_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w013_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w014",
+      "traditional": "割破",
+      "simplified": "割破",
+      "english": "to cut and tear / to slash",
+      "pinyin": "gē pò",
+      "contextSentence": "突然，我聽到『哎呀』一聲尖叫，原來子豪不小心割破了手指，正在流血呢。",
+      "contextSentenceSimplified": "突然，我听到『哎呀』一声尖叫，原来子豪不小心割破了手指，正在流血呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w014_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w014_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w015",
+      "traditional": "暗暗",
+      "simplified": "暗暗",
+      "english": "secretly / in one's heart",
+      "pinyin": "àn àn",
+      "contextSentence": "我心裏暗暗說了句，可美美卻連忙跑上前，關切地問：『沒事吧？",
+      "contextSentenceSimplified": "我心里暗暗说了句，可美美却连忙跑上前，关切地问：『没事吧？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w015_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w015_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w016",
+      "traditional": "關切地",
+      "simplified": "关切地",
+      "english": "concernedly / with care",
+      "pinyin": "guān qiè dì",
+      "contextSentence": "我心裏暗暗說了句，可美美卻連忙跑上前，關切地問：『沒事吧？",
+      "contextSentenceSimplified": "我心里暗暗说了句，可美美却连忙跑上前，关切地问：『没事吧？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w016_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w016_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w017",
+      "traditional": "手帕",
+      "simplified": "手帕",
+      "english": "handkerchief",
+      "pinyin": "shǒu pà",
+      "contextSentence": "她邊問邊掏出手帕為子豪包紮。",
+      "contextSentenceSimplified": "她边问边掏出手帕为子豪包扎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w017_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w017_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w018",
+      "traditional": "包紮",
+      "simplified": "包扎",
+      "english": "to bandage / to dress (a wound)",
+      "pinyin": "bāo zā",
+      "contextSentence": "她邊問邊掏出手帕為子豪包紮。",
+      "contextSentenceSimplified": "她边问边掏出手帕为子豪包扎。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w018_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w018_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w019",
+      "traditional": "羞愧",
+      "simplified": "羞愧",
+      "english": "ashamed / ashamed and guilty",
+      "pinyin": "xiū kuì",
+      "contextSentence": "我突然覺得有些羞愧。",
+      "contextSentenceSimplified": "我突然觉得有些羞愧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w019_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w019_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w020",
+      "traditional": "藥水膠布",
+      "simplified": "药水胶布",
+      "english": "adhesive bandage / plaster",
+      "pinyin": "yào shuǐ jiāo bù",
+      "contextSentence": "我想起書包裏好像有藥水膠布，翻開書包果然找到了。",
+      "contextSentenceSimplified": "我想起书包里好像有药水胶布，翻开书包果然找到了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w020_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w020_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w021",
+      "traditional": "鏽",
+      "simplified": "锈",
+      "english": "rust",
+      "pinyin": "xiù",
+      "contextSentence": "我站起身，想告訴美美我有藥水膠布，可我的嘴巴卻像生了鏽一樣，一句話也說不出來。",
+      "contextSentenceSimplified": "我站起身，想告诉美美我有药水胶布，可我的嘴巴却像生了锈一样，一句话也说不出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w021_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w021_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w022",
+      "traditional": "醫務室",
+      "simplified": "医务室",
+      "english": "clinic / medical room",
+      "pinyin": "yī wù shì",
+      "contextSentence": "美美皺了皺眉說：『出血太多了，我陪你到醫務室包紮吧！",
+      "contextSentenceSimplified": "美美皱了皱眉说：『出血太多了，我陪你到医务室包扎吧！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w022_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w022_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b03_ch07_w023",
+      "traditional": "純潔",
+      "simplified": "纯洁",
+      "english": "pure / innocence",
+      "pinyin": "chún jié",
+      "contextSentence": "我呆呆地看着他們的背影漸漸遠去，我發現，美美的心靈是那樣的純潔和美麗。",
+      "contextSentenceSimplified": "我呆呆地看着他们的背影渐渐远去，我发现，美美的心灵是那样的纯洁和美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w023_m_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book03/chapter07/b03_ch07_w023_c_isolated.mp3",
+          "sentence": "audio/book03/chapter07/b03_ch07_w023_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book03/chapter07/b03_ch07_p01_m.mp3",
+        "durationMs": 125952,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 10968,
+            "text": "二下 ：好友美美（第二十頁） 我的好朋友美美，和她的名字一樣，長得非常漂亮，就像一朵冰清玉潔的玉蘭花。",
+            "textSimplified": "二下 ：好友美美（第二十页） 我的好朋友美美，和她的名字一样，长得非常漂亮，就像一朵冰清玉洁的玉兰花。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 10968,
+            "endMs": 16944,
+            "text": "尤其是她那雙亮晶晶的眼睛，彷彿星星閃耀着光芒。",
+            "textSimplified": "尤其是她那双亮晶晶的眼睛，仿佛星星闪耀着光芒。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 16944,
+            "endMs": 21288,
+            "text": "她很愛乾淨，每天都打扮得漂漂亮亮的。",
+            "textSimplified": "她很爱干净，每天都打扮得漂漂亮亮的。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 21288,
+            "endMs": 34512,
+            "text": "有一天下雨，放學後雖然雨停了，但是地上積了水，我叫她一起回家，她卻說：『地上的水會弄髒我的新裙子，我要等媽媽來接我。』",
+            "textSimplified": "有一天下雨，放学后虽然雨停了，但是地上积了水，我叫她一起回家，她却说：『地上的水会弄脏我的新裙子，我要等妈妈来接我。』"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 34512,
+            "endMs": 38928,
+            "text": "聽了她的話，我覺得她就像個撒嬌的公主。",
+            "textSimplified": "听了她的话，我觉得她就像个撒娇的公主。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 38928,
+            "endMs": 44208,
+            "text": "但是，後來發生了一件事，改變了我對她的看法。",
+            "textSimplified": "但是，后来发生了一件事，改变了我对她的看法。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 44208,
+            "endMs": 49104,
+            "text": "新學期，我們班來了一個插班生，他叫子豪。",
+            "textSimplified": "新学期，我们班来了一个插班生，他叫子豪。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 49104,
+            "endMs": 52344,
+            "text": "老實說，我真有些瞧不起他。",
+            "textSimplified": "老实说，我真有些瞧不起他。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 52344,
+            "endMs": 56520,
+            "text": "你看：他的臉色蒼白得像一張白紙；",
+            "textSimplified": "你看：他的脸色苍白得像一张白纸；"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 56520,
+            "endMs": 60384,
+            "text": "胳膊又細又長，就像兩根細竹竿；",
+            "textSimplified": "胳膊又细又长，就像两根细竹竿；"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 60384,
+            "endMs": 65376,
+            "text": "身子比我還單薄，彷彿一陣風就能把他吹跑。",
+            "textSimplified": "身子比我还单薄，仿佛一阵风就能把他吹跑。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 65376,
+            "endMs": 70512,
+            "text": "一天課後，課室裏只剩下美美、子豪和我。",
+            "textSimplified": "一天课后，课室里只剩下美美、子豪和我。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 70512,
+            "endMs": 77952,
+            "text": "突然，我聽到『哎呀』一聲尖叫，原來子豪不小心割破了手指，正在流血呢。",
+            "textSimplified": "突然，我听到『哎呀』一声尖叫，原来子豪不小心割破了手指，正在流血呢。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 77952,
+            "endMs": 79608,
+            "text": "『真不小心！』",
+            "textSimplified": "『真不小心！』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 79608,
+            "endMs": 86328,
+            "text": "我心裏暗暗說了句，可美美卻連忙跑上前，關切地問：『沒事吧？』",
+            "textSimplified": "我心里暗暗说了句，可美美却连忙跑上前，关切地问：『没事吧？』"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 86328,
+            "endMs": 90168,
+            "text": "她邊問邊掏出手帕為子豪包紮。",
+            "textSimplified": "她边问边掏出手帕为子豪包扎。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 90168,
+            "endMs": 92736,
+            "text": "我突然覺得有些羞愧。",
+            "textSimplified": "我突然觉得有些羞愧。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 92736,
+            "endMs": 98472,
+            "text": "我想起書包裏好像有藥水膠布，翻開書包果然找到了。",
+            "textSimplified": "我想起书包里好像有药水胶布，翻开书包果然找到了。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 98472,
+            "endMs": 107664,
+            "text": "我站起身，想告訴美美我有藥水膠布，可我的嘴巴卻像生了鏽一樣，一句話也說不出來。",
+            "textSimplified": "我站起身，想告诉美美我有药水胶布，可我的嘴巴却像生了锈一样，一句话也说不出来。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 107664,
+            "endMs": 113520,
+            "text": "美美皺了皺眉說：『出血太多了，我陪你到醫務室包紮吧！』",
+            "textSimplified": "美美皱了皱眉说：『出血太多了，我陪你到医务室包扎吧！』"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 113520,
+            "endMs": 117744,
+            "text": "說完，她便拉着子豪走出了課室。",
+            "textSimplified": "说完，她便拉着子豪走出了课室。"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 117744,
+            "endMs": 125952,
+            "text": "我呆呆地看着他們的背影漸漸遠去，我發現，美美的心靈是那樣的純潔和美麗。",
+            "textSimplified": "我呆呆地看着他们的背影渐渐远去，我发现，美美的心灵是那样的纯洁和美丽。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book03/chapter07/b03_ch07_p01_c.mp3",
+        "durationMs": 138168,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 11376,
+            "text": "二下 ：好友美美（第二十頁） 我的好朋友美美，和她的名字一樣，長得非常漂亮，就像一朵冰清玉潔的玉蘭花。",
+            "textSimplified": "二下 ：好友美美（第二十页） 我的好朋友美美，和她的名字一样，长得非常漂亮，就像一朵冰清玉洁的玉兰花。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 11376,
+            "endMs": 17592,
+            "text": "尤其是她那雙亮晶晶的眼睛，彷彿星星閃耀着光芒。",
+            "textSimplified": "尤其是她那双亮晶晶的眼睛，仿佛星星闪耀着光芒。"
+          },
+          {
+            "index": 2,
+            "paragraph": 0,
+            "startMs": 17592,
+            "endMs": 22440,
+            "text": "她很愛乾淨，每天都打扮得漂漂亮亮的。",
+            "textSimplified": "她很爱干净，每天都打扮得漂漂亮亮的。"
+          },
+          {
+            "index": 3,
+            "paragraph": 0,
+            "startMs": 22440,
+            "endMs": 36216,
+            "text": "有一天下雨，放學後雖然雨停了，但是地上積了水，我叫她一起回家，她卻說：『地上的水會弄髒我的新裙子，我要等媽媽來接我。』",
+            "textSimplified": "有一天下雨，放学后虽然雨停了，但是地上积了水，我叫她一起回家，她却说：『地上的水会弄脏我的新裙子，我要等妈妈来接我。』"
+          },
+          {
+            "index": 4,
+            "paragraph": 0,
+            "startMs": 36216,
+            "endMs": 41448,
+            "text": "聽了她的話，我覺得她就像個撒嬌的公主。",
+            "textSimplified": "听了她的话，我觉得她就像个撒娇的公主。"
+          },
+          {
+            "index": 5,
+            "paragraph": 0,
+            "startMs": 41448,
+            "endMs": 47544,
+            "text": "但是，後來發生了一件事，改變了我對她的看法。",
+            "textSimplified": "但是，后来发生了一件事，改变了我对她的看法。"
+          },
+          {
+            "index": 6,
+            "paragraph": 0,
+            "startMs": 47544,
+            "endMs": 53280,
+            "text": "新學期，我們班來了一個插班生，他叫子豪。",
+            "textSimplified": "新学期，我们班来了一个插班生，他叫子豪。"
+          },
+          {
+            "index": 7,
+            "paragraph": 0,
+            "startMs": 53280,
+            "endMs": 57264,
+            "text": "老實說，我真有些瞧不起他。",
+            "textSimplified": "老实说，我真有些瞧不起他。"
+          },
+          {
+            "index": 8,
+            "paragraph": 0,
+            "startMs": 57264,
+            "endMs": 61920,
+            "text": "你看：他的臉色蒼白得像一張白紙；",
+            "textSimplified": "你看：他的脸色苍白得像一张白纸；"
+          },
+          {
+            "index": 9,
+            "paragraph": 0,
+            "startMs": 61920,
+            "endMs": 66336,
+            "text": "胳膊又細又長，就像兩根細竹竿；",
+            "textSimplified": "胳膊又细又长，就像两根细竹竿；"
+          },
+          {
+            "index": 10,
+            "paragraph": 0,
+            "startMs": 66336,
+            "endMs": 71760,
+            "text": "身子比我還單薄，彷彿一陣風就能把他吹跑。",
+            "textSimplified": "身子比我还单薄，仿佛一阵风就能把他吹跑。"
+          },
+          {
+            "index": 11,
+            "paragraph": 0,
+            "startMs": 71760,
+            "endMs": 77352,
+            "text": "一天課後，課室裏只剩下美美、子豪和我。",
+            "textSimplified": "一天课后，课室里只剩下美美、子豪和我。"
+          },
+          {
+            "index": 12,
+            "paragraph": 0,
+            "startMs": 77352,
+            "endMs": 85200,
+            "text": "突然，我聽到『哎呀』一聲尖叫，原來子豪不小心割破了手指，正在流血呢。",
+            "textSimplified": "突然，我听到『哎呀』一声尖叫，原来子豪不小心割破了手指，正在流血呢。"
+          },
+          {
+            "index": 13,
+            "paragraph": 0,
+            "startMs": 85200,
+            "endMs": 87792,
+            "text": "『真不小心！』",
+            "textSimplified": "『真不小心！』"
+          },
+          {
+            "index": 14,
+            "paragraph": 0,
+            "startMs": 87792,
+            "endMs": 95376,
+            "text": "我心裏暗暗說了句，可美美卻連忙跑上前，關切地問：『沒事吧？』",
+            "textSimplified": "我心里暗暗说了句，可美美却连忙跑上前，关切地问：『没事吧？』"
+          },
+          {
+            "index": 15,
+            "paragraph": 0,
+            "startMs": 95376,
+            "endMs": 99480,
+            "text": "她邊問邊掏出手帕為子豪包紮。",
+            "textSimplified": "她边问边掏出手帕为子豪包扎。"
+          },
+          {
+            "index": 16,
+            "paragraph": 0,
+            "startMs": 99480,
+            "endMs": 102672,
+            "text": "我突然覺得有些羞愧。",
+            "textSimplified": "我突然觉得有些羞愧。"
+          },
+          {
+            "index": 17,
+            "paragraph": 0,
+            "startMs": 102672,
+            "endMs": 109080,
+            "text": "我想起書包裏好像有藥水膠布，翻開書包果然找到了。",
+            "textSimplified": "我想起书包里好像有药水胶布，翻开书包果然找到了。"
+          },
+          {
+            "index": 18,
+            "paragraph": 0,
+            "startMs": 109080,
+            "endMs": 118200,
+            "text": "我站起身，想告訴美美我有藥水膠布，可我的嘴巴卻像生了鏽一樣，一句話也說不出來。",
+            "textSimplified": "我站起身，想告诉美美我有药水胶布，可我的嘴巴却像生了锈一样，一句话也说不出来。"
+          },
+          {
+            "index": 19,
+            "paragraph": 0,
+            "startMs": 118200,
+            "endMs": 125280,
+            "text": "美美皺了皺眉說：『出血太多了，我陪你到醫務室包紮吧！』",
+            "textSimplified": "美美皱了皱眉说：『出血太多了，我陪你到医务室包扎吧！』"
+          },
+          {
+            "index": 20,
+            "paragraph": 0,
+            "startMs": 125280,
+            "endMs": 129864,
+            "text": "說完，她便拉着子豪走出了課室。",
+            "textSimplified": "说完，她便拉着子豪走出了课室。"
+          },
+          {
+            "index": 21,
+            "paragraph": 0,
+            "startMs": 129864,
+            "endMs": 138168,
+            "text": "我呆呆地看着他們的背影漸漸遠去，我發現，美美的心靈是那樣的純潔和美麗。",
+            "textSimplified": "我呆呆地看着他们的背影渐渐远去，我发现，美美的心灵是那样的纯洁和美丽。"
+          }
+        ]
+      }
+    }
+  ]
+}

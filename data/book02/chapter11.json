@@ -1,0 +1,474 @@
+{
+  "bookId": "02",
+  "chapterId": "11",
+  "chapterTitle": "如果我變成了爸爸",
+  "chapterTitleSimplified": "如果我变成了爸爸",
+  "passages": [
+    "二上：如果我變成了爸爸（第三十頁）\n\n如果有一天我變成了爸爸，\n我一定也會有一個心肝寶貝，\n他就像我現在一樣，\n是個調皮愛搗亂的娃娃。\n\n我要和他一起探索十萬個為什麼，\n告訴他星星為什麼眨眼睛，\n太陽為什麼會落到山的另一邊。\n我一定不會板着臉對他說： 「爸爸忙着呢，自己玩去！」\n\n我要帶他去海洋公園，\n對表演高空跳水的海豚敬個禮，\n向憨態可掬的大熊貓問聲好。\n我還會認真地告訴他： 「動物真了不起，我們要愛護牠。」\n\n我真想快點快點長大，\n長大變成一個這樣的爸爸。\n我一定會好好陪伴我的寶貝，\n看着他一天天長大。"
+  ],
+  "passagesSimplified": [
+    "二上：如果我变成了爸爸（第三十页）\n\n如果有一天我变成了爸爸，\n我一定也会有一个心肝宝贝，\n他就像我现在一样，\n是个调皮爱捣乱的娃娃。\n\n我要和他一起探索十万个为什么，\n告诉他星星为什么眨眼睛，\n太阳为什么会落到山的另一边。\n我一定不会板着脸对他说： 「爸爸忙着呢，自己玩去！」\n\n我要带他去海洋公园，\n对表演高空跳水的海豚敬个礼，\n向憨态可掬的大熊猫问声好。\n我还会认真地告诉他： 「动物真了不起，我们要爱护牠。」\n\n我真想快点快点长大，\n长大变成一个这样的爸爸。\n我一定会好好陪伴我的宝贝，\n看着他一天天长大。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch11_w001",
+      "traditional": "心肝寶貝",
+      "simplified": "心肝宝贝",
+      "english": "precious treasure",
+      "pinyin": "xīn gān bǎo bèi",
+      "contextSentence": "如果有一天我變成了爸爸，\n我一定也會有一個心肝寶貝，\n他就像我現在一樣，\n是個調皮愛搗亂的娃娃。",
+      "contextSentenceSimplified": "如果有一天我变成了爸爸，\n我一定也会有一个心肝宝贝，\n他就像我现在一样，\n是个调皮爱捣乱的娃娃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w002",
+      "traditional": "調皮",
+      "simplified": "调皮",
+      "english": "mischievous",
+      "pinyin": "diào pí",
+      "contextSentence": "如果有一天我變成了爸爸，\n我一定也會有一個心肝寶貝，\n他就像我現在一樣，\n是個調皮愛搗亂的娃娃。",
+      "contextSentenceSimplified": "如果有一天我变成了爸爸，\n我一定也会有一个心肝宝贝，\n他就像我现在一样，\n是个调皮爱捣乱的娃娃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w003",
+      "traditional": "搗亂",
+      "simplified": "捣乱",
+      "english": "cause trouble",
+      "pinyin": "dǎo luàn",
+      "contextSentence": "如果有一天我變成了爸爸，\n我一定也會有一個心肝寶貝，\n他就像我現在一樣，\n是個調皮愛搗亂的娃娃。",
+      "contextSentenceSimplified": "如果有一天我变成了爸爸，\n我一定也会有一个心肝宝贝，\n他就像我现在一样，\n是个调皮爱捣乱的娃娃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w004",
+      "traditional": "探索",
+      "simplified": "探索",
+      "english": "explore",
+      "pinyin": "tàn suǒ",
+      "contextSentence": "我要和他一起探索十萬個為什麼，\n告訴他星星為什麼眨眼睛，\n太陽為什麼會落到山的另一邊。",
+      "contextSentenceSimplified": "我要和他一起探索十万个为什么，\n告诉他星星为什么眨眼睛，\n太阳为什么会落到山的另一边。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w005",
+      "traditional": "另一邊",
+      "simplified": "另一边",
+      "english": "the other side",
+      "pinyin": "lìng yī biān",
+      "contextSentence": "我要和他一起探索十萬個為什麼，\n告訴他星星為什麼眨眼睛，\n太陽為什麼會落到山的另一邊。",
+      "contextSentenceSimplified": "我要和他一起探索十万个为什么，\n告诉他星星为什么眨眼睛，\n太阳为什么会落到山的另一边。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w006",
+      "traditional": "板着臉",
+      "simplified": "板着脸",
+      "english": "frown",
+      "pinyin": "bǎn zhe liǎn",
+      "contextSentence": "我一定不會板着臉對他說： 「爸爸忙着呢，自己玩去！」",
+      "contextSentenceSimplified": "我一定不会板着脸对他说： 「爸爸忙着呢，自己玩去！」",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w007",
+      "traditional": "海豚",
+      "simplified": "海豚",
+      "english": "dolphin",
+      "pinyin": "hǎi tún",
+      "contextSentence": "我要帶他去海洋公園，對表演高空跳水的海豚敬個禮，向憨態可掬的大熊貓問聲好。",
+      "contextSentenceSimplified": "我要带他去海洋公园，对表演高空跳水的海豚敬个礼，向憨态可掬的大熊猫问声好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w008",
+      "traditional": "憨態可掬",
+      "simplified": "憨态可掬",
+      "english": "innocently cute",
+      "pinyin": "hān tài kě jū",
+      "contextSentence": "我要帶他去海洋公園，對表演高空跳水的海豚敬個禮，向憨態可掬的大熊貓問聲好。",
+      "contextSentenceSimplified": "我要带他去海洋公园，对表演高空跳水的海豚敬个礼，向憨态可掬的大熊猫问声好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch11_w009",
+      "traditional": "愛護",
+      "simplified": "爱护",
+      "english": "cherish",
+      "pinyin": "ài hù",
+      "contextSentence": "我還會認真地告訴他： 「動物真了不起，我們要愛護牠。」",
+      "contextSentenceSimplified": "我还会认真地告诉他： 「动物真了不起，我们要爱护牠。」",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter11/b02_ch11_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter11/b02_ch11_w009_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter11/b02_ch11_p01_m.mp3",
+        "durationMs": 58584,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4224,
+            "text": "二上：如果我變成了爸爸（第三十頁）",
+            "textSimplified": "二上：如果我变成了爸爸（第三十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4224,
+            "endMs": 7320,
+            "text": "如果有一天我變成了爸爸，",
+            "textSimplified": "如果有一天我变成了爸爸，"
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 7320,
+            "endMs": 10344,
+            "text": "我一定也會有一個心肝寶貝，",
+            "textSimplified": "我一定也会有一个心肝宝贝，"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 10344,
+            "endMs": 12624,
+            "text": "他就像我現在一樣，",
+            "textSimplified": "他就像我现在一样，"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 12624,
+            "endMs": 15576,
+            "text": "是個調皮愛搗亂的娃娃。",
+            "textSimplified": "是个调皮爱捣乱的娃娃。"
+          },
+          {
+            "index": 5,
+            "paragraph": 7,
+            "startMs": 15576,
+            "endMs": 19296,
+            "text": "我要和他一起探索十萬個為什麼，",
+            "textSimplified": "我要和他一起探索十万个为什么，"
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 19296,
+            "endMs": 22728,
+            "text": "告訴他星星為什麼眨眼睛，",
+            "textSimplified": "告诉他星星为什么眨眼睛，"
+          },
+          {
+            "index": 7,
+            "paragraph": 9,
+            "startMs": 22728,
+            "endMs": 26448,
+            "text": "太陽為什麼會落到山的另一邊。",
+            "textSimplified": "太阳为什么会落到山的另一边。"
+          },
+          {
+            "index": 8,
+            "paragraph": 10,
+            "startMs": 26448,
+            "endMs": 31920,
+            "text": "我一定不會板着臉對他說： 「爸爸忙着呢，自己玩去！」",
+            "textSimplified": "我一定不会板着脸对他说： 「爸爸忙着呢，自己玩去！」"
+          },
+          {
+            "index": 9,
+            "paragraph": 12,
+            "startMs": 31920,
+            "endMs": 34512,
+            "text": "我要帶他去海洋公園，",
+            "textSimplified": "我要带他去海洋公园，"
+          },
+          {
+            "index": 10,
+            "paragraph": 13,
+            "startMs": 34512,
+            "endMs": 38160,
+            "text": "對表演高空跳水的海豚敬個禮，",
+            "textSimplified": "对表演高空跳水的海豚敬个礼，"
+          },
+          {
+            "index": 11,
+            "paragraph": 14,
+            "startMs": 38160,
+            "endMs": 41616,
+            "text": "向憨態可掬的大熊貓問聲好。",
+            "textSimplified": "向憨态可掬的大熊猫问声好。"
+          },
+          {
+            "index": 12,
+            "paragraph": 15,
+            "startMs": 41616,
+            "endMs": 47256,
+            "text": "我還會認真地告訴他： 「動物真了不起，我們要愛護牠。」",
+            "textSimplified": "我还会认真地告诉他： 「动物真了不起，我们要爱护牠。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 17,
+            "startMs": 47256,
+            "endMs": 49920,
+            "text": "我真想快點快點長大，",
+            "textSimplified": "我真想快点快点长大，"
+          },
+          {
+            "index": 14,
+            "paragraph": 18,
+            "startMs": 49920,
+            "endMs": 52992,
+            "text": "長大變成一個這樣的爸爸。",
+            "textSimplified": "长大变成一个这样的爸爸。"
+          },
+          {
+            "index": 15,
+            "paragraph": 19,
+            "startMs": 52992,
+            "endMs": 56112,
+            "text": "我一定會好好陪伴我的寶貝，",
+            "textSimplified": "我一定会好好陪伴我的宝贝，"
+          },
+          {
+            "index": 16,
+            "paragraph": 20,
+            "startMs": 56112,
+            "endMs": 58584,
+            "text": "看着他一天天長大。",
+            "textSimplified": "看着他一天天长大。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter11/b02_ch11_p01_c.mp3",
+        "durationMs": 68112,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4704,
+            "text": "二上：如果我變成了爸爸（第三十頁）",
+            "textSimplified": "二上：如果我变成了爸爸（第三十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4704,
+            "endMs": 8112,
+            "text": "如果有一天我變成了爸爸，",
+            "textSimplified": "如果有一天我变成了爸爸，"
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 8112,
+            "endMs": 11832,
+            "text": "我一定也會有一個心肝寶貝，",
+            "textSimplified": "我一定也会有一个心肝宝贝，"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 11832,
+            "endMs": 14904,
+            "text": "他就像我現在一樣，",
+            "textSimplified": "他就像我现在一样，"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 14904,
+            "endMs": 18360,
+            "text": "是個調皮愛搗亂的娃娃。",
+            "textSimplified": "是个调皮爱捣乱的娃娃。"
+          },
+          {
+            "index": 5,
+            "paragraph": 7,
+            "startMs": 18360,
+            "endMs": 22440,
+            "text": "我要和他一起探索十萬個為什麼，",
+            "textSimplified": "我要和他一起探索十万个为什么，"
+          },
+          {
+            "index": 6,
+            "paragraph": 8,
+            "startMs": 22440,
+            "endMs": 26136,
+            "text": "告訴他星星為什麼眨眼睛，",
+            "textSimplified": "告诉他星星为什么眨眼睛，"
+          },
+          {
+            "index": 7,
+            "paragraph": 9,
+            "startMs": 26136,
+            "endMs": 29976,
+            "text": "太陽為什麼會落到山的另一邊。",
+            "textSimplified": "太阳为什么会落到山的另一边。"
+          },
+          {
+            "index": 8,
+            "paragraph": 10,
+            "startMs": 29976,
+            "endMs": 36528,
+            "text": "我一定不會板着臉對他說： 「爸爸忙着呢，自己玩去！」",
+            "textSimplified": "我一定不会板着脸对他说： 「爸爸忙着呢，自己玩去！」"
+          },
+          {
+            "index": 9,
+            "paragraph": 12,
+            "startMs": 36528,
+            "endMs": 39792,
+            "text": "我要帶他去海洋公園，",
+            "textSimplified": "我要带他去海洋公园，"
+          },
+          {
+            "index": 10,
+            "paragraph": 13,
+            "startMs": 39792,
+            "endMs": 43824,
+            "text": "對表演高空跳水的海豚敬個禮，",
+            "textSimplified": "对表演高空跳水的海豚敬个礼，"
+          },
+          {
+            "index": 11,
+            "paragraph": 14,
+            "startMs": 43824,
+            "endMs": 47712,
+            "text": "向憨態可掬的大熊貓問聲好。",
+            "textSimplified": "向憨态可掬的大熊猫问声好。"
+          },
+          {
+            "index": 12,
+            "paragraph": 15,
+            "startMs": 47712,
+            "endMs": 54528,
+            "text": "我還會認真地告訴他： 「動物真了不起，我們要愛護牠。」",
+            "textSimplified": "我还会认真地告诉他： 「动物真了不起，我们要爱护牠。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 17,
+            "startMs": 54528,
+            "endMs": 57888,
+            "text": "我真想快點快點長大，",
+            "textSimplified": "我真想快点快点长大，"
+          },
+          {
+            "index": 14,
+            "paragraph": 18,
+            "startMs": 57888,
+            "endMs": 61344,
+            "text": "長大變成一個這樣的爸爸。",
+            "textSimplified": "长大变成一个这样的爸爸。"
+          },
+          {
+            "index": 15,
+            "paragraph": 19,
+            "startMs": 61344,
+            "endMs": 65040,
+            "text": "我一定會好好陪伴我的寶貝，",
+            "textSimplified": "我一定会好好陪伴我的宝贝，"
+          },
+          {
+            "index": 16,
+            "paragraph": 20,
+            "startMs": 65040,
+            "endMs": 68112,
+            "text": "看着他一天天長大。",
+            "textSimplified": "看着他一天天长大。"
+          }
+        ]
+      }
+    }
+  ]
+}

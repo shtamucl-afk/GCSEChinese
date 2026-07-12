@@ -1,0 +1,572 @@
+{
+  "bookId": "02",
+  "chapterId": "07",
+  "chapterTitle": "愛因斯坦的故事",
+  "chapterTitleSimplified": "爱因斯坦的故事",
+  "passages": [
+    "二上：愛因斯坦的故事（第二十頁）\n\n愛因斯坦是一位偉大的科學家，他非常愛鑽研，平時總是不放過一點一滴的時間。\n\n一天，天空中飄着濛濛細雨。愛因斯坦的一位朋友開着小汽車，在馬路上快速地行駛。汽車行駛到一座橋邊時，朋友突然看到橋上有一個熟悉的身影，那不是愛因斯坦嗎？只見愛因斯坦獨自一人在橋上走來走去，他一邊走一邊自言自語，還不時地停下腳步在一張紙上寫着什麼。愛因斯坦好像完全沉浸在自己的世界裏，全然沒有理會空中飄落的濛濛細雨已經淋濕了衣裳。\n\n朋友停下車看了一會兒，才走上前去和他打招呼。「嗨，老朋友，你在這裏做什麼？」聽到有人叫他，愛因斯坦這才從沉思中醒過來。「我在等人呢，有個學生約了我在這裏見面，可是他還沒有來。」愛因斯坦微笑着回答，並沒有責怪學生的不守時。可是，他的朋友聽了非常生氣，他說：「這不是浪費你的寶貴時間嗎？這學生也太不像話了。」\n\n「不，他沒有浪費我的時間。」愛因斯坦揚了揚手中被雨淋濕的紙，說，「你看，我在等他的時候，已經解決了一道科學題了。」"
+  ],
+  "passagesSimplified": [
+    "二上：爱因斯坦的故事（第二十页）\n\n爱因斯坦是一位伟大的科学家，他非常爱钻研，平时总是不放过一点一滴的时间。\n\n一天，天空中飘着蒙蒙细雨。爱因斯坦的一位朋友开着小汽车，在马路上快速地行驶。汽车行驶到一座桥边时，朋友突然看到桥上有一个熟悉的身影，那不是爱因斯坦吗？只见爱因斯坦独自一人在桥上走来走去，他一边走一边自言自语，还不时地停下脚步在一张纸上写着什么。爱因斯坦好像完全沉浸在自己的世界里，全然没有理会空中飘落的蒙蒙细雨已经淋湿了衣裳。\n\n朋友停下车看了一会儿，才走上前去和他打招呼。「嗨，老朋友，你在这里做什么？」听到有人叫他，爱因斯坦这才从沉思中醒过来。「我在等人呢，有个学生约了我在这里见面，可是他还没有来。」爱因斯坦微笑着回答，并没有责怪学生的不守时。可是，他的朋友听了非常生气，他说：「这不是浪费你的宝贵时间吗？这学生也太不像话了。」\n\n「不，他没有浪费我的时间。」爱因斯坦扬了扬手中被雨淋湿的纸，说，「你看，我在等他的时候，已经解决了一道科学题了。」"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch07_w001",
+      "traditional": "偉大",
+      "simplified": "伟大",
+      "english": "great",
+      "pinyin": "wěi dà",
+      "contextSentence": "愛因斯坦是一位偉大的科學家，他非常愛鑽研，平時總是不放過一點一滴的時間。",
+      "contextSentenceSimplified": "爱因斯坦是一位伟大的科学家，他非常爱钻研，平时总是不放过一点一滴的时间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w002",
+      "traditional": "鑽研",
+      "simplified": "钻研",
+      "english": "study deeply",
+      "pinyin": "zuān yán",
+      "contextSentence": "愛因斯坦是一位偉大的科學家，他非常愛鑽研，平時總是不放過一點一滴的時間。",
+      "contextSentenceSimplified": "爱因斯坦是一位伟大的科学家，他非常爱钻研，平时总是不放过一点一滴的时间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w003",
+      "traditional": "一點一滴",
+      "simplified": "一点一滴",
+      "english": "bit by bit",
+      "pinyin": "yī diǎn yī dī",
+      "contextSentence": "愛因斯坦是一位偉大的科學家，他非常愛鑽研，平時總是不放過一點一滴的時間。",
+      "contextSentenceSimplified": "爱因斯坦是一位伟大的科学家，他非常爱钻研，平时总是不放过一点一滴的时间。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w004",
+      "traditional": "濛濛細雨",
+      "simplified": "蒙蒙细雨",
+      "english": "drizzle",
+      "pinyin": "méng méng xì yǔ",
+      "contextSentence": "一天，天空中飄着濛濛細雨。",
+      "contextSentenceSimplified": "一天，天空中飘着蒙蒙细雨。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w005",
+      "traditional": "熟悉",
+      "simplified": "熟悉",
+      "english": "familiar",
+      "pinyin": "shú xī",
+      "contextSentence": "汽車行駛到一座橋邊時，朋友突然看到橋上有一個熟悉的身影，那不是愛因斯坦嗎？",
+      "contextSentenceSimplified": "汽车行驶到一座桥边时，朋友突然看到桥上有一个熟悉的身影，那不是爱因斯坦吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w006",
+      "traditional": "獨自",
+      "simplified": "独自",
+      "english": "alone",
+      "pinyin": "dú zì",
+      "contextSentence": "只見愛因斯坦獨自一人在橋上走來走去，他一邊走一邊自言自語，還不時地停下腳步在一張紙上寫着什麼。",
+      "contextSentenceSimplified": "只见爱因斯坦独自一人在桥上走来走去，他一边走一边自言自语，还不时地停下脚步在一张纸上写着什么。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w007",
+      "traditional": "沉浸",
+      "simplified": "沉浸",
+      "english": "immerse",
+      "pinyin": "chén jìn",
+      "contextSentence": "愛因斯坦好像完全沉浸在自己的世界裏，全然沒有理會空中飄落的濛濛細雨已經淋濕了衣裳。",
+      "contextSentenceSimplified": "爱因斯坦好像完全沉浸在自己的世界里，全然没有理会空中飘落的蒙蒙细雨已经淋湿了衣裳。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w008",
+      "traditional": "衣裳",
+      "simplified": "衣裳",
+      "english": "clothes",
+      "pinyin": "yī shang",
+      "contextSentence": "愛因斯坦好像完全沉浸在自己的世界裏，全然沒有理會空中飄落的濛濛細雨已經淋濕了衣裳。",
+      "contextSentenceSimplified": "爱因斯坦好像完全沉浸在自己的世界里，全然没有理会空中飘落的蒙蒙细雨已经淋湿了衣裳。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w009",
+      "traditional": "打招呼",
+      "simplified": "打招呼",
+      "english": "greet",
+      "pinyin": "dǎ zhāo hū",
+      "contextSentence": "朋友停下車看了一會兒，才走上前去和他打招呼。",
+      "contextSentenceSimplified": "朋友停下车看了一会儿，才走上前去和他打招呼。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w010",
+      "traditional": "沉思中醒過來",
+      "simplified": "沉思中醒过来",
+      "english": "awaken from contemplation",
+      "pinyin": "chén sī zhōng xǐng guò lái",
+      "contextSentence": "聽到有人叫他，愛因斯坦這才從沉思中醒過來。",
+      "contextSentenceSimplified": "听到有人叫他，爱因斯坦这才从沉思中醒过来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w011",
+      "traditional": "約",
+      "simplified": "约",
+      "english": "approximately",
+      "pinyin": "yuē",
+      "contextSentence": "我在等人呢，有個學生約了我在這裏見面，可是他還沒有來。",
+      "contextSentenceSimplified": "我在等人呢，有个学生约了我在这里见面，可是他还没有来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w012",
+      "traditional": "見面",
+      "simplified": "见面",
+      "english": "meet",
+      "pinyin": "jiàn miàn",
+      "contextSentence": "我在等人呢，有個學生約了我在這裏見面，可是他還沒有來。",
+      "contextSentenceSimplified": "我在等人呢，有个学生约了我在这里见面，可是他还没有来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w013",
+      "traditional": "責怪",
+      "simplified": "责怪",
+      "english": "blame",
+      "pinyin": "zé guài",
+      "contextSentence": "愛因斯坦微笑着回答，並沒有責怪學生的不守時。",
+      "contextSentenceSimplified": "爱因斯坦微笑着回答，并没有责怪学生的不守时。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w014",
+      "traditional": "守時",
+      "simplified": "守时",
+      "english": "punctual",
+      "pinyin": "shǒu shí",
+      "contextSentence": "愛因斯坦微笑着回答，並沒有責怪學生的不守時。",
+      "contextSentenceSimplified": "爱因斯坦微笑着回答，并没有责怪学生的不守时。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w014_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w014_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch07_w015",
+      "traditional": "浪費",
+      "simplified": "浪费",
+      "english": "waste",
+      "pinyin": "làng fèi",
+      "contextSentence": "可是，他的朋友聽了非常生氣，他說：「這不是浪費你的寶貴時間嗎？」",
+      "contextSentenceSimplified": "可是，他的朋友听了非常生气，他说：「这不是浪费你的宝贵时间吗？」",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w015_m_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter07/b02_ch07_w015_c_isolated.mp3",
+          "sentence": "audio/book02/chapter07/b02_ch07_w015_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter07/b02_ch07_p01_m.mp3",
+        "durationMs": 100488,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4152,
+            "text": "二上：愛因斯坦的故事（第二十頁）",
+            "textSimplified": "二上：爱因斯坦的故事（第二十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4152,
+            "endMs": 12744,
+            "text": "愛因斯坦是一位偉大的科學家，他非常愛鑽研，平時總是不放過一點一滴的時間。",
+            "textSimplified": "爱因斯坦是一位伟大的科学家，他非常爱钻研，平时总是不放过一点一滴的时间。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 12744,
+            "endMs": 16440,
+            "text": "一天，天空中飄着濛濛細雨。",
+            "textSimplified": "一天，天空中飘着蒙蒙细雨。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 16440,
+            "endMs": 22560,
+            "text": "愛因斯坦的一位朋友開着小汽車，在馬路上快速地行駛。",
+            "textSimplified": "爱因斯坦的一位朋友开着小汽车，在马路上快速地行驶。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 22560,
+            "endMs": 31224,
+            "text": "汽車行駛到一座橋邊時，朋友突然看到橋上有一個熟悉的身影，那不是愛因斯坦嗎？",
+            "textSimplified": "汽车行驶到一座桥边时，朋友突然看到桥上有一个熟悉的身影，那不是爱因斯坦吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 31224,
+            "endMs": 42288,
+            "text": "只見愛因斯坦獨自一人在橋上走來走去，他一邊走一邊自言自語，還不時地停下腳步在一張紙上寫着什麼。",
+            "textSimplified": "只见爱因斯坦独自一人在桥上走来走去，他一边走一边自言自语，还不时地停下脚步在一张纸上写着什么。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 42288,
+            "endMs": 51912,
+            "text": "愛因斯坦好像完全沉浸在自己的世界裏，全然沒有理會空中飄落的濛濛細雨已經淋濕了衣裳。",
+            "textSimplified": "爱因斯坦好像完全沉浸在自己的世界里，全然没有理会空中飘落的蒙蒙细雨已经淋湿了衣裳。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 51912,
+            "endMs": 57312,
+            "text": "朋友停下車看了一會兒，才走上前去和他打招呼。",
+            "textSimplified": "朋友停下车看了一会儿，才走上前去和他打招呼。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 57312,
+            "endMs": 61008,
+            "text": "「嗨，老朋友，你在這裏做什麼？」",
+            "textSimplified": "「嗨，老朋友，你在这里做什么？」"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 61008,
+            "endMs": 66456,
+            "text": "聽到有人叫他，愛因斯坦這才從沉思中醒過來。",
+            "textSimplified": "听到有人叫他，爱因斯坦这才从沉思中醒过来。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 66456,
+            "endMs": 72384,
+            "text": "「我在等人呢，有個學生約了我在這裏見面，可是他還沒有來。」",
+            "textSimplified": "「我在等人呢，有个学生约了我在这里见面，可是他还没有来。」"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 72384,
+            "endMs": 77760,
+            "text": "愛因斯坦微笑着回答，並沒有責怪學生的不守時。",
+            "textSimplified": "爱因斯坦微笑着回答，并没有责怪学生的不守时。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 77760,
+            "endMs": 85176,
+            "text": "可是，他的朋友聽了非常生氣，他說：「這不是浪費你的寶貴時間嗎？",
+            "textSimplified": "可是，他的朋友听了非常生气，他说：「这不是浪费你的宝贵时间吗？"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 85176,
+            "endMs": 87768,
+            "text": "這學生也太不像話了。」",
+            "textSimplified": "这学生也太不像话了。」"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 87768,
+            "endMs": 90840,
+            "text": "「不，他沒有浪費我的時間。」",
+            "textSimplified": "「不，他没有浪费我的时间。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 90840,
+            "endMs": 100488,
+            "text": "愛因斯坦揚了揚手中被雨淋濕的紙，說，「你看，我在等他的時候，已經解決了一道科學題了。」",
+            "textSimplified": "爱因斯坦扬了扬手中被雨淋湿的纸，说，「你看，我在等他的时候，已经解决了一道科学题了。」"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter07/b02_ch07_p01_c.mp3",
+        "durationMs": 108840,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4680,
+            "text": "二上：愛因斯坦的故事（第二十頁）",
+            "textSimplified": "二上：爱因斯坦的故事（第二十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4680,
+            "endMs": 13104,
+            "text": "愛因斯坦是一位偉大的科學家，他非常愛鑽研，平時總是不放過一點一滴的時間。",
+            "textSimplified": "爱因斯坦是一位伟大的科学家，他非常爱钻研，平时总是不放过一点一滴的时间。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 13104,
+            "endMs": 17184,
+            "text": "一天，天空中飄着濛濛細雨。",
+            "textSimplified": "一天，天空中飘着蒙蒙细雨。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17184,
+            "endMs": 23832,
+            "text": "愛因斯坦的一位朋友開着小汽車，在馬路上快速地行駛。",
+            "textSimplified": "爱因斯坦的一位朋友开着小汽车，在马路上快速地行驶。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 23832,
+            "endMs": 32760,
+            "text": "汽車行駛到一座橋邊時，朋友突然看到橋上有一個熟悉的身影，那不是愛因斯坦嗎？",
+            "textSimplified": "汽车行驶到一座桥边时，朋友突然看到桥上有一个熟悉的身影，那不是爱因斯坦吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 32760,
+            "endMs": 43416,
+            "text": "只見愛因斯坦獨自一人在橋上走來走去，他一邊走一邊自言自語，還不時地停下腳步在一張紙上寫着什麼。",
+            "textSimplified": "只见爱因斯坦独自一人在桥上走来走去，他一边走一边自言自语，还不时地停下脚步在一张纸上写着什么。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 43416,
+            "endMs": 52968,
+            "text": "愛因斯坦好像完全沉浸在自己的世界裏，全然沒有理會空中飄落的濛濛細雨已經淋濕了衣裳。",
+            "textSimplified": "爱因斯坦好像完全沉浸在自己的世界里，全然没有理会空中飘落的蒙蒙细雨已经淋湿了衣裳。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 52968,
+            "endMs": 58728,
+            "text": "朋友停下車看了一會兒，才走上前去和他打招呼。",
+            "textSimplified": "朋友停下车看了一会儿，才走上前去和他打招呼。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 58728,
+            "endMs": 63576,
+            "text": "「嗨，老朋友，你在這裏做什麼？」",
+            "textSimplified": "「嗨，老朋友，你在这里做什么？」"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 63576,
+            "endMs": 69576,
+            "text": "聽到有人叫他，愛因斯坦這才從沉思中醒過來。",
+            "textSimplified": "听到有人叫他，爱因斯坦这才从沉思中醒过来。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 69576,
+            "endMs": 76560,
+            "text": "「我在等人呢，有個學生約了我在這裏見面，可是他還沒有來。」",
+            "textSimplified": "「我在等人呢，有个学生约了我在这里见面，可是他还没有来。」"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 76560,
+            "endMs": 82320,
+            "text": "愛因斯坦微笑着回答，並沒有責怪學生的不守時。",
+            "textSimplified": "爱因斯坦微笑着回答，并没有责怪学生的不守时。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 82320,
+            "endMs": 90144,
+            "text": "可是，他的朋友聽了非常生氣，他說：「這不是浪費你的寶貴時間嗎？",
+            "textSimplified": "可是，他的朋友听了非常生气，他说：「这不是浪费你的宝贵时间吗？"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 90144,
+            "endMs": 94008,
+            "text": "這學生也太不像話了。」",
+            "textSimplified": "这学生也太不像话了。」"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 94008,
+            "endMs": 98136,
+            "text": "「不，他沒有浪費我的時間。」",
+            "textSimplified": "「不，他没有浪费我的时间。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 98136,
+            "endMs": 108840,
+            "text": "愛因斯坦揚了揚手中被雨淋濕的紙，說，「你看，我在等他的時候，已經解決了一道科學題了。」",
+            "textSimplified": "爱因斯坦扬了扬手中被雨淋湿的纸，说，「你看，我在等他的时候，已经解决了一道科学题了。」"
+          }
+        ]
+      }
+    }
+  ]
+}
