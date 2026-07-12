@@ -314,5 +314,566 @@
         }
       }
     }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter02/b02_ch02_p01_m.mp3",
+        "durationMs": 143256,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4344,
+            "text": "二上：一次有趣的畫畫比賽（第八頁）",
+            "textSimplified": "二上：一次有趣的画画比赛（第八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4344,
+            "endMs": 7704,
+            "text": "星期天，頌熙來我家做客。",
+            "textSimplified": "星期天，颂熙来我家做客。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7704,
+            "endMs": 11592,
+            "text": "我們倆一會兒看電視，一會兒玩遊戲機。",
+            "textSimplified": "我们俩一会儿看电视，一会儿玩游戏机。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 11592,
+            "endMs": 17664,
+            "text": "突然，頌熙提議說：『小勇，我們來一次有趣的畫畫比賽吧。",
+            "textSimplified": "突然，颂熙提议说：『小勇，我们来一次有趣的画画比赛吧。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 17664,
+            "endMs": 25776,
+            "text": "我們倆輪流畫一隻小動物，誰畫的動物能喫掉對方畫的動物，就算贏，怎麼樣？』",
+            "textSimplified": "我们俩轮流画一只小动物，谁画的动物能吃掉对方画的动物，就算赢，怎么样？』"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 25776,
+            "endMs": 28632,
+            "text": "『嘿，這個主意真不錯。",
+            "textSimplified": "『嘿，这个主意真不错。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 28632,
+            "endMs": 31680,
+            "text": "看我的，我一定會打敗你。』",
+            "textSimplified": "看我的，我一定会打败你。』"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 31680,
+            "endMs": 39120,
+            "text": "我先在紙上畫了一隻小雞，頌熙看了我一眼，寥寥幾筆就畫好了一隻狐狸。",
+            "textSimplified": "我先在纸上画了一只小鸡，颂熙看了我一眼，寥寥几笔就画好了一只狐狸。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 39120,
+            "endMs": 45096,
+            "text": "看那隻狐狸，好像正大搖大擺心地走過來，要喫掉小雞呢。",
+            "textSimplified": "看那只狐狸，好像正大摇大摆心地走过来，要吃掉小鸡呢。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 45096,
+            "endMs": 49968,
+            "text": "我又畫了一隻狼，哼哼，看你的狐狸往哪裏逃？",
+            "textSimplified": "我又画了一只狼，哼哼，看你的狐狸往哪里逃？"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 49968,
+            "endMs": 57072,
+            "text": "頌熙毫不示弱，畫了一隻張着血盆大口的老虎，這下我的狼也難逃了。",
+            "textSimplified": "颂熙毫不示弱，画了一只张着血盆大口的老虎，这下我的狼也难逃了。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 57072,
+            "endMs": 60504,
+            "text": "我着急了：誰能喫掉老虎呢？",
+            "textSimplified": "我着急了：谁能吃掉老虎呢？"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 60504,
+            "endMs": 63720,
+            "text": "鱷魚，大象，還是鯨魚？",
+            "textSimplified": "鳄鱼，大象，还是鲸鱼？"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 63720,
+            "endMs": 71688,
+            "text": "突然，我的腦海裏浮現了『武松打虎』的畫面，我『唰唰』幾筆畫出一個強壯的巨人。",
+            "textSimplified": "突然，我的脑海里浮现了『武松打虎』的画面，我『唰唰』几笔画出一个强壮的巨人。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 71688,
+            "endMs": 79248,
+            "text": "頌熙見了，高興地大喊道：『我的老虎能把你的人喫掉，你輸了，你輸了！』",
+            "textSimplified": "颂熙见了，高兴地大喊道：『我的老虎能把你的人吃掉，你输了，你输了！』"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 79248,
+            "endMs": 84384,
+            "text": "我不服氣，連忙說：『你沒聽過「武松打虎」的故事嗎？",
+            "textSimplified": "我不服气，连忙说：『你没听过「武松打虎」的故事吗？"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 84384,
+            "endMs": 87816,
+            "text": "你說是人厲害還是老虎厲害？",
+            "textSimplified": "你说是人厉害还是老虎厉害？"
+          },
+          {
+            "index": 17,
+            "paragraph": 4,
+            "startMs": 87816,
+            "endMs": 92592,
+            "text": "再說，老虎再厲害不也被關在動物園裏嗎？』",
+            "textSimplified": "再说，老虎再厉害不也被关在动物园里吗？』"
+          },
+          {
+            "index": 18,
+            "paragraph": 4,
+            "startMs": 92592,
+            "endMs": 96720,
+            "text": "『哈哈，你就別狡辯了，乖乖認輸吧！",
+            "textSimplified": "『哈哈，你就别狡辩了，乖乖认输吧！"
+          },
+          {
+            "index": 19,
+            "paragraph": 4,
+            "startMs": 96720,
+            "endMs": 98808,
+            "text": "還記得規則嗎？",
+            "textSimplified": "还记得规则吗？"
+          },
+          {
+            "index": 20,
+            "paragraph": 4,
+            "startMs": 98808,
+            "endMs": 100896,
+            "text": "可是畫小動物哦！』",
+            "textSimplified": "可是画小动物哦！』"
+          },
+          {
+            "index": 21,
+            "paragraph": 4,
+            "startMs": 100896,
+            "endMs": 103272,
+            "text": "頌熙得意地說道。",
+            "textSimplified": "颂熙得意地说道。"
+          },
+          {
+            "index": 22,
+            "paragraph": 6,
+            "startMs": 103272,
+            "endMs": 106872,
+            "text": "我無話可說，只好乖乖認輸了。",
+            "textSimplified": "我无话可说，只好乖乖认输了。"
+          },
+          {
+            "index": 23,
+            "paragraph": 6,
+            "startMs": 106872,
+            "endMs": 114384,
+            "text": "雖然輸了比賽，可是我一點也不沮喪，因為這次比賽實在太有趣了。",
+            "textSimplified": "虽然输了比赛，可是我一点也不沮丧，因为这次比赛实在太有趣了。"
+          },
+          {
+            "index": 24,
+            "paragraph": 8,
+            "startMs": 114384,
+            "endMs": 115944,
+            "text": "「成功了！」",
+            "textSimplified": "「成功了！」"
+          },
+          {
+            "index": 25,
+            "paragraph": 8,
+            "startMs": 115944,
+            "endMs": 118008,
+            "text": "我高興地喊道。",
+            "textSimplified": "我高兴地喊道。"
+          },
+          {
+            "index": 26,
+            "paragraph": 8,
+            "startMs": 118008,
+            "endMs": 119880,
+            "text": "「我也做好了。」",
+            "textSimplified": "「我也做好了。」"
+          },
+          {
+            "index": 27,
+            "paragraph": 8,
+            "startMs": 119880,
+            "endMs": 125400,
+            "text": "我朝旁邊一看，志文正得意洋洋地拿着一隻「小豬」。",
+            "textSimplified": "我朝旁边一看，志文正得意洋洋地拿着一只「小猪」。"
+          },
+          {
+            "index": 28,
+            "paragraph": 8,
+            "startMs": 125400,
+            "endMs": 130632,
+            "text": "看它一隻眼睛大一隻眼睛小，我不禁「撲哧」笑出了聲。",
+            "textSimplified": "看它一只眼睛大一只眼睛小，我不禁「扑哧」笑出了声。"
+          },
+          {
+            "index": 29,
+            "paragraph": 10,
+            "startMs": 130632,
+            "endMs": 138528,
+            "text": "一隻隻可愛的小動物相繼在同學們的手中誕生，有小猴子、大象、老虎。",
+            "textSimplified": "一只只可爱的小动物相继在同学们的手中诞生，有小猴子、大象、老虎。"
+          },
+          {
+            "index": 30,
+            "paragraph": 10,
+            "startMs": 138528,
+            "endMs": 138528,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 31,
+            "paragraph": 10,
+            "startMs": 138528,
+            "endMs": 138528,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 32,
+            "paragraph": 10,
+            "startMs": 138528,
+            "endMs": 141192,
+            "text": "還真是一次「動物聚會」呀。",
+            "textSimplified": "还真是一次「动物聚会」呀。"
+          },
+          {
+            "index": 33,
+            "paragraph": 10,
+            "startMs": 141192,
+            "endMs": 143256,
+            "text": "捏彩泥真有趣！",
+            "textSimplified": "捏彩泥真有趣！"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter02/b02_ch02_p01_c.mp3",
+        "durationMs": 165744,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4872,
+            "text": "二上：一次有趣的畫畫比賽（第八頁）",
+            "textSimplified": "二上：一次有趣的画画比赛（第八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4872,
+            "endMs": 8712,
+            "text": "星期天，頌熙來我家做客。",
+            "textSimplified": "星期天，颂熙来我家做客。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8712,
+            "endMs": 13776,
+            "text": "我們倆一會兒看電視，一會兒玩遊戲機。",
+            "textSimplified": "我们俩一会儿看电视，一会儿玩游戏机。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 13776,
+            "endMs": 20904,
+            "text": "突然，頌熙提議說：『小勇，我們來一次有趣的畫畫比賽吧。",
+            "textSimplified": "突然，颂熙提议说：『小勇，我们来一次有趣的画画比赛吧。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 20904,
+            "endMs": 29496,
+            "text": "我們倆輪流畫一隻小動物，誰畫的動物能喫掉對方畫的動物，就算贏，怎麼樣？』",
+            "textSimplified": "我们俩轮流画一只小动物，谁画的动物能吃掉对方画的动物，就算赢，怎么样？』"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 29496,
+            "endMs": 33048,
+            "text": "『嘿，這個主意真不錯。",
+            "textSimplified": "『嘿，这个主意真不错。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 33048,
+            "endMs": 37152,
+            "text": "看我的，我一定會打敗你。』",
+            "textSimplified": "看我的，我一定会打败你。』"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 37152,
+            "endMs": 45048,
+            "text": "我先在紙上畫了一隻小雞，頌熙看了我一眼，寥寥幾筆就畫好了一隻狐狸。",
+            "textSimplified": "我先在纸上画了一只小鸡，颂熙看了我一眼，寥寥几笔就画好了一只狐狸。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 45048,
+            "endMs": 52008,
+            "text": "看那隻狐狸，好像正大搖大擺心地走過來，要喫掉小雞呢。",
+            "textSimplified": "看那只狐狸，好像正大摇大摆心地走过来，要吃掉小鸡呢。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 52008,
+            "endMs": 57552,
+            "text": "我又畫了一隻狼，哼哼，看你的狐狸往哪裏逃？",
+            "textSimplified": "我又画了一只狼，哼哼，看你的狐狸往哪里逃？"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 57552,
+            "endMs": 65184,
+            "text": "頌熙毫不示弱，畫了一隻張着血盆大口的老虎，這下我的狼也難逃了。",
+            "textSimplified": "颂熙毫不示弱，画了一只张着血盆大口的老虎，这下我的狼也难逃了。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 65184,
+            "endMs": 69024,
+            "text": "我着急了：誰能喫掉老虎呢？",
+            "textSimplified": "我着急了：谁能吃掉老虎呢？"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 69024,
+            "endMs": 73224,
+            "text": "鱷魚，大象，還是鯨魚？",
+            "textSimplified": "鳄鱼，大象，还是鲸鱼？"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 73224,
+            "endMs": 81456,
+            "text": "突然，我的腦海裏浮現了『武松打虎』的畫面，我『唰唰』幾筆畫出一個強壯的巨人。",
+            "textSimplified": "突然，我的脑海里浮现了『武松打虎』的画面，我『唰唰』几笔画出一个强壮的巨人。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 81456,
+            "endMs": 90264,
+            "text": "頌熙見了，高興地大喊道：『我的老虎能把你的人喫掉，你輸了，你輸了！』",
+            "textSimplified": "颂熙见了，高兴地大喊道：『我的老虎能把你的人吃掉，你输了，你输了！』"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 90264,
+            "endMs": 96192,
+            "text": "我不服氣，連忙說：『你沒聽過「武松打虎」的故事嗎？",
+            "textSimplified": "我不服气，连忙说：『你没听过「武松打虎」的故事吗？"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 96192,
+            "endMs": 100080,
+            "text": "你說是人厲害還是老虎厲害？",
+            "textSimplified": "你说是人厉害还是老虎厉害？"
+          },
+          {
+            "index": 17,
+            "paragraph": 4,
+            "startMs": 100080,
+            "endMs": 105864,
+            "text": "再說，老虎再厲害不也被關在動物園裏嗎？』",
+            "textSimplified": "再说，老虎再厉害不也被关在动物园里吗？』"
+          },
+          {
+            "index": 18,
+            "paragraph": 4,
+            "startMs": 105864,
+            "endMs": 110712,
+            "text": "『哈哈，你就別狡辯了，乖乖認輸吧！",
+            "textSimplified": "『哈哈，你就别狡辩了，乖乖认输吧！"
+          },
+          {
+            "index": 19,
+            "paragraph": 4,
+            "startMs": 110712,
+            "endMs": 113208,
+            "text": "還記得規則嗎？",
+            "textSimplified": "还记得规则吗？"
+          },
+          {
+            "index": 20,
+            "paragraph": 4,
+            "startMs": 113208,
+            "endMs": 116400,
+            "text": "可是畫小動物哦！』",
+            "textSimplified": "可是画小动物哦！』"
+          },
+          {
+            "index": 21,
+            "paragraph": 4,
+            "startMs": 116400,
+            "endMs": 119160,
+            "text": "頌熙得意地說道。",
+            "textSimplified": "颂熙得意地说道。"
+          },
+          {
+            "index": 22,
+            "paragraph": 6,
+            "startMs": 119160,
+            "endMs": 123192,
+            "text": "我無話可說，只好乖乖認輸了。",
+            "textSimplified": "我无话可说，只好乖乖认输了。"
+          },
+          {
+            "index": 23,
+            "paragraph": 6,
+            "startMs": 123192,
+            "endMs": 130824,
+            "text": "雖然輸了比賽，可是我一點也不沮喪，因為這次比賽實在太有趣了。",
+            "textSimplified": "虽然输了比赛，可是我一点也不沮丧，因为这次比赛实在太有趣了。"
+          },
+          {
+            "index": 24,
+            "paragraph": 8,
+            "startMs": 130824,
+            "endMs": 133344,
+            "text": "「成功了！」",
+            "textSimplified": "「成功了！」"
+          },
+          {
+            "index": 25,
+            "paragraph": 8,
+            "startMs": 133344,
+            "endMs": 135984,
+            "text": "我高興地喊道。",
+            "textSimplified": "我高兴地喊道。"
+          },
+          {
+            "index": 26,
+            "paragraph": 8,
+            "startMs": 135984,
+            "endMs": 138912,
+            "text": "「我也做好了。」",
+            "textSimplified": "「我也做好了。」"
+          },
+          {
+            "index": 27,
+            "paragraph": 8,
+            "startMs": 138912,
+            "endMs": 145296,
+            "text": "我朝旁邊一看，志文正得意洋洋地拿着一隻「小豬」。",
+            "textSimplified": "我朝旁边一看，志文正得意洋洋地拿着一只「小猪」。"
+          },
+          {
+            "index": 28,
+            "paragraph": 8,
+            "startMs": 145296,
+            "endMs": 151392,
+            "text": "看它一隻眼睛大一隻眼睛小，我不禁「撲哧」笑出了聲。",
+            "textSimplified": "看它一只眼睛大一只眼睛小，我不禁「扑哧」笑出了声。"
+          },
+          {
+            "index": 29,
+            "paragraph": 10,
+            "startMs": 151392,
+            "endMs": 159768,
+            "text": "一隻隻可愛的小動物相繼在同學們的手中誕生，有小猴子、大象、老虎。",
+            "textSimplified": "一只只可爱的小动物相继在同学们的手中诞生，有小猴子、大象、老虎。"
+          },
+          {
+            "index": 30,
+            "paragraph": 10,
+            "startMs": 159768,
+            "endMs": 159768,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 31,
+            "paragraph": 10,
+            "startMs": 159768,
+            "endMs": 159768,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 32,
+            "paragraph": 10,
+            "startMs": 159768,
+            "endMs": 163104,
+            "text": "還真是一次「動物聚會」呀。",
+            "textSimplified": "还真是一次「动物聚会」呀。"
+          },
+          {
+            "index": 33,
+            "paragraph": 10,
+            "startMs": 163104,
+            "endMs": 165744,
+            "text": "捏彩泥真有趣！",
+            "textSimplified": "捏彩泥真有趣！"
+          }
+        ]
+      }
+    }
   ]
 }

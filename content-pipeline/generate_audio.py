@@ -240,13 +240,23 @@ async def generate_passage_audio(book_id, chapter_id, passages, passages_simplif
                         per_sentence.append((tmp_file, dur, sentence))
                         print(f"OK ({dur} ms)")
                     except Exception as e:
-                        print(f"FAILED: {e}")
-                        raise
+                        # M9.6 fix - if edge-tts rejects a sentence (typically
+                        # because it's pure punctuation/whitespace with no
+                        # phonetic content), record it as a zero-duration
+                        # sentence at the previous sentence's end. Keeps
+                        # sentence indices in lockstep with the frontend DOM,
+                        # and playback flows smoothly across the silent span.
+                        print(f"SKIPPED (no audio: {type(e).__name__})")
+                        per_sentence.append((None, 0, sentence))
 
                 # Byte-wise concat. edge-tts MP3s are CBR from the same encoder,
                 # so plain concatenation plays back cleanly in all browsers.
+                # Zero-duration sentences (M9.6 skip) have tmp_file=None and
+                # contribute nothing to the concatenated audio.
                 with open(passage_path, "wb") as out_f:
                     for tmp_file, _, _ in per_sentence:
+                        if tmp_file is None:
+                            continue
                         with open(tmp_file, "rb") as in_f:
                             out_f.write(in_f.read())
 
