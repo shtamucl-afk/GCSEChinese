@@ -193,7 +193,18 @@
     .vocab-L3 { background-color: #D4EDDA; color: #155724; }
     .vocab-L4 { background-color: #D9E7F5; color: #1E3A5F; }
     .vocab-Excluded { background-color: #E5DED2; color: #6B6055; }
-    
+
+    /* M9.3 - sentence wrappers. Inline so word wrap flows naturally.
+       Cursor + smooth transition prepare for M9.5 click-to-jump and
+       active-sentence pill highlight. Visually identical to plain text
+       until the .sentence--active class is applied in M9.5. */
+    .sentence {
+      display: inline;
+      cursor: default;
+      transition: background-color 0.25s ease, padding 0.25s ease,
+                  font-size 0.25s ease, border-radius 0.25s ease;
+    }
+
     .empty-message {
       color: rgba(30, 58, 95, 0.55);
       font-style: italic;
@@ -377,6 +388,33 @@
         .replace(/'/g, '&#39;');
     }
 
+    // M9.3 — sentence terminators, must match SENTENCE_TERMINATORS in
+    // content-pipeline/generate_common.py so the frontend's sentence
+    // indexing lines up with the passageAudio timings written by the
+    // pipeline. Comma (，) intentionally excluded.
+    const SENTENCE_TERMINATORS_JS = '。！？…；';
+
+    // Split one paragraph of text into sentences using the same rule as
+    // the pipeline: split after each terminator in 。！？…；, keeping
+    // the terminator attached to the preceding sentence. Whitespace
+    // stripped; empty sentences skipped. Trailing text without a
+    // terminator is emitted as its own sentence.
+    function splitParagraphIntoSentences(paragraphText) {
+      const result = [];
+      let current = '';
+      for (const ch of paragraphText) {
+        current += ch;
+        if (SENTENCE_TERMINATORS_JS.includes(ch)) {
+          const trimmed = current.trim();
+          if (trimmed) result.push(trimmed);
+          current = '';
+        }
+      }
+      const tail = current.trim();
+      if (tail) result.push(tail);
+      return result;
+    }
+
     function highlightPassageText(passageText, sortedVocab) {
       let working = escapeHtml(passageText);
       const placeholders = [];
@@ -447,15 +485,41 @@
           box.appendChild(accent);
           const body = document.createElement('div');
           body.className = 'passage-body';
-          const parts = passageText.split('\n');
-          parts.forEach(part => {
-            const trimmed = part.trim();
-            if (trimmed) {
-              const p = document.createElement('p');
-              p.innerHTML = highlightPassageText(trimmed, sortedVocab);
-              body.appendChild(p);
-            }
+
+          // M9.3 — passage-scoped sentence counter; increments across
+          // paragraphs so it matches the flat sentences[] array in the
+          // passageAudio JSON block.
+          let sentenceIdx = 0;
+
+          const paragraphs = passageText.split('\n');
+          paragraphs.forEach(paragraph => {
+            const trimmedPara = paragraph.trim();
+            if (!trimmedPara) return;
+
+            const p = document.createElement('p');
+            const sentences = splitParagraphIntoSentences(trimmedPara);
+
+            sentences.forEach((sentenceText, i) => {
+              const span = document.createElement('span');
+              span.className = 'sentence';
+              span.dataset.passage = idx;
+              span.dataset.sentence = sentenceIdx;
+              // Vocab pill highlighting happens INSIDE the sentence span.
+              // The placeholder-swap in highlightPassageText escapes HTML
+              // before injecting vocab spans, so the result is safe.
+              span.innerHTML = highlightPassageText(sentenceText, sortedVocab);
+              p.appendChild(span);
+              // Space between sentences so word wrap flows naturally.
+              // Not appended after the last sentence in a paragraph.
+              if (i < sentences.length - 1) {
+                p.appendChild(document.createTextNode(' '));
+              }
+              sentenceIdx++;
+            });
+
+            body.appendChild(p);
           });
+
           box.appendChild(body);
           containerEl.appendChild(box);
         });
