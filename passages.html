@@ -194,17 +194,30 @@
     .vocab-L4 { background-color: #D9E7F5; color: #1E3A5F; }
     .vocab-Excluded { background-color: #E5DED2; color: #6B6055; }
 
-    /* M9.3 - sentence wrappers. Inline so word wrap flows naturally.
-       Cursor + smooth transition prepare for M9.5 click-to-jump and
-       active-sentence pill highlight. Visually identical to plain text
-       until the .sentence--active class is applied in M9.5. */
+    /* M9.3 + M9.5 - sentence wrappers. Inline so word wrap flows
+       naturally. Clickable in M9.5 (jump-and-continue). */
     .sentence {
       display: inline;
-      cursor: default;
+      cursor: pointer;
       transition: background-color 0.25s ease, padding 0.25s ease,
                   font-size 0.25s ease, border-radius 0.25s ease;
     }
-
+    .sentence:hover {
+      background-color: rgba(30, 58, 95, 0.05);
+      border-radius: 4px;
+    }
+    /* M9.5 - active sentence during karaoke playback. Warm-amber pill
+       reads as highlighter over the cream card. Font grows 1.3x so the
+       reader can track the audio easily. Colour is adjustable. */
+    .sentence--active {
+      font-size: 1.3em;
+      background-color: #FDDDBF59;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    .sentence--active:hover {
+      background-color: #FDDDBF59;
+    } 
     /* M9.4 - passage audio player row (Mandarin + Cantonese) */
     .player-row {
       display: flex;
@@ -278,7 +291,11 @@
       cursor: not-allowed;
     }
     @media (max-width: 700px) {
-      .player-row { gap: 10px; }
+      .player-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
       .player-lang { flex-wrap: wrap; }
     }
 
@@ -427,6 +444,23 @@
 
     function switchScript(script) {
       if (script === currentScript) return;
+
+      // M9.5 - snapshot any currently-playing audio so we can restore
+      // playback in the new script view (per revised plan §9.5.3 opt b).
+      const snapshot = [];
+      audioRegistry.forEach(entry => {
+        if (!entry.audio.paused) {
+          snapshot.push({
+            passageIndex: entry.passageIndex,
+            langKey: entry.langKey,
+            currentTimeMs: entry.audio.currentTime * 1000,
+            wasPlaying: true,
+          });
+        }
+      });
+      // Stash on window so loadAndRender() can pick it up after rebuild.
+      window.__m95PlaybackSnapshot = snapshot;
+
       currentScript = script;
       renderScriptToggle();
       loadAndRender();
@@ -495,7 +529,70 @@
     // M9.4 - registry of all <audio> elements on the page, plus the
     // per-audio button + label element so we can update play/pause
     // state consistently. Rebuilt from scratch on every loadAndRender().
+    // M9.4 - registry of all <audio> elements on the page, plus the
+    // per-audio button + label element so we can update play/pause
+    // state consistently. Rebuilt from scratch on every loadAndRender().
     const audioRegistry = [];
+
+    // M9.5 - remembers which language's sentences are currently the
+    // "karaoke source" for each passage. Keyed by passage index.
+    // e.g. { 0: 'mandarin', 2: 'cantonese' }. Only one language per
+    // passage drives the .sentence--active highlight at a time.
+    const activeLangByPassage = {};
+
+    // M9.5 - clear the active highlight on a passage. Used when a player
+    // pauses/stops/ends and when the script is toggled.
+    function clearActiveSentence(passageIdx) {
+      const box = document.querySelectorAll('.passage-box')[passageIdx];
+      if (!box) return;
+      box.querySelectorAll('.sentence--active').forEach(el => {
+        el.classList.remove('sentence--active');
+      });
+    }
+
+    // M9.5 - given an audio element's current time (ms), a passage index,
+    // and the sentence timing array for the language being played, apply
+    // the .sentence--active class to the correct span and auto-scroll it
+    // into view if it's outside the viewport.
+    function syncActiveSentence(passageIdx, currentMs, sentences) {
+      const box = document.querySelectorAll('.passage-box')[passageIdx];
+      if (!box) return;
+
+      // Find the sentence whose [startMs, endMs) contains currentMs.
+      // Linear scan is fine - passages have at most a few dozen sentences.
+      let activeIdx = -1;
+      for (let i = 0; i < sentences.length; i++) {
+        if (currentMs >= sentences[i].startMs && currentMs < sentences[i].endMs) {
+          activeIdx = i;
+          break;
+        }
+      }
+
+      // If past the last sentence's endMs, keep the last sentence highlighted
+      // (mp3 tail padding can push us slightly past).
+      if (activeIdx === -1 && sentences.length > 0 &&
+          currentMs >= sentences[sentences.length - 1].startMs) {
+        activeIdx = sentences.length - 1;
+      }
+
+      const spans = box.querySelectorAll('.sentence');
+      spans.forEach((span, i) => {
+        if (i === activeIdx) {
+          if (!span.classList.contains('sentence--active')) {
+            span.classList.add('sentence--active');
+            // Auto-scroll if the newly-active span is outside the viewport.
+            const rect = span.getBoundingClientRect();
+            const outOfView = rect.top < 100 ||
+                              rect.bottom > (window.innerHeight - 40);
+            if (outOfView) {
+              span.scrollIntoView({ block: 'center', behavior: 'smooth' });
+            }
+          }
+        } else {
+          span.classList.remove('sentence--active');
+        }
+      });
+    }
 
     // M9.4 - format milliseconds as "M:SS" for the player time readout.
     function formatMs(ms) {
@@ -596,22 +693,39 @@
 
         stopBtn.addEventListener('click', () => {
           resetToStopped();
+          // M9.5 - stop also clears the karaoke highlight for this passage.
+          clearActiveSentence(passageEntry.passageIndex);
+          if (activeLangByPassage[passageEntry.passageIndex] === key) {
+            delete activeLangByPassage[passageEntry.passageIndex];
+          }
         });
 
         audio.addEventListener('play', () => {
           btn.classList.add('playing');
           labelSpan.textContent = label + ' ⏸';
           stopBtn.disabled = false;
+          // M9.5 - this language now drives the karaoke highlight for
+          // this passage. If another language was highlighting it,
+          // clear that first so we don't double-highlight.
+          activeLangByPassage[passageEntry.passageIndex] = key;
+          clearActiveSentence(passageEntry.passageIndex);
         });
 
         audio.addEventListener('pause', () => {
           btn.classList.remove('playing');
           labelSpan.textContent = label + ' ▶';
           // Stop stays enabled while paused, so user can reset to 0.
+          // M9.5 - leave the highlight visible on pause so the reader
+          // sees where they stopped. It'll clear on stop/end.
         });
 
         audio.addEventListener('ended', () => {
           resetToStopped();
+          // M9.5 - clear highlight + forget this passage's active lang.
+          clearActiveSentence(passageEntry.passageIndex);
+          if (activeLangByPassage[passageEntry.passageIndex] === key) {
+            delete activeLangByPassage[passageEntry.passageIndex];
+          }
         });
 
         audio.addEventListener('timeupdate', () => {
@@ -619,6 +733,12 @@
             const curMs = audio.currentTime * 1000;
             const totMs = langData.durationMs || (audio.duration * 1000) || 0;
             timeEl.textContent = formatMs(curMs) + ' / ' + formatMs(totMs);
+            // M9.5 - update karaoke highlight only if this audio is the
+            // currently active karaoke source for its passage.
+            if (activeLangByPassage[passageEntry.passageIndex] === key) {
+              syncActiveSentence(passageEntry.passageIndex, curMs,
+                                 langData.sentences || []);
+            }
           }
         });
 
@@ -629,7 +749,14 @@
           }
         });
 
-        audioRegistry.push({ audio, btn, labelSpan, label });
+        // M9.5 - store more context so the click-to-jump handler can find
+        // the right audio + timings for a clicked sentence.
+        audioRegistry.push({
+          audio, btn, labelSpan, label,
+          langKey: key,
+          passageIndex: passageEntry.passageIndex,
+          sentences: langData.sentences || [],
+        });
 
         group.appendChild(btn);
         group.appendChild(stopBtn);
@@ -775,12 +902,73 @@
             missing.map(w => (currentScript === 'simplified' ? (w.simplified || w.traditional) : w.traditional)));
         }
         console.log('Rendered ' + passages.length + ' passage(s) with vocab highlighting (' + currentScript + ') for book ' + bookId + ' chapter ' + chapterId);
+
+        // M9.5 - restore playback if switchScript() left a snapshot.
+        // Runs on the next tick so <audio> elements are wired up and
+        // their event listeners (loadedmetadata etc.) are attached.
+        const snapshot = window.__m95PlaybackSnapshot;
+        window.__m95PlaybackSnapshot = null;
+        if (snapshot && snapshot.length > 0) {
+          setTimeout(() => {
+            snapshot.forEach(snap => {
+              const entry = audioRegistry.find(e =>
+                e.passageIndex === snap.passageIndex &&
+                e.langKey === snap.langKey);
+              if (!entry) return;
+
+              const targetSec = snap.currentTimeMs / 1000;
+              const applySeek = () => { entry.audio.currentTime = targetSec; };
+
+              if (snap.wasPlaying) {
+                // M9.5 fix - play-first, seek-second (see click handler).
+                const playPromise = entry.audio.play();
+                if (playPromise && typeof playPromise.then === 'function') {
+                  playPromise.then(applySeek).catch(err =>
+                    console.warn('Resume failed:', err));
+                } else {
+                  applySeek();
+                }
+              } else {
+                // Wasn't playing; just try to move the playhead if the
+                // audio is ready enough.
+                if (entry.audio.readyState >= 1) {
+                  applySeek();
+                } else {
+                  entry.audio.addEventListener('loadedmetadata', applySeek, { once: true });
+                }
+              }
+            });
+          }, 0);
+        }
       } catch (err) {
         console.error('Error loading book ' + bookId + ' chapter ' + chapterId + ':', err);
         titleEl.textContent = 'Error';
         containerEl.innerHTML = '<p class="empty-message">Error loading chapter. See console.</p>';
       }
     }
+
+    // M9.5 - attach the click-to-jump handler ONCE at page init.
+    // The global audioRegistry and activeLangByPassage are refreshed on
+    // every render, so this handler stays valid across script toggles.
+    document.getElementById('passages-container').addEventListener('click', (event) => {
+      const span = event.target.closest('.sentence');
+      if (!span) return;
+      const passageIdx = parseInt(span.dataset.passage, 10);
+      const sentenceIdx = parseInt(span.dataset.sentence, 10);
+      if (isNaN(passageIdx) || isNaN(sentenceIdx)) return;
+
+      const langKey = activeLangByPassage[passageIdx] || 'mandarin';
+      const entry = audioRegistry.find(e =>
+        e.passageIndex === passageIdx && e.langKey === langKey);
+      if (!entry) return;
+
+      const sentence = entry.sentences[sentenceIdx];
+      if (!sentence) return;
+
+      pauseAllExcept(entry.audio);
+      entry.audio.currentTime = sentence.startMs / 1000;
+      entry.audio.play().catch(err => console.warn('Audio play failed:', err));
+    });
 
     loadAndRender();
   </script>
