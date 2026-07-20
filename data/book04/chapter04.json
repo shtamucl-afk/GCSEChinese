@@ -1,0 +1,753 @@
+{
+  "bookId": "04",
+  "chapterId": "04",
+  "chapterTitle": "被偷的金碗",
+  "chapterTitleSimplified": "被偷的金碗",
+  "passages": [
+    "三上 ：被偷的金碗 （第十二頁）\n\n古時候有個國王，很有仁愛之心，全國的百姓都很愛戴他。\n\n有一年，軍隊打敗了想要入侵的敵人，於是國王在宮殿裏舉辦盛大的宴會，慶祝戰爭勝利。 忽然，一陣風吹來，把宮殿裏所有的蠟燭都吹滅了。這時，只聽到一位宮女大喊：『抓小偷！有人趁黑偷東西！』 國王連忙問：『偷了什麼東西？』\n\n宮女回答：『那人搶走了我手上拿的金碗。不過，我抓掉了他的帽子，只要點上燈，就能知道誰是小偷了！』\n\n國王聽了，笑着說：『哦，那只是一個普通的金碗，並不值錢。在座的都是對國家很有功勞的將軍，怎麼會去偷一個不值錢的金碗呢？他只是跟你鬧着玩罷了。』國王接着又說：『今天大家一定要喝得開心。各位將軍，請把帽子都摘掉吧，不摘掉帽子怎能盡興呢？』於是大家都摘掉帽子，等再點上蠟燭時，再也看不出誰是小偷了。\n\n後來，有一次國王被敵人包圍，幸好有一位勇敢的將軍拼死保護他，才使他脫險。國王問將軍：『平時我並沒有特意照顧你，為什麼你會這麼忠心地保護我呢？』\n\n這個將軍回答：『國王，您還記得嗎？我就是當年那個被宮女抓掉帽子的人啊！』"
+  ],
+  "passagesSimplified": [
+    "三上 ：被偷的金碗 （第十二页）\n\n古时候有个国王，很有仁爱之心，全国的百姓都很爱戴他。\n\n有一年，军队打败了想要入侵的敌人，于是国王在宫殿里举办盛大的宴会，庆祝战争胜利。 忽然，一阵风吹来，把宫殿里所有的蜡烛都吹灭了。这时，只听到一位宫女大喊：『抓小偷！有人趁黑偷东西！』 国王连忙问：『偷了什么东西？』\n\n宫女回答：『那人抢走了我手上拿的金碗。不过，我抓掉了他的帽子，只要点上灯，就能知道谁是小偷了！』\n\n国王听了，笑着说：『哦，那只是一个普通的金碗，并不值钱。在座的都是对国家很有功劳的将军，怎么会去偷一个不值钱的金碗呢？他只是跟你闹着玩罢了。』国王接着又说：『今天大家一定要喝得开心。各位将军，请把帽子都摘掉吧，不摘掉帽子怎能尽兴呢？』于是大家都摘掉帽子，等再点上蜡烛时，再也看不出谁是小偷了。\n\n后来，有一次国王被敌人包围，幸好有一位勇敢的将军拼死保护他，才使他脱险。国王问将军：『平时我并没有特意照顾你，为什么你会这么忠心地保护我呢？』\n\n这个将军回答：『国王，您还记得吗？我就是当年那个被宫女抓掉帽子的人啊！』"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch04_w001",
+      "traditional": "仁愛",
+      "simplified": "仁爱",
+      "english": "kindness",
+      "pinyin": "rén ài",
+      "contextSentence": "古時候有個國王，很有仁愛之心，全國的百姓都很愛戴他。",
+      "contextSentenceSimplified": "古时候有个国王，很有仁爱之心，全国的百姓都很爱戴他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w002",
+      "traditional": "愛戴",
+      "simplified": "爱戴",
+      "english": "beloved",
+      "pinyin": "ài dài",
+      "contextSentence": "古時候有個國王，很有仁愛之心，全國的百姓都很愛戴他。",
+      "contextSentenceSimplified": "古时候有个国王，很有仁爱之心，全国的百姓都很爱戴他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w003",
+      "traditional": "入侵",
+      "simplified": "入侵",
+      "english": "invade",
+      "pinyin": "rù qīn",
+      "contextSentence": "軍隊打敗了想要入侵的敵人，於是國王舉辦宴會。",
+      "contextSentenceSimplified": "军队打败了想要入侵的敌人，于是国王举办宴会。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w004",
+      "traditional": "宮殿",
+      "simplified": "宫殿",
+      "english": "palace",
+      "pinyin": "gōng diàn",
+      "contextSentence": "國王在宮殿裏舉辦盛大的宴會，慶祝戰爭勝利。",
+      "contextSentenceSimplified": "国王在宫殿里举办盛大的宴会，庆祝战争胜利。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w005",
+      "traditional": "盛大",
+      "simplified": "盛大",
+      "english": "grand",
+      "pinyin": "shèng dà",
+      "contextSentence": "國王在宮殿裏舉辦盛大的宴會，慶祝戰爭勝利。",
+      "contextSentenceSimplified": "国王在宫殿里举办盛大的宴会，庆祝战争胜利。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w006",
+      "traditional": "宴會",
+      "simplified": "宴会",
+      "english": "banquet",
+      "pinyin": "yàn huì",
+      "contextSentence": "國王在宮殿裏舉辦盛大的宴會，慶祝戰爭勝利。",
+      "contextSentenceSimplified": "国王在宫殿里举办盛大的宴会，庆祝战争胜利。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w007",
+      "traditional": "慶祝",
+      "simplified": "庆祝",
+      "english": "celebrate",
+      "pinyin": "qìng zhù",
+      "contextSentence": "國王舉辦宴會慶祝戰爭勝利。",
+      "contextSentenceSimplified": "国王举办宴会庆祝战争胜利。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w008",
+      "traditional": "戰爭",
+      "simplified": "战争",
+      "english": "war",
+      "pinyin": "zhàn zhēng",
+      "contextSentence": "國王舉辦宴會慶祝戰爭勝利。",
+      "contextSentenceSimplified": "国王举办宴会庆祝战争胜利。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w009",
+      "traditional": "勝利",
+      "simplified": "胜利",
+      "english": "victory",
+      "pinyin": "shèng lì",
+      "contextSentence": "國王舉辦宴會慶祝戰爭勝利。",
+      "contextSentenceSimplified": "国王举办宴会庆祝战争胜利。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w010",
+      "traditional": "宮女",
+      "simplified": "宫女",
+      "english": "maid",
+      "pinyin": "gōng nǚ",
+      "contextSentence": "一位宮女大喊：『抓小偷！』",
+      "contextSentenceSimplified": "一位宫女大喊：『抓小偷！』",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w011",
+      "traditional": "趁黑",
+      "simplified": "趁黑",
+      "english": "seize darkness",
+      "pinyin": "chèn hēi",
+      "contextSentence": "有人趁黑偷東西！",
+      "contextSentenceSimplified": "有人趁黑偷东西！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w012",
+      "traditional": "盡興",
+      "simplified": "尽兴",
+      "english": "enjoy fully",
+      "pinyin": "jǐn xìng",
+      "contextSentence": "不摘掉帽子怎能盡興呢？",
+      "contextSentenceSimplified": "不摘掉帽子怎能尽兴呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w013",
+      "traditional": "特意",
+      "simplified": "特意",
+      "english": "specially",
+      "pinyin": "tè yì",
+      "contextSentence": "平時我並沒有特意照顧你。",
+      "contextSentenceSimplified": "平时我并没有特意照顾你。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w014",
+      "traditional": "忠心",
+      "simplified": "忠心",
+      "english": "loyal",
+      "pinyin": "zhōng xīn",
+      "contextSentence": "你為什麼會這麼忠心地保護我呢？",
+      "contextSentenceSimplified": "你为什么会这么忠心地保护我呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w015",
+      "traditional": "軍隊",
+      "simplified": "军队",
+      "english": "army",
+      "pinyin": "jūn duì",
+      "contextSentence": "軍隊打敗了想要入侵的敵人。",
+      "contextSentenceSimplified": "军队打败了想要入侵的敌人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w016",
+      "traditional": "敵人",
+      "simplified": "敌人",
+      "english": "enemy",
+      "pinyin": "dí rén",
+      "contextSentence": "軍隊打敗了想要入侵的敵人。",
+      "contextSentenceSimplified": "军队打败了想要入侵的敌人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w017",
+      "traditional": "摘掉",
+      "simplified": "摘掉",
+      "english": "take off",
+      "pinyin": "zhāi diào",
+      "contextSentence": "請把帽子都摘掉吧。",
+      "contextSentenceSimplified": "请把帽子都摘掉吧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w018",
+      "traditional": "蠟燭",
+      "simplified": "蜡烛",
+      "english": "candle",
+      "pinyin": "là zhú",
+      "contextSentence": "一陣風把宮殿裏所有的蠟燭都吹滅了。",
+      "contextSentenceSimplified": "一阵风把宫殿里所有的蜡烛都吹灭了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w019",
+      "traditional": "吹滅",
+      "simplified": "吹灭",
+      "english": "blow out",
+      "pinyin": "chuī miè",
+      "contextSentence": "一陣風把宮殿裏所有的蠟燭都吹滅了。",
+      "contextSentenceSimplified": "一阵风把宫殿里所有的蜡烛都吹灭了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w020",
+      "traditional": "鬧着玩",
+      "simplified": "闹着玩",
+      "english": "joking around",
+      "pinyin": "nào zhe wán",
+      "contextSentence": "他只是跟你鬧着玩罷了。",
+      "contextSentenceSimplified": "他只是跟你闹着玩罢了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w021",
+      "traditional": "罷了",
+      "simplified": "罢了",
+      "english": "that's all",
+      "pinyin": "bà le",
+      "contextSentence": "他只是跟你鬧着玩罷了。",
+      "contextSentenceSimplified": "他只是跟你闹着玩罢了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch04_w022",
+      "traditional": "脫險",
+      "simplified": "脱险",
+      "english": "escape danger",
+      "pinyin": "tuō xiǎn",
+      "contextSentence": "將軍拼死保護國王，才使他脫險。",
+      "contextSentenceSimplified": "将军拼死保护国王，才使他脱险。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter04/b04_ch04_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter04/b04_ch04_w022_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter04/b04_ch04_p01_m.mp3",
+        "durationMs": 106200,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3792,
+            "text": "三上 ：被偷的金碗 （第十二頁）",
+            "textSimplified": "三上 ：被偷的金碗 （第十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3792,
+            "endMs": 9888,
+            "text": "古時候有個國王，很有仁愛之心，全國的百姓都很愛戴他。",
+            "textSimplified": "古时候有个国王，很有仁爱之心，全国的百姓都很爱戴他。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 9888,
+            "endMs": 19776,
+            "text": "有一年，軍隊打敗了想要入侵的敵人，於是國王在宮殿裏舉辦盛大的宴會，慶祝戰爭勝利。",
+            "textSimplified": "有一年，军队打败了想要入侵的敌人，于是国王在宫殿里举办盛大的宴会，庆祝战争胜利。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19776,
+            "endMs": 25320,
+            "text": "忽然，一陣風吹來，把宮殿裏所有的蠟燭都吹滅了。",
+            "textSimplified": "忽然，一阵风吹来，把宫殿里所有的蜡烛都吹灭了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25320,
+            "endMs": 29760,
+            "text": "這時，只聽到一位宮女大喊：『抓小偷！",
+            "textSimplified": "这时，只听到一位宫女大喊：『抓小偷！"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 29760,
+            "endMs": 32160,
+            "text": "有人趁黑偷東西！』",
+            "textSimplified": "有人趁黑偷东西！』"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 32160,
+            "endMs": 35592,
+            "text": "國王連忙問：『偷了什麼東西？』",
+            "textSimplified": "国王连忙问：『偷了什么东西？』"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 35592,
+            "endMs": 40224,
+            "text": "宮女回答：『那人搶走了我手上拿的金碗。",
+            "textSimplified": "宫女回答：『那人抢走了我手上拿的金碗。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 40224,
+            "endMs": 46920,
+            "text": "不過，我抓掉了他的帽子，只要點上燈，就能知道誰是小偷了！』",
+            "textSimplified": "不过，我抓掉了他的帽子，只要点上灯，就能知道谁是小偷了！』"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 46920,
+            "endMs": 53472,
+            "text": "國王聽了，笑着說：『哦，那只是一個普通的金碗，並不值錢。",
+            "textSimplified": "国王听了，笑着说：『哦，那只是一个普通的金碗，并不值钱。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 53472,
+            "endMs": 60720,
+            "text": "在座的都是對國家很有功勞的將軍，怎麼會去偷一個不值錢的金碗呢？",
+            "textSimplified": "在座的都是对国家很有功劳的将军，怎么会去偷一个不值钱的金碗呢？"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 60720,
+            "endMs": 63360,
+            "text": "他只是跟你鬧着玩罷了。』",
+            "textSimplified": "他只是跟你闹着玩罢了。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 63360,
+            "endMs": 67944,
+            "text": "國王接着又說：『今天大家一定要喝得開心。",
+            "textSimplified": "国王接着又说：『今天大家一定要喝得开心。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 67944,
+            "endMs": 74568,
+            "text": "各位將軍，請把帽子都摘掉吧，不摘掉帽子怎能盡興呢？』",
+            "textSimplified": "各位将军，请把帽子都摘掉吧，不摘掉帽子怎能尽兴呢？』"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 74568,
+            "endMs": 81696,
+            "text": "於是大家都摘掉帽子，等再點上蠟燭時，再也看不出誰是小偷了。",
+            "textSimplified": "于是大家都摘掉帽子，等再点上蜡烛时，再也看不出谁是小偷了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 81696,
+            "endMs": 90192,
+            "text": "後來，有一次國王被敵人包圍，幸好有一位勇敢的將軍拼死保護他，才使他脫險。",
+            "textSimplified": "后来，有一次国王被敌人包围，幸好有一位勇敢的将军拼死保护他，才使他脱险。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 90192,
+            "endMs": 97848,
+            "text": "國王問將軍：『平時我並沒有特意照顧你，為什麼你會這麼忠心地保護我呢？』",
+            "textSimplified": "国王问将军：『平时我并没有特意照顾你，为什么你会这么忠心地保护我呢？』"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 97848,
+            "endMs": 101832,
+            "text": "這個將軍回答：『國王，您還記得嗎？",
+            "textSimplified": "这个将军回答：『国王，您还记得吗？"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 101832,
+            "endMs": 106200,
+            "text": "我就是當年那個被宮女抓掉帽子的人啊！』",
+            "textSimplified": "我就是当年那个被宫女抓掉帽子的人啊！』"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter04/b04_ch04_p01_c.mp3",
+        "durationMs": 117864,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4176,
+            "text": "三上 ：被偷的金碗 （第十二頁）",
+            "textSimplified": "三上 ：被偷的金碗 （第十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4176,
+            "endMs": 10704,
+            "text": "古時候有個國王，很有仁愛之心，全國的百姓都很愛戴他。",
+            "textSimplified": "古时候有个国王，很有仁爱之心，全国的百姓都很爱戴他。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 10704,
+            "endMs": 19992,
+            "text": "有一年，軍隊打敗了想要入侵的敵人，於是國王在宮殿裏舉辦盛大的宴會，慶祝戰爭勝利。",
+            "textSimplified": "有一年，军队打败了想要入侵的敌人，于是国王在宫殿里举办盛大的宴会，庆祝战争胜利。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19992,
+            "endMs": 26088,
+            "text": "忽然，一陣風吹來，把宮殿裏所有的蠟燭都吹滅了。",
+            "textSimplified": "忽然，一阵风吹来，把宫殿里所有的蜡烛都吹灭了。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 26088,
+            "endMs": 31416,
+            "text": "這時，只聽到一位宮女大喊：『抓小偷！",
+            "textSimplified": "这时，只听到一位宫女大喊：『抓小偷！"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 31416,
+            "endMs": 34704,
+            "text": "有人趁黑偷東西！』",
+            "textSimplified": "有人趁黑偷东西！』"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 34704,
+            "endMs": 39024,
+            "text": "國王連忙問：『偷了什麼東西？』",
+            "textSimplified": "国王连忙问：『偷了什么东西？』"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 39024,
+            "endMs": 44088,
+            "text": "宮女回答：『那人搶走了我手上拿的金碗。",
+            "textSimplified": "宫女回答：『那人抢走了我手上拿的金碗。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 44088,
+            "endMs": 51912,
+            "text": "不過，我抓掉了他的帽子，只要點上燈，就能知道誰是小偷了！』",
+            "textSimplified": "不过，我抓掉了他的帽子，只要点上灯，就能知道谁是小偷了！』"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 51912,
+            "endMs": 59400,
+            "text": "國王聽了，笑着說：『哦，那只是一個普通的金碗，並不值錢。",
+            "textSimplified": "国王听了，笑着说：『哦，那只是一个普通的金碗，并不值钱。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 59400,
+            "endMs": 66744,
+            "text": "在座的都是對國家很有功勞的將軍，怎麼會去偷一個不值錢的金碗呢？",
+            "textSimplified": "在座的都是对国家很有功劳的将军，怎么会去偷一个不值钱的金碗呢？"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 66744,
+            "endMs": 70896,
+            "text": "他只是跟你鬧着玩罷了。』",
+            "textSimplified": "他只是跟你闹着玩罢了。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 70896,
+            "endMs": 75960,
+            "text": "國王接着又說：『今天大家一定要喝得開心。",
+            "textSimplified": "国王接着又说：『今天大家一定要喝得开心。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 75960,
+            "endMs": 82872,
+            "text": "各位將軍，請把帽子都摘掉吧，不摘掉帽子怎能盡興呢？』",
+            "textSimplified": "各位将军，请把帽子都摘掉吧，不摘掉帽子怎能尽兴呢？』"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 82872,
+            "endMs": 90264,
+            "text": "於是大家都摘掉帽子，等再點上蠟燭時，再也看不出誰是小偷了。",
+            "textSimplified": "于是大家都摘掉帽子，等再点上蜡烛时，再也看不出谁是小偷了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 90264,
+            "endMs": 99192,
+            "text": "後來，有一次國王被敵人包圍，幸好有一位勇敢的將軍拼死保護他，才使他脫險。",
+            "textSimplified": "后来，有一次国王被敌人包围，幸好有一位勇敢的将军拼死保护他，才使他脱险。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 99192,
+            "endMs": 107688,
+            "text": "國王問將軍：『平時我並沒有特意照顧你，為什麼你會這麼忠心地保護我呢？』",
+            "textSimplified": "国王问将军：『平时我并没有特意照顾你，为什么你会这么忠心地保护我呢？』"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 107688,
+            "endMs": 112560,
+            "text": "這個將軍回答：『國王，您還記得嗎？",
+            "textSimplified": "这个将军回答：『国王，您还记得吗？"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 112560,
+            "endMs": 117864,
+            "text": "我就是當年那個被宮女抓掉帽子的人啊！』",
+            "textSimplified": "我就是当年那个被宫女抓掉帽子的人啊！』"
+          }
+        ]
+      }
+    }
+  ]
+}

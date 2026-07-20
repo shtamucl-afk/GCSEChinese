@@ -1,0 +1,607 @@
+{
+  "bookId": "04",
+  "chapterId": "11",
+  "chapterTitle": "快樂的聖誕節",
+  "chapterTitleSimplified": "快乐的圣诞节",
+  "passages": [
+    "三上 ：快樂的聖誕節 （第三十頁）\n\n平安夜到了，爸爸帶着我到大街上看熱鬧。來到街上，還真是熱鬧非常，每個角落都能讓人感受到節日的氣氛。商場的門口擺放着巨大的聖誕樹。聖誕樹是由松樹裝扮而成的，綠綠的，身上掛滿了一個一個的小鈴鐺。我好奇地去碰了碰，鈴鐺立刻發出「叮叮噹當」的聲響，悅耳動聽。除了鈴鐺，上面還掛着一些包裝好的小禮物和俏皮可愛的小雪人。五顏六色的燈一閃一閃的，好像天上的星星在眨着眼睛，調皮且美麗。\n\n「哇！聖誕老人！」我順着行人吵嚷的方向望過去，果然是一個聖誕老人。我們隨着人羣擠過去，只見這個聖誕老人身後揹着一個巨大的包裹，他手裏正拿着一些禮物分發給小朋友。爸爸抱着我，我伸出手來，聖誕老人立刻給了我一份禮物，我高興極了，連忙打開來看，啊，原來是一支漂亮的電動牙刷。我對爸爸說：「我今天可真幸運，得到了聖誕禮物。」爸爸笑着說：「聖誕老人一定知道你不喜歡刷牙呢，所以送了這個來督促你。」我吐了吐舌頭，朝爸爸做了個鬼臉，說：「原來聖誕老人也這樣幽默，我一定不會讓他失望。」\n\n就這樣，我們一直玩到了九點多，直到我們準備回家，街上還是人頭攢動，燈火輝煌，不知道這些還不回家的人們，是不是還在等着聖誕老人送他們禮物呢？"
+  ],
+  "passagesSimplified": [
+    "三上 ：快乐的圣诞节 （第三十页）\n\n平安夜到了，爸爸带着我到大街上看热闹。来到街上，还真是热闹非常，每个角落都能让人感受到节日的气氛。商场的门口摆放着巨大的圣诞树。圣诞树是由松树装扮而成的，绿绿的，身上挂满了一个一个的小铃铛。我好奇地去碰了碰，铃铛立刻发出「叮叮当当」的声响，悦耳动听。除了铃铛，上面还挂着一些包装好的小礼物和俏皮可爱的小雪人。五颜六色的灯一闪一闪的，好像天上的星星在眨着眼睛，调皮且美丽。\n\n「哇！圣诞老人！」我顺着行人吵嚷的方向望过去，果然是一个圣诞老人。我们随着人群挤过去，只见这个圣诞老人身后揹着一个巨大的包裹，他手里正拿着一些礼物分发给小朋友。爸爸抱着我，我伸出手来，圣诞老人立刻给了我一份礼物，我高兴极了，连忙打开来看，啊，原来是一支漂亮的电动牙刷。我对爸爸说：「我今天可真幸运，得到了圣诞礼物。」爸爸笑着说：「圣诞老人一定知道你不喜欢刷牙呢，所以送了这个来督促你。」我吐了吐舌头，朝爸爸做了个鬼脸，说：「原来圣诞老人也这样幽默，我一定不会让他失望。」\n\n就这样，我们一直玩到了九点多，直到我们准备回家，街上还是人头攒动，灯火辉煌，不知道这些还不回家的人们，是不是还在等着圣诞老人送他们礼物呢？"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch11_w001",
+      "traditional": "角落",
+      "simplified": "角落",
+      "english": "corner",
+      "pinyin": "jiǎo luò",
+      "contextSentence": "每個角落都能讓人感受到節日的氣氛。",
+      "contextSentenceSimplified": "每个角落都能让人感受到节日的气氛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w002",
+      "traditional": "氣氛",
+      "simplified": "气氛",
+      "english": "atmosphere",
+      "pinyin": "qì fēn",
+      "contextSentence": "每個角落都能讓人感受到節日的氣氛。",
+      "contextSentenceSimplified": "每个角落都能让人感受到节日的气氛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w003",
+      "traditional": "擺放",
+      "simplified": "摆放",
+      "english": "placed",
+      "pinyin": "bǎi fàng",
+      "contextSentence": "商場的門口擺放着巨大的聖誕樹。",
+      "contextSentenceSimplified": "商场的门口摆放着巨大的圣诞树。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w004",
+      "traditional": "裝扮",
+      "simplified": "装扮",
+      "english": "decorated",
+      "pinyin": "zhuāng bàn",
+      "contextSentence": "聖誕樹是由松樹裝扮而成的。",
+      "contextSentenceSimplified": "圣诞树是由松树装扮而成的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w005",
+      "traditional": "悅耳動聽",
+      "simplified": "悦耳动听",
+      "english": "sweet sound",
+      "pinyin": "yuè ěr dòng tīng",
+      "contextSentence": "鈴鐺發出叮叮噹當的聲響，悅耳動聽。",
+      "contextSentenceSimplified": "铃铛发出叮叮当当的声响，悦耳动听。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w006",
+      "traditional": "俏皮",
+      "simplified": "俏皮",
+      "english": "cute",
+      "pinyin": "qiào pí",
+      "contextSentence": "上面掛着俏皮可愛的小雪人。",
+      "contextSentenceSimplified": "上面挂着俏皮可爱的小雪人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w007",
+      "traditional": "調皮",
+      "simplified": "调皮",
+      "english": "playful",
+      "pinyin": "diào pí",
+      "contextSentence": "燈一閃一閃的，調皮且美麗。",
+      "contextSentenceSimplified": "灯一闪一闪的，调皮且美丽。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w008",
+      "traditional": "吵嚷",
+      "simplified": "吵嚷",
+      "english": "noise",
+      "pinyin": "chǎo rǎng",
+      "contextSentence": "我順着行人吵嚷的方向望過去。",
+      "contextSentenceSimplified": "我顺着行人吵嚷的方向望过去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w009",
+      "traditional": "包裹",
+      "simplified": "包裹",
+      "english": "bag",
+      "pinyin": "bāo guǒ",
+      "contextSentence": "聖誕老人身後揹着一個巨大的包裹。",
+      "contextSentenceSimplified": "圣诞老人身后揹着一个巨大的包裹。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w010",
+      "traditional": "分發",
+      "simplified": "分发",
+      "english": "give out",
+      "pinyin": "fēn fā",
+      "contextSentence": "他手裏拿着一些禮物分發給小朋友。",
+      "contextSentenceSimplified": "他手里拿着一些礼物分发给小朋友。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w011",
+      "traditional": "督促",
+      "simplified": "督促",
+      "english": "encourage",
+      "pinyin": "dū cù",
+      "contextSentence": "聖誕老人送這個來督促你。",
+      "contextSentenceSimplified": "圣诞老人送这个来督促你。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w012",
+      "traditional": "鬼臉",
+      "simplified": "鬼脸",
+      "english": "funny face",
+      "pinyin": "guǐ liǎn",
+      "contextSentence": "我朝爸爸做了個鬼臉。",
+      "contextSentenceSimplified": "我朝爸爸做了个鬼脸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w013",
+      "traditional": "幽默",
+      "simplified": "幽默",
+      "english": "funny",
+      "pinyin": "yōu mò",
+      "contextSentence": "原來聖誕老人也這樣幽默。",
+      "contextSentenceSimplified": "原来圣诞老人也这样幽默。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w014",
+      "traditional": "失望",
+      "simplified": "失望",
+      "english": "disappointed",
+      "pinyin": "shī wàng",
+      "contextSentence": "我一定不會讓他失望。",
+      "contextSentenceSimplified": "我一定不会让他失望。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w015",
+      "traditional": "人頭攢動",
+      "simplified": "人头攒动",
+      "english": "crowded",
+      "pinyin": "rén tóu zǎn dòng",
+      "contextSentence": "街上還是人頭攢動。",
+      "contextSentenceSimplified": "街上还是人头攒动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch11_w016",
+      "traditional": "燈火輝煌",
+      "simplified": "灯火辉煌",
+      "english": "bright lights",
+      "pinyin": "dēng huǒ huī huáng",
+      "contextSentence": "街上還是人頭攢動，燈火輝煌。",
+      "contextSentenceSimplified": "街上还是人头攒动，灯火辉煌。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter11/b04_ch11_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter11/b04_ch11_w016_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter11/b04_ch11_p01_m.mp3",
+        "durationMs": 116976,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4080,
+            "text": "三上 ：快樂的聖誕節 （第三十頁）",
+            "textSimplified": "三上 ：快乐的圣诞节 （第三十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4080,
+            "endMs": 8952,
+            "text": "平安夜到了，爸爸帶着我到大街上看熱鬧。",
+            "textSimplified": "平安夜到了，爸爸带着我到大街上看热闹。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8952,
+            "endMs": 16224,
+            "text": "來到街上，還真是熱鬧非常，每個角落都能讓人感受到節日的氣氛。",
+            "textSimplified": "来到街上，还真是热闹非常，每个角落都能让人感受到节日的气氛。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 16224,
+            "endMs": 20208,
+            "text": "商場的門口擺放着巨大的聖誕樹。",
+            "textSimplified": "商场的门口摆放着巨大的圣诞树。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 20208,
+            "endMs": 27384,
+            "text": "聖誕樹是由松樹裝扮而成的，綠綠的，身上掛滿了一個一個的小鈴鐺。",
+            "textSimplified": "圣诞树是由松树装扮而成的，绿绿的，身上挂满了一个一个的小铃铛。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 27384,
+            "endMs": 33984,
+            "text": "我好奇地去碰了碰，鈴鐺立刻發出「叮叮噹當」的聲響，悅耳動聽。",
+            "textSimplified": "我好奇地去碰了碰，铃铛立刻发出「叮叮当当」的声响，悦耳动听。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 33984,
+            "endMs": 40944,
+            "text": "除了鈴鐺，上面還掛着一些包裝好的小禮物和俏皮可愛的小雪人。",
+            "textSimplified": "除了铃铛，上面还挂着一些包装好的小礼物和俏皮可爱的小雪人。"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 40944,
+            "endMs": 48624,
+            "text": "五顏六色的燈一閃一閃的，好像天上的星星在眨着眼睛，調皮且美麗。",
+            "textSimplified": "五颜六色的灯一闪一闪的，好像天上的星星在眨着眼睛，调皮且美丽。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 48624,
+            "endMs": 49848,
+            "text": "「哇！",
+            "textSimplified": "「哇！"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 49848,
+            "endMs": 51672,
+            "text": "聖誕老人！」",
+            "textSimplified": "圣诞老人！」"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 51672,
+            "endMs": 57240,
+            "text": "我順着行人吵嚷的方向望過去，果然是一個聖誕老人。",
+            "textSimplified": "我顺着行人吵嚷的方向望过去，果然是一个圣诞老人。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 57240,
+            "endMs": 68376,
+            "text": "我們隨着人羣擠過去，只見這個聖誕老人身後揹着一個巨大的包裹，他手裏正拿着一些禮物分發給小朋友。",
+            "textSimplified": "我们随着人群挤过去，只见这个圣诞老人身后揹着一个巨大的包裹，他手里正拿着一些礼物分发给小朋友。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 68376,
+            "endMs": 80232,
+            "text": "爸爸抱着我，我伸出手來，聖誕老人立刻給了我一份禮物，我高興極了，連忙打開來看，啊，原來是一支漂亮的電動牙刷。",
+            "textSimplified": "爸爸抱着我，我伸出手来，圣诞老人立刻给了我一份礼物，我高兴极了，连忙打开来看，啊，原来是一支漂亮的电动牙刷。"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 80232,
+            "endMs": 85560,
+            "text": "我對爸爸說：「我今天可真幸運，得到了聖誕禮物。」",
+            "textSimplified": "我对爸爸说：「我今天可真幸运，得到了圣诞礼物。」"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 85560,
+            "endMs": 92952,
+            "text": "爸爸笑着說：「聖誕老人一定知道你不喜歡刷牙呢，所以送了這個來督促你。」",
+            "textSimplified": "爸爸笑着说：「圣诞老人一定知道你不喜欢刷牙呢，所以送了这个来督促你。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 92952,
+            "endMs": 101976,
+            "text": "我吐了吐舌頭，朝爸爸做了個鬼臉，說：「原來聖誕老人也這樣幽默，我一定不會讓他失望。」",
+            "textSimplified": "我吐了吐舌头，朝爸爸做了个鬼脸，说：「原来圣诞老人也这样幽默，我一定不会让他失望。」"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 101976,
+            "endMs": 116976,
+            "text": "就這樣，我們一直玩到了九點多，直到我們準備回家，街上還是人頭攢動，燈火輝煌，不知道這些還不回家的人們，是不是還在等着聖誕老人送他們禮物呢？",
+            "textSimplified": "就这样，我们一直玩到了九点多，直到我们准备回家，街上还是人头攒动，灯火辉煌，不知道这些还不回家的人们，是不是还在等着圣诞老人送他们礼物呢？"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter11/b04_ch11_p01_c.mp3",
+        "durationMs": 123192,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4512,
+            "text": "三上 ：快樂的聖誕節 （第三十頁）",
+            "textSimplified": "三上 ：快乐的圣诞节 （第三十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4512,
+            "endMs": 9864,
+            "text": "平安夜到了，爸爸帶着我到大街上看熱鬧。",
+            "textSimplified": "平安夜到了，爸爸带着我到大街上看热闹。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9864,
+            "endMs": 17160,
+            "text": "來到街上，還真是熱鬧非常，每個角落都能讓人感受到節日的氣氛。",
+            "textSimplified": "来到街上，还真是热闹非常，每个角落都能让人感受到节日的气氛。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 17160,
+            "endMs": 21504,
+            "text": "商場的門口擺放着巨大的聖誕樹。",
+            "textSimplified": "商场的门口摆放着巨大的圣诞树。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 21504,
+            "endMs": 28512,
+            "text": "聖誕樹是由松樹裝扮而成的，綠綠的，身上掛滿了一個一個的小鈴鐺。",
+            "textSimplified": "圣诞树是由松树装扮而成的，绿绿的，身上挂满了一个一个的小铃铛。"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 28512,
+            "endMs": 35376,
+            "text": "我好奇地去碰了碰，鈴鐺立刻發出「叮叮噹當」的聲響，悅耳動聽。",
+            "textSimplified": "我好奇地去碰了碰，铃铛立刻发出「叮叮当当」的声响，悦耳动听。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 35376,
+            "endMs": 42288,
+            "text": "除了鈴鐺，上面還掛着一些包裝好的小禮物和俏皮可愛的小雪人。",
+            "textSimplified": "除了铃铛，上面还挂着一些包装好的小礼物和俏皮可爱的小雪人。"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 42288,
+            "endMs": 49800,
+            "text": "五顏六色的燈一閃一閃的，好像天上的星星在眨着眼睛，調皮且美麗。",
+            "textSimplified": "五颜六色的灯一闪一闪的，好像天上的星星在眨着眼睛，调皮且美丽。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 49800,
+            "endMs": 51432,
+            "text": "「哇！",
+            "textSimplified": "「哇！"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 51432,
+            "endMs": 54024,
+            "text": "聖誕老人！」",
+            "textSimplified": "圣诞老人！」"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 54024,
+            "endMs": 60216,
+            "text": "我順着行人吵嚷的方向望過去，果然是一個聖誕老人。",
+            "textSimplified": "我顺着行人吵嚷的方向望过去，果然是一个圣诞老人。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 60216,
+            "endMs": 70728,
+            "text": "我們隨着人羣擠過去，只見這個聖誕老人身後揹着一個巨大的包裹，他手裏正拿着一些禮物分發給小朋友。",
+            "textSimplified": "我们随着人群挤过去，只见这个圣诞老人身后揹着一个巨大的包裹，他手里正拿着一些礼物分发给小朋友。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 70728,
+            "endMs": 83304,
+            "text": "爸爸抱着我，我伸出手來，聖誕老人立刻給了我一份禮物，我高興極了，連忙打開來看，啊，原來是一支漂亮的電動牙刷。",
+            "textSimplified": "爸爸抱着我，我伸出手来，圣诞老人立刻给了我一份礼物，我高兴极了，连忙打开来看，啊，原来是一支漂亮的电动牙刷。"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 83304,
+            "endMs": 89184,
+            "text": "我對爸爸說：「我今天可真幸運，得到了聖誕禮物。」",
+            "textSimplified": "我对爸爸说：「我今天可真幸运，得到了圣诞礼物。」"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 89184,
+            "endMs": 97680,
+            "text": "爸爸笑着說：「聖誕老人一定知道你不喜歡刷牙呢，所以送了這個來督促你。」",
+            "textSimplified": "爸爸笑着说：「圣诞老人一定知道你不喜欢刷牙呢，所以送了这个来督促你。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 97680,
+            "endMs": 107664,
+            "text": "我吐了吐舌頭，朝爸爸做了個鬼臉，說：「原來聖誕老人也這樣幽默，我一定不會讓他失望。」",
+            "textSimplified": "我吐了吐舌头，朝爸爸做了个鬼脸，说：「原来圣诞老人也这样幽默，我一定不会让他失望。」"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 107664,
+            "endMs": 123192,
+            "text": "就這樣，我們一直玩到了九點多，直到我們準備回家，街上還是人頭攢動，燈火輝煌，不知道這些還不回家的人們，是不是還在等着聖誕老人送他們禮物呢？",
+            "textSimplified": "就这样，我们一直玩到了九点多，直到我们准备回家，街上还是人头攒动，灯火辉煌，不知道这些还不回家的人们，是不是还在等着圣诞老人送他们礼物呢？"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "bookId": "04",
+  "chapterId": "03",
+  "chapterTitle": "聖誕老人的禮物",
+  "chapterTitleSimplified": "圣诞老人的礼物",
+  "passages": [
+    "三上 ：聖誕老人的禮物 （第十頁）\n\n在一個嚴寒的冬天裏，思娜的媽媽生病了，思娜去給媽媽買藥。路上，思娜看見一家商店的櫥窗裏陳列着一款漂亮的假髮，心想媽媽病得頭髮都快掉光了，要是她能戴上假髮，就能變得像以前一樣漂亮。\n\n於是，思娜走進商店，選了一頂假髮，問商店老闆要多少錢。老闆看了看她說：『一百五十元。』思娜窘住了，因為她只有二十元，於是她趕緊請求老闆千萬別賣掉這頂假髮，她一定會再來買下它。\n\n回到家，思娜把所有的零用錢都湊在一起，可還是不夠。突然，她看到書桌上一艘精緻的輪船模型——那是爸爸送給她的生日禮物，心裏頓時有了主意。思娜再次來到商店，對老闆說：『叔叔，我媽媽病得頭髮都快掉光了，她真的需要一頂假髮。我的錢不夠，我把這艘船也抵給你好嗎？』老闆看着她懷裏的模型和手上的一把零錢，沉吟了好一會兒，遺憾地說：『對不起，我們不接受實物交換。』思娜一下呆住了，失望和憂傷充斥着她的心，她一言不發地回家了。 第二天上午，媽媽對思娜說：『真奇怪，有人給你送來了一個包裹。』思娜打開包裹一看，正是她昨天看中的那頂假髮！裏面還夾了一張紙條，紙條上寫着：『親愛的孩子，你有一顆美好的心，這是給你媽媽的禮物，也是給你的禮物。祝你快樂！』下款的署名是：聖誕老人。"
+  ],
+  "passagesSimplified": [
+    "三上 ：圣诞老人的礼物 （第十页）\n\n在一个严寒的冬天里，思娜的妈妈生病了，思娜去给妈妈买药。路上，思娜看见一家商店的橱窗里陈列着一款漂亮的假发，心想妈妈病得头发都快掉光了，要是她能戴上假发，就能变得像以前一样漂亮。\n\n于是，思娜走进商店，选了一顶假发，问商店老板要多少钱。老板看了看她说：『一百五十元。』思娜窘住了，因为她只有二十元，于是她赶紧请求老板千万别卖掉这顶假发，她一定会再来买下它。\n\n回到家，思娜把所有的零用钱都凑在一起，可还是不够。突然，她看到书桌上一艘精致的轮船模型——那是爸爸送给她的生日礼物，心里顿时有了主意。思娜再次来到商店，对老板说：『叔叔，我妈妈病得头发都快掉光了，她真的需要一顶假发。我的钱不够，我把这艘船也抵给你好吗？』老板看着她怀里的模型和手上的一把零钱，沉吟了好一会儿，遗憾地说：『对不起，我们不接受实物交换。』思娜一下呆住了，失望和忧伤充斥着她的心，她一言不发地回家了。 第二天上午，妈妈对思娜说：『真奇怪，有人给你送来了一个包裹。』思娜打开包裹一看，正是她昨天看中的那顶假发！里面还夹了一张纸条，纸条上写着：『亲爱的孩子，你有一颗美好的心，这是给你妈妈的礼物，也是给你的礼物。祝你快乐！』下款的署名是：圣诞老人。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch03_w001",
+      "traditional": "嚴寒",
+      "simplified": "严寒",
+      "english": "severe cold",
+      "pinyin": "yán hán",
+      "contextSentence": "在一個嚴寒的冬天裏，思娜的媽媽生病了。",
+      "contextSentenceSimplified": "在一个严寒的冬天里，思娜的妈妈生病了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w002",
+      "traditional": "陳列",
+      "simplified": "陈列",
+      "english": "displayed",
+      "pinyin": "chén liè",
+      "contextSentence": "思娜看見商店櫥窗裏陳列着一款漂亮的假髮。",
+      "contextSentenceSimplified": "思娜看见商店橱窗里陈列着一款漂亮的假发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w003",
+      "traditional": "假髮",
+      "simplified": "假发",
+      "english": "wig",
+      "pinyin": "jiǎ fà",
+      "contextSentence": "櫥窗裏陳列着一款漂亮的假髮。",
+      "contextSentenceSimplified": "橱窗里陈列着一款漂亮的假发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w004",
+      "traditional": "窘住",
+      "simplified": "窘住",
+      "english": "embarrassed",
+      "pinyin": "jiǒng zhù",
+      "contextSentence": "思娜窘住了，因為她只有二十元。",
+      "contextSentenceSimplified": "思娜窘住了，因为她只有二十元。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w005",
+      "traditional": "請求",
+      "simplified": "请求",
+      "english": "begged",
+      "pinyin": "qǐng qiú",
+      "contextSentence": "她趕緊請求老闆千萬別賣掉這頂假髮。",
+      "contextSentenceSimplified": "她赶紧请求老板千万别卖掉这顶假发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w006",
+      "traditional": "精緻",
+      "simplified": "精致",
+      "english": "delicate",
+      "pinyin": "jīng zhì",
+      "contextSentence": "她看到書桌上一艘精緻的輪船模型。",
+      "contextSentenceSimplified": "她看到书桌上一艘精致的轮船模型。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w007",
+      "traditional": "沉吟",
+      "simplified": "沉吟",
+      "english": "hesitated",
+      "pinyin": "chén yín",
+      "contextSentence": "老闆沉吟了好一會兒，遺憾地說不接受交換。",
+      "contextSentenceSimplified": "老板沉吟了好一会儿，遗憾地说不接受交换。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w008",
+      "traditional": "遺憾",
+      "simplified": "遗憾",
+      "english": "regretfully",
+      "pinyin": "yí hàn",
+      "contextSentence": "老闆遺憾地說不接受實物交換。",
+      "contextSentenceSimplified": "老板遗憾地说不接受实物交换。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w009",
+      "traditional": "實物交換",
+      "simplified": "实物交换",
+      "english": "barter",
+      "pinyin": "shí wù jiāo huàn",
+      "contextSentence": "老闆遺憾地說不接受實物交換。",
+      "contextSentenceSimplified": "老板遗憾地说不接受实物交换。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w010",
+      "traditional": "充斥",
+      "simplified": "充斥",
+      "english": "filled",
+      "pinyin": "chōng chì",
+      "contextSentence": "失望和憂傷充斥着她的心。",
+      "contextSentenceSimplified": "失望和忧伤充斥着她的心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w011",
+      "traditional": "憂傷",
+      "simplified": "忧伤",
+      "english": "sadness",
+      "pinyin": "yōu shāng",
+      "contextSentence": "失望和憂傷充斥着她的心。",
+      "contextSentenceSimplified": "失望和忧伤充斥着她的心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch03_w012",
+      "traditional": "署名",
+      "simplified": "署名",
+      "english": "signed",
+      "pinyin": "shǔ míng",
+      "contextSentence": "下款的署名是聖誕老人。",
+      "contextSentenceSimplified": "下款的署名是圣诞老人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter03/b04_ch03_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter03/b04_ch03_w012_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter03/b04_ch03_p01_m.mp3",
+        "durationMs": 120216,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4056,
+            "text": "三上 ：聖誕老人的禮物 （第十頁）",
+            "textSimplified": "三上 ：圣诞老人的礼物 （第十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4056,
+            "endMs": 10752,
+            "text": "在一個嚴寒的冬天裏，思娜的媽媽生病了，思娜去給媽媽買藥。",
+            "textSimplified": "在一个严寒的冬天里，思娜的妈妈生病了，思娜去给妈妈买药。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10752,
+            "endMs": 24792,
+            "text": "路上，思娜看見一家商店的櫥窗裏陳列着一款漂亮的假髮，心想媽媽病得頭髮都快掉光了，要是她能戴上假髮，就能變得像以前一樣漂亮。",
+            "textSimplified": "路上，思娜看见一家商店的橱窗里陈列着一款漂亮的假发，心想妈妈病得头发都快掉光了，要是她能戴上假发，就能变得像以前一样漂亮。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 24792,
+            "endMs": 31704,
+            "text": "於是，思娜走進商店，選了一頂假髮，問商店老闆要多少錢。",
+            "textSimplified": "于是，思娜走进商店，选了一顶假发，问商店老板要多少钱。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 31704,
+            "endMs": 35232,
+            "text": "老闆看了看她說：『一百五十元。』",
+            "textSimplified": "老板看了看她说：『一百五十元。』"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 35232,
+            "endMs": 45528,
+            "text": "思娜窘住了，因為她只有二十元，於是她趕緊請求老闆千萬別賣掉這頂假髮，她一定會再來買下它。",
+            "textSimplified": "思娜窘住了，因为她只有二十元，于是她赶紧请求老板千万别卖掉这顶假发，她一定会再来买下它。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 45528,
+            "endMs": 51264,
+            "text": "回到家，思娜把所有的零用錢都湊在一起，可還是不夠。",
+            "textSimplified": "回到家，思娜把所有的零用钱都凑在一起，可还是不够。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 51264,
+            "endMs": 61248,
+            "text": "突然，她看到書桌上一艘精緻的輪船模型——那是爸爸送給她的生日禮物，心裏頓時有了主意。",
+            "textSimplified": "突然，她看到书桌上一艘精致的轮船模型——那是爸爸送给她的生日礼物，心里顿时有了主意。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 61248,
+            "endMs": 70632,
+            "text": "思娜再次來到商店，對老闆說：『叔叔，我媽媽病得頭髮都快掉光了，她真的需要一頂假髮。",
+            "textSimplified": "思娜再次来到商店，对老板说：『叔叔，我妈妈病得头发都快掉光了，她真的需要一顶假发。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 70632,
+            "endMs": 75048,
+            "text": "我的錢不夠，我把這艘船也抵給你好嗎？』",
+            "textSimplified": "我的钱不够，我把这艘船也抵给你好吗？』"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 75048,
+            "endMs": 85392,
+            "text": "老闆看着她懷裏的模型和手上的一把零錢，沉吟了好一會兒，遺憾地說：『對不起，我們不接受實物交換。』",
+            "textSimplified": "老板看着她怀里的模型和手上的一把零钱，沉吟了好一会儿，遗憾地说：『对不起，我们不接受实物交换。』"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 85392,
+            "endMs": 92616,
+            "text": "思娜一下呆住了，失望和憂傷充斥着她的心，她一言不發地回家了。",
+            "textSimplified": "思娜一下呆住了，失望和忧伤充斥着她的心，她一言不发地回家了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 92616,
+            "endMs": 99336,
+            "text": "第二天上午，媽媽對思娜說：『真奇怪，有人給你送來了一個包裹。』",
+            "textSimplified": "第二天上午，妈妈对思娜说：『真奇怪，有人给你送来了一个包裹。』"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 99336,
+            "endMs": 104352,
+            "text": "思娜打開包裹一看，正是她昨天看中的那頂假髮！",
+            "textSimplified": "思娜打开包裹一看，正是她昨天看中的那顶假发！"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 104352,
+            "endMs": 115080,
+            "text": "裏面還夾了一張紙條，紙條上寫着：『親愛的孩子，你有一顆美好的心，這是給你媽媽的禮物，也是給你的禮物。",
+            "textSimplified": "里面还夹了一张纸条，纸条上写着：『亲爱的孩子，你有一颗美好的心，这是给你妈妈的礼物，也是给你的礼物。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 115080,
+            "endMs": 116784,
+            "text": "祝你快樂！』",
+            "textSimplified": "祝你快乐！』"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 116784,
+            "endMs": 120216,
+            "text": "下款的署名是：聖誕老人。",
+            "textSimplified": "下款的署名是：圣诞老人。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter03/b04_ch03_p01_c.mp3",
+        "durationMs": 128040,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4344,
+            "text": "三上 ：聖誕老人的禮物 （第十頁）",
+            "textSimplified": "三上 ：圣诞老人的礼物 （第十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4344,
+            "endMs": 11304,
+            "text": "在一個嚴寒的冬天裏，思娜的媽媽生病了，思娜去給媽媽買藥。",
+            "textSimplified": "在一个严寒的冬天里，思娜的妈妈生病了，思娜去给妈妈买药。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11304,
+            "endMs": 25248,
+            "text": "路上，思娜看見一家商店的櫥窗裏陳列着一款漂亮的假髮，心想媽媽病得頭髮都快掉光了，要是她能戴上假髮，就能變得像以前一樣漂亮。",
+            "textSimplified": "路上，思娜看见一家商店的橱窗里陈列着一款漂亮的假发，心想妈妈病得头发都快掉光了，要是她能戴上假发，就能变得像以前一样漂亮。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 25248,
+            "endMs": 32568,
+            "text": "於是，思娜走進商店，選了一頂假髮，問商店老闆要多少錢。",
+            "textSimplified": "于是，思娜走进商店，选了一顶假发，问商店老板要多少钱。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 32568,
+            "endMs": 37248,
+            "text": "老闆看了看她說：『一百五十元。』",
+            "textSimplified": "老板看了看她说：『一百五十元。』"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 37248,
+            "endMs": 47544,
+            "text": "思娜窘住了，因為她只有二十元，於是她趕緊請求老闆千萬別賣掉這頂假髮，她一定會再來買下它。",
+            "textSimplified": "思娜窘住了，因为她只有二十元，于是她赶紧请求老板千万别卖掉这顶假发，她一定会再来买下它。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 47544,
+            "endMs": 54192,
+            "text": "回到家，思娜把所有的零用錢都湊在一起，可還是不夠。",
+            "textSimplified": "回到家，思娜把所有的零用钱都凑在一起，可还是不够。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 54192,
+            "endMs": 63648,
+            "text": "突然，她看到書桌上一艘精緻的輪船模型——那是爸爸送給她的生日禮物，心裏頓時有了主意。",
+            "textSimplified": "突然，她看到书桌上一艘精致的轮船模型——那是爸爸送给她的生日礼物，心里顿时有了主意。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 63648,
+            "endMs": 73344,
+            "text": "思娜再次來到商店，對老闆說：『叔叔，我媽媽病得頭髮都快掉光了，她真的需要一頂假髮。",
+            "textSimplified": "思娜再次来到商店，对老板说：『叔叔，我妈妈病得头发都快掉光了，她真的需要一顶假发。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 73344,
+            "endMs": 78648,
+            "text": "我的錢不夠，我把這艘船也抵給你好嗎？』",
+            "textSimplified": "我的钱不够，我把这艘船也抵给你好吗？』"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 78648,
+            "endMs": 89760,
+            "text": "老闆看着她懷裏的模型和手上的一把零錢，沉吟了好一會兒，遺憾地說：『對不起，我們不接受實物交換。』",
+            "textSimplified": "老板看着她怀里的模型和手上的一把零钱，沉吟了好一会儿，遗憾地说：『对不起，我们不接受实物交换。』"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 89760,
+            "endMs": 97176,
+            "text": "思娜一下呆住了，失望和憂傷充斥着她的心，她一言不發地回家了。",
+            "textSimplified": "思娜一下呆住了，失望和忧伤充斥着她的心，她一言不发地回家了。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 97176,
+            "endMs": 105192,
+            "text": "第二天上午，媽媽對思娜說：『真奇怪，有人給你送來了一個包裹。』",
+            "textSimplified": "第二天上午，妈妈对思娜说：『真奇怪，有人给你送来了一个包裹。』"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 105192,
+            "endMs": 111144,
+            "text": "思娜打開包裹一看，正是她昨天看中的那頂假髮！",
+            "textSimplified": "思娜打开包裹一看，正是她昨天看中的那顶假发！"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 111144,
+            "endMs": 121920,
+            "text": "裏面還夾了一張紙條，紙條上寫着：『親愛的孩子，你有一顆美好的心，這是給你媽媽的禮物，也是給你的禮物。",
+            "textSimplified": "里面还夹了一张纸条，纸条上写着：『亲爱的孩子，你有一颗美好的心，这是给你妈妈的礼物，也是给你的礼物。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 121920,
+            "endMs": 124248,
+            "text": "祝你快樂！』",
+            "textSimplified": "祝你快乐！』"
+          },
+          {
+            "index": 16,
+            "paragraph": 6,
+            "startMs": 124248,
+            "endMs": 128040,
+            "text": "下款的署名是：聖誕老人。",
+            "textSimplified": "下款的署名是：圣诞老人。"
+          }
+        ]
+      }
+    }
+  ]
+}

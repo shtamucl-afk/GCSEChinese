@@ -1,0 +1,518 @@
+{
+  "bookId": "02",
+  "chapterId": "32",
+  "chapterTitle": "我的好朋友",
+  "chapterTitleSimplified": "我的好朋友",
+  "passages": [
+    "二上：我的好朋友（第十六頁）\n\n我的好朋友叫皓晴，她嬌小的個子，一頭微鬈的頭髮，眉毛彎彎的，一雙亮晶晶的大眼睛，好像兩顆晶瑩剔透的葡萄。她還有兩顆小虎牙，笑起來非常可愛。\n\n皓睛特別愛美。一次，我去她家玩，她偷偷找出媽媽的脣膏，把嘴巴塗得紅紅的。之後，她又穿上媽媽的高跟鞋，揹上媽媽的皮包，學着淑女的樣子，在客廳裏慢悠悠地走來走去，不料那雙高跟鞋太大了，皓睛一不小心摔了一跤，坐在地上起不來了，我們都笑得前仰後合。\n\n皓晴喜歡幫助別人。一天，我和她乘坐港鐵去公園玩。港鐵裏人很多，這時上來一個白髮蒼蒼的老伯伯，老伯伯彎着腰，手緊緊地握着扶手，雙腿似乎有些顫抖。皓晴見了，連忙站起來，指着自己的座位說：「老伯伯，您坐吧！」老伯伯眼裏滿是感激，不停地向皓晴道謝。大家都向她投來讚許的目光，而我卻很羞愧，因為我沒有主動給老伯伯讓座。皓晴說：「雖然讓座只是一件普通的小事，但是，一個小小的舉動就可以幫助周圍的人，讓別人快樂，也能讓自己快樂。」我聽了更加慚愧了，我真應該好好向皓晴學習。\n\n這就是我的好朋友，一個愛美又愛幫助別人的女孩。"
+  ],
+  "passagesSimplified": [
+    "二上：我的好朋友（第十六页）\n\n我的好朋友叫皓晴，她娇小的个子，一头微鬈的头发，眉毛弯弯的，一双亮晶晶的大眼睛，好像两颗晶莹剔透的葡萄。她还有两颗小虎牙，笑起来非常可爱。\n\n皓睛特别爱美。一次，我去她家玩，她偷偷找出妈妈的唇膏，把嘴巴涂得红红的。之后，她又穿上妈妈的高跟鞋，揹上妈妈的皮包，学着淑女的样子，在客厅里慢悠悠地走来走去，不料那双高跟鞋太大了，皓睛一不小心摔了一跤，坐在地上起不来了，我们都笑得前仰后合。\n\n皓晴喜欢帮助别人。一天，我和她乘坐港铁去公园玩。港铁里人很多，这时上来一个白发苍苍的老伯伯，老伯伯弯着腰，手紧紧地握着扶手，双腿似乎有些颤抖。皓晴见了，连忙站起来，指着自己的座位说：「老伯伯，您坐吧！」老伯伯眼里满是感激，不停地向皓晴道谢。大家都向她投来赞许的目光，而我却很羞愧，因为我没有主动给老伯伯让座。皓晴说：「虽然让座只是一件普通的小事，但是，一个小小的举动就可以帮助周围的人，让别人快乐，也能让自己快乐。」我听了更加惭愧了，我真应该好好向皓晴学习。\n\n这就是我的好朋友，一个爱美又爱帮助别人的女孩。"
+  ],
+  "vocab": [
+    {
+      "id": "b02_ch32_w001",
+      "traditional": "嬌小",
+      "simplified": "娇小",
+      "english": "petite",
+      "pinyin": "jiāo xiǎo",
+      "contextSentence": "她嬌小的個子，一頭微鬈的頭髮。",
+      "contextSentenceSimplified": "她娇小的个子，一头微鬈的头发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w001_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w001_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w002",
+      "traditional": "微鬈",
+      "simplified": "微鬈",
+      "english": "slightly curly",
+      "pinyin": "wēi quán",
+      "contextSentence": "她嬌小的個子，一頭微鬈的頭髮。",
+      "contextSentenceSimplified": "她娇小的个子，一头微鬈的头发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w002_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w002_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w003",
+      "traditional": "亮晶晶",
+      "simplified": "亮晶晶",
+      "english": "sparkling",
+      "pinyin": "liàng jīng jīng",
+      "contextSentence": "一雙亮晶晶的大眼睛，好像兩顆晶瑩剔透的葡萄。",
+      "contextSentenceSimplified": "一双亮晶晶的大眼睛，好像两颗晶莹剔透的葡萄。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w003_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w003_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w004",
+      "traditional": "晶瑩剔透",
+      "simplified": "晶莹剔透",
+      "english": "crystal clear",
+      "pinyin": "jīng yíng tī tòu",
+      "contextSentence": "一雙亮晶晶的大眼睛，好像兩顆晶瑩剔透的葡萄。",
+      "contextSentenceSimplified": "一双亮晶晶的大眼睛，好像两颗晶莹剔透的葡萄。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w004_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w004_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w005",
+      "traditional": "淑女",
+      "simplified": "淑女",
+      "english": "lady",
+      "pinyin": "shū nǚ",
+      "contextSentence": "學着淑女的樣子，在客廳裏慢悠悠地走來走去。",
+      "contextSentenceSimplified": "学着淑女的样子，在客厅里慢悠悠地走来走去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w005_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w005_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w006",
+      "traditional": "慢悠悠",
+      "simplified": "慢悠悠",
+      "english": "slowly",
+      "pinyin": "màn yōu yōu",
+      "contextSentence": "在客廳裏慢悠悠地走來走去。",
+      "contextSentenceSimplified": "在客厅里慢悠悠地走来走去。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w006_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w006_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w007",
+      "traditional": "前仰後合",
+      "simplified": "前仰后合",
+      "english": "roaring with laughter",
+      "pinyin": "qián yǎng hòu hé",
+      "contextSentence": "我們都笑得前仰後合。",
+      "contextSentenceSimplified": "我们都笑得前仰后合。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w007_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w007_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w008",
+      "traditional": "白髮蒼蒼",
+      "simplified": "白发苍苍",
+      "english": "white-haired",
+      "pinyin": "bái fà cāng cāng",
+      "contextSentence": "這時上來一個白髮蒼蒼的老伯伯。",
+      "contextSentenceSimplified": "这时上来一个白发苍苍的老伯伯。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w008_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w008_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w009",
+      "traditional": "顫抖",
+      "simplified": "颤抖",
+      "english": "trembling",
+      "pinyin": "chàn dǒu",
+      "contextSentence": "老伯伯彎着腰，雙腿似乎有些顫抖。",
+      "contextSentenceSimplified": "老伯伯弯着腰，双腿似乎有些颤抖。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w009_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w009_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w010",
+      "traditional": "感激",
+      "simplified": "感激",
+      "english": "grateful",
+      "pinyin": "gǎn jī",
+      "contextSentence": "老伯伯眼裏滿是感激，不停地向皓晴道謝。",
+      "contextSentenceSimplified": "老伯伯眼里满是感激，不停地向皓晴道谢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w010_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w010_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w011",
+      "traditional": "讚許",
+      "simplified": "赞许",
+      "english": "approving",
+      "pinyin": "zàn xǔ",
+      "contextSentence": "大家都向她投來讚許的目光。",
+      "contextSentenceSimplified": "大家都向她投来赞许的目光。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w011_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w011_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w012",
+      "traditional": "羞愧",
+      "simplified": "羞愧",
+      "english": "ashamed",
+      "pinyin": "xiū kuì",
+      "contextSentence": "大家都向她投來讚許的目光，而我卻很羞愧。",
+      "contextSentenceSimplified": "大家都向她投来赞许的目光，而我却很羞愧。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w012_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w012_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b02_ch32_w013",
+      "traditional": "慚愧",
+      "simplified": "惭愧",
+      "english": "embarrassed",
+      "pinyin": "cán kuì",
+      "contextSentence": "我聽了更加慚愧了，我真應該好好向皓晴學習。",
+      "contextSentenceSimplified": "我听了更加惭愧了，我真应该好好向皓晴学习。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w013_m_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book02/chapter32/b02_ch32_w013_c_isolated.mp3",
+          "sentence": "audio/book02/chapter32/b02_ch32_w013_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book02/chapter32/b02_ch32_p01_m.mp3",
+        "durationMs": 106392,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3696,
+            "text": "二上：我的好朋友（第十六頁）",
+            "textSimplified": "二上：我的好朋友（第十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3696,
+            "endMs": 15528,
+            "text": "我的好朋友叫皓晴，她嬌小的個子，一頭微鬈的頭髮，眉毛彎彎的，一雙亮晶晶的大眼睛，好像兩顆晶瑩剔透的葡萄。",
+            "textSimplified": "我的好朋友叫皓晴，她娇小的个子，一头微鬈的头发，眉毛弯弯的，一双亮晶晶的大眼睛，好像两颗晶莹剔透的葡萄。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 15528,
+            "endMs": 19560,
+            "text": "她還有兩顆小虎牙，笑起來非常可愛。",
+            "textSimplified": "她还有两颗小虎牙，笑起来非常可爱。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19560,
+            "endMs": 21720,
+            "text": "皓睛特別愛美。",
+            "textSimplified": "皓睛特别爱美。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 21720,
+            "endMs": 28608,
+            "text": "一次，我去她家玩，她偷偷找出媽媽的脣膏，把嘴巴塗得紅紅的。",
+            "textSimplified": "一次，我去她家玩，她偷偷找出妈妈的唇膏，把嘴巴涂得红红的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 28608,
+            "endMs": 47256,
+            "text": "之後，她又穿上媽媽的高跟鞋，揹上媽媽的皮包，學着淑女的樣子，在客廳裏慢悠悠地走來走去，不料那雙高跟鞋太大了，皓睛一不小心摔了一跤，坐在地上起不來了，我們都笑得前仰後合。",
+            "textSimplified": "之后，她又穿上妈妈的高跟鞋，揹上妈妈的皮包，学着淑女的样子，在客厅里慢悠悠地走来走去，不料那双高跟鞋太大了，皓睛一不小心摔了一跤，坐在地上起不来了，我们都笑得前仰后合。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 47256,
+            "endMs": 49800,
+            "text": "皓晴喜歡幫助別人。",
+            "textSimplified": "皓晴喜欢帮助别人。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 49800,
+            "endMs": 53808,
+            "text": "一天，我和她乘坐港鐵去公園玩。",
+            "textSimplified": "一天，我和她乘坐港铁去公园玩。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 53808,
+            "endMs": 65088,
+            "text": "港鐵裏人很多，這時上來一個白髮蒼蒼的老伯伯，老伯伯彎着腰，手緊緊地握着扶手，雙腿似乎有些顫抖。",
+            "textSimplified": "港铁里人很多，这时上来一个白发苍苍的老伯伯，老伯伯弯着腰，手紧紧地握着扶手，双腿似乎有些颤抖。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 65088,
+            "endMs": 71808,
+            "text": "皓晴見了，連忙站起來，指着自己的座位說：「老伯伯，您坐吧！」",
+            "textSimplified": "皓晴见了，连忙站起来，指着自己的座位说：「老伯伯，您坐吧！」"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 71808,
+            "endMs": 76752,
+            "text": "老伯伯眼裏滿是感激，不停地向皓晴道謝。",
+            "textSimplified": "老伯伯眼里满是感激，不停地向皓晴道谢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 76752,
+            "endMs": 84360,
+            "text": "大家都向她投來讚許的目光，而我卻很羞愧，因為我沒有主動給老伯伯讓座。",
+            "textSimplified": "大家都向她投来赞许的目光，而我却很羞愧，因为我没有主动给老伯伯让座。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 84360,
+            "endMs": 96312,
+            "text": "皓晴說：「雖然讓座只是一件普通的小事，但是，一個小小的舉動就可以幫助周圍的人，讓別人快樂，也能讓自己快樂。」",
+            "textSimplified": "皓晴说：「虽然让座只是一件普通的小事，但是，一个小小的举动就可以帮助周围的人，让别人快乐，也能让自己快乐。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 96312,
+            "endMs": 101280,
+            "text": "我聽了更加慚愧了，我真應該好好向皓晴學習。",
+            "textSimplified": "我听了更加惭愧了，我真应该好好向皓晴学习。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 101280,
+            "endMs": 106392,
+            "text": "這就是我的好朋友，一個愛美又愛幫助別人的女孩。",
+            "textSimplified": "这就是我的好朋友，一个爱美又爱帮助别人的女孩。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book02/chapter32/b02_ch32_p01_c.mp3",
+        "durationMs": 113016,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4176,
+            "text": "二上：我的好朋友（第十六頁）",
+            "textSimplified": "二上：我的好朋友（第十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4176,
+            "endMs": 16008,
+            "text": "我的好朋友叫皓晴，她嬌小的個子，一頭微鬈的頭髮，眉毛彎彎的，一雙亮晶晶的大眼睛，好像兩顆晶瑩剔透的葡萄。",
+            "textSimplified": "我的好朋友叫皓晴，她娇小的个子，一头微鬈的头发，眉毛弯弯的，一双亮晶晶的大眼睛，好像两颗晶莹剔透的葡萄。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 16008,
+            "endMs": 20952,
+            "text": "她還有兩顆小虎牙，笑起來非常可愛。",
+            "textSimplified": "她还有两颗小虎牙，笑起来非常可爱。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 20952,
+            "endMs": 23544,
+            "text": "皓睛特別愛美。",
+            "textSimplified": "皓睛特别爱美。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 23544,
+            "endMs": 30672,
+            "text": "一次，我去她家玩，她偷偷找出媽媽的脣膏，把嘴巴塗得紅紅的。",
+            "textSimplified": "一次，我去她家玩，她偷偷找出妈妈的唇膏，把嘴巴涂得红红的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 30672,
+            "endMs": 49200,
+            "text": "之後，她又穿上媽媽的高跟鞋，揹上媽媽的皮包，學着淑女的樣子，在客廳裏慢悠悠地走來走去，不料那雙高跟鞋太大了，皓睛一不小心摔了一跤，坐在地上起不來了，我們都笑得前仰後合。",
+            "textSimplified": "之后，她又穿上妈妈的高跟鞋，揹上妈妈的皮包，学着淑女的样子，在客厅里慢悠悠地走来走去，不料那双高跟鞋太大了，皓睛一不小心摔了一跤，坐在地上起不来了，我们都笑得前仰后合。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 49200,
+            "endMs": 52200,
+            "text": "皓晴喜歡幫助別人。",
+            "textSimplified": "皓晴喜欢帮助别人。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 52200,
+            "endMs": 56832,
+            "text": "一天，我和她乘坐港鐵去公園玩。",
+            "textSimplified": "一天，我和她乘坐港铁去公园玩。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 56832,
+            "endMs": 67944,
+            "text": "港鐵裏人很多，這時上來一個白髮蒼蒼的老伯伯，老伯伯彎着腰，手緊緊地握着扶手，雙腿似乎有些顫抖。",
+            "textSimplified": "港铁里人很多，这时上来一个白发苍苍的老伯伯，老伯伯弯着腰，手紧紧地握着扶手，双腿似乎有些颤抖。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 67944,
+            "endMs": 75696,
+            "text": "皓晴見了，連忙站起來，指着自己的座位說：「老伯伯，您坐吧！」",
+            "textSimplified": "皓晴见了，连忙站起来，指着自己的座位说：「老伯伯，您坐吧！」"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 75696,
+            "endMs": 80976,
+            "text": "老伯伯眼裏滿是感激，不停地向皓晴道謝。",
+            "textSimplified": "老伯伯眼里满是感激，不停地向皓晴道谢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 80976,
+            "endMs": 89112,
+            "text": "大家都向她投來讚許的目光，而我卻很羞愧，因為我沒有主動給老伯伯讓座。",
+            "textSimplified": "大家都向她投来赞许的目光，而我却很羞愧，因为我没有主动给老伯伯让座。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 89112,
+            "endMs": 101400,
+            "text": "皓晴說：「雖然讓座只是一件普通的小事，但是，一個小小的舉動就可以幫助周圍的人，讓別人快樂，也能讓自己快樂。」",
+            "textSimplified": "皓晴说：「虽然让座只是一件普通的小事，但是，一个小小的举动就可以帮助周围的人，让别人快乐，也能让自己快乐。」"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 101400,
+            "endMs": 107112,
+            "text": "我聽了更加慚愧了，我真應該好好向皓晴學習。",
+            "textSimplified": "我听了更加惭愧了，我真应该好好向皓晴学习。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 107112,
+            "endMs": 113016,
+            "text": "這就是我的好朋友，一個愛美又愛幫助別人的女孩。",
+            "textSimplified": "这就是我的好朋友，一个爱美又爱帮助别人的女孩。"
+          }
+        ]
+      }
+    }
+  ]
+}

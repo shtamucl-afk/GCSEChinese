@@ -1,0 +1,835 @@
+{
+  "bookId": "04",
+  "chapterId": "12",
+  "chapterTitle": "我們植樹去",
+  "chapterTitleSimplified": "我们植树去",
+  "passages": [
+    "三上 ： 我們植樹去（第三十二頁）\n\n植樹節到了，今天一早，老師就帶領我們來到學校後面的一片空地上。今天我們的任務是要給這塊光禿禿的土地穿上嫩綠色的衣服。\n\n老師給我們分發了白手套、鐵鏟、小水桶、水壺等工具。 同學們自發地分成了五個小組，每個小組有七名成員，大家分工合作，栽種小樹苗。作為我們組唯一的男生，我自告奮勇地承擔了挖坑的工作，我把袖子高高地捲起來，用力地揮舞鐵鏟，可是挖了半天，用了很多力，也不見坑深下去，反倒是弄得我滿頭大汗。另一組的家明看見了，熱心地指導起我來，「這樣可不行，你要先用腳把鐵鏟踩進土裏，然後胳膊再用力挖，否則，手磨破了都挖不出坑來。」我不好意思地笑了笑，說道：「看來挖坑也要有技巧啊。」我按照家明的方法挖起來，不一會兒，就挖好了幾個土坑。\n\n我抬頭看了看，同學們正工作得熱火朝天。有的合作抬水；有的把土踩平，鋪上小草；有的給剛栽好的樹苗澆水，讓它有足夠的水分；還有的正像我一樣，奮力地挖土。工作的時間過得特別快，轉眼間兩個小時就過去了，大家完成了工作。一數，二十顆小樹苗不多不少，亭亭玉立地站立在校園裏，嫩綠嫩綠的葉子，看上去真像是給大地穿上了綠衣服呢！\n\n今天，我們體會到了植樹的樂趣，更收穫到了澆灌生命所帶來的成就感。"
+  ],
+  "passagesSimplified": [
+    "三上 ： 我们植树去（第三十二页）\n\n植树节到了，今天一早，老师就带领我们来到学校后面的一片空地上。今天我们的任务是要给这块光秃秃的土地穿上嫩绿色的衣服。\n\n老师给我们分发了白手套、铁铲、小水桶、水壶等工具。 同学们自发地分成了五个小组，每个小组有七名成员，大家分工合作，栽种小树苗。作为我们组唯一的男生，我自告奋勇地承担了挖坑的工作，我把袖子高高地卷起来，用力地挥舞铁铲，可是挖了半天，用了很多力，也不见坑深下去，反倒是弄得我满头大汗。另一组的家明看见了，热心地指导起我来，「这样可不行，你要先用脚把铁铲踩进土里，然后胳膊再用力挖，否则，手磨破了都挖不出坑来。」我不好意思地笑了笑，说道：「看来挖坑也要有技巧啊。」我按照家明的方法挖起来，不一会儿，就挖好了几个土坑。\n\n我抬头看了看，同学们正工作得热火朝天。有的合作抬水；有的把土踩平，铺上小草；有的给刚栽好的树苗浇水，让它有足够的水分；还有的正像我一样，奋力地挖土。工作的时间过得特别快，转眼间两个小时就过去了，大家完成了工作。一数，二十颗小树苗不多不少，亭亭玉立地站立在校园里，嫩绿嫩绿的叶子，看上去真像是给大地穿上了绿衣服呢！\n\n今天，我们体会到了植树的乐趣，更收获到了浇灌生命所带来的成就感。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch12_w001",
+      "traditional": "帶領",
+      "simplified": "带领",
+      "english": "lead",
+      "pinyin": "dài lǐng",
+      "contextSentence": "老師帶領我們來到學校後面的空地上。",
+      "contextSentenceSimplified": "老师带领我们来到学校后面的空地上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w002",
+      "traditional": "任務",
+      "simplified": "任务",
+      "english": "task",
+      "pinyin": "rèn wù",
+      "contextSentence": "我們的任務是給光禿禿的土地穿上綠衣。",
+      "contextSentenceSimplified": "我们的任务是给光秃秃的土地穿上绿衣。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w003",
+      "traditional": "光禿禿",
+      "simplified": "光秃秃",
+      "english": "bare",
+      "pinyin": "guāng tū tū",
+      "contextSentence": "給光禿禿的土地穿上嫩綠色的衣服。",
+      "contextSentenceSimplified": "给光秃秃的土地穿上嫩绿色的衣服。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w004",
+      "traditional": "分發",
+      "simplified": "分发",
+      "english": "hand out",
+      "pinyin": "fēn fā",
+      "contextSentence": "老師分發了白手套、鐵鏟等工具。",
+      "contextSentenceSimplified": "老师分发了白手套、铁铲等工具。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w005",
+      "traditional": "自發地",
+      "simplified": "自发地",
+      "english": "voluntarily",
+      "pinyin": "zì fā dì",
+      "contextSentence": "同學們自發地分成五個小組。",
+      "contextSentenceSimplified": "同学们自发地分成五个小组。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w006",
+      "traditional": "分工合作",
+      "simplified": "分工合作",
+      "english": "divide and cooperate",
+      "pinyin": "fēn gōng hé zuò",
+      "contextSentence": "大家分工合作，栽種小樹苗。",
+      "contextSentenceSimplified": "大家分工合作，栽种小树苗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w007",
+      "traditional": "栽種",
+      "simplified": "栽种",
+      "english": "plant",
+      "pinyin": "zāi zhǒng",
+      "contextSentence": "大家分工合作，栽種小樹苗。",
+      "contextSentenceSimplified": "大家分工合作，栽种小树苗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w008",
+      "traditional": "自告奮勇",
+      "simplified": "自告奋勇",
+      "english": "volunteer",
+      "pinyin": "zì gào fèn yǒng",
+      "contextSentence": "我自告奮勇承擔了挖坑的工作。",
+      "contextSentenceSimplified": "我自告奋勇承担了挖坑的工作。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w009",
+      "traditional": "承擔",
+      "simplified": "承担",
+      "english": "take on",
+      "pinyin": "chéng dān",
+      "contextSentence": "我自告奮勇承擔了挖坑的工作。",
+      "contextSentenceSimplified": "我自告奋勇承担了挖坑的工作。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w010",
+      "traditional": "揮舞",
+      "simplified": "挥舞",
+      "english": "wave",
+      "pinyin": "huī wǔ",
+      "contextSentence": "我用力揮舞鐵鏟挖坑。",
+      "contextSentenceSimplified": "我用力挥舞铁铲挖坑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w011",
+      "traditional": "反倒",
+      "simplified": "反倒",
+      "english": "instead",
+      "pinyin": "fǎn dào",
+      "contextSentence": "用了很多力，反倒弄得我滿頭大汗。",
+      "contextSentenceSimplified": "用了很多力，反倒弄得我满头大汗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w012",
+      "traditional": "滿頭大汗",
+      "simplified": "满头大汗",
+      "english": "sweating all over",
+      "pinyin": "mǎn tóu dà hán",
+      "contextSentence": "用了很多力，反倒弄得我滿頭大汗。",
+      "contextSentenceSimplified": "用了很多力，反倒弄得我满头大汗。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w013",
+      "traditional": "熱心地",
+      "simplified": "热心地",
+      "english": "warmly",
+      "pinyin": "rè xīn dì",
+      "contextSentence": "家明熱心地指導我挖坑。",
+      "contextSentenceSimplified": "家明热心地指导我挖坑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w014",
+      "traditional": "指導",
+      "simplified": "指导",
+      "english": "guide",
+      "pinyin": "zhǐ dǎo",
+      "contextSentence": "家明熱心地指導我挖坑。",
+      "contextSentenceSimplified": "家明热心地指导我挖坑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w015",
+      "traditional": "磨破",
+      "simplified": "磨破",
+      "english": "wear out",
+      "pinyin": "mó pò",
+      "contextSentence": "否則手磨破了都挖不出坑來。",
+      "contextSentenceSimplified": "否则手磨破了都挖不出坑来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w016",
+      "traditional": "技巧",
+      "simplified": "技巧",
+      "english": "skill",
+      "pinyin": "jì qiǎo",
+      "contextSentence": "看來挖坑也要有技巧啊。",
+      "contextSentenceSimplified": "看来挖坑也要有技巧啊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w017",
+      "traditional": "不一會兒",
+      "simplified": "不一会儿",
+      "english": "soon",
+      "pinyin": "bù yī huì ér",
+      "contextSentence": "不一會兒我就挖好了幾個土坑。",
+      "contextSentenceSimplified": "不一会儿我就挖好了几个土坑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w018",
+      "traditional": "熱火朝天",
+      "simplified": "热火朝天",
+      "english": "bustling",
+      "pinyin": "rè huǒ cháo tiān",
+      "contextSentence": "同學們工作得熱火朝天。",
+      "contextSentenceSimplified": "同学们工作得热火朝天。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w019",
+      "traditional": "踩平",
+      "simplified": "踩平",
+      "english": "flatten",
+      "pinyin": "cǎi píng",
+      "contextSentence": "有的同學把土踩平。",
+      "contextSentenceSimplified": "有的同学把土踩平。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w020",
+      "traditional": "鋪上",
+      "simplified": "铺上",
+      "english": "spread",
+      "pinyin": "pù shàng",
+      "contextSentence": "有的同學鋪上小草。",
+      "contextSentenceSimplified": "有的同学铺上小草。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w021",
+      "traditional": "足夠",
+      "simplified": "足够",
+      "english": "enough",
+      "pinyin": "zú gòu",
+      "contextSentence": "讓樹苗有足夠的水分。",
+      "contextSentenceSimplified": "让树苗有足够的水分。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w022",
+      "traditional": "奮力地",
+      "simplified": "奋力地",
+      "english": "vigorously",
+      "pinyin": "fèn lì dì",
+      "contextSentence": "還有的正奮力地挖土。",
+      "contextSentenceSimplified": "还有的正奋力地挖土。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w023",
+      "traditional": "轉眼間",
+      "simplified": "转眼间",
+      "english": "in a blink",
+      "pinyin": "zhuǎn yǎn jiān",
+      "contextSentence": "轉眼間兩個小時就過去了。",
+      "contextSentenceSimplified": "转眼间两个小时就过去了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w024",
+      "traditional": "亭亭玉立",
+      "simplified": "亭亭玉立",
+      "english": "stand gracefully",
+      "pinyin": "tíng tíng yù lì",
+      "contextSentence": "小樹苗亭亭玉立地站立在校園裡。",
+      "contextSentenceSimplified": "小树苗亭亭玉立地站立在校园里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w025",
+      "traditional": "體會",
+      "simplified": "体会",
+      "english": "experience",
+      "pinyin": "tǐ huì",
+      "contextSentence": "我們體會到了植樹的樂趣。",
+      "contextSentenceSimplified": "我们体会到了植树的乐趣。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w025_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w025_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w026",
+      "traditional": "收穫",
+      "simplified": "收获",
+      "english": "gain",
+      "pinyin": "shōu huò",
+      "contextSentence": "我們收穫了澆灌生命的成就感。",
+      "contextSentenceSimplified": "我们收获了浇灌生命的成就感。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w026_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w026_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w027",
+      "traditional": "澆灌",
+      "simplified": "浇灌",
+      "english": "water",
+      "pinyin": "jiāo guàn",
+      "contextSentence": "我們收穫了澆灌生命的成就感。",
+      "contextSentenceSimplified": "我们收获了浇灌生命的成就感。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w027_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w027_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch12_w028",
+      "traditional": "成就感",
+      "simplified": "成就感",
+      "english": "sense of achievement",
+      "pinyin": "chéng jiù gǎn",
+      "contextSentence": "我們收穫了澆灌生命的成就感。",
+      "contextSentenceSimplified": "我们收获了浇灌生命的成就感。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w028_m_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter12/b04_ch12_w028_c_isolated.mp3",
+          "sentence": "audio/book04/chapter12/b04_ch12_w028_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter12/b04_ch12_p01_m.mp3",
+        "durationMs": 120288,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3912,
+            "text": "三上 ： 我們植樹去（第三十二頁）",
+            "textSimplified": "三上 ： 我们植树去（第三十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3912,
+            "endMs": 11448,
+            "text": "植樹節到了，今天一早，老師就帶領我們來到學校後面的一片空地上。",
+            "textSimplified": "植树节到了，今天一早，老师就带领我们来到学校后面的一片空地上。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11448,
+            "endMs": 17712,
+            "text": "今天我們的任務是要給這塊光禿禿的土地穿上嫩綠色的衣服。",
+            "textSimplified": "今天我们的任务是要给这块光秃秃的土地穿上嫩绿色的衣服。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17712,
+            "endMs": 24264,
+            "text": "老師給我們分發了白手套、鐵鏟、小水桶、水壺等工具。",
+            "textSimplified": "老师给我们分发了白手套、铁铲、小水桶、水壶等工具。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 24264,
+            "endMs": 33144,
+            "text": "同學們自發地分成了五個小組，每個小組有七名成員，大家分工合作，栽種小樹苗。",
+            "textSimplified": "同学们自发地分成了五个小组，每个小组有七名成员，大家分工合作，栽种小树苗。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 33144,
+            "endMs": 49656,
+            "text": "作為我們組唯一的男生，我自告奮勇地承擔了挖坑的工作，我把袖子高高地捲起來，用力地揮舞鐵鏟，可是挖了半天，用了很多力，也不見坑深下去，反倒是弄得我滿頭大汗。",
+            "textSimplified": "作为我们组唯一的男生，我自告奋勇地承担了挖坑的工作，我把袖子高高地卷起来，用力地挥舞铁铲，可是挖了半天，用了很多力，也不见坑深下去，反倒是弄得我满头大汗。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 49656,
+            "endMs": 63288,
+            "text": "另一組的家明看見了，熱心地指導起我來，「這樣可不行，你要先用腳把鐵鏟踩進土裏，然後胳膊再用力挖，否則，手磨破了都挖不出坑來。」",
+            "textSimplified": "另一组的家明看见了，热心地指导起我来，「这样可不行，你要先用脚把铁铲踩进土里，然后胳膊再用力挖，否则，手磨破了都挖不出坑来。」"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 63288,
+            "endMs": 68880,
+            "text": "我不好意思地笑了笑，說道：「看來挖坑也要有技巧啊。」",
+            "textSimplified": "我不好意思地笑了笑，说道：「看来挖坑也要有技巧啊。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 68880,
+            "endMs": 74448,
+            "text": "我按照家明的方法挖起來，不一會兒，就挖好了幾個土坑。",
+            "textSimplified": "我按照家明的方法挖起来，不一会儿，就挖好了几个土坑。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 74448,
+            "endMs": 79152,
+            "text": "我抬頭看了看，同學們正工作得熱火朝天。",
+            "textSimplified": "我抬头看了看，同学们正工作得热火朝天。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 79152,
+            "endMs": 81360,
+            "text": "有的合作抬水；",
+            "textSimplified": "有的合作抬水；"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 81360,
+            "endMs": 84960,
+            "text": "有的把土踩平，鋪上小草；",
+            "textSimplified": "有的把土踩平，铺上小草；"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 84960,
+            "endMs": 89976,
+            "text": "有的給剛栽好的樹苗澆水，讓它有足夠的水分；",
+            "textSimplified": "有的给刚栽好的树苗浇水，让它有足够的水分；"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 89976,
+            "endMs": 93600,
+            "text": "還有的正像我一樣，奮力地挖土。",
+            "textSimplified": "还有的正像我一样，奋力地挖土。"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 93600,
+            "endMs": 100680,
+            "text": "工作的時間過得特別快，轉眼間兩個小時就過去了，大家完成了工作。",
+            "textSimplified": "工作的时间过得特别快，转眼间两个小时就过去了，大家完成了工作。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 100680,
+            "endMs": 112488,
+            "text": "一數，二十顆小樹苗不多不少，亭亭玉立地站立在校園裏，嫩綠嫩綠的葉子，看上去真像是給大地穿上了綠衣服呢！",
+            "textSimplified": "一数，二十颗小树苗不多不少，亭亭玉立地站立在校园里，嫩绿嫩绿的叶子，看上去真像是给大地穿上了绿衣服呢！"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 112488,
+            "endMs": 120288,
+            "text": "今天，我們體會到了植樹的樂趣，更收穫到了澆灌生命所帶來的成就感。",
+            "textSimplified": "今天，我们体会到了植树的乐趣，更收获到了浇灌生命所带来的成就感。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter12/b04_ch12_p01_c.mp3",
+        "durationMs": 128472,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4680,
+            "text": "三上 ： 我們植樹去（第三十二頁）",
+            "textSimplified": "三上 ： 我们植树去（第三十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4680,
+            "endMs": 12312,
+            "text": "植樹節到了，今天一早，老師就帶領我們來到學校後面的一片空地上。",
+            "textSimplified": "植树节到了，今天一早，老师就带领我们来到学校后面的一片空地上。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 12312,
+            "endMs": 18600,
+            "text": "今天我們的任務是要給這塊光禿禿的土地穿上嫩綠色的衣服。",
+            "textSimplified": "今天我们的任务是要给这块光秃秃的土地穿上嫩绿色的衣服。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 18600,
+            "endMs": 25464,
+            "text": "老師給我們分發了白手套、鐵鏟、小水桶、水壺等工具。",
+            "textSimplified": "老师给我们分发了白手套、铁铲、小水桶、水壶等工具。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25464,
+            "endMs": 34608,
+            "text": "同學們自發地分成了五個小組，每個小組有七名成員，大家分工合作，栽種小樹苗。",
+            "textSimplified": "同学们自发地分成了五个小组，每个小组有七名成员，大家分工合作，栽种小树苗。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 34608,
+            "endMs": 51552,
+            "text": "作為我們組唯一的男生，我自告奮勇地承擔了挖坑的工作，我把袖子高高地捲起來，用力地揮舞鐵鏟，可是挖了半天，用了很多力，也不見坑深下去，反倒是弄得我滿頭大汗。",
+            "textSimplified": "作为我们组唯一的男生，我自告奋勇地承担了挖坑的工作，我把袖子高高地卷起来，用力地挥舞铁铲，可是挖了半天，用了很多力，也不见坑深下去，反倒是弄得我满头大汗。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 51552,
+            "endMs": 65568,
+            "text": "另一組的家明看見了，熱心地指導起我來，「這樣可不行，你要先用腳把鐵鏟踩進土裏，然後胳膊再用力挖，否則，手磨破了都挖不出坑來。」",
+            "textSimplified": "另一组的家明看见了，热心地指导起我来，「这样可不行，你要先用脚把铁铲踩进土里，然后胳膊再用力挖，否则，手磨破了都挖不出坑来。」"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 65568,
+            "endMs": 72600,
+            "text": "我不好意思地笑了笑，說道：「看來挖坑也要有技巧啊。」",
+            "textSimplified": "我不好意思地笑了笑，说道：「看来挖坑也要有技巧啊。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 72600,
+            "endMs": 79320,
+            "text": "我按照家明的方法挖起來，不一會兒，就挖好了幾個土坑。",
+            "textSimplified": "我按照家明的方法挖起来，不一会儿，就挖好了几个土坑。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 79320,
+            "endMs": 84624,
+            "text": "我抬頭看了看，同學們正工作得熱火朝天。",
+            "textSimplified": "我抬头看了看，同学们正工作得热火朝天。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 84624,
+            "endMs": 87216,
+            "text": "有的合作抬水；",
+            "textSimplified": "有的合作抬水；"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 87216,
+            "endMs": 91104,
+            "text": "有的把土踩平，鋪上小草；",
+            "textSimplified": "有的把土踩平，铺上小草；"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 91104,
+            "endMs": 96648,
+            "text": "有的給剛栽好的樹苗澆水，讓它有足夠的水分；",
+            "textSimplified": "有的给刚栽好的树苗浇水，让它有足够的水分；"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 96648,
+            "endMs": 100920,
+            "text": "還有的正像我一樣，奮力地挖土。",
+            "textSimplified": "还有的正像我一样，奋力地挖土。"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 100920,
+            "endMs": 108504,
+            "text": "工作的時間過得特別快，轉眼間兩個小時就過去了，大家完成了工作。",
+            "textSimplified": "工作的时间过得特别快，转眼间两个小时就过去了，大家完成了工作。"
+          },
+          {
+            "index": 15,
+            "paragraph": 6,
+            "startMs": 108504,
+            "endMs": 120504,
+            "text": "一數，二十顆小樹苗不多不少，亭亭玉立地站立在校園裏，嫩綠嫩綠的葉子，看上去真像是給大地穿上了綠衣服呢！",
+            "textSimplified": "一数，二十颗小树苗不多不少，亭亭玉立地站立在校园里，嫩绿嫩绿的叶子，看上去真像是给大地穿上了绿衣服呢！"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 120504,
+            "endMs": 128472,
+            "text": "今天，我們體會到了植樹的樂趣，更收穫到了澆灌生命所帶來的成就感。",
+            "textSimplified": "今天，我们体会到了植树的乐趣，更收获到了浇灌生命所带来的成就感。"
+          }
+        ]
+      }
+    }
+  ]
+}

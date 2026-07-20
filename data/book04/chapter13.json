@@ -1,0 +1,537 @@
+{
+  "bookId": "04",
+  "chapterId": "13",
+  "chapterTitle": "祖父家的小貓",
+  "chapterTitleSimplified": "祖父家的小猫",
+  "passages": [
+    "三上 ： 祖父家的小貓（第三十六頁）\n\n祖父的家裏養了一隻可愛的小貓，牠給我們帶來了無窮的快樂。\n\n這隻小貓的毛是灰色的，長長的，毛茸茸的，臉型很像動畫片裏的加菲貓。牠的眼睛水藍水藍的，好像兩顆晶瑩的寶石，閃爍着光芒。牠長着一對靈敏的耳朵，哪怕一根針掉在地上，牠都能發覺似的。牠的四隻腳掌上長着鋒利的指甲，所以能輕巧地爬上大樹。\n\n這隻小貓性格十分溫順，牠喜歡悄悄地跟在人的後面，如果你停下腳步，牠便也匍匐在地上，一動不動。如果你繼續走路，牠便又站起身來悄悄地跟着你。所以我們都叫牠『跟屁蟲』。有時候祖父外出回來，牠剛聽見門口有腳步聲，就快速地跑到門口等着祖父開門。牠很膽小，如果家裏來了陌生人，牠就會躲到牀底下不敢出來。直到客人走了，牠才會露出小腦袋，躡手躡腳地走出來。\n\n小貓很愛清潔，牠每天都用牠的小爪子認真地洗臉，牠也從來不隨地大小便，總是悄悄地跑到有貓砂的地方上廁所。\n\n祖父很喜歡這隻小貓，他每天看書的時候，小貓都趴在他的腿上，他午睡的時候，小貓也依偎在他的身旁，睡得格外香甜呢！有了這隻小貓的陪伴，祖父的生活過得很愜意。"
+  ],
+  "passagesSimplified": [
+    "三上 ： 祖父家的小猫（第三十六页）\n\n祖父的家里养了一只可爱的小猫，牠给我们带来了无穷的快乐。\n\n这只小猫的毛是灰色的，长长的，毛茸茸的，脸型很像动画片里的加菲猫。牠的眼睛水蓝水蓝的，好像两颗晶莹的宝石，闪烁着光芒。牠长着一对灵敏的耳朵，哪怕一根针掉在地上，牠都能发觉似的。牠的四只脚掌上长着锋利的指甲，所以能轻巧地爬上大树。\n\n这只小猫性格十分温顺，牠喜欢悄悄地跟在人的后面，如果你停下脚步，牠便也匍匐在地上，一动不动。如果你继续走路，牠便又站起身来悄悄地跟着你。所以我们都叫牠『跟屁虫』。有时候祖父外出回来，牠刚听见门口有脚步声，就快速地跑到门口等着祖父开门。牠很胆小，如果家里来了陌生人，牠就会躲到床底下不敢出来。直到客人走了，牠才会露出小脑袋，蹑手蹑脚地走出来。\n\n小猫很爱清洁，牠每天都用牠的小爪子认真地洗脸，牠也从来不随地大小便，总是悄悄地跑到有猫砂的地方上厕所。\n\n祖父很喜欢这只小猫，他每天看书的时候，小猫都趴在他的腿上，他午睡的时候，小猫也依偎在他的身旁，睡得格外香甜呢！有了这只小猫的陪伴，祖父的生活过得很惬意。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch13_w001",
+      "traditional": "毛茸茸",
+      "simplified": "毛茸茸",
+      "english": "fluffy",
+      "pinyin": "máo róng róng",
+      "contextSentence": "這隻小貓的毛是灰色的，長長的，毛茸茸的。",
+      "contextSentenceSimplified": "这只小猫的毛是灰色的，长长的，毛茸茸的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w002",
+      "traditional": "晶瑩",
+      "simplified": "晶莹",
+      "english": "sparkling",
+      "pinyin": "jīng yíng",
+      "contextSentence": "牠的眼睛水藍水藍的，好像兩顆晶瑩的寶石。",
+      "contextSentenceSimplified": "牠的眼睛水蓝水蓝的，好像两颗晶莹的宝石。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w003",
+      "traditional": "閃爍",
+      "simplified": "闪烁",
+      "english": "glittering",
+      "pinyin": "shǎn shuò",
+      "contextSentence": "牠的眼睛水藍水藍的，好像兩顆晶瑩的寶石，閃爍着光芒。",
+      "contextSentenceSimplified": "牠的眼睛水蓝水蓝的，好像两颗晶莹的宝石，闪烁着光芒。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w004",
+      "traditional": "靈敏",
+      "simplified": "灵敏",
+      "english": "sensitive",
+      "pinyin": "líng mǐn",
+      "contextSentence": "牠長着一對靈敏的耳朵，哪怕一根針掉在地上，牠都能發覺似的。",
+      "contextSentenceSimplified": "牠长着一对灵敏的耳朵，哪怕一根针掉在地上，牠都能发觉似的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w005",
+      "traditional": "鋒利",
+      "simplified": "锋利",
+      "english": "sharp",
+      "pinyin": "fēng lì",
+      "contextSentence": "牠的四隻腳掌上長着鋒利的指甲，所以能輕巧地爬上大樹。",
+      "contextSentenceSimplified": "牠的四只脚掌上长着锋利的指甲，所以能轻巧地爬上大树。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w006",
+      "traditional": "輕巧",
+      "simplified": "轻巧",
+      "english": "nimble",
+      "pinyin": "qīng qiǎo",
+      "contextSentence": "牠的四隻腳掌上長着鋒利的指甲，所以能輕巧地爬上大樹。",
+      "contextSentenceSimplified": "牠的四只脚掌上长着锋利的指甲，所以能轻巧地爬上大树。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w007",
+      "traditional": "溫順",
+      "simplified": "温顺",
+      "english": "gentle",
+      "pinyin": "wēn shùn",
+      "contextSentence": "這隻小貓性格十分溫順，牠喜歡悄悄地跟在人的後面。",
+      "contextSentenceSimplified": "这只小猫性格十分温顺，牠喜欢悄悄地跟在人的后面。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w008",
+      "traditional": "悄悄地",
+      "simplified": "悄悄地",
+      "english": "quietly",
+      "pinyin": "qiāo qiāo dì",
+      "contextSentence": "這隻小貓性格十分溫順，牠喜歡悄悄地跟在人的後面。",
+      "contextSentenceSimplified": "这只小猫性格十分温顺，牠喜欢悄悄地跟在人的后面。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w009",
+      "traditional": "匍匐",
+      "simplified": "匍匐",
+      "english": "crawl",
+      "pinyin": "pú fú",
+      "contextSentence": "如果你停下腳步，牠便也匍匐在地上，一動不動。",
+      "contextSentenceSimplified": "如果你停下脚步，牠便也匍匐在地上，一动不动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w010",
+      "traditional": "躡手躡腳",
+      "simplified": "蹑手蹑脚",
+      "english": "tiptoe",
+      "pinyin": "niè shǒu niè jiǎo",
+      "contextSentence": "直到客人走了，牠才會露出小腦袋，躡手躡腳地走出來。",
+      "contextSentenceSimplified": "直到客人走了，牠才会露出小脑袋，蹑手蹑脚地走出来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w011",
+      "traditional": "清潔",
+      "simplified": "清洁",
+      "english": "clean",
+      "pinyin": "qīng jié",
+      "contextSentence": "小貓很愛清潔，牠每天都用牠的小爪子認真地洗臉。",
+      "contextSentenceSimplified": "小猫很爱清洁，牠每天都用牠的小爪子认真地洗脸。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w012",
+      "traditional": "貓砂",
+      "simplified": "猫砂",
+      "english": "cat litter",
+      "pinyin": "māo shā",
+      "contextSentence": "牠也從來不隨地大小便，總是悄悄地跑到有貓砂的地方上廁所。",
+      "contextSentenceSimplified": "牠也从来不随地大小便，总是悄悄地跑到有猫砂的地方上厕所。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w013",
+      "traditional": "依偎",
+      "simplified": "依偎",
+      "english": "snuggle",
+      "pinyin": "yī wēi",
+      "contextSentence": "他午睡的時候，小貓也依偎在他的身旁，睡得格外香甜呢！",
+      "contextSentenceSimplified": "他午睡的时候，小猫也依偎在他的身旁，睡得格外香甜呢！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch13_w014",
+      "traditional": "愜意",
+      "simplified": "惬意",
+      "english": "cozy",
+      "pinyin": "qiè yì",
+      "contextSentence": "有了這隻小貓的陪伴，祖父的生活過得很愜意。",
+      "contextSentenceSimplified": "有了这只小猫的陪伴，祖父的生活过得很惬意。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter13/b04_ch13_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter13/b04_ch13_w014_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter13/b04_ch13_p01_m.mp3",
+        "durationMs": 108192,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4248,
+            "text": "三上 ： 祖父家的小貓（第三十六頁）",
+            "textSimplified": "三上 ： 祖父家的小猫（第三十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4248,
+            "endMs": 10632,
+            "text": "祖父的家裏養了一隻可愛的小貓，牠給我們帶來了無窮的快樂。",
+            "textSimplified": "祖父的家里养了一只可爱的小猫，牠给我们带来了无穷的快乐。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 10632,
+            "endMs": 18528,
+            "text": "這隻小貓的毛是灰色的，長長的，毛茸茸的，臉型很像動畫片裏的加菲貓。",
+            "textSimplified": "这只小猫的毛是灰色的，长长的，毛茸茸的，脸型很像动画片里的加菲猫。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 18528,
+            "endMs": 24720,
+            "text": "牠的眼睛水藍水藍的，好像兩顆晶瑩的寶石，閃爍着光芒。",
+            "textSimplified": "牠的眼睛水蓝水蓝的，好像两颗晶莹的宝石，闪烁着光芒。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 24720,
+            "endMs": 31272,
+            "text": "牠長着一對靈敏的耳朵，哪怕一根針掉在地上，牠都能發覺似的。",
+            "textSimplified": "牠长着一对灵敏的耳朵，哪怕一根针掉在地上，牠都能发觉似的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 31272,
+            "endMs": 37656,
+            "text": "牠的四隻腳掌上長着鋒利的指甲，所以能輕巧地爬上大樹。",
+            "textSimplified": "牠的四只脚掌上长着锋利的指甲，所以能轻巧地爬上大树。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 37656,
+            "endMs": 48672,
+            "text": "這隻小貓性格十分溫順，牠喜歡悄悄地跟在人的後面，如果你停下腳步，牠便也匍匐在地上，一動不動。",
+            "textSimplified": "这只小猫性格十分温顺，牠喜欢悄悄地跟在人的后面，如果你停下脚步，牠便也匍匐在地上，一动不动。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 48672,
+            "endMs": 53880,
+            "text": "如果你繼續走路，牠便又站起身來悄悄地跟着你。",
+            "textSimplified": "如果你继续走路，牠便又站起身来悄悄地跟着你。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 53880,
+            "endMs": 57240,
+            "text": "所以我們都叫牠『跟屁蟲』。",
+            "textSimplified": "所以我们都叫牠『跟屁虫』。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 57240,
+            "endMs": 65928,
+            "text": "有時候祖父外出回來，牠剛聽見門口有腳步聲，就快速地跑到門口等着祖父開門。",
+            "textSimplified": "有时候祖父外出回来，牠刚听见门口有脚步声，就快速地跑到门口等着祖父开门。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 65928,
+            "endMs": 72360,
+            "text": "牠很膽小，如果家裏來了陌生人，牠就會躲到牀底下不敢出來。",
+            "textSimplified": "牠很胆小，如果家里来了陌生人，牠就会躲到床底下不敢出来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 72360,
+            "endMs": 78336,
+            "text": "直到客人走了，牠才會露出小腦袋，躡手躡腳地走出來。",
+            "textSimplified": "直到客人走了，牠才会露出小脑袋，蹑手蹑脚地走出来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 78336,
+            "endMs": 90528,
+            "text": "小貓很愛清潔，牠每天都用牠的小爪子認真地洗臉，牠也從來不隨地大小便，總是悄悄地跑到有貓砂的地方上廁所。",
+            "textSimplified": "小猫很爱清洁，牠每天都用牠的小爪子认真地洗脸，牠也从来不随地大小便，总是悄悄地跑到有猫砂的地方上厕所。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 90528,
+            "endMs": 103152,
+            "text": "祖父很喜歡這隻小貓，他每天看書的時候，小貓都趴在他的腿上，他午睡的時候，小貓也依偎在他的身旁，睡得格外香甜呢！",
+            "textSimplified": "祖父很喜欢这只小猫，他每天看书的时候，小猫都趴在他的腿上，他午睡的时候，小猫也依偎在他的身旁，睡得格外香甜呢！"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 103152,
+            "endMs": 108192,
+            "text": "有了這隻小貓的陪伴，祖父的生活過得很愜意。",
+            "textSimplified": "有了这只小猫的陪伴，祖父的生活过得很惬意。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter13/b04_ch13_p01_c.mp3",
+        "durationMs": 112776,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4632,
+            "text": "三上 ： 祖父家的小貓（第三十六頁）",
+            "textSimplified": "三上 ： 祖父家的小猫（第三十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4632,
+            "endMs": 11304,
+            "text": "祖父的家裏養了一隻可愛的小貓，牠給我們帶來了無窮的快樂。",
+            "textSimplified": "祖父的家里养了一只可爱的小猫，牠给我们带来了无穷的快乐。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 11304,
+            "endMs": 19080,
+            "text": "這隻小貓的毛是灰色的，長長的，毛茸茸的，臉型很像動畫片裏的加菲貓。",
+            "textSimplified": "这只小猫的毛是灰色的，长长的，毛茸茸的，脸型很像动画片里的加菲猫。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19080,
+            "endMs": 25536,
+            "text": "牠的眼睛水藍水藍的，好像兩顆晶瑩的寶石，閃爍着光芒。",
+            "textSimplified": "牠的眼睛水蓝水蓝的，好像两颗晶莹的宝石，闪烁着光芒。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25536,
+            "endMs": 32688,
+            "text": "牠長着一對靈敏的耳朵，哪怕一根針掉在地上，牠都能發覺似的。",
+            "textSimplified": "牠长着一对灵敏的耳朵，哪怕一根针掉在地上，牠都能发觉似的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 32688,
+            "endMs": 39552,
+            "text": "牠的四隻腳掌上長着鋒利的指甲，所以能輕巧地爬上大樹。",
+            "textSimplified": "牠的四只脚掌上长着锋利的指甲，所以能轻巧地爬上大树。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 39552,
+            "endMs": 50496,
+            "text": "這隻小貓性格十分溫順，牠喜歡悄悄地跟在人的後面，如果你停下腳步，牠便也匍匐在地上，一動不動。",
+            "textSimplified": "这只小猫性格十分温顺，牠喜欢悄悄地跟在人的后面，如果你停下脚步，牠便也匍匐在地上，一动不动。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 50496,
+            "endMs": 56496,
+            "text": "如果你繼續走路，牠便又站起身來悄悄地跟着你。",
+            "textSimplified": "如果你继续走路，牠便又站起身来悄悄地跟着你。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 56496,
+            "endMs": 60528,
+            "text": "所以我們都叫牠『跟屁蟲』。",
+            "textSimplified": "所以我们都叫牠『跟屁虫』。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 60528,
+            "endMs": 69312,
+            "text": "有時候祖父外出回來，牠剛聽見門口有腳步聲，就快速地跑到門口等着祖父開門。",
+            "textSimplified": "有时候祖父外出回来，牠刚听见门口有脚步声，就快速地跑到门口等着祖父开门。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 69312,
+            "endMs": 76200,
+            "text": "牠很膽小，如果家裏來了陌生人，牠就會躲到牀底下不敢出來。",
+            "textSimplified": "牠很胆小，如果家里来了陌生人，牠就会躲到床底下不敢出来。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 76200,
+            "endMs": 82344,
+            "text": "直到客人走了，牠才會露出小腦袋，躡手躡腳地走出來。",
+            "textSimplified": "直到客人走了，牠才会露出小脑袋，蹑手蹑脚地走出来。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 82344,
+            "endMs": 94440,
+            "text": "小貓很愛清潔，牠每天都用牠的小爪子認真地洗臉，牠也從來不隨地大小便，總是悄悄地跑到有貓砂的地方上廁所。",
+            "textSimplified": "小猫很爱清洁，牠每天都用牠的小爪子认真地洗脸，牠也从来不随地大小便，总是悄悄地跑到有猫砂的地方上厕所。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 94440,
+            "endMs": 107400,
+            "text": "祖父很喜歡這隻小貓，他每天看書的時候，小貓都趴在他的腿上，他午睡的時候，小貓也依偎在他的身旁，睡得格外香甜呢！",
+            "textSimplified": "祖父很喜欢这只小猫，他每天看书的时候，小猫都趴在他的腿上，他午睡的时候，小猫也依偎在他的身旁，睡得格外香甜呢！"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 107400,
+            "endMs": 112776,
+            "text": "有了這隻小貓的陪伴，祖父的生活過得很愜意。",
+            "textSimplified": "有了这只小猫的陪伴，祖父的生活过得很惬意。"
+          }
+        ]
+      }
+    }
+  ]
+}

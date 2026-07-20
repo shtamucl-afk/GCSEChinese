@@ -1,0 +1,654 @@
+{
+  "bookId": "04",
+  "chapterId": "09",
+  "chapterTitle": "活力鼓令擂臺賽",
+  "chapterTitleSimplified": "活力鼓令擂台赛",
+  "passages": [
+    "三上 ：活力鼓令擂臺賽 （第二十六頁）\n\n今天，我們代表學校參加了活力鼓令擂臺賽。比賽可謂是高手雲集。最大的有六十多歲的長者，最小的是 只有三四歲的孩童，當然，還有各間學校的代表隊。\n\n「隆咚隆咚鏘！」比賽開始了，我們穿着紅色和藍色兩種傳統服裝，邁着整齊的步伐走上舞臺，按照各自的位置站好，隨着領鼓的一聲令下，我們揮舞起手中的鼓棍開始表演。首先表演了指定的曲目〈滾核桃〉和〈牛鬥虎〉，同學們久經訓練，早已經不會緊張，今天的表現尤其振奮人心。我們各個神采奕奕，打起鼓來神氣十足，贏得了臺下熱烈的掌聲。接下來我們還表演了自己編排的曲目〈舞動校園〉，由於節奏歡快而有氣勢，我們得到了很高的評分。 之後是一位小童上場，他雖然年紀小，但是表情輕鬆，打起鼓來十分有魄力，無論是造型、節奏還是表情都非常到位。 我們不由得被他身上散發出的那股初生之犢不怕虎的勁頭所打動，對他報以一陣陣喝彩。\n\n最後，我們獲得了最佳創作獎，大家都非常開心。這次擂臺賽展現了選手們的活力、熱情和專業，讓人深受感染，又能夠跟各間學校，各個年齡段的隊伍進行較量，讓我們鍛煉了膽量，開闊了視野，受益匪淺。比賽結束了，我的心情還十分激動，我會繼續努力，期待今後能夠參加「未來鼓王爭霸賽」。"
+  ],
+  "passagesSimplified": [
+    "三上 ：活力鼓令擂台赛 （第二十六页）\n\n今天，我们代表学校参加了活力鼓令擂台赛。比赛可谓是高手云集。最大的有六十多岁的长者，最小的是 只有三四岁的孩童，当然，还有各间学校的代表队。\n\n「隆咚隆咚锵！」比赛开始了，我们穿着红色和蓝色两种传统服装，迈着整齐的步伐走上舞台，按照各自的位置站好，随着领鼓的一声令下，我们挥舞起手中的鼓棍开始表演。首先表演了指定的曲目〈滚核桃〉和〈牛斗虎〉，同学们久经训练，早已经不会紧张，今天的表现尤其振奋人心。我们各个神采奕奕，打起鼓来神气十足，赢得了台下热烈的掌声。接下来我们还表演了自己编排的曲目〈舞动校园〉，由于节奏欢快而有气势，我们得到了很高的评分。 之后是一位小童上场，他虽然年纪小，但是表情轻松，打起鼓来十分有魄力，无论是造型、节奏还是表情都非常到位。 我们不由得被他身上散发出的那股初生之犊不怕虎的劲头所打动，对他报以一阵阵喝彩。\n\n最后，我们获得了最佳创作奖，大家都非常开心。这次擂台赛展现了选手们的活力、热情和专业，让人深受感染，又能够跟各间学校，各个年龄段的队伍进行较量，让我们锻炼了胆量，开阔了视野，受益匪浅。比赛结束了，我的心情还十分激动，我会继续努力，期待今后能够参加「未来鼓王争霸赛」。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch09_w001",
+      "traditional": "擂臺賽",
+      "simplified": "擂台赛",
+      "english": "drum competition",
+      "pinyin": "léi tái sài",
+      "contextSentence": "今天，我們代表學校參加了活力鼓令擂臺賽。",
+      "contextSentenceSimplified": "今天，我们代表学校参加了活力鼓令擂台赛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w002",
+      "traditional": "可謂是",
+      "simplified": "可谓是",
+      "english": "can be called",
+      "pinyin": "kě wèi shì",
+      "contextSentence": "比賽可謂是高手雲集。",
+      "contextSentenceSimplified": "比赛可谓是高手云集。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w003",
+      "traditional": "高手雲集",
+      "simplified": "高手云集",
+      "english": "gathered masters",
+      "pinyin": "gāo shǒu yún jí",
+      "contextSentence": "比賽可謂是高手雲集。",
+      "contextSentenceSimplified": "比赛可谓是高手云集。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w004",
+      "traditional": "邁着",
+      "simplified": "迈着",
+      "english": "walking with",
+      "pinyin": "mài zhe",
+      "contextSentence": "我們邁着整齊的步伐走上舞臺。",
+      "contextSentenceSimplified": "我们迈着整齐的步伐走上舞台。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w005",
+      "traditional": "步伐",
+      "simplified": "步伐",
+      "english": "steps",
+      "pinyin": "bù fá",
+      "contextSentence": "我們邁着整齊的步伐走上舞臺。",
+      "contextSentenceSimplified": "我们迈着整齐的步伐走上舞台。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w006",
+      "traditional": "揮舞",
+      "simplified": "挥舞",
+      "english": "waving",
+      "pinyin": "huī wǔ",
+      "contextSentence": "我們揮舞起手中的鼓棍開始表演。",
+      "contextSentenceSimplified": "我们挥舞起手中的鼓棍开始表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w007",
+      "traditional": "久經訓練",
+      "simplified": "久经训练",
+      "english": "well-trained",
+      "pinyin": "jiǔ jīng xùn liàn",
+      "contextSentence": "同學們久經訓練，今天的表現尤其振奮人心。",
+      "contextSentenceSimplified": "同学们久经训练，今天的表现尤其振奋人心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w008",
+      "traditional": "尤其",
+      "simplified": "尤其",
+      "english": "especially",
+      "pinyin": "yóu qí",
+      "contextSentence": "今天的表現尤其振奮人心。",
+      "contextSentenceSimplified": "今天的表现尤其振奋人心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w009",
+      "traditional": "振奮人心",
+      "simplified": "振奋人心",
+      "english": "inspiring",
+      "pinyin": "zhèn fèn rén xīn",
+      "contextSentence": "同學們的表現尤其振奮人心。",
+      "contextSentenceSimplified": "同学们的表现尤其振奋人心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w010",
+      "traditional": "神采奕奕",
+      "simplified": "神采奕奕",
+      "english": "energetic",
+      "pinyin": "shén cǎi yì yì",
+      "contextSentence": "我們各個神采奕奕，打起鼓來神氣十足。",
+      "contextSentenceSimplified": "我们各个神采奕奕，打起鼓来神气十足。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w011",
+      "traditional": "神氣十足",
+      "simplified": "神气十足",
+      "english": "full of spirit",
+      "pinyin": "shén qì shí zú",
+      "contextSentence": "我們各個神采奕奕，打起鼓來神氣十足。",
+      "contextSentenceSimplified": "我们各个神采奕奕，打起鼓来神气十足。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w012",
+      "traditional": "編排",
+      "simplified": "编排",
+      "english": "choreographed",
+      "pinyin": "biān pái",
+      "contextSentence": "我們表演了自己編排的曲目〈舞動校園〉。",
+      "contextSentenceSimplified": "我们表演了自己编排的曲目〈舞动校园〉。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w013",
+      "traditional": "氣勢",
+      "simplified": "气势",
+      "english": "momentum",
+      "pinyin": "qì shì",
+      "contextSentence": "節奏歡快而有氣勢，我們得到了很高的評分。",
+      "contextSentenceSimplified": "节奏欢快而有气势，我们得到了很高的评分。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w014",
+      "traditional": "有魄力",
+      "simplified": "有魄力",
+      "english": "forceful",
+      "pinyin": "yǒu pò lì",
+      "contextSentence": "小童打起鼓來十分有魄力。",
+      "contextSentenceSimplified": "小童打起鼓来十分有魄力。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w015",
+      "traditional": "初生之犢不怕虎",
+      "simplified": "初生之犊不怕虎",
+      "english": "fearless newcomer",
+      "pinyin": "chū shēng zhī dú bù pà hǔ",
+      "contextSentence": "他身上有股初生之犢不怕虎的勁頭。",
+      "contextSentenceSimplified": "他身上有股初生之犊不怕虎的劲头。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w016",
+      "traditional": "勁頭",
+      "simplified": "劲头",
+      "english": "drive",
+      "pinyin": "jìn tóu",
+      "contextSentence": "那股初生之犢不怕虎的勁頭打動了我們。",
+      "contextSentenceSimplified": "那股初生之犊不怕虎的劲头打动了我们。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w017",
+      "traditional": "開闊了視野",
+      "simplified": "开阔了视野",
+      "english": "broadened horizons",
+      "pinyin": "kāi kuò le shì yě",
+      "contextSentence": "比賽讓我們鍛煉了膽量，開闊了視野。",
+      "contextSentenceSimplified": "比赛让我们锻炼了胆量，开阔了视野。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w018",
+      "traditional": "受益匪淺",
+      "simplified": "受益匪浅",
+      "english": "benefited greatly",
+      "pinyin": "shòu yì fěi qiǎn",
+      "contextSentence": "這次比賽讓我們受益匪淺。",
+      "contextSentenceSimplified": "这次比赛让我们受益匪浅。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w019",
+      "traditional": "爭霸賽",
+      "simplified": "争霸赛",
+      "english": "championship",
+      "pinyin": "zhēng bà sài",
+      "contextSentence": "期待今後參加「未來鼓王爭霸賽」。",
+      "contextSentenceSimplified": "期待今后参加「未来鼓王争霸赛」。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w020",
+      "traditional": "鼓棍",
+      "simplified": "鼓棍",
+      "english": "drumsticks",
+      "pinyin": "gǔ gùn",
+      "contextSentence": "我們揮舞起手中的鼓棍開始表演。",
+      "contextSentenceSimplified": "我们挥舞起手中的鼓棍开始表演。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch09_w021",
+      "traditional": "節奏",
+      "simplified": "节奏",
+      "english": "rhythm",
+      "pinyin": "jié zòu",
+      "contextSentence": "由於節奏歡快而有氣勢，我們得了高分。",
+      "contextSentenceSimplified": "由于节奏欢快而有气势，我们得了高分。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter09/b04_ch09_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter09/b04_ch09_w021_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter09/b04_ch09_p01_m.mp3",
+        "durationMs": 119856,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4440,
+            "text": "三上 ：活力鼓令擂臺賽 （第二十六頁）",
+            "textSimplified": "三上 ：活力鼓令擂台赛 （第二十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4440,
+            "endMs": 9552,
+            "text": "今天，我們代表學校參加了活力鼓令擂臺賽。",
+            "textSimplified": "今天，我们代表学校参加了活力鼓令擂台赛。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9552,
+            "endMs": 12504,
+            "text": "比賽可謂是高手雲集。",
+            "textSimplified": "比赛可谓是高手云集。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 12504,
+            "endMs": 21720,
+            "text": "最大的有六十多歲的長者，最小的是 只有三四歲的孩童，當然，還有各間學校的代表隊。",
+            "textSimplified": "最大的有六十多岁的长者，最小的是 只有三四岁的孩童，当然，还有各间学校的代表队。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 21720,
+            "endMs": 23736,
+            "text": "「隆咚隆咚鏘！」",
+            "textSimplified": "「隆咚隆咚锵！」"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 23736,
+            "endMs": 39720,
+            "text": "比賽開始了，我們穿着紅色和藍色兩種傳統服裝，邁着整齊的步伐走上舞臺，按照各自的位置站好，隨着領鼓的一聲令下，我們揮舞起手中的鼓棍開始表演。",
+            "textSimplified": "比赛开始了，我们穿着红色和蓝色两种传统服装，迈着整齐的步伐走上舞台，按照各自的位置站好，随着领鼓的一声令下，我们挥舞起手中的鼓棍开始表演。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 39720,
+            "endMs": 50952,
+            "text": "首先表演了指定的曲目〈滾核桃〉和〈牛鬥虎〉，同學們久經訓練，早已經不會緊張，今天的表現尤其振奮人心。",
+            "textSimplified": "首先表演了指定的曲目〈滚核桃〉和〈牛斗虎〉，同学们久经训练，早已经不会紧张，今天的表现尤其振奋人心。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 50952,
+            "endMs": 58032,
+            "text": "我們各個神采奕奕，打起鼓來神氣十足，贏得了臺下熱烈的掌聲。",
+            "textSimplified": "我们各个神采奕奕，打起鼓来神气十足，赢得了台下热烈的掌声。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 58032,
+            "endMs": 67896,
+            "text": "接下來我們還表演了自己編排的曲目〈舞動校園〉，由於節奏歡快而有氣勢，我們得到了很高的評分。",
+            "textSimplified": "接下来我们还表演了自己编排的曲目〈舞动校园〉，由于节奏欢快而有气势，我们得到了很高的评分。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 67896,
+            "endMs": 80424,
+            "text": "之後是一位小童上場，他雖然年紀小，但是表情輕鬆，打起鼓來十分有魄力，無論是造型、節奏還是表情都非常到位。",
+            "textSimplified": "之后是一位小童上场，他虽然年纪小，但是表情轻松，打起鼓来十分有魄力，无论是造型、节奏还是表情都非常到位。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 80424,
+            "endMs": 89160,
+            "text": "我們不由得被他身上散發出的那股初生之犢不怕虎的勁頭所打動，對他報以一陣陣喝彩。",
+            "textSimplified": "我们不由得被他身上散发出的那股初生之犊不怕虎的劲头所打动，对他报以一阵阵喝彩。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 89160,
+            "endMs": 94488,
+            "text": "最後，我們獲得了最佳創作獎，大家都非常開心。",
+            "textSimplified": "最后，我们获得了最佳创作奖，大家都非常开心。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 94488,
+            "endMs": 110424,
+            "text": "這次擂臺賽展現了選手們的活力、熱情和專業，讓人深受感染，又能夠跟各間學校，各個年齡段的隊伍進行較量，讓我們鍛煉了膽量，開闊了視野，受益匪淺。",
+            "textSimplified": "这次擂台赛展现了选手们的活力、热情和专业，让人深受感染，又能够跟各间学校，各个年龄段的队伍进行较量，让我们锻炼了胆量，开阔了视野，受益匪浅。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 110424,
+            "endMs": 119856,
+            "text": "比賽結束了，我的心情還十分激動，我會繼續努力，期待今後能夠參加「未來鼓王爭霸賽」。",
+            "textSimplified": "比赛结束了，我的心情还十分激动，我会继续努力，期待今后能够参加「未来鼓王争霸赛」。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter09/b04_ch09_p01_c.mp3",
+        "durationMs": 124368,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4824,
+            "text": "三上 ：活力鼓令擂臺賽 （第二十六頁）",
+            "textSimplified": "三上 ：活力鼓令擂台赛 （第二十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4824,
+            "endMs": 10416,
+            "text": "今天，我們代表學校參加了活力鼓令擂臺賽。",
+            "textSimplified": "今天，我们代表学校参加了活力鼓令擂台赛。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10416,
+            "endMs": 13680,
+            "text": "比賽可謂是高手雲集。",
+            "textSimplified": "比赛可谓是高手云集。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 13680,
+            "endMs": 23160,
+            "text": "最大的有六十多歲的長者，最小的是 只有三四歲的孩童，當然，還有各間學校的代表隊。",
+            "textSimplified": "最大的有六十多岁的长者，最小的是 只有三四岁的孩童，当然，还有各间学校的代表队。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 23160,
+            "endMs": 26208,
+            "text": "「隆咚隆咚鏘！」",
+            "textSimplified": "「隆咚隆咚锵！」"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 26208,
+            "endMs": 42168,
+            "text": "比賽開始了，我們穿着紅色和藍色兩種傳統服裝，邁着整齊的步伐走上舞臺，按照各自的位置站好，隨着領鼓的一聲令下，我們揮舞起手中的鼓棍開始表演。",
+            "textSimplified": "比赛开始了，我们穿着红色和蓝色两种传统服装，迈着整齐的步伐走上舞台，按照各自的位置站好，随着领鼓的一声令下，我们挥舞起手中的鼓棍开始表演。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 42168,
+            "endMs": 54288,
+            "text": "首先表演了指定的曲目〈滾核桃〉和〈牛鬥虎〉，同學們久經訓練，早已經不會緊張，今天的表現尤其振奮人心。",
+            "textSimplified": "首先表演了指定的曲目〈滚核桃〉和〈牛斗虎〉，同学们久经训练，早已经不会紧张，今天的表现尤其振奋人心。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 54288,
+            "endMs": 61032,
+            "text": "我們各個神采奕奕，打起鼓來神氣十足，贏得了臺下熱烈的掌聲。",
+            "textSimplified": "我们各个神采奕奕，打起鼓来神气十足，赢得了台下热烈的掌声。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 61032,
+            "endMs": 70944,
+            "text": "接下來我們還表演了自己編排的曲目〈舞動校園〉，由於節奏歡快而有氣勢，我們得到了很高的評分。",
+            "textSimplified": "接下来我们还表演了自己编排的曲目〈舞动校园〉，由于节奏欢快而有气势，我们得到了很高的评分。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 70944,
+            "endMs": 83040,
+            "text": "之後是一位小童上場，他雖然年紀小，但是表情輕鬆，打起鼓來十分有魄力，無論是造型、節奏還是表情都非常到位。",
+            "textSimplified": "之后是一位小童上场，他虽然年纪小，但是表情轻松，打起鼓来十分有魄力，无论是造型、节奏还是表情都非常到位。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 83040,
+            "endMs": 92280,
+            "text": "我們不由得被他身上散發出的那股初生之犢不怕虎的勁頭所打動，對他報以一陣陣喝彩。",
+            "textSimplified": "我们不由得被他身上散发出的那股初生之犊不怕虎的劲头所打动，对他报以一阵阵喝彩。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 92280,
+            "endMs": 98568,
+            "text": "最後，我們獲得了最佳創作獎，大家都非常開心。",
+            "textSimplified": "最后，我们获得了最佳创作奖，大家都非常开心。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 98568,
+            "endMs": 114480,
+            "text": "這次擂臺賽展現了選手們的活力、熱情和專業，讓人深受感染，又能夠跟各間學校，各個年齡段的隊伍進行較量，讓我們鍛煉了膽量，開闊了視野，受益匪淺。",
+            "textSimplified": "这次擂台赛展现了选手们的活力、热情和专业，让人深受感染，又能够跟各间学校，各个年龄段的队伍进行较量，让我们锻炼了胆量，开阔了视野，受益匪浅。"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 114480,
+            "endMs": 124368,
+            "text": "比賽結束了，我的心情還十分激動，我會繼續努力，期待今後能夠參加「未來鼓王爭霸賽」。",
+            "textSimplified": "比赛结束了，我的心情还十分激动，我会继续努力，期待今后能够参加「未来鼓王争霸赛」。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "bookId": "04",
+  "chapterId": "08",
+  "chapterTitle": "像花一樣美麗的人",
+  "chapterTitleSimplified": "像花一样美丽的人",
+  "passages": [
+    "三上 ：像花一樣美麗的人 （第二十二頁）\n\n我家的樓下有一間花店。花店的主人是一個說話柔聲細語的阿姨。她的眼睛小小的卻很有神，白皙的臉龐上總是泛着光彩，一頭烏黑順滑的長髮，好像瀑布一樣。別看這個阿姨看起來很柔弱，她工作起來可是乾淨俐落，把小小的花店打點得溫馨、浪漫，又井井有條。\n\n母親節那天，我放學後跑去花店，想要給媽媽買一束康乃馨。『小朋友，真不好意思，今天的康乃馨都已經賣光了。』『那怎麼辦呢？』我很失望，我看到花店的櫥窗裏有幾個很漂亮的花束，便詢問價格，可是那些都是進口的玫瑰，我的錢不夠。我站在花店裏，猶豫着不捨得離開。阿姨彎下腰，微笑着說：『是要母親節送給媽媽嗎？』我點點頭。『我幫你做一個特別的花盒，你可以在媽媽準備晚餐的時候偷偷放到餐桌上，好嗎？』『我，我的錢不夠。』阿姨撫摸着我的頭，笑笑說：『沒關係的。』不一會兒，阿姨就用滿天星和玫瑰花做成了漂亮的心形花束，她輕輕地剪下花枝，然後把它放在一個粉紅色的盒子裏，這個花盒小巧又精緻，媽媽一定會喜歡。『這，這要多少錢呢？』阿姨笑着說：『你小小年紀就懂得感恩，真是讓人感動，這個就當是送給你的吧。』阿姨把花盒遞給我，便準備關門，我問她為什麼這麼早就下班，她說：『我也想回家去陪陪自己的媽媽，帶她去欣賞香港的夜景呢。』聽了她的話，我覺得她更美了。\n\n我小心翼翼地捧着鮮花走在回家的路上，想像着媽媽看到它驚喜的樣子，眼前彷彿又浮現出花店阿姨那淺淺的笑容。"
+  ],
+  "passagesSimplified": [
+    "三上 ：像花一样美丽的人 （第二十二页）\n\n我家的楼下有一间花店。花店的主人是一个说话柔声细语的阿姨。她的眼睛小小的却很有神，白皙的脸庞上总是泛着光彩，一头乌黑顺滑的长发，好像瀑布一样。别看这个阿姨看起来很柔弱，她工作起来可是干净俐落，把小小的花店打点得温馨、浪漫，又井井有条。\n\n母亲节那天，我放学后跑去花店，想要给妈妈买一束康乃馨。『小朋友，真不好意思，今天的康乃馨都已经卖光了。』『那怎么办呢？』我很失望，我看到花店的橱窗里有几个很漂亮的花束，便询问价格，可是那些都是进口的玫瑰，我的钱不够。我站在花店里，犹豫着不舍得离开。阿姨弯下腰，微笑着说：『是要母亲节送给妈妈吗？』我点点头。『我帮你做一个特别的花盒，你可以在妈妈准备晚餐的时候偷偷放到餐桌上，好吗？』『我，我的钱不够。』阿姨抚摸着我的头，笑笑说：『没关系的。』不一会儿，阿姨就用满天星和玫瑰花做成了漂亮的心形花束，她轻轻地剪下花枝，然后把它放在一个粉红色的盒子里，这个花盒小巧又精致，妈妈一定会喜欢。『这，这要多少钱呢？』阿姨笑着说：『你小小年纪就懂得感恩，真是让人感动，这个就当是送给你的吧。』阿姨把花盒递给我，便准备关门，我问她为什么这么早就下班，她说：『我也想回家去陪陪自己的妈妈，带她去欣赏香港的夜景呢。』听了她的话，我觉得她更美了。\n\n我小心翼翼地捧着鲜花走在回家的路上，想像着妈妈看到它惊喜的样子，眼前仿佛又浮现出花店阿姨那浅浅的笑容。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch08_w001",
+      "traditional": "柔聲細語",
+      "simplified": "柔声细语",
+      "english": "soft-spoken",
+      "pinyin": "róu shēng xì yǔ",
+      "contextSentence": "花店的主人是一個說話柔聲細語的阿姨。",
+      "contextSentenceSimplified": "花店的主人是一个说话柔声细语的阿姨。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w002",
+      "traditional": "有神",
+      "simplified": "有神",
+      "english": "bright-eyed",
+      "pinyin": "yǒu shén",
+      "contextSentence": "她的眼睛小小的卻很有神。",
+      "contextSentenceSimplified": "她的眼睛小小的却很有神。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w003",
+      "traditional": "白皙",
+      "simplified": "白皙",
+      "english": "fair-skinned",
+      "pinyin": "bái xī",
+      "contextSentence": "白皙的臉龐上總是泛着光彩。",
+      "contextSentenceSimplified": "白皙的脸庞上总是泛着光彩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w004",
+      "traditional": "臉龐",
+      "simplified": "脸庞",
+      "english": "face",
+      "pinyin": "liǎn páng",
+      "contextSentence": "白皙的臉龐上總是泛着光彩。",
+      "contextSentenceSimplified": "白皙的脸庞上总是泛着光彩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w005",
+      "traditional": "泛着光彩",
+      "simplified": "泛着光彩",
+      "english": "glowing",
+      "pinyin": "fàn zhe guāng cǎi",
+      "contextSentence": "白皙的臉龐上總是泛着光彩。",
+      "contextSentenceSimplified": "白皙的脸庞上总是泛着光彩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w006",
+      "traditional": "烏黑順滑",
+      "simplified": "乌黑顺滑",
+      "english": "jet-black and smooth",
+      "pinyin": "wū hēi shùn huá",
+      "contextSentence": "一頭烏黑順滑的長髮，好像瀑布一樣。",
+      "contextSentenceSimplified": "一头乌黑顺滑的长发，好像瀑布一样。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w007",
+      "traditional": "柔弱",
+      "simplified": "柔弱",
+      "english": "delicate",
+      "pinyin": "róu ruò",
+      "contextSentence": "別看這個阿姨看起來很柔弱。",
+      "contextSentenceSimplified": "别看这个阿姨看起来很柔弱。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w008",
+      "traditional": "乾淨俐落",
+      "simplified": "干净俐落",
+      "english": "neat and efficient",
+      "pinyin": "qián jìng lì luò",
+      "contextSentence": "她工作起來可是乾淨俐落。",
+      "contextSentenceSimplified": "她工作起来可是干净俐落。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w009",
+      "traditional": "打點",
+      "simplified": "打点",
+      "english": "arrange",
+      "pinyin": "dǎ diǎn",
+      "contextSentence": "她把小小的花店打點得溫馨浪漫。",
+      "contextSentenceSimplified": "她把小小的花店打点得温馨浪漫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w010",
+      "traditional": "井井有條",
+      "simplified": "井井有条",
+      "english": "orderly",
+      "pinyin": "jǐng jǐng yǒu tiáo",
+      "contextSentence": "她把花店打點得井井有條。",
+      "contextSentenceSimplified": "她把花店打点得井井有条。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w011",
+      "traditional": "康乃馨",
+      "simplified": "康乃馨",
+      "english": "carnations",
+      "pinyin": "kāng nǎi xīn",
+      "contextSentence": "想要給媽媽買一束康乃馨。",
+      "contextSentenceSimplified": "想要给妈妈买一束康乃馨。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w012",
+      "traditional": "詢問",
+      "simplified": "询问",
+      "english": "ask",
+      "pinyin": "xún wèn",
+      "contextSentence": "便詢問價格，可是那些都是進口的玫瑰。",
+      "contextSentenceSimplified": "便询问价格，可是那些都是进口的玫瑰。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w013",
+      "traditional": "進口",
+      "simplified": "进口",
+      "english": "imported",
+      "pinyin": "jìn kǒu",
+      "contextSentence": "那些都是進口的玫瑰。",
+      "contextSentenceSimplified": "那些都是进口的玫瑰。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w014",
+      "traditional": "猶豫",
+      "simplified": "犹豫",
+      "english": "hesitate",
+      "pinyin": "yóu yù",
+      "contextSentence": "我站在花店裏，猶豫着不捨得離開。",
+      "contextSentenceSimplified": "我站在花店里，犹豫着不舍得离开。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w015",
+      "traditional": "不捨得",
+      "simplified": "不舍得",
+      "english": "reluctant to leave",
+      "pinyin": "bù shě dé",
+      "contextSentence": "我猶豫着不捨得離開。",
+      "contextSentenceSimplified": "我犹豫着不舍得离开。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w016",
+      "traditional": "撫摸",
+      "simplified": "抚摸",
+      "english": "stroke",
+      "pinyin": "fǔ mō",
+      "contextSentence": "阿姨撫摸着我的頭。",
+      "contextSentenceSimplified": "阿姨抚摸着我的头。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w017",
+      "traditional": "滿天星",
+      "simplified": "满天星",
+      "english": "baby's breath",
+      "pinyin": "mǎn tiān xīng",
+      "contextSentence": "阿姨就用滿天星和玫瑰花做成了漂亮的心形花束。",
+      "contextSentenceSimplified": "阿姨就用满天星和玫瑰花做成了漂亮的心形花束。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w018",
+      "traditional": "小巧",
+      "simplified": "小巧",
+      "english": "small and cute",
+      "pinyin": "xiǎo qiǎo",
+      "contextSentence": "這個花盒小巧又精緻。",
+      "contextSentenceSimplified": "这个花盒小巧又精致。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w019",
+      "traditional": "精緻",
+      "simplified": "精致",
+      "english": "exquisite",
+      "pinyin": "jīng zhì",
+      "contextSentence": "這個花盒小巧又精緻。",
+      "contextSentenceSimplified": "这个花盒小巧又精致。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w020",
+      "traditional": "感恩",
+      "simplified": "感恩",
+      "english": "gratitude",
+      "pinyin": "gǎn ēn",
+      "contextSentence": "你小小年紀就懂得感恩。",
+      "contextSentenceSimplified": "你小小年纪就懂得感恩。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w021",
+      "traditional": "欣賞",
+      "simplified": "欣赏",
+      "english": "enjoy",
+      "pinyin": "xīn shǎng",
+      "contextSentence": "帶她去欣賞香港的夜景呢。",
+      "contextSentenceSimplified": "带她去欣赏香港的夜景呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w022",
+      "traditional": "小心翼翼",
+      "simplified": "小心翼翼",
+      "english": "carefully",
+      "pinyin": "xiǎo xīn yì yì",
+      "contextSentence": "我小心翼翼地捧着鮮花走在回家的路上。",
+      "contextSentenceSimplified": "我小心翼翼地捧着鲜花走在回家的路上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w023",
+      "traditional": "捧着",
+      "simplified": "捧着",
+      "english": "hold in hands",
+      "pinyin": "pěng zhe",
+      "contextSentence": "我小心翼翼地捧着鮮花。",
+      "contextSentenceSimplified": "我小心翼翼地捧着鲜花。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch08_w024",
+      "traditional": "浮現",
+      "simplified": "浮现",
+      "english": "appear",
+      "pinyin": "fú xiàn",
+      "contextSentence": "眼前彷彿又浮現出花店阿姨那淺淺的笑容。",
+      "contextSentenceSimplified": "眼前仿佛又浮现出花店阿姨那浅浅的笑容。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter08/b04_ch08_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter08/b04_ch08_w024_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter08/b04_ch08_p01_m.mp3",
+        "durationMs": 138720,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4416,
+            "text": "三上 ：像花一樣美麗的人 （第二十二頁）",
+            "textSimplified": "三上 ：像花一样美丽的人 （第二十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4416,
+            "endMs": 7416,
+            "text": "我家的樓下有一間花店。",
+            "textSimplified": "我家的楼下有一间花店。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7416,
+            "endMs": 11736,
+            "text": "花店的主人是一個說話柔聲細語的阿姨。",
+            "textSimplified": "花店的主人是一个说话柔声细语的阿姨。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 11736,
+            "endMs": 21600,
+            "text": "她的眼睛小小的卻很有神，白皙的臉龐上總是泛着光彩，一頭烏黑順滑的長髮，好像瀑布一樣。",
+            "textSimplified": "她的眼睛小小的却很有神，白皙的脸庞上总是泛着光彩，一头乌黑顺滑的长发，好像瀑布一样。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 21600,
+            "endMs": 32712,
+            "text": "別看這個阿姨看起來很柔弱，她工作起來可是乾淨俐落，把小小的花店打點得溫馨、浪漫，又井井有條。",
+            "textSimplified": "别看这个阿姨看起来很柔弱，她工作起来可是干净俐落，把小小的花店打点得温馨、浪漫，又井井有条。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 32712,
+            "endMs": 39408,
+            "text": "母親節那天，我放學後跑去花店，想要給媽媽買一束康乃馨。",
+            "textSimplified": "母亲节那天，我放学后跑去花店，想要给妈妈买一束康乃馨。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 39408,
+            "endMs": 45048,
+            "text": "『小朋友，真不好意思，今天的康乃馨都已經賣光了。』",
+            "textSimplified": "『小朋友，真不好意思，今天的康乃馨都已经卖光了。』"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 45048,
+            "endMs": 46944,
+            "text": "『那怎麼辦呢？』",
+            "textSimplified": "『那怎么办呢？』"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 46944,
+            "endMs": 57984,
+            "text": "我很失望，我看到花店的櫥窗裏有幾個很漂亮的花束，便詢問價格，可是那些都是進口的玫瑰，我的錢不夠。",
+            "textSimplified": "我很失望，我看到花店的橱窗里有几个很漂亮的花束，便询问价格，可是那些都是进口的玫瑰，我的钱不够。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 57984,
+            "endMs": 61944,
+            "text": "我站在花店裏，猶豫着不捨得離開。",
+            "textSimplified": "我站在花店里，犹豫着不舍得离开。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 61944,
+            "endMs": 67512,
+            "text": "阿姨彎下腰，微笑着說：『是要母親節送給媽媽嗎？』",
+            "textSimplified": "阿姨弯下腰，微笑着说：『是要母亲节送给妈妈吗？』"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 67512,
+            "endMs": 69288,
+            "text": "我點點頭。",
+            "textSimplified": "我点点头。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 69288,
+            "endMs": 77136,
+            "text": "『我幫你做一個特別的花盒，你可以在媽媽準備晚餐的時候偷偷放到餐桌上，好嗎？』",
+            "textSimplified": "『我帮你做一个特别的花盒，你可以在妈妈准备晚餐的时候偷偷放到餐桌上，好吗？』"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 77136,
+            "endMs": 79464,
+            "text": "『我，我的錢不夠。』",
+            "textSimplified": "『我，我的钱不够。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 79464,
+            "endMs": 83928,
+            "text": "阿姨撫摸着我的頭，笑笑說：『沒關係的。』",
+            "textSimplified": "阿姨抚摸着我的头，笑笑说：『没关系的。』"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 83928,
+            "endMs": 99624,
+            "text": "不一會兒，阿姨就用滿天星和玫瑰花做成了漂亮的心形花束，她輕輕地剪下花枝，然後把它放在一個粉紅色的盒子裏，這個花盒小巧又精緻，媽媽一定會喜歡。",
+            "textSimplified": "不一会儿，阿姨就用满天星和玫瑰花做成了漂亮的心形花束，她轻轻地剪下花枝，然后把它放在一个粉红色的盒子里，这个花盒小巧又精致，妈妈一定会喜欢。"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 99624,
+            "endMs": 102216,
+            "text": "『這，這要多少錢呢？』",
+            "textSimplified": "『这，这要多少钱呢？』"
+          },
+          {
+            "index": 17,
+            "paragraph": 4,
+            "startMs": 102216,
+            "endMs": 109872,
+            "text": "阿姨笑着說：『你小小年紀就懂得感恩，真是讓人感動，這個就當是送給你的吧。』",
+            "textSimplified": "阿姨笑着说：『你小小年纪就懂得感恩，真是让人感动，这个就当是送给你的吧。』"
+          },
+          {
+            "index": 18,
+            "paragraph": 4,
+            "startMs": 109872,
+            "endMs": 123456,
+            "text": "阿姨把花盒遞給我，便準備關門，我問她為什麼這麼早就下班，她說：『我也想回家去陪陪自己的媽媽，帶她去欣賞香港的夜景呢。』",
+            "textSimplified": "阿姨把花盒递给我，便准备关门，我问她为什么这么早就下班，她说：『我也想回家去陪陪自己的妈妈，带她去欣赏香港的夜景呢。』"
+          },
+          {
+            "index": 19,
+            "paragraph": 4,
+            "startMs": 123456,
+            "endMs": 126792,
+            "text": "聽了她的話，我覺得她更美了。",
+            "textSimplified": "听了她的话，我觉得她更美了。"
+          },
+          {
+            "index": 20,
+            "paragraph": 6,
+            "startMs": 126792,
+            "endMs": 138720,
+            "text": "我小心翼翼地捧着鮮花走在回家的路上，想像着媽媽看到它驚喜的樣子，眼前彷彿又浮現出花店阿姨那淺淺的笑容。",
+            "textSimplified": "我小心翼翼地捧着鲜花走在回家的路上，想像着妈妈看到它惊喜的样子，眼前仿佛又浮现出花店阿姨那浅浅的笑容。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter08/b04_ch08_p01_c.mp3",
+        "durationMs": 149112,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4872,
+            "text": "三上 ：像花一樣美麗的人 （第二十二頁）",
+            "textSimplified": "三上 ：像花一样美丽的人 （第二十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4872,
+            "endMs": 8208,
+            "text": "我家的樓下有一間花店。",
+            "textSimplified": "我家的楼下有一间花店。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8208,
+            "endMs": 12840,
+            "text": "花店的主人是一個說話柔聲細語的阿姨。",
+            "textSimplified": "花店的主人是一个说话柔声细语的阿姨。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 12840,
+            "endMs": 22800,
+            "text": "她的眼睛小小的卻很有神，白皙的臉龐上總是泛着光彩，一頭烏黑順滑的長髮，好像瀑布一樣。",
+            "textSimplified": "她的眼睛小小的却很有神，白皙的脸庞上总是泛着光彩，一头乌黑顺滑的长发，好像瀑布一样。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 22800,
+            "endMs": 33672,
+            "text": "別看這個阿姨看起來很柔弱，她工作起來可是乾淨俐落，把小小的花店打點得溫馨、浪漫，又井井有條。",
+            "textSimplified": "别看这个阿姨看起来很柔弱，她工作起来可是干净俐落，把小小的花店打点得温馨、浪漫，又井井有条。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 33672,
+            "endMs": 40560,
+            "text": "母親節那天，我放學後跑去花店，想要給媽媽買一束康乃馨。",
+            "textSimplified": "母亲节那天，我放学后跑去花店，想要给妈妈买一束康乃馨。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 40560,
+            "endMs": 47256,
+            "text": "『小朋友，真不好意思，今天的康乃馨都已經賣光了。』",
+            "textSimplified": "『小朋友，真不好意思，今天的康乃馨都已经卖光了。』"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 47256,
+            "endMs": 49992,
+            "text": "『那怎麼辦呢？』",
+            "textSimplified": "『那怎么办呢？』"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 49992,
+            "endMs": 60816,
+            "text": "我很失望，我看到花店的櫥窗裏有幾個很漂亮的花束，便詢問價格，可是那些都是進口的玫瑰，我的錢不夠。",
+            "textSimplified": "我很失望，我看到花店的橱窗里有几个很漂亮的花束，便询问价格，可是那些都是进口的玫瑰，我的钱不够。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 60816,
+            "endMs": 65376,
+            "text": "我站在花店裏，猶豫着不捨得離開。",
+            "textSimplified": "我站在花店里，犹豫着不舍得离开。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 65376,
+            "endMs": 71712,
+            "text": "阿姨彎下腰，微笑着說：『是要母親節送給媽媽嗎？』",
+            "textSimplified": "阿姨弯下腰，微笑着说：『是要母亲节送给妈妈吗？』"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 71712,
+            "endMs": 73872,
+            "text": "我點點頭。",
+            "textSimplified": "我点点头。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 73872,
+            "endMs": 82680,
+            "text": "『我幫你做一個特別的花盒，你可以在媽媽準備晚餐的時候偷偷放到餐桌上，好嗎？』",
+            "textSimplified": "『我帮你做一个特别的花盒，你可以在妈妈准备晚餐的时候偷偷放到餐桌上，好吗？』"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 82680,
+            "endMs": 86304,
+            "text": "『我，我的錢不夠。』",
+            "textSimplified": "『我，我的钱不够。』"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 86304,
+            "endMs": 91440,
+            "text": "阿姨撫摸着我的頭，笑笑說：『沒關係的。』",
+            "textSimplified": "阿姨抚摸着我的头，笑笑说：『没关系的。』"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 91440,
+            "endMs": 106896,
+            "text": "不一會兒，阿姨就用滿天星和玫瑰花做成了漂亮的心形花束，她輕輕地剪下花枝，然後把它放在一個粉紅色的盒子裏，這個花盒小巧又精緻，媽媽一定會喜歡。",
+            "textSimplified": "不一会儿，阿姨就用满天星和玫瑰花做成了漂亮的心形花束，她轻轻地剪下花枝，然后把它放在一个粉红色的盒子里，这个花盒小巧又精致，妈妈一定会喜欢。"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 106896,
+            "endMs": 110616,
+            "text": "『這，這要多少錢呢？』",
+            "textSimplified": "『这，这要多少钱呢？』"
+          },
+          {
+            "index": 17,
+            "paragraph": 4,
+            "startMs": 110616,
+            "endMs": 119640,
+            "text": "阿姨笑着說：『你小小年紀就懂得感恩，真是讓人感動，這個就當是送給你的吧。』",
+            "textSimplified": "阿姨笑着说：『你小小年纪就懂得感恩，真是让人感动，这个就当是送给你的吧。』"
+          },
+          {
+            "index": 18,
+            "paragraph": 4,
+            "startMs": 119640,
+            "endMs": 133128,
+            "text": "阿姨把花盒遞給我，便準備關門，我問她為什麼這麼早就下班，她說：『我也想回家去陪陪自己的媽媽，帶她去欣賞香港的夜景呢。』",
+            "textSimplified": "阿姨把花盒递给我，便准备关门，我问她为什么这么早就下班，她说：『我也想回家去陪陪自己的妈妈，带她去欣赏香港的夜景呢。』"
+          },
+          {
+            "index": 19,
+            "paragraph": 4,
+            "startMs": 133128,
+            "endMs": 137304,
+            "text": "聽了她的話，我覺得她更美了。",
+            "textSimplified": "听了她的话，我觉得她更美了。"
+          },
+          {
+            "index": 20,
+            "paragraph": 6,
+            "startMs": 137304,
+            "endMs": 149112,
+            "text": "我小心翼翼地捧着鮮花走在回家的路上，想像着媽媽看到它驚喜的樣子，眼前彷彿又浮現出花店阿姨那淺淺的笑容。",
+            "textSimplified": "我小心翼翼地捧着鲜花走在回家的路上，想像着妈妈看到它惊喜的样子，眼前仿佛又浮现出花店阿姨那浅浅的笑容。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1113 @@
+{
+  "bookId": "04",
+  "chapterId": "02",
+  "chapterTitle": "該不該出聲",
+  "chapterTitleSimplified": "该不该出声",
+  "passages": [
+    "三上 ：該不該出聲 （第八頁）\n\n今天放學後，我和幾位同學留下來打掃課室。大家一邊打掃一邊說說笑笑，突然家傑出了一個主意：『我們來玩個遊戲吧，大家都不準說話，誰先出聲誰就輸，輸了的人要鑽桌子喲！』『好啊！好啊！』我們都同意了。\n\n於是，家傑一聲令下：『誰再說話誰就輸！』我們幾個立刻閉緊了嘴，不再出聲。課室裏頓時安靜下來，只聽得見掃帚在地上發出的『沙沙』聲。我一邊打掃一邊想：哼！這回我可不能輸呢！因為幾天前也跟他們玩過這個遊戲，結果我沒忍住，被罰鑽桌子，還被大家取笑了很久。這回看誰必須鑽桌子，反正絕不能是我！\n\n時間一分一秒地過去了，我好幾次忍不住要開口說話，可是一看到大家都不出聲，我也硬把話吞回嘴裏。眼看課室就要打掃乾淨了，這時門外傳出一把聲音：『你們可以幫我把這些作業簿搬到教員室嗎？』\n\n我轉過身一看，呀！是我最喜愛的陳老師！我剛想答應，可是。。。。。。怎麼辦？如果我答應，那就肯定輸了⋯。。。我的心像拉緊的弓弦，緊張得怦怦直跳。我偷偷地看了老師一眼，老師的眼神裏充滿了不解和失望，只聽他淡淡地說：『那⋯⋯算了吧！呵呵！』『老師，我來幫你吧！』一瞬間，我做出了決定，哪怕是輸，也不能讓自己敬愛的老師失望呀。"
+  ],
+  "passagesSimplified": [
+    "三上 ：该不该出声 （第八页）\n\n今天放学后，我和几位同学留下来打扫课室。大家一边打扫一边说说笑笑，突然家杰出了一个主意：『我们来玩个游戏吧，大家都不准说话，谁先出声谁就输，输了的人要钻桌子哟！』『好啊！好啊！』我们都同意了。\n\n于是，家杰一声令下：『谁再说话谁就输！』我们几个立刻闭紧了嘴，不再出声。课室里顿时安静下来，只听得见扫帚在地上发出的『沙沙』声。我一边打扫一边想：哼！这回我可不能输呢！因为几天前也跟他们玩过这个游戏，结果我没忍住，被罚钻桌子，还被大家取笑了很久。这回看谁必须钻桌子，反正绝不能是我！\n\n时间一分一秒地过去了，我好几次忍不住要开口说话，可是一看到大家都不出声，我也硬把话吞回嘴里。眼看课室就要打扫干净了，这时门外传出一把声音：『你们可以帮我把这些作业簿搬到教员室吗？』\n\n我转过身一看，呀！是我最喜爱的陈老师！我刚想答应，可是。。。。。。怎么办？如果我答应，那就肯定输了⋯。。。我的心像拉紧的弓弦，紧张得怦怦直跳。我偷偷地看了老师一眼，老师的眼神里充满了不解和失望，只听他淡淡地说：『那⋯⋯算了吧！呵呵！』『老师，我来帮你吧！』一瞬间，我做出了决定，哪怕是输，也不能让自己敬爱的老师失望呀。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch02_w001",
+      "traditional": "打掃",
+      "simplified": "打扫",
+      "english": "clean",
+      "pinyin": "dǎ sǎo",
+      "contextSentence": "今天放學後，我和幾位同學留下來打掃課室。",
+      "contextSentenceSimplified": "今天放学后，我和几位同学留下来打扫课室。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w002",
+      "traditional": "主意",
+      "simplified": "主意",
+      "english": "idea",
+      "pinyin": "zhǔ yì",
+      "contextSentence": "突然家傑出了一個主意。",
+      "contextSentenceSimplified": "突然家杰出了一个主意。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w003",
+      "traditional": "不準",
+      "simplified": "不准",
+      "english": "not allowed",
+      "pinyin": "bù zhǔn",
+      "contextSentence": "大家都不準說話。",
+      "contextSentenceSimplified": "大家都不准说话。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w004",
+      "traditional": "鑽",
+      "simplified": "钻",
+      "english": "crawl under",
+      "pinyin": "zuān",
+      "contextSentence": "輸了的人要鑽桌子。",
+      "contextSentenceSimplified": "输了的人要钻桌子。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w005",
+      "traditional": "同意",
+      "simplified": "同意",
+      "english": "agreed",
+      "pinyin": "tóng yì",
+      "contextSentence": "我們都同意了。",
+      "contextSentenceSimplified": "我们都同意了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w006",
+      "traditional": "一聲令下",
+      "simplified": "一声令下",
+      "english": "gave the order",
+      "pinyin": "yī shēng lìng xià",
+      "contextSentence": "家傑一聲令下。",
+      "contextSentenceSimplified": "家杰一声令下。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w007",
+      "traditional": "閉緊",
+      "simplified": "闭紧",
+      "english": "shut tight",
+      "pinyin": "bì jǐn",
+      "contextSentence": "我們幾個立刻閉緊了嘴。",
+      "contextSentenceSimplified": "我们几个立刻闭紧了嘴。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w008",
+      "traditional": "頓時",
+      "simplified": "顿时",
+      "english": "suddenly",
+      "pinyin": "dùn shí",
+      "contextSentence": "課室裏頓時安靜下來。",
+      "contextSentenceSimplified": "课室里顿时安静下来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w009",
+      "traditional": "掃帚",
+      "simplified": "扫帚",
+      "english": "broom",
+      "pinyin": "sǎo zhǒu",
+      "contextSentence": "只聽得見掃帚的聲音。",
+      "contextSentenceSimplified": "只听得见扫帚的声音。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w010",
+      "traditional": "忍住",
+      "simplified": "忍住",
+      "english": "held back",
+      "pinyin": "rěn zhù",
+      "contextSentence": "結果我沒忍住。",
+      "contextSentenceSimplified": "结果我没忍住。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w011",
+      "traditional": "取笑",
+      "simplified": "取笑",
+      "english": "laugh at",
+      "pinyin": "qǔ xiào",
+      "contextSentence": "被大家取笑了很久。",
+      "contextSentenceSimplified": "被大家取笑了很久。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w012",
+      "traditional": "反正",
+      "simplified": "反正",
+      "english": "anyway",
+      "pinyin": "fǎn zhèng",
+      "contextSentence": "反正絕不能是我。",
+      "contextSentenceSimplified": "反正绝不能是我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w013",
+      "traditional": "絕不能",
+      "simplified": "绝不能",
+      "english": "must not",
+      "pinyin": "jué bù néng",
+      "contextSentence": "反正絕不能是我。",
+      "contextSentenceSimplified": "反正绝不能是我。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w014",
+      "traditional": "硬把",
+      "simplified": "硬把",
+      "english": "forced to",
+      "pinyin": "yìng bǎ",
+      "contextSentence": "我也硬把話吞回嘴裏。",
+      "contextSentenceSimplified": "我也硬把话吞回嘴里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w015",
+      "traditional": "吞回",
+      "simplified": "吞回",
+      "english": "swallowed back",
+      "pinyin": "tūn huí",
+      "contextSentence": "我也硬把話吞回嘴裏。",
+      "contextSentenceSimplified": "我也硬把话吞回嘴里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w016",
+      "traditional": "眼看",
+      "simplified": "眼看",
+      "english": "soon",
+      "pinyin": "yǎn kàn",
+      "contextSentence": "眼看課室就要打掃乾淨了。",
+      "contextSentenceSimplified": "眼看课室就要打扫干净了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w017",
+      "traditional": "作業簿",
+      "simplified": "作业簿",
+      "english": "homework books",
+      "pinyin": "zuò yè bù",
+      "contextSentence": "你們可以幫我把作業簿搬到教員室嗎？",
+      "contextSentenceSimplified": "你们可以帮我把作业簿搬到教员室吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w018",
+      "traditional": "教員室",
+      "simplified": "教员室",
+      "english": "teachers' office",
+      "pinyin": "jiào yuán shì",
+      "contextSentence": "搬到教員室嗎？",
+      "contextSentenceSimplified": "搬到教员室吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w019",
+      "traditional": "答應",
+      "simplified": "答应",
+      "english": "answer",
+      "pinyin": "dá yīng",
+      "contextSentence": "我剛想答應。",
+      "contextSentenceSimplified": "我刚想答应。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w020",
+      "traditional": "肯定",
+      "simplified": "肯定",
+      "english": "definitely",
+      "pinyin": "kěn dìng",
+      "contextSentence": "那就肯定輸了。",
+      "contextSentenceSimplified": "那就肯定输了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w021",
+      "traditional": "弓弦",
+      "simplified": "弓弦",
+      "english": "bowstring",
+      "pinyin": "gōng xián",
+      "contextSentence": "我的心像拉緊的弓弦。",
+      "contextSentenceSimplified": "我的心像拉紧的弓弦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w022",
+      "traditional": "怦怦直跳",
+      "simplified": "怦怦直跳",
+      "english": "pounding loudly",
+      "pinyin": "pēng pēng zhí tiào",
+      "contextSentence": "緊張得怦怦直跳。",
+      "contextSentenceSimplified": "紧张得怦怦直跳。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w023",
+      "traditional": "偷偷地",
+      "simplified": "偷偷地",
+      "english": "secretly",
+      "pinyin": "tōu tōu dì",
+      "contextSentence": "我偷偷地看了老師一眼。",
+      "contextSentenceSimplified": "我偷偷地看了老师一眼。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w024",
+      "traditional": "眼神",
+      "simplified": "眼神",
+      "english": "look",
+      "pinyin": "yǎn shén",
+      "contextSentence": "老師的眼神裏充滿了不解和失望。",
+      "contextSentenceSimplified": "老师的眼神里充满了不解和失望。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w025",
+      "traditional": "不解",
+      "simplified": "不解",
+      "english": "confused",
+      "pinyin": "bù jiě",
+      "contextSentence": "老師的眼神裏充滿了不解。",
+      "contextSentenceSimplified": "老师的眼神里充满了不解。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w025_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w025_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w026",
+      "traditional": "失望",
+      "simplified": "失望",
+      "english": "disappointed",
+      "pinyin": "shī wàng",
+      "contextSentence": "老師的眼神裏充滿了失望。",
+      "contextSentenceSimplified": "老师的眼神里充满了失望。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w026_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w026_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w027",
+      "traditional": "淡淡地",
+      "simplified": "淡淡地",
+      "english": "quietly",
+      "pinyin": "dàn dàn dì",
+      "contextSentence": "只聽他淡淡地說。",
+      "contextSentenceSimplified": "只听他淡淡地说。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w027_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w027_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w028",
+      "traditional": "一瞬間",
+      "simplified": "一瞬间",
+      "english": "in a flash",
+      "pinyin": "yī shùn jiān",
+      "contextSentence": "一瞬間，我做出了決定。",
+      "contextSentenceSimplified": "一瞬间，我做出了决定。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w028_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w028_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w029",
+      "traditional": "哪怕是",
+      "simplified": "哪怕是",
+      "english": "even if",
+      "pinyin": "nǎ pà shì",
+      "contextSentence": "哪怕是輸。",
+      "contextSentenceSimplified": "哪怕是输。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w029_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w029_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch02_w030",
+      "traditional": "敬愛",
+      "simplified": "敬爱",
+      "english": "respected",
+      "pinyin": "jìng ài",
+      "contextSentence": "不能讓自己敬愛的老師失望呀。",
+      "contextSentenceSimplified": "不能让自己敬爱的老师失望呀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w030_m_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter02/b04_ch02_w030_c_isolated.mp3",
+          "sentence": "audio/book04/chapter02/b04_ch02_w030_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter02/b04_ch02_p01_m.mp3",
+        "durationMs": 116208,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3624,
+            "text": "三上 ：該不該出聲 （第八頁）",
+            "textSimplified": "三上 ：该不该出声 （第八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3624,
+            "endMs": 8640,
+            "text": "今天放學後，我和幾位同學留下來打掃課室。",
+            "textSimplified": "今天放学后，我和几位同学留下来打扫课室。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 8640,
+            "endMs": 21576,
+            "text": "大家一邊打掃一邊說說笑笑，突然家傑出了一個主意：『我們來玩個遊戲吧，大家都不準說話，誰先出聲誰就輸，輸了的人要鑽桌子喲！』",
+            "textSimplified": "大家一边打扫一边说说笑笑，突然家杰出了一个主意：『我们来玩个游戏吧，大家都不准说话，谁先出声谁就输，输了的人要钻桌子哟！』"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 21576,
+            "endMs": 22848,
+            "text": "『好啊！",
+            "textSimplified": "『好啊！"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 22848,
+            "endMs": 24120,
+            "text": "好啊！』",
+            "textSimplified": "好啊！』"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 24120,
+            "endMs": 26088,
+            "text": "我們都同意了。",
+            "textSimplified": "我们都同意了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 26088,
+            "endMs": 30960,
+            "text": "於是，家傑一聲令下：『誰再說話誰就輸！』",
+            "textSimplified": "于是，家杰一声令下：『谁再说话谁就输！』"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 30960,
+            "endMs": 34776,
+            "text": "我們幾個立刻閉緊了嘴，不再出聲。",
+            "textSimplified": "我们几个立刻闭紧了嘴，不再出声。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 34776,
+            "endMs": 41208,
+            "text": "課室裏頓時安靜下來，只聽得見掃帚在地上發出的『沙沙』聲。",
+            "textSimplified": "课室里顿时安静下来，只听得见扫帚在地上发出的『沙沙』声。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 41208,
+            "endMs": 44208,
+            "text": "我一邊打掃一邊想：哼！",
+            "textSimplified": "我一边打扫一边想：哼！"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 44208,
+            "endMs": 46560,
+            "text": "這回我可不能輸呢！",
+            "textSimplified": "这回我可不能输呢！"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 46560,
+            "endMs": 55488,
+            "text": "因為幾天前也跟他們玩過這個遊戲，結果我沒忍住，被罰鑽桌子，還被大家取笑了很久。",
+            "textSimplified": "因为几天前也跟他们玩过这个游戏，结果我没忍住，被罚钻桌子，还被大家取笑了很久。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 55488,
+            "endMs": 60048,
+            "text": "這回看誰必須鑽桌子，反正絕不能是我！",
+            "textSimplified": "这回看谁必须钻桌子，反正绝不能是我！"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 60048,
+            "endMs": 69936,
+            "text": "時間一分一秒地過去了，我好幾次忍不住要開口說話，可是一看到大家都不出聲，我也硬把話吞回嘴裏。",
+            "textSimplified": "时间一分一秒地过去了，我好几次忍不住要开口说话，可是一看到大家都不出声，我也硬把话吞回嘴里。"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 69936,
+            "endMs": 79368,
+            "text": "眼看課室就要打掃乾淨了，這時門外傳出一把聲音：『你們可以幫我把這些作業簿搬到教員室嗎？』",
+            "textSimplified": "眼看课室就要打扫干净了，这时门外传出一把声音：『你们可以帮我把这些作业簿搬到教员室吗？』"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 79368,
+            "endMs": 82008,
+            "text": "我轉過身一看，呀！",
+            "textSimplified": "我转过身一看，呀！"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 82008,
+            "endMs": 84648,
+            "text": "是我最喜愛的陳老師！",
+            "textSimplified": "是我最喜爱的陈老师！"
+          },
+          {
+            "index": 17,
+            "paragraph": 8,
+            "startMs": 84648,
+            "endMs": 87384,
+            "text": "我剛想答應，可是。",
+            "textSimplified": "我刚想答应，可是。"
+          },
+          {
+            "index": 18,
+            "paragraph": 8,
+            "startMs": 87384,
+            "endMs": 87384,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 19,
+            "paragraph": 8,
+            "startMs": 87384,
+            "endMs": 87384,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 20,
+            "paragraph": 8,
+            "startMs": 87384,
+            "endMs": 87384,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 21,
+            "paragraph": 8,
+            "startMs": 87384,
+            "endMs": 87384,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 22,
+            "paragraph": 8,
+            "startMs": 87384,
+            "endMs": 87384,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 23,
+            "paragraph": 8,
+            "startMs": 87384,
+            "endMs": 88896,
+            "text": "怎麼辦？",
+            "textSimplified": "怎么办？"
+          },
+          {
+            "index": 24,
+            "paragraph": 8,
+            "startMs": 88896,
+            "endMs": 92112,
+            "text": "如果我答應，那就肯定輸了⋯。",
+            "textSimplified": "如果我答应，那就肯定输了⋯。"
+          },
+          {
+            "index": 25,
+            "paragraph": 8,
+            "startMs": 92112,
+            "endMs": 92112,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 26,
+            "paragraph": 8,
+            "startMs": 92112,
+            "endMs": 92112,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 27,
+            "paragraph": 8,
+            "startMs": 92112,
+            "endMs": 96528,
+            "text": "我的心像拉緊的弓弦，緊張得怦怦直跳。",
+            "textSimplified": "我的心像拉紧的弓弦，紧张得怦怦直跳。"
+          },
+          {
+            "index": 28,
+            "paragraph": 8,
+            "startMs": 96528,
+            "endMs": 105288,
+            "text": "我偷偷地看了老師一眼，老師的眼神裏充滿了不解和失望，只聽他淡淡地說：『那⋯⋯算了吧！",
+            "textSimplified": "我偷偷地看了老师一眼，老师的眼神里充满了不解和失望，只听他淡淡地说：『那⋯⋯算了吧！"
+          },
+          {
+            "index": 29,
+            "paragraph": 8,
+            "startMs": 105288,
+            "endMs": 106632,
+            "text": "呵呵！』",
+            "textSimplified": "呵呵！』"
+          },
+          {
+            "index": 30,
+            "paragraph": 8,
+            "startMs": 106632,
+            "endMs": 109128,
+            "text": "『老師，我來幫你吧！』",
+            "textSimplified": "『老师，我来帮你吧！』"
+          },
+          {
+            "index": 31,
+            "paragraph": 8,
+            "startMs": 109128,
+            "endMs": 116208,
+            "text": "一瞬間，我做出了決定，哪怕是輸，也不能讓自己敬愛的老師失望呀。",
+            "textSimplified": "一瞬间，我做出了决定，哪怕是输，也不能让自己敬爱的老师失望呀。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter02/b04_ch02_p01_c.mp3",
+        "durationMs": 132096,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4248,
+            "text": "三上 ：該不該出聲 （第八頁）",
+            "textSimplified": "三上 ：该不该出声 （第八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4248,
+            "endMs": 9744,
+            "text": "今天放學後，我和幾位同學留下來打掃課室。",
+            "textSimplified": "今天放学后，我和几位同学留下来打扫课室。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 9744,
+            "endMs": 23232,
+            "text": "大家一邊打掃一邊說說笑笑，突然家傑出了一個主意：『我們來玩個遊戲吧，大家都不準說話，誰先出聲誰就輸，輸了的人要鑽桌子喲！』",
+            "textSimplified": "大家一边打扫一边说说笑笑，突然家杰出了一个主意：『我们来玩个游戏吧，大家都不准说话，谁先出声谁就输，输了的人要钻桌子哟！』"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 23232,
+            "endMs": 25008,
+            "text": "『好啊！",
+            "textSimplified": "『好啊！"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 25008,
+            "endMs": 27096,
+            "text": "好啊！』",
+            "textSimplified": "好啊！』"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 27096,
+            "endMs": 29592,
+            "text": "我們都同意了。",
+            "textSimplified": "我们都同意了。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 29592,
+            "endMs": 35592,
+            "text": "於是，家傑一聲令下：『誰再說話誰就輸！』",
+            "textSimplified": "于是，家杰一声令下：『谁再说话谁就输！』"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 35592,
+            "endMs": 40296,
+            "text": "我們幾個立刻閉緊了嘴，不再出聲。",
+            "textSimplified": "我们几个立刻闭紧了嘴，不再出声。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 40296,
+            "endMs": 47040,
+            "text": "課室裏頓時安靜下來，只聽得見掃帚在地上發出的『沙沙』聲。",
+            "textSimplified": "课室里顿时安静下来，只听得见扫帚在地上发出的『沙沙』声。"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 47040,
+            "endMs": 50568,
+            "text": "我一邊打掃一邊想：哼！",
+            "textSimplified": "我一边打扫一边想：哼！"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 50568,
+            "endMs": 53448,
+            "text": "這回我可不能輸呢！",
+            "textSimplified": "这回我可不能输呢！"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 53448,
+            "endMs": 62736,
+            "text": "因為幾天前也跟他們玩過這個遊戲，結果我沒忍住，被罰鑽桌子，還被大家取笑了很久。",
+            "textSimplified": "因为几天前也跟他们玩过这个游戏，结果我没忍住，被罚钻桌子，还被大家取笑了很久。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 62736,
+            "endMs": 67872,
+            "text": "這回看誰必須鑽桌子，反正絕不能是我！",
+            "textSimplified": "这回看谁必须钻桌子，反正绝不能是我！"
+          },
+          {
+            "index": 13,
+            "paragraph": 6,
+            "startMs": 67872,
+            "endMs": 78576,
+            "text": "時間一分一秒地過去了，我好幾次忍不住要開口說話，可是一看到大家都不出聲，我也硬把話吞回嘴裏。",
+            "textSimplified": "时间一分一秒地过去了，我好几次忍不住要开口说话，可是一看到大家都不出声，我也硬把话吞回嘴里。"
+          },
+          {
+            "index": 14,
+            "paragraph": 6,
+            "startMs": 78576,
+            "endMs": 88968,
+            "text": "眼看課室就要打掃乾淨了，這時門外傳出一把聲音：『你們可以幫我把這些作業簿搬到教員室嗎？』",
+            "textSimplified": "眼看课室就要打扫干净了，这时门外传出一把声音：『你们可以帮我把这些作业簿搬到教员室吗？』"
+          },
+          {
+            "index": 15,
+            "paragraph": 8,
+            "startMs": 88968,
+            "endMs": 91992,
+            "text": "我轉過身一看，呀！",
+            "textSimplified": "我转过身一看，呀！"
+          },
+          {
+            "index": 16,
+            "paragraph": 8,
+            "startMs": 91992,
+            "endMs": 95232,
+            "text": "是我最喜愛的陳老師！",
+            "textSimplified": "是我最喜爱的陈老师！"
+          },
+          {
+            "index": 17,
+            "paragraph": 8,
+            "startMs": 95232,
+            "endMs": 98472,
+            "text": "我剛想答應，可是。",
+            "textSimplified": "我刚想答应，可是。"
+          },
+          {
+            "index": 18,
+            "paragraph": 8,
+            "startMs": 98472,
+            "endMs": 98472,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 19,
+            "paragraph": 8,
+            "startMs": 98472,
+            "endMs": 98472,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 20,
+            "paragraph": 8,
+            "startMs": 98472,
+            "endMs": 98472,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 21,
+            "paragraph": 8,
+            "startMs": 98472,
+            "endMs": 98472,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 22,
+            "paragraph": 8,
+            "startMs": 98472,
+            "endMs": 98472,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 23,
+            "paragraph": 8,
+            "startMs": 98472,
+            "endMs": 100440,
+            "text": "怎麼辦？",
+            "textSimplified": "怎么办？"
+          },
+          {
+            "index": 24,
+            "paragraph": 8,
+            "startMs": 100440,
+            "endMs": 104424,
+            "text": "如果我答應，那就肯定輸了⋯。",
+            "textSimplified": "如果我答应，那就肯定输了⋯。"
+          },
+          {
+            "index": 25,
+            "paragraph": 8,
+            "startMs": 104424,
+            "endMs": 104424,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 26,
+            "paragraph": 8,
+            "startMs": 104424,
+            "endMs": 104424,
+            "text": "。",
+            "textSimplified": "。"
+          },
+          {
+            "index": 27,
+            "paragraph": 8,
+            "startMs": 104424,
+            "endMs": 109224,
+            "text": "我的心像拉緊的弓弦，緊張得怦怦直跳。",
+            "textSimplified": "我的心像拉紧的弓弦，紧张得怦怦直跳。"
+          },
+          {
+            "index": 28,
+            "paragraph": 8,
+            "startMs": 109224,
+            "endMs": 118392,
+            "text": "我偷偷地看了老師一眼，老師的眼神裏充滿了不解和失望，只聽他淡淡地說：『那⋯⋯算了吧！",
+            "textSimplified": "我偷偷地看了老师一眼，老师的眼神里充满了不解和失望，只听他淡淡地说：『那⋯⋯算了吧！"
+          },
+          {
+            "index": 29,
+            "paragraph": 8,
+            "startMs": 118392,
+            "endMs": 120648,
+            "text": "呵呵！』",
+            "textSimplified": "呵呵！』"
+          },
+          {
+            "index": 30,
+            "paragraph": 8,
+            "startMs": 120648,
+            "endMs": 124464,
+            "text": "『老師，我來幫你吧！』",
+            "textSimplified": "『老师，我来帮你吧！』"
+          },
+          {
+            "index": 31,
+            "paragraph": 8,
+            "startMs": 124464,
+            "endMs": 132096,
+            "text": "一瞬間，我做出了決定，哪怕是輸，也不能讓自己敬愛的老師失望呀。",
+            "textSimplified": "一瞬间，我做出了决定，哪怕是输，也不能让自己敬爱的老师失望呀。"
+          }
+        ]
+      }
+    }
+  ]
+}

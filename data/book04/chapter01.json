@@ -1,0 +1,695 @@
+{
+  "bookId": "04",
+  "chapterId": "01",
+  "chapterTitle": "一盒餅乾",
+  "chapterTitleSimplified": "一盒饼干",
+  "passages": [
+    "三上 ：一盒餅乾 （第六頁）\n\n莉文阿姨是個粗心的人，經常會做出一些令自己都哭笑不得的事情。以下是她給我講的一段有趣的經歷。\n\n一天，莉文阿姨在機場候機。為了打發時間，她買了一盒餅乾和一本書，然後找了一個座位，坐下來專心地看起書來。\n\n突然，她發現坐在身旁的一個男人伸出手抓起放在他倆中間的餅乾喫。莉文阿姨很喫驚，但她想也許那人是餓壞了，於是沒有說什麼，只是也從盒子裏抓起餅乾來喫。\n\n那個男人看到莉文阿姨喫餅乾，似乎也喫了一驚，但他也沒有出聲，只是對她友好地笑笑，繼續拿餅乾喫。當喫到最後一塊餅乾時，他不好意思地笑笑，把餅乾掰成兩半，一半給自己，一半遞給莉文。莉文阿姨接過半塊餅乾，心想：這個『飢餓的強盜』還不算太壞，居然平分了餅乾。\n\n聽到登機通知後，莉文阿姨急忙把書塞進袋裏，拿起行李，直奔登機口。當她在飛機上坐好後，從袋裏掏出沒看完的書，準備繼續看時，突然愣住了，她這才發現，原來自己的那盒餅乾還原封不動地放在袋裏！剛才她喫的正是那個男人的餅乾。"
+  ],
+  "passagesSimplified": [
+    "三上 ：一盒饼干 （第六页）\n\n莉文阿姨是个粗心的人，经常会做出一些令自己都哭笑不得的事情。以下是她给我讲的一段有趣的经历。\n\n一天，莉文阿姨在机场候机。为了打发时间，她买了一盒饼干和一本书，然后找了一个座位，坐下来专心地看起书来。\n\n突然，她发现坐在身旁的一个男人伸出手抓起放在他俩中间的饼干吃。莉文阿姨很吃惊，但她想也许那人是饿坏了，于是没有说什么，只是也从盒子里抓起饼干来吃。\n\n那个男人看到莉文阿姨吃饼干，似乎也吃了一惊，但他也没有出声，只是对她友好地笑笑，继续拿饼干吃。当吃到最后一块饼干时，他不好意思地笑笑，把饼干掰成两半，一半给自己，一半递给莉文。莉文阿姨接过半块饼干，心想：这个『饥饿的强盗』还不算太坏，居然平分了饼干。\n\n听到登机通知后，莉文阿姨急忙把书塞进袋里，拿起行李，直奔登机口。当她在飞机上坐好后，从袋里掏出没看完的书，准备继续看时，突然愣住了，她这才发现，原来自己的那盒饼干还原封不动地放在袋里！刚才她吃的正是那个男人的饼干。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch01_w001",
+      "traditional": "粗心",
+      "simplified": "粗心",
+      "english": "careless",
+      "pinyin": "cū xīn",
+      "contextSentence": "莉文阿姨是個粗心的人，經常會做出一些令自己都哭笑不得的事情。",
+      "contextSentenceSimplified": "莉文阿姨是个粗心的人，经常会做出一些令自己都哭笑不得的事情。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w002",
+      "traditional": "哭笑不得",
+      "simplified": "哭笑不得",
+      "english": "don't know whether to laugh or cry",
+      "pinyin": "kū xiào bù dé",
+      "contextSentence": "莉文阿姨是個粗心的人，經常會做出一些令自己都哭笑不得的事情。",
+      "contextSentenceSimplified": "莉文阿姨是个粗心的人，经常会做出一些令自己都哭笑不得的事情。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w003",
+      "traditional": "經歷",
+      "simplified": "经历",
+      "english": "experience",
+      "pinyin": "jīng lì",
+      "contextSentence": "以下是她給我講的一段有趣的經歷。",
+      "contextSentenceSimplified": "以下是她给我讲的一段有趣的经历。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w004",
+      "traditional": "候機",
+      "simplified": "候机",
+      "english": "waiting for the flight",
+      "pinyin": "hòu jī",
+      "contextSentence": "一天，莉文阿姨在機場候機。",
+      "contextSentenceSimplified": "一天，莉文阿姨在机场候机。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w005",
+      "traditional": "打發時間",
+      "simplified": "打发时间",
+      "english": "pass the time",
+      "pinyin": "dǎ fā shí jiān",
+      "contextSentence": "為了打發時間，她買了一盒餅乾和一本書。",
+      "contextSentenceSimplified": "为了打发时间，她买了一盒饼干和一本书。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w006",
+      "traditional": "專心",
+      "simplified": "专心",
+      "english": "attentively",
+      "pinyin": "zhuān xīn",
+      "contextSentence": "她坐下來專心地看起書來。",
+      "contextSentenceSimplified": "她坐下来专心地看起书来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w007",
+      "traditional": "身旁",
+      "simplified": "身旁",
+      "english": "beside her",
+      "pinyin": "shēn páng",
+      "contextSentence": "她發現坐在身旁的一個男人抓起餅乾喫。",
+      "contextSentenceSimplified": "她发现坐在身旁的一个男人抓起饼干吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w008",
+      "traditional": "喫驚",
+      "simplified": "吃惊",
+      "english": "surprised",
+      "pinyin": "chī jīng",
+      "contextSentence": "莉文阿姨很喫驚，但沒有說什麼。",
+      "contextSentenceSimplified": "莉文阿姨很吃惊，但没有说什么。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w009",
+      "traditional": "餓壞了",
+      "simplified": "饿坏了",
+      "english": "very hungry",
+      "pinyin": "è huài le",
+      "contextSentence": "她想也許那人是餓壞了。",
+      "contextSentenceSimplified": "她想也许那人是饿坏了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w010",
+      "traditional": "出聲",
+      "simplified": "出声",
+      "english": "speak",
+      "pinyin": "chū shēng",
+      "contextSentence": "他沒有出聲，只是對她友好地笑笑。",
+      "contextSentenceSimplified": "他没有出声，只是对她友好地笑笑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w011",
+      "traditional": "友好",
+      "simplified": "友好",
+      "english": "friendly",
+      "pinyin": "yǒu hǎo",
+      "contextSentence": "他對她友好地笑笑，繼續拿餅乾喫。",
+      "contextSentenceSimplified": "他对她友好地笑笑，继续拿饼干吃。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w012",
+      "traditional": "掰成兩半",
+      "simplified": "掰成两半",
+      "english": "break in half",
+      "pinyin": "bāi chéng liǎng bàn",
+      "contextSentence": "他把餅乾掰成兩半，一半給自己。",
+      "contextSentenceSimplified": "他把饼干掰成两半，一半给自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w013",
+      "traditional": "遞給",
+      "simplified": "递给",
+      "english": "handed to",
+      "pinyin": "dì gěi",
+      "contextSentence": "他一半遞給莉文。",
+      "contextSentenceSimplified": "他一半递给莉文。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w014",
+      "traditional": "飢餓",
+      "simplified": "饥饿",
+      "english": "hungry",
+      "pinyin": "jī è",
+      "contextSentence": "她心想這個『飢餓的強盜』還不算太壞。",
+      "contextSentenceSimplified": "她心想这个『饥饿的强盗』还不算太坏。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w015",
+      "traditional": "強盜",
+      "simplified": "强盗",
+      "english": "robber",
+      "pinyin": "qiáng dào",
+      "contextSentence": "她心想這個『飢餓的強盜』還不算太壞。",
+      "contextSentenceSimplified": "她心想这个『饥饿的强盗』还不算太坏。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w016",
+      "traditional": "平分",
+      "simplified": "平分",
+      "english": "share equally",
+      "pinyin": "píng fēn",
+      "contextSentence": "他居然平分了餅乾。",
+      "contextSentenceSimplified": "他居然平分了饼干。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w017",
+      "traditional": "登機通知",
+      "simplified": "登机通知",
+      "english": "boarding call",
+      "pinyin": "dēng jī tōng zhī",
+      "contextSentence": "聽到登機通知後，她直奔登機口。",
+      "contextSentenceSimplified": "听到登机通知后，她直奔登机口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w018",
+      "traditional": "急忙",
+      "simplified": "急忙",
+      "english": "hurriedly",
+      "pinyin": "jí máng",
+      "contextSentence": "莉文阿姨急忙把書塞進袋裏。",
+      "contextSentenceSimplified": "莉文阿姨急忙把书塞进袋里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w019",
+      "traditional": "塞進",
+      "simplified": "塞进",
+      "english": "stuffed into",
+      "pinyin": "sāi jìn",
+      "contextSentence": "她急忙把書塞進袋裏。",
+      "contextSentenceSimplified": "她急忙把书塞进袋里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w020",
+      "traditional": "直奔",
+      "simplified": "直奔",
+      "english": "rushed straight to",
+      "pinyin": "zhí bēn",
+      "contextSentence": "她拿起行李，直奔登機口。",
+      "contextSentenceSimplified": "她拿起行李，直奔登机口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w021",
+      "traditional": "登機口",
+      "simplified": "登机口",
+      "english": "boarding gate",
+      "pinyin": "dēng jī kǒu",
+      "contextSentence": "她拿起行李，直奔登機口。",
+      "contextSentenceSimplified": "她拿起行李，直奔登机口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w022",
+      "traditional": "掏出",
+      "simplified": "掏出",
+      "english": "took out",
+      "pinyin": "tāo chū",
+      "contextSentence": "她從袋裏掏出沒看完的書。",
+      "contextSentenceSimplified": "她从袋里掏出没看完的书。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w023",
+      "traditional": "愣住了",
+      "simplified": "愣住了",
+      "english": "stunned",
+      "pinyin": "lèng zhù le",
+      "contextSentence": "她突然愣住了，發現餅乾原封不動。",
+      "contextSentenceSimplified": "她突然愣住了，发现饼干原封不动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch01_w024",
+      "traditional": "原封不動",
+      "simplified": "原封不动",
+      "english": "untouched",
+      "pinyin": "yuán fēng bù dòng",
+      "contextSentence": "自己的那盒餅乾還原封不動地放在袋裏。",
+      "contextSentenceSimplified": "自己的那盒饼干还原封不动地放在袋里。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter01/b04_ch01_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter01/b04_ch01_w024_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter01/b04_ch01_p01_m.mp3",
+        "durationMs": 97608,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3504,
+            "text": "三上 ：一盒餅乾 （第六頁）",
+            "textSimplified": "三上 ：一盒饼干 （第六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3504,
+            "endMs": 10728,
+            "text": "莉文阿姨是個粗心的人，經常會做出一些令自己都哭笑不得的事情。",
+            "textSimplified": "莉文阿姨是个粗心的人，经常会做出一些令自己都哭笑不得的事情。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10728,
+            "endMs": 14328,
+            "text": "以下是她給我講的一段有趣的經歷。",
+            "textSimplified": "以下是她给我讲的一段有趣的经历。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 14328,
+            "endMs": 17952,
+            "text": "一天，莉文阿姨在機場候機。",
+            "textSimplified": "一天，莉文阿姨在机场候机。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 17952,
+            "endMs": 26616,
+            "text": "為了打發時間，她買了一盒餅乾和一本書，然後找了一個座位，坐下來專心地看起書來。",
+            "textSimplified": "为了打发时间，她买了一盒饼干和一本书，然后找了一个座位，坐下来专心地看起书来。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 26616,
+            "endMs": 34536,
+            "text": "突然，她發現坐在身旁的一個男人伸出手抓起放在他倆中間的餅乾喫。",
+            "textSimplified": "突然，她发现坐在身旁的一个男人伸出手抓起放在他俩中间的饼干吃。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 34536,
+            "endMs": 44496,
+            "text": "莉文阿姨很喫驚，但她想也許那人是餓壞了，於是沒有說什麼，只是也從盒子裏抓起餅乾來喫。",
+            "textSimplified": "莉文阿姨很吃惊，但她想也许那人是饿坏了，于是没有说什么，只是也从盒子里抓起饼干来吃。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 44496,
+            "endMs": 55080,
+            "text": "那個男人看到莉文阿姨喫餅乾，似乎也喫了一驚，但他也沒有出聲，只是對她友好地笑笑，繼續拿餅乾喫。",
+            "textSimplified": "那个男人看到莉文阿姨吃饼干，似乎也吃了一惊，但他也没有出声，只是对她友好地笑笑，继续拿饼干吃。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 55080,
+            "endMs": 64392,
+            "text": "當喫到最後一塊餅乾時，他不好意思地笑笑，把餅乾掰成兩半，一半給自己，一半遞給莉文。",
+            "textSimplified": "当吃到最后一块饼干时，他不好意思地笑笑，把饼干掰成两半，一半给自己，一半递给莉文。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 64392,
+            "endMs": 72864,
+            "text": "莉文阿姨接過半塊餅乾，心想：這個『飢餓的強盜』還不算太壞，居然平分了餅乾。",
+            "textSimplified": "莉文阿姨接过半块饼干，心想：这个『饥饿的强盗』还不算太坏，居然平分了饼干。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 72864,
+            "endMs": 80640,
+            "text": "聽到登機通知後，莉文阿姨急忙把書塞進袋裏，拿起行李，直奔登機口。",
+            "textSimplified": "听到登机通知后，莉文阿姨急忙把书塞进袋里，拿起行李，直奔登机口。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 80640,
+            "endMs": 94056,
+            "text": "當她在飛機上坐好後，從袋裏掏出沒看完的書，準備繼續看時，突然愣住了，她這才發現，原來自己的那盒餅乾還原封不動地放在袋裏！",
+            "textSimplified": "当她在飞机上坐好后，从袋里掏出没看完的书，准备继续看时，突然愣住了，她这才发现，原来自己的那盒饼干还原封不动地放在袋里！"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 94056,
+            "endMs": 97608,
+            "text": "剛才她喫的正是那個男人的餅乾。",
+            "textSimplified": "刚才她吃的正是那个男人的饼干。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter01/b04_ch01_p01_c.mp3",
+        "durationMs": 101664,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3888,
+            "text": "三上 ：一盒餅乾 （第六頁）",
+            "textSimplified": "三上 ：一盒饼干 （第六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3888,
+            "endMs": 10920,
+            "text": "莉文阿姨是個粗心的人，經常會做出一些令自己都哭笑不得的事情。",
+            "textSimplified": "莉文阿姨是个粗心的人，经常会做出一些令自己都哭笑不得的事情。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10920,
+            "endMs": 15024,
+            "text": "以下是她給我講的一段有趣的經歷。",
+            "textSimplified": "以下是她给我讲的一段有趣的经历。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 15024,
+            "endMs": 19176,
+            "text": "一天，莉文阿姨在機場候機。",
+            "textSimplified": "一天，莉文阿姨在机场候机。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 19176,
+            "endMs": 28392,
+            "text": "為了打發時間，她買了一盒餅乾和一本書，然後找了一個座位，坐下來專心地看起書來。",
+            "textSimplified": "为了打发时间，她买了一盒饼干和一本书，然后找了一个座位，坐下来专心地看起书来。"
+          },
+          {
+            "index": 5,
+            "paragraph": 6,
+            "startMs": 28392,
+            "endMs": 36192,
+            "text": "突然，她發現坐在身旁的一個男人伸出手抓起放在他倆中間的餅乾喫。",
+            "textSimplified": "突然，她发现坐在身旁的一个男人伸出手抓起放在他俩中间的饼干吃。"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 36192,
+            "endMs": 45624,
+            "text": "莉文阿姨很喫驚，但她想也許那人是餓壞了，於是沒有說什麼，只是也從盒子裏抓起餅乾來喫。",
+            "textSimplified": "莉文阿姨很吃惊，但她想也许那人是饿坏了，于是没有说什么，只是也从盒子里抓起饼干来吃。"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 45624,
+            "endMs": 56472,
+            "text": "那個男人看到莉文阿姨喫餅乾，似乎也喫了一驚，但他也沒有出聲，只是對她友好地笑笑，繼續拿餅乾喫。",
+            "textSimplified": "那个男人看到莉文阿姨吃饼干，似乎也吃了一惊，但他也没有出声，只是对她友好地笑笑，继续拿饼干吃。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 56472,
+            "endMs": 66264,
+            "text": "當喫到最後一塊餅乾時，他不好意思地笑笑，把餅乾掰成兩半，一半給自己，一半遞給莉文。",
+            "textSimplified": "当吃到最后一块饼干时，他不好意思地笑笑，把饼干掰成两半，一半给自己，一半递给莉文。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 66264,
+            "endMs": 75240,
+            "text": "莉文阿姨接過半塊餅乾，心想：這個『飢餓的強盜』還不算太壞，居然平分了餅乾。",
+            "textSimplified": "莉文阿姨接过半块饼干，心想：这个『饥饿的强盗』还不算太坏，居然平分了饼干。"
+          },
+          {
+            "index": 10,
+            "paragraph": 10,
+            "startMs": 75240,
+            "endMs": 83376,
+            "text": "聽到登機通知後，莉文阿姨急忙把書塞進袋裏，拿起行李，直奔登機口。",
+            "textSimplified": "听到登机通知后，莉文阿姨急忙把书塞进袋里，拿起行李，直奔登机口。"
+          },
+          {
+            "index": 11,
+            "paragraph": 10,
+            "startMs": 83376,
+            "endMs": 97440,
+            "text": "當她在飛機上坐好後，從袋裏掏出沒看完的書，準備繼續看時，突然愣住了，她這才發現，原來自己的那盒餅乾還原封不動地放在袋裏！",
+            "textSimplified": "当她在飞机上坐好后，从袋里掏出没看完的书，准备继续看时，突然愣住了，她这才发现，原来自己的那盒饼干还原封不动地放在袋里！"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 97440,
+            "endMs": 101664,
+            "text": "剛才她喫的正是那個男人的餅乾。",
+            "textSimplified": "刚才她吃的正是那个男人的饼干。"
+          }
+        ]
+      }
+    }
+  ]
+}
