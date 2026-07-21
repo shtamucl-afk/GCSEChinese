@@ -27,6 +27,13 @@
       "description": "閱讀理解",
       "series": "Primary School Chinese",
       "sortOrder": 50
+    },
+    {
+      "id": "05",
+      "title": "Test",
+      "description": "Test",
+      "series": "Unknown",
+      "sortOrder": 60
     }
   ]
 }
