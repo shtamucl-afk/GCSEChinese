@@ -1,0 +1,806 @@
+{
+  "bookId": "04",
+  "chapterId": "14",
+  "chapterTitle": "木瓜樹",
+  "chapterTitleSimplified": "木瓜树",
+  "passages": [
+    "三上 ： 木瓜樹（第三十八頁）\n\n在鄉下的表叔家，我第一次見到木瓜樹。\n\n在看到木瓜樹之前，我以為木瓜也是像西瓜一樣生長在地裏的，或者像黃瓜一樣長在藤蔓上。原來，它們是長在一棵高高的小樹上。木瓜樹的樹幹十分筆直，在樹幹的頂部有很多枝葉，下面則沒有葉子，它的葉柄非常長，中間是空的。葉子非常好看，綠綠的，帶有鋸齒，葉紋清晰可見，既像巨大的手掌，又好像一把把大蒲扇。因為它的葉子、果實都是長在樹頂，所以遠遠看去好像一把撐開的大傘。\n\n木瓜樹的花是淡黃色的，小小的，散發着淡淡的清香。到了夏天，木瓜樹上結滿了果實，大大小小的木瓜緊緊地挨在一起，好像相親相愛的兄弟姊妹，看上去十分熱鬧。木瓜是長圓形的，好像一個個欖球。它們成熟以前是綠色的，慢慢的就變成黃色。切開來，會發現裏面有橘黃色的果肉和很多黑色的小籽，木瓜籽的外面有層透明的薄膜，一粒粒好像烏黑發亮的小眼睛。\n\n木瓜素有『萬壽果』的稱號，含豐富維他命C、胡蘿蔔素以及蛋白酶，據說多喫可以延年益壽。它的果肉非常厚實、香氣濃鬱，喫一口軟軟的，如果加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。"
+  ],
+  "passagesSimplified": [
+    "三上 ： 木瓜树（第三十八页）\n\n在乡下的表叔家，我第一次见到木瓜树。\n\n在看到木瓜树之前，我以为木瓜也是像西瓜一样生长在地里的，或者像黄瓜一样长在藤蔓上。原来，它们是长在一棵高高的小树上。木瓜树的树干十分笔直，在树干的顶部有很多枝叶，下面则没有叶子，它的叶柄非常长，中间是空的。叶子非常好看，绿绿的，带有锯齿，叶纹清晰可见，既像巨大的手掌，又好像一把把大蒲扇。因为它的叶子、果实都是长在树顶，所以远远看去好像一把撑开的大伞。\n\n木瓜树的花是淡黄色的，小小的，散发着淡淡的清香。到了夏天，木瓜树上结满了果实，大大小小的木瓜紧紧地挨在一起，好像相亲相爱的兄弟姊妹，看上去十分热闹。木瓜是长圆形的，好像一个个榄球。它们成熟以前是绿色的，慢慢的就变成黄色。切开来，会发现里面有橘黄色的果肉和很多黑色的小籽，木瓜籽的外面有层透明的薄膜，一粒粒好像乌黑发亮的小眼睛。\n\n木瓜素有『万寿果』的称号，含丰富维他命C、胡萝卜素以及蛋白酶，据说多吃可以延年益寿。它的果肉非常厚实、香气浓郁，吃一口软软的，如果加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch14_w001",
+      "traditional": "藤蔓",
+      "simplified": "藤蔓",
+      "english": "vines",
+      "pinyin": "téng wàn",
+      "contextSentence": "在看到木瓜樹之前，我以為木瓜也是像西瓜一樣生長在地裏的，或者像黃瓜一樣長在藤蔓上。",
+      "contextSentenceSimplified": "在看到木瓜树之前，我以为木瓜也是像西瓜一样生长在地里的，或者像黄瓜一样长在藤蔓上。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w002",
+      "traditional": "筆直",
+      "simplified": "笔直",
+      "english": "straight",
+      "pinyin": "bǐ zhí",
+      "contextSentence": "木瓜樹的樹幹十分筆直。",
+      "contextSentenceSimplified": "木瓜树的树干十分笔直。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w003",
+      "traditional": "葉柄",
+      "simplified": "叶柄",
+      "english": "leaf stalk",
+      "pinyin": "yè bǐng",
+      "contextSentence": "它的葉柄非常長，中間是空的。",
+      "contextSentenceSimplified": "它的叶柄非常长，中间是空的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w004",
+      "traditional": "鋸齒",
+      "simplified": "锯齿",
+      "english": "serrated edges",
+      "pinyin": "jù chǐ",
+      "contextSentence": "葉子帶有鋸齒，葉紋清晰可見。",
+      "contextSentenceSimplified": "叶子带有锯齿，叶纹清晰可见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w005",
+      "traditional": "葉紋",
+      "simplified": "叶纹",
+      "english": "leaf veins",
+      "pinyin": "yè wén",
+      "contextSentence": "葉子帶有鋸齒，葉紋清晰可見。",
+      "contextSentenceSimplified": "叶子带有锯齿，叶纹清晰可见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w006",
+      "traditional": "清晰可見",
+      "simplified": "清晰可见",
+      "english": "clearly visible",
+      "pinyin": "qīng xī kě jiàn",
+      "contextSentence": "葉紋清晰可見。",
+      "contextSentenceSimplified": "叶纹清晰可见。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w007",
+      "traditional": "蒲扇",
+      "simplified": "蒲扇",
+      "english": "palm leaf fan",
+      "pinyin": "pú shàn",
+      "contextSentence": "葉子好像一把把大蒲扇。",
+      "contextSentenceSimplified": "叶子好像一把把大蒲扇。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w008",
+      "traditional": "撐開",
+      "simplified": "撑开",
+      "english": "spread open",
+      "pinyin": "chēng kāi",
+      "contextSentence": "遠遠看去好像一把撐開的大傘。",
+      "contextSentenceSimplified": "远远看去好像一把撑开的大伞。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w009",
+      "traditional": "散發",
+      "simplified": "散发",
+      "english": "give off",
+      "pinyin": "sàn fā",
+      "contextSentence": "木瓜樹的花散發着淡淡的清香。",
+      "contextSentenceSimplified": "木瓜树的花散发着淡淡的清香。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w010",
+      "traditional": "清香",
+      "simplified": "清香",
+      "english": "light fragrance",
+      "pinyin": "qīng xiāng",
+      "contextSentence": "木瓜樹的花散發着淡淡的清香。",
+      "contextSentenceSimplified": "木瓜树的花散发着淡淡的清香。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w011",
+      "traditional": "挨在一起",
+      "simplified": "挨在一起",
+      "english": "pressed together",
+      "pinyin": "āi zài yì qǐ",
+      "contextSentence": "大大小小的木瓜緊緊地挨在一起。",
+      "contextSentenceSimplified": "大大小小的木瓜紧紧地挨在一起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w012",
+      "traditional": "相親相愛",
+      "simplified": "相亲相爱",
+      "english": "loving each other",
+      "pinyin": "xiāng qīn xiāng ài",
+      "contextSentence": "它們好像相親相愛的兄弟姊妹。",
+      "contextSentenceSimplified": "它们好像相亲相爱的兄弟姊妹。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w013",
+      "traditional": "長圓形",
+      "simplified": "长圆形",
+      "english": "oblong",
+      "pinyin": "zhǎng yuán xíng",
+      "contextSentence": "木瓜是長圓形的，好像一個個欖球。",
+      "contextSentenceSimplified": "木瓜是长圆形的，好像一个个榄球。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w014",
+      "traditional": "欖球",
+      "simplified": "榄球",
+      "english": "rugby ball",
+      "pinyin": "lǎn qiú",
+      "contextSentence": "木瓜是長圓形的，好像一個個欖球。",
+      "contextSentenceSimplified": "木瓜是长圆形的，好像一个个榄球。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w015",
+      "traditional": "透明",
+      "simplified": "透明",
+      "english": "transparent",
+      "pinyin": "tòu míng",
+      "contextSentence": "木瓜籽的外面有層透明的薄膜。",
+      "contextSentenceSimplified": "木瓜籽的外面有层透明的薄膜。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w016",
+      "traditional": "薄膜",
+      "simplified": "薄膜",
+      "english": "thin film",
+      "pinyin": "báo mó",
+      "contextSentence": "木瓜籽的外面有層透明的薄膜。",
+      "contextSentenceSimplified": "木瓜籽的外面有层透明的薄膜。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w017",
+      "traditional": "烏黑發亮",
+      "simplified": "乌黑发亮",
+      "english": "shiny black",
+      "pinyin": "wū hēi fā liàng",
+      "contextSentence": "一粒粒好像烏黑發亮的小眼睛。",
+      "contextSentenceSimplified": "一粒粒好像乌黑发亮的小眼睛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w018",
+      "traditional": "素有",
+      "simplified": "素有",
+      "english": "has always been known as",
+      "pinyin": "sù yǒu",
+      "contextSentence": "木瓜素有『萬壽果』的稱號。",
+      "contextSentenceSimplified": "木瓜素有『万寿果』的称号。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w019",
+      "traditional": "萬壽果",
+      "simplified": "万寿果",
+      "english": "longevity fruit",
+      "pinyin": "wàn shòu guǒ",
+      "contextSentence": "木瓜素有『萬壽果』的稱號。",
+      "contextSentenceSimplified": "木瓜素有『万寿果』的称号。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w020",
+      "traditional": "稱號",
+      "simplified": "称号",
+      "english": "title",
+      "pinyin": "chēng hào",
+      "contextSentence": "木瓜素有『萬壽果』的稱號。",
+      "contextSentenceSimplified": "木瓜素有『万寿果』的称号。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w021",
+      "traditional": "豐富",
+      "simplified": "丰富",
+      "english": "rich in",
+      "pinyin": "fēng fù",
+      "contextSentence": "木瓜含豐富維他命C。",
+      "contextSentenceSimplified": "木瓜含丰富维他命C。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w022",
+      "traditional": "胡蘿蔔素",
+      "simplified": "胡萝卜素",
+      "english": "carotene",
+      "pinyin": "hú luó bó sù",
+      "contextSentence": "木瓜含豐富維他命C、胡蘿蔔素以及蛋白酶。",
+      "contextSentenceSimplified": "木瓜含丰富维他命C、胡萝卜素以及蛋白酶。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w023",
+      "traditional": "蛋白酶",
+      "simplified": "蛋白酶",
+      "english": "protease",
+      "pinyin": "dàn bái méi",
+      "contextSentence": "木瓜含豐富維他命C、胡蘿蔔素以及蛋白酶。",
+      "contextSentenceSimplified": "木瓜含丰富维他命C、胡萝卜素以及蛋白酶。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w024",
+      "traditional": "據說",
+      "simplified": "据说",
+      "english": "it is said",
+      "pinyin": "jù shuō",
+      "contextSentence": "據說多喫可以延年益壽。",
+      "contextSentenceSimplified": "据说多吃可以延年益寿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w025",
+      "traditional": "延年益壽",
+      "simplified": "延年益寿",
+      "english": "prolong life",
+      "pinyin": "yán nián yì shòu",
+      "contextSentence": "據說多喫可以延年益壽。",
+      "contextSentenceSimplified": "据说多吃可以延年益寿。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w025_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w025_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w026",
+      "traditional": "厚實",
+      "simplified": "厚实",
+      "english": "thick and firm",
+      "pinyin": "hòu shí",
+      "contextSentence": "它的果肉非常厚實。",
+      "contextSentenceSimplified": "它的果肉非常厚实。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w026_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w026_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w027",
+      "traditional": "香氣濃鬱",
+      "simplified": "香气浓郁",
+      "english": "strong fragrance",
+      "pinyin": "xiāng qì nóng yù",
+      "contextSentence": "它的果肉香氣濃鬱。",
+      "contextSentenceSimplified": "它的果肉香气浓郁。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w027_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w027_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w028",
+      "traditional": "炎炎夏日",
+      "simplified": "炎炎夏日",
+      "english": "hot summer",
+      "pinyin": "yán yán xià rì",
+      "contextSentence": "也是炎炎夏日中不錯的享受。",
+      "contextSentenceSimplified": "也是炎炎夏日中不错的享受。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w028_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w028_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch14_w029",
+      "traditional": "享受",
+      "simplified": "享受",
+      "english": "enjoyment",
+      "pinyin": "xiǎng shòu",
+      "contextSentence": "也是炎炎夏日中不錯的享受。",
+      "contextSentenceSimplified": "也是炎炎夏日中不错的享受。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w029_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w029_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w029_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter14/b04_ch14_p01_m.mp3",
+        "durationMs": 111312,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3600,
+            "text": "三上 ： 木瓜樹（第三十八頁）",
+            "textSimplified": "三上 ： 木瓜树（第三十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3600,
+            "endMs": 7896,
+            "text": "在鄉下的表叔家，我第一次見到木瓜樹。",
+            "textSimplified": "在乡下的表叔家，我第一次见到木瓜树。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7896,
+            "endMs": 17688,
+            "text": "在看到木瓜樹之前，我以為木瓜也是像西瓜一樣生長在地裏的，或者像黃瓜一樣長在藤蔓上。",
+            "textSimplified": "在看到木瓜树之前，我以为木瓜也是像西瓜一样生长在地里的，或者像黄瓜一样长在藤蔓上。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 17688,
+            "endMs": 22128,
+            "text": "原來，它們是長在一棵高高的小樹上。",
+            "textSimplified": "原来，它们是长在一棵高高的小树上。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 22128,
+            "endMs": 32976,
+            "text": "木瓜樹的樹幹十分筆直，在樹幹的頂部有很多枝葉，下面則沒有葉子，它的葉柄非常長，中間是空的。",
+            "textSimplified": "木瓜树的树干十分笔直，在树干的顶部有很多枝叶，下面则没有叶子，它的叶柄非常长，中间是空的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 32976,
+            "endMs": 42696,
+            "text": "葉子非常好看，綠綠的，帶有鋸齒，葉紋清晰可見，既像巨大的手掌，又好像一把把大蒲扇。",
+            "textSimplified": "叶子非常好看，绿绿的，带有锯齿，叶纹清晰可见，既像巨大的手掌，又好像一把把大蒲扇。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 42696,
+            "endMs": 50664,
+            "text": "因為它的葉子、果實都是長在樹頂，所以遠遠看去好像一把撐開的大傘。",
+            "textSimplified": "因为它的叶子、果实都是长在树顶，所以远远看去好像一把撑开的大伞。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 50664,
+            "endMs": 56736,
+            "text": "木瓜樹的花是淡黃色的，小小的，散發着淡淡的清香。",
+            "textSimplified": "木瓜树的花是淡黄色的，小小的，散发着淡淡的清香。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 56736,
+            "endMs": 68520,
+            "text": "到了夏天，木瓜樹上結滿了果實，大大小小的木瓜緊緊地挨在一起，好像相親相愛的兄弟姊妹，看上去十分熱鬧。",
+            "textSimplified": "到了夏天，木瓜树上结满了果实，大大小小的木瓜紧紧地挨在一起，好像相亲相爱的兄弟姊妹，看上去十分热闹。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 68520,
+            "endMs": 72528,
+            "text": "木瓜是長圓形的，好像一個個欖球。",
+            "textSimplified": "木瓜是长圆形的，好像一个个榄球。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 72528,
+            "endMs": 77616,
+            "text": "它們成熟以前是綠色的，慢慢的就變成黃色。",
+            "textSimplified": "它们成熟以前是绿色的，慢慢的就变成黄色。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 77616,
+            "endMs": 90360,
+            "text": "切開來，會發現裏面有橘黃色的果肉和很多黑色的小籽，木瓜籽的外面有層透明的薄膜，一粒粒好像烏黑發亮的小眼睛。",
+            "textSimplified": "切开来，会发现里面有橘黄色的果肉和很多黑色的小籽，木瓜籽的外面有层透明的薄膜，一粒粒好像乌黑发亮的小眼睛。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 90360,
+            "endMs": 100008,
+            "text": "木瓜素有『萬壽果』的稱號，含豐富維他命C、胡蘿蔔素以及蛋白酶，據說多喫可以延年益壽。",
+            "textSimplified": "木瓜素有『万寿果』的称号，含丰富维他命C、胡萝卜素以及蛋白酶，据说多吃可以延年益寿。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 100008,
+            "endMs": 111312,
+            "text": "它的果肉非常厚實、香氣濃鬱，喫一口軟軟的，如果加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。",
+            "textSimplified": "它的果肉非常厚实、香气浓郁，吃一口软软的，如果加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter14/b04_ch14_p01_c.mp3",
+        "durationMs": 112080,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4176,
+            "text": "三上 ： 木瓜樹（第三十八頁）",
+            "textSimplified": "三上 ： 木瓜树（第三十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4176,
+            "endMs": 9264,
+            "text": "在鄉下的表叔家，我第一次見到木瓜樹。",
+            "textSimplified": "在乡下的表叔家，我第一次见到木瓜树。"
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 9264,
+            "endMs": 19128,
+            "text": "在看到木瓜樹之前，我以為木瓜也是像西瓜一樣生長在地裏的，或者像黃瓜一樣長在藤蔓上。",
+            "textSimplified": "在看到木瓜树之前，我以为木瓜也是像西瓜一样生长在地里的，或者像黄瓜一样长在藤蔓上。"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 19128,
+            "endMs": 24264,
+            "text": "原來，它們是長在一棵高高的小樹上。",
+            "textSimplified": "原来，它们是长在一棵高高的小树上。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 24264,
+            "endMs": 34680,
+            "text": "木瓜樹的樹幹十分筆直，在樹幹的頂部有很多枝葉，下面則沒有葉子，它的葉柄非常長，中間是空的。",
+            "textSimplified": "木瓜树的树干十分笔直，在树干的顶部有很多枝叶，下面则没有叶子，它的叶柄非常长，中间是空的。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 34680,
+            "endMs": 44832,
+            "text": "葉子非常好看，綠綠的，帶有鋸齒，葉紋清晰可見，既像巨大的手掌，又好像一把把大蒲扇。",
+            "textSimplified": "叶子非常好看，绿绿的，带有锯齿，叶纹清晰可见，既像巨大的手掌，又好像一把把大蒲扇。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 44832,
+            "endMs": 52944,
+            "text": "因為它的葉子、果實都是長在樹頂，所以遠遠看去好像一把撐開的大傘。",
+            "textSimplified": "因为它的叶子、果实都是长在树顶，所以远远看去好像一把撑开的大伞。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 52944,
+            "endMs": 59184,
+            "text": "木瓜樹的花是淡黃色的，小小的，散發着淡淡的清香。",
+            "textSimplified": "木瓜树的花是淡黄色的，小小的，散发着淡淡的清香。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 59184,
+            "endMs": 71040,
+            "text": "到了夏天，木瓜樹上結滿了果實，大大小小的木瓜緊緊地挨在一起，好像相親相愛的兄弟姊妹，看上去十分熱鬧。",
+            "textSimplified": "到了夏天，木瓜树上结满了果实，大大小小的木瓜紧紧地挨在一起，好像相亲相爱的兄弟姊妹，看上去十分热闹。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 71040,
+            "endMs": 75312,
+            "text": "木瓜是長圓形的，好像一個個欖球。",
+            "textSimplified": "木瓜是长圆形的，好像一个个榄球。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 75312,
+            "endMs": 80376,
+            "text": "它們成熟以前是綠色的，慢慢的就變成黃色。",
+            "textSimplified": "它们成熟以前是绿色的，慢慢的就变成黄色。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 80376,
+            "endMs": 92064,
+            "text": "切開來，會發現裏面有橘黃色的果肉和很多黑色的小籽，木瓜籽的外面有層透明的薄膜，一粒粒好像烏黑發亮的小眼睛。",
+            "textSimplified": "切开来，会发现里面有橘黄色的果肉和很多黑色的小籽，木瓜籽的外面有层透明的薄膜，一粒粒好像乌黑发亮的小眼睛。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 92064,
+            "endMs": 101640,
+            "text": "木瓜素有『萬壽果』的稱號，含豐富維他命C、胡蘿蔔素以及蛋白酶，據說多喫可以延年益壽。",
+            "textSimplified": "木瓜素有『万寿果』的称号，含丰富维他命C、胡萝卜素以及蛋白酶，据说多吃可以延年益寿。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 101640,
+            "endMs": 112080,
+            "text": "它的果肉非常厚實、香氣濃鬱，喫一口軟軟的，如果加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。",
+            "textSimplified": "它的果肉非常厚实、香气浓郁，吃一口软软的，如果加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。"
+          }
+        ]
+      }
+    }
+  ]
+}
