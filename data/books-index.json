@@ -34,6 +34,13 @@
       "description": "Test",
       "series": "Unknown",
       "sortOrder": 60
+    },
+    {
+      "id": "06",
+      "title": "課文",
+      "description": "課文",
+      "series": "Unknown",
+      "sortOrder": 70
     }
   ]
 }
