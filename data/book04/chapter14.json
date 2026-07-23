@@ -14,7 +14,7 @@
       "id": "b04_ch14_w001",
       "traditional": "藤蔓",
       "simplified": "藤蔓",
-      "english": "vine",
+      "english": "vines",
       "pinyin": "téng wàn",
       "contextSentence": "在看到木瓜樹之前，我以為木瓜也是像西瓜一樣生長在地裏的，或者像黃瓜一樣長在藤蔓上。",
       "contextSentenceSimplified": "在看到木瓜树之前，我以为木瓜也是像西瓜一样生长在地里的，或者像黄瓜一样长在藤蔓上。",
@@ -35,8 +35,8 @@
       "simplified": "笔直",
       "english": "straight",
       "pinyin": "bǐ zhí",
-      "contextSentence": "木瓜樹的樹幹十分筆直，在樹幹的頂部有很多枝葉，下面則沒有葉子。",
-      "contextSentenceSimplified": "木瓜树的树干十分笔直，在树干的顶部有很多枝叶，下面则没有叶子。",
+      "contextSentence": "木瓜樹的樹幹十分筆直。",
+      "contextSentenceSimplified": "木瓜树的树干十分笔直。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w002_m_isolated.mp3",
@@ -71,10 +71,10 @@
       "id": "b04_ch14_w004",
       "traditional": "鋸齒",
       "simplified": "锯齿",
-      "english": "serrated edge",
+      "english": "serrated edges",
       "pinyin": "jù chǐ",
-      "contextSentence": "葉子非常好看，綠綠的，帶有鋸齒。",
-      "contextSentenceSimplified": "叶子非常好看，绿绿的，带有锯齿。",
+      "contextSentence": "葉子帶有鋸齒，葉紋清晰可見。",
+      "contextSentenceSimplified": "叶子带有锯齿，叶纹清晰可见。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w004_m_isolated.mp3",
@@ -90,10 +90,10 @@
       "id": "b04_ch14_w005",
       "traditional": "葉紋",
       "simplified": "叶纹",
-      "english": "leaf vein",
+      "english": "leaf veins",
       "pinyin": "yè wén",
-      "contextSentence": "葉子非常好看，綠綠的，帶有鋸齒，葉紋清晰可見。",
-      "contextSentenceSimplified": "叶子非常好看，绿绿的，带有锯齿，叶纹清晰可见。",
+      "contextSentence": "葉子帶有鋸齒，葉紋清晰可見。",
+      "contextSentenceSimplified": "叶子带有锯齿，叶纹清晰可见。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w005_m_isolated.mp3",
@@ -111,8 +111,8 @@
       "simplified": "清晰可见",
       "english": "clearly visible",
       "pinyin": "qīng xī kě jiàn",
-      "contextSentence": "葉子非常好看，綠綠的，帶有鋸齒，葉紋清晰可見。",
-      "contextSentenceSimplified": "叶子非常好看，绿绿的，带有锯齿，叶纹清晰可见。",
+      "contextSentence": "葉子帶有鋸齒，葉紋清晰可見。",
+      "contextSentenceSimplified": "叶子带有锯齿，叶纹清晰可见。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w006_m_isolated.mp3",
@@ -168,8 +168,8 @@
       "simplified": "散发",
       "english": "emit",
       "pinyin": "sàn fā",
-      "contextSentence": "木瓜樹的花是淡黃色的，小小的，散發着淡淡的清香。",
-      "contextSentenceSimplified": "木瓜树的花是淡黄色的，小小的，散发着淡淡的清香。",
+      "contextSentence": "木瓜樹的花散發着淡淡的清香。",
+      "contextSentenceSimplified": "木瓜树的花散发着淡淡的清香。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w009_m_isolated.mp3",
@@ -185,10 +185,10 @@
       "id": "b04_ch14_w010",
       "traditional": "清香",
       "simplified": "清香",
-      "english": "faint fragrance",
+      "english": "delicate fragrance",
       "pinyin": "qīng xiāng",
-      "contextSentence": "木瓜樹的花是淡黃色的，小小的，散發着淡淡的清香。",
-      "contextSentenceSimplified": "木瓜树的花是淡黄色的，小小的，散发着淡淡的清香。",
+      "contextSentence": "木瓜樹的花散發着淡淡的清香。",
+      "contextSentenceSimplified": "木瓜树的花散发着淡淡的清香。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w010_m_isolated.mp3",
@@ -204,10 +204,10 @@
       "id": "b04_ch14_w011",
       "traditional": "挨在一起",
       "simplified": "挨在一起",
-      "english": "pressed together",
+      "english": "nestle together",
       "pinyin": "āi zài yì qǐ",
-      "contextSentence": "大大小小的木瓜緊緊地挨在一起，好像相親相愛的兄弟姊妹。",
-      "contextSentenceSimplified": "大大小小的木瓜紧紧地挨在一起，好像相亲相爱的兄弟姊妹。",
+      "contextSentence": "大大小小的木瓜緊緊地挨在一起。",
+      "contextSentenceSimplified": "大大小小的木瓜紧紧地挨在一起。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w011_m_isolated.mp3",
@@ -223,10 +223,10 @@
       "id": "b04_ch14_w012",
       "traditional": "相親相愛",
       "simplified": "相亲相爱",
-      "english": "loving one another",
+      "english": "loving each other",
       "pinyin": "xiāng qīn xiāng ài",
-      "contextSentence": "大大小小的木瓜緊緊地挨在一起，好像相親相愛的兄弟姊妹。",
-      "contextSentenceSimplified": "大大小小的木瓜紧紧地挨在一起，好像相亲相爱的兄弟姊妹。",
+      "contextSentence": "大大小小的木瓜好像相親相愛的兄弟姊妹。",
+      "contextSentenceSimplified": "大大小小的木瓜好像相亲相爱的兄弟姊妹。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w012_m_isolated.mp3",
@@ -242,7 +242,7 @@
       "id": "b04_ch14_w013",
       "traditional": "長圓形",
       "simplified": "长圆形",
-      "english": "oval",
+      "english": "oblong shape",
       "pinyin": "zhǎng yuán xíng",
       "contextSentence": "木瓜是長圓形的，好像一個個欖球。",
       "contextSentenceSimplified": "木瓜是长圆形的，好像一个个榄球。",
@@ -299,7 +299,7 @@
       "id": "b04_ch14_w016",
       "traditional": "薄膜",
       "simplified": "薄膜",
-      "english": "thin film",
+      "english": "thin membrane",
       "pinyin": "báo mó",
       "contextSentence": "木瓜籽的外面有層透明的薄膜。",
       "contextSentenceSimplified": "木瓜籽的外面有层透明的薄膜。",
@@ -320,8 +320,8 @@
       "simplified": "乌黑发亮",
       "english": "shiny black",
       "pinyin": "wū hēi fā liàng",
-      "contextSentence": "一粒粒好像烏黑發亮的小眼睛。",
-      "contextSentenceSimplified": "一粒粒好像乌黑发亮的小眼睛。",
+      "contextSentence": "一粒粒木瓜籽好像烏黑發亮的小眼睛。",
+      "contextSentenceSimplified": "一粒粒木瓜籽好像乌黑发亮的小眼睛。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w017_m_isolated.mp3",
@@ -394,10 +394,10 @@
       "id": "b04_ch14_w021",
       "traditional": "豐富",
       "simplified": "丰富",
-      "english": "rich in",
+      "english": "rich",
       "pinyin": "fēng fù",
-      "contextSentence": "木瓜含豐富維他命C、胡蘿蔔素以及蛋白酶。",
-      "contextSentenceSimplified": "木瓜含丰富维他命C、胡萝卜素以及蛋白酶。",
+      "contextSentence": "木瓜含豐富維他命C。",
+      "contextSentenceSimplified": "木瓜含丰富维他命C。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w021_m_isolated.mp3",
@@ -491,8 +491,8 @@
       "simplified": "厚实",
       "english": "thick and firm",
       "pinyin": "hòu shí",
-      "contextSentence": "它的果肉非常厚實、香氣濃鬱。",
-      "contextSentenceSimplified": "它的果肉非常厚实、香气浓郁。",
+      "contextSentence": "它的果肉非常厚實。",
+      "contextSentenceSimplified": "它的果肉非常厚实。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w026_m_isolated.mp3",
@@ -529,8 +529,8 @@
       "simplified": "炎炎夏日",
       "english": "scorching summer",
       "pinyin": "yán yán xià rì",
-      "contextSentence": "加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。",
-      "contextSentenceSimplified": "加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。",
+      "contextSentence": "加入椰汁做成甜品，是炎炎夏日中不錯的享受。",
+      "contextSentenceSimplified": "加入椰汁做成甜品，是炎炎夏日中不错的享受。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w028_m_isolated.mp3",
@@ -548,8 +548,8 @@
       "simplified": "享受",
       "english": "enjoyment",
       "pinyin": "xiǎng shòu",
-      "contextSentence": "加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。",
-      "contextSentenceSimplified": "加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。",
+      "contextSentence": "加入椰汁做成甜品，是炎炎夏日中不錯的享受。",
+      "contextSentenceSimplified": "加入椰汁做成甜品，是炎炎夏日中不错的享受。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w029_m_isolated.mp3",
