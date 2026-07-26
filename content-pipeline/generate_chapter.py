@@ -30,7 +30,7 @@ from openpyxl import load_workbook
 # Meta / passage / vocab reading uses shared helpers from generate_common.py.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_audio import generate_chapter_audio, generate_passage_audio
-from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES, to_simplified
+from generate_common import clean_text, parse_meta, validate_book_and_paths, LANGUAGES, to_simplified, assign_word_ids
 
 
 def read_passages(wb):
@@ -118,9 +118,11 @@ def build_chapter_json(book_id, chapter_id, chapter_title, passages, words):
     """
     vocab = []
     audio_folder = f"audio/book{book_id}/chapter{chapter_id}"
-    for i, w in enumerate(words, start=1):
-        word_id = f"b{book_id}_ch{chapter_id}_w{i:03d}"
 
+    # Assign stable word IDs (preserve existing IDs where traditional matches)
+    assigned = assign_word_ids(book_id, chapter_id, words)
+
+    for word_id, w in assigned:
         # Build nested audio structure with all configured languages
         audio_dict = {}
         for lang_name, lang_config in LANGUAGES.items():

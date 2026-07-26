@@ -242,3 +242,70 @@ def mp3_duration_ms(path):
     """
     from mutagen.mp3 import MP3
     return int(round(MP3(path).info.length * 1000))
+
+
+# ------------------------------------------------------------------
+# Stable word ID assignment (M10: ID-preserving overwrite)
+# ------------------------------------------------------------------
+def assign_word_ids(book_id, chapter_id, words):
+    """Assign stable word IDs, preserving existing IDs where traditional matches.
+
+    Reads the existing chapter JSON (if any) and reuses word IDs for vocab
+    whose traditional character matches an existing entry. New words get
+    fresh sequential IDs starting from max(existing) + 1.
+
+    A claimed_ids set prevents accidental double-assignment if a traditional
+    word appears twice in the new list.
+
+    Args:
+        book_id: zero-padded 2-digit book ID string (e.g. "01")
+        chapter_id: zero-padded 2-digit chapter ID string (e.g. "03")
+        words: list of dicts, each with at least {"traditional": str}
+
+    Returns:
+        list of (word_id, word_dict) tuples in the same order as input
+    """
+    json_path = f"data/book{book_id}/chapter{chapter_id}.json"
+
+    # --- Build traditional → old_id map from existing JSON ---
+    traditional_to_id = {}
+    max_n = 0
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                old = json.load(f)
+            for v in old.get("vocab", []):
+                trad = v.get("traditional", "")
+                if trad:
+                    old_id = v["id"]
+                    traditional_to_id[trad] = old_id
+                    # Extract numeric suffix from old ID
+                    match = re.search(r"_w(\d+)$", old_id)
+                    if match:
+                        max_n = max(max_n, int(match.group(1)))
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"[WARN] Could not read existing chapter JSON ({e}).")
+            print(f"       All word IDs will be assigned as new.")
+
+    # --- Assign IDs ---
+    claimed_ids = set()
+    assigned = []
+    preserved_count = 0
+
+    for w in words:
+        trad = w.get("traditional", "")
+        old_id = traditional_to_id.get(trad)
+        if old_id and old_id not in claimed_ids:
+            word_id = old_id
+            preserved_count += 1
+        else:
+            max_n += 1
+            word_id = f"b{book_id}_ch{chapter_id}_w{max_n:03d}"
+        claimed_ids.add(word_id)
+        assigned.append((word_id, w))
+
+    new_count = len(assigned) - preserved_count
+    if os.path.exists(json_path):
+        print(f"[INFO] Word IDs: {preserved_count} preserved, {new_count} new")
+
+    return assigned

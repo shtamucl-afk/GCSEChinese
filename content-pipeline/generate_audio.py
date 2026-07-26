@@ -25,6 +25,7 @@ Usage:
 import argparse
 import asyncio
 import os
+import re
 import tempfile
 import sys
 
@@ -40,6 +41,7 @@ from generate_common import (
     LANGUAGES,
     split_passage_into_sentences,
     mp3_duration_ms,
+    assign_word_ids,
 )
 
 
@@ -117,10 +119,12 @@ async def generate_chapter_audio(input_path):
 
     count = 0
 
-    for i, w in enumerate(words, start=1):
+    # Assign stable word IDs (preserve existing IDs where traditional matches)
+    assigned = assign_word_ids(book_id, chapter_id, words)
+
+    for word_id, w in assigned:
         word = w["traditional"]
-        context = w["context"]
-        word_id = f"b{book_id}_ch{chapter_id}_w{i:03d}"
+        context = w.get("context", "")
 
         for lang_name, lang_config in LANGUAGES.items():
             voice = lang_config["voice"]
@@ -156,6 +160,22 @@ async def generate_chapter_audio(input_path):
 
         if not context:
             print(f"       (no sentence MP3 for {word} - no context)")
+
+    # --- Clean up orphaned audio files from removed words ---
+    current_ids = {wid for wid, _ in assigned}
+    orphan_count = 0
+    for f in os.listdir(audio_dir):
+        if not f.endswith(".mp3"):
+            continue
+        # Extract word ID prefix: b01_ch01_w001 from b01_ch01_w001_m_isolated.mp3
+        match = re.match(r"^(b\d{2}_ch\d{2}_w\d{3})_", f)
+        if match:
+            prefix = match.group(1)
+            if prefix not in current_ids:
+                os.remove(os.path.join(audio_dir, f))
+                orphan_count += 1
+    if orphan_count > 0:
+        print(f"[INFO] Cleaned {orphan_count} orphaned audio file(s) from removed words")
 
     print()
     print("=" * 60)
