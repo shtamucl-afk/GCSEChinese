@@ -16,8 +16,8 @@
       "simplified": "乡下",
       "english": "countryside",
       "pinyin": "xiāng xià",
-      "contextSentence": "三上 ： 木瓜樹（第三十八頁）\n\n在鄉下的表叔家，我第一次見到木瓜樹。",
-      "contextSentenceSimplified": "三上 ： 木瓜树（第三十八页）\n\n在乡下的表叔家，我第一次见到木瓜树。",
+      "contextSentence": "在鄉下的表叔家，我第一次見到木瓜樹。",
+      "contextSentenceSimplified": "在乡下的表叔家，我第一次见到木瓜树。",
       "audio": {
         "mandarin": {
           "isolated": "audio/book04/chapter14/b04_ch14_w001_m_isolated.mp3",
@@ -33,7 +33,7 @@
       "id": "b04_ch14_w002",
       "traditional": "藤蔓",
       "simplified": "藤蔓",
-      "english": "vines",
+      "english": "vine",
       "pinyin": "téng wàn",
       "contextSentence": "在看到木瓜樹之前，我以為木瓜也是像西瓜一樣生長在地裏的，或者像黃瓜一樣長在藤蔓上。",
       "contextSentenceSimplified": "在看到木瓜树之前，我以为木瓜也是像西瓜一样生长在地里的，或者像黄瓜一样长在藤蔓上。",
@@ -71,7 +71,7 @@
       "id": "b04_ch14_w004",
       "traditional": "鋸齒",
       "simplified": "锯齿",
-      "english": "serrated edges",
+      "english": "serrated edge",
       "pinyin": "jù chǐ",
       "contextSentence": "葉子非常好看，綠綠的，帶有鋸齒，葉紋清晰可見，既像巨大的手掌，又好像一把把大蒲扇。",
       "contextSentenceSimplified": "叶子非常好看，绿绿的，带有锯齿，叶纹清晰可见，既像巨大的手掌，又好像一把把大蒲扇。",
@@ -128,7 +128,7 @@
       "id": "b04_ch14_w007",
       "traditional": "撐開",
       "simplified": "撑开",
-      "english": "opened",
+      "english": "spread open",
       "pinyin": "chēng kāi",
       "contextSentence": "因為它的葉子、果實都是長在樹頂，所以遠遠看去好像一把撐開的大傘。",
       "contextSentenceSimplified": "因为它的叶子、果实都是长在树顶，所以远远看去好像一把撑开的大伞。",
@@ -147,7 +147,7 @@
       "id": "b04_ch14_w008",
       "traditional": "散發",
       "simplified": "散发",
-      "english": "emits",
+      "english": "give off",
       "pinyin": "sàn fā",
       "contextSentence": "木瓜樹的花是淡黃色的，小小的，散發着淡淡的清香。",
       "contextSentenceSimplified": "木瓜树的花是淡黄色的，小小的，散发着淡淡的清香。",
@@ -185,7 +185,7 @@
       "id": "b04_ch14_w010",
       "traditional": "欖球",
       "simplified": "榄球",
-      "english": "rugby balls",
+      "english": "rugby ball",
       "pinyin": "lǎn qiú",
       "contextSentence": "木瓜是長圓形的，好像一個個欖球。",
       "contextSentenceSimplified": "木瓜是长圆形的，好像一个个榄球。",
@@ -258,10 +258,29 @@
       }
     },
     {
+      "id": "b04_ch14_w023",
+      "traditional": "一粒粒",
+      "simplified": "一粒粒",
+      "english": "each one",
+      "pinyin": "yī lì lì",
+      "contextSentence": "切開來，會發現裏面有橘黃色的果肉和很多黑色的小籽，木瓜籽的外面有層透明的薄膜，一粒粒好像烏黑發亮的小眼睛。",
+      "contextSentenceSimplified": "切开来，会发现里面有橘黄色的果肉和很多黑色的小籽，木瓜籽的外面有层透明的薄膜，一粒粒好像乌黑发亮的小眼睛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter14/b04_ch14_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter14/b04_ch14_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
       "id": "b04_ch14_w015",
       "traditional": "素有",
       "simplified": "素有",
-      "english": "has long been known as",
+      "english": "have long been known as",
       "pinyin": "sù yǒu",
       "contextSentence": "木瓜素有『萬壽果』的稱號，含豐富維他命C、胡蘿蔔素以及蛋白酶，據說多喫可以延年益壽。",
       "contextSentenceSimplified": "木瓜素有『万寿果』的称号，含丰富维他命C、胡萝卜素以及蛋白酶，据说多吃可以延年益寿。",
@@ -311,25 +330,6 @@
         "cantonese": {
           "isolated": "audio/book04/chapter14/b04_ch14_w017_c_isolated.mp3",
           "sentence": "audio/book04/chapter14/b04_ch14_w017_c_sentence.mp3"
-        }
-      }
-    },
-    {
-      "id": "b04_ch14_w022",
-      "traditional": "甜品",
-      "simplified": "甜品",
-      "english": "dessert",
-      "pinyin": "tián pǐn",
-      "contextSentence": "它的果肉非常厚實、香氣濃鬱，喫一口軟軟的，如果加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。",
-      "contextSentenceSimplified": "它的果肉非常厚实、香气浓郁，吃一口软软的，如果加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。",
-      "audio": {
-        "mandarin": {
-          "isolated": "audio/book04/chapter14/b04_ch14_w022_m_isolated.mp3",
-          "sentence": "audio/book04/chapter14/b04_ch14_w022_m_sentence.mp3"
-        },
-        "cantonese": {
-          "isolated": "audio/book04/chapter14/b04_ch14_w022_c_isolated.mp3",
-          "sentence": "audio/book04/chapter14/b04_ch14_w022_c_sentence.mp3"
         }
       }
     },
@@ -394,7 +394,7 @@
       "id": "b04_ch14_w021",
       "traditional": "炎炎夏日",
       "simplified": "炎炎夏日",
-      "english": "scorching summer days",
+      "english": "scorching summer",
       "pinyin": "yán yán xià rì",
       "contextSentence": "它的果肉非常厚實、香氣濃鬱，喫一口軟軟的，如果加入椰汁做成甜品食用，也是炎炎夏日中不錯的享受。",
       "contextSentenceSimplified": "它的果肉非常厚实、香气浓郁，吃一口软软的，如果加入椰汁做成甜品食用，也是炎炎夏日中不错的享受。",
