@@ -11,8 +11,8 @@
   ],
   "vocab": [
     {
-      "id": "b05_ch01_w001",
-      "traditional": "天气",
+      "id": "b05_ch01_w003",
+      "traditional": "天氣",
       "simplified": "天气",
       "english": "weather",
       "pinyin": "tiān qì",
@@ -20,12 +20,12 @@
       "contextSentenceSimplified": "今天天气很好。",
       "audio": {
         "mandarin": {
-          "isolated": "audio/book05/chapter01/b05_ch01_w001_m_isolated.mp3",
-          "sentence": "audio/book05/chapter01/b05_ch01_w001_m_sentence.mp3"
+          "isolated": "audio/book05/chapter01/b05_ch01_w003_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w003_m_sentence.mp3"
         },
         "cantonese": {
-          "isolated": "audio/book05/chapter01/b05_ch01_w001_c_isolated.mp3",
-          "sentence": "audio/book05/chapter01/b05_ch01_w001_c_sentence.mp3"
+          "isolated": "audio/book05/chapter01/b05_ch01_w003_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w003_c_sentence.mp3"
         }
       }
     },
