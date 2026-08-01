@@ -1,0 +1,844 @@
+{
+  "bookId": "04",
+  "chapterId": "15",
+  "chapterTitle": "大象",
+  "chapterTitleSimplified": "大象",
+  "passages": [
+    "三上 ： 大象（第四十頁）\n\n我最喜歡的動物是大象，每次到動物園我都會去大象館裡餵大象，牠們既穩重又溫順，是動物園裡最受歡迎的動物之一。 大象長著大大的耳朵，好像兩個大蒲扇。雄象則長著長長的牙齒，好像即將吹響的號角。\n\n大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。牠的鼻子作用可不小，起著賂膊和手指的作用，能夠攝取水和食物送入口中，還可以像浴室裡的花灑頭一樣給自己洗澡呢！\n\n聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。別看牠們身形龐大，卻從不傷害小動物，而且牠們是吃植物，比如樹葉、野草和水果、蔬菜等。我們在動物園見到大象一直在吃東西，後來我才知道大象的食量驚人，每天要吞食50公斤以上的食物呢。對於大象來說，牙齒的任務就是晝夜不停地咀嚼食物。 大象性格溫順，跟人類相處得十分友好。如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。\n\n這就是我最喜歡的動物——大象。"
+  ],
+  "passagesSimplified": [
+    "三上 ： 大象（第四十页）\n\n我最喜欢的动物是大象，每次到动物园我都会去大象馆里喂大象，牠们既稳重又温顺，是动物园里最受欢迎的动物之一。 大象长著大大的耳朵，好像两个大蒲扇。雄象则长著长长的牙齿，好像即将吹响的号角。\n\n大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。牠的鼻子作用可不小，起著赂膊和手指的作用，能够摄取水和食物送入口中，还可以像浴室里的花洒头一样给自己洗澡呢！\n\n听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。别看牠们身形庞大，却从不伤害小动物，而且牠们是吃植物，比如树叶、野草和水果、蔬菜等。我们在动物园见到大象一直在吃东西，后来我才知道大象的食量惊人，每天要吞食50公斤以上的食物呢。对于大象来说，牙齿的任务就是昼夜不停地咀嚼食物。 大象性格温顺，跟人类相处得十分友好。如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。\n\n这就是我最喜欢的动物——大象。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch15_w001",
+      "traditional": "穩重",
+      "simplified": "稳重",
+      "english": "steady",
+      "pinyin": "wěn zhòng",
+      "contextSentence": "三上 ： 大象（第四十頁）\n\n我最喜歡的動物是大象，每次到動物園我都會去大象館裡餵大象，牠們既穩重又溫順，是動物園裡最受歡迎的動物之一。",
+      "contextSentenceSimplified": "三上 ： 大象（第四十页）\n\n我最喜欢的动物是大象，每次到动物园我都会去大象馆里喂大象，牠们既稳重又温顺，是动物园里最受欢迎的动物之一。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w002",
+      "traditional": "溫順",
+      "simplified": "温顺",
+      "english": "gentle",
+      "pinyin": "wēn shùn",
+      "contextSentence": "三上 ： 大象（第四十頁）\n\n我最喜歡的動物是大象，每次到動物園我都會去大象館裡餵大象，牠們既穩重又溫順，是動物園裡最受歡迎的動物之一。",
+      "contextSentenceSimplified": "三上 ： 大象（第四十页）\n\n我最喜欢的动物是大象，每次到动物园我都会去大象馆里喂大象，牠们既稳重又温顺，是动物园里最受欢迎的动物之一。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w003",
+      "traditional": "蒲扇",
+      "simplified": "蒲扇",
+      "english": "palm-leaf fan",
+      "pinyin": "pú shàn",
+      "contextSentence": "大象長著大大的耳朵，好像兩個大蒲扇。",
+      "contextSentenceSimplified": "大象长著大大的耳朵，好像两个大蒲扇。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w004",
+      "traditional": "雄象",
+      "simplified": "雄象",
+      "english": "male elephant",
+      "pinyin": "xióng xiàng",
+      "contextSentence": "雄象則長著長長的牙齒，好像即將吹響的號角。",
+      "contextSentenceSimplified": "雄象则长著长长的牙齿，好像即将吹响的号角。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w005",
+      "traditional": "即將",
+      "simplified": "即将",
+      "english": "about to",
+      "pinyin": "jí jiāng",
+      "contextSentence": "雄象則長著長長的牙齒，好像即將吹響的號角。",
+      "contextSentenceSimplified": "雄象则长著长长的牙齿，好像即将吹响的号角。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w006",
+      "traditional": "號角",
+      "simplified": "号角",
+      "english": "horn",
+      "pinyin": "hào jiǎo",
+      "contextSentence": "雄象則長著長長的牙齒，好像即將吹響的號角。",
+      "contextSentenceSimplified": "雄象则长著长长的牙齿，好像即将吹响的号角。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w007",
+      "traditional": "四肢",
+      "simplified": "四肢",
+      "english": "four limbs",
+      "pinyin": "sì zhī",
+      "contextSentence": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+      "contextSentenceSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w008",
+      "traditional": "圓柱",
+      "simplified": "圆柱",
+      "english": "round pillar",
+      "pinyin": "yuán zhù",
+      "contextSentence": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+      "contextSentenceSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w009",
+      "traditional": "支撐",
+      "simplified": "支撑",
+      "english": "support",
+      "pinyin": "zhī chēng",
+      "contextSentence": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+      "contextSentenceSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w010",
+      "traditional": "泥濘",
+      "simplified": "泥泞",
+      "english": "muddy",
+      "pinyin": "ní nìng",
+      "contextSentence": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+      "contextSentenceSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w011",
+      "traditional": "穩步",
+      "simplified": "稳步",
+      "english": "steadily",
+      "pinyin": "wěn bù",
+      "contextSentence": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+      "contextSentenceSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w012",
+      "traditional": "呈",
+      "simplified": "呈",
+      "english": "is",
+      "pinyin": "chéng",
+      "contextSentence": "大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。",
+      "contextSentenceSimplified": "大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w013",
+      "traditional": "圓筒狀",
+      "simplified": "圆筒状",
+      "english": "cylindrical",
+      "pinyin": "yuán tǒng zhuàng",
+      "contextSentence": "大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。",
+      "contextSentenceSimplified": "大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w014",
+      "traditional": "伸屈自如",
+      "simplified": "伸屈自如",
+      "english": "flexible",
+      "pinyin": "shēn qū zì rú",
+      "contextSentence": "大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。",
+      "contextSentenceSimplified": "大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w015",
+      "traditional": "指狀",
+      "simplified": "指状",
+      "english": "finger-like",
+      "pinyin": "zhǐ zhuàng",
+      "contextSentence": "大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。",
+      "contextSentenceSimplified": "大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w016",
+      "traditional": "攝取",
+      "simplified": "摄取",
+      "english": "pick up",
+      "pinyin": "shè qǔ",
+      "contextSentence": "牠的鼻子作用可不小，起著賂膊和手指的作用，能夠攝取水和食物送入口中，還可以像浴室裡的花灑頭一樣給自己洗澡呢！",
+      "contextSentenceSimplified": "牠的鼻子作用可不小，起著赂膊和手指的作用，能够摄取水和食物送入口中，还可以像浴室里的花洒头一样给自己洗澡呢！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w017",
+      "traditional": "棲息",
+      "simplified": "栖息",
+      "english": "inhabit",
+      "pinyin": "qī xī",
+      "contextSentence": "聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。",
+      "contextSentenceSimplified": "听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w018",
+      "traditional": "叢林",
+      "simplified": "丛林",
+      "english": "jungle",
+      "pinyin": "cóng lín",
+      "contextSentence": "聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。",
+      "contextSentenceSimplified": "听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w019",
+      "traditional": "河谷",
+      "simplified": "河谷",
+      "english": "valley",
+      "pinyin": "hé gǔ",
+      "contextSentence": "聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。",
+      "contextSentenceSimplified": "听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w020",
+      "traditional": "羣居",
+      "simplified": "群居",
+      "english": "group-living",
+      "pinyin": "qún jū",
+      "contextSentence": "聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。",
+      "contextSentenceSimplified": "听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w021",
+      "traditional": "龐大",
+      "simplified": "庞大",
+      "english": "huge",
+      "pinyin": "páng dà",
+      "contextSentence": "別看牠們身形龐大，卻從不傷害小動物，而且牠們是吃植物，比如樹葉、野草和水果、蔬菜等。",
+      "contextSentenceSimplified": "别看牠们身形庞大，却从不伤害小动物，而且牠们是吃植物，比如树叶、野草和水果、蔬菜等。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w022",
+      "traditional": "食量",
+      "simplified": "食量",
+      "english": "appetite",
+      "pinyin": "shí liàng",
+      "contextSentence": "我們在動物園見到大象一直在吃東西，後來我才知道大象的食量驚人，每天要吞食50公斤以上的食物呢。",
+      "contextSentenceSimplified": "我们在动物园见到大象一直在吃东西，后来我才知道大象的食量惊人，每天要吞食50公斤以上的食物呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w023",
+      "traditional": "驚人",
+      "simplified": "惊人",
+      "english": "astonishing",
+      "pinyin": "jīng rén",
+      "contextSentence": "我們在動物園見到大象一直在吃東西，後來我才知道大象的食量驚人，每天要吞食50公斤以上的食物呢。",
+      "contextSentenceSimplified": "我们在动物园见到大象一直在吃东西，后来我才知道大象的食量惊人，每天要吞食50公斤以上的食物呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w024",
+      "traditional": "吞食",
+      "simplified": "吞食",
+      "english": "swallow",
+      "pinyin": "tūn shí",
+      "contextSentence": "我們在動物園見到大象一直在吃東西，後來我才知道大象的食量驚人，每天要吞食50公斤以上的食物呢。",
+      "contextSentenceSimplified": "我们在动物园见到大象一直在吃东西，后来我才知道大象的食量惊人，每天要吞食50公斤以上的食物呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w025",
+      "traditional": "晝夜",
+      "simplified": "昼夜",
+      "english": "day and night",
+      "pinyin": "zhòu yè",
+      "contextSentence": "對於大象來說，牙齒的任務就是晝夜不停地咀嚼食物。",
+      "contextSentenceSimplified": "对于大象来说，牙齿的任务就是昼夜不停地咀嚼食物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w025_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w025_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w025_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w026",
+      "traditional": "咀嚼",
+      "simplified": "咀嚼",
+      "english": "chew",
+      "pinyin": "jǔ jué",
+      "contextSentence": "對於大象來說，牙齒的任務就是晝夜不停地咀嚼食物。",
+      "contextSentenceSimplified": "对于大象来说，牙齿的任务就是昼夜不停地咀嚼食物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w026_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w026_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w026_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w026_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w027",
+      "traditional": "馴化",
+      "simplified": "驯化",
+      "english": "tamed",
+      "pinyin": "xún huà",
+      "contextSentence": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+      "contextSentenceSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w027_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w027_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w027_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w027_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w028",
+      "traditional": "騎乘",
+      "simplified": "骑乘",
+      "english": "ride",
+      "pinyin": "qí chéng",
+      "contextSentence": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+      "contextSentenceSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w028_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w028_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w028_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w028_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w029",
+      "traditional": "刻苦耐勞",
+      "simplified": "刻苦耐劳",
+      "english": "hardworking",
+      "pinyin": "kè kǔ nài láo",
+      "contextSentence": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+      "contextSentenceSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w029_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w029_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w029_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w029_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w030",
+      "traditional": "伐木",
+      "simplified": "伐木",
+      "english": "logging",
+      "pinyin": "fá mù",
+      "contextSentence": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+      "contextSentenceSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w030_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w030_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w030_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w030_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch15_w031",
+      "traditional": "吊車",
+      "simplified": "吊车",
+      "english": "crane",
+      "pinyin": "diào chē",
+      "contextSentence": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+      "contextSentenceSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w031_m_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w031_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter15/b04_ch15_w031_c_isolated.mp3",
+          "sentence": "audio/book04/chapter15/b04_ch15_w031_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter15/b04_ch15_p01_m.mp3",
+        "durationMs": 119040,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3288,
+            "text": "三上 ： 大象（第四十頁）",
+            "textSimplified": "三上 ： 大象（第四十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3288,
+            "endMs": 15288,
+            "text": "我最喜歡的動物是大象，每次到動物園我都會去大象館裡餵大象，牠們既穩重又溫順，是動物園裡最受歡迎的動物之一。",
+            "textSimplified": "我最喜欢的动物是大象，每次到动物园我都会去大象馆里喂大象，牠们既稳重又温顺，是动物园里最受欢迎的动物之一。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 15288,
+            "endMs": 19704,
+            "text": "大象長著大大的耳朵，好像兩個大蒲扇。",
+            "textSimplified": "大象长著大大的耳朵，好像两个大蒲扇。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 19704,
+            "endMs": 25080,
+            "text": "雄象則長著長長的牙齒，好像即將吹響的號角。",
+            "textSimplified": "雄象则长著长长的牙齿，好像即将吹响的号角。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25080,
+            "endMs": 35928,
+            "text": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+            "textSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 35928,
+            "endMs": 45312,
+            "text": "大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。",
+            "textSimplified": "大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 45312,
+            "endMs": 57384,
+            "text": "牠的鼻子作用可不小，起著賂膊和手指的作用，能夠攝取水和食物送入口中，還可以像浴室裡的花灑頭一樣給自己洗澡呢！",
+            "textSimplified": "牠的鼻子作用可不小，起著赂膊和手指的作用，能够摄取水和食物送入口中，还可以像浴室里的花洒头一样给自己洗澡呢！"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 57384,
+            "endMs": 67776,
+            "text": "聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。",
+            "textSimplified": "听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 67776,
+            "endMs": 79080,
+            "text": "別看牠們身形龐大，卻從不傷害小動物，而且牠們是吃植物，比如樹葉、野草和水果、蔬菜等。",
+            "textSimplified": "别看牠们身形庞大，却从不伤害小动物，而且牠们是吃植物，比如树叶、野草和水果、蔬菜等。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 79080,
+            "endMs": 90000,
+            "text": "我們在動物園見到大象一直在吃東西，後來我才知道大象的食量驚人，每天要吞食50公斤以上的食物呢。",
+            "textSimplified": "我们在动物园见到大象一直在吃东西，后来我才知道大象的食量惊人，每天要吞食50公斤以上的食物呢。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 90000,
+            "endMs": 95832,
+            "text": "對於大象來說，牙齒的任務就是晝夜不停地咀嚼食物。",
+            "textSimplified": "对于大象来说，牙齿的任务就是昼夜不停地咀嚼食物。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 95832,
+            "endMs": 100368,
+            "text": "大象性格溫順，跟人類相處得十分友好。",
+            "textSimplified": "大象性格温顺，跟人类相处得十分友好。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 100368,
+            "endMs": 115560,
+            "text": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+            "textSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 115560,
+            "endMs": 119040,
+            "text": "這就是我最喜歡的動物——大象。",
+            "textSimplified": "这就是我最喜欢的动物——大象。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter15/b04_ch15_p01_c.mp3",
+        "durationMs": 119136,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3720,
+            "text": "三上 ： 大象（第四十頁）",
+            "textSimplified": "三上 ： 大象（第四十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3720,
+            "endMs": 15384,
+            "text": "我最喜歡的動物是大象，每次到動物園我都會去大象館裡餵大象，牠們既穩重又溫順，是動物園裡最受歡迎的動物之一。",
+            "textSimplified": "我最喜欢的动物是大象，每次到动物园我都会去大象馆里喂大象，牠们既稳重又温顺，是动物园里最受欢迎的动物之一。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 15384,
+            "endMs": 20640,
+            "text": "大象長著大大的耳朵，好像兩個大蒲扇。",
+            "textSimplified": "大象长著大大的耳朵，好像两个大蒲扇。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 20640,
+            "endMs": 26328,
+            "text": "雄象則長著長長的牙齒，好像即將吹響的號角。",
+            "textSimplified": "雄象则长著长长的牙齿，好像即将吹响的号角。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 26328,
+            "endMs": 37032,
+            "text": "大象的四肢特別粗大，如同四根結實的圓柱，支撐起牠巨大的身體，令牠可以在泥濘的道路上穩步前行。",
+            "textSimplified": "大象的四肢特别粗大，如同四根结实的圆柱，支撑起牠巨大的身体，令牠可以在泥泞的道路上稳步前行。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 37032,
+            "endMs": 46248,
+            "text": "大象的鼻子非常長，呈圓筒狀，伸屈自如，鼻尖有指狀的肌肉，能夠幫助牠撿拾食物。",
+            "textSimplified": "大象的鼻子非常长，呈圆筒状，伸屈自如，鼻尖有指状的肌肉，能够帮助牠捡拾食物。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 46248,
+            "endMs": 58200,
+            "text": "牠的鼻子作用可不小，起著賂膊和手指的作用，能夠攝取水和食物送入口中，還可以像浴室裡的花灑頭一樣給自己洗澡呢！",
+            "textSimplified": "牠的鼻子作用可不小，起著赂膊和手指的作用，能够摄取水和食物送入口中，还可以像浴室里的花洒头一样给自己洗澡呢！"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 58200,
+            "endMs": 68064,
+            "text": "聽說大象棲息在叢林、草原和河谷地帶，牠們喜歡羣居，小象出生以後也是跟象媽媽生活在一起。",
+            "textSimplified": "听说大象栖息在丛林、草原和河谷地带，牠们喜欢群居，小象出生以后也是跟象妈妈生活在一起。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 68064,
+            "endMs": 78312,
+            "text": "別看牠們身形龐大，卻從不傷害小動物，而且牠們是吃植物，比如樹葉、野草和水果、蔬菜等。",
+            "textSimplified": "别看牠们身形庞大，却从不伤害小动物，而且牠们是吃植物，比如树叶、野草和水果、蔬菜等。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 78312,
+            "endMs": 88824,
+            "text": "我們在動物園見到大象一直在吃東西，後來我才知道大象的食量驚人，每天要吞食50公斤以上的食物呢。",
+            "textSimplified": "我们在动物园见到大象一直在吃东西，后来我才知道大象的食量惊人，每天要吞食50公斤以上的食物呢。"
+          },
+          {
+            "index": 10,
+            "paragraph": 6,
+            "startMs": 88824,
+            "endMs": 94992,
+            "text": "對於大象來說，牙齒的任務就是晝夜不停地咀嚼食物。",
+            "textSimplified": "对于大象来说，牙齿的任务就是昼夜不停地咀嚼食物。"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 94992,
+            "endMs": 100224,
+            "text": "大象性格溫順，跟人類相處得十分友好。",
+            "textSimplified": "大象性格温顺，跟人类相处得十分友好。"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 100224,
+            "endMs": 115176,
+            "text": "如泰國等地，很多大象被馴化，供人騎乘或幫助人類工作，牠們刻苦耐勞，如果幫助伐木的話，用鼻子輕輕一捲，就能像吊車一樣把粗木頭捲起來。",
+            "textSimplified": "如泰国等地，很多大象被驯化，供人骑乘或帮助人类工作，牠们刻苦耐劳，如果帮助伐木的话，用鼻子轻轻一卷，就能像吊车一样把粗木头卷起来。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 115176,
+            "endMs": 119136,
+            "text": "這就是我最喜歡的動物——大象。",
+            "textSimplified": "这就是我最喜欢的动物——大象。"
+          }
+        ]
+      }
+    }
+  ]
+}
