@@ -686,6 +686,9 @@
       Excluded: { label: '\ud83d\udeab Excluded' },
     };
     const REVIEW_LABEL = 'Review';
+    const NOTEBOOK_BOOK_ID = '99';
+    const NOTEBOOK_DEFAULT_PAGE = '01';
+    const NOTEBOOK_DEFAULT_PAGE_TITLE = 'Page 1';
 
     // ------------------------------------------------------------------
     // Global state
@@ -693,6 +696,8 @@
     let studentProgress = {};
     let studentExcluded = [];
     let studentSentences = {};
+    let notebookData = {};
+    let notebookPages = { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
     let allBooks = [];
     let currentBookId = null;
     let bookVocab = {};
@@ -809,14 +814,19 @@
           studentProgress = data.progress || {};
           studentExcluded = data.excluded || [];
           studentSentences = data.sentences || {};
+          notebookData = data.notebook || {};
+          notebookPages = data.notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
           console.log('Loaded progress for ' + student + ':',
                       Object.keys(studentProgress).length, 'progress entries;',
                       studentExcluded.length, 'excluded;',
-                      Object.keys(studentSentences).length, 'sentences.');
+                      Object.keys(studentSentences).length, 'sentences;',
+                      Object.keys(notebookData).length, 'notebook words.');
         } else {
           studentProgress = {};
           studentExcluded = [];
           studentSentences = {};
+          notebookData = {};
+          notebookPages = { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
           console.log('No progress doc for ' + student + ' - all defaults.');
         }
       } catch (err) {
@@ -824,6 +834,8 @@
         studentProgress = {};
         studentExcluded = [];
         studentSentences = {};
+        notebookData = {};
+        notebookPages = { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
       }
     }
 
@@ -842,6 +854,16 @@
     }
 
     async function loadChaptersIndexForBook(bookId) {
+      if (bookId === NOTEBOOK_BOOK_ID) {
+        const pages = notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+        bookChapters[bookId] = Object.entries(pages).map(([pageId, page]) => ({
+          id: pageId,
+          title: page.title || `Page ${parseInt(pageId, 10)}`,
+          wordCount: Object.values(notebookData).filter(e => (e.pageId || '01') === pageId).length
+        }));
+        console.log('Loaded notebook chapters for ' + student + ': ' + bookChapters[bookId].length + ' page(s).');
+        return;
+      }
       try {
         const response = await fetch('data/book' + bookId + '/chapters-index.json');
         if (!response.ok) throw new Error('HTTP ' + response.status);
@@ -855,6 +877,25 @@
     }
 
     async function loadAllChapterVocabForBook(bookId) {
+      if (bookId === NOTEBOOK_BOOK_ID) {
+        const grouped = {};
+        Object.entries(notebookData).forEach(([wordId, entry]) => {
+          const pageId = entry.pageId || '01';
+          if (!grouped[pageId]) grouped[pageId] = [];
+          grouped[pageId].push({
+            id: wordId,
+            traditional: entry.traditional,
+            simplified: entry.simplified,
+            english: entry.english,
+            pinyin: entry.pinyin,
+            contextSentence: entry.contextSentence,
+            contextSentenceSimplified: entry.contextSentenceSimplified,
+            audio: entry.audio
+          });
+        });
+        bookVocab[bookId] = grouped;
+        return;
+      }
       const chapters = bookChapters[bookId] || [];
       bookVocab[bookId] = {};
       for (const ch of chapters) {
@@ -1032,6 +1073,41 @@
       }
     }
 
+    async function addCurriculumWordToNotebook(word) {
+      const entry = {
+        traditional: word.traditional,
+        simplified: word.simplified,
+        english: word.english,
+        pinyin: word.pinyin,
+        contextSentence: word.contextSentence,
+        contextSentenceSimplified: word.contextSentenceSimplified,
+        audio: word.audio,
+        pageId: NOTEBOOK_DEFAULT_PAGE,
+        source: 'curriculum',
+        savedAt: firebase.firestore.FieldValue.serverTimestamp()
+      };
+      try {
+        await saveNotebookWord(student, entry);
+        notebookData = await loadNotebook(student);
+        showToast('Added to My Notebook', 'success');
+      } catch (err) {
+        console.error('Failed to add word to notebook:', err);
+        showToast('Failed to add to notebook', 'error');
+      }
+    }
+
+    async function removeNotebookWordAndRefresh(wordId) {
+      try {
+        await removeNotebookWord(student, wordId);
+        notebookData = await loadNotebook(student);
+        await selectBook(NOTEBOOK_BOOK_ID);
+        showToast('Removed from My Notebook', 'success');
+      } catch (err) {
+        console.error('Failed to remove notebook word:', err);
+        showToast('Failed to remove from notebook', 'error');
+      }
+    }
+
     async function includeAllInPractice(vocab) {
       const wordIds = vocab.map(w => w.id);
       if (wordIds.length === 0) return;
@@ -1156,6 +1232,11 @@
       document.querySelectorAll('#books-list-container li').forEach(li => {
         li.classList.toggle('selected', li.dataset.bookId === bookId);
       });
+
+      if (bookId === NOTEBOOK_BOOK_ID) {
+        notebookData = await loadNotebook(student);
+        notebookPages = await loadNotebookPages(student);
+      }
 
       if (!bookChapters[bookId]) await loadChaptersIndexForBook(bookId);
       if (!bookVocab[bookId]) await loadAllChapterVocabForBook(bookId);
@@ -1447,13 +1528,15 @@
       const h2 = document.createElement('h2');
       h2.textContent = 'Chapter ' + chapterData.chapterId + ': ' + chapterData.chapterTitle;
       header.appendChild(h2);
-      const passagesLink = document.createElement('a');
-      passagesLink.className = 'show-passages-link';
-      passagesLink.textContent = '\ud83d\udcd6 Show Passages';
-      passagesLink.href = 'passages.html?book=' + encodeURIComponent(currentBookId) +
-                          '&chapter=' + encodeURIComponent(chapterData.chapterId) +
-                          '&student=' + encodeURIComponent(student);
-      header.appendChild(passagesLink);
+      if (currentBookId !== NOTEBOOK_BOOK_ID) {
+        const passagesLink = document.createElement('a');
+        passagesLink.className = 'show-passages-link';
+        passagesLink.textContent = '\ud83d\udcd6 Show Passages';
+        passagesLink.href = 'passages.html?book=' + encodeURIComponent(currentBookId) +
+                            '&chapter=' + encodeURIComponent(chapterData.chapterId) +
+                            '&student=' + encodeURIComponent(student);
+        header.appendChild(passagesLink);
+      }
       stickyTop.appendChild(header);
 
       // Practice pool
@@ -1784,6 +1867,22 @@
           headerDl.appendChild(dd);
         });
         detailsCard.appendChild(headerDl);
+
+        const notebookActionRow = document.createElement('div');
+        notebookActionRow.className = 'details-sentence-row';
+        notebookActionRow.style.borderTop = '1px solid rgba(30, 58, 95, 0.15)';
+        notebookActionRow.style.paddingTop = '14px';
+        const notebookActionBtn = document.createElement('button');
+        notebookActionBtn.className = 'details-btn';
+        if (currentBookId === NOTEBOOK_BOOK_ID) {
+          notebookActionBtn.textContent = '\ud83d\uddd1 Remove from My Notebook';
+          notebookActionBtn.addEventListener('click', () => removeNotebookWordAndRefresh(word.id));
+        } else {
+          notebookActionBtn.textContent = '\u2795 Add to My Notebook';
+          notebookActionBtn.addEventListener('click', () => addCurriculumWordToNotebook(word));
+        }
+        notebookActionRow.appendChild(notebookActionBtn);
+        detailsCard.appendChild(notebookActionRow);
 
         const compareRow = document.createElement('div');
         compareRow.className = 'details-compare-row';

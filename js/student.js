@@ -171,3 +171,49 @@ async function handleStudentDropdownChange(selectEl) {
     }
 }
 
+// ------------------------------------------------------------------
+// My Notebook helpers
+// ------------------------------------------------------------------
+const NOTEBOOK_BOOK_ID = '99';
+const NOTEBOOK_DEFAULT_PAGE = '01';
+const NOTEBOOK_DEFAULT_PAGE_TITLE = 'Page 1';
+
+function sanitizeStudentName(name) {
+    return name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_\u4e00-\u9fff]/g, '');
+}
+
+function notebookWordId(student, traditional) {
+    const safeStudent = sanitizeStudentName(student);
+    const safeWord = String(traditional).replace(/[^\u4e00-\u9fff]/g, '');
+    return `nb_${safeStudent}_${safeWord}`;
+}
+
+async function loadNotebook(student) {
+    const doc = await db.collection('students').doc(student).get();
+    if (!doc.exists) return {};
+    return doc.data().notebook || {};
+}
+
+async function loadNotebookPages(student) {
+    const doc = await db.collection('students').doc(student).get();
+    if (!doc.exists) return { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+    return doc.data().notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+}
+
+async function saveNotebookWord(student, entry) {
+    const wordId = notebookWordId(student, entry.traditional);
+    entry.pageId = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
+    await db.collection('students').doc(student).set({
+        notebook: { [wordId]: entry },
+        lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+    }, { merge: true });
+    return wordId;
+}
+
+async function removeNotebookWord(student, wordId) {
+    await db.collection('students').doc(student).update({
+        [`notebook.${wordId}`]: firebase.firestore.FieldValue.delete(),
+        lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+    });
+}
+
