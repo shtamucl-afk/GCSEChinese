@@ -661,6 +661,7 @@
       if (!currentWordEntry) return '';
       const chId = currentWordEntry.chapterId;
       const chTitle = getChapterTitle(chId);
+      if (bookId === NOTEBOOK_BOOK_ID) return 'Current vocabulary is from "' + (chTitle || 'Notebook') + '"';
       return 'Current vocabulary is from "Chapter ' + chId + (chTitle ? ': ' + chTitle : '') + '"';
     }
     function getSessionCounterText() {
@@ -694,7 +695,7 @@
       const bookLine = bookMeta ? bookMeta.title : ('Book ' + bookId);
       const levelEmoji = LEVEL_META[level] ? LEVEL_META[level].emoji : '';
       const levelLabel = LEVEL_META[level] ? LEVEL_META[level].label : level;
-      const scopeSuffix = (chapterScope === 'all') ? ' - All Chapters' : (' - Chapter ' + chapterScope + ' Only');
+      const scopeSuffix = (chapterScope === 'all') ? ' - All Chapters' : (bookId === NOTEBOOK_BOOK_ID ? '' : (' - Chapter ' + chapterScope + ' Only'));
       const levelDisplay = levelEmoji + ' ' + levelLabel + ' Exercise' + scopeSuffix;
       const txt = LEVEL_TEXT[level] || { instruction: '', goal: '' };
       const currentChapterLine = getCurrentVocabularySourceText();

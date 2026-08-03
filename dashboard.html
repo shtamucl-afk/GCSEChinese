@@ -1411,7 +1411,7 @@
 
         const title = document.createElement('span');
         title.className = 'chapter-title';
-        title.textContent = 'Chapter ' + ch.id + ': ' + ch.title;
+        title.textContent = (currentBookId === NOTEBOOK_BOOK_ID) ? ch.title : ('Chapter ' + ch.id + ': ' + ch.title);
 
         const meta = document.createElement('span');
         meta.className = 'chapter-meta';
@@ -1524,7 +1524,7 @@
       const header = document.createElement('div');
       header.className = 'chapter-header';
       const h2 = document.createElement('h2');
-      h2.textContent = 'Chapter ' + chapterData.chapterId + ': ' + chapterData.chapterTitle;
+      h2.textContent = (currentBookId === NOTEBOOK_BOOK_ID) ? chapterData.chapterTitle : ('Chapter ' + chapterData.chapterId + ': ' + chapterData.chapterTitle);
       header.appendChild(h2);
       if (currentBookId !== NOTEBOOK_BOOK_ID) {
         const passagesLink = document.createElement('a');
