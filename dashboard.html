@@ -812,7 +812,8 @@
           studentExcluded = data.excluded || [];
           studentSentences = data.sentences || {};
           notebookData = data.notebook || {};
-          notebookPages = data.notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+          const rawPages = data.notebookPages;
+          notebookPages = (rawPages && Object.keys(rawPages).length > 0) ? rawPages : { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
           console.log('Loaded progress for ' + student + ':',
                       Object.keys(studentProgress).length, 'progress entries;',
                       studentExcluded.length, 'excluded;',

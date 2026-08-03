@@ -545,7 +545,8 @@
       if (bookId === NOTEBOOK_BOOK_ID) {
         const doc = await db.collection('students').doc(student).get();
         const notebook = doc.exists ? doc.data().notebook || {} : {};
-        const notebookPages = doc.exists ? doc.data().notebookPages || { '01': { title: 'Page 1' } } : { '01': { title: 'Page 1' } };
+        const rawPages = doc.exists ? doc.data().notebookPages : null;
+        const notebookPages = (rawPages && Object.keys(rawPages).length > 0) ? rawPages : { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
         const entries = Object.entries(notebook).map(([wordId, entry]) => ({ ...entry, id: wordId }));
 
         if (chapterScope === 'all') {

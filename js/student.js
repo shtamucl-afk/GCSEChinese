@@ -176,7 +176,7 @@ async function handleStudentDropdownChange(selectEl) {
 // ------------------------------------------------------------------
 const NOTEBOOK_BOOK_ID = '99';
 const NOTEBOOK_DEFAULT_PAGE = '01';
-const NOTEBOOK_DEFAULT_PAGE_TITLE = 'Page 1';
+const NOTEBOOK_DEFAULT_PAGE_TITLE = 'Main page';
 
 function sanitizeStudentName(name) {
     return name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_\u4e00-\u9fff]/g, '');
@@ -197,7 +197,8 @@ async function loadNotebook(student) {
 async function loadNotebookPages(student) {
     const doc = await db.collection('students').doc(student).get();
     if (!doc.exists) return { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
-    return doc.data().notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+    const rawPages = doc.data().notebookPages;
+    return (rawPages && Object.keys(rawPages).length > 0) ? rawPages : { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
 }
 
 async function saveNotebookWord(student, entry) {
