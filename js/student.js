@@ -198,7 +198,9 @@ async function loadNotebookPages(student) {
     const doc = await db.collection('students').doc(student).get();
     if (!doc.exists) return { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
     const rawPages = doc.data().notebookPages;
-    return (rawPages && Object.keys(rawPages).length > 0) ? rawPages : { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+    const pages = (rawPages && Object.keys(rawPages).length > 0) ? { ...rawPages } : { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
+    if (!pages['01']) pages['01'] = { title: NOTEBOOK_DEFAULT_PAGE_TITLE };
+    return pages;
 }
 
 async function saveNotebookWord(student, entry) {
