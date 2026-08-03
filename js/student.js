@@ -203,10 +203,10 @@ async function loadNotebookPages(student) {
 async function saveNotebookWord(student, entry) {
     const wordId = notebookWordId(student, entry.traditional);
     entry.pageId = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
-    await db.collection('students').doc(student).set({
-        notebook: { [wordId]: entry },
+    await db.collection('students').doc(student).update({
+        [`notebook.${wordId}`]: entry,
         lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
-    }, { merge: true });
+    });
     return wordId;
 }
 
