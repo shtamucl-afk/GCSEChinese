@@ -132,6 +132,14 @@
     .summary-item.new-page { color: #1E3A5F; font-weight: 600; }
     .summary-item.delete-page { color: #721C24; font-weight: 600; }
 
+    .status-badge {
+      display: inline-block; font-size: 0.7rem; padding: 1px 8px;
+      border-radius: 999px; margin-left: 4px; font-weight: 600;
+    }
+    .status-pending { background: #FEF3E4; color: #C4952A; }
+    .status-generated { background: #EAF6EC; color: #4E9E5A; }
+    .status-error { background: #FDECEC; color: #DB5858; }
+
     .toast {
       position: fixed; bottom: 24px; right: 24px; z-index: 2000;
       padding: 12px 20px; border-radius: 999px; font-size: 0.85rem;
@@ -189,6 +197,7 @@
     <div class="btn-row" id="actionRow" style="display:none;">
       <button class="btn btn-primary" id="processBtn">🔍 Process All Edits</button>
       <button class="btn btn-success" id="confirmBtn" style="display:none;">✅ Confirm &amp; Enrich</button>
+      <button class="btn btn-outline" id="refreshStatusBtn">🔄 Refresh Status</button>
     </div>
   </div>
 </div>
@@ -244,7 +253,7 @@
       const trimmed = line.trim();
       if (!trimmed) continue;
       const colonIdx = trimmed.indexOf(':');
-      if (colonIdx > 0) {
+      if (colonIdx > 0 && (trimmed[colonIdx] === ':' || trimmed[colonIdx] === '：')) {
         const vocab = trimmed.substring(0, colonIdx).trim();
         const ctx = trimmed.substring(colonIdx + 1).trim();
         if (/[\u4e00-\u9fff]/.test(vocab)) result.push({ vocab, context: ctx });
@@ -298,6 +307,7 @@
       groups.get(s).push(b);
     });
     groups.forEach((books, series) => {
+      books.sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99));
       const h = document.createElement('div');
       h.className = 'series-heading'; h.textContent = series;
       container.appendChild(h);
@@ -314,7 +324,10 @@
           li.appendChild(badge);
         }
         li.addEventListener('click', () => {
-          if (b.id === '99') return;
+          if (b.id === '99') {
+            window.location.href = 'dashboard.html?student=' + encodeURIComponent(student) + '&book=99';
+            return;
+          }
           window.location.href = 'dashboard.html?student=' + encodeURIComponent(student) + '&book=' + b.id;
         });
         ul.appendChild(li);
@@ -345,14 +358,17 @@
 
   // --- Save drafts to sessionStorage ---
   function saveDrafts() {
-    const drafts = {};
+    const drafts = { text: {}, checks: {}, news: [] };
     document.querySelectorAll('.page-card[data-page-id] textarea').forEach(ta => {
-      drafts[ta.dataset.pageId] = ta.value;
+      drafts.text[ta.dataset.pageId] = ta.value;
+    });
+    document.querySelectorAll('input[type="checkbox"][data-delete-page]').forEach(cb => {
+      drafts.checks[cb.dataset.deletePage] = cb.checked;
     });
     document.querySelectorAll('.page-card[data-new="true"]').forEach((card, i) => {
       const ta = card.querySelector('textarea');
       const ti = card.querySelector('input.page-title-input');
-      drafts['__new__'+i] = JSON.stringify({ title: ti ? ti.value : '', text: ta ? ta.value : '' });
+      drafts.news.push({ title: ti ? ti.value : '', text: ta ? ta.value : '' });
     });
     sessionStorage.setItem(storageKey, JSON.stringify(drafts));
   }
@@ -362,11 +378,21 @@
       const raw = sessionStorage.getItem(storageKey);
       if (!raw) return;
       const drafts = JSON.parse(raw);
-      Object.entries(drafts).forEach(([key, val]) => {
-        if (key.startsWith('__new__')) return;
-        const ta = document.querySelector('.page-card[data-page-id="'+key+'"] textarea');
-        if (ta && ta.value === ta.dataset.original) ta.value = val;
-      });
+      if (drafts.text) {
+        Object.entries(drafts.text).forEach(([key, val]) => {
+          const ta = document.querySelector('.page-card[data-page-id="'+key+'"] textarea');
+          if (ta) ta.value = val;
+        });
+      }
+      if (drafts.checks) {
+        Object.entries(drafts.checks).forEach(([key, val]) => {
+          const cb = document.querySelector('input[type="checkbox"][data-delete-page="'+key+'"]');
+          if (cb) cb.checked = val;
+        });
+      }
+      if (drafts.news && drafts.news.length) {
+        drafts.news.forEach(n => addNewPageCard(n.title, n.text));
+      }
     } catch(e) {}
   }
 
@@ -421,7 +447,7 @@
 
       const hint = document.createElement('div');
       hint.className = 'field-hint';
-      hint.textContent = 'Enter one word per line. Add ": context" for a theme.\nWords without context get AI-generated example sentences.\ne.g.\n蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
+      hint.textContent = 'Enter one word per line. Add ":" or "：" followed by context.\nWords without context get AI-generated example sentences.\ne.g.\n蘋果 : 水果\n香蕉 ： 水果\n學校\n米飯 : 午餐';
       card.appendChild(hint);
 
       container.appendChild(card);
@@ -432,7 +458,7 @@
   }
 
   // --- Add page ---
-  document.getElementById('addPageBtn').addEventListener('click', () => {
+  function addNewPageCard(title = '', text = '') {
     const container = document.getElementById('pagesEditContainer');
 
     const card = document.createElement('div');
@@ -446,6 +472,7 @@
     ti.className = 'page-title-input';
     ti.placeholder = 'Page name (e.g. Exam Prep)';
     ti.maxLength = 50;
+    ti.value = title;
     ti.style.cssText = 'font-family:inherit;font-size:0.9rem;padding:4px 8px;border:1px solid rgba(30,58,95,0.15);border-radius:4px;width:100%;max-width:280px;';
 
     const rmBtn = document.createElement('button');
@@ -459,21 +486,24 @@
 
     const ta = document.createElement('textarea');
     ta.rows = 5;
+    ta.value = text;
     ta.placeholder = '蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
     ta.addEventListener('input', saveDrafts);
     card.appendChild(ta);
 
     const hint = document.createElement('div');
     hint.className = 'field-hint';
-    hint.textContent = 'Enter one word per line. Add ": context" for a theme.\nWords without context get AI-generated sentences.';
+    hint.textContent = 'Enter one word per line. Add ":" or "：" followed by context.\nWords without context get AI-generated example sentences.\ne.g.\n蘋果 : 水果\n香蕉 ： 水果\n學校\n米飯 : 午餐';
     card.appendChild(hint);
 
     container.appendChild(card);
     document.getElementById('actionRow').style.display = 'flex';
     card.scrollIntoView({ behavior: 'smooth' });
-    ti.focus();
+    if (!title) ti.focus();
     saveDrafts();
-  });
+  }
+
+  document.getElementById('addPageBtn').addEventListener('click', () => addNewPageCard());
 
   // --- Process diff ---
   function computeDiff() {
@@ -606,7 +636,8 @@
     try {
       await executeChanges(diffs);
       document.getElementById('summaryOverlay').classList.remove('active');
-      showToast('Saved! Enrichment will begin shortly.', 'success');
+      const pendingCount = diffs.reduce((sum, d) => sum + d.added.length, 0);
+      showToast('Saved ' + pendingCount + ' word(s)! Enrichment will begin — refresh status in ~2 min.', 'success');
       renderEditCards();
       renderPagesList();
     } catch(err) {
@@ -617,6 +648,28 @@
 
   document.getElementById('confirmBtn').addEventListener('click', doConfirm);
   document.getElementById('confirmFromSummary').addEventListener('click', doConfirm);
+
+  // --- Refresh status ---
+  async function refreshStatus() {
+    try {
+      notebookData = await loadNotebook(student);
+      renderEditCards();
+      renderPagesList();
+      const counts = { pending: 0, generated: 0, error: 0 };
+      Object.values(notebookData).forEach(e => {
+        if (e.status === 'pending') counts.pending++;
+        else if (e.status === 'generated') counts.generated++;
+        else if (e.status === 'error') counts.error++;
+      });
+      let msg = 'Status refreshed. ';
+      if (counts.pending) msg += '⏳ ' + counts.pending + ' pending. ';
+      if (counts.generated) msg += '✅ ' + counts.generated + ' generated. ';
+      if (counts.error) msg += '❌ ' + counts.error + ' failed. ';
+      if (!counts.pending && !counts.error) msg += 'All complete!';
+      showToast(msg.trim(), counts.error ? 'error' : 'success');
+    } catch(e) { showToast('Refresh failed', 'error'); }
+  }
+  document.getElementById('refreshStatusBtn').addEventListener('click', refreshStatus);
 
   // --- Init ---
   async function init() {
