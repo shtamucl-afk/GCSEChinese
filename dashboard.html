@@ -1214,6 +1214,21 @@
           li.textContent = book.title;
           if (book.id === currentBookId) li.classList.add('selected');
           li.addEventListener('click', () => selectBook(book.id));
+
+          // Add edit icon for My Notebook
+          if (book.id === NOTEBOOK_BOOK_ID) {
+            const editLink = document.createElement('span');
+            editLink.textContent = ' ✏️';
+            editLink.title = 'Edit My Notebook';
+            editLink.style.cursor = 'pointer';
+            editLink.style.fontSize = '0.9em';
+            editLink.addEventListener('click', (e) => {
+              e.stopPropagation();  // don't trigger book selection
+              window.location.href = `notebook-edit.html?student=${encodeURIComponent(student)}`;
+            });
+            li.appendChild(editLink);
+          }
+
           ul.appendChild(li);
         });
 
@@ -1530,11 +1545,18 @@
       if (currentBookId !== NOTEBOOK_BOOK_ID) {
         const passagesLink = document.createElement('a');
         passagesLink.className = 'show-passages-link';
-        passagesLink.textContent = '\ud83d\udcd6 Show Passages';
+        passagesLink.textContent = '📖 Show Passages';
         passagesLink.href = 'passages.html?book=' + encodeURIComponent(currentBookId) +
                             '&chapter=' + encodeURIComponent(chapterData.chapterId) +
                             '&student=' + encodeURIComponent(student);
         header.appendChild(passagesLink);
+      } else {
+        // Notebook: add edit link
+        const editLink = document.createElement('a');
+        editLink.className = 'show-passages-link';
+        editLink.textContent = '✏️ Edit Notebook';
+        editLink.href = 'notebook-edit.html?student=' + encodeURIComponent(student);
+        header.appendChild(editLink);
       }
       stickyTop.appendChild(header);
 

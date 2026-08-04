@@ -206,17 +206,28 @@ async function loadNotebookPages(student) {
 async function saveNotebookWord(student, entry) {
     const wordId = notebookWordId(student, entry.traditional);
     entry.pageId = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
-    await db.collection('students').doc(student).update({
-        [`notebook.${wordId}`]: entry,
-        lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
-    });
+    // Read-modify-write with nested map (compatible with Streamlit/Pipeline)
+    const docRef = db.collection('students').doc(student);
+    const doc = await docRef.get();
+    const data = doc.exists ? doc.data() : {};
+    const notebook = data.notebook || {};
+    notebook[wordId] = entry;
+    data.notebook = notebook;
+    data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
+    await docRef.set(data);
     return wordId;
 }
 
 async function removeNotebookWord(student, wordId) {
-    await db.collection('students').doc(student).update({
-        [`notebook.${wordId}`]: firebase.firestore.FieldValue.delete(),
-        lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
-    });
+    // Read-modify-write with nested map (compatible with Streamlit/Pipeline)
+    const docRef = db.collection('students').doc(student);
+    const doc = await docRef.get();
+    if (!doc.exists) return;
+    const data = doc.data();
+    const notebook = data.notebook || {};
+    delete notebook[wordId];
+    data.notebook = notebook;
+    data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
+    await docRef.set(data);
 }
 
