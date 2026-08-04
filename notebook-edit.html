@@ -197,7 +197,7 @@
     <div class="btn-row" id="actionRow" style="display:none;">
       <button class="btn btn-primary" id="processBtn">🔍 Process All Edits</button>
       <button class="btn btn-success" id="confirmBtn" style="display:none;">✅ Confirm &amp; Enrich</button>
-      <button class="btn btn-outline" id="refreshStatusBtn">🔄 Refresh Status</button>
+      <button class="btn btn-outline" id="refreshStatusBtn">🔄 Check Processing Status</button>
     </div>
   </div>
 </div>
@@ -661,7 +661,7 @@
         else if (e.status === 'generated') counts.generated++;
         else if (e.status === 'error') counts.error++;
       });
-      let msg = 'Status refreshed. ';
+      let msg = 'Status checked. ';
       if (counts.pending) msg += '⏳ ' + counts.pending + ' pending. ';
       if (counts.generated) msg += '✅ ' + counts.generated + ' generated. ';
       if (counts.error) msg += '❌ ' + counts.error + ' failed. ';
