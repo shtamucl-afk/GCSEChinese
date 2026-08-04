@@ -1,220 +1,208 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit My Notebook — GCSE Chinese</title>
-    <style>
-        :root {
-            --primary: #4a90d9;
-            --danger: #d94a4a;
-            --success: #4ad97a;
-            --warning: #d9c04a;
-            --bg: #f8f9fa;
-            --card: #ffffff;
-            --text: #2c3e50;
-            --border: #dee2e6;
-            --radius: 8px;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Edit Notebook — Chinese iGCSE Vocabulary Trainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background-color: #EDE3D0;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: #1E3A5F;
+      -webkit-font-smoothing: antialiased;
+    }
+    .top-bar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 24px; background-color: #1E3A5F; color: #F5EFE6;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .top-bar-brand { display: flex; align-items: center; gap: 12px; }
+    .top-bar-brand img { height: 32px; width: 32px; border-radius: 6px; }
+    .top-bar-brand h1 { font-size: 1.1rem; font-weight: 700; margin: 0; color: #F5EFE6; }
+    .student-switcher { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; }
+    .student-switcher select {
+      font-family: inherit; font-size: 0.85rem; padding: 4px 8px;
+      border-radius: 6px; border: 1px solid rgba(245,239,230,0.3);
+      background: rgba(245,239,230,0.12); color: #F5EFE6;
+    }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            padding: 16px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
+    .main-card {
+      background-color: #F5EFE6; border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(30,58,95,0.06), 0 4px 12px rgba(30,58,95,0.04);
+      border: 1px solid rgba(30,58,95,0.08); margin: 20px;
+      display: grid; grid-template-columns: 240px 240px 1fr;
+      min-height: calc(100vh - 100px); overflow: hidden;
+    }
+    .left-panel, .middle-panel {
+      border-right: 1px solid rgba(30,58,95,0.12);
+      overflow-y: auto; padding: 16px 8px;
+    }
+    .right-panel {
+      overflow-y: auto; padding: 16px 20px;
+    }
 
-        .top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 16px;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        .top-bar h1 { font-size: 1.4em; }
-        .back-link {
-            color: var(--primary);
-            text-decoration: none;
-            font-size: 0.95em;
-        }
-        .back-link:hover { text-decoration: underline; }
+    .panel-heading {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.12em; color: rgba(30,58,95,0.65);
+      margin: 0 0 8px 8px;
+    }
 
-        .page-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 16px;
-            margin-bottom: 16px;
-        }
-        .page-card h3 {
-            font-size: 1.1em;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .page-card h3 input[type="text"] {
-            font-size: 1em;
-            padding: 4px 8px;
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            width: 100%;
-            max-width: 300px;
-        }
-        .page-card .delete-check {
-            font-size: 0.85em;
-            color: var(--danger);
-            white-space: nowrap;
-        }
-        .page-card textarea {
-            width: 100%;
-            min-height: 80px;
-            padding: 8px;
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            font-size: 0.95em;
-            font-family: inherit;
-            resize: vertical;
-        }
+    .books-list, .pages-list { list-style: none; padding: 0; margin: 0; }
+    .books-list li, .pages-list li {
+      padding: 10px 12px; cursor: pointer; border-radius: 6px;
+      font-size: 0.9rem; transition: background-color 0.15s;
+    }
+    .books-list li:hover, .pages-list li:hover { background-color: rgba(30,58,95,0.06); }
+    .books-list li.selected, .pages-list li.selected {
+      background-color: rgba(30,58,95,0.12); font-weight: 600;
+    }
+    .series-heading {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em; color: rgba(30,58,95,0.5);
+      padding: 8px 12px 4px;
+    }
+    .nb-badge {
+      font-size: 0.8em; margin-left: 4px;
+    }
 
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            border: none;
-            border-radius: var(--radius);
-            cursor: pointer;
-            font-size: 0.95em;
-            font-weight: 600;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-        .btn:hover { opacity: 0.85; }
-        .btn-primary { background: var(--primary); color: #fff; }
-        .btn-success { background: var(--success); color: #fff; }
-        .btn-danger { background: var(--danger); color: #fff; }
-        .btn-outline { background: transparent; border: 2px solid var(--primary); color: var(--primary); }
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .page-card {
+      background: #FAF6EE; border: 1px solid rgba(30,58,95,0.08);
+      border-radius: 8px; padding: 14px; margin-bottom: 14px;
+    }
+    .page-card h4 {
+      margin: 0 0 8px; font-size: 0.95rem; font-weight: 600;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .del-label {
+      font-size: 0.8rem; color: rgba(30,58,95,0.55); white-space: nowrap;
+      display: inline-flex; align-items: center; gap: 4px;
+    }
+    .del-label input { margin: 0; }
+    .page-card textarea {
+      width: 100%; min-height: 110px; padding: 10px;
+      border: 1px solid rgba(30,58,95,0.15); border-radius: 6px;
+      font-family: 'Noto Sans TC','Inter',sans-serif; font-size: 0.9rem;
+      color: #1E3A5F; background: #F5EFE6; resize: vertical; line-height: 1.6;
+    }
+    .page-card .field-hint {
+      font-size: 0.75rem; color: rgba(30,58,95,0.5); margin-top: 6px;
+      white-space: pre-line;
+    }
 
-        .context-area {
-            margin-bottom: 16px;
-        }
-        .context-area label {
-            font-weight: 600;
-            display: block;
-            margin-bottom: 4px;
-        }
-        .context-area textarea {
-            width: 100%;
-            min-height: 60px;
-            padding: 8px;
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            font-size: 0.95em;
-            font-family: inherit;
-            resize: vertical;
-        }
+    .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 8px 16px; border-radius: 999px; font-size: 0.85rem;
+      font-weight: 600; cursor: pointer; border: none;
+      font-family: inherit; transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-primary { background: #1E3A5F; color: #F5EFE6; }
+    .btn-success { background: #4E9E5A; color: #fff; }
+    .btn-outline { background: transparent; border: 2px solid #1E3A5F; color: #1E3A5F; }
 
-        .summary-overlay {
-            display: none;
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.5);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-            padding: 16px;
-        }
-        .summary-overlay.active { display: flex; }
-        .summary-card {
-            background: var(--card);
-            border-radius: var(--radius);
-            padding: 24px;
-            max-width: 600px;
-            width: 100%;
-            max-height: 80vh;
-            overflow-y: auto;
-        }
-        .summary-card h2 { margin-bottom: 12px; }
-        .summary-item {
-            padding: 6px 0;
-            border-bottom: 1px solid var(--border);
-            font-size: 0.9em;
-        }
-        .summary-item.add { color: #2e7d32; }
-        .summary-item.remove { color: var(--danger); }
-        .summary-item.new-page { color: var(--primary); font-weight: 600; }
-        .summary-item.delete-page { color: var(--danger); font-weight: 600; }
+    .back-link {
+      display: inline-block; margin-top: 8px; font-size: 0.85rem;
+      color: #5A9AD6; text-decoration: none;
+    }
+    .back-link:hover { text-decoration: underline; }
 
-        .toast {
-            position: fixed;
-            bottom: 24px;
-            right: 24px;
-            background: var(--text);
-            color: #fff;
-            padding: 12px 20px;
-            border-radius: var(--radius);
-            font-size: 0.9em;
-            z-index: 2000;
-            animation: fadeIn 0.3s;
-        }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    /* Summary overlay */
+    .overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.45); z-index: 1000;
+      justify-content: center; align-items: center; padding: 20px;
+    }
+    .overlay.active { display: flex; }
+    .overlay-card {
+      background: #F5EFE6; border-radius: 12px; padding: 24px;
+      max-width: 560px; width: 100%; max-height: 80vh; overflow-y: auto;
+      color: #1E3A5F;
+    }
+    .summary-item { padding: 6px 0; border-bottom: 1px solid rgba(30,58,95,0.1); font-size: 0.88rem; }
+    .summary-item.add { color: #2e7d32; }
+    .summary-item.remove { color: #721C24; }
+    .summary-item.new-page { color: #1E3A5F; font-weight: 600; }
+    .summary-item.delete-page { color: #721C24; font-weight: 600; }
 
-        .status-badge {
-            display: inline-block;
-            font-size: 0.8em;
-            padding: 2px 8px;
-            border-radius: 12px;
-            margin-left: 6px;
-        }
-        .status-pending { background: var(--warning); color: #5c4700; }
-        .status-generated { background: var(--success); color: #1a4d2a; }
-        .status-error { background: var(--danger); color: #fff; }
+    .toast {
+      position: fixed; bottom: 24px; right: 24px; z-index: 2000;
+      padding: 12px 20px; border-radius: 999px; font-size: 0.85rem;
+      font-weight: 600; animation: fadeUp 0.3s;
+    }
+    .toast.success { background: #155724; color: #F5EFE6; }
+    .toast.error { background: #721C24; color: #F5EFE6; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-        @media (max-width: 600px) {
-            body { padding: 8px; }
-            .top-bar h1 { font-size: 1.1em; }
-            .btn { width: 100%; margin-bottom: 8px; text-align: center; }
-        }
-    </style>
+    @media (max-width: 900px) {
+      .main-card { grid-template-columns: 1fr; }
+      .left-panel, .middle-panel { border-right: none; border-bottom: 1px solid rgba(30,58,95,0.12); max-height: 200px; }
+      .top-bar { flex-wrap: wrap; gap: 8px; }
+      .top-bar-brand h1 { font-size: 0.95rem; }
+    }
+  </style>
 </head>
 <body>
 
+<!-- Top bar — identical to dashboard -->
 <div class="top-bar">
-    <h1>✏️ Edit My Notebook</h1>
-    <a class="back-link" id="backLink" href="#">← Back to Dashboard</a>
+  <div class="top-bar-brand">
+    <img src="favicon.png" alt="" style="height:32px;width:32px;border-radius:6px;">
+    <h1>Chinese iGCSE Vocabulary Trainer</h1>
+  </div>
+  <div class="student-switcher">
+    <label for="student-switch">Student:</label>
+    <select id="student-switch"><option value="">Loading...</option></select>
+  </div>
 </div>
 
-<div id="pagesContainer"></div>
+<div class="main-card">
+  <!-- LEFT: Books -->
+  <div class="left-panel">
+    <div class="panel-heading">Books</div>
+    <div id="booksContainer"></div>
+  </div>
 
-<div style="margin-bottom:16px;">
-    <button class="btn btn-outline" id="addPageBtn">➕ Add Page</button>
-</div>
+  <!-- MIDDLE: Pages -->
+  <div class="middle-panel">
+    <div class="panel-heading">Notebook Pages</div>
+    <ul class="pages-list" id="pagesList"></ul>
+    <div style="margin-top:12px;">
+      <button class="btn btn-outline" id="addPageBtn" style="width:100%;">+ Add Page</button>
+    </div>
+    <a class="back-link" id="backLink" href="#">&larr; Back to Dashboard</a>
+  </div>
 
-<div class="context-area">
-    <label for="contextInput">📝 Context / Theme (optional — helps AI generate better example sentences):</label>
-    <textarea id="contextInput" placeholder="e.g. 食物, 旅行, 學校生活..."></textarea>
-</div>
-
-<div style="display:flex; gap:8px; flex-wrap:wrap;">
-    <button class="btn btn-primary" id="processBtn">🔍 Process All Edits</button>
-    <button class="btn btn-success" id="confirmBtn" style="display:none;">✅ Confirm &amp; Enrich</button>
+  <!-- RIGHT: Edit Area -->
+  <div class="right-panel" id="editArea">
+    <div class="panel-heading" style="margin-bottom:12px;">Edit Words</div>
+    <div id="pagesEditContainer">
+      <p style="color:rgba(30,58,95,0.55);">Select a page or click "Add Page" to begin.</p>
+    </div>
+    <div class="btn-row" id="actionRow" style="display:none;">
+      <button class="btn btn-primary" id="processBtn">🔍 Process All Edits</button>
+      <button class="btn btn-success" id="confirmBtn" style="display:none;">✅ Confirm &amp; Enrich</button>
+    </div>
+  </div>
 </div>
 
 <!-- Summary overlay -->
-<div class="summary-overlay" id="summaryOverlay">
-    <div class="summary-card">
-        <h2>Changes Summary</h2>
-        <div id="summaryContent"></div>
-        <div style="margin-top:16px; display:flex; gap:8px; flex-wrap:wrap;">
-            <button class="btn btn-success" id="confirmFromSummary">✅ Confirm &amp; Enrich</button>
-            <button class="btn btn-outline" id="cancelSummary">Cancel</button>
-        </div>
+<div class="overlay" id="summaryOverlay">
+  <div class="overlay-card">
+    <h3 style="margin-top:0;">Changes Summary</h3>
+    <div id="summaryContent"></div>
+    <div class="btn-row" style="margin-top:16px;">
+      <button class="btn btn-success" id="confirmFromSummary">✅ Confirm &amp; Enrich</button>
+      <button class="btn btn-outline" id="cancelSummary">Cancel</button>
     </div>
+  </div>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
@@ -224,375 +212,425 @@
 
 <script>
 (function() {
-    // --- State ---
-    const student = new URLSearchParams(window.location.search).get('student') || '';
+  const student = new URLSearchParams(window.location.search).get('student') || '';
+  if (!student) { document.body.innerHTML = '<p style="text-align:center;padding:40px;">No student. <a href="index.html">Login</a></p>'; return; }
+  document.getElementById('backLink').href = 'dashboard.html?student=' + encodeURIComponent(student);
 
-    if (!student) {
-        document.body.innerHTML = '<p style="text-align:center;padding:40px;">No student specified. <a href="index.html">Go to login</a></p>';
-        return;
+  const storageKey = 'nb_edit_' + student;
+
+  let notebookData = {};
+  let notebookPages = {};
+  let allBooks = [];
+
+  function showToast(msg, type) {
+    const el = document.createElement('div');
+    el.className = 'toast ' + (type || 'success');
+    el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 3000);
+  }
+
+  function getWordsForPage(pageId) {
+    return Object.values(notebookData)
+      .filter(e => (e.pageId || '01') === pageId)
+      .map(e => e.traditional)
+      .filter(Boolean);
+  }
+
+  function parseLines(text) {
+    const result = [];
+    const lines = text.split(/\n/);
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+      const colonIdx = trimmed.indexOf(':');
+      if (colonIdx > 0) {
+        const vocab = trimmed.substring(0, colonIdx).trim();
+        const ctx = trimmed.substring(colonIdx + 1).trim();
+        if (/[\u4e00-\u9fff]/.test(vocab)) result.push({ vocab, context: ctx });
+      } else {
+        if (/[\u4e00-\u9fff]/.test(trimmed)) result.push({ vocab: trimmed, context: '' });
+      }
     }
+    return result;
+  }
 
-    document.getElementById('backLink').href = 'dashboard.html?student=' + encodeURIComponent(student);
+  function nextPageId() {
+    const nums = [];
+    for (const key of Object.keys(notebookPages)) { const n = parseInt(key,10); if (!isNaN(n)) nums.push(n); }
+    return String(Math.max(0, ...nums) + 1).padStart(2, '0');
+  }
 
-    let notebookData = {};
-    let notebookPages = {};
-    let context = '';
+  // --- Student switcher ---
+  async function populateStudentDropdown() {
+    const sel = document.getElementById('student-switch');
+    sel.innerHTML = '';
+    try {
+      const names = await fetchStudentList();
+      names.forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name; opt.textContent = name;
+        if (name === student) opt.selected = true;
+        sel.appendChild(opt);
+      });
+      sel.addEventListener('change', () => {
+        if (sel.value !== student) window.location.href = 'dashboard.html?student=' + encodeURIComponent(sel.value);
+      });
+    } catch(e) { sel.innerHTML = '<option>' + student + '</option>'; }
+  }
 
-    // --- Helpers ---
-    function showToast(msg) {
-        const el = document.createElement('div');
-        el.className = 'toast';
-        el.textContent = msg;
-        document.body.appendChild(el);
-        setTimeout(() => el.remove(), 3000);
-    }
-
-    function getWordsForPage(pageId) {
-        return Object.values(notebookData)
-            .filter(e => (e.pageId || '01') === pageId)
-            .map(e => e.traditional)
-            .filter(Boolean);
-    }
-
-    function parseWords(text) {
-        return text.split(/[,，、\s]+/)
-            .map(w => w.trim())
-            .filter(w => w.length > 0)
-            .filter(w => /[\u4e00-\u9fff]/.test(w));  // must contain Chinese
-    }
-
-    function nextPageId() {
-        const nums = [];
-        for (const key of Object.keys(notebookPages)) {
-            const n = parseInt(key, 10);
-            if (!isNaN(n)) nums.push(n);
+  // --- Books list ---
+  async function loadBooks() {
+    try {
+      const resp = await fetch('data/books-index.json');
+      const data = await resp.json();
+      allBooks = data.books || [];
+    } catch(e) { allBooks = []; }
+    renderBooks();
+  }
+  function renderBooks() {
+    const container = document.getElementById('booksContainer');
+    container.innerHTML = '';
+    const groups = new Map();
+    allBooks.forEach(b => {
+      const s = b.series || 'Other';
+      if (!groups.has(s)) groups.set(s, []);
+      groups.get(s).push(b);
+    });
+    groups.forEach((books, series) => {
+      const h = document.createElement('div');
+      h.className = 'series-heading'; h.textContent = series;
+      container.appendChild(h);
+      const ul = document.createElement('ul');
+      ul.className = 'books-list';
+      books.forEach(b => {
+        const li = document.createElement('li');
+        li.dataset.bookId = b.id;
+        li.textContent = b.title;
+        if (b.id === '99') {
+          li.classList.add('selected');
+          const badge = document.createElement('span');
+          badge.className = 'nb-badge'; badge.textContent = '✏️';
+          li.appendChild(badge);
         }
-        return String(Math.max(0, ...nums) + 1).padStart(2, '0');
-    }
-
-    // --- Render ---
-    function render() {
-        const container = document.getElementById('pagesContainer');
-        container.innerHTML = '';
-
-        const sortedIds = Object.keys(notebookPages).sort((a, b) => {
-            const na = parseInt(a, 10), nb = parseInt(b, 10);
-            if (!isNaN(na) && !isNaN(nb)) return na - nb;
-            return a.localeCompare(b);
+        li.addEventListener('click', () => {
+          if (b.id === '99') return;
+          window.location.href = 'dashboard.html?student=' + encodeURIComponent(student) + '&book=' + b.id;
         });
+        ul.appendChild(li);
+      });
+      container.appendChild(ul);
+    });
+  }
 
-        sortedIds.forEach(pageId => {
-            const page = notebookPages[pageId] || { title: 'Page ' + pageId };
-            const currentWords = getWordsForPage(pageId);
-            const isPage01 = (pageId === '01');
+  // --- Pages list ---
+  function renderPagesList() {
+    const ul = document.getElementById('pagesList');
+    ul.innerHTML = '';
+    const ids = Object.keys(notebookPages).sort((a,b) => (parseInt(a,10)||99) - (parseInt(b,10)||99));
+    ids.forEach(pid => {
+      const page = notebookPages[pid] || {};
+      const li = document.createElement('li');
+      li.dataset.pageId = pid;
+      li.innerHTML = (page.title || 'Page '+pid) + (pid==='01' ? ' <span style="font-size:0.75em;color:rgba(30,58,95,0.4);">(default)</span>' : '');
+      li.addEventListener('click', () => scrollToPage(pid));
+      ul.appendChild(li);
+    });
+  }
 
-            const card = document.createElement('div');
-            card.className = 'page-card';
-            card.dataset.pageId = pageId;
+  function scrollToPage(pid) {
+    const card = document.querySelector('.page-card[data-page-id="'+pid+'"]');
+    if (card) card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 
-            // Title row
-            const h3 = document.createElement('h3');
-            if (isPage01) {
-                h3.textContent = page.title || 'Main page';
-            } else {
-                const titleInput = document.createElement('input');
-                titleInput.type = 'text';
-                titleInput.value = page.title || ('Page ' + pageId);
-                titleInput.maxLength = 50;
-                titleInput.placeholder = 'Page name';
-                titleInput.addEventListener('input', () => {
-                    notebookPages[pageId] = notebookPages[pageId] || {};
-                    notebookPages[pageId].title = titleInput.value || ('Page ' + pageId);
-                });
-                h3.appendChild(titleInput);
-            }
+  // --- Save drafts to sessionStorage ---
+  function saveDrafts() {
+    const drafts = {};
+    document.querySelectorAll('.page-card[data-page-id] textarea').forEach(ta => {
+      drafts[ta.dataset.pageId] = ta.value;
+    });
+    document.querySelectorAll('.page-card[data-new="true"]').forEach((card, i) => {
+      const ta = card.querySelector('textarea');
+      const ti = card.querySelector('input.page-title-input');
+      drafts['__new__'+i] = JSON.stringify({ title: ti ? ti.value : '', text: ta ? ta.value : '' });
+    });
+    sessionStorage.setItem(storageKey, JSON.stringify(drafts));
+  }
 
-            // Delete checkbox (not for 01)
-            if (!isPage01) {
-                const delLabel = document.createElement('label');
-                delLabel.className = 'delete-check';
-                const delCheck = document.createElement('input');
-                delCheck.type = 'checkbox';
-                delCheck.dataset.deletePage = pageId;
-                delLabel.appendChild(delCheck);
-                delLabel.appendChild(document.createTextNode(' Delete this page'));
-                h3.appendChild(delLabel);
-            }
+  function restoreDrafts() {
+    try {
+      const raw = sessionStorage.getItem(storageKey);
+      if (!raw) return;
+      const drafts = JSON.parse(raw);
+      Object.entries(drafts).forEach(([key, val]) => {
+        if (key.startsWith('__new__')) return;
+        const ta = document.querySelector('.page-card[data-page-id="'+key+'"] textarea');
+        if (ta && ta.value === ta.dataset.original) ta.value = val;
+      });
+    } catch(e) {}
+  }
 
-            card.appendChild(h3);
+  // --- Render edit cards ---
+  function renderEditCards() {
+    const container = document.getElementById('pagesEditContainer');
+    container.innerHTML = '';
+    const ids = Object.keys(notebookPages).sort((a,b) => (parseInt(a,10)||99) - (parseInt(b,10)||99));
 
-            // Words textarea
-            const textarea = document.createElement('textarea');
-            textarea.value = currentWords.join(', ');
-            textarea.placeholder = 'Enter words separated by commas (e.g. 蘋果, 香蕉, 米飯)';
-            textarea.rows = 3;
-            card.appendChild(textarea);
+    ids.forEach(pid => {
+      const page = notebookPages[pid] || {};
+      const is01 = (pid === '01');
 
-            container.appendChild(card);
+      const card = document.createElement('div');
+      card.className = 'page-card';
+      card.dataset.pageId = pid;
+      card.id = 'page-' + pid;
+
+      const h4 = document.createElement('h4');
+      h4.textContent = 'Page ' + pid + ' — ' + (page.title || 'Page ' + pid);
+
+      if (!is01) {
+        const delLabel = document.createElement('label');
+        delLabel.className = 'del-label';
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.dataset.deletePage = pid;
+        delLabel.appendChild(cb);
+        delLabel.appendChild(document.createTextNode(' Delete page'));
+        h4.appendChild(delLabel);
+      }
+
+      card.appendChild(h4);
+
+      const ta = document.createElement('textarea');
+      ta.dataset.pageId = pid;
+      ta.rows = 5;
+      ta.placeholder = '蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
+      // Build display: existing words + context if known
+      const lines = Object.values(notebookData)
+        .filter(e => (e.pageId || '01') === pid)
+        .map(e => {
+          const t = e.traditional || '';
+          const ctx = (e.contextSentence || '').replace(t, '').replace(/[。，,!.\s]/g, '').trim();
+          return t + (ctx ? ' : ' + ctx : '');
         });
-    }
+      ta.value = lines.join('\n');
+      ta.dataset.original = ta.value;
+      ta.addEventListener('input', () => { saveDrafts(); });
 
-    // --- Process ---
-    function computeDiff() {
-        const diffs = [];
+      card.appendChild(ta);
 
-        Object.keys(notebookPages).forEach(pageId => {
-            const page = notebookPages[pageId] || {};
-            const currentWords = getWordsForPage(pageId);
-            const textarea = document.querySelector(`.page-card[data-page-id="${pageId}"] textarea`);
-            const desiredWords = textarea ? parseWords(textarea.value) : [];
-            const added = desiredWords.filter(w => !currentWords.includes(w));
-            const removed = currentWords.filter(w => !desiredWords.includes(w));
+      const hint = document.createElement('div');
+      hint.className = 'field-hint';
+      hint.textContent = 'Enter one word per line. Add ": context" for a theme.\nWords without context get AI-generated example sentences.\ne.g.\n蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
+      card.appendChild(hint);
 
-            if (added.length || removed.length) {
-                diffs.push({
-                    pageId,
-                    title: page.title || ('Page ' + pageId),
-                    added,
-                    removed,
-                });
-            }
-        });
-
-        // Check for new pages (added via button)
-        const newPageSections = document.querySelectorAll('.page-card[data-new="true"]');
-        newPageSections.forEach(card => {
-            const titleInput = card.querySelector('h3 input[type="text"]');
-            const textarea = card.querySelector('textarea');
-            const title = titleInput ? titleInput.value : '';
-            const words = textarea ? parseWords(textarea.value) : [];
-            if (title && words.length) {
-                diffs.push({
-                    pageId: null,  // will assign on confirm
-                    title,
-                    added: words,
-                    removed: [],
-                    isNew: true,
-                });
-            }
-        });
-
-        // Check for deleted pages
-        const deleteChecks = document.querySelectorAll('input[type="checkbox"][data-delete-page]');
-        deleteChecks.forEach(check => {
-            if (check.checked) {
-                const pageId = check.dataset.deletePage;
-                const page = notebookPages[pageId] || {};
-                diffs.push({
-                    pageId,
-                    title: page.title || ('Page ' + pageId),
-                    added: [],
-                    removed: getWordsForPage(pageId),
-                    isDelete: true,
-                });
-            }
-        });
-
-        return diffs;
-    }
-
-    function showSummary(diffs) {
-        const content = document.getElementById('summaryContent');
-        content.innerHTML = '';
-
-        if (diffs.length === 0) {
-            content.innerHTML = '<p>No changes detected.</p>';
-        }
-
-        diffs.forEach(d => {
-            const div = document.createElement('div');
-            div.className = 'summary-item';
-
-            if (d.isDelete) {
-                div.classList.add('delete-page');
-                div.textContent = `🗑 DELETE Page "${d.title}" (${d.removed.length} words will be removed)`;
-            } else if (d.isNew) {
-                div.classList.add('new-page');
-                div.textContent = `➕ NEW Page "${d.title}": add ${d.added.join(', ')}`;
-            } else {
-                const parts = [];
-                if (d.added.length) parts.push(`➕ Add: ${d.added.join(', ')}`);
-                if (d.removed.length) parts.push(`➖ Remove: ${d.removed.join(', ')}`);
-                div.textContent = `📄 Page "${d.title}": ${parts.join(' | ')}`;
-                if (d.added.length) div.classList.add('add');
-                if (d.removed.length) div.classList.add('remove');
-            }
-
-            content.appendChild(div);
-        });
-
-        document.getElementById('summaryOverlay').classList.add('active');
-        document.getElementById('confirmFromSummary').style.display = diffs.length ? '' : 'none';
-    }
-
-    async function executeChanges(diffs) {
-        if (!diffs.length) return;
-
-        // Read current full document
-        const docRef = db.collection('students').doc(student);
-        const doc = await docRef.get();
-        const data = doc.exists ? doc.data() : {};
-        const notebook = data.notebook || {};
-        const pages = data.notebookPages || {};
-        if (!pages['01']) pages['01'] = { title: NOTEBOOK_DEFAULT_PAGE_TITLE || 'Main page' };
-
-        context = document.getElementById('contextInput').value.trim();
-
-        for (const d of diffs) {
-            if (d.isDelete) {
-                // Remove page and its words
-                delete pages[d.pageId];
-                for (const wid of Object.keys(notebook)) {
-                    if (notebook[wid].pageId === d.pageId) {
-                        delete notebook[wid];
-                    }
-                }
-            } else if (d.isNew) {
-                // Assign new page ID
-                const newId = nextPageId();
-                pages[newId] = { title: d.title };
-                for (const word of d.added) {
-                    const wordId = notebookWordId(student, word);
-                    notebook[wordId] = {
-                        traditional: word,
-                        simplified: '',
-                        english: '',
-                        pinyin: '',
-                        contextSentence: '',
-                        contextSentenceSimplified: '',
-                        audio: {},
-                        pageId: newId,
-                        source: 'notebook',
-                        status: 'pending',
-                        failCount: 0,
-                        savedAt: firebase.firestore.FieldValue.serverTimestamp(),
-                    };
-                }
-            } else {
-                // Existing page: add/remove words
-                const pageId = d.pageId;
-                // Remove words
-                for (const word of d.removed) {
-                    const wid = notebookWordId(student, word);
-                    delete notebook[wid];
-                }
-                // Add words
-                for (const word of d.added) {
-                    const wid = notebookWordId(student, word);
-                    const existing = notebook[wid] || {};
-                    notebook[wid] = {
-                        traditional: word,
-                        simplified: existing.simplified || '',
-                        english: existing.english || '',
-                        pinyin: existing.pinyin || '',
-                        contextSentence: existing.contextSentence || '',
-                        contextSentenceSimplified: existing.contextSentenceSimplified || '',
-                        audio: existing.audio || {},
-                        pageId: pageId,
-                        source: existing.source || 'notebook',
-                        status: 'pending',
-                        failCount: existing.failCount || 0,
-                        savedAt: firebase.firestore.FieldValue.serverTimestamp(),
-                    };
-                }
-            }
-        }
-
-        // Write back (nested map)
-        data.notebook = notebook;
-        data.notebookPages = pages;
-        if (context) data._notebook_context = context;
-        data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
-        await docRef.set(data);
-
-        // Reload local state
-        notebookData = notebook;
-        notebookPages = pages;
-    }
-
-    // --- Add page ---
-    document.getElementById('addPageBtn').addEventListener('click', () => {
-        const container = document.getElementById('pagesContainer');
-        const card = document.createElement('div');
-        card.className = 'page-card';
-        card.dataset.new = 'true';
-
-        const h3 = document.createElement('h3');
-        const titleInput = document.createElement('input');
-        titleInput.type = 'text';
-        titleInput.placeholder = 'New page name (e.g. Exam Prep)';
-        titleInput.maxLength = 50;
-        titleInput.style.cssText = 'font-size:1em;padding:4px 8px;border:1px solid var(--border);border-radius:4px;width:100%;max-width:300px;';
-        h3.appendChild(titleInput);
-        card.appendChild(h3);
-
-        const textarea = document.createElement('textarea');
-        textarea.placeholder = 'Enter words for this page (e.g. 機場, 火車)';
-        textarea.rows = 3;
-        card.appendChild(textarea);
-
-        container.appendChild(card);
-        card.scrollIntoView({ behavior: 'smooth' });
+      container.appendChild(card);
     });
 
-    // --- Process ---
-    document.getElementById('processBtn').addEventListener('click', () => {
-        const diffs = computeDiff();
-        showSummary(diffs);
+    document.getElementById('actionRow').style.display = ids.length ? 'flex' : 'none';
+    setTimeout(restoreDrafts, 50);
+  }
+
+  // --- Add page ---
+  document.getElementById('addPageBtn').addEventListener('click', () => {
+    const container = document.getElementById('pagesEditContainer');
+
+    const card = document.createElement('div');
+    card.className = 'page-card';
+    card.dataset.new = 'true';
+    card.style.border = '2px dashed #5A9AD6';
+
+    const h4 = document.createElement('h4');
+    const ti = document.createElement('input');
+    ti.type = 'text';
+    ti.className = 'page-title-input';
+    ti.placeholder = 'Page name (e.g. Exam Prep)';
+    ti.maxLength = 50;
+    ti.style.cssText = 'font-family:inherit;font-size:0.9rem;padding:4px 8px;border:1px solid rgba(30,58,95,0.15);border-radius:4px;width:100%;max-width:280px;';
+
+    const rmBtn = document.createElement('button');
+    rmBtn.textContent = '✕ Remove';
+    rmBtn.style.cssText = 'font-size:0.75rem;padding:2px 8px;border:1px solid #DB5858;border-radius:999px;background:transparent;color:#DB5858;cursor:pointer;';
+    rmBtn.addEventListener('click', () => { card.remove(); saveDrafts(); });
+
+    h4.appendChild(ti);
+    h4.appendChild(rmBtn);
+    card.appendChild(h4);
+
+    const ta = document.createElement('textarea');
+    ta.rows = 5;
+    ta.placeholder = '蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
+    ta.addEventListener('input', saveDrafts);
+    card.appendChild(ta);
+
+    const hint = document.createElement('div');
+    hint.className = 'field-hint';
+    hint.textContent = 'Enter one word per line. Add ": context" for a theme.\nWords without context get AI-generated sentences.';
+    card.appendChild(hint);
+
+    container.appendChild(card);
+    document.getElementById('actionRow').style.display = 'flex';
+    card.scrollIntoView({ behavior: 'smooth' });
+    ti.focus();
+    saveDrafts();
+  });
+
+  // --- Process diff ---
+  function computeDiff() {
+    const diffs = [];
+    Object.keys(notebookPages).forEach(pid => {
+      const page = notebookPages[pid] || {};
+      const currentWords = getWordsForPage(pid);
+      const ta = document.querySelector('.page-card[data-page-id="'+pid+'"] textarea');
+      if (!ta) return;
+      const desired = parseLines(ta.value);
+      const desiredVocabs = desired.map(d => d.vocab);
+      const added = desiredVocabs.filter(v => !currentWords.includes(v));
+      const removed = currentWords.filter(v => !desiredVocabs.includes(v));
+      if (added.length || removed.length) {
+        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, isNew: false, isDelete: false });
+      }
     });
-
-    document.getElementById('cancelSummary').addEventListener('click', () => {
-        document.getElementById('summaryOverlay').classList.remove('active');
+    document.querySelectorAll('input[type="checkbox"][data-delete-page]:checked').forEach(cb => {
+      const pid = cb.dataset.deletePage;
+      const page = notebookPages[pid] || {};
+      diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added: [], removed: getWordsForPage(pid), contexts: [], isNew: false, isDelete: true });
     });
+    document.querySelectorAll('.page-card[data-new="true"]').forEach(card => {
+      const ti = card.querySelector('input.page-title-input');
+      const ta = card.querySelector('textarea');
+      const title = ti ? ti.value.trim() : '';
+      const desired = ta ? parseLines(ta.value) : [];
+      if (title && desired.length) {
+        diffs.push({ pageId: null, title, added: desired.map(d=>d.vocab), removed: [], contexts: desired, isNew: true, isDelete: false });
+      }
+    });
+    return diffs;
+  }
 
-    // --- Confirm ---
-    async function doConfirm() {
-        const diffs = computeDiff();
-        if (!diffs.length) {
-            showToast('No changes to process');
-            return;
+  function showSummary(diffs) {
+    const content = document.getElementById('summaryContent');
+    content.innerHTML = '';
+    if (!diffs.length) { content.innerHTML = '<p>No changes detected.</p>'; }
+    diffs.forEach(d => {
+      const div = document.createElement('div');
+      div.className = 'summary-item';
+      if (d.isDelete) { div.classList.add('delete-page'); div.textContent = '🗑 DELETE Page "'+d.title+'" ('+d.removed.length+' words removed)'; }
+      else if (d.isNew) { div.classList.add('new-page'); div.textContent = '➕ NEW Page "'+d.title+'": add '+d.added.join(', '); }
+      else {
+        const parts = [];
+        if (d.added.length) parts.push('➕ Add: '+d.added.join(', '));
+        if (d.removed.length) parts.push('➖ Remove: '+d.removed.join(', '));
+        div.textContent = '📄 Page "'+d.title+'": ' + parts.join(' | ');
+        if (d.added.length) div.classList.add('add');
+        if (d.removed.length) div.classList.add('remove');
+      }
+      content.appendChild(div);
+    });
+    document.getElementById('summaryOverlay').classList.add('active');
+    document.getElementById('confirmFromSummary').style.display = diffs.length ? '' : 'none';
+  }
+
+  document.getElementById('processBtn').addEventListener('click', () => {
+    const diffs = computeDiff();
+    showSummary(diffs);
+  });
+  document.getElementById('cancelSummary').addEventListener('click', () => {
+    document.getElementById('summaryOverlay').classList.remove('active');
+  });
+
+  // --- Execute ---
+  async function executeChanges(diffs) {
+    if (!diffs.length) return;
+    const docRef = db.collection('students').doc(student);
+    const doc = await docRef.get();
+    const data = doc.exists ? doc.data() : {};
+    const notebook = data.notebook || {};
+    const pages = data.notebookPages || {};
+    if (!pages['01']) pages['01'] = { title: 'Main page' };
+
+    for (const d of diffs) {
+      if (d.isDelete) {
+        delete pages[d.pageId];
+        for (const wid of Object.keys(notebook)) {
+          if (notebook[wid].pageId === d.pageId) delete notebook[wid];
         }
-
-        document.getElementById('confirmBtn').disabled = true;
-
-        try {
-            await executeChanges(diffs);
-            document.getElementById('summaryOverlay').classList.remove('active');
-            showToast('Changes saved! Enrichment will begin shortly. Check back for ⏳→✅ status.');
-            render();
-        } catch (err) {
-            console.error('Failed to save changes:', err);
-            showToast('Failed to save changes. Please try again.');
-        } finally {
-            document.getElementById('confirmBtn').disabled = false;
+      } else if (d.isNew) {
+        const newId = nextPageId();
+        pages[newId] = { title: d.title };
+        for (const item of d.contexts) {
+          const wid = notebookWordId(student, item.vocab);
+          notebook[wid] = {
+            traditional: item.vocab, simplified: '', english: '', pinyin: '',
+            contextSentence: item.context || '', contextSentenceSimplified: '',
+            audio: {}, pageId: newId, source: 'notebook',
+            status: 'pending', failCount: 0,
+            savedAt: firebase.firestore.FieldValue.serverTimestamp(),
+          };
         }
+      } else {
+        for (const word of d.removed) {
+          const wid = notebookWordId(student, word);
+          delete notebook[wid];
+        }
+        for (const item of d.contexts) {
+          if (!d.added.includes(item.vocab)) continue;
+          const wid = notebookWordId(student, item.vocab);
+          const existing = notebook[wid] || {};
+          notebook[wid] = {
+            traditional: item.vocab, simplified: existing.simplified || '', english: existing.english || '',
+            pinyin: existing.pinyin || '', contextSentence: item.context || existing.contextSentence || '',
+            contextSentenceSimplified: item.context ? '' : (existing.contextSentenceSimplified || ''),
+            audio: existing.audio || {}, pageId: d.pageId,
+            source: existing.source || 'notebook', status: 'pending',
+            failCount: existing.failCount || 0,
+            savedAt: firebase.firestore.FieldValue.serverTimestamp(),
+          };
+        }
+      }
     }
 
-    document.getElementById('confirmBtn').addEventListener('click', doConfirm);
-    document.getElementById('confirmFromSummary').addEventListener('click', doConfirm);
+    data.notebook = notebook;
+    data.notebookPages = pages;
+    data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
+    await docRef.set(data);
 
-    // --- Init ---
-    async function init() {
-        try {
-            notebookData = await loadNotebook(student);
-            notebookPages = await loadNotebookPages(student);
+    notebookData = notebook;
+    notebookPages = pages;
+    sessionStorage.removeItem(storageKey);
+  }
 
-            // Read existing context if any
-            const doc = await db.collection('students').doc(student).get();
-            if (doc.exists) {
-                context = doc.data()._notebook_context || '';
-                document.getElementById('contextInput').value = context;
-            }
-        } catch (err) {
-            console.error('Failed to load notebook:', err);
-            showToast('Failed to load notebook data');
-        }
-        render();
+  async function doConfirm() {
+    const diffs = computeDiff();
+    if (!diffs.length) { showToast('No changes to process', 'error'); return; }
+    try {
+      await executeChanges(diffs);
+      document.getElementById('summaryOverlay').classList.remove('active');
+      showToast('Saved! Enrichment will begin shortly.', 'success');
+      renderEditCards();
+      renderPagesList();
+    } catch(err) {
+      console.error(err);
+      showToast('Failed to save. Please try again.', 'error');
     }
+  }
 
-    init();
+  document.getElementById('confirmBtn').addEventListener('click', doConfirm);
+  document.getElementById('confirmFromSummary').addEventListener('click', doConfirm);
+
+  // --- Init ---
+  async function init() {
+    await populateStudentDropdown();
+    await loadBooks();
+    try {
+      notebookData = await loadNotebook(student);
+      notebookPages = await loadNotebookPages(student);
+    } catch(e) { console.error(e); }
+    renderPagesList();
+    renderEditCards();
+  }
+  init();
 })();
 </script>
-
 </body>
 </html>
