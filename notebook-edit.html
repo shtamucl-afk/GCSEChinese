@@ -691,7 +691,23 @@
       await executeChanges(diffs);
       document.getElementById('summaryOverlay').classList.remove('active');
       const pendingCount = diffs.reduce((sum, d) => sum + d.added.length, 0);
-      showToast('Saved ' + pendingCount + ' word(s)! Processing queued — expect results in ~5-10 min.', 'success');
+      const removedCount = diffs.reduce((sum, d) => sum + d.removed.length, 0);
+      const deletePages = diffs.filter(d => d.isDelete).length;
+      const newPages = diffs.filter(d => d.isNew).length;
+
+      const parts = [];
+      if (pendingCount) parts.push(pendingCount + ' word(s) added');
+      if (removedCount) parts.push(removedCount + ' word(s) removed');
+      if (deletePages) parts.push(deletePages + ' page(s) deleted');
+      if (newPages) parts.push(newPages + ' page(s) created');
+
+      let msg = parts.join(', ');
+      if (pendingCount) {
+        msg += '! Enrichment queued — results in ~5-10 min.';
+      } else {
+        msg += '. No new words, no enrichment needed.';
+      }
+      showToast(msg, 'success');
       renderEditCards();
       renderPagesList();
     } catch(err) {
