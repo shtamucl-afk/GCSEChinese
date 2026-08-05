@@ -703,7 +703,7 @@
   document.getElementById('confirmBtn').addEventListener('click', doConfirm);
   document.getElementById('confirmFromSummary').addEventListener('click', doConfirm);
 
-  // --- Refresh status (debug diagnostic) ---
+  // --- Refresh status (systematic diagnostic) ---
   async function refreshStatus() {
     try {
       notebookData = await loadNotebook(student);
@@ -711,70 +711,131 @@
       renderEditCards();
       renderPagesList();
 
-      // 1. Word status breakdown (per page)
       const wordStatus = {};
+      const pendingNames = [], errorNames = [], generatedNames = [];
       Object.values(notebookData).forEach(e => {
-        const pid = e.pageId || '01';
-        if (!wordStatus[pid]) wordStatus[pid] = { pending:0, generated:0, error:0, names:[] };
-        wordStatus[pid][e.status || 'pending']++;
-        if (e.status === 'pending') wordStatus[pid].names.push(e.traditional);
-        else if (e.status === 'error') wordStatus[pid].names.push(e.traditional + '(err)');
+        const s = e.status || 'pending';
+        if (s === 'pending') pendingNames.push(e.traditional);
+        else if (s === 'error') errorNames.push(e.traditional);
+        else if (s === 'generated') generatedNames.push(e.traditional);
       });
 
-      // 2. Dispatch doc status (from notebookDispatches/)
-      let dispatchSummary = '';
+      let dispatchCounts = {}, latestDispatch = null;
       try {
-        const safeStudent = student.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_\u4e00-\u9fff]/g, '');
         const snap = await db.collection('notebookDispatches')
-          .where('student', '==', student)
-          .orderBy('createdAt', 'desc')
-          .limit(10)
-          .get();
-        if (!snap.empty) {
-          const dispatchCounts = {};
-          snap.forEach(doc => {
-            const d = doc.data();
-            dispatchCounts[d.status] = (dispatchCounts[d.status] || 0) + 1;
-          });
-          dispatchSummary = '\n📬 Dispatches: ';
-          const parts = [];
-          if (dispatchCounts.pending) parts.push('⏳' + dispatchCounts.pending);
-          if (dispatchCounts.dispatching) parts.push('🔄' + dispatchCounts.dispatching);
-          if (dispatchCounts.dispatched) parts.push('✅' + dispatchCounts.dispatched);
-          if (dispatchCounts.dispatch_failed) parts.push('❌' + dispatchCounts.dispatch_failed);
-          dispatchSummary += parts.join(' ') || 'none';
+          .where('student', '==', student).orderBy('createdAt', 'desc').limit(10).get();
+        snap.forEach(doc => { const d = doc.data(); dispatchCounts[d.status] = (dispatchCounts[d.status]||0)+1; });
+        if (!snap.empty) { const first = snap.docs[0].data(); latestDispatch = first.createdAt ? first.createdAt.toDate() : null; }
+      } catch(e) {}
+
+      // Timing
+      const now = new Date();
+      let ageStr = '';
+      if (latestDispatch) {
+        const secs = Math.round((now - latestDispatch) / 1000);
+        if (secs < 60) ageStr = `${secs}s ago`;
+        else if (secs < 3600) ageStr = `${Math.round(secs/60)}m ago`;
+        else ageStr = `${Math.round(secs/3600)}h ago`;
+      }
+
+      const lines = [];
+
+      // --- Section 1: Technical Status ---
+      lines.push('── Status ──');
+
+      // 1a. Firestore
+      const saved = Object.keys(notebookData).length;
+      lines.push(`Firestore Save: ${saved} word(s) stored`);
+      if (generatedNames.length) lines.push(`  Ready: ${generatedNames.slice(0,5).join(', ')}${generatedNames.length>5?' +'+(generatedNames.length-5)+' more':''}`);
+      if (pendingNames.length) lines.push(`  Pending: ${pendingNames.slice(0,5).join(', ')}${pendingNames.length>5?' +'+(pendingNames.length-5)+' more':''}`);
+      if (errorNames.length) lines.push(`  Failed: ${errorNames.slice(0,3).join(', ')}`);
+
+      // 1b. Dispatch Job
+      const anyDispatch = Object.keys(dispatchCounts).length > 0;
+      if (anyDispatch) {
+        const parts = [];
+        if (dispatchCounts.pending) parts.push(`${dispatchCounts.pending} waiting`);
+        if (dispatchCounts.dispatching) parts.push(`${dispatchCounts.dispatching} in progress`);
+        if (dispatchCounts.dispatched) parts.push(`${dispatchCounts.dispatched} sent`);
+        if (dispatchCounts.dispatch_failed) parts.push(`${dispatchCounts.dispatch_failed} failed`);
+        lines.push(`Dispatch Job: ${parts.join(', ')}${ageStr ? ' (latest '+ageStr+')' : ''}`);
+      } else {
+        lines.push('Dispatch Job: ❓ No job found');
+      }
+
+      // 1c. Cloud Function
+      if (dispatchCounts.dispatched > 0 || dispatchCounts.dispatching > 0) {
+        lines.push('Cloud Function: ✅ Triggered');
+      } else if (dispatchCounts.dispatch_failed > 0) {
+        lines.push('Cloud Function: ❌ Error (see CF logs)');
+      } else if (dispatchCounts.pending > 0) {
+        lines.push('Cloud Function: ⏳ Waiting to trigger');
+      } else {
+        lines.push('Cloud Function: ❓ Unknown (no dispatch)');
+      }
+
+      // 1d. Pipeline Enrichment
+      if (generatedNames.length > 0) {
+        lines.push('Pipeline Enrichment: ✅ Completed');
+      } else if (dispatchCounts.dispatched > 0 && pendingNames.length > 0) {
+        lines.push('Pipeline Enrichment: ⏳ Running or stalled');
+      } else if (pendingNames.length > 0) {
+        lines.push('Pipeline Enrichment: ⏳ Not yet started');
+      } else {
+        lines.push('Pipeline Enrichment: N/A (no pending words)');
+      }
+
+      // --- Section 2: Errors ---
+      lines.push('');
+      lines.push('── Errors ──');
+
+      if (errorNames.length > 0) {
+        lines.push(`${errorNames.length} word(s) failed AI enrichment: ${errorNames.join(', ')}`);
+        lines.push(`Contact your teacher if this persists.`);
+      } else if (dispatchCounts.dispatch_failed > 0) {
+        lines.push(`Contact your teacher — the dispatch failed.`);
+      } else if (!anyDispatch && pendingNames.length > 0) {
+        lines.push(`No dispatch job was created. Words are saved but nothing will happen.`);
+        lines.push(`Possible cause: Firestore permission missing for notebookDispatches/ collection.`);
+      } else if (dispatchCounts.dispatched > 0 && pendingNames.length > 0) {
+        lines.push(`Dispatch was sent but words are still pending.`);
+        lines.push(`Possible cause: AI pipeline may have run but not written results. Contact your teacher if this persists.`);
+      } else {
+        lines.push('None');
+      }
+
+      // --- Section 3: Next Steps ---
+      lines.push('');
+      lines.push('── Next Steps ──');
+
+      const secsSince = latestDispatch ? Math.round((now - latestDispatch) / 1000) : null;
+
+      if (generatedNames.length > 0 && pendingNames.length === 0 && errorNames.length === 0) {
+        lines.push('All words are ready. Return to Dashboard to study.');
+      } else if (pendingNames.length > 0 && !anyDispatch) {
+        lines.push('Click "Confirm & Enrich" to submit words for processing.');
+      } else if (dispatchCounts.pending > 0) {
+        lines.push('Waiting for the Cloud Function to pick up the job. Check again in 1-2 min.');
+      } else if (dispatchCounts.dispatched > 0 && pendingNames.length > 0) {
+        if (secsSince && secsSince < 120) {
+          lines.push(`Job was sent ${ageStr}. Pipeline typically takes 5-10 min. Check again soon.`);
+        } else if (secsSince && secsSince < 600) {
+          lines.push(`Job was sent ${ageStr}. Pipeline may still be running. Wait a few more minutes.`);
+        } else {
+          lines.push(`Job was sent ${ageStr} — this is longer than expected. Contact your teacher.`);
         }
-      } catch(e) { dispatchSummary = '\n📬 Dispatch: unavailable'; }
-
-      // 3. Build summary
-      const totalPending = Object.values(wordStatus).reduce((s,p) => s + p.pending, 0);
-      const totalGenerated = Object.values(wordStatus).reduce((s,p) => s + p.generated, 0);
-      const totalError = Object.values(wordStatus).reduce((s,p) => s + p.error, 0);
-
-      let msg = `📊 Words: ${totalGenerated}✅ ${totalPending}⏳ ${totalError}❌`;
-      if (totalPending) {
-        const pendingNames = Object.values(wordStatus)
-          .filter(p => p.pending > 0)
-          .flatMap(p => p.names)
-          .slice(0, 5);
-        msg += '\nPending: ' + pendingNames.join(', ');
-        if (totalPending > 5) msg += ' ...+' + (totalPending - 5);
-      }
-      if (totalError) {
-        const errNames = Object.values(wordStatus)
-          .filter(p => p.error > 0)
-          .flatMap(p => p.names).slice(0, 3);
-        msg += '\nFailed: ' + errNames.join(', ');
-      }
-      msg += dispatchSummary;
-
-      // Show GitHub link if dispatches exist
-      if (dispatchSummary && !dispatchSummary.includes('unavailable')) {
-        msg += '\n🔗 github.com/shtamucl-afk/assistant-learning-content-transfer/actions';
+      } else if (dispatchCounts.dispatch_failed > 0) {
+        lines.push('Contact your teacher — the dispatch failed.');
+      } else if (errorNames.length > 0) {
+        lines.push('Delete failed words from the textarea and re-add them. Click Confirm & Enrich to retry.');
+      } else {
+        lines.push('Return to Dashboard to continue.');
       }
 
-      showToast(msg, totalError ? 'error' : (totalPending ? '' : 'success'));
-    } catch(e) { showToast('Refresh failed', 'error'); }
+      const msg = lines.join('\n');
+      const isError = errorNames.length > 0 || dispatchCounts.dispatch_failed > 0;
+      showToast(msg, isError ? 'error' : 'success');
+    } catch(e) { showToast('Could not check status. Please try again.', 'error'); }
   }
   document.getElementById('refreshStatusBtn').addEventListener('click', refreshStatus);
 
