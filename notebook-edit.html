@@ -36,7 +36,7 @@
       background-color: #F5EFE6; border-radius: 12px;
       box-shadow: 0 1px 3px rgba(30,58,95,0.06), 0 4px 12px rgba(30,58,95,0.04);
       border: 1px solid rgba(30,58,95,0.08); margin: 20px;
-      display: grid; grid-template-columns: 240px 240px 1fr;
+      display: grid; grid-template-columns: 80px 220px 1fr;
       min-height: calc(100vh - 100px); overflow: hidden;
     }
     .left-panel, .middle-panel {
@@ -109,10 +109,19 @@
     .btn-outline { background: transparent; border: 2px solid #1E3A5F; color: #1E3A5F; }
 
     .back-link {
-      display: inline-block; margin-top: 8px; font-size: 0.85rem;
-      color: #5A9AD6; text-decoration: none;
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+      padding: 12px 0; font-size: 0.8rem; font-weight: 600;
+      color: #1E3A5F; text-decoration: none; text-align: center;
+      border-radius: 8px; transition: background-color 0.15s;
     }
-    .back-link:hover { text-decoration: underline; }
+    .back-link:hover { background-color: rgba(30,58,95,0.08); text-decoration: none; }
+    .back-link-icon { font-size: 1.5rem; }
+    
+    .mode-subtitle {
+      text-align: center; font-size: 0.8rem; font-weight: 600;
+      color: rgba(245,239,230,0.7); padding: 4px 24px;
+      background: rgba(30,58,95,0.92);
+    }
 
     /* Summary overlay */
     .overlay {
@@ -171,11 +180,15 @@
   </div>
 </div>
 
+<div class="mode-subtitle">📓 Notebook Edit Mode</div>
+
 <div class="main-card">
-  <!-- LEFT: Books -->
+  <!-- LEFT: Back to Dashboard -->
   <div class="left-panel">
-    <div class="panel-heading">Books</div>
-    <div id="booksContainer"></div>
+    <a class="back-link" id="backLink" href="#">
+      <span class="back-link-icon">←</span>
+      Dashboard
+    </a>
   </div>
 
   <!-- MIDDLE: Pages -->
@@ -185,7 +198,6 @@
     <div style="margin-top:12px;">
       <button class="btn btn-outline" id="addPageBtn" style="width:100%;">+ Add Page</button>
     </div>
-    <a class="back-link" id="backLink" href="#">&larr; Back to Dashboard</a>
   </div>
 
   <!-- RIGHT: Edit Area -->
@@ -246,24 +258,8 @@
       .filter(Boolean);
   }
 
-  function parseLines(text) {
-    const result = [];
-    const lines = text.split(/\n/);
-    for (const line of lines) {
-      const trimmed = line.trim();
-      if (!trimmed) continue;
-      // Find first occurrence of either ASCII colon or full-width colon
-      let colonIdx = trimmed.indexOf(':');
-      if (colonIdx === -1) colonIdx = trimmed.indexOf('：');
-      if (colonIdx > 0) {
-        const vocab = trimmed.substring(0, colonIdx).trim();
-        const ctx = trimmed.substring(colonIdx + 1).trim();
-        if (/[\u4e00-\u9fff]/.test(vocab)) result.push({ vocab, context: ctx });
-      } else {
-        if (/[\u4e00-\u9fff]/.test(trimmed)) result.push({ vocab: trimmed, context: '' });
-      }
-    }
-    return result;
+  function parseWords(text) {
+    return text.split(/[,，、\n]/).map(w => w.trim()).filter(w => w && /[\u4e00-\u9fff]/.test(w));
   }
 
   function nextPageId() {
@@ -360,9 +356,13 @@
 
   // --- Save drafts to sessionStorage ---
   function saveDrafts() {
-    const drafts = { text: {}, checks: {}, news: [] };
+    const drafts = { text: {}, contexts: {}, checks: {}, news: [] };
     document.querySelectorAll('.page-card[data-page-id] textarea').forEach(ta => {
-      drafts.text[ta.dataset.pageId] = ta.value;
+      if (ta.classList.contains('page-context-ta')) {
+        drafts.contexts[ta.dataset.pageId] = ta.value;
+      } else {
+        drafts.text[ta.dataset.pageId] = ta.value;
+      }
     });
     document.querySelectorAll('input[type="checkbox"][data-delete-page]').forEach(cb => {
       drafts.checks[cb.dataset.deletePage] = cb.checked;
@@ -382,7 +382,13 @@
       const drafts = JSON.parse(raw);
       if (drafts.text) {
         Object.entries(drafts.text).forEach(([key, val]) => {
-          const ta = document.querySelector('.page-card[data-page-id="'+key+'"] textarea');
+          const ta = document.querySelector('.page-card[data-page-id="'+key+'"] textarea:not(.page-context-ta)');
+          if (ta) ta.value = val;
+        });
+      }
+      if (drafts.contexts) {
+        Object.entries(drafts.contexts).forEach(([key, val]) => {
+          const ta = document.querySelector('.page-context-ta[data-page-id="'+key+'"]');
           if (ta) ta.value = val;
         });
       }
@@ -431,25 +437,40 @@
 
       const ta = document.createElement('textarea');
       ta.dataset.pageId = pid;
-      ta.rows = 5;
-      ta.placeholder = '蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
-      // Build display: existing words + context if known
-      const lines = Object.values(notebookData)
+      ta.rows = 3;
+      ta.placeholder = '蘋果, 香蕉, 學校, 米飯\n（只接受繁體中文，逗號分隔）';
+      // Build display: existing words as comma-separated list
+      const existingWords = Object.values(notebookData)
         .filter(e => (e.pageId || '01') === pid)
-        .map(e => {
-          const t = e.traditional || '';
-          const ctx = (e.contextSentence || '').replace(t, '').replace(/[。，,!.\s]/g, '').trim();
-          return t + (ctx ? ' : ' + ctx : '');
-        });
-      ta.value = lines.join('\n');
+        .map(e => e.traditional || '')
+        .filter(Boolean);
+      ta.value = existingWords.join(', ');
       ta.dataset.original = ta.value;
       ta.addEventListener('input', () => { saveDrafts(); });
 
       card.appendChild(ta);
 
+      // Page context textarea (optional)
+      const ctxLabel = document.createElement('div');
+      ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
+      ctxLabel.textContent = 'Page Context (optional)';
+      card.appendChild(ctxLabel);
+
+      const ctxTa = document.createElement('textarea');
+      ctxTa.rows = 2;
+      ctxTa.className = 'page-context-ta';
+      ctxTa.dataset.pageId = pid;
+      ctxTa.placeholder = '食物和飲料相關的詞彙';
+      ctxTa.style.cssText = 'min-height:50px;font-size:0.85rem;';
+      // Load existing page context if stored
+      const pageContext = (notebookPages[pid] && notebookPages[pid]._context) || '';
+      ctxTa.value = pageContext;
+      ctxTa.addEventListener('input', () => { saveDrafts(); });
+      card.appendChild(ctxTa);
+
       const hint = document.createElement('div');
       hint.className = 'field-hint';
-      hint.textContent = 'Enter one word per line. Add ":" or "：" followed by context.\nWords without context get AI-generated example sentences.\ne.g.\n蘋果 : 水果\n香蕉 ： 水果\n學校\n米飯 : 午餐';
+      hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nOptional: add page context to help AI generate better example sentences.\ne.g. 蘋果, 香蕉, 學校, 米飯';
       card.appendChild(hint);
 
       container.appendChild(card);
@@ -487,15 +508,29 @@
     card.appendChild(h4);
 
     const ta = document.createElement('textarea');
-    ta.rows = 5;
+    ta.rows = 3;
     ta.value = text;
-    ta.placeholder = '蘋果 : 水果\n香蕉 : 水果\n學校\n米飯 : 午餐';
+    ta.placeholder = '蘋果, 香蕉, 學校, 米飯\n（只接受繁體中文，逗號分隔）';
     ta.addEventListener('input', saveDrafts);
     card.appendChild(ta);
 
+    // Page context textarea (optional)
+    const ctxLabel = document.createElement('div');
+    ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
+    ctxLabel.textContent = 'Page Context (optional)';
+    card.appendChild(ctxLabel);
+
+    const ctxTa = document.createElement('textarea');
+    ctxTa.rows = 2;
+    ctxTa.className = 'page-context-ta';
+    ctxTa.placeholder = '食物和飲料相關的詞彙';
+    ctxTa.style.cssText = 'min-height:50px;font-size:0.85rem;';
+    ctxTa.addEventListener('input', saveDrafts);
+    card.appendChild(ctxTa);
+
     const hint = document.createElement('div');
     hint.className = 'field-hint';
-    hint.textContent = 'Enter one word per line. Add ":" or "：" followed by context.\nWords without context get AI-generated example sentences.\ne.g.\n蘋果 : 水果\n香蕉 ： 水果\n學校\n米飯 : 午餐';
+    hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nOptional: add page context to help AI generate better example sentences.\ne.g. 蘋果, 香蕉, 學校, 米飯';
     card.appendChild(hint);
 
     container.appendChild(card);
@@ -515,12 +550,14 @@
       const currentWords = getWordsForPage(pid);
       const ta = document.querySelector('.page-card[data-page-id="'+pid+'"] textarea');
       if (!ta) return;
-      const desired = parseLines(ta.value);
-      const desiredVocabs = desired.map(d => d.vocab);
-      const added = desiredVocabs.filter(v => !currentWords.includes(v));
-      const removed = currentWords.filter(v => !desiredVocabs.includes(v));
-      if (added.length || removed.length) {
-        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, isNew: false, isDelete: false });
+      const desired = parseWords(ta.value);
+      const added = desired.filter(v => !currentWords.includes(v));
+      const removed = currentWords.filter(v => !desired.includes(v));
+      // Read page context
+      const ctxTa = document.querySelector('.page-context-ta[data-page-id="'+pid+'"]');
+      const pageContext = ctxTa ? ctxTa.value.trim() : '';
+      if (added.length || removed.length || pageContext !== ((page._context) || '')) {
+        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, context: pageContext, isNew: false, isDelete: false });
       }
     });
     document.querySelectorAll('input[type="checkbox"][data-delete-page]:checked').forEach(cb => {
@@ -531,10 +568,12 @@
     document.querySelectorAll('.page-card[data-new="true"]').forEach(card => {
       const ti = card.querySelector('input.page-title-input');
       const ta = card.querySelector('textarea');
+      const ctxTa = card.querySelector('.page-context-ta');
       const title = ti ? ti.value.trim() : '';
-      const desired = ta ? parseLines(ta.value) : [];
+      const desired = ta ? parseWords(ta.value) : [];
+      const pageContext = ctxTa ? ctxTa.value.trim() : '';
       if (title) {
-        diffs.push({ pageId: null, title, added: desired.map(d=>d.vocab), removed: [], contexts: desired, isNew: true, isDelete: false });
+        diffs.push({ pageId: null, title, added: desired, removed: [], contexts: desired, context: pageContext, isNew: true, isDelete: false });
       }
     });
     return diffs;
@@ -581,7 +620,7 @@
     const pages = data.notebookPages || {};
     if (!pages['01']) pages['01'] = { title: 'Main page' };
 
-    // Track dispatch info: { pageId: [words] }
+    // Track dispatch info: { pageId: { words: [], context: "" } }
     const dispatches = {};
 
     for (const d of diffs) {
@@ -592,32 +631,34 @@
         }
       } else if (d.isNew) {
         const newId = nextPageId();
-        pages[newId] = { title: d.title };
-        if (d.added.length) dispatches[newId] = d.added;
-        for (const item of d.contexts) {
-          const wid = notebookWordId(student, item.vocab);
+        pages[newId] = { title: d.title, _context: d.context || '' };
+        if (d.added.length) dispatches[newId] = { words: d.added, context: d.context || '' };
+        for (const word of d.added) {
+          const wid = notebookWordId(student, word);
           notebook[wid] = {
-            traditional: item.vocab, simplified: '', english: '', pinyin: '',
-            contextSentence: item.context || '', contextSentenceSimplified: '',
+            traditional: word, simplified: '', english: '', pinyin: '',
+            contextSentence: '', contextSentenceSimplified: '',
             audio: {}, pageId: newId, source: 'notebook',
             status: 'pending', failCount: 0,
             savedAt: firebase.firestore.FieldValue.serverTimestamp(),
           };
         }
       } else {
-        if (d.added.length) dispatches[d.pageId] = d.added;
+        // Save page context
+        pages[d.pageId] = pages[d.pageId] || {};
+        pages[d.pageId]._context = d.context || '';
+        if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.context || '' };
         for (const word of d.removed) {
           const wid = notebookWordId(student, word);
           delete notebook[wid];
         }
-        for (const item of d.contexts) {
-          if (!d.added.includes(item.vocab)) continue;
-          const wid = notebookWordId(student, item.vocab);
+        for (const word of d.added) {
+          const wid = notebookWordId(student, word);
           const existing = notebook[wid] || {};
           notebook[wid] = {
-            traditional: item.vocab, simplified: existing.simplified || '', english: existing.english || '',
-            pinyin: existing.pinyin || '', contextSentence: item.context || existing.contextSentence || '',
-            contextSentenceSimplified: item.context ? '' : (existing.contextSentenceSimplified || ''),
+            traditional: word, simplified: existing.simplified || '', english: existing.english || '',
+            pinyin: existing.pinyin || '', contextSentence: existing.contextSentence || '',
+            contextSentenceSimplified: existing.contextSentenceSimplified || '',
             audio: existing.audio || {}, pageId: d.pageId,
             source: existing.source || 'notebook', status: 'pending',
             failCount: existing.failCount || 0,
@@ -633,8 +674,8 @@
     await docRef.set(data);
 
     // Create dispatch docs for each page with new words (non-blocking)
-    for (const [pid, words] of Object.entries(dispatches)) {
-      dispatchNotebookPage(student, pid, words, '');
+    for (const [pid, info] of Object.entries(dispatches)) {
+      dispatchNotebookPage(student, pid, info.words, info.context);
     }
 
     notebookData = notebook;
@@ -686,7 +727,6 @@
   // --- Init ---
   async function init() {
     await populateStudentDropdown();
-    await loadBooks();
     try {
       notebookData = await loadNotebook(student);
       notebookPages = await loadNotebookPages(student);
