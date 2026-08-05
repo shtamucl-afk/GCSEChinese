@@ -557,8 +557,9 @@
       // Read page context
       const ctxTa = document.querySelector('.page-context-ta[data-page-id="'+pid+'"]');
       const pageContext = ctxTa ? ctxTa.value.trim() : '';
-      if (added.length || removed.length || pageContext !== ((page._context) || '')) {
-        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, context: pageContext, isNew: false, isDelete: false });
+      const clearContext = (desired.length === 0 && removed.length > 0 && page._context);
+      if (added.length || removed.length || pageContext !== ((page._context) || '') || clearContext) {
+        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, context: clearContext ? '' : pageContext, isNew: false, isDelete: false, clearContext: clearContext || false });
       }
     });
     document.querySelectorAll('input[type="checkbox"][data-delete-page]:checked').forEach(cb => {
@@ -593,6 +594,7 @@
         const parts = [];
         if (d.added.length) parts.push('➕ Add: '+d.added.join(', '));
         if (d.removed.length) parts.push('➖ Remove: '+d.removed.join(', '));
+        if (d.clearContext) parts.push('🧹 Clear page context');
         div.textContent = '📄 Page "'+d.title+'": ' + parts.join(' | ');
         if (d.added.length) div.classList.add('add');
         if (d.removed.length) div.classList.add('remove');
@@ -645,10 +647,10 @@
           };
         }
       } else {
-        // Save page context
+        // Save page context (clear if all words removed)
         pages[d.pageId] = pages[d.pageId] || {};
-        pages[d.pageId]._context = d.context || '';
-        if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.context || '' };
+        pages[d.pageId]._context = d.clearContext ? '' : (d.context || '');
+        if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.clearContext ? '' : (d.context || '') };
         for (const word of d.removed) {
           const wid = notebookWordId(student, d.pageId, word);
           delete notebook[wid];
