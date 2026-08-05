@@ -451,8 +451,13 @@
 
       card.appendChild(ta);
 
-      // Page context textarea (optional)
-      // Page context textarea (optional, single-use — not persisted)
+      // Words hint (below first box)
+      const wordsHint = document.createElement('div');
+      wordsHint.className = 'field-hint';
+      wordsHint.textContent = 'Enter words separated by commas (Traditional Chinese only).\ne.g. 蘋果, 香蕉, 學校, 米飯';
+      card.appendChild(wordsHint);
+
+      // Page context (single-use — not persisted)
       const ctxLabel = document.createElement('div');
       ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
       ctxLabel.textContent = '📝 Context for AI when generating new context sentence for newly added words.  This context is single use only and is not saved.';
@@ -467,10 +472,11 @@
       ctxTa.addEventListener('input', () => { saveDrafts(); });
       card.appendChild(ctxTa);
 
-      const hint = document.createElement('div');
-      hint.className = 'field-hint';
-      hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nContext for AI: enter a short topic description (single-use, not saved).\ne.g. 蘋果, 香蕉, 學校, 米飯';
-      card.appendChild(hint);
+      // Context hint (below second box)
+      const ctxHint = document.createElement('div');
+      ctxHint.className = 'field-hint';
+      ctxHint.textContent = 'Optional Context for AI:  enter a short topic description (single-use, not saved, leave blank also works).';
+      card.appendChild(ctxHint);
 
       container.appendChild(card);
     });
@@ -513,7 +519,13 @@
     ta.addEventListener('input', saveDrafts);
     card.appendChild(ta);
 
-    // Page context textarea (optional, single-use — not persisted)
+    // Words hint (below first box)
+    const wordsHint = document.createElement('div');
+    wordsHint.className = 'field-hint';
+    wordsHint.textContent = 'Enter words separated by commas (Traditional Chinese only).\ne.g. 蘋果, 香蕉, 學校, 米飯';
+    card.appendChild(wordsHint);
+
+    // Page context (single-use — not persisted)
     const ctxLabel = document.createElement('div');
     ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
     ctxLabel.textContent = '📝 Context for AI when generating new context sentence for newly added words.  This context is single use only and is not saved.';
@@ -527,10 +539,11 @@
     ctxTa.addEventListener('input', saveDrafts);
     card.appendChild(ctxTa);
 
-    const hint = document.createElement('div');
-    hint.className = 'field-hint';
-    hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nContext for AI: enter a short topic description (single-use, not saved).\ne.g. 蘋果, 香蕉, 學校, 米飯';
-    card.appendChild(hint);
+    // Context hint (below second box)
+    const ctxHint = document.createElement('div');
+    ctxHint.className = 'field-hint';
+    ctxHint.textContent = 'Optional Context for AI:  enter a short topic description (single-use, not saved, leave blank also works).';
+    card.appendChild(ctxHint);
 
     container.appendChild(card);
     document.getElementById('actionRow').style.display = 'flex';
