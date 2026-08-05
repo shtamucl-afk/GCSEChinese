@@ -452,9 +452,10 @@
       card.appendChild(ta);
 
       // Page context textarea (optional)
+      // Page context textarea (optional, single-use — not persisted)
       const ctxLabel = document.createElement('div');
       ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
-      ctxLabel.textContent = 'Page Context (optional)';
+      ctxLabel.textContent = '📝 Context for AI (optional, single-use)';
       card.appendChild(ctxLabel);
 
       const ctxTa = document.createElement('textarea');
@@ -463,15 +464,12 @@
       ctxTa.dataset.pageId = pid;
       ctxTa.placeholder = '食物和飲料相關的詞彙';
       ctxTa.style.cssText = 'min-height:50px;font-size:0.85rem;';
-      // Load existing page context if stored
-      const pageContext = (notebookPages[pid] && notebookPages[pid]._context) || '';
-      ctxTa.value = pageContext;
       ctxTa.addEventListener('input', () => { saveDrafts(); });
       card.appendChild(ctxTa);
 
       const hint = document.createElement('div');
       hint.className = 'field-hint';
-      hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nOptional: add page context to help AI generate better example sentences.\ne.g. 蘋果, 香蕉, 學校, 米飯';
+      hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nContext for AI: enter a short topic description (single-use, not saved).\ne.g. 蘋果, 香蕉, 學校, 米飯';
       card.appendChild(hint);
 
       container.appendChild(card);
@@ -515,10 +513,10 @@
     ta.addEventListener('input', saveDrafts);
     card.appendChild(ta);
 
-    // Page context textarea (optional)
+    // Page context textarea (optional, single-use — not persisted)
     const ctxLabel = document.createElement('div');
     ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
-    ctxLabel.textContent = 'Page Context (optional)';
+    ctxLabel.textContent = '📝 Context for AI (optional, single-use)';
     card.appendChild(ctxLabel);
 
     const ctxTa = document.createElement('textarea');
@@ -531,7 +529,7 @@
 
     const hint = document.createElement('div');
     hint.className = 'field-hint';
-    hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nOptional: add page context to help AI generate better example sentences.\ne.g. 蘋果, 香蕉, 學校, 米飯';
+    hint.textContent = 'Enter words separated by commas (Traditional Chinese only).\nContext for AI: enter a short topic description (single-use, not saved).\ne.g. 蘋果, 香蕉, 學校, 米飯';
     card.appendChild(hint);
 
     container.appendChild(card);
@@ -554,12 +552,11 @@
       const desired = parseWords(ta.value);
       const added = desired.filter(v => !currentWords.includes(v));
       const removed = currentWords.filter(v => !desired.includes(v));
-      // Read page context
+      // Read page context (single-use, not compared/loaded from Firestore)
       const ctxTa = document.querySelector('.page-context-ta[data-page-id="'+pid+'"]');
       const pageContext = ctxTa ? ctxTa.value.trim() : '';
-      const clearContext = (desired.length === 0 && removed.length > 0 && page._context);
-      if (added.length || removed.length || pageContext !== ((page._context) || '') || clearContext) {
-        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, context: clearContext ? '' : pageContext, isNew: false, isDelete: false, clearContext: clearContext || false });
+      if (added.length || removed.length) {
+        diffs.push({ pageId: pid, title: page.title || ('Page '+pid), added, removed, contexts: desired, context: pageContext, isNew: false, isDelete: false });
       }
     });
     document.querySelectorAll('input[type="checkbox"][data-delete-page]:checked').forEach(cb => {
@@ -594,7 +591,6 @@
         const parts = [];
         if (d.added.length) parts.push('➕ Add: '+d.added.join(', '));
         if (d.removed.length) parts.push('➖ Remove: '+d.removed.join(', '));
-        if (d.clearContext) parts.push('🧹 Clear page context');
         div.textContent = '📄 Page "'+d.title+'": ' + parts.join(' | ');
         if (d.added.length) div.classList.add('add');
         if (d.removed.length) div.classList.add('remove');
@@ -647,10 +643,9 @@
           };
         }
       } else {
-        // Save page context (clear if all words removed)
+        // Page context is single-use — only sent via dispatch, not saved to Firestore
         pages[d.pageId] = pages[d.pageId] || {};
-        pages[d.pageId]._context = d.clearContext ? '' : (d.context || '');
-        if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.clearContext ? '' : (d.context || '') };
+        if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.context || '' };
         for (const word of d.removed) {
           const wid = notebookWordId(student, d.pageId, word);
           delete notebook[wid];
