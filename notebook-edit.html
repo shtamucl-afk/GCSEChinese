@@ -533,7 +533,7 @@
       const ta = card.querySelector('textarea');
       const title = ti ? ti.value.trim() : '';
       const desired = ta ? parseLines(ta.value) : [];
-      if (title && desired.length) {
+      if (title) {
         diffs.push({ pageId: null, title, added: desired.map(d=>d.vocab), removed: [], contexts: desired, isNew: true, isDelete: false });
       }
     });
@@ -548,7 +548,7 @@
       const div = document.createElement('div');
       div.className = 'summary-item';
       if (d.isDelete) { div.classList.add('delete-page'); div.textContent = '🗑 DELETE Page "'+d.title+'" ('+d.removed.length+' words removed)'; }
-      else if (d.isNew) { div.classList.add('new-page'); div.textContent = '➕ NEW Page "'+d.title+'": add '+d.added.join(', '); }
+      else if (d.isNew) { div.classList.add('new-page'); div.textContent = '➕ NEW Page "'+d.title+'": ' + (d.added.length ? d.added.join(', ') : '(empty)'); }
       else {
         const parts = [];
         if (d.added.length) parts.push('➕ Add: '+d.added.join(', '));
@@ -581,6 +581,9 @@
     const pages = data.notebookPages || {};
     if (!pages['01']) pages['01'] = { title: 'Main page' };
 
+    // Track dispatch info: { pageId: [words] }
+    const dispatches = {};
+
     for (const d of diffs) {
       if (d.isDelete) {
         delete pages[d.pageId];
@@ -590,6 +593,7 @@
       } else if (d.isNew) {
         const newId = nextPageId();
         pages[newId] = { title: d.title };
+        if (d.added.length) dispatches[newId] = d.added;
         for (const item of d.contexts) {
           const wid = notebookWordId(student, item.vocab);
           notebook[wid] = {
@@ -601,6 +605,7 @@
           };
         }
       } else {
+        if (d.added.length) dispatches[d.pageId] = d.added;
         for (const word of d.removed) {
           const wid = notebookWordId(student, word);
           delete notebook[wid];
@@ -626,6 +631,11 @@
     data.notebookPages = pages;
     data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
     await docRef.set(data);
+
+    // Create dispatch docs for each page with new words (non-blocking)
+    for (const [pid, words] of Object.entries(dispatches)) {
+      dispatchNotebookPage(student, pid, words, '');
+    }
 
     notebookData = notebook;
     notebookPages = pages;

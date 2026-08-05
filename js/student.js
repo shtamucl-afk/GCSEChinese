@@ -231,3 +231,33 @@ async function removeNotebookWord(student, wordId) {
     await docRef.set(data);
 }
 
+/**
+ * Create a dispatch document in notebookDispatches/ to trigger the
+ * Cloud Function. One doc per page — the CF watches this collection
+ * and dispatches one GitHub Actions workflow per doc.
+ *
+ * @param {string} student - Student name
+ * @param {string} pageId - Page ID (e.g. "01")
+ * @param {string[]} words - Array of traditional Chinese words to enrich
+ * @param {string} context - Optional passage context for AI enrichment
+ */
+async function dispatchNotebookPage(student, pageId, words, context) {
+    if (!words || !words.length) return;
+    const safeStudent = sanitizeStudentName(student);
+    const ts = Date.now();
+    const docId = `${safeStudent}_${pageId}_${ts}`;
+    try {
+        await db.collection('notebookDispatches').doc(docId).set({
+            student: student,
+            page: pageId,
+            words: words,
+            context: context || '',
+            status: 'pending',
+            createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        });
+        console.log(`[dispatchNotebookPage] Created dispatch doc: ${docId}`);
+    } catch (err) {
+        console.error(`[dispatchNotebookPage] Failed for ${docId}:`, err);
+    }
+}
+
