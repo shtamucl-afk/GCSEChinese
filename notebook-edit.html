@@ -635,7 +635,7 @@
         pages[newId] = { title: d.title, _context: d.context || '' };
         if (d.added.length) dispatches[newId] = { words: d.added, context: d.context || '' };
         for (const word of d.added) {
-          const wid = notebookWordId(student, word);
+          const wid = notebookWordId(student, newId, word);
           notebook[wid] = {
             traditional: word, simplified: '', english: '', pinyin: '',
             contextSentence: '', contextSentenceSimplified: '',
@@ -650,11 +650,11 @@
         pages[d.pageId]._context = d.context || '';
         if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.context || '' };
         for (const word of d.removed) {
-          const wid = notebookWordId(student, word);
+          const wid = notebookWordId(student, d.pageId, word);
           delete notebook[wid];
         }
         for (const word of d.added) {
-          const wid = notebookWordId(student, word);
+          const wid = notebookWordId(student, d.pageId, word);
           const existing = notebook[wid] || {};
           notebook[wid] = {
             traditional: word, simplified: existing.simplified || '', english: existing.english || '',

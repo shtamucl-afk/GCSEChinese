@@ -1095,9 +1095,9 @@
       }
     }
 
-    async function removeNotebookWordAndRefresh(wordId) {
+    async function removeNotebookWordAndRefresh(pageId, traditional) {
       try {
-        await removeNotebookWord(student, wordId);
+        await removeNotebookWord(student, pageId, traditional);
         notebookData = await loadNotebook(student);
         await selectBook(NOTEBOOK_BOOK_ID);
         showToast('Removed from My Notebook', 'success');
@@ -1897,7 +1897,7 @@
         notebookActionBtn.className = 'details-btn';
         if (currentBookId === NOTEBOOK_BOOK_ID) {
           notebookActionBtn.textContent = '\ud83d\uddd1 Remove from My Notebook';
-          notebookActionBtn.addEventListener('click', () => removeNotebookWordAndRefresh(word.id));
+          notebookActionBtn.addEventListener('click', () => removeNotebookWordAndRefresh(word.pageId, word.traditional));
         } else {
           notebookActionBtn.textContent = '\u2795 Add to My Notebook';
           notebookActionBtn.addEventListener('click', () => addCurriculumWordToNotebook(word));

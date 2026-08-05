@@ -182,10 +182,11 @@ function sanitizeStudentName(name) {
     return name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_\u4e00-\u9fff]/g, '');
 }
 
-function notebookWordId(student, traditional) {
+function notebookWordId(student, pageId, traditional) {
     const safeStudent = sanitizeStudentName(student);
+    const safePage = String(pageId || NOTEBOOK_DEFAULT_PAGE);
     const safeWord = String(traditional).replace(/[^\u4e00-\u9fff]/g, '');
-    return `nb_${safeStudent}_${safeWord}`;
+    return `nb_${safeStudent}_${safePage}_${safeWord}`;
 }
 
 async function loadNotebook(student) {
@@ -204,8 +205,9 @@ async function loadNotebookPages(student) {
 }
 
 async function saveNotebookWord(student, entry) {
-    const wordId = notebookWordId(student, entry.traditional);
-    entry.pageId = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
+    const pid = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
+    const wordId = notebookWordId(student, pid, entry.traditional);
+    entry.pageId = pid;
     // Read-modify-write with nested map (compatible with Streamlit/Pipeline)
     const docRef = db.collection('students').doc(student);
     const doc = await docRef.get();
@@ -218,7 +220,8 @@ async function saveNotebookWord(student, entry) {
     return wordId;
 }
 
-async function removeNotebookWord(student, wordId) {
+async function removeNotebookWord(student, pageId, traditional) {
+    const wordId = notebookWordId(student, pageId || NOTEBOOK_DEFAULT_PAGE, traditional);
     // Read-modify-write with nested map (compatible with Streamlit/Pipeline)
     const docRef = db.collection('students').doc(student);
     const doc = await docRef.get();
