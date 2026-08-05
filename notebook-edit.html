@@ -691,7 +691,7 @@
       await executeChanges(diffs);
       document.getElementById('summaryOverlay').classList.remove('active');
       const pendingCount = diffs.reduce((sum, d) => sum + d.added.length, 0);
-      showToast('Saved ' + pendingCount + ' word(s)! Enrichment will begin — refresh status in ~2 min.', 'success');
+      showToast('Saved ' + pendingCount + ' word(s)! Processing queued — expect results in ~5-10 min.', 'success');
       renderEditCards();
       renderPagesList();
     } catch(err) {
@@ -703,24 +703,77 @@
   document.getElementById('confirmBtn').addEventListener('click', doConfirm);
   document.getElementById('confirmFromSummary').addEventListener('click', doConfirm);
 
-  // --- Refresh status ---
+  // --- Refresh status (debug diagnostic) ---
   async function refreshStatus() {
     try {
       notebookData = await loadNotebook(student);
+      notebookPages = await loadNotebookPages(student);
       renderEditCards();
       renderPagesList();
-      const counts = { pending: 0, generated: 0, error: 0 };
+
+      // 1. Word status breakdown (per page)
+      const wordStatus = {};
       Object.values(notebookData).forEach(e => {
-        if (e.status === 'pending') counts.pending++;
-        else if (e.status === 'generated') counts.generated++;
-        else if (e.status === 'error') counts.error++;
+        const pid = e.pageId || '01';
+        if (!wordStatus[pid]) wordStatus[pid] = { pending:0, generated:0, error:0, names:[] };
+        wordStatus[pid][e.status || 'pending']++;
+        if (e.status === 'pending') wordStatus[pid].names.push(e.traditional);
+        else if (e.status === 'error') wordStatus[pid].names.push(e.traditional + '(err)');
       });
-      let msg = 'Status checked. ';
-      if (counts.pending) msg += '⏳ ' + counts.pending + ' pending. ';
-      if (counts.generated) msg += '✅ ' + counts.generated + ' generated. ';
-      if (counts.error) msg += '❌ ' + counts.error + ' failed. ';
-      if (!counts.pending && !counts.error) msg += 'All complete!';
-      showToast(msg.trim(), counts.error ? 'error' : 'success');
+
+      // 2. Dispatch doc status (from notebookDispatches/)
+      let dispatchSummary = '';
+      try {
+        const safeStudent = student.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_\u4e00-\u9fff]/g, '');
+        const snap = await db.collection('notebookDispatches')
+          .where('student', '==', student)
+          .orderBy('createdAt', 'desc')
+          .limit(10)
+          .get();
+        if (!snap.empty) {
+          const dispatchCounts = {};
+          snap.forEach(doc => {
+            const d = doc.data();
+            dispatchCounts[d.status] = (dispatchCounts[d.status] || 0) + 1;
+          });
+          dispatchSummary = '\n📬 Dispatches: ';
+          const parts = [];
+          if (dispatchCounts.pending) parts.push('⏳' + dispatchCounts.pending);
+          if (dispatchCounts.dispatching) parts.push('🔄' + dispatchCounts.dispatching);
+          if (dispatchCounts.dispatched) parts.push('✅' + dispatchCounts.dispatched);
+          if (dispatchCounts.dispatch_failed) parts.push('❌' + dispatchCounts.dispatch_failed);
+          dispatchSummary += parts.join(' ') || 'none';
+        }
+      } catch(e) { dispatchSummary = '\n📬 Dispatch: unavailable'; }
+
+      // 3. Build summary
+      const totalPending = Object.values(wordStatus).reduce((s,p) => s + p.pending, 0);
+      const totalGenerated = Object.values(wordStatus).reduce((s,p) => s + p.generated, 0);
+      const totalError = Object.values(wordStatus).reduce((s,p) => s + p.error, 0);
+
+      let msg = `📊 Words: ${totalGenerated}✅ ${totalPending}⏳ ${totalError}❌`;
+      if (totalPending) {
+        const pendingNames = Object.values(wordStatus)
+          .filter(p => p.pending > 0)
+          .flatMap(p => p.names)
+          .slice(0, 5);
+        msg += '\nPending: ' + pendingNames.join(', ');
+        if (totalPending > 5) msg += ' ...+' + (totalPending - 5);
+      }
+      if (totalError) {
+        const errNames = Object.values(wordStatus)
+          .filter(p => p.error > 0)
+          .flatMap(p => p.names).slice(0, 3);
+        msg += '\nFailed: ' + errNames.join(', ');
+      }
+      msg += dispatchSummary;
+
+      // Show GitHub link if dispatches exist
+      if (dispatchSummary && !dispatchSummary.includes('unavailable')) {
+        msg += '\n🔗 github.com/shtamucl-afk/assistant-learning-content-transfer/actions';
+      }
+
+      showToast(msg, totalError ? 'error' : (totalPending ? '' : 'success'));
     } catch(e) { showToast('Refresh failed', 'error'); }
   }
   document.getElementById('refreshStatusBtn').addEventListener('click', refreshStatus);
