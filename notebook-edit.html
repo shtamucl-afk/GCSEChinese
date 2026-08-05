@@ -252,8 +252,10 @@
     for (const line of lines) {
       const trimmed = line.trim();
       if (!trimmed) continue;
-      const colonIdx = trimmed.indexOf(':');
-      if (colonIdx > 0 && (trimmed[colonIdx] === ':' || trimmed[colonIdx] === '：')) {
+      // Find first occurrence of either ASCII colon or full-width colon
+      let colonIdx = trimmed.indexOf(':');
+      if (colonIdx === -1) colonIdx = trimmed.indexOf('：');
+      if (colonIdx > 0) {
         const vocab = trimmed.substring(0, colonIdx).trim();
         const ctx = trimmed.substring(colonIdx + 1).trim();
         if (/[\u4e00-\u9fff]/.test(vocab)) result.push({ vocab, context: ctx });
