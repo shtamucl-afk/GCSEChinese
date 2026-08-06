@@ -90,6 +90,132 @@
     }
     .left-panel, .middle-panel {
       border-right: 1px solid rgba(30, 58, 95, 0.12);
+      position: relative;
+      transition: width 0.2s, height 0.2s;
+    }
+
+    /* ---------- Panel content wrapper (scrollable area) ---------- */
+    .panel-content {
+      overflow-y: auto;
+      height: 100%;
+    }
+
+    /* ---------- Panel toggle button (+/-) ---------- */
+    .panel-toggle-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      background: #F5EFE6;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 700;
+      color: #1E3A5F;
+      z-index: 10;
+      padding: 0;
+      line-height: 26px;
+      text-align: center;
+      font-family: inherit;
+      transition: background-color 0.15s;
+    }
+    .panel-toggle-btn:hover {
+      background-color: rgba(30, 58, 95, 0.08);
+    }
+
+    /* ---------- Maximize View button (Panel 3 chapter header) ---------- */
+    .maximize-btn {
+      padding: 4px 12px;
+      border-radius: 6px;
+      border: 1px solid rgba(30, 58, 95, 0.2);
+      background: transparent;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      color: #1E3A5F;
+      font-family: inherit;
+      white-space: nowrap;
+      transition: background-color 0.15s;
+    }
+    .maximize-btn:hover {
+      background-color: rgba(30, 58, 95, 0.08);
+    }
+
+    /* ---------- Collapsed strip (visible when panel collapsed) ---------- */
+    .collapsed-strip {
+      display: none;
+      padding: 8px 4px;
+      font-size: 11px;
+      color: rgba(30, 58, 95, 0.75);
+      text-align: center;
+      overflow: hidden;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    .collapsed-strip .strip-name {
+      font-weight: 600;
+      color: #1E3A5F;
+      font-size: 12px;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      white-space: nowrap;
+      overflow: hidden;
+      max-height: 200px;
+    }
+    .collapsed-strip .strip-link {
+      font-size: 10px;
+      color: #5A9AD6;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      line-height: 1.3;
+      word-break: break-word;
+    }
+    .collapsed-strip .strip-link:hover {
+      text-decoration: underline;
+    }
+
+    /* ---------- Collapsed panel states ---------- */
+    .left-panel.collapsed,
+    .middle-panel.collapsed {
+      overflow: hidden;
+      padding: 8px 4px 0 4px;
+    }
+    .left-panel.collapsed .panel-content,
+    .middle-panel.collapsed .panel-content {
+      display: none;
+    }
+    .left-panel.collapsed .collapsed-strip,
+    .middle-panel.collapsed .collapsed-strip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      height: 100%;
+      justify-content: flex-start;
+      padding-top: 0;
+    }
+    .left-panel.collapsed .collapsed-strip .strip-link,
+    .middle-panel.collapsed .collapsed-strip .strip-link {
+      order: -1;
+    }
+    .left-panel.collapsed .panel-toggle-btn,
+    .middle-panel.collapsed .panel-toggle-btn {
+      position: static;
+      display: block;
+      margin: 0 auto 0 auto;
+    }
+
+    /* ---------- Grid modifiers for collapse combinations ---------- */
+    .main-card.p1-collapsed {
+      grid-template-columns: 60px 340px 1fr;
+    }
+    .main-card.p2-collapsed {
+      grid-template-columns: 240px 60px 1fr;
+    }
+    .main-card.both-collapsed {
+      grid-template-columns: 60px 60px 1fr;
     }
 
     /* ---------- Panel headings ---------- */
@@ -613,15 +739,83 @@
       .main-card {
         grid-template-columns: 200px 300px 1fr;
       }
+      .main-card.p1-collapsed {
+        grid-template-columns: 60px 300px 1fr;
+      }
+      .main-card.p2-collapsed {
+        grid-template-columns: 200px 60px 1fr;
+      }
+      .main-card.both-collapsed {
+        grid-template-columns: 60px 60px 1fr;
+      }
     }
     @media (max-width: 900px) {
       .main-card {
         grid-template-columns: 1fr;
         margin: 12px;
       }
+      .main-card.p1-collapsed,
+      .main-card.p2-collapsed,
+      .main-card.both-collapsed {
+        grid-template-columns: 1fr;
+      }
       .left-panel, .middle-panel {
         border-right: none;
         border-bottom: 1px solid rgba(30, 58, 95, 0.12);
+      }
+      .left-panel.collapsed {
+        height: 44px;
+        min-height: 44px;
+        width: auto;
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .middle-panel.collapsed {
+        height: 44px;
+        min-height: 44px;
+        width: auto;
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .left-panel.collapsed .collapsed-strip,
+      .middle-panel.collapsed .collapsed-strip {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        flex: 1;
+        text-align: left;
+        padding-top: 0;
+        justify-content: flex-start;
+      }
+      .left-panel.collapsed .collapsed-strip .strip-name,
+      .middle-panel.collapsed .collapsed-strip .strip-name {
+        margin-bottom: 0;
+        writing-mode: horizontal-tb;
+        max-height: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .left-panel.collapsed .collapsed-strip .strip-link,
+      .middle-panel.collapsed .collapsed-strip .strip-link {
+        margin-top: 0;
+        margin-left: auto;
+        order: 0;
+      }
+      .left-panel.collapsed .panel-toggle-btn,
+      .middle-panel.collapsed .panel-toggle-btn {
+        position: static;
+        display: inline-flex;
+        margin: 0;
+        flex-shrink: 0;
+      }
+      .panel-toggle-btn {
+        right: 12px;
       }
     }
   </style>
@@ -643,16 +837,30 @@
 
   <div class="main-card">
 
-    <div class="left-panel">
-      <h2 class="panel-heading">Books</h2>
-      <div id="books-list-container">
-        <p class="empty-message">Loading books...</p>
+    <div class="left-panel" id="left-panel">
+      <button class="panel-toggle-btn" id="panel1-toggle" title="Collapse book list" aria-label="Toggle book list">−</button>
+      <div class="collapsed-strip" id="panel1-strip">
+        <span class="strip-name" id="panel1-strip-name"></span>
+        <a class="strip-link" id="panel1-strip-link" href="#">Select other books</a>
+      </div>
+      <div class="panel-content">
+        <h2 class="panel-heading">Books</h2>
+        <div id="books-list-container">
+          <p class="empty-message">Loading books...</p>
+        </div>
       </div>
     </div>
 
-    <div class="middle-panel">
-      <div id="book-content">
-        <p class="empty-message">Select a book from the left panel to view its chapters.</p>
+    <div class="middle-panel" id="middle-panel">
+      <button class="panel-toggle-btn" id="panel2-toggle" title="Collapse chapter list" aria-label="Toggle chapter list">−</button>
+      <div class="collapsed-strip" id="panel2-strip">
+        <span class="strip-name" id="panel2-strip-name"></span>
+        <a class="strip-link" id="panel2-strip-link" href="#">Select other chapters</a>
+      </div>
+      <div class="panel-content">
+        <div id="book-content">
+          <p class="empty-message">Select a book from the left panel to view its chapters.</p>
+        </div>
       </div>
     </div>
 
@@ -707,6 +915,103 @@
     let expandedWordIds = new Set();
 
     // ------------------------------------------------------------------
+    // Panel collapse state
+    // ------------------------------------------------------------------
+    let collapsedState = { panel1: false, panel2: false };
+
+    function updatePanelUI() {
+      const mainCard = document.querySelector('.main-card');
+      const leftPanel = document.getElementById('left-panel');
+      const middlePanel = document.getElementById('middle-panel');
+      const p1Toggle = document.getElementById('panel1-toggle');
+      const p2Toggle = document.getElementById('panel2-toggle');
+      const maxBtn = document.getElementById('maximize-btn');
+
+      // Remove all collapse modifier classes
+      mainCard.classList.remove('p1-collapsed', 'p2-collapsed', 'both-collapsed');
+
+      if (collapsedState.panel1 && collapsedState.panel2) {
+        mainCard.classList.add('both-collapsed');
+      } else if (collapsedState.panel1) {
+        mainCard.classList.add('p1-collapsed');
+      } else if (collapsedState.panel2) {
+        mainCard.classList.add('p2-collapsed');
+      }
+
+      leftPanel.classList.toggle('collapsed', collapsedState.panel1);
+      middlePanel.classList.toggle('collapsed', collapsedState.panel2);
+
+      if (p1Toggle) p1Toggle.textContent = collapsedState.panel1 ? '+' : '\u2212';
+      if (p2Toggle) p2Toggle.textContent = collapsedState.panel2 ? '+' : '\u2212';
+
+      if (maxBtn) {
+        const bothCollapsed = collapsedState.panel1 && collapsedState.panel2;
+        maxBtn.textContent = bothCollapsed ? '\u26F6 Restore' : '\u26F6 Maximize';
+      }
+
+      updateCollapsedStripContent();
+    }
+
+    function togglePanel1() {
+      collapsedState.panel1 = !collapsedState.panel1;
+      updatePanelUI();
+    }
+
+    function togglePanel2() {
+      collapsedState.panel2 = !collapsedState.panel2;
+      updatePanelUI();
+    }
+
+    function toggleMaximize() {
+      const bothCollapsed = collapsedState.panel1 && collapsedState.panel2;
+      collapsedState.panel1 = !bothCollapsed;
+      collapsedState.panel2 = !bothCollapsed;
+      updatePanelUI();
+    }
+
+    function updateCollapsedStripContent() {
+      // Panel 1 strip
+      const p1Name = document.getElementById('panel1-strip-name');
+      const p1Link = document.getElementById('panel1-strip-link');
+      if (p1Name && currentBookId) {
+        const book = allBooks.find(b => b.id === currentBookId);
+        p1Name.textContent = book ? book.title : ('Book ' + currentBookId);
+      } else if (p1Name) {
+        p1Name.textContent = '';
+      }
+      if (p1Link) {
+        p1Link.onclick = function(e) {
+          e.preventDefault();
+          collapsedState.panel1 = false;
+          updatePanelUI();
+        };
+      }
+
+      // Panel 2 strip
+      const p2Name = document.getElementById('panel2-strip-name');
+      const p2Link = document.getElementById('panel2-strip-link');
+      if (p2Name && currentChapterId && currentBookId) {
+        const chapters = bookChapters[currentBookId] || [];
+        const chapter = chapters.find(c => c.id === currentChapterId);
+        if (chapter) {
+          const shortTitle = (currentBookId === '99')
+            ? chapter.title
+            : ('Ch ' + currentChapterId + ': ' + chapter.title);
+          p2Name.textContent = shortTitle.length > 30 ? shortTitle.substring(0, 28) + '\u2026' : shortTitle;
+        }
+      } else if (p2Name) {
+        p2Name.textContent = '';
+      }
+      if (p2Link) {
+        p2Link.onclick = function(e) {
+          e.preventDefault();
+          collapsedState.panel2 = false;
+          updatePanelUI();
+        };
+      }
+    }
+
+    // ------------------------------------------------------------------
     // Bootstrap
     // ------------------------------------------------------------------
     const student = getStudentFromUrl();
@@ -731,6 +1036,10 @@
         navigateToDashboard(value);
       }
     });
+
+    // Panel toggle button listeners
+    document.getElementById('panel1-toggle').addEventListener('click', togglePanel1);
+    document.getElementById('panel2-toggle').addEventListener('click', togglePanel2);
 
     // ------------------------------------------------------------------
     // Helpers (level, exclusion, review)
@@ -1243,6 +1552,14 @@
       currentBookId = bookId;
       currentChapterId = null;
 
+      // Auto-expand chapter panel when selecting a new book
+      if (collapsedState.panel2) {
+        collapsedState.panel2 = false;
+        updatePanelUI();
+      }
+
+      updateCollapsedStripContent();
+
       document.querySelectorAll('#books-list-container li').forEach(li => {
         li.classList.toggle('selected', li.dataset.bookId === bookId);
       });
@@ -1471,6 +1788,7 @@
 
     function selectChapter(chapter) {
       currentChapterId = chapter.id;
+      updateCollapsedStripContent();
       document.querySelectorAll('#chapter-list li').forEach(li => {
         li.classList.toggle('selected', li.dataset.chapterId === chapter.id);
       });
@@ -1542,6 +1860,17 @@
       const h2 = document.createElement('h2');
       h2.textContent = (currentBookId === NOTEBOOK_BOOK_ID) ? chapterData.chapterTitle : ('Chapter ' + chapterData.chapterId + ': ' + chapterData.chapterTitle);
       header.appendChild(h2);
+
+      // Maximize View button
+      const maxBtn = document.createElement('button');
+      maxBtn.className = 'maximize-btn';
+      maxBtn.id = 'maximize-btn';
+      maxBtn.title = 'Maximize vocab view — collapses book and chapter panels';
+      const bothCollapsed = collapsedState.panel1 && collapsedState.panel2;
+      maxBtn.textContent = bothCollapsed ? '\u26F6 Restore' : '\u26F6 Maximize';
+      maxBtn.addEventListener('click', toggleMaximize);
+      header.appendChild(maxBtn);
+
       if (currentBookId !== NOTEBOOK_BOOK_ID) {
         const passagesLink = document.createElement('a');
         passagesLink.className = 'show-passages-link';
