@@ -454,13 +454,13 @@
       // Words hint (below first box)
       const wordsHint = document.createElement('div');
       wordsHint.className = 'field-hint';
-      wordsHint.textContent = 'Enter words separated by commas (Traditional Chinese only).\ne.g. 蘋果, 香蕉, 學校, 米飯';
+      wordsHint.textContent = 'Existing words are shown. Delete or Add new words, by keeping to the comma-separated format. Input Traditional Chinese only.\ne.g. 蘋果, 香蕉, 學校, 米飯';
       card.appendChild(wordsHint);
 
       // Page context (single-use — not persisted)
       const ctxLabel = document.createElement('div');
       ctxLabel.style.cssText = 'font-size:0.8rem;font-weight:600;margin:8px 0 4px;color:rgba(30,58,95,0.7);';
-      ctxLabel.textContent = '📝 Context for AI when generating new context sentence for newly added words.  This context is single use only and is not saved.';
+      ctxLabel.textContent = '📝 Context for AI when generating new context sentence for newly added words.';
       card.appendChild(ctxLabel);
 
       const ctxTa = document.createElement('textarea');
