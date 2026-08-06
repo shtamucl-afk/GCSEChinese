@@ -493,7 +493,7 @@
     .vocab-table {
       border-collapse: collapse;
       width: 100%;
-      table-layout: fixed;
+      table-layout: auto;
     }
     .vocab-table th, .vocab-table td {
       padding: 10px 14px;
@@ -523,19 +523,19 @@
       border-bottom: 1px solid rgba(30, 58, 95, 0.12);
     }
     .vocab-table col.col-word, .vocab-table th:nth-child(1), .vocab-table td.col-word,
-      .vocab-table tr.filter-row td:nth-child(1) { width: 200px; }
+      .vocab-table tr.filter-row td:nth-child(1) { width: auto; max-width: 200px; min-width: 60px; }
     .vocab-table col.col-level, .vocab-table th:nth-child(2), .vocab-table td.col-level,
       .vocab-table tr.filter-row td:nth-child(2) { width: 150px; text-align: center; }
     .vocab-table col.col-practice, .vocab-table th:nth-child(3), .vocab-table td.col-practice,
-      .vocab-table tr.filter-row td:nth-child(3) { width: 100px; text-align: center; }
+      .vocab-table tr.filter-row td:nth-child(3) { width: 80px; text-align: center; }
     .vocab-table col.col-details, .vocab-table th:nth-child(4), .vocab-table td.col-details,
-      .vocab-table tr.filter-row td:nth-child(4) { width: 150px; text-align: center; }
+      .vocab-table tr.filter-row td:nth-child(4) { width: 120px; text-align: center; }
     .vocab-table col.col-audio-m, .vocab-table th:nth-child(5), .vocab-table td.col-audio-m,
-      .vocab-table tr.filter-row td:nth-child(5) { width: 100px; text-align: center; }
+      .vocab-table tr.filter-row td:nth-child(5) { width: 80px; text-align: center; }
     .vocab-table col.col-audio-c, .vocab-table th:nth-child(6), .vocab-table td.col-audio-c,
-      .vocab-table tr.filter-row td:nth-child(6) { width: 100px; text-align: center; }
+      .vocab-table tr.filter-row td:nth-child(6) { width: 80px; text-align: center; }
     .vocab-table col.col-reviewed, .vocab-table th:nth-child(7), .vocab-table td.col-reviewed,
-      .vocab-table tr.filter-row td:nth-child(7) { width: 140px; text-align: center; }
+      .vocab-table tr.filter-row td:nth-child(7) { width: 112px; text-align: center; }
     .vocab-table th:nth-child(8), .vocab-table td.col-comment,
       .vocab-table tr.filter-row td:nth-child(8) { width: 250px; }
 
@@ -543,6 +543,8 @@
       font-size: 18px;
       font-family: 'Noto Sans TC', 'Inter', system-ui, sans-serif;
       color: #1E3A5F;
+      overflow-wrap: break-word;
+      word-break: break-word;
     }
 
     /* ---------- Filter dropdowns ---------- */
