@@ -526,9 +526,11 @@
       .vocab-table tr.filter-row td:nth-child(1) { width: auto; max-width: 200px; min-width: 60px; }
     .vocab-table th:nth-child(1) {
       position: sticky; left: 0; z-index: 2;
+      background-color: rgba(30,58,95,0.08);
     }
     .vocab-table td.col-word {
       position: sticky; left: 0; z-index: 1;
+      background-color: #FAF6EE;
       box-shadow: 2px 0 4px rgba(30,58,95,0.08);
     }
     .vocab-table tr.filter-row td:nth-child(1) {
@@ -766,6 +768,7 @@
       .main-card {
         grid-template-columns: 1fr;
         margin: 12px;
+        overflow: clip;
       }
       .main-card.p1-collapsed,
       .main-card.p2-collapsed,
