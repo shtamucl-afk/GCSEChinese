@@ -765,6 +765,15 @@
       }
     }
     @media (max-width: 900px) {
+      .top-bar {
+        flex-wrap: nowrap;
+      }
+      .top-bar-brand h1 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 160px;
+      }
       .main-card {
         grid-template-columns: 1fr;
         margin: 12px;
