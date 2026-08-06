@@ -524,7 +524,7 @@
     }
     .vocab-table col.col-word, .vocab-table th:nth-child(1), .vocab-table td.col-word,
       .vocab-table tr.filter-row td:nth-child(1) { width: auto; max-width: 200px; min-width: 60px; }
-    .vocab-table th:nth-child(1) {
+    .vocab-table thead tr:not(.filter-row) th:nth-child(1) {
       position: sticky; left: 0; z-index: 2;
       background-color: #E4E1DB;
     }
@@ -533,7 +533,7 @@
       background-color: #FAF6EE;
       box-shadow: 2px 0 4px rgba(30,58,95,0.08);
     }
-    .vocab-table tr.filter-row td:nth-child(1) {
+    .vocab-table thead tr.filter-row td:nth-child(1) {
       position: sticky; left: 0; z-index: 1;
       background-color: #EDE9E2;
     }
