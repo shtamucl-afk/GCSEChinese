@@ -551,7 +551,7 @@
         const entries = Object.entries(notebook).map(([wordId, entry]) => ({ ...entry, id: wordId }));
 
         if (chapterScope === 'all') {
-          allChapters = Object.entries(notebookPages).map(([pageId, page]) => ({
+          allChapters = orderedNotebookPages(notebookPages).map(([pageId, page]) => ({
             id: pageId,
             title: page.title || `Page ${parseInt(pageId, 10)}`,
             wordCount: entries.filter(e => (e.pageId || '01') === pageId).length
