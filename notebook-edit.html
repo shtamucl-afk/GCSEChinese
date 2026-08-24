@@ -357,7 +357,7 @@
 
   // --- Save drafts to sessionStorage ---
   function saveDrafts() {
-    const drafts = { text: {}, contexts: {}, checks: {}, news: [] };
+    const drafts = { text: {}, contexts: {}, checks: {}, titles: {}, news: [] };
     document.querySelectorAll('.page-card[data-page-id] textarea').forEach(ta => {
       if (ta.classList.contains('page-context-ta')) {
         drafts.contexts[ta.dataset.pageId] = ta.value;
@@ -367,6 +367,9 @@
     });
     document.querySelectorAll('input[type="checkbox"][data-delete-page]').forEach(cb => {
       drafts.checks[cb.dataset.deletePage] = cb.checked;
+    });
+    document.querySelectorAll('input.page-title-input-existing').forEach(inp => {
+      drafts.titles[inp.dataset.pageId] = inp.value;
     });
     document.querySelectorAll('.page-card[data-new="true"]').forEach((card, i) => {
       const ta = card.querySelector('textarea');
@@ -399,6 +402,12 @@
           if (cb) cb.checked = val;
         });
       }
+      if (drafts.titles) {
+        Object.entries(drafts.titles).forEach(([key, val]) => {
+          const inp = document.querySelector('input.page-title-input-existing[data-page-id="'+key+'"]');
+          if (inp) inp.value = val;
+        });
+      }
       if (drafts.news && drafts.news.length) {
         drafts.news.forEach(n => addNewPageCard(n.title, n.text));
       }
@@ -421,7 +430,22 @@
       card.id = 'page-' + pid;
 
       const h4 = document.createElement('h4');
-      h4.textContent = page.title || ('Page ' + pid);
+      if (is01) {
+        h4.textContent = page.title || ('Page ' + pid);
+      } else {
+        const titleInput = document.createElement('input');
+        titleInput.type = 'text';
+        titleInput.className = 'page-title-input-existing';
+        titleInput.dataset.pageId = pid;
+        titleInput.value = page.title || '';
+        titleInput.placeholder = 'Page name';
+        titleInput.maxLength = 50;
+        titleInput.style.cssText = 'font-family:inherit;font-size:0.95rem;font-weight:600;color:#1E3A5F;background:transparent;border:1px dashed transparent;border-radius:4px;padding:2px 4px;width:100%;max-width:280px;';
+        titleInput.addEventListener('focus', () => { titleInput.style.borderColor = 'rgba(30,58,95,0.3)'; });
+        titleInput.addEventListener('blur', () => { titleInput.style.borderColor = 'transparent'; });
+        titleInput.addEventListener('input', () => { saveDrafts(); });
+        h4.appendChild(titleInput);
+      }
 
       if (!is01) {
         const delLabel = document.createElement('label');
@@ -559,6 +583,12 @@
     const diffs = [];
     Object.keys(notebookPages).forEach(pid => {
       const page = notebookPages[pid] || {};
+      if (pid !== '01') {
+        const ti = document.querySelector('input.page-title-input-existing[data-page-id="'+pid+'"]');
+        if (ti && ti.value.trim() !== (page.title || '')) {
+          diffs.push({ pageId: pid, title: ti.value.trim(), oldTitle: page.title || '', isRename: true });
+        }
+      }
       const currentWords = getWordsForPage(pid);
       const ta = document.querySelector('.page-card[data-page-id="'+pid+'"] textarea');
       if (!ta) return;
@@ -598,7 +628,8 @@
     diffs.forEach(d => {
       const div = document.createElement('div');
       div.className = 'summary-item';
-      if (d.isDelete) { div.classList.add('delete-page'); div.textContent = '🗑 DELETE Page "'+d.title+'" ('+d.removed.length+' words removed)'; }
+      if (d.isRename) { div.textContent = '✏️ Rename page "'+d.oldTitle+'" → "'+d.title+'"'; }
+      else if (d.isDelete) { div.classList.add('delete-page'); div.textContent = '🗑 DELETE Page "'+d.title+'" ('+d.removed.length+' words removed)'; }
       else if (d.isNew) { div.classList.add('new-page'); div.textContent = '➕ NEW Page "'+d.title+'": ' + (d.added.length ? d.added.join(', ') : '(empty)'); }
       else {
         const parts = [];
@@ -636,6 +667,11 @@
     const dispatches = {};
 
     for (const d of diffs) {
+      if (d.isRename) {
+        pages[d.pageId] = pages[d.pageId] || {};
+        pages[d.pageId].title = d.title;
+        continue;
+      }
       if (d.isDelete) {
         delete pages[d.pageId];
         for (const wid of Object.keys(notebook)) {
@@ -700,16 +736,18 @@
     try {
       await executeChanges(diffs);
       document.getElementById('summaryOverlay').classList.remove('active');
-      const pendingCount = diffs.reduce((sum, d) => sum + d.added.length, 0);
-      const removedCount = diffs.reduce((sum, d) => sum + d.removed.length, 0);
+      const pendingCount = diffs.reduce((sum, d) => sum + (d.added ? d.added.length : 0), 0);
+      const removedCount = diffs.reduce((sum, d) => sum + (d.removed ? d.removed.length : 0), 0);
       const deletePages = diffs.filter(d => d.isDelete).length;
       const newPages = diffs.filter(d => d.isNew).length;
+      const renames = diffs.filter(d => d.isRename).length;
 
       const parts = [];
       if (pendingCount) parts.push(pendingCount + ' word(s) added');
       if (removedCount) parts.push(removedCount + ' word(s) removed');
       if (deletePages) parts.push(deletePages + ' page(s) deleted');
       if (newPages) parts.push(newPages + ' page(s) created');
+      if (renames) parts.push(renames + ' page(s) renamed');
 
       let msg = parts.join(', ');
       if (pendingCount) {
