@@ -1201,7 +1201,7 @@
     async function loadChaptersIndexForBook(bookId) {
       if (bookId === NOTEBOOK_BOOK_ID) {
         const pages = notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
-        bookChapters[bookId] = orderedNotebookPages(pages).map(([pageId, page]) => ({
+        bookChapters[bookId] = Object.entries(pages).map(([pageId, page]) => ({
           id: pageId,
           title: page.title || `Page ${parseInt(pageId, 10)}`,
           wordCount: Object.values(notebookData).filter(e => (e.pageId || '01') === pageId).length

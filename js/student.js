@@ -204,31 +204,6 @@ async function loadNotebookPages(student) {
     return pages;
 }
 
-/**
- * Return notebook pages as [[pageId, page], ...] sorted by `sortOrder`
- * (ascending), falling back to numeric pageId order when `sortOrder`
- * is absent. Used by the dashboard, exercise page, and edit mode so
- * page order is consistent everywhere.
- */
-function orderedNotebookPages(pages) {
-    return Object.entries(pages || {}).sort((a, b) => {
-        const soA = (a[1] && a[1].sortOrder != null) ? Number(a[1].sortOrder) : null;
-        const soB = (b[1] && b[1].sortOrder != null) ? Number(b[1].sortOrder) : null;
-        if (soA != null && soB != null) {
-            if (soA !== soB) return soA - soB;
-            return String(a[0]).localeCompare(String(b[0]));
-        }
-        if (soA != null) return -1;
-        if (soB != null) return 1;
-        const na = parseInt(a[0], 10);
-        const nb = parseInt(b[0], 10);
-        const ka = Number.isNaN(na) ? 999 : na;
-        const kb = Number.isNaN(nb) ? 999 : nb;
-        if (ka !== kb) return ka - kb;
-        return String(a[0]).localeCompare(String(b[0]));
-    });
-}
-
 async function saveNotebookWord(student, entry) {
     const pid = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
     const wordId = notebookWordId(student, pid, entry.traditional);
