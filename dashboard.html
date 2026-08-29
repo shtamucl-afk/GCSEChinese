@@ -1230,6 +1230,7 @@
           if (!grouped[pageId]) grouped[pageId] = [];
           grouped[pageId].push({
             id: wordId,
+            pageId: pageId, // REQUIRED so 'Remove from My Notebook' deletes the right subcollection doc
             traditional: entry.traditional,
             simplified: entry.simplified,
             english: entry.english,
