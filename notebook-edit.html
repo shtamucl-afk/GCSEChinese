@@ -62,6 +62,14 @@
     .books-list li.selected, .pages-list li.selected {
       background-color: rgba(30,58,95,0.12); font-weight: 600;
     }
+    .pages-list li { display: flex; align-items: center; gap: 6px; }
+    .drag-handle { cursor: grab; color: rgba(30,58,95,0.4); letter-spacing: -2px; user-select: none; }
+    .page-item-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .page-item-arrows { display: inline-flex; gap: 2px; }
+    .page-arrow { width: 26px; height: 26px; padding: 0; border: 1px solid rgba(30,58,95,0.2); background: transparent; color: #1E3A5F; border-radius: 4px; cursor: pointer; font-size: 14px; line-height: 1; }
+    .page-arrow:disabled { opacity: 0.35; cursor: not-allowed; }
+    .pages-list li.dragging { opacity: 0.5; }
+    .pages-list li.drop-target { background-color: rgba(90,154,214,0.18); outline: 2px dashed #5A9AD6; }
     .series-heading {
       font-size: 11px; font-weight: 600; text-transform: uppercase;
       letter-spacing: 0.08em; color: rgba(30,58,95,0.5);
@@ -227,8 +235,9 @@
   </div>
 </div>
 
-<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+<script src="js/notebook-utils.js"></script>
 <script src="js/firebase-config.js"></script>
 <script src="js/student.js"></script>
 
@@ -242,6 +251,8 @@
 
   let notebookData = {};
   let notebookPages = {};
+  let pageOrder = [];
+  let dragPageId = null;
   let allBooks = [];
 
   function showToast(msg, type) {
@@ -266,6 +277,13 @@
   function nextPageId() {
     const nums = [];
     for (const key of Object.keys(notebookPages)) { const n = parseInt(key,10); if (!isNaN(n)) nums.push(n); }
+    return String(Math.max(0, ...nums) + 1).padStart(2, '0');
+  }
+
+  // Batch-aware: reads the WORKING page map so 2+ new pages in one save never collide.
+  function nextPageIdFor(pagesMap) {
+    const nums = [];
+    for (const key of Object.keys(pagesMap || {})) { const n = parseInt(key,10); if (!isNaN(n)) nums.push(n); }
     return String(Math.max(0, ...nums) + 1).padStart(2, '0');
   }
 
@@ -335,17 +353,86 @@
     });
   }
 
+  // --- Page order (drag/arrow reorder) ---
+  function syncPageOrder() {
+    pageOrder = NotebookUtils.orderOfPages(notebookPages);
+  }
+
+  function movePage(pid, delta) {
+    const idx = pageOrder.indexOf(pid);
+    if (idx < 0) return;
+    const target = idx + delta;
+    if (target < 0 || target >= pageOrder.length) return;
+    pageOrder.splice(idx, 1);
+    pageOrder.splice(target, 0, pid);
+    renderPagesList();
+    saveDrafts();
+  }
+
+  function dropPageOn(targetPid) {
+    if (!dragPageId || dragPageId === targetPid) return;
+    const from = pageOrder.indexOf(dragPageId);
+    const to = pageOrder.indexOf(targetPid);
+    if (from < 0 || to < 0) return;
+    pageOrder.splice(from, 1);
+    pageOrder.splice(to, 0, dragPageId);
+    renderPagesList();
+    saveDrafts();
+  }
+
+  function clearDragState() {
+    dragPageId = null;
+    document.querySelectorAll('.drop-target').forEach(el => el.classList.remove('drop-target'));
+  }
+
   // --- Pages list ---
   function renderPagesList() {
     const ul = document.getElementById('pagesList');
     ul.innerHTML = '';
-    const ids = Object.keys(notebookPages).sort((a,b) => (parseInt(a,10)||99) - (parseInt(b,10)||99));
-    ids.forEach(pid => {
+    if (!pageOrder.length) syncPageOrder();
+    pageOrder.forEach((pid, idx) => {
       const page = notebookPages[pid] || {};
       const li = document.createElement('li');
       li.dataset.pageId = pid;
-      li.innerHTML = (page.title || 'Page '+pid) + (pid==='01' ? ' <span style="font-size:0.75em;color:rgba(30,58,95,0.4);">(default)</span>' : '');
+      li.draggable = true;
+
+      const handle = document.createElement('span');
+      handle.className = 'drag-handle';
+      handle.textContent = '⋮⋮';
+      li.appendChild(handle);
+
+      const name = document.createElement('span');
+      name.className = 'page-item-name';
+      name.textContent = (page.title || 'Page ' + pid) + (pid === '01' ? ' (default)' : '');
+      li.appendChild(name);
+
+      const arrows = document.createElement('span');
+      arrows.className = 'page-item-arrows';
+      const up = document.createElement('button');
+      up.type = 'button';
+      up.className = 'page-arrow';
+      up.textContent = '↑';
+      up.disabled = (idx === 0);
+      up.title = 'Move up';
+      up.addEventListener('click', (e) => { e.stopPropagation(); movePage(pid, -1); });
+      const down = document.createElement('button');
+      down.type = 'button';
+      down.className = 'page-arrow';
+      down.textContent = '↓';
+      down.disabled = (idx === pageOrder.length - 1);
+      down.title = 'Move down';
+      down.addEventListener('click', (e) => { e.stopPropagation(); movePage(pid, 1); });
+      arrows.appendChild(up);
+      arrows.appendChild(down);
+      li.appendChild(arrows);
+
       li.addEventListener('click', () => scrollToPage(pid));
+      li.addEventListener('dragstart', (e) => { dragPageId = pid; e.dataTransfer.effectAllowed = 'move'; li.classList.add('dragging'); });
+      li.addEventListener('dragend', () => { li.classList.remove('dragging'); clearDragState(); });
+      li.addEventListener('dragover', (e) => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; li.classList.add('drop-target'); });
+      li.addEventListener('dragleave', () => { li.classList.remove('drop-target'); });
+      li.addEventListener('drop', (e) => { e.preventDefault(); li.classList.remove('drop-target'); dropPageOn(pid); });
+
       ul.appendChild(li);
     });
   }
@@ -357,7 +444,7 @@
 
   // --- Save drafts to sessionStorage ---
   function saveDrafts() {
-    const drafts = { text: {}, contexts: {}, checks: {}, news: [] };
+    const drafts = { text: {}, contexts: {}, checks: {}, titles: {}, order: pageOrder, news: [] };
     document.querySelectorAll('.page-card[data-page-id] textarea').forEach(ta => {
       if (ta.classList.contains('page-context-ta')) {
         drafts.contexts[ta.dataset.pageId] = ta.value;
@@ -367,6 +454,9 @@
     });
     document.querySelectorAll('input[type="checkbox"][data-delete-page]').forEach(cb => {
       drafts.checks[cb.dataset.deletePage] = cb.checked;
+    });
+    document.querySelectorAll('input.page-title-input-existing').forEach(inp => {
+      drafts.titles[inp.dataset.pageId] = inp.value;
     });
     document.querySelectorAll('.page-card[data-new="true"]').forEach((card, i) => {
       const ta = card.querySelector('textarea');
@@ -399,6 +489,17 @@
           if (cb) cb.checked = val;
         });
       }
+      if (drafts.titles) {
+        Object.entries(drafts.titles).forEach(([key, val]) => {
+          const inp = document.querySelector('input.page-title-input-existing[data-page-id="'+key+'"]');
+          if (inp) inp.value = val;
+        });
+      }
+      if (drafts.order && Array.isArray(drafts.order)) {
+        const valid = drafts.order.filter(id => notebookPages[id]);
+        pageOrder = valid.length ? valid : NotebookUtils.orderOfPages(notebookPages);
+        renderPagesList();
+      }
       if (drafts.news && drafts.news.length) {
         drafts.news.forEach(n => addNewPageCard(n.title, n.text));
       }
@@ -409,9 +510,9 @@
   function renderEditCards() {
     const container = document.getElementById('pagesEditContainer');
     container.innerHTML = '';
-    const ids = Object.keys(notebookPages).sort((a,b) => (parseInt(a,10)||99) - (parseInt(b,10)||99));
+    const ordered = NotebookUtils.orderedNotebookPages(notebookPages);
 
-    ids.forEach(pid => {
+    ordered.forEach(([pid]) => {
       const page = notebookPages[pid] || {};
       const is01 = (pid === '01');
 
@@ -421,7 +522,23 @@
       card.id = 'page-' + pid;
 
       const h4 = document.createElement('h4');
-      h4.textContent = page.title || ('Page ' + pid);
+      if (is01) {
+        h4.textContent = page.title || ('Page ' + pid);
+      } else {
+        const titleInput = document.createElement('input');
+        titleInput.type = 'text';
+        titleInput.className = 'page-title-input-existing';
+        titleInput.dataset.pageId = pid;
+        titleInput.value = page.title || '';
+        titleInput.placeholder = 'Page name';
+        titleInput.maxLength = 50;
+        titleInput.style.cssText = 'font-family:inherit;font-size:0.95rem;font-weight:600;color:#1E3A5F;background:transparent;border:1px dashed transparent;border-radius:4px;padding:2px 4px;width:100%;max-width:280px;';
+        titleInput.title = 'Rename this page';
+        titleInput.addEventListener('focus', () => { titleInput.style.borderColor = 'rgba(30,58,95,0.3)'; });
+        titleInput.addEventListener('blur', () => { titleInput.style.borderColor = 'transparent'; });
+        titleInput.addEventListener('input', () => { saveDrafts(); });
+        h4.appendChild(titleInput);
+      }
 
       if (!is01) {
         const delLabel = document.createElement('label');
@@ -481,7 +598,7 @@
       container.appendChild(card);
     });
 
-    document.getElementById('actionRow').style.display = ids.length ? 'flex' : 'none';
+    document.getElementById('actionRow').style.display = ordered.length ? 'flex' : 'none';
     setTimeout(restoreDrafts, 50);
   }
 
@@ -557,8 +674,23 @@
   // --- Process diff ---
   function computeDiff() {
     const diffs = [];
+    // Delete is authoritative: a page marked for deletion is removed whole, so
+    // its word edits AND rename are ignored (prevents orphaned words).
+    const deleting = new Set();
+    document.querySelectorAll('input[type="checkbox"][data-delete-page]:checked').forEach(cb => {
+      deleting.add(cb.dataset.deletePage);
+    });
+
     Object.keys(notebookPages).forEach(pid => {
       const page = notebookPages[pid] || {};
+      if (deleting.has(pid)) return;
+
+      if (pid !== '01') {
+        const ti = document.querySelector('input.page-title-input-existing[data-page-id="'+pid+'"]');
+        if (ti && ti.value.trim() !== (page.title || '')) {
+          diffs.push({ pageId: pid, title: ti.value.trim(), oldTitle: page.title || '', isRename: true });
+        }
+      }
       const currentWords = getWordsForPage(pid);
       const ta = document.querySelector('.page-card[data-page-id="'+pid+'"] textarea');
       if (!ta) return;
@@ -588,6 +720,12 @@
         diffs.push({ pageId: null, title, added: desired, removed: [], contexts: desired, context: pageContext, isNew: true, isDelete: false });
       }
     });
+
+    // Reorder detection: only report when the live page order differs from the persisted one.
+    const persistedOrder = NotebookUtils.orderOfPages(notebookPages);
+    if (pageOrder.length && pageOrder.join('|') !== persistedOrder.join('|')) {
+      diffs.push({ order: pageOrder.slice(), isReorder: true });
+    }
     return diffs;
   }
 
@@ -598,7 +736,9 @@
     diffs.forEach(d => {
       const div = document.createElement('div');
       div.className = 'summary-item';
-      if (d.isDelete) { div.classList.add('delete-page'); div.textContent = '🗑 DELETE Page "'+d.title+'" ('+d.removed.length+' words removed)'; }
+      if (d.isReorder) { div.textContent = '↕️ Reordered pages'; }
+      else if (d.isRename) { div.textContent = '✏️ Rename page "'+d.oldTitle+'" → "'+d.title+'"'; }
+      else if (d.isDelete) { div.classList.add('delete-page'); div.textContent = '🗑 DELETE Page "'+d.title+'" ('+d.removed.length+' words removed)'; }
       else if (d.isNew) { div.classList.add('new-page'); div.textContent = '➕ NEW Page "'+d.title+'": ' + (d.added.length ? d.added.join(', ') : '(empty)'); }
       else {
         const parts = [];
@@ -625,29 +765,40 @@
   // --- Execute ---
   async function executeChanges(diffs) {
     if (!diffs.length) return;
-    const docRef = db.collection('students').doc(student);
-    const doc = await docRef.get();
-    const data = doc.exists ? doc.data() : {};
-    const notebook = data.notebook || {};
-    const pages = data.notebookPages || {};
+    const words = { ...notebookData };
+    const pages = { ...notebookPages };
     if (!pages['01']) pages['01'] = { title: 'Main page' };
+    // Snapshot of the pre-edit pages: rename/reorder detection compares against this.
+    const loadedPages = { ...notebookPages };
+    if (!loadedPages['01']) loadedPages['01'] = { title: 'Main page' };
+
+    const removedWordIds = [];
+    const deletedPageIds = [];
+    const newPageIds = [];
 
     // Track dispatch info: { pageId: { words: [], context: "" } }
     const dispatches = {};
 
     for (const d of diffs) {
+      if (d.isRename) {
+        pages[d.pageId] = pages[d.pageId] || {};
+        pages[d.pageId].title = d.title;
+        continue;
+      }
       if (d.isDelete) {
+        deletedPageIds.push(d.pageId);
         delete pages[d.pageId];
-        for (const wid of Object.keys(notebook)) {
-          if (notebook[wid].pageId === d.pageId) delete notebook[wid];
+        for (const wid of Object.keys(words)) {
+          if ((words[wid].pageId || '01') === d.pageId) { delete words[wid]; removedWordIds.push(wid); }
         }
       } else if (d.isNew) {
-        const newId = nextPageId();
+        const newId = nextPageIdFor(pages);
+        newPageIds.push(newId);
         pages[newId] = { title: d.title, _context: d.context || '' };
         if (d.added.length) dispatches[newId] = { words: d.added, context: d.context || '' };
         for (const word of d.added) {
           const wid = notebookWordId(student, newId, word);
-          notebook[wid] = {
+          words[wid] = {
             traditional: word, simplified: '', english: '', pinyin: '',
             contextSentence: '', contextSentenceSimplified: '',
             audio: {}, pageId: newId, source: 'notebook',
@@ -661,12 +812,12 @@
         if (d.added.length) dispatches[d.pageId] = { words: d.added, context: d.context || '' };
         for (const word of d.removed) {
           const wid = notebookWordId(student, d.pageId, word);
-          delete notebook[wid];
+          if (words[wid]) { delete words[wid]; removedWordIds.push(wid); }
         }
         for (const word of d.added) {
           const wid = notebookWordId(student, d.pageId, word);
-          const existing = notebook[wid] || {};
-          notebook[wid] = {
+          const existing = words[wid] || {};
+          words[wid] = {
             traditional: word, simplified: existing.simplified || '', english: existing.english || '',
             pinyin: existing.pinyin || '', contextSentence: existing.contextSentence || '',
             contextSentenceSimplified: existing.contextSentenceSimplified || '',
@@ -679,18 +830,47 @@
       }
     }
 
-    data.notebook = notebook;
-    data.notebookPages = pages;
-    data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
-    await docRef.set(data);
+    // Ordering: new pages at top, then existing pages in the live UI order
+    // (deleted pages are already gone from `pages`, so they drop out).
+    const finalOrder = [];
+    newPageIds.forEach(id => finalOrder.push(id));
+    (pageOrder.length ? pageOrder : NotebookUtils.orderOfPages(pages))
+      .forEach(pid => { if (pages[pid] && finalOrder.indexOf(pid) === -1) finalOrder.push(pid); });
+    const finalPages = NotebookUtils.applyPageOrder(pages, finalOrder);
+
+    // Renames + order changes become targeted merge ops (pageTitleMerge / sortOrderMerge).
+    const merges = NotebookUtils.computePageMerges(loadedPages, finalPages);
+
+    // Atomic save: word docs -> notebookWords subcollection; page ops + lastUpdated -> merges.
+    const docRef = db.collection('students').doc(student);
+    const batch = db.batch();
+    const ops = NotebookUtils.buildNotebookOps(student, words, removedWordIds, finalPages, deletedPageIds, newPageIds, merges.titleMerges, merges.sortOrderMerges);
+    for (const op of ops) {
+      if (op.type === 'wordSet') {
+        batch.set(docRef.collection('notebookWords').doc(op.wordId), op.data);
+      } else if (op.type === 'wordDelete') {
+        batch.delete(docRef.collection('notebookWords').doc(op.wordId));
+      } else if (op.type === 'pageSet') {
+        batch.set(docRef, { notebookPages: { [op.pageId]: op.data } }, { merge: true });
+      } else if (op.type === 'pageDelete') {
+        batch.set(docRef, { notebookPages: { [op.pageId]: firebase.firestore.FieldValue.delete() } }, { merge: true });
+      } else if (op.type === 'pageTitleMerge') {
+        batch.set(docRef, { notebookPages: { [op.pageId]: { title: op.data.title } } }, { merge: true });
+      } else if (op.type === 'sortOrderMerge') {
+        batch.set(docRef, { notebookPages: { [op.pageId]: { sortOrder: op.data.sortOrder } } }, { merge: true });
+      }
+    }
+    batch.set(docRef, { lastUpdated: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+    await batch.commit();
 
     // Create dispatch docs for each page with new words (non-blocking)
     for (const [pid, info] of Object.entries(dispatches)) {
       dispatchNotebookPage(student, pid, info.words, info.context);
     }
 
-    notebookData = notebook;
-    notebookPages = pages;
+    notebookData = words;
+    notebookPages = finalPages;
+    syncPageOrder();
     sessionStorage.removeItem(storageKey);
   }
 
@@ -700,16 +880,18 @@
     try {
       await executeChanges(diffs);
       document.getElementById('summaryOverlay').classList.remove('active');
-      const pendingCount = diffs.reduce((sum, d) => sum + d.added.length, 0);
-      const removedCount = diffs.reduce((sum, d) => sum + d.removed.length, 0);
+      const pendingCount = diffs.reduce((sum, d) => sum + (d.added ? d.added.length : 0), 0);
+      const removedCount = diffs.reduce((sum, d) => sum + (d.removed ? d.removed.length : 0), 0);
       const deletePages = diffs.filter(d => d.isDelete).length;
       const newPages = diffs.filter(d => d.isNew).length;
+      const renames = diffs.filter(d => d.isRename).length;
 
       const parts = [];
       if (pendingCount) parts.push(pendingCount + ' word(s) added');
       if (removedCount) parts.push(removedCount + ' word(s) removed');
       if (deletePages) parts.push(deletePages + ' page(s) deleted');
       if (newPages) parts.push(newPages + ' page(s) created');
+      if (renames) parts.push(renames + ' page(s) renamed');
 
       let msg = parts.join(', ');
       if (pendingCount) {
@@ -734,6 +916,7 @@
     try {
       notebookData = await loadNotebook(student);
       notebookPages = await loadNotebookPages(student);
+      syncPageOrder();
       renderEditCards();
       renderPagesList();
 
@@ -872,6 +1055,7 @@
       notebookData = await loadNotebook(student);
       notebookPages = await loadNotebookPages(student);
     } catch(e) { console.error(e); }
+    syncPageOrder();
     renderPagesList();
     renderEditCards();
   }
