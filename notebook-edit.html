@@ -780,6 +780,7 @@
     const dispatches = {};
 
     for (const d of diffs) {
+      if (d.isReorder) continue; // order is applied below (finalOrder -> applyPageOrder -> merges)
       if (d.isRename) {
         pages[d.pageId] = pages[d.pageId] || {};
         pages[d.pageId].title = d.title;
@@ -851,13 +852,14 @@
       } else if (op.type === 'wordDelete') {
         batch.delete(docRef.collection('notebookWords').doc(op.wordId));
       } else if (op.type === 'pageSet') {
-        batch.set(docRef, { notebookPages: { [op.pageId]: op.data } }, { merge: true });
+        // Deep field-path merge: updates ONLY this page, never clobbers the rest of notebookPages.
+        batch.set(docRef, { notebookPages: { [op.pageId]: op.data } }, { merge: ['notebookPages.' + op.pageId] });
       } else if (op.type === 'pageDelete') {
-        batch.set(docRef, { notebookPages: { [op.pageId]: firebase.firestore.FieldValue.delete() } }, { merge: true });
+        batch.set(docRef, { notebookPages: { [op.pageId]: firebase.firestore.FieldValue.delete() } }, { merge: ['notebookPages.' + op.pageId] });
       } else if (op.type === 'pageTitleMerge') {
-        batch.set(docRef, { notebookPages: { [op.pageId]: { title: op.data.title } } }, { merge: true });
+        batch.set(docRef, { notebookPages: { [op.pageId]: { title: op.data.title } } }, { merge: ['notebookPages.' + op.pageId + '.title'] });
       } else if (op.type === 'sortOrderMerge') {
-        batch.set(docRef, { notebookPages: { [op.pageId]: { sortOrder: op.data.sortOrder } } }, { merge: true });
+        batch.set(docRef, { notebookPages: { [op.pageId]: { sortOrder: op.data.sortOrder } } }, { merge: ['notebookPages.' + op.pageId + '.sortOrder'] });
       }
     }
     batch.set(docRef, { lastUpdated: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
