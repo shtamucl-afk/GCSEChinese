@@ -914,6 +914,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="js/firebase-config.js"></script>
+  <script src="js/notebook-utils.js"></script>
   <script src="js/student.js"></script>
   <script src="js/modal.js"></script>
 
@@ -1157,7 +1158,7 @@
           studentProgress = data.progress || {};
           studentExcluded = data.excluded || [];
           studentSentences = data.sentences || {};
-          notebookData = data.notebook || {};
+          notebookData = await loadNotebookWords(student);
           const rawPages = data.notebookPages;
           notebookPages = (rawPages && Object.keys(rawPages).length > 0) ? { ...rawPages } : { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
           if (!notebookPages['01']) notebookPages['01'] = { title: NOTEBOOK_DEFAULT_PAGE_TITLE };
@@ -1201,7 +1202,7 @@
     async function loadChaptersIndexForBook(bookId) {
       if (bookId === NOTEBOOK_BOOK_ID) {
         const pages = notebookPages || { '01': { title: NOTEBOOK_DEFAULT_PAGE_TITLE } };
-        bookChapters[bookId] = Object.entries(pages).map(([pageId, page]) => ({
+        bookChapters[bookId] = NotebookUtils.orderedNotebookPages(pages).map(([pageId, page]) => ({
           id: pageId,
           title: page.title || `Page ${parseInt(pageId, 10)}`,
           wordCount: Object.values(notebookData).filter(e => (e.pageId || '01') === pageId).length

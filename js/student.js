@@ -189,10 +189,27 @@ function notebookWordId(student, pageId, traditional) {
     return `nb_${safeStudent}_${safePage}_${safeWord}`;
 }
 
-async function loadNotebook(student) {
+async function loadNotebookWords(student) {
+    // Read notebook words from the notebookWords subcollection.
+    // Fallback: pre-migration students whose words still live in doc.notebook,
+    // or when the subcollection read is denied (e.g. live rules not yet deployed).
+    try {
+        const snap = await db.collection('students').doc(student).collection('notebookWords').get();
+        if (!snap.empty) {
+            const m = {};
+            snap.forEach(d => { m[d.id] = d.data(); });
+            return m;
+        }
+    } catch (e) {
+        console.warn('[loadNotebookWords] subcollection read failed; falling back to doc.notebook:', e && e.message);
+    }
     const doc = await db.collection('students').doc(student).get();
     if (!doc.exists) return {};
     return doc.data().notebook || {};
+}
+
+async function loadNotebook(student) {
+    return loadNotebookWords(student);
 }
 
 async function loadNotebookPages(student) {
@@ -208,30 +225,23 @@ async function saveNotebookWord(student, entry) {
     const pid = entry.pageId || NOTEBOOK_DEFAULT_PAGE;
     const wordId = notebookWordId(student, pid, entry.traditional);
     entry.pageId = pid;
-    // Read-modify-write with nested map (compatible with Streamlit/Pipeline)
+    // Targeted write: word doc in the notebookWords subcollection + lastUpdated merge.
     const docRef = db.collection('students').doc(student);
-    const doc = await docRef.get();
-    const data = doc.exists ? doc.data() : {};
-    const notebook = data.notebook || {};
-    notebook[wordId] = entry;
-    data.notebook = notebook;
-    data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
-    await docRef.set(data);
+    const batch = db.batch();
+    batch.set(docRef.collection('notebookWords').doc(wordId), entry);
+    batch.set(docRef, { lastUpdated: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+    await batch.commit();
     return wordId;
 }
 
 async function removeNotebookWord(student, pageId, traditional) {
     const wordId = notebookWordId(student, pageId || NOTEBOOK_DEFAULT_PAGE, traditional);
-    // Read-modify-write with nested map (compatible with Streamlit/Pipeline)
+    // Targeted write: delete the word doc in the notebookWords subcollection + lastUpdated merge.
     const docRef = db.collection('students').doc(student);
-    const doc = await docRef.get();
-    if (!doc.exists) return;
-    const data = doc.data();
-    const notebook = data.notebook || {};
-    delete notebook[wordId];
-    data.notebook = notebook;
-    data.lastUpdated = firebase.firestore.FieldValue.serverTimestamp();
-    await docRef.set(data);
+    const batch = db.batch();
+    batch.delete(docRef.collection('notebookWords').doc(wordId));
+    batch.set(docRef, { lastUpdated: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+    await batch.commit();
 }
 
 /**
