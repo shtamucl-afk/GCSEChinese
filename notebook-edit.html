@@ -962,12 +962,13 @@
       });
 
       let dispatchCounts = {}, latestDispatch = null;
+      let dispatchError = false;
       try {
         const snap = await db.collection('notebookDispatches')
           .where('student', '==', student).orderBy('createdAt', 'desc').limit(10).get();
         snap.forEach(doc => { const d = doc.data(); dispatchCounts[d.status] = (dispatchCounts[d.status]||0)+1; });
         if (!snap.empty) { const first = snap.docs[0].data(); latestDispatch = first.createdAt ? first.createdAt.toDate() : null; }
-      } catch(e) {}
+      } catch(e) { dispatchError = true; console.warn('notebookDispatches status query failed:', e && e.message); }
 
       // Timing
       const now = new Date();
@@ -993,7 +994,9 @@
 
       // 1b. Dispatch Job
       const anyDispatch = Object.keys(dispatchCounts).length > 0;
-      if (anyDispatch) {
+      if (dispatchError) {
+        lines.push('Dispatch Job: ⚠️ Status unavailable (query failed)');
+      } else if (anyDispatch) {
         const parts = [];
         if (dispatchCounts.pending) parts.push(`${dispatchCounts.pending} waiting`);
         if (dispatchCounts.dispatching) parts.push(`${dispatchCounts.dispatching} in progress`);
@@ -1005,7 +1008,9 @@
       }
 
       // 1c. Cloud Function
-      if (dispatchCounts.dispatched > 0 || dispatchCounts.dispatching > 0) {
+      if (dispatchError) {
+        lines.push('Cloud Function: ⚠️ Unknown (dispatch query failed)');
+      } else if (dispatchCounts.dispatched > 0 || dispatchCounts.dispatching > 0) {
         lines.push('Cloud Function: ✅ Triggered');
       } else if (dispatchCounts.dispatch_failed > 0) {
         lines.push('Cloud Function: ❌ Error (see CF logs)');
