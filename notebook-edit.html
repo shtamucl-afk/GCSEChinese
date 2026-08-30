@@ -766,10 +766,12 @@
   async function executeChanges(diffs) {
     if (!diffs.length) return;
     const words = { ...notebookData };
-    const pages = { ...notebookPages };
+    const pages = NotebookUtils.clonePageMap(notebookPages);
     if (!pages['01']) pages['01'] = { title: 'Main page' };
     // Snapshot of the pre-edit pages: rename/reorder detection compares against this.
-    const loadedPages = { ...notebookPages };
+    // MUST be a deep clone: renames mutate `pages`, and a shallow copy would share
+    // page objects with this snapshot, hiding the change from computePageMerges.
+    const loadedPages = NotebookUtils.clonePageMap(notebookPages);
     if (!loadedPages['01']) loadedPages['01'] = { title: 'Main page' };
 
     const removedWordIds = [];

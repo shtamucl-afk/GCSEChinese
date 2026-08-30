@@ -142,6 +142,21 @@
   }
 
   /**
+   * Deep-clone a page map { pageId: page } into brand-new page objects.
+   * Callers that later mutate a working copy (e.g. rename) MUST base their
+   * before/after snapshots on independent clones — a shallow top-level copy
+   * shares page objects, so renaming `pages[pid].title` would also mutate the
+   * 'before' snapshot and hide the change from computePageMerges. Pure.
+   */
+  function clonePageMap(pages) {
+    const out = {};
+    Object.keys(pages || {}).forEach(function (pid) {
+      out[pid] = Object.assign({}, pages[pid] || {});
+    });
+    return out;
+  }
+
+  /**
    * Compute page-level merge ops between the previous (loaded) pages and the
    * next (edited) pages: renames (non-01, non-empty, changed) and sortOrder
    * changes. New pages (not in previous) are pageSet ops; deleted pages are
@@ -174,6 +189,7 @@
     nextPageIdFor: nextPageIdFor,
     parseWords: parseWords,
     computeWordDiff: computeWordDiff,
-    computePageMerges: computePageMerges
+    computePageMerges: computePageMerges,
+    clonePageMap: clonePageMap
   };
 }));

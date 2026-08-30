@@ -604,3 +604,21 @@ test('G18 reorder + rename + add page + delete page in a single chaotic save is 
   // new word 米飯 on 01 written
   assert.ok(wordIds(ops, 'wordSet').includes(wid(STUDENT, '01', '米飯')));
 });
+
+test('G19 rename must not leak into the before-snapshot: clonePageMap yields independent page objects', () => {
+  // Regression: executeChanges built pages/loadedPages as SHALLOW copies of
+  // notebookPages, so renaming `pages[pid].title` also mutated the snapshot
+  // passed to computePageMerges -> the rename was silently dropped and never
+  // reached Firestore (UI said "renamed", DB kept the old title).
+  const notebookPages = { '01': { title: 'Main page', sortOrder: 0 }, '03': { title: 'another', sortOrder: 2 } };
+  const pages = U.clonePageMap(notebookPages);
+  const loadedPages = U.clonePageMap(notebookPages);
+  pages['03'] = pages['03'] || {};
+  pages['03'].title = 'ChangeName';
+  // The before-snapshot must be untouched by the rename.
+  assert.strictEqual(loadedPages['03'].title, 'another');
+  const finalPages = U.applyPageOrder(pages, ['01', '03']);
+  const m = U.computePageMerges(loadedPages, finalPages);
+  // ...so the rename is detected and persisted.
+  assert.deepStrictEqual(m.titleMerges, [{ pageId: '03', title: 'ChangeName' }]);
+});
