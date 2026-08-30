@@ -506,6 +506,34 @@
     } catch(e) {}
   }
 
+  function hasDraftContent(drafts) {
+    if (!drafts) return false;
+    if (drafts.text && Object.keys(drafts.text).length) return true;
+    if (drafts.contexts && Object.keys(drafts.contexts).length) return true;
+    if (drafts.checks && Object.keys(drafts.checks).length) return true;
+    if (drafts.titles && Object.keys(drafts.titles).length) return true;
+    if (drafts.news && drafts.news.length) return true;
+    if (Array.isArray(drafts.order) && drafts.order.length) {
+      const persisted = NotebookUtils.orderOfPages(notebookPages);
+      if (drafts.order.join('|') !== persisted.join('|')) return true;
+    }
+    return false;
+  }
+
+  // Ask before restoring a saved draft: a stale draft silently overrides live
+  // data and produced confusing (and near-destructive) diffs in production UAT.
+  function maybeRestoreDrafts() {
+    try {
+      const raw = sessionStorage.getItem(storageKey);
+      if (!raw) return;
+      const drafts = JSON.parse(raw);
+      if (!hasDraftContent(drafts)) { sessionStorage.removeItem(storageKey); return; }
+      const ok = window.confirm('You have unsaved edits from a previous session. Restore them? (Cancel discards them and starts from the live data.)');
+      if (ok) { restoreDrafts(); }
+      else { sessionStorage.removeItem(storageKey); }
+    } catch (e) { /* malformed draft — ignore */ }
+  }
+
   // --- Render edit cards ---
   function renderEditCards() {
     const container = document.getElementById('pagesEditContainer');
@@ -599,7 +627,7 @@
     });
 
     document.getElementById('actionRow').style.display = ordered.length ? 'flex' : 'none';
-    setTimeout(restoreDrafts, 50);
+    setTimeout(maybeRestoreDrafts, 50);
   }
 
   // --- Add page ---
