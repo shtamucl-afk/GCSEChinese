@@ -193,6 +193,41 @@ test('D4 parseWords: keeps duplicates (dedup happens at the diff step)', () => {
   assert.deepStrictEqual(U.parseWords('蘋果, 蘋果'), ['蘋果', '蘋果']);
 });
 
+test('D10 parseWords: Simplified input is converted to Traditional (s2t)', () => {
+  assert.deepStrictEqual(U.parseWords('工程师, 演员'), ['工程師', '演員']);
+  assert.deepStrictEqual(U.parseWords('沟通交流'), ['溝通交流']);
+  assert.deepStrictEqual(U.parseWords('解决问题'), ['解決問題']);
+});
+
+test('D11 parseWords: Traditional input is unchanged (idempotent)', () => {
+  assert.deepStrictEqual(U.parseWords('工程師, 演員'), ['工程師', '演員']);
+});
+
+test('D12 parseWords: mixed script list converts only Simplified', () => {
+  assert.deepStrictEqual(U.parseWords('工程师, 演員'), ['工程師', '演員']);
+});
+
+test('D13 parseWords: character corrections run AFTER s2t (臺→台, 喫→吃)', () => {
+  // s2t turns 台→臺 and 吃→喫; the corrections mapping reverts them to modern forms.
+  assert.deepStrictEqual(U.parseWords('台, 吃'), ['台', '吃']);
+});
+
+test('D14 toTraditional: phrase-aware (头发 → 頭髮, not 头發)', () => {
+  assert.strictEqual(U.toTraditional('头发'), '頭髮');
+  assert.strictEqual(U.toTraditional('后面'), '後面');
+  assert.strictEqual(U.toTraditional('里面'), '裏面');
+  assert.strictEqual(U.toTraditional('面条'), '麪條');
+});
+
+test('D15 CHARACTER_CORRECTIONS: third copy matches the .py mappings', () => {
+  assert.deepStrictEqual(U.CHARACTER_CORRECTIONS, {
+    '濃鬱': '濃郁',
+    '喫': '吃',
+    '臺': '台',
+    '纔': '才'
+  });
+});
+
 test('D5 computeWordDiff: added only', () => {
   assert.deepStrictEqual(U.computeWordDiff([], ['蘋果', '香蕉']), { added: ['蘋果', '香蕉'], removed: [] });
 });

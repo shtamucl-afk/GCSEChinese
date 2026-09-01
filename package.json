@@ -5,5 +5,8 @@
   "description": "Student app for the Chinese iGCSE vocabulary trainer",
   "scripts": {
     "test": "node --test js/notebook-utils.test.js js/notebook-utils.edgecases.test.js"
+  },
+  "devDependencies": {
+    "opencc-js": "^1.4.2"
   }
 }

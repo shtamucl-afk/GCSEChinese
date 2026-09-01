@@ -120,10 +120,75 @@
     return String(Math.max(0, ...nums) + 1).padStart(2, '0');
   }
 
-  /** Parse a comma/newline-separated word list (Traditional Chinese only). Pure. */
+  /**
+   * Character corrections: archaic Traditional variants → modern standard
+   * forms. THIRD copy of the mapping — must stay in sync with
+   * Chinese-Learning-App/Modules/character_corrections.py and
+   * workflows-tools/vocab_transfer/character_corrections.py.
+   * See library/textbook/wiki/character-correction.md.
+   */
+  var CHARACTER_CORRECTIONS = {
+    '濃鬱': '濃郁',
+    '喫': '吃',
+    '臺': '台',
+    '纔': '才'
+  };
+
+  /** Resolve the OpenCC library (browser global or Node require). */
+  function resolveOpenCC() {
+    if (typeof OpenCC !== 'undefined' && OpenCC && OpenCC.Converter) {
+      return OpenCC;                                     // browser <script> global
+    }
+    try {
+      // Node (unit tests / build tooling)
+      // eslint-disable-next-line global-require
+      var cc = require('opencc-js');
+      if (cc && cc.Converter) return cc;
+    } catch (e) { /* not in node */ }
+    return null;
+  }
+
+  var _s2t = null; // lazy singleton: per-word Simplified→Traditional converter
+
+  /** Get the s2t converter, using the base 's2t' config so output matches the
+   *  pipeline's Python OpenCC('s2t') exactly. */
+  function s2tConverter() {
+    if (!_s2t) {
+      var cc = resolveOpenCC();
+      if (!cc) return null;
+      _s2t = cc.Converter({ from: 'cn', to: 't' });
+    }
+    return _s2t;
+  }
+
+  /** Simplified → Traditional (per word). Idempotent on already-Traditional. */
+  function toTraditional(word) {
+    if (!word) return word;
+    var conv = s2tConverter();
+    if (!conv) return word; // fail-safe: no converter → pass through unchanged
+    return conv(word);
+  }
+
+  /** Replace archaic Traditional variants with modern standard forms. */
+  function applyCharacterCorrections(text) {
+    if (!text) return text;
+    return Object.keys(CHARACTER_CORRECTIONS).reduce(function (t, wrong) {
+      return t.split(wrong).join(CHARACTER_CORRECTIONS[wrong]);
+    }, text);
+  }
+
+  /**
+   * Parse a comma/newline-separated word list (Traditional Chinese only),
+   * converting each word Simplified→Traditional then applying character
+   * corrections, so word IDs and stored `traditional` are script-consistent.
+   * Pure (OpenCC is deterministic).
+   */
   function parseWords(text) {
     return String(text || '').split(/[,，、\n]/).map(function (w) { return w.trim(); })
-      .filter(function (w) { return w && /[\u4e00-\u9fff]/.test(w); });
+      .filter(function (w) { return w && /[\u4e00-\u9fff]/.test(w); })
+      .map(function (w) {
+        return applyCharacterCorrections(toTraditional(w));
+      });
   }
 
   /**
@@ -190,6 +255,9 @@
     parseWords: parseWords,
     computeWordDiff: computeWordDiff,
     computePageMerges: computePageMerges,
-    clonePageMap: clonePageMap
+    clonePageMap: clonePageMap,
+    toTraditional: toTraditional,
+    applyCharacterCorrections: applyCharacterCorrections,
+    CHARACTER_CORRECTIONS: CHARACTER_CORRECTIONS
   };
 }));
