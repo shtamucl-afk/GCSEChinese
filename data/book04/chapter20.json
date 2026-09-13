@@ -1,0 +1,598 @@
+{
+  "bookId": "04",
+  "chapterId": "20",
+  "chapterTitle": "猴子的經驗",
+  "chapterTitleSimplified": "猴子的经验",
+  "passages": [
+    "三上 ：猴子的經驗 （第六十二頁）\n\n猴子在街上買了兩個杯子、兩個碗和兩個茶壺，他用左手拿起杯子，右手拿起碗，可是地上還有其他東西拿不起來。他又用右手去拿杯子，左手去拿碗，可是茶壺還在地上呢！他又用尾巴勾住一個茶壺，可是還有一個茶壺。唉，買了這麼多東西，可怎麼帶回去呢？儘管他抓耳撓腮，反覆地左拿右放，總不能全部拿起來。他越來越着急，不知道該怎麼辦。這時候，他突然看到有人提了個菜籃子裝了許多東西，他心想：「對呀，我得買個籃子。」於是，他買了一個籃子，果然把東西全裝下了。從此，猴子不管買什麼都用這個籃子來裝，竹籃能裝很多東西，這成為了猴子最寶貴的經驗。\n\n有一天，猴子的家中失火了，他和小猴子急得像熱鍋上的螞蟻，他一邊忙着搬運東西，一邊催促小猴子拿着籃子去河邊打水，可是左等右等也不見小猴子回來，他趕緊跑到河邊一看，小猴子還在打水呢。「你這個笨東西，怎麼還不回家滅火？小猴子委屈地說：「這個籃子打不到水啊。我明明提了一籃子的水上來，可是一到近前就都沒有了。」猴子特別生氣，「胡說，竹籃不但能裝東西，而且能裝很多很多。」他氣呼呼地自己去試，結果，籃子是空的。他氣急敗壞地坐在河邊，不解地說：「籃子明明可以裝很多東西，為什麼這次就不靈了呢？」幸好，大象趕來幫忙把猴子家的火給撲滅了，大象告訴猴子：「竹籃是有孔的啊，水當然都漏出去了。你以後切不可把自己的經驗生拉硬套在任何事情上了。」猴子聽了撓撓頭說：「這個教訓我記住了。」"
+  ],
+  "passagesSimplified": [
+    "三上 ：猴子的经验 （第六十二页）\n\n猴子在街上买了两个杯子、两个碗和两个茶壶，他用左手拿起杯子，右手拿起碗，可是地上还有其他东西拿不起来。他又用右手去拿杯子，左手去拿碗，可是茶壶还在地上呢！他又用尾巴勾住一个茶壶，可是还有一个茶壶。唉，买了这么多东西，可怎么带回去呢？尽管他抓耳挠腮，反复地左拿右放，总不能全部拿起来。他越来越着急，不知道该怎么办。这时候，他突然看到有人提了个菜篮子装了许多东西，他心想：「对呀，我得买个篮子。」于是，他买了一个篮子，果然把东西全装下了。从此，猴子不管买什么都用这个篮子来装，竹篮能装很多东西，这成为了猴子最宝贵的经验。\n\n有一天，猴子的家中失火了，他和小猴子急得像热锅上的蚂蚁，他一边忙着搬运东西，一边催促小猴子拿着篮子去河边打水，可是左等右等也不见小猴子回来，他赶紧跑到河边一看，小猴子还在打水呢。「你这个笨东西，怎么还不回家灭火？小猴子委屈地说：「这个篮子打不到水啊。我明明提了一篮子的水上来，可是一到近前就都没有了。」猴子特别生气，「胡说，竹篮不但能装东西，而且能装很多很多。」他气呼呼地自己去试，结果，篮子是空的。他气急败坏地坐在河边，不解地说：「篮子明明可以装很多东西，为什么这次就不灵了呢？」幸好，大象赶来帮忙把猴子家的火给扑灭了，大象告诉猴子：「竹篮是有孔的啊，水当然都漏出去了。你以后切不可把自己的经验生拉硬套在任何事情上了。」猴子听了挠挠头说：「这个教训我记住了。」"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch20_w001",
+      "traditional": "勾住",
+      "simplified": "勾住",
+      "english": "hook onto",
+      "pinyin": "gōu zhù",
+      "contextSentence": "他又用尾巴勾住一個茶壺，可是還有一個茶壺。",
+      "contextSentenceSimplified": "他又用尾巴勾住一个茶壶，可是还有一个茶壶。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w002",
+      "traditional": "儘管",
+      "simplified": "尽管",
+      "english": "although",
+      "pinyin": "jǐn guǎn",
+      "contextSentence": "儘管他抓耳撓腮，反覆地左拿右放，總不能全部拿起來。",
+      "contextSentenceSimplified": "尽管他抓耳挠腮，反复地左拿右放，总不能全部拿起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w003",
+      "traditional": "抓耳撓腮",
+      "simplified": "抓耳挠腮",
+      "english": "scratch one's ears and cheeks in frustration",
+      "pinyin": "zhuā ěr náo sāi",
+      "contextSentence": "儘管他抓耳撓腮，反覆地左拿右放，總不能全部拿起來。",
+      "contextSentenceSimplified": "尽管他抓耳挠腮，反复地左拿右放，总不能全部拿起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w004",
+      "traditional": "催促",
+      "simplified": "催促",
+      "english": "urge",
+      "pinyin": "cuī cù",
+      "contextSentence": "有一天，猴子的家中失火了，他和小猴子急得像熱鍋上的螞蟻，他一邊忙着搬運東西，一邊催促小猴子拿着籃子去河邊打水，可是左等右等也不見小猴子回來，他趕緊跑到河邊一看，小猴子還在打水呢。",
+      "contextSentenceSimplified": "有一天，猴子的家中失火了，他和小猴子急得像热锅上的蚂蚁，他一边忙着搬运东西，一边催促小猴子拿着篮子去河边打水，可是左等右等也不见小猴子回来，他赶紧跑到河边一看，小猴子还在打水呢。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w005",
+      "traditional": "委屈",
+      "simplified": "委屈",
+      "english": "feel wronged",
+      "pinyin": "wěi qū",
+      "contextSentence": "小猴子委屈地說：「這個籃子打不到水啊。",
+      "contextSentenceSimplified": "小猴子委屈地说：「这个篮子打不到水啊。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w006",
+      "traditional": "胡說",
+      "simplified": "胡说",
+      "english": "nonsense",
+      "pinyin": "hú shuō",
+      "contextSentence": "」猴子特別生氣，「胡說，竹籃不但能裝東西，而且能裝很多很多。",
+      "contextSentenceSimplified": "」猴子特别生气，「胡说，竹篮不但能装东西，而且能装很多很多。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w007",
+      "traditional": "氣急敗壞",
+      "simplified": "气急败坏",
+      "english": "furious and frustrated",
+      "pinyin": "qì jí bài huài",
+      "contextSentence": "他氣急敗壞地坐在河邊，不解地說：「籃子明明可以裝很多東西，為什麼這次就不靈了呢？",
+      "contextSentenceSimplified": "他气急败坏地坐在河边，不解地说：「篮子明明可以装很多东西，为什么这次就不灵了呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w008",
+      "traditional": "不靈",
+      "simplified": "不灵",
+      "english": "not work",
+      "pinyin": "bù líng",
+      "contextSentence": "他氣急敗壞地坐在河邊，不解地說：「籃子明明可以裝很多東西，為什麼這次就不靈了呢？",
+      "contextSentenceSimplified": "他气急败坏地坐在河边，不解地说：「篮子明明可以装很多东西，为什么这次就不灵了呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w009",
+      "traditional": "撲滅",
+      "simplified": "扑灭",
+      "english": "put out",
+      "pinyin": "pū miè",
+      "contextSentence": "」幸好，大象趕來幫忙把猴子家的火給撲滅了，大象告訴猴子：「竹籃是有孔的啊，水當然都漏出去了。",
+      "contextSentenceSimplified": "」幸好，大象赶来帮忙把猴子家的火给扑灭了，大象告诉猴子：「竹篮是有孔的啊，水当然都漏出去了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w010",
+      "traditional": "孔",
+      "simplified": "孔",
+      "english": "hole",
+      "pinyin": "kǒng",
+      "contextSentence": "」幸好，大象趕來幫忙把猴子家的火給撲滅了，大象告訴猴子：「竹籃是有孔的啊，水當然都漏出去了。",
+      "contextSentenceSimplified": "」幸好，大象赶来帮忙把猴子家的火给扑灭了，大象告诉猴子：「竹篮是有孔的啊，水当然都漏出去了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w011",
+      "traditional": "漏出去",
+      "simplified": "漏出去",
+      "english": "leak out",
+      "pinyin": "lòu chū qù",
+      "contextSentence": "」幸好，大象趕來幫忙把猴子家的火給撲滅了，大象告訴猴子：「竹籃是有孔的啊，水當然都漏出去了。",
+      "contextSentenceSimplified": "」幸好，大象赶来帮忙把猴子家的火给扑灭了，大象告诉猴子：「竹篮是有孔的啊，水当然都漏出去了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w012",
+      "traditional": "生拉硬套",
+      "simplified": "生拉硬套",
+      "english": "force-fit",
+      "pinyin": "shēng lā yìng tào",
+      "contextSentence": "你以後切不可把自己的經驗生拉硬套在任何事情上了。",
+      "contextSentenceSimplified": "你以后切不可把自己的经验生拉硬套在任何事情上了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch20_w013",
+      "traditional": "撓撓頭",
+      "simplified": "挠挠头",
+      "english": "scratch one's head",
+      "pinyin": "náo náo tóu",
+      "contextSentence": "」猴子聽了撓撓頭說：「這個教訓我記住了。",
+      "contextSentenceSimplified": "」猴子听了挠挠头说：「这个教训我记住了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter20/b04_ch20_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter20/b04_ch20_w013_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter20/b04_ch20_p01_m.mp3",
+        "durationMs": 141072,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3960,
+            "text": "三上 ：猴子的經驗 （第六十二頁）",
+            "textSimplified": "三上 ：猴子的经验 （第六十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3960,
+            "endMs": 15624,
+            "text": "猴子在街上買了兩個杯子、兩個碗和兩個茶壺，他用左手拿起杯子，右手拿起碗，可是地上還有其他東西拿不起來。",
+            "textSimplified": "猴子在街上买了两个杯子、两个碗和两个茶壶，他用左手拿起杯子，右手拿起碗，可是地上还有其他东西拿不起来。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 15624,
+            "endMs": 21672,
+            "text": "他又用右手去拿杯子，左手去拿碗，可是茶壺還在地上呢！",
+            "textSimplified": "他又用右手去拿杯子，左手去拿碗，可是茶壶还在地上呢！"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 21672,
+            "endMs": 26616,
+            "text": "他又用尾巴勾住一個茶壺，可是還有一個茶壺。",
+            "textSimplified": "他又用尾巴勾住一个茶壶，可是还有一个茶壶。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 26616,
+            "endMs": 31080,
+            "text": "唉，買了這麼多東西，可怎麼帶回去呢？",
+            "textSimplified": "唉，买了这么多东西，可怎么带回去呢？"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 31080,
+            "endMs": 36984,
+            "text": "儘管他抓耳撓腮，反覆地左拿右放，總不能全部拿起來。",
+            "textSimplified": "尽管他抓耳挠腮，反复地左拿右放，总不能全部拿起来。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 36984,
+            "endMs": 40728,
+            "text": "他越來越着急，不知道該怎麼辦。",
+            "textSimplified": "他越来越着急，不知道该怎么办。"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 40728,
+            "endMs": 50016,
+            "text": "這時候，他突然看到有人提了個菜籃子裝了許多東西，他心想：「對呀，我得買個籃子。」",
+            "textSimplified": "这时候，他突然看到有人提了个菜篮子装了许多东西，他心想：「对呀，我得买个篮子。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 2,
+            "startMs": 50016,
+            "endMs": 55080,
+            "text": "於是，他買了一個籃子，果然把東西全裝下了。",
+            "textSimplified": "于是，他买了一个篮子，果然把东西全装下了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 2,
+            "startMs": 55080,
+            "endMs": 64608,
+            "text": "從此，猴子不管買什麼都用這個籃子來裝，竹籃能裝很多東西，這成為了猴子最寶貴的經驗。",
+            "textSimplified": "从此，猴子不管买什么都用这个篮子来装，竹篮能装很多东西，这成为了猴子最宝贵的经验。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 64608,
+            "endMs": 85152,
+            "text": "有一天，猴子的家中失火了，他和小猴子急得像熱鍋上的螞蟻，他一邊忙着搬運東西，一邊催促小猴子拿着籃子去河邊打水，可是左等右等也不見小猴子回來，他趕緊跑到河邊一看，小猴子還在打水呢。",
+            "textSimplified": "有一天，猴子的家中失火了，他和小猴子急得像热锅上的蚂蚁，他一边忙着搬运东西，一边催促小猴子拿着篮子去河边打水，可是左等右等也不见小猴子回来，他赶紧跑到河边一看，小猴子还在打水呢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 85152,
+            "endMs": 89184,
+            "text": "「你這個笨東西，怎麼還不回家滅火？",
+            "textSimplified": "「你这个笨东西，怎么还不回家灭火？"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 89184,
+            "endMs": 93624,
+            "text": "小猴子委屈地說：「這個籃子打不到水啊。",
+            "textSimplified": "小猴子委屈地说：「这个篮子打不到水啊。"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 93624,
+            "endMs": 99096,
+            "text": "我明明提了一籃子的水上來，可是一到近前就都沒有了。」",
+            "textSimplified": "我明明提了一篮子的水上来，可是一到近前就都没有了。」"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 99096,
+            "endMs": 106056,
+            "text": "猴子特別生氣，「胡說，竹籃不但能裝東西，而且能裝很多很多。」",
+            "textSimplified": "猴子特别生气，「胡说，竹篮不但能装东西，而且能装很多很多。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 106056,
+            "endMs": 110904,
+            "text": "他氣呼呼地自己去試，結果，籃子是空的。",
+            "textSimplified": "他气呼呼地自己去试，结果，篮子是空的。"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 110904,
+            "endMs": 120192,
+            "text": "他氣急敗壞地坐在河邊，不解地說：「籃子明明可以裝很多東西，為什麼這次就不靈了呢？」",
+            "textSimplified": "他气急败坏地坐在河边，不解地说：「篮子明明可以装很多东西，为什么这次就不灵了呢？」"
+          },
+          {
+            "index": 17,
+            "paragraph": 4,
+            "startMs": 120192,
+            "endMs": 130848,
+            "text": "幸好，大象趕來幫忙把猴子家的火給撲滅了，大象告訴猴子：「竹籃是有孔的啊，水當然都漏出去了。",
+            "textSimplified": "幸好，大象赶来帮忙把猴子家的火给扑灭了，大象告诉猴子：「竹篮是有孔的啊，水当然都漏出去了。"
+          },
+          {
+            "index": 18,
+            "paragraph": 4,
+            "startMs": 130848,
+            "endMs": 136512,
+            "text": "你以後切不可把自己的經驗生拉硬套在任何事情上了。」",
+            "textSimplified": "你以后切不可把自己的经验生拉硬套在任何事情上了。」"
+          },
+          {
+            "index": 19,
+            "paragraph": 4,
+            "startMs": 136512,
+            "endMs": 141072,
+            "text": "猴子聽了撓撓頭說：「這個教訓我記住了。」",
+            "textSimplified": "猴子听了挠挠头说：「这个教训我记住了。」"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter20/b04_ch20_p01_c.mp3",
+        "durationMs": 152448,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4416,
+            "text": "三上 ：猴子的經驗 （第六十二頁）",
+            "textSimplified": "三上 ：猴子的经验 （第六十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4416,
+            "endMs": 16512,
+            "text": "猴子在街上買了兩個杯子、兩個碗和兩個茶壺，他用左手拿起杯子，右手拿起碗，可是地上還有其他東西拿不起來。",
+            "textSimplified": "猴子在街上买了两个杯子、两个碗和两个茶壶，他用左手拿起杯子，右手拿起碗，可是地上还有其他东西拿不起来。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 16512,
+            "endMs": 23328,
+            "text": "他又用右手去拿杯子，左手去拿碗，可是茶壺還在地上呢！",
+            "textSimplified": "他又用右手去拿杯子，左手去拿碗，可是茶壶还在地上呢！"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 23328,
+            "endMs": 28920,
+            "text": "他又用尾巴勾住一個茶壺，可是還有一個茶壺。",
+            "textSimplified": "他又用尾巴勾住一个茶壶，可是还有一个茶壶。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 28920,
+            "endMs": 33816,
+            "text": "唉，買了這麼多東西，可怎麼帶回去呢？",
+            "textSimplified": "唉，买了这么多东西，可怎么带回去呢？"
+          },
+          {
+            "index": 5,
+            "paragraph": 2,
+            "startMs": 33816,
+            "endMs": 40272,
+            "text": "儘管他抓耳撓腮，反覆地左拿右放，總不能全部拿起來。",
+            "textSimplified": "尽管他抓耳挠腮，反复地左拿右放，总不能全部拿起来。"
+          },
+          {
+            "index": 6,
+            "paragraph": 2,
+            "startMs": 40272,
+            "endMs": 44832,
+            "text": "他越來越着急，不知道該怎麼辦。",
+            "textSimplified": "他越来越着急，不知道该怎么办。"
+          },
+          {
+            "index": 7,
+            "paragraph": 2,
+            "startMs": 44832,
+            "endMs": 54648,
+            "text": "這時候，他突然看到有人提了個菜籃子裝了許多東西，他心想：「對呀，我得買個籃子。」",
+            "textSimplified": "这时候，他突然看到有人提了个菜篮子装了许多东西，他心想：「对呀，我得买个篮子。」"
+          },
+          {
+            "index": 8,
+            "paragraph": 2,
+            "startMs": 54648,
+            "endMs": 60480,
+            "text": "於是，他買了一個籃子，果然把東西全裝下了。",
+            "textSimplified": "于是，他买了一个篮子，果然把东西全装下了。"
+          },
+          {
+            "index": 9,
+            "paragraph": 2,
+            "startMs": 60480,
+            "endMs": 70512,
+            "text": "從此，猴子不管買什麼都用這個籃子來裝，竹籃能裝很多東西，這成為了猴子最寶貴的經驗。",
+            "textSimplified": "从此，猴子不管买什么都用这个篮子来装，竹篮能装很多东西，这成为了猴子最宝贵的经验。"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 70512,
+            "endMs": 90312,
+            "text": "有一天，猴子的家中失火了，他和小猴子急得像熱鍋上的螞蟻，他一邊忙着搬運東西，一邊催促小猴子拿着籃子去河邊打水，可是左等右等也不見小猴子回來，他趕緊跑到河邊一看，小猴子還在打水呢。",
+            "textSimplified": "有一天，猴子的家中失火了，他和小猴子急得像热锅上的蚂蚁，他一边忙着搬运东西，一边催促小猴子拿着篮子去河边打水，可是左等右等也不见小猴子回来，他赶紧跑到河边一看，小猴子还在打水呢。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 90312,
+            "endMs": 94848,
+            "text": "「你這個笨東西，怎麼還不回家滅火？",
+            "textSimplified": "「你这个笨东西，怎么还不回家灭火？"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 94848,
+            "endMs": 99840,
+            "text": "小猴子委屈地說：「這個籃子打不到水啊。",
+            "textSimplified": "小猴子委屈地说：「这个篮子打不到水啊。"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 99840,
+            "endMs": 106680,
+            "text": "我明明提了一籃子的水上來，可是一到近前就都沒有了。」",
+            "textSimplified": "我明明提了一篮子的水上来，可是一到近前就都没有了。」"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 106680,
+            "endMs": 114336,
+            "text": "猴子特別生氣，「胡說，竹籃不但能裝東西，而且能裝很多很多。」",
+            "textSimplified": "猴子特别生气，「胡说，竹篮不但能装东西，而且能装很多很多。」"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 114336,
+            "endMs": 119736,
+            "text": "他氣呼呼地自己去試，結果，籃子是空的。",
+            "textSimplified": "他气呼呼地自己去试，结果，篮子是空的。"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 119736,
+            "endMs": 129480,
+            "text": "他氣急敗壞地坐在河邊，不解地說：「籃子明明可以裝很多東西，為什麼這次就不靈了呢？」",
+            "textSimplified": "他气急败坏地坐在河边，不解地说：「篮子明明可以装很多东西，为什么这次就不灵了呢？」"
+          },
+          {
+            "index": 17,
+            "paragraph": 4,
+            "startMs": 129480,
+            "endMs": 140160,
+            "text": "幸好，大象趕來幫忙把猴子家的火給撲滅了，大象告訴猴子：「竹籃是有孔的啊，水當然都漏出去了。",
+            "textSimplified": "幸好，大象赶来帮忙把猴子家的火给扑灭了，大象告诉猴子：「竹篮是有孔的啊，水当然都漏出去了。"
+          },
+          {
+            "index": 18,
+            "paragraph": 4,
+            "startMs": 140160,
+            "endMs": 146760,
+            "text": "你以後切不可把自己的經驗生拉硬套在任何事情上了。」",
+            "textSimplified": "你以后切不可把自己的经验生拉硬套在任何事情上了。」"
+          },
+          {
+            "index": 19,
+            "paragraph": 4,
+            "startMs": 146760,
+            "endMs": 152448,
+            "text": "猴子聽了撓撓頭說：「這個教訓我記住了。」",
+            "textSimplified": "猴子听了挠挠头说：「这个教训我记住了。」"
+          }
+        ]
+      }
+    }
+  ]
+}
