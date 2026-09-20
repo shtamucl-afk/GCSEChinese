@@ -1,0 +1,525 @@
+{
+  "bookId": "04",
+  "chapterId": "21",
+  "chapterTitle": "給媽媽的一封信",
+  "chapterTitleSimplified": "给妈妈的一封信",
+  "passages": [
+    "三上 ：給媽媽的一封信（第六十六頁）\n\n親愛的媽媽：\n\n你好，你在廣州出差順利嗎？我很想念你。\n廣州的天氣怎麼樣？這幾天香港的天氣突然變得很冷，就連露台上的花都有些頂不住了，一點生氣都沒有。不過你不必擔心我，外婆給我準備了厚厚的外套，早上還會給我熱牛奶，我每天都穿得暖暖的上學，沒有因為天氣突變而感冒。你一個人在廣州出差，也一定要照顧好自己哦。\n\n媽媽，我要告訴你一件心事，我想了幾天終於鼓起勇氣告訴你。有一天，你叫我去雪櫃幫忙拿兩隻雞蛋來炒菜，我不小心把雞蛋掉到地上打碎了，我自己悄悄地用報紙蓋上，趁你不注意的時候才收拾好。我經常因為做事不小心而被你責備，所以我那天不敢跟你說。這幾天我總是想起這件事，覺得應該向你承認錯誤。你說得很對，做事要穩重，不能慌慌張張，我以後一定會改掉這個毛病的。\n\n媽媽，聽說廣州有很多好玩的地方和特色小吃，等有機會也帶我去吧！天氣涼了，你要注意添加衣服哦，這個週末爸爸還會帶我去海洋公園遊玩，我早就迫不及待想去看海豚表演了，你的週末打算怎麼度過呢？記得寫信告訴我哦！祝工作順利\n\n女兒小暖\n一月十一日"
+  ],
+  "passagesSimplified": [
+    "三上 ：给妈妈的一封信（第六十六页）\n\n亲爱的妈妈：\n\n你好，你在广州出差顺利吗？我很想念你。\n广州的天气怎么样？这几天香港的天气突然变得很冷，就连露台上的花都有些顶不住了，一点生气都没有。不过你不必担心我，外婆给我准备了厚厚的外套，早上还会给我热牛奶，我每天都穿得暖暖的上学，没有因为天气突变而感冒。你一个人在广州出差，也一定要照顾好自己哦。\n\n妈妈，我要告诉你一件心事，我想了几天终于鼓起勇气告诉你。有一天，你叫我去雪柜帮忙拿两只鸡蛋来炒菜，我不小心把鸡蛋掉到地上打碎了，我自己悄悄地用报纸盖上，趁你不注意的时候才收拾好。我经常因为做事不小心而被你责备，所以我那天不敢跟你说。这几天我总是想起这件事，觉得应该向你承认错误。你说得很对，做事要稳重，不能慌慌张张，我以后一定会改掉这个毛病的。\n\n妈妈，听说广州有很多好玩的地方和特色小吃，等有机会也带我去吧！天气凉了，你要注意添加衣服哦，这个周末爸爸还会带我去海洋公园游玩，我早就迫不及待想去看海豚表演了，你的周末打算怎么度过呢？记得写信告诉我哦！祝工作顺利\n\n女儿小暖\n一月十一日"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch21_w001",
+      "traditional": "想念",
+      "simplified": "想念",
+      "english": "miss",
+      "pinyin": "xiǎng niàn",
+      "contextSentence": "我很想念你。",
+      "contextSentenceSimplified": "我很想念你。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w002",
+      "traditional": "雪櫃",
+      "simplified": "雪柜",
+      "english": "refrigerator",
+      "pinyin": "xuě guì",
+      "contextSentence": "有一天，你叫我去雪櫃幫忙拿兩隻雞蛋來炒菜，我不小心把雞蛋掉到地上打碎了，我自己悄悄地用報紙蓋上，趁你不注意的時候才收拾好。",
+      "contextSentenceSimplified": "有一天，你叫我去雪柜帮忙拿两只鸡蛋来炒菜，我不小心把鸡蛋掉到地上打碎了，我自己悄悄地用报纸盖上，趁你不注意的时候才收拾好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w003",
+      "traditional": "報紙",
+      "simplified": "报纸",
+      "english": "newspaper",
+      "pinyin": "bào zhǐ",
+      "contextSentence": "有一天，你叫我去雪櫃幫忙拿兩隻雞蛋來炒菜，我不小心把雞蛋掉到地上打碎了，我自己悄悄地用報紙蓋上，趁你不注意的時候才收拾好。",
+      "contextSentenceSimplified": "有一天，你叫我去雪柜帮忙拿两只鸡蛋来炒菜，我不小心把鸡蛋掉到地上打碎了，我自己悄悄地用报纸盖上，趁你不注意的时候才收拾好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w004",
+      "traditional": "責備",
+      "simplified": "责备",
+      "english": "scold",
+      "pinyin": "zé bèi",
+      "contextSentence": "我經常因為做事不小心而被你責備，所以我那天不敢跟你說。",
+      "contextSentenceSimplified": "我经常因为做事不小心而被你责备，所以我那天不敢跟你说。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w005",
+      "traditional": "承認",
+      "simplified": "承认",
+      "english": "admit",
+      "pinyin": "chéng rèn",
+      "contextSentence": "這幾天我總是想起這件事，覺得應該向你承認錯誤。",
+      "contextSentenceSimplified": "这几天我总是想起这件事，觉得应该向你承认错误。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w006",
+      "traditional": "錯誤",
+      "simplified": "错误",
+      "english": "mistake",
+      "pinyin": "cuò wù",
+      "contextSentence": "這幾天我總是想起這件事，覺得應該向你承認錯誤。",
+      "contextSentenceSimplified": "这几天我总是想起这件事，觉得应该向你承认错误。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w007",
+      "traditional": "慌慌張張",
+      "simplified": "慌慌张张",
+      "english": "flustered",
+      "pinyin": "huāng huāng zhāng zhāng",
+      "contextSentence": "你說得很對，做事要穩重，不能慌慌張張，我以後一定會改掉這個毛病的。",
+      "contextSentenceSimplified": "你说得很对，做事要稳重，不能慌慌张张，我以后一定会改掉这个毛病的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w008",
+      "traditional": "毛病",
+      "simplified": "毛病",
+      "english": "bad habit",
+      "pinyin": "máo bìng",
+      "contextSentence": "你說得很對，做事要穩重，不能慌慌張張，我以後一定會改掉這個毛病的。",
+      "contextSentenceSimplified": "你说得很对，做事要稳重，不能慌慌张张，我以后一定会改掉这个毛病的。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w009",
+      "traditional": "添加",
+      "simplified": "添加",
+      "english": "add",
+      "pinyin": "tiān jiā",
+      "contextSentence": "天氣涼了，你要注意添加衣服哦，這個週末爸爸還會帶我去海洋公園遊玩，我早就迫不及待想去看海豚表演了，你的週末打算怎麼度過呢？",
+      "contextSentenceSimplified": "天气凉了，你要注意添加衣服哦，这个周末爸爸还会带我去海洋公园游玩，我早就迫不及待想去看海豚表演了，你的周末打算怎么度过呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch21_w010",
+      "traditional": "海豚",
+      "simplified": "海豚",
+      "english": "dolphin",
+      "pinyin": "hǎi tún",
+      "contextSentence": "天氣涼了，你要注意添加衣服哦，這個週末爸爸還會帶我去海洋公園遊玩，我早就迫不及待想去看海豚表演了，你的週末打算怎麼度過呢？",
+      "contextSentenceSimplified": "天气凉了，你要注意添加衣服哦，这个周末爸爸还会带我去海洋公园游玩，我早就迫不及待想去看海豚表演了，你的周末打算怎么度过呢？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter21/b04_ch21_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter21/b04_ch21_w010_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter21/b04_ch21_p01_m.mp3",
+        "durationMs": 108216,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4248,
+            "text": "三上 ：給媽媽的一封信（第六十六頁）",
+            "textSimplified": "三上 ：给妈妈的一封信（第六十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4248,
+            "endMs": 6120,
+            "text": "親愛的媽媽：",
+            "textSimplified": "亲爱的妈妈："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6120,
+            "endMs": 9504,
+            "text": "你好，你在廣州出差順利嗎？",
+            "textSimplified": "你好，你在广州出差顺利吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 9504,
+            "endMs": 11400,
+            "text": "我很想念你。",
+            "textSimplified": "我很想念你。"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 11400,
+            "endMs": 13872,
+            "text": "廣州的天氣怎麼樣？",
+            "textSimplified": "广州的天气怎么样？"
+          },
+          {
+            "index": 5,
+            "paragraph": 5,
+            "startMs": 13872,
+            "endMs": 22512,
+            "text": "這幾天香港的天氣突然變得很冷，就連露台上的花都有些頂不住了，一點生氣都沒有。",
+            "textSimplified": "这几天香港的天气突然变得很冷，就连露台上的花都有些顶不住了，一点生气都没有。"
+          },
+          {
+            "index": 6,
+            "paragraph": 5,
+            "startMs": 22512,
+            "endMs": 34824,
+            "text": "不過你不必擔心我，外婆給我準備了厚厚的外套，早上還會給我熱牛奶，我每天都穿得暖暖的上學，沒有因為天氣突變而感冒。",
+            "textSimplified": "不过你不必担心我，外婆给我准备了厚厚的外套，早上还会给我热牛奶，我每天都穿得暖暖的上学，没有因为天气突变而感冒。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 34824,
+            "endMs": 39408,
+            "text": "你一個人在廣州出差，也一定要照顧好自己哦。",
+            "textSimplified": "你一个人在广州出差，也一定要照顾好自己哦。"
+          },
+          {
+            "index": 8,
+            "paragraph": 7,
+            "startMs": 39408,
+            "endMs": 45912,
+            "text": "媽媽，我要告訴你一件心事，我想了幾天終於鼓起勇氣告訴你。",
+            "textSimplified": "妈妈，我要告诉你一件心事，我想了几天终于鼓起勇气告诉你。"
+          },
+          {
+            "index": 9,
+            "paragraph": 7,
+            "startMs": 45912,
+            "endMs": 59448,
+            "text": "有一天，你叫我去雪櫃幫忙拿兩隻雞蛋來炒菜，我不小心把雞蛋掉到地上打碎了，我自己悄悄地用報紙蓋上，趁你不注意的時候才收拾好。",
+            "textSimplified": "有一天，你叫我去雪柜帮忙拿两只鸡蛋来炒菜，我不小心把鸡蛋掉到地上打碎了，我自己悄悄地用报纸盖上，趁你不注意的时候才收拾好。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 59448,
+            "endMs": 65880,
+            "text": "我經常因為做事不小心而被你責備，所以我那天不敢跟你說。",
+            "textSimplified": "我经常因为做事不小心而被你责备，所以我那天不敢跟你说。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 65880,
+            "endMs": 71448,
+            "text": "這幾天我總是想起這件事，覺得應該向你承認錯誤。",
+            "textSimplified": "这几天我总是想起这件事，觉得应该向你承认错误。"
+          },
+          {
+            "index": 12,
+            "paragraph": 7,
+            "startMs": 71448,
+            "endMs": 78912,
+            "text": "你說得很對，做事要穩重，不能慌慌張張，我以後一定會改掉這個毛病的。",
+            "textSimplified": "你说得很对，做事要稳重，不能慌慌张张，我以后一定会改掉这个毛病的。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 78912,
+            "endMs": 86400,
+            "text": "媽媽，聽說廣州有很多好玩的地方和特色小吃，等有機會也帶我去吧！",
+            "textSimplified": "妈妈，听说广州有很多好玩的地方和特色小吃，等有机会也带我去吧！"
+          },
+          {
+            "index": 14,
+            "paragraph": 9,
+            "startMs": 86400,
+            "endMs": 100176,
+            "text": "天氣涼了，你要注意添加衣服哦，這個週末爸爸還會帶我去海洋公園遊玩，我早就迫不及待想去看海豚表演了，你的週末打算怎麼度過呢？",
+            "textSimplified": "天气凉了，你要注意添加衣服哦，这个周末爸爸还会带我去海洋公园游玩，我早就迫不及待想去看海豚表演了，你的周末打算怎么度过呢？"
+          },
+          {
+            "index": 15,
+            "paragraph": 9,
+            "startMs": 100176,
+            "endMs": 102528,
+            "text": "記得寫信告訴我哦！",
+            "textSimplified": "记得写信告诉我哦！"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 102528,
+            "endMs": 104448,
+            "text": "祝工作順利",
+            "textSimplified": "祝工作顺利"
+          },
+          {
+            "index": 17,
+            "paragraph": 11,
+            "startMs": 104448,
+            "endMs": 106320,
+            "text": "女兒小暖",
+            "textSimplified": "女儿小暖"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 106320,
+            "endMs": 108216,
+            "text": "一月十一日",
+            "textSimplified": "一月十一日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter21/b04_ch21_p01_c.mp3",
+        "durationMs": 116880,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4632,
+            "text": "三上 ：給媽媽的一封信（第六十六頁）",
+            "textSimplified": "三上 ：给妈妈的一封信（第六十六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4632,
+            "endMs": 6936,
+            "text": "親愛的媽媽：",
+            "textSimplified": "亲爱的妈妈："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6936,
+            "endMs": 11112,
+            "text": "你好，你在廣州出差順利嗎？",
+            "textSimplified": "你好，你在广州出差顺利吗？"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 11112,
+            "endMs": 13536,
+            "text": "我很想念你。",
+            "textSimplified": "我很想念你。"
+          },
+          {
+            "index": 4,
+            "paragraph": 5,
+            "startMs": 13536,
+            "endMs": 16536,
+            "text": "廣州的天氣怎麼樣？",
+            "textSimplified": "广州的天气怎么样？"
+          },
+          {
+            "index": 5,
+            "paragraph": 5,
+            "startMs": 16536,
+            "endMs": 25440,
+            "text": "這幾天香港的天氣突然變得很冷，就連露台上的花都有些頂不住了，一點生氣都沒有。",
+            "textSimplified": "这几天香港的天气突然变得很冷，就连露台上的花都有些顶不住了，一点生气都没有。"
+          },
+          {
+            "index": 6,
+            "paragraph": 5,
+            "startMs": 25440,
+            "endMs": 38016,
+            "text": "不過你不必擔心我，外婆給我準備了厚厚的外套，早上還會給我熱牛奶，我每天都穿得暖暖的上學，沒有因為天氣突變而感冒。",
+            "textSimplified": "不过你不必担心我，外婆给我准备了厚厚的外套，早上还会给我热牛奶，我每天都穿得暖暖的上学，没有因为天气突变而感冒。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 38016,
+            "endMs": 43584,
+            "text": "你一個人在廣州出差，也一定要照顧好自己哦。",
+            "textSimplified": "你一个人在广州出差，也一定要照顾好自己哦。"
+          },
+          {
+            "index": 8,
+            "paragraph": 7,
+            "startMs": 43584,
+            "endMs": 50952,
+            "text": "媽媽，我要告訴你一件心事，我想了幾天終於鼓起勇氣告訴你。",
+            "textSimplified": "妈妈，我要告诉你一件心事，我想了几天终于鼓起勇气告诉你。"
+          },
+          {
+            "index": 9,
+            "paragraph": 7,
+            "startMs": 50952,
+            "endMs": 65088,
+            "text": "有一天，你叫我去雪櫃幫忙拿兩隻雞蛋來炒菜，我不小心把雞蛋掉到地上打碎了，我自己悄悄地用報紙蓋上，趁你不注意的時候才收拾好。",
+            "textSimplified": "有一天，你叫我去雪柜帮忙拿两只鸡蛋来炒菜，我不小心把鸡蛋掉到地上打碎了，我自己悄悄地用报纸盖上，趁你不注意的时候才收拾好。"
+          },
+          {
+            "index": 10,
+            "paragraph": 7,
+            "startMs": 65088,
+            "endMs": 71616,
+            "text": "我經常因為做事不小心而被你責備，所以我那天不敢跟你說。",
+            "textSimplified": "我经常因为做事不小心而被你责备，所以我那天不敢跟你说。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 71616,
+            "endMs": 77712,
+            "text": "這幾天我總是想起這件事，覺得應該向你承認錯誤。",
+            "textSimplified": "这几天我总是想起这件事，觉得应该向你承认错误。"
+          },
+          {
+            "index": 12,
+            "paragraph": 7,
+            "startMs": 77712,
+            "endMs": 85632,
+            "text": "你說得很對，做事要穩重，不能慌慌張張，我以後一定會改掉這個毛病的。",
+            "textSimplified": "你说得很对，做事要稳重，不能慌慌张张，我以后一定会改掉这个毛病的。"
+          },
+          {
+            "index": 13,
+            "paragraph": 9,
+            "startMs": 85632,
+            "endMs": 93264,
+            "text": "媽媽，聽說廣州有很多好玩的地方和特色小吃，等有機會也帶我去吧！",
+            "textSimplified": "妈妈，听说广州有很多好玩的地方和特色小吃，等有机会也带我去吧！"
+          },
+          {
+            "index": 14,
+            "paragraph": 9,
+            "startMs": 93264,
+            "endMs": 106992,
+            "text": "天氣涼了，你要注意添加衣服哦，這個週末爸爸還會帶我去海洋公園遊玩，我早就迫不及待想去看海豚表演了，你的週末打算怎麼度過呢？",
+            "textSimplified": "天气凉了，你要注意添加衣服哦，这个周末爸爸还会带我去海洋公园游玩，我早就迫不及待想去看海豚表演了，你的周末打算怎么度过呢？"
+          },
+          {
+            "index": 15,
+            "paragraph": 9,
+            "startMs": 106992,
+            "endMs": 109968,
+            "text": "記得寫信告訴我哦！",
+            "textSimplified": "记得写信告诉我哦！"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 109968,
+            "endMs": 112440,
+            "text": "祝工作順利",
+            "textSimplified": "祝工作顺利"
+          },
+          {
+            "index": 17,
+            "paragraph": 11,
+            "startMs": 112440,
+            "endMs": 114648,
+            "text": "女兒小暖",
+            "textSimplified": "女儿小暖"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 114648,
+            "endMs": 116880,
+            "text": "一月十一日",
+            "textSimplified": "一月十一日"
+          }
+        ]
+      }
+    }
+  ]
+}
