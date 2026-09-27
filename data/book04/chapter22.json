@@ -1,0 +1,630 @@
+{
+  "bookId": "04",
+  "chapterId": "22",
+  "chapterTitle": "給祖父的一封信",
+  "chapterTitleSimplified": "给祖父的一封信",
+  "passages": [
+    "三上 ：給祖父的一封信（第六十八頁）\n\n親愛的祖父：\n\n你好！很久不見了，我非常想念您。您現在身體好嗎？還喜歡到岸邊釣魚嗎？\n\n我這學期已經升上三年級了，學業成績還不錯。眾多功課中，我最喜歡上音樂課，只有音樂課最讓我感到放鬆。每個週末，我還會參加學校的音樂興趣班，我發現音樂可以令人更加快樂、自信。我很用功地學習長笛，雖然只能演奏幾支樂曲，但對我來說已經是很大的進步了。\n\n爸爸媽媽工作都很忙，他們以前還有時間監督我溫習，這學期他們提出讓我自覺溫習。我最初以為自覺就是自由，想溫書就溫書，想玩的時候就玩，我很喜歡偷懶，功課常常到了要睡覺的時候才做。後來爸爸跟我說學習是我自己的事情，偷懶只會令學業成績下降，以後再想努力追趕就遲了。為了能夠做到「自覺」，我給自己編定了學習計劃，每天不完成功課就不能看卡通片。爸爸媽媽都說我長大了，有自律的能力了。\n\n我非常期待暑期快些到來，就能夠跟您一起去晨運，去聽粵曲，還能夠一起釣魚了。祖父，我知道您也一定很想我，上次我教您用電腦打字，您學得怎麼樣了？有時間記得給我發一封電子郵件哦。祝身體健康\n\n孫女\n\n樂文\n\n五月八日"
+  ],
+  "passagesSimplified": [
+    "三上 ：给祖父的一封信（第六十八页）\n\n亲爱的祖父：\n\n你好！很久不见了，我非常想念您。您现在身体好吗？还喜欢到岸边钓鱼吗？\n\n我这学期已经升上三年级了，学业成绩还不错。众多功课中，我最喜欢上音乐课，只有音乐课最让我感到放松。每个周末，我还会参加学校的音乐兴趣班，我发现音乐可以令人更加快乐、自信。我很用功地学习长笛，虽然只能演奏几支乐曲，但对我来说已经是很大的进步了。\n\n爸爸妈妈工作都很忙，他们以前还有时间监督我温习，这学期他们提出让我自觉温习。我最初以为自觉就是自由，想温书就温书，想玩的时候就玩，我很喜欢偷懒，功课常常到了要睡觉的时候才做。后来爸爸跟我说学习是我自己的事情，偷懒只会令学业成绩下降，以后再想努力追赶就迟了。为了能够做到「自觉」，我给自己编定了学习计划，每天不完成功课就不能看卡通片。爸爸妈妈都说我长大了，有自律的能力了。\n\n我非常期待暑期快些到来，就能够跟您一起去晨运，去听粤曲，还能够一起钓鱼了。祖父，我知道您也一定很想我，上次我教您用电脑打字，您学得怎么样了？有时间记得给我发一封电子邮件哦。祝身体健康\n\n孙女\n\n乐文\n\n五月八日"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch22_w001",
+      "traditional": "岸邊",
+      "simplified": "岸边",
+      "english": "shore",
+      "pinyin": "àn biān",
+      "contextSentence": "祖父常獨自走到岸邊，靜靜地欣賞風景。",
+      "contextSentenceSimplified": "祖父常独自走到岸边，静静地欣赏风景。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w002",
+      "traditional": "釣魚",
+      "simplified": "钓鱼",
+      "english": "fishing",
+      "pinyin": "diào yú",
+      "contextSentence": "週末我和爸爸去海邊釣魚，收穫很多。",
+      "contextSentenceSimplified": "周末我和爸爸去海边钓鱼，收获很多。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w003",
+      "traditional": "眾多",
+      "simplified": "众多",
+      "english": "many",
+      "pinyin": "zhòng duō",
+      "contextSentence": "眾多功課中，我最喜歡上音樂課，只有音樂課最讓我感到放鬆。",
+      "contextSentenceSimplified": "众多功课中，我最喜欢上音乐课，只有音乐课最让我感到放松。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w004",
+      "traditional": "長笛",
+      "simplified": "长笛",
+      "english": "flute",
+      "pinyin": "zhǎng dí",
+      "contextSentence": "我很用功地學習長笛，雖然只能演奏幾支樂曲，但對我來說已經是很大的進步了。",
+      "contextSentenceSimplified": "我很用功地学习长笛，虽然只能演奏几支乐曲，但对我来说已经是很大的进步了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w005",
+      "traditional": "演奏",
+      "simplified": "演奏",
+      "english": "play music",
+      "pinyin": "yǎn zòu",
+      "contextSentence": "她在音樂會上演奏了一首動聽的樂曲，贏得掌聲。",
+      "contextSentenceSimplified": "她在音乐会上演奏了一首动听的乐曲，赢得掌声。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w006",
+      "traditional": "監督",
+      "simplified": "监督",
+      "english": "supervise",
+      "pinyin": "jiān dū",
+      "contextSentence": "爸爸媽媽以前會監督我溫習，現在讓我自己安排。",
+      "contextSentenceSimplified": "爸爸妈妈以前会监督我温习，现在让我自己安排。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w007",
+      "traditional": "自覺",
+      "simplified": "自觉",
+      "english": "self-motivated",
+      "pinyin": "zì jué",
+      "contextSentence": "這學期我學會自覺溫習，不用父母催促。",
+      "contextSentenceSimplified": "这学期我学会自觉温习，不用父母催促。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w008",
+      "traditional": "編定",
+      "simplified": "编定",
+      "english": "draw up",
+      "pinyin": "biān dìng",
+      "contextSentence": "我給自己編定學習計劃，每天按時完成功課。",
+      "contextSentenceSimplified": "我给自己编定学习计划，每天按时完成功课。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w009",
+      "traditional": "計劃",
+      "simplified": "计划",
+      "english": "plan",
+      "pinyin": "jì huà",
+      "contextSentence": "我給自己編定了學習計劃，每天不完成功課就不能看卡通片。",
+      "contextSentenceSimplified": "我给自己编定了学习计划，每天不完成功课就不能看卡通片。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w010",
+      "traditional": "卡通片",
+      "simplified": "卡通片",
+      "english": "cartoon",
+      "pinyin": "kǎ tōng piàn",
+      "contextSentence": "每天不完成功課就不能看卡通片。",
+      "contextSentenceSimplified": "每天不完成功课就不能看卡通片。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w011",
+      "traditional": "自律",
+      "simplified": "自律",
+      "english": "self-discipline",
+      "pinyin": "zì lǜ",
+      "contextSentence": "養成自律的習慣後，我的成績進步了很多。",
+      "contextSentenceSimplified": "养成自律的习惯后，我的成绩进步了很多。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w012",
+      "traditional": "晨運",
+      "simplified": "晨运",
+      "english": "morning exercise",
+      "pinyin": "chén yùn",
+      "contextSentence": "祖父每天清晨都去公園晨運，身體很健康。",
+      "contextSentenceSimplified": "祖父每天清晨都去公园晨运，身体很健康。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch22_w013",
+      "traditional": "粵曲",
+      "simplified": "粤曲",
+      "english": "Cantonese opera",
+      "pinyin": "yuè qū",
+      "contextSentence": "祖父喜歡聽粵曲，常常跟著哼唱幾句。",
+      "contextSentenceSimplified": "祖父喜欢听粤曲，常常跟著哼唱几句。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter22/b04_ch22_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter22/b04_ch22_w013_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter22/b04_ch22_p01_m.mp3",
+        "durationMs": 116856,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4296,
+            "text": "三上 ：給祖父的一封信（第六十八頁）",
+            "textSimplified": "三上 ：给祖父的一封信（第六十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4296,
+            "endMs": 6384,
+            "text": "親愛的祖父：",
+            "textSimplified": "亲爱的祖父："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6384,
+            "endMs": 8472,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8472,
+            "endMs": 11880,
+            "text": "很久不見了，我非常想念您。",
+            "textSimplified": "很久不见了，我非常想念您。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 11880,
+            "endMs": 14112,
+            "text": "您現在身體好嗎？",
+            "textSimplified": "您现在身体好吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 14112,
+            "endMs": 16800,
+            "text": "還喜歡到岸邊釣魚嗎？",
+            "textSimplified": "还喜欢到岸边钓鱼吗？"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 16800,
+            "endMs": 22128,
+            "text": "我這學期已經升上三年級了，學業成績還不錯。",
+            "textSimplified": "我这学期已经升上三年级了，学业成绩还不错。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 22128,
+            "endMs": 28776,
+            "text": "眾多功課中，我最喜歡上音樂課，只有音樂課最讓我感到放鬆。",
+            "textSimplified": "众多功课中，我最喜欢上音乐课，只有音乐课最让我感到放松。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 28776,
+            "endMs": 37440,
+            "text": "每個週末，我還會參加學校的音樂興趣班，我發現音樂可以令人更加快樂、自信。",
+            "textSimplified": "每个周末，我还会参加学校的音乐兴趣班，我发现音乐可以令人更加快乐、自信。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 37440,
+            "endMs": 45600,
+            "text": "我很用功地學習長笛，雖然只能演奏幾支樂曲，但對我來說已經是很大的進步了。",
+            "textSimplified": "我很用功地学习长笛，虽然只能演奏几支乐曲，但对我来说已经是很大的进步了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 45600,
+            "endMs": 54504,
+            "text": "爸爸媽媽工作都很忙，他們以前還有時間監督我溫習，這學期他們提出讓我自覺溫習。",
+            "textSimplified": "爸爸妈妈工作都很忙，他们以前还有时间监督我温习，这学期他们提出让我自觉温习。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 54504,
+            "endMs": 65832,
+            "text": "我最初以為自覺就是自由，想溫書就溫書，想玩的時候就玩，我很喜歡偷懶，功課常常到了要睡覺的時候才做。",
+            "textSimplified": "我最初以为自觉就是自由，想温书就温书，想玩的时候就玩，我很喜欢偷懒，功课常常到了要睡觉的时候才做。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 65832,
+            "endMs": 75408,
+            "text": "後來爸爸跟我說學習是我自己的事情，偷懶只會令學業成績下降，以後再想努力追趕就遲了。",
+            "textSimplified": "后来爸爸跟我说学习是我自己的事情，偷懒只会令学业成绩下降，以后再想努力追赶就迟了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 75408,
+            "endMs": 83760,
+            "text": "為了能夠做到「自覺」，我給自己編定了學習計劃，每天不完成功課就不能看卡通片。",
+            "textSimplified": "为了能够做到「自觉」，我给自己编定了学习计划，每天不完成功课就不能看卡通片。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 83760,
+            "endMs": 88368,
+            "text": "爸爸媽媽都說我長大了，有自律的能力了。",
+            "textSimplified": "爸爸妈妈都说我长大了，有自律的能力了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 88368,
+            "endMs": 96936,
+            "text": "我非常期待暑期快些到來，就能夠跟您一起去晨運，去聽粵曲，還能夠一起釣魚了。",
+            "textSimplified": "我非常期待暑期快些到来，就能够跟您一起去晨运，去听粤曲，还能够一起钓鱼了。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 96936,
+            "endMs": 104688,
+            "text": "祖父，我知道您也一定很想我，上次我教您用電腦打字，您學得怎麼樣了？",
+            "textSimplified": "祖父，我知道您也一定很想我，上次我教您用电脑打字，您学得怎么样了？"
+          },
+          {
+            "index": 17,
+            "paragraph": 10,
+            "startMs": 104688,
+            "endMs": 108504,
+            "text": "有時間記得給我發一封電子郵件哦。",
+            "textSimplified": "有时间记得给我发一封电子邮件哦。"
+          },
+          {
+            "index": 18,
+            "paragraph": 10,
+            "startMs": 108504,
+            "endMs": 110592,
+            "text": "祝身體健康",
+            "textSimplified": "祝身体健康"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 110592,
+            "endMs": 112680,
+            "text": "孫女",
+            "textSimplified": "孙女"
+          },
+          {
+            "index": 20,
+            "paragraph": 14,
+            "startMs": 112680,
+            "endMs": 114768,
+            "text": "樂文",
+            "textSimplified": "乐文"
+          },
+          {
+            "index": 21,
+            "paragraph": 16,
+            "startMs": 114768,
+            "endMs": 116856,
+            "text": "五月八日",
+            "textSimplified": "五月八日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter22/b04_ch22_p01_c.mp3",
+        "durationMs": 122376,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4752,
+            "text": "三上 ：給祖父的一封信（第六十八頁）",
+            "textSimplified": "三上 ：给祖父的一封信（第六十八页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4752,
+            "endMs": 7200,
+            "text": "親愛的祖父：",
+            "textSimplified": "亲爱的祖父："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7200,
+            "endMs": 9024,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 9024,
+            "endMs": 13152,
+            "text": "很久不見了，我非常想念您。",
+            "textSimplified": "很久不见了，我非常想念您。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 13152,
+            "endMs": 15816,
+            "text": "您現在身體好嗎？",
+            "textSimplified": "您现在身体好吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 15816,
+            "endMs": 19008,
+            "text": "還喜歡到岸邊釣魚嗎？",
+            "textSimplified": "还喜欢到岸边钓鱼吗？"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 19008,
+            "endMs": 24840,
+            "text": "我這學期已經升上三年級了，學業成績還不錯。",
+            "textSimplified": "我这学期已经升上三年级了，学业成绩还不错。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 24840,
+            "endMs": 31824,
+            "text": "眾多功課中，我最喜歡上音樂課，只有音樂課最讓我感到放鬆。",
+            "textSimplified": "众多功课中，我最喜欢上音乐课，只有音乐课最让我感到放松。"
+          },
+          {
+            "index": 8,
+            "paragraph": 6,
+            "startMs": 31824,
+            "endMs": 40512,
+            "text": "每個週末，我還會參加學校的音樂興趣班，我發現音樂可以令人更加快樂、自信。",
+            "textSimplified": "每个周末，我还会参加学校的音乐兴趣班，我发现音乐可以令人更加快乐、自信。"
+          },
+          {
+            "index": 9,
+            "paragraph": 6,
+            "startMs": 40512,
+            "endMs": 48984,
+            "text": "我很用功地學習長笛，雖然只能演奏幾支樂曲，但對我來說已經是很大的進步了。",
+            "textSimplified": "我很用功地学习长笛，虽然只能演奏几支乐曲，但对我来说已经是很大的进步了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 48984,
+            "endMs": 57864,
+            "text": "爸爸媽媽工作都很忙，他們以前還有時間監督我溫習，這學期他們提出讓我自覺溫習。",
+            "textSimplified": "爸爸妈妈工作都很忙，他们以前还有时间监督我温习，这学期他们提出让我自觉温习。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 57864,
+            "endMs": 69432,
+            "text": "我最初以為自覺就是自由，想溫書就溫書，想玩的時候就玩，我很喜歡偷懶，功課常常到了要睡覺的時候才做。",
+            "textSimplified": "我最初以为自觉就是自由，想温书就温书，想玩的时候就玩，我很喜欢偷懒，功课常常到了要睡觉的时候才做。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 69432,
+            "endMs": 78936,
+            "text": "後來爸爸跟我說學習是我自己的事情，偷懶只會令學業成績下降，以後再想努力追趕就遲了。",
+            "textSimplified": "后来爸爸跟我说学习是我自己的事情，偷懒只会令学业成绩下降，以后再想努力追赶就迟了。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 78936,
+            "endMs": 87408,
+            "text": "為了能夠做到「自覺」，我給自己編定了學習計劃，每天不完成功課就不能看卡通片。",
+            "textSimplified": "为了能够做到「自觉」，我给自己编定了学习计划，每天不完成功课就不能看卡通片。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 87408,
+            "endMs": 92376,
+            "text": "爸爸媽媽都說我長大了，有自律的能力了。",
+            "textSimplified": "爸爸妈妈都说我长大了，有自律的能力了。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 92376,
+            "endMs": 101064,
+            "text": "我非常期待暑期快些到來，就能夠跟您一起去晨運，去聽粵曲，還能夠一起釣魚了。",
+            "textSimplified": "我非常期待暑期快些到来，就能够跟您一起去晨运，去听粤曲，还能够一起钓鱼了。"
+          },
+          {
+            "index": 16,
+            "paragraph": 10,
+            "startMs": 101064,
+            "endMs": 109392,
+            "text": "祖父，我知道您也一定很想我，上次我教您用電腦打字，您學得怎麼樣了？",
+            "textSimplified": "祖父，我知道您也一定很想我，上次我教您用电脑打字，您学得怎么样了？"
+          },
+          {
+            "index": 17,
+            "paragraph": 10,
+            "startMs": 109392,
+            "endMs": 113640,
+            "text": "有時間記得給我發一封電子郵件哦。",
+            "textSimplified": "有时间记得给我发一封电子邮件哦。"
+          },
+          {
+            "index": 18,
+            "paragraph": 10,
+            "startMs": 113640,
+            "endMs": 116136,
+            "text": "祝身體健康",
+            "textSimplified": "祝身体健康"
+          },
+          {
+            "index": 19,
+            "paragraph": 12,
+            "startMs": 116136,
+            "endMs": 118224,
+            "text": "孫女",
+            "textSimplified": "孙女"
+          },
+          {
+            "index": 20,
+            "paragraph": 14,
+            "startMs": 118224,
+            "endMs": 120312,
+            "text": "樂文",
+            "textSimplified": "乐文"
+          },
+          {
+            "index": 21,
+            "paragraph": 16,
+            "startMs": 120312,
+            "endMs": 122376,
+            "text": "五月八日",
+            "textSimplified": "五月八日"
+          }
+        ]
+      }
+    }
+  ]
+}
