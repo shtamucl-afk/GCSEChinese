@@ -1,0 +1,858 @@
+{
+  "bookId": "04",
+  "chapterId": "23",
+  "chapterTitle": "給阿姨的一封信",
+  "chapterTitleSimplified": "给阿姨的一封信",
+  "passages": [
+    "三上 ：給阿姨的一封信（第七十頁）\n\n親愛的茜茜阿姨：\n\n你好！暑期過得怎麼樣？在澳洲旅遊有什麼好玩的事情嗎？有沒有見到可愛的樹熊？\n\n我這個暑期也去了旅行，媽媽帶我去了泰國。泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。\n\n我印象最深的就是去泰國的布吉島。當夕陽西下，我跟媽媽漫步在沙灘上，看着天邊紅紅的夕陽，真是浪漫極了。泰國的海水很清澈，沙子很細，我們在沙灘上堆城堡，捉螃蟹，玩得非常開心。我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。媽媽是個特別好學的人，她還利用短暫的時間學會幾道泰國菜，等你回來一定要到我們家嘗嘗她的手藝哦。\n\n時間過得太快了，我還沒有享受夠，旅行就結束了。因為媽媽要趕回來上班，我也還有暑期作業沒完成。旅行真快樂，讓我見識了外面的世界，接觸了大自然，身心都得到了放鬆。\n\n你是不是也有同感呢？一想到泰國烈日炎炎，你那裏卻是冰天雪地，我就覺得這個世界真是奇妙，真期待下個假期能夠跟你一起旅行。你何時回香港，記得打電話給我呀。\n\n祝旅途愉快\n\n外甥女\n\n欣文"
+  ],
+  "passagesSimplified": [
+    "三上 ：给阿姨的一封信（第七十页）\n\n亲爱的茜茜阿姨：\n\n你好！暑期过得怎么样？在澳洲旅游有什么好玩的事情吗？有没有见到可爱的树熊？\n\n我这个暑期也去了旅行，妈妈带我去了泰国。泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。\n\n我印象最深的就是去泰国的布吉岛。当夕阳西下，我跟妈妈漫步在沙滩上，看着天边红红的夕阳，真是浪漫极了。泰国的海水很清澈，沙子很细，我们在沙滩上堆城堡，捉螃蟹，玩得非常开心。我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。妈妈是个特别好学的人，她还利用短暂的时间学会几道泰国菜，等你回来一定要到我们家尝尝她的手艺哦。\n\n时间过得太快了，我还没有享受够，旅行就结束了。因为妈妈要赶回来上班，我也还有暑期作业没完成。旅行真快乐，让我见识了外面的世界，接触了大自然，身心都得到了放松。\n\n你是不是也有同感呢？一想到泰国烈日炎炎，你那里却是冰天雪地，我就觉得这个世界真是奇妙，真期待下个假期能够跟你一起旅行。你何时回香港，记得打电话给我呀。\n\n祝旅途愉快\n\n外甥女\n\n欣文"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch23_w001",
+      "traditional": "樹熊",
+      "simplified": "树熊",
+      "english": "koala",
+      "pinyin": "shù xióng",
+      "contextSentence": "有沒有見到可愛的樹熊？",
+      "contextSentenceSimplified": "有没有见到可爱的树熊？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w002",
+      "traditional": "泰國",
+      "simplified": "泰国",
+      "english": "Thailand",
+      "pinyin": "tài guó",
+      "contextSentence": "我這個暑期也去了旅行，媽媽帶我去了泰國。",
+      "contextSentenceSimplified": "我这个暑期也去了旅行，妈妈带我去了泰国。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w003",
+      "traditional": "金碧輝煌",
+      "simplified": "金碧辉煌",
+      "english": "magnificent and glittering",
+      "pinyin": "jīn bì huī huáng",
+      "contextSentence": "泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。",
+      "contextSentenceSimplified": "泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w004",
+      "traditional": "宏偉",
+      "simplified": "宏伟",
+      "english": "magnificent",
+      "pinyin": "hóng wěi",
+      "contextSentence": "泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。",
+      "contextSentenceSimplified": "泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w005",
+      "traditional": "佛教",
+      "simplified": "佛教",
+      "english": "Buddhist",
+      "pinyin": "fó jiào",
+      "contextSentence": "泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。",
+      "contextSentenceSimplified": "泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w006",
+      "traditional": "建築",
+      "simplified": "建筑",
+      "english": "architecture",
+      "pinyin": "jiàn zhù",
+      "contextSentence": "泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。",
+      "contextSentenceSimplified": "泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w007",
+      "traditional": "布吉島",
+      "simplified": "布吉岛",
+      "english": "Phuket",
+      "pinyin": "bù jí dǎo",
+      "contextSentence": "我印象最深的就是去泰國的布吉島。",
+      "contextSentenceSimplified": "我印象最深的就是去泰国的布吉岛。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w008",
+      "traditional": "夕陽",
+      "simplified": "夕阳",
+      "english": "sunset",
+      "pinyin": "xī yáng",
+      "contextSentence": "當夕陽西下，我跟媽媽漫步在沙灘上，看着天邊紅紅的夕陽，真是浪漫極了。",
+      "contextSentenceSimplified": "当夕阳西下，我跟妈妈漫步在沙滩上，看着天边红红的夕阳，真是浪漫极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w009",
+      "traditional": "漫步",
+      "simplified": "漫步",
+      "english": "stroll",
+      "pinyin": "màn bù",
+      "contextSentence": "當夕陽西下，我跟媽媽漫步在沙灘上，看着天邊紅紅的夕陽，真是浪漫極了。",
+      "contextSentenceSimplified": "当夕阳西下，我跟妈妈漫步在沙滩上，看着天边红红的夕阳，真是浪漫极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w010",
+      "traditional": "浪漫",
+      "simplified": "浪漫",
+      "english": "romantic",
+      "pinyin": "làng màn",
+      "contextSentence": "當夕陽西下，我跟媽媽漫步在沙灘上，看着天邊紅紅的夕陽，真是浪漫極了。",
+      "contextSentenceSimplified": "当夕阳西下，我跟妈妈漫步在沙滩上，看着天边红红的夕阳，真是浪漫极了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w011",
+      "traditional": "清澈",
+      "simplified": "清澈",
+      "english": "clear",
+      "pinyin": "qīng chè",
+      "contextSentence": "泰國的海水很清澈，沙子很細，我們在沙灘上堆城堡，捉螃蟹，玩得非常開心。",
+      "contextSentenceSimplified": "泰国的海水很清澈，沙子很细，我们在沙滩上堆城堡，捉螃蟹，玩得非常开心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w012",
+      "traditional": "堆城堡",
+      "simplified": "堆城堡",
+      "english": "build sandcastles",
+      "pinyin": "duī chéng bǎo",
+      "contextSentence": "泰國的海水很清澈，沙子很細，我們在沙灘上堆城堡，捉螃蟹，玩得非常開心。",
+      "contextSentenceSimplified": "泰国的海水很清澈，沙子很细，我们在沙滩上堆城堡，捉螃蟹，玩得非常开心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w013",
+      "traditional": "螃蟹",
+      "simplified": "螃蟹",
+      "english": "crab",
+      "pinyin": "páng xiè",
+      "contextSentence": "泰國的海水很清澈，沙子很細，我們在沙灘上堆城堡，捉螃蟹，玩得非常開心。",
+      "contextSentenceSimplified": "泰国的海水很清澈，沙子很细，我们在沙滩上堆城堡，捉螃蟹，玩得非常开心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w014",
+      "traditional": "乘坐",
+      "simplified": "乘坐",
+      "english": "take",
+      "pinyin": "chéng zuò",
+      "contextSentence": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+      "contextSentenceSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w015",
+      "traditional": "潛水",
+      "simplified": "潜水",
+      "english": "scuba diving",
+      "pinyin": "qián shuǐ",
+      "contextSentence": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+      "contextSentenceSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w016",
+      "traditional": "圍繞",
+      "simplified": "围绕",
+      "english": "surround",
+      "pinyin": "wéi rào",
+      "contextSentence": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+      "contextSentenceSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w017",
+      "traditional": "探尋",
+      "simplified": "探寻",
+      "english": "explore",
+      "pinyin": "tàn xún",
+      "contextSentence": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+      "contextSentenceSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w018",
+      "traditional": "神祕",
+      "simplified": "神秘",
+      "english": "mysterious",
+      "pinyin": "shén mì",
+      "contextSentence": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+      "contextSentenceSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w019",
+      "traditional": "好學",
+      "simplified": "好学",
+      "english": "eager to learn",
+      "pinyin": "hǎo xué",
+      "contextSentence": "媽媽是個特別好學的人，她還利用短暫的時間學會幾道泰國菜，等你回來一定要到我們家嘗嘗她的手藝哦。",
+      "contextSentenceSimplified": "妈妈是个特别好学的人，她还利用短暂的时间学会几道泰国菜，等你回来一定要到我们家尝尝她的手艺哦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w019_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w019_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w020",
+      "traditional": "短暫",
+      "simplified": "短暂",
+      "english": "short",
+      "pinyin": "duǎn zàn",
+      "contextSentence": "媽媽是個特別好學的人，她還利用短暫的時間學會幾道泰國菜，等你回來一定要到我們家嘗嘗她的手藝哦。",
+      "contextSentenceSimplified": "妈妈是个特别好学的人，她还利用短暂的时间学会几道泰国菜，等你回来一定要到我们家尝尝她的手艺哦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w020_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w020_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w021",
+      "traditional": "手藝",
+      "simplified": "手艺",
+      "english": "cooking skills",
+      "pinyin": "shǒu yì",
+      "contextSentence": "媽媽是個特別好學的人，她還利用短暫的時間學會幾道泰國菜，等你回來一定要到我們家嘗嘗她的手藝哦。",
+      "contextSentenceSimplified": "妈妈是个特别好学的人，她还利用短暂的时间学会几道泰国菜，等你回来一定要到我们家尝尝她的手艺哦。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w021_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w021_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w022",
+      "traditional": "烈日炎炎",
+      "simplified": "烈日炎炎",
+      "english": "scorching sun",
+      "pinyin": "liè rì yán yán",
+      "contextSentence": "一想到泰國烈日炎炎，你那裏卻是冰天雪地，我就覺得這個世界真是奇妙，真期待下個假期能夠跟你一起旅行。",
+      "contextSentenceSimplified": "一想到泰国烈日炎炎，你那里却是冰天雪地，我就觉得这个世界真是奇妙，真期待下个假期能够跟你一起旅行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w022_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w022_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w023",
+      "traditional": "何時",
+      "simplified": "何时",
+      "english": "when",
+      "pinyin": "hé shí",
+      "contextSentence": "你何時回香港，記得打電話給我呀。",
+      "contextSentenceSimplified": "你何时回香港，记得打电话给我呀。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w023_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w023_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w024",
+      "traditional": "旅途愉快",
+      "simplified": "旅途愉快",
+      "english": "have a pleasant trip",
+      "pinyin": "lǚ tú yú kuài",
+      "contextSentence": "祝旅途愉快\n\n外甥女\n\n欣文",
+      "contextSentenceSimplified": "祝旅途愉快\n\n外甥女\n\n欣文",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w024_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w024_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w024_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch23_w025",
+      "traditional": "外甥女",
+      "simplified": "外甥女",
+      "english": "niece",
+      "pinyin": "wài shēng nǚ",
+      "contextSentence": "祝旅途愉快\n\n外甥女\n\n欣文",
+      "contextSentenceSimplified": "祝旅途愉快\n\n外甥女\n\n欣文",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w025_m_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w025_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter23/b04_ch23_w025_c_isolated.mp3",
+          "sentence": "audio/book04/chapter23/b04_ch23_w025_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter23/b04_ch23_p01_m.mp3",
+        "durationMs": 122328,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4056,
+            "text": "三上 ：給阿姨的一封信（第七十頁）",
+            "textSimplified": "三上 ：给阿姨的一封信（第七十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4056,
+            "endMs": 6360,
+            "text": "親愛的茜茜阿姨：",
+            "textSimplified": "亲爱的茜茜阿姨："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 6360,
+            "endMs": 8232,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 8232,
+            "endMs": 10584,
+            "text": "暑期過得怎麼樣？",
+            "textSimplified": "暑期过得怎么样？"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 10584,
+            "endMs": 14208,
+            "text": "在澳洲旅遊有什麼好玩的事情嗎？",
+            "textSimplified": "在澳洲旅游有什么好玩的事情吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 14208,
+            "endMs": 17328,
+            "text": "有沒有見到可愛的樹熊？",
+            "textSimplified": "有没有见到可爱的树熊？"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 17328,
+            "endMs": 22080,
+            "text": "我這個暑期也去了旅行，媽媽帶我去了泰國。",
+            "textSimplified": "我这个暑期也去了旅行，妈妈带我去了泰国。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 22080,
+            "endMs": 32376,
+            "text": "泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。",
+            "textSimplified": "泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 32376,
+            "endMs": 36432,
+            "text": "我印象最深的就是去泰國的布吉島。",
+            "textSimplified": "我印象最深的就是去泰国的布吉岛。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 36432,
+            "endMs": 44256,
+            "text": "當夕陽西下，我跟媽媽漫步在沙灘上，看着天邊紅紅的夕陽，真是浪漫極了。",
+            "textSimplified": "当夕阳西下，我跟妈妈漫步在沙滩上，看着天边红红的夕阳，真是浪漫极了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 44256,
+            "endMs": 52992,
+            "text": "泰國的海水很清澈，沙子很細，我們在沙灘上堆城堡，捉螃蟹，玩得非常開心。",
+            "textSimplified": "泰国的海水很清澈，沙子很细，我们在沙滩上堆城堡，捉螃蟹，玩得非常开心。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 52992,
+            "endMs": 69768,
+            "text": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+            "textSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 69768,
+            "endMs": 79896,
+            "text": "媽媽是個特別好學的人，她還利用短暫的時間學會幾道泰國菜，等你回來一定要到我們家嘗嘗她的手藝哦。",
+            "textSimplified": "妈妈是个特别好学的人，她还利用短暂的时间学会几道泰国菜，等你回来一定要到我们家尝尝她的手艺哦。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 79896,
+            "endMs": 85392,
+            "text": "時間過得太快了，我還沒有享受夠，旅行就結束了。",
+            "textSimplified": "时间过得太快了，我还没有享受够，旅行就结束了。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 85392,
+            "endMs": 90816,
+            "text": "因為媽媽要趕回來上班，我也還有暑期作業沒完成。",
+            "textSimplified": "因为妈妈要赶回来上班，我也还有暑期作业没完成。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 90816,
+            "endMs": 98496,
+            "text": "旅行真快樂，讓我見識了外面的世界，接觸了大自然，身心都得到了放鬆。",
+            "textSimplified": "旅行真快乐，让我见识了外面的世界，接触了大自然，身心都得到了放松。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 98496,
+            "endMs": 101064,
+            "text": "你是不是也有同感呢？",
+            "textSimplified": "你是不是也有同感呢？"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 101064,
+            "endMs": 112728,
+            "text": "一想到泰國烈日炎炎，你那裏卻是冰天雪地，我就覺得這個世界真是奇妙，真期待下個假期能夠跟你一起旅行。",
+            "textSimplified": "一想到泰国烈日炎炎，你那里却是冰天雪地，我就觉得这个世界真是奇妙，真期待下个假期能够跟你一起旅行。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 112728,
+            "endMs": 116640,
+            "text": "你何時回香港，記得打電話給我呀。",
+            "textSimplified": "你何时回香港，记得打电话给我呀。"
+          },
+          {
+            "index": 19,
+            "paragraph": 14,
+            "startMs": 116640,
+            "endMs": 118584,
+            "text": "祝旅途愉快",
+            "textSimplified": "祝旅途愉快"
+          },
+          {
+            "index": 20,
+            "paragraph": 16,
+            "startMs": 118584,
+            "endMs": 120456,
+            "text": "外甥女",
+            "textSimplified": "外甥女"
+          },
+          {
+            "index": 21,
+            "paragraph": 18,
+            "startMs": 120456,
+            "endMs": 122328,
+            "text": "欣文",
+            "textSimplified": "欣文"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter23/b04_ch23_p01_c.mp3",
+        "durationMs": 128808,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4512,
+            "text": "三上 ：給阿姨的一封信（第七十頁）",
+            "textSimplified": "三上 ：给阿姨的一封信（第七十页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4512,
+            "endMs": 7320,
+            "text": "親愛的茜茜阿姨：",
+            "textSimplified": "亲爱的茜茜阿姨："
+          },
+          {
+            "index": 2,
+            "paragraph": 4,
+            "startMs": 7320,
+            "endMs": 9192,
+            "text": "你好！",
+            "textSimplified": "你好！"
+          },
+          {
+            "index": 3,
+            "paragraph": 4,
+            "startMs": 9192,
+            "endMs": 12072,
+            "text": "暑期過得怎麼樣？",
+            "textSimplified": "暑期过得怎么样？"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 12072,
+            "endMs": 16032,
+            "text": "在澳洲旅遊有什麼好玩的事情嗎？",
+            "textSimplified": "在澳洲旅游有什么好玩的事情吗？"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 16032,
+            "endMs": 19392,
+            "text": "有沒有見到可愛的樹熊？",
+            "textSimplified": "有没有见到可爱的树熊？"
+          },
+          {
+            "index": 6,
+            "paragraph": 6,
+            "startMs": 19392,
+            "endMs": 24600,
+            "text": "我這個暑期也去了旅行，媽媽帶我去了泰國。",
+            "textSimplified": "我这个暑期也去了旅行，妈妈带我去了泰国。"
+          },
+          {
+            "index": 7,
+            "paragraph": 6,
+            "startMs": 24600,
+            "endMs": 34560,
+            "text": "泰國是一個很好玩的地方，有美麗的沙灘，特色的美食，還有很多金碧輝煌、宏偉高大的佛教建築。",
+            "textSimplified": "泰国是一个很好玩的地方，有美丽的沙滩，特色的美食，还有很多金碧辉煌、宏伟高大的佛教建筑。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 34560,
+            "endMs": 38904,
+            "text": "我印象最深的就是去泰國的布吉島。",
+            "textSimplified": "我印象最深的就是去泰国的布吉岛。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 38904,
+            "endMs": 47448,
+            "text": "當夕陽西下，我跟媽媽漫步在沙灘上，看着天邊紅紅的夕陽，真是浪漫極了。",
+            "textSimplified": "当夕阳西下，我跟妈妈漫步在沙滩上，看着天边红红的夕阳，真是浪漫极了。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 47448,
+            "endMs": 56424,
+            "text": "泰國的海水很清澈，沙子很細，我們在沙灘上堆城堡，捉螃蟹，玩得非常開心。",
+            "textSimplified": "泰国的海水很清澈，沙子很细，我们在沙滩上堆城堡，捉螃蟹，玩得非常开心。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 56424,
+            "endMs": 72504,
+            "text": "我們還乘坐輪船去海上遊玩，媽媽潛水時拍了很多海底的照片，真是太美麗了，成羣的魚圍繞在她的身邊，等我長大了也一定要學習潛水，去探尋神祕的海底世界。",
+            "textSimplified": "我们还乘坐轮船去海上游玩，妈妈潜水时拍了很多海底的照片，真是太美丽了，成群的鱼围绕在她的身边，等我长大了也一定要学习潜水，去探寻神秘的海底世界。"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 72504,
+            "endMs": 83040,
+            "text": "媽媽是個特別好學的人，她還利用短暫的時間學會幾道泰國菜，等你回來一定要到我們家嘗嘗她的手藝哦。",
+            "textSimplified": "妈妈是个特别好学的人，她还利用短暂的时间学会几道泰国菜，等你回来一定要到我们家尝尝她的手艺哦。"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 83040,
+            "endMs": 89328,
+            "text": "時間過得太快了，我還沒有享受夠，旅行就結束了。",
+            "textSimplified": "时间过得太快了，我还没有享受够，旅行就结束了。"
+          },
+          {
+            "index": 14,
+            "paragraph": 10,
+            "startMs": 89328,
+            "endMs": 95424,
+            "text": "因為媽媽要趕回來上班，我也還有暑期作業沒完成。",
+            "textSimplified": "因为妈妈要赶回来上班，我也还有暑期作业没完成。"
+          },
+          {
+            "index": 15,
+            "paragraph": 10,
+            "startMs": 95424,
+            "endMs": 103440,
+            "text": "旅行真快樂，讓我見識了外面的世界，接觸了大自然，身心都得到了放鬆。",
+            "textSimplified": "旅行真快乐，让我见识了外面的世界，接触了大自然，身心都得到了放松。"
+          },
+          {
+            "index": 16,
+            "paragraph": 12,
+            "startMs": 103440,
+            "endMs": 106464,
+            "text": "你是不是也有同感呢？",
+            "textSimplified": "你是不是也有同感呢？"
+          },
+          {
+            "index": 17,
+            "paragraph": 12,
+            "startMs": 106464,
+            "endMs": 117720,
+            "text": "一想到泰國烈日炎炎，你那裏卻是冰天雪地，我就覺得這個世界真是奇妙，真期待下個假期能夠跟你一起旅行。",
+            "textSimplified": "一想到泰国烈日炎炎，你那里却是冰天雪地，我就觉得这个世界真是奇妙，真期待下个假期能够跟你一起旅行。"
+          },
+          {
+            "index": 18,
+            "paragraph": 12,
+            "startMs": 117720,
+            "endMs": 122448,
+            "text": "你何時回香港，記得打電話給我呀。",
+            "textSimplified": "你何时回香港，记得打电话给我呀。"
+          },
+          {
+            "index": 19,
+            "paragraph": 14,
+            "startMs": 122448,
+            "endMs": 124872,
+            "text": "祝旅途愉快",
+            "textSimplified": "祝旅途愉快"
+          },
+          {
+            "index": 20,
+            "paragraph": 16,
+            "startMs": 124872,
+            "endMs": 126936,
+            "text": "外甥女",
+            "textSimplified": "外甥女"
+          },
+          {
+            "index": 21,
+            "paragraph": 18,
+            "startMs": 126936,
+            "endMs": 128808,
+            "text": "欣文",
+            "textSimplified": "欣文"
+          }
+        ]
+      }
+    }
+  ]
+}
