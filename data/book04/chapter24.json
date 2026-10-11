@@ -1,0 +1,585 @@
+{
+  "bookId": "04",
+  "chapterId": "24",
+  "chapterTitle": "給表姐的一封信",
+  "chapterTitleSimplified": "给表姐的一封信",
+  "passages": [
+    "三上 ：給表姐的一封信（第七十二頁）\n\n親愛的表姐：\n你好，聽說你寒假會來香港玩，我高興得幾乎要跳起來。\n\n你說最想去的是迪士尼樂園，我一定會幫你實現這個願望。\n\n迪士尼樂園是個特別夢幻的地方，我也是超級喜歡，那裏不但可以親眼看到灰姑娘、白雪公主，還能跟她們一起跳舞、玩遊戲、參加花車大遊行。你記得我們一起去戲院看〈反斗奇兵〉嗎？裏面的人物在迪士尼樂園裏都可以看到，到時你可以盡情與他們合照了！\n你問我香港有什麼好吃的，我要告訴你香港可是一個美食之城。香港的小食很多，不過我最喜歡的就是牛肉丸，可以說是百吃不厭。牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。還有雲吞麪、燒鴨飯、各國特色小食等等，到時候，我一定帶你去吃個飽。聽我介紹了這麼多，你一定按捺不住了吧？\n\n我還要告訴你一個好消息，我在最近學校舉辦的音樂比賽中獲得了小提琴演奏一等獎，你也為我感到高興吧？好了，就說到這裏吧。\n\n祝你天天開心\n\n表妹\n\n羽桐\n\n八月十三日"
+  ],
+  "passagesSimplified": [
+    "三上 ：给表姐的一封信（第七十二页）\n\n亲爱的表姐：\n你好，听说你寒假会来香港玩，我高兴得几乎要跳起来。\n\n你说最想去的是迪士尼乐园，我一定会帮你实现这个愿望。\n\n迪士尼乐园是个特别梦幻的地方，我也是超级喜欢，那里不但可以亲眼看到灰姑娘、白雪公主，还能跟她们一起跳舞、玩游戏、参加花车大游行。你记得我们一起去戏院看〈反斗奇兵〉吗？里面的人物在迪士尼乐园里都可以看到，到时你可以尽情与他们合照了！\n你问我香港有什么好吃的，我要告诉你香港可是一个美食之城。香港的小食很多，不过我最喜欢的就是牛肉丸，可以说是百吃不厌。牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。还有云吞面、烧鸭饭、各国特色小食等等，到时候，我一定带你去吃个饱。听我介绍了这么多，你一定按捺不住了吧？\n\n我还要告诉你一个好消息，我在最近学校举办的音乐比赛中获得了小提琴演奏一等奖，你也为我感到高兴吧？好了，就说到这里吧。\n\n祝你天天开心\n\n表妹\n\n羽桐\n\n八月十三日"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch24_w001",
+      "traditional": "夢幻",
+      "simplified": "梦幻",
+      "english": "magical",
+      "pinyin": "mèng huàn",
+      "contextSentence": "迪士尼樂園是個特別夢幻的地方，我也是超級喜歡，那裏不但可以親眼看到灰姑娘、白雪公主，還能跟她們一起跳舞、玩遊戲、參加花車大遊行。",
+      "contextSentenceSimplified": "迪士尼乐园是个特别梦幻的地方，我也是超级喜欢，那里不但可以亲眼看到灰姑娘、白雪公主，还能跟她们一起跳舞、玩游戏、参加花车大游行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w002",
+      "traditional": "超級",
+      "simplified": "超级",
+      "english": "super",
+      "pinyin": "chāo jí",
+      "contextSentence": "迪士尼樂園是個特別夢幻的地方，我也是超級喜歡，那裏不但可以親眼看到灰姑娘、白雪公主，還能跟她們一起跳舞、玩遊戲、參加花車大遊行。",
+      "contextSentenceSimplified": "迪士尼乐园是个特别梦幻的地方，我也是超级喜欢，那里不但可以亲眼看到灰姑娘、白雪公主，还能跟她们一起跳舞、玩游戏、参加花车大游行。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w003",
+      "traditional": "反斗奇兵",
+      "simplified": "反斗奇兵",
+      "english": "Toy Story",
+      "pinyin": "fǎn dòu qí bīng",
+      "contextSentence": "你記得我們一起去戲院看〈反斗奇兵〉嗎？",
+      "contextSentenceSimplified": "你记得我们一起去戏院看〈反斗奇兵〉吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w004",
+      "traditional": "合照",
+      "simplified": "合照",
+      "english": "take a photo together",
+      "pinyin": "hé zhào",
+      "contextSentence": "裏面的人物在迪士尼樂園裏都可以看到，到時你可以盡情與他們合照了！",
+      "contextSentenceSimplified": "里面的人物在迪士尼乐园里都可以看到，到时你可以尽情与他们合照了！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w005",
+      "traditional": "美食之城",
+      "simplified": "美食之城",
+      "english": "food paradise",
+      "pinyin": "měi shí zhī chéng",
+      "contextSentence": "你問我香港有什麼好吃的，我要告訴你香港可是一個美食之城。",
+      "contextSentenceSimplified": "你问我香港有什么好吃的，我要告诉你香港可是一个美食之城。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w006",
+      "traditional": "百吃不厭",
+      "simplified": "百吃不厌",
+      "english": "never get tired of eating it",
+      "pinyin": "bǎi chī bù yàn",
+      "contextSentence": "香港的小食很多，不過我最喜歡的就是牛肉丸，可以說是百吃不厭。",
+      "contextSentenceSimplified": "香港的小食很多，不过我最喜欢的就是牛肉丸，可以说是百吃不厌。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w007",
+      "traditional": "荔枝",
+      "simplified": "荔枝",
+      "english": "lychee",
+      "pinyin": "lì zhī",
+      "contextSentence": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+      "contextSentenceSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w008",
+      "traditional": "香氣四溢",
+      "simplified": "香气四溢",
+      "english": "aroma fills the air",
+      "pinyin": "xiāng qì sì yì",
+      "contextSentence": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+      "contextSentenceSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w009",
+      "traditional": "不亞於",
+      "simplified": "不亚于",
+      "english": "as good as",
+      "pinyin": "bù yà yú",
+      "contextSentence": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+      "contextSentenceSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w010",
+      "traditional": "杭州",
+      "simplified": "杭州",
+      "english": "Hangzhou",
+      "pinyin": "háng zhōu",
+      "contextSentence": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+      "contextSentenceSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w011",
+      "traditional": "念念不忘",
+      "simplified": "念念不忘",
+      "english": "keep thinking about it",
+      "pinyin": "niàn niàn bù wàng",
+      "contextSentence": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+      "contextSentenceSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w012",
+      "traditional": "按捺不住",
+      "simplified": "按捺不住",
+      "english": "can't wait",
+      "pinyin": "àn nà bù zhù",
+      "contextSentence": "聽我介紹了這麼多，你一定按捺不住了吧？",
+      "contextSentenceSimplified": "听我介绍了这么多，你一定按捺不住了吧？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w013",
+      "traditional": "演奏",
+      "simplified": "演奏",
+      "english": "performance",
+      "pinyin": "yǎn zòu",
+      "contextSentence": "我還要告訴你一個好消息，我在最近學校舉辦的音樂比賽中獲得了小提琴演奏一等獎，你也為我感到高興吧？",
+      "contextSentenceSimplified": "我还要告诉你一个好消息，我在最近学校举办的音乐比赛中获得了小提琴演奏一等奖，你也为我感到高兴吧？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch24_w014",
+      "traditional": "一等獎",
+      "simplified": "一等奖",
+      "english": "first prize",
+      "pinyin": "yī děng jiǎng",
+      "contextSentence": "我還要告訴你一個好消息，我在最近學校舉辦的音樂比賽中獲得了小提琴演奏一等獎，你也為我感到高興吧？",
+      "contextSentenceSimplified": "我还要告诉你一个好消息，我在最近学校举办的音乐比赛中获得了小提琴演奏一等奖，你也为我感到高兴吧？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter24/b04_ch24_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter24/b04_ch24_w014_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter24/b04_ch24_p01_m.mp3",
+        "durationMs": 102480,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4272,
+            "text": "三上 ：給表姐的一封信（第七十二頁）",
+            "textSimplified": "三上 ：给表姐的一封信（第七十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4272,
+            "endMs": 6192,
+            "text": "親愛的表姐：",
+            "textSimplified": "亲爱的表姐："
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 6192,
+            "endMs": 12024,
+            "text": "你好，聽說你寒假會來香港玩，我高興得幾乎要跳起來。",
+            "textSimplified": "你好，听说你寒假会来香港玩，我高兴得几乎要跳起来。"
+          },
+          {
+            "index": 3,
+            "paragraph": 5,
+            "startMs": 12024,
+            "endMs": 18072,
+            "text": "你說最想去的是迪士尼樂園，我一定會幫你實現這個願望。",
+            "textSimplified": "你说最想去的是迪士尼乐园，我一定会帮你实现这个愿望。"
+          },
+          {
+            "index": 4,
+            "paragraph": 7,
+            "startMs": 18072,
+            "endMs": 32496,
+            "text": "迪士尼樂園是個特別夢幻的地方，我也是超級喜歡，那裏不但可以親眼看到灰姑娘、白雪公主，還能跟她們一起跳舞、玩遊戲、參加花車大遊行。",
+            "textSimplified": "迪士尼乐园是个特别梦幻的地方，我也是超级喜欢，那里不但可以亲眼看到灰姑娘、白雪公主，还能跟她们一起跳舞、玩游戏、参加花车大游行。"
+          },
+          {
+            "index": 5,
+            "paragraph": 7,
+            "startMs": 32496,
+            "endMs": 36936,
+            "text": "你記得我們一起去戲院看〈反斗奇兵〉嗎？",
+            "textSimplified": "你记得我们一起去戏院看〈反斗奇兵〉吗？"
+          },
+          {
+            "index": 6,
+            "paragraph": 7,
+            "startMs": 36936,
+            "endMs": 44232,
+            "text": "裏面的人物在迪士尼樂園裏都可以看到，到時你可以盡情與他們合照了！",
+            "textSimplified": "里面的人物在迪士尼乐园里都可以看到，到时你可以尽情与他们合照了！"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 44232,
+            "endMs": 50592,
+            "text": "你問我香港有什麼好吃的，我要告訴你香港可是一個美食之城。",
+            "textSimplified": "你问我香港有什么好吃的，我要告诉你香港可是一个美食之城。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 50592,
+            "endMs": 57408,
+            "text": "香港的小食很多，不過我最喜歡的就是牛肉丸，可以說是百吃不厭。",
+            "textSimplified": "香港的小食很多，不过我最喜欢的就是牛肉丸，可以说是百吃不厌。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 57408,
+            "endMs": 69456,
+            "text": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+            "textSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 69456,
+            "endMs": 77592,
+            "text": "還有雲吞麪、燒鴨飯、各國特色小食等等，到時候，我一定帶你去吃個飽。",
+            "textSimplified": "还有云吞面、烧鸭饭、各国特色小食等等，到时候，我一定带你去吃个饱。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 77592,
+            "endMs": 81744,
+            "text": "聽我介紹了這麼多，你一定按捺不住了吧？",
+            "textSimplified": "听我介绍了这么多，你一定按捺不住了吧？"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 81744,
+            "endMs": 91944,
+            "text": "我還要告訴你一個好消息，我在最近學校舉辦的音樂比賽中獲得了小提琴演奏一等獎，你也為我感到高興吧？",
+            "textSimplified": "我还要告诉你一个好消息，我在最近学校举办的音乐比赛中获得了小提琴演奏一等奖，你也为我感到高兴吧？"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 91944,
+            "endMs": 94656,
+            "text": "好了，就說到這裏吧。",
+            "textSimplified": "好了，就说到这里吧。"
+          },
+          {
+            "index": 14,
+            "paragraph": 12,
+            "startMs": 94656,
+            "endMs": 96792,
+            "text": "祝你天天開心",
+            "textSimplified": "祝你天天开心"
+          },
+          {
+            "index": 15,
+            "paragraph": 14,
+            "startMs": 96792,
+            "endMs": 98664,
+            "text": "表妹",
+            "textSimplified": "表妹"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 98664,
+            "endMs": 100536,
+            "text": "羽桐",
+            "textSimplified": "羽桐"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 100536,
+            "endMs": 102480,
+            "text": "八月十三日",
+            "textSimplified": "八月十三日"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter24/b04_ch24_p01_c.mp3",
+        "durationMs": 110088,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4656,
+            "text": "三上 ：給表姐的一封信（第七十二頁）",
+            "textSimplified": "三上 ：给表姐的一封信（第七十二页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4656,
+            "endMs": 7032,
+            "text": "親愛的表姐：",
+            "textSimplified": "亲爱的表姐："
+          },
+          {
+            "index": 2,
+            "paragraph": 3,
+            "startMs": 7032,
+            "endMs": 13608,
+            "text": "你好，聽說你寒假會來香港玩，我高興得幾乎要跳起來。",
+            "textSimplified": "你好，听说你寒假会来香港玩，我高兴得几乎要跳起来。"
+          },
+          {
+            "index": 3,
+            "paragraph": 5,
+            "startMs": 13608,
+            "endMs": 20088,
+            "text": "你說最想去的是迪士尼樂園，我一定會幫你實現這個願望。",
+            "textSimplified": "你说最想去的是迪士尼乐园，我一定会帮你实现这个愿望。"
+          },
+          {
+            "index": 4,
+            "paragraph": 7,
+            "startMs": 20088,
+            "endMs": 34776,
+            "text": "迪士尼樂園是個特別夢幻的地方，我也是超級喜歡，那裏不但可以親眼看到灰姑娘、白雪公主，還能跟她們一起跳舞、玩遊戲、參加花車大遊行。",
+            "textSimplified": "迪士尼乐园是个特别梦幻的地方，我也是超级喜欢，那里不但可以亲眼看到灰姑娘、白雪公主，还能跟她们一起跳舞、玩游戏、参加花车大游行。"
+          },
+          {
+            "index": 5,
+            "paragraph": 7,
+            "startMs": 34776,
+            "endMs": 40104,
+            "text": "你記得我們一起去戲院看〈反斗奇兵〉嗎？",
+            "textSimplified": "你记得我们一起去戏院看〈反斗奇兵〉吗？"
+          },
+          {
+            "index": 6,
+            "paragraph": 7,
+            "startMs": 40104,
+            "endMs": 47712,
+            "text": "裏面的人物在迪士尼樂園裏都可以看到，到時你可以盡情與他們合照了！",
+            "textSimplified": "里面的人物在迪士尼乐园里都可以看到，到时你可以尽情与他们合照了！"
+          },
+          {
+            "index": 7,
+            "paragraph": 8,
+            "startMs": 47712,
+            "endMs": 54264,
+            "text": "你問我香港有什麼好吃的，我要告訴你香港可是一個美食之城。",
+            "textSimplified": "你问我香港有什么好吃的，我要告诉你香港可是一个美食之城。"
+          },
+          {
+            "index": 8,
+            "paragraph": 8,
+            "startMs": 54264,
+            "endMs": 61632,
+            "text": "香港的小食很多，不過我最喜歡的就是牛肉丸，可以說是百吃不厭。",
+            "textSimplified": "香港的小食很多，不过我最喜欢的就是牛肉丸，可以说是百吃不厌。"
+          },
+          {
+            "index": 9,
+            "paragraph": 8,
+            "startMs": 61632,
+            "endMs": 73416,
+            "text": "牛肉丸就好像荔枝那麼大，咬一口香氣四溢，鮮美的味道一點也不亞於你們的杭州小籠包呢，保證你吃一次就會念念不忘。",
+            "textSimplified": "牛肉丸就好像荔枝那么大，咬一口香气四溢，鲜美的味道一点也不亚于你们的杭州小笼包呢，保证你吃一次就会念念不忘。"
+          },
+          {
+            "index": 10,
+            "paragraph": 8,
+            "startMs": 73416,
+            "endMs": 81792,
+            "text": "還有雲吞麪、燒鴨飯、各國特色小食等等，到時候，我一定帶你去吃個飽。",
+            "textSimplified": "还有云吞面、烧鸭饭、各国特色小食等等，到时候，我一定带你去吃个饱。"
+          },
+          {
+            "index": 11,
+            "paragraph": 8,
+            "startMs": 81792,
+            "endMs": 86832,
+            "text": "聽我介紹了這麼多，你一定按捺不住了吧？",
+            "textSimplified": "听我介绍了这么多，你一定按捺不住了吧？"
+          },
+          {
+            "index": 12,
+            "paragraph": 10,
+            "startMs": 86832,
+            "endMs": 97776,
+            "text": "我還要告訴你一個好消息，我在最近學校舉辦的音樂比賽中獲得了小提琴演奏一等獎，你也為我感到高興吧？",
+            "textSimplified": "我还要告诉你一个好消息，我在最近学校举办的音乐比赛中获得了小提琴演奏一等奖，你也为我感到高兴吧？"
+          },
+          {
+            "index": 13,
+            "paragraph": 10,
+            "startMs": 97776,
+            "endMs": 101304,
+            "text": "好了，就說到這裏吧。",
+            "textSimplified": "好了，就说到这里吧。"
+          },
+          {
+            "index": 14,
+            "paragraph": 12,
+            "startMs": 101304,
+            "endMs": 104064,
+            "text": "祝你天天開心",
+            "textSimplified": "祝你天天开心"
+          },
+          {
+            "index": 15,
+            "paragraph": 14,
+            "startMs": 104064,
+            "endMs": 105936,
+            "text": "表妹",
+            "textSimplified": "表妹"
+          },
+          {
+            "index": 16,
+            "paragraph": 16,
+            "startMs": 105936,
+            "endMs": 107808,
+            "text": "羽桐",
+            "textSimplified": "羽桐"
+          },
+          {
+            "index": 17,
+            "paragraph": 18,
+            "startMs": 107808,
+            "endMs": 110088,
+            "text": "八月十三日",
+            "textSimplified": "八月十三日"
+          }
+        ]
+      }
+    }
+  ]
+}
