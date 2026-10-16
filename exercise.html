@@ -438,6 +438,7 @@
       L3:  { emoji: '🟢', label: 'L3 Usage' },
       L4:  { emoji: '🔵', label: 'L4 Write' },
       L4R: { emoji: '🔄', label: 'L4 Review' },
+      L5:  { emoji: '✅', label: 'L5 Confident' },
     };
 
     const LEVEL_SOURCE = {
@@ -446,6 +447,7 @@
       L3:  'L2',
       L4:  'L3',
       L4R: 'L4',
+      L5:  'L5',
     };
 
     const LEVEL_TEXT = {
@@ -469,6 +471,10 @@
         instruction: 'Listen and fill in the missing word. Test that you still remember it fully.',
         goal: 'Confirm you can still recognise, read, understand, and write this word from memory',
       },
+      L5: {
+        instruction: 'Listen and fill in the missing word. Test that you still remember it fully.',
+        goal: 'Confirm this is a word you are confident about and do not need to practise',
+      },
     };
 
     // ------------------------------------------------------------------
@@ -485,7 +491,7 @@
     if (!student) window.location.href = 'index.html';
     if (!level || !chapterScope || !bookId) window.location.href = buildBackToDashboardUrl();
 
-    const VALID_LEVELS = ['L1', 'L2', 'L3', 'L4', 'L4R'];
+    const VALID_LEVELS = ['L1', 'L2', 'L3', 'L4', 'L4R', 'L5'];
     if (!VALID_LEVELS.includes(level)) window.location.href = buildBackToDashboardUrl();
 
     document.getElementById('back-link').href = buildBackToDashboardUrl();
@@ -667,6 +673,9 @@
       return 'Current vocabulary is from "Chapter ' + chId + (chTitle ? ': ' + chTitle : '') + '"';
     }
     function getSessionCounterText() {
+      if (level === 'L5') {
+        return 'Session: ' + sessionMastered.size + ' still confident';
+      }
       if (level === 'L4R') {
         return 'Session: ' + sessionMastered.size + ' confirmed full understanding';
       }
@@ -727,6 +736,8 @@
       else if (level === 'L3') inner = renderConcealedL3();
       else if (level === 'L4') inner = renderConcealedL4();
       else if (level === 'L4R') inner = renderConcealedL4R();
+      else if (level === 'L5') inner = renderConcealedL5();
+      else inner = '<div class="empty-message"><p>Unknown exercise level: ' + escapeHtml(level) + '</p></div>';
 
       const html = '<div class="card exercise-body">' + inner + '</div>';
       document.getElementById('app-container').innerHTML = renderSessionHeader() + html;
@@ -790,6 +801,9 @@
       );
     }
     function renderConcealedL4R() {
+      return renderConcealedL3();
+    }
+    function renderConcealedL5() {
       return renderConcealedL3();
     }
 
@@ -868,7 +882,10 @@
         html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L4 Write</button>';
         html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L2 Listen</button>';
       } else if (level === 'L4R') {
+        html += '<button id="promote-btn" class="progression-btn mastered">\u2713 Promote to L5 Confident</button>';
         html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L3 Usage</button>';
+      } else if (level === 'L5') {
+        html += '<button id="drop-btn" class="progression-btn demote">\u2193 Drop to L4</button>';
       }
       html += '</div>';
       return html;
@@ -879,7 +896,7 @@
       if (level === 'L2') return 'L2';
       if (level === 'L3') return 'L3';
       if (level === 'L4') return 'L4';
-      if (level === 'L4R') return null;
+      if (level === 'L4R') return 'L5';
       return null;
     }
     function progressionTargetOnDrop() {
@@ -887,6 +904,7 @@
       if (level === 'L3') return 'L1';
       if (level === 'L4') return 'L2';
       if (level === 'L4R') return 'L3';
+      if (level === 'L5') return 'L4';
       return null;
     }
 
@@ -941,7 +959,7 @@
         nextBtn.addEventListener('click', () => {
           if (currentWordEntry) {
             const wordId = currentWordEntry.word.id;
-            if (level === 'L4R') {
+            if (level === 'L4R' || level === 'L5') {
               if (!sessionSeen.has(wordId)) sessionMastered.add(wordId);
             } else {
               if (!sessionMastered.has(wordId)) sessionSeen.add(wordId);
@@ -1039,13 +1057,15 @@
     }
     function renderEndOfSession() {
       if (sessionEnded === 'all') {
-        const isReview = (level === 'L4R');
-        const msg = isReview
-          ? '\ud83c\udf89 You confirmed full understanding on all words!'
-          : '\ud83c\udf89 You\'ve promoted all words to the next level! Great job.';
-        const counter = isReview
-          ? 'Session: ' + sessionMastered.size + ' confirmed full understanding'
-          : 'Session: ' + sessionMastered.size + ' promoted';
+        let msg;
+        if (level === 'L5') {
+          msg = '\ud83c\udf89 You are still confident about every word in this list.';
+        } else if (level === 'L4R') {
+          msg = '\ud83c\udf89 You confirmed full understanding on all words!';
+        } else {
+          msg = '\ud83c\udf89 You\'ve promoted all words to the next level! Great job.';
+        }
+        const counter = getSessionCounterText();
         const inner =
           '<div class="empty-message">' +
             '<p>' + msg + '</p>' +
@@ -1056,13 +1076,19 @@
           '</div>';
         document.getElementById('app-container').innerHTML = renderSessionHeader() + '<div class="card exercise-body">' + inner + '</div>';
       } else if (sessionEnded === 'mixed') {
-        const isReview = (level === 'L4R');
-        const doneLabel = isReview ? 'confirmed' : 'promoted';
+        let summary;
+        if (level === 'L5') {
+          summary = 'You still feel confident about <strong>' + sessionMastered.size + '</strong> word(s). ' +
+                    '<strong>' + sessionSeen.size + '</strong> word(s) not marked.';
+        } else {
+          const doneLabel = (level === 'L4R') ? 'confirmed' : 'promoted';
+          summary = 'You ' + doneLabel + ' <strong>' + sessionMastered.size + '</strong> word(s). ' +
+                    '<strong>' + sessionSeen.size + '</strong> word(s) seen but not ' + doneLabel + '.';
+        }
         const inner =
           '<div class="empty-message">' +
             '<p>Session complete.</p>' +
-            '<p>You ' + doneLabel + ' <strong>' + sessionMastered.size + '</strong> word(s). ' +
-               '<strong>' + sessionSeen.size + '</strong> word(s) seen but not ' + doneLabel + '.</p>' +
+            '<p>' + summary + '</p>' +
             '<div class="action-buttons" style="justify-content:center;margin-top:24px">' +
               '<button id="retest-btn" class="action-btn primary">Re-test previous words</button>' +
               '<a class="action-btn" href="' + buildBackToDashboardUrl() + '">Back to Dashboard</a>' +

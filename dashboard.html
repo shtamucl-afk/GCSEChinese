@@ -292,6 +292,7 @@
     .progress-dot.L2 { background-color: #EFBE4A; }
     .progress-dot.L3 { background-color: #7BC780; }
     .progress-dot.L4 { background-color: #5A9AD6; }
+    .progress-dot.L5 { background-color: #17457A; }
     .progress-dot.Excluded { background-color: #B8B0A0; }
     .review-line {
       display: flex;
@@ -337,6 +338,7 @@
     .cross-pool-btn.source-L2, .pool-btn.source-L2 { background-color: #FEF9E4; border-color: #EFBE4A; color: #C4952A; }
     .cross-pool-btn.source-L3, .pool-btn.source-L3 { background-color: #EAF6EC; border-color: #7BC780; color: #4E9E5A; }
     .cross-pool-btn.source-L4, .pool-btn.source-L4 { background-color: #E5EFF7; border-color: #5A9AD6; color: #5A9AD6; }
+    .cross-pool-btn.source-L5, .pool-btn.source-L5 { background-color: #DDE6F2; border-color: #17457A; color: #17457A; }
 
     /* ---------- Chapter list ---------- */
     .chapter-list {
@@ -479,6 +481,7 @@
     .bulk-btn.level-L2 { background-color: #FEF9E4; border-color: #EFBE4A; color: #C4952A; }
     .bulk-btn.level-L3 { background-color: #EAF6EC; border-color: #7BC780; color: #4E9E5A; }
     .bulk-btn.level-L4 { background-color: #E5EFF7; border-color: #5A9AD6; color: #5A9AD6; }
+    .bulk-btn.level-L5 { background-color: #DDE6F2; border-color: #17457A; color: #17457A; }
     .bulk-btn.review {
       background-color: rgba(30, 58, 95, 0.06);
       border-color: rgba(30, 58, 95, 0.3);
@@ -604,6 +607,7 @@
     .level-select.level-L2 { background-color: #FEF9E4; color: #C4952A; }
     .level-select.level-L3 { background-color: #EAF6EC; color: #4E9E5A; }
     .level-select.level-L4 { background-color: #E5EFF7; color: #5A9AD6; }
+    .level-select.level-L5 { background-color: #DDE6F2; color: #17457A; }
     .level-select.level-Excluded { background-color: #E5DED2; color: #6B6055; }
 
     /* ---------- Small buttons ---------- */
@@ -922,13 +926,14 @@
     // ------------------------------------------------------------------
     // Constants
     // ------------------------------------------------------------------
-    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4', 'Excluded'];
+    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4', 'L5', 'Excluded'];
     const LEVEL_META = {
       L0:       { label: 'L0 Discover' },
       L1:       { label: 'L1 Read' },
       L2:       { label: 'L2 Listen' },
       L3:       { label: 'L3 Usage' },
       L4:       { label: 'L4 Write' },
+      L5:       { label: 'L5 Confident' },
       Excluded: { label: '\ud83d\udeab Excluded' },
     };
     const REVIEW_LABEL = 'Review';
@@ -1102,7 +1107,7 @@
     }
 
     function computeLevelCounts(vocabArray) {
-      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0, Excluded: 0 };
+      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0, L5: 0, Excluded: 0 };
       vocabArray.forEach(word => {
         const level = getLevelForWord(word.id);
         counts[level] = (counts[level] || 0) + 1;
@@ -1111,7 +1116,7 @@
     }
 
     function computePoolCounts(vocabArray) {
-      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0, Excluded: 0 };
+      const counts = { L0: 0, L1: 0, L2: 0, L3: 0, L4: 0, L5: 0, Excluded: 0 };
       vocabArray.forEach(word => {
         if (isWordExcluded(word.id)) return;
         const level = getLevelForWord(word.id);
@@ -1517,12 +1522,11 @@
       const counts = computePoolCounts(vocab);
       document.querySelectorAll('.right-panel .pool-btn').forEach(btn => {
         const sourceLevel = btn.dataset.sourceLevel;
-        const targetLevel = btn.dataset.targetLevel;
-        if (!sourceLevel || !targetLevel) return;
-        const label = (targetLevel === 'L4R')
-          ? '\ud83d\udd04 L4'
-          : sourceLevel + '\u2192' + targetLevel;
-        btn.textContent = label + ' (' + counts[sourceLevel] + ')';
+        // Label is stored at render time: deriving it from source/target broke for
+        // pools whose source and target are the same level (L5), and needed a
+        // hard-coded exception for L4 review.
+        if (!sourceLevel || !btn.dataset.label) return;
+        btn.textContent = btn.dataset.label + ' (' + counts[sourceLevel] + ')';
       });
     }
 
@@ -1740,6 +1744,7 @@
         { label: 'L2\u2192L3', sourceLevel: 'L2', targetLevel: 'L3' },
         { label: 'L3\u2192L4', sourceLevel: 'L3', targetLevel: 'L4' },
         { label: '\ud83d\udd04 L4', sourceLevel: 'L4', targetLevel: 'L4R' },
+        { label: '\u2705 L5', sourceLevel: 'L5', targetLevel: 'L5' },
       ];
 
       CROSS_POOL.forEach(cfg => {
@@ -1747,6 +1752,7 @@
         btn.className = 'cross-pool-btn source-' + cfg.sourceLevel;
         btn.dataset.sourceLevel = cfg.sourceLevel;
         btn.dataset.targetLevel = cfg.targetLevel;
+        btn.dataset.label = cfg.label;
         btn.textContent = cfg.label + ' (' + counts[cfg.sourceLevel] + ')';
         btn.addEventListener('click', () => handleCrossPoolClick(cfg.targetLevel));
         btnRow.appendChild(btn);
@@ -1944,12 +1950,14 @@
         { label: 'L2\u2192L3', sourceLevel: 'L2', targetLevel: 'L3' },
         { label: 'L3\u2192L4', sourceLevel: 'L3', targetLevel: 'L4' },
         { label: '\ud83d\udd04 L4', sourceLevel: 'L4', targetLevel: 'L4R' },
+        { label: '\u2705 L5', sourceLevel: 'L5', targetLevel: 'L5' },
       ];
       POOL_BUTTONS.forEach(cfg => {
         const btn = document.createElement('button');
         btn.className = 'pool-btn source-' + cfg.sourceLevel;
         btn.dataset.sourceLevel = cfg.sourceLevel;
         btn.dataset.targetLevel = cfg.targetLevel;
+        btn.dataset.label = cfg.label;
         btn.textContent = cfg.label + ' (' + chapterCounts[cfg.sourceLevel] + ')';
         btn.addEventListener('click', () => handlePracticePoolClick(cfg.targetLevel, chapterData.chapterId));
         poolBtnRow.appendChild(btn);

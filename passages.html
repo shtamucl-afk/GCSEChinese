@@ -148,6 +148,7 @@
     .legend-dot.L2 { background-color: #EFBE4A; }
     .legend-dot.L3 { background-color: #7BC780; }
     .legend-dot.L4 { background-color: #5A9AD6; }
+    .legend-dot.L5 { background-color: #17457A; }
     .legend-dot.Excluded { background-color: #B8B0A0; }
 
     .passage-box {
@@ -192,6 +193,7 @@
     .vocab-L2 { background-color: #FFF3CD; color: #856404; }
     .vocab-L3 { background-color: #D4EDDA; color: #155724; }
     .vocab-L4 { background-color: #D9E7F5; color: #1E3A5F; }
+    .vocab-L5 { background-color: #C9D9EC; color: #123B66; }
     .vocab-Excluded { background-color: #E5DED2; color: #6B6055; }
 
     /* M9.3 + M9.5 - sentence wrappers. Inline so word wrap flows
@@ -359,13 +361,14 @@
   <script src="js/modal.js"></script>
 
   <script>
-    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4', 'Excluded'];
+    const LEVEL_ORDER = ['L0', 'L1', 'L2', 'L3', 'L4', 'L5', 'Excluded'];
     const LEVEL_META = {
       L0:       { emoji: '🔴', label: 'L0 Discover' },
       L1:       { emoji: '🟠', label: 'L1 Read' },
       L2:       { emoji: '🟡', label: 'L2 Listen' },
       L3:       { emoji: '🟢', label: 'L3 Usage' },
       L4:       { emoji: '🔵', label: 'L4 Write' },
+      L5:       { emoji: '✅', label: 'L5 Confident' },
       Excluded: { emoji: '🚫', label: 'Excluded' },
     };
 
