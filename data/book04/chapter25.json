@@ -1,0 +1,805 @@
+{
+  "bookId": "04",
+  "chapterId": "25",
+  "chapterTitle": "閱讀評估",
+  "chapterTitleSimplified": "阅读评估",
+  "passages": [
+    "閱讀評估一第七十五頁\n\n我的爸爸是我心目中的「超人」。有一次，我的單車壞了，爸爸三下兩下就修理好了。每當我遇到難題的時候，他都能幫我順利解決。可是有一次，「超人」卻不肯幫我了。\n\n事情是這樣的。那天，幾個同學來我家裏，我們一起比賽玩扭計骰，有一面我總是扭不好，便跑去爸爸的房間求他幫我快快扭好。可爸爸卻說：「我怎麼幫你啊？你們不是在比賽嗎？」我生氣地說：「你還自稱是『超人』爸爸呢，連扭計骰都不會！」我後來費了很多腦筋才扭好扭計骰，但是卻是最後一名，因此悶悶不樂。後來同學們都走了，我一個人坐在沙發上生氣。爸爸撫摸着我的頭說：「如果我幫你完成，不是幫你說謊了嗎？」我低下了頭。爸爸繼續說：「你總是羨慕爸爸是『超人』，可是爸爸更希望你能夠成為一個誠實、正直的人。你能理解爸爸嗎？」我聽了，更加慚愧了。\n\n第二天，爸爸問我：「你要不要去報名參加比賽呀？」我搖搖頭。爸爸說：「你還在為上次的事情生氣嗎？」我說：「不是，我覺得自己很笨。」爸爸說：「你啊，其實很聰明，因為你是『超人』的兒子啊！你玩扭計骰的速度完全可以去參加比賽了，志在參與嘛！」得到爸爸的鼓勵，我終於喜笑顏開。之後的幾天，爸爸都認真地配合我練習，看着他拿着手錶認真計時的樣子，我的心裏充滿了感動。扭計骰比賽中，我獲得了優異獎，雖然不是冠軍，但是我覺得很開心。\n\n我的爸爸就是這樣一個對我嚴格要求，又能夠幫助我進步的人，我很尊敬他。"
+  ],
+  "passagesSimplified": [
+    "阅读评估一第七十五页\n\n我的爸爸是我心目中的「超人」。有一次，我的单车坏了，爸爸三下两下就修理好了。每当我遇到难题的时候，他都能帮我顺利解决。可是有一次，「超人」却不肯帮我了。\n\n事情是这样的。那天，几个同学来我家里，我们一起比赛玩扭计骰，有一面我总是扭不好，便跑去爸爸的房间求他帮我快快扭好。可爸爸却说：「我怎么帮你啊？你们不是在比赛吗？」我生气地说：「你还自称是『超人』爸爸呢，连扭计骰都不会！」我后来费了很多脑筋才扭好扭计骰，但是却是最后一名，因此闷闷不乐。后来同学们都走了，我一个人坐在沙发上生气。爸爸抚摸着我的头说：「如果我帮你完成，不是帮你说谎了吗？」我低下了头。爸爸继续说：「你总是羡慕爸爸是『超人』，可是爸爸更希望你能够成为一个诚实、正直的人。你能理解爸爸吗？」我听了，更加惭愧了。\n\n第二天，爸爸问我：「你要不要去报名参加比赛呀？」我摇摇头。爸爸说：「你还在为上次的事情生气吗？」我说：「不是，我觉得自己很笨。」爸爸说：「你啊，其实很聪明，因为你是『超人』的儿子啊！你玩扭计骰的速度完全可以去参加比赛了，志在参与嘛！」得到爸爸的鼓励，我终于喜笑颜开。之后的几天，爸爸都认真地配合我练习，看着他拿着手表认真计时的样子，我的心里充满了感动。扭计骰比赛中，我获得了优异奖，虽然不是冠军，但是我觉得很开心。\n\n我的爸爸就是这样一个对我严格要求，又能够帮助我进步的人，我很尊敬他。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch25_w001",
+      "traditional": "三下兩下",
+      "simplified": "三下两下",
+      "english": "in just a few quick moves",
+      "pinyin": "sān xià liǎng xià",
+      "contextSentence": "有一次，我的單車壞了，爸爸三下兩下就修理好了。",
+      "contextSentenceSimplified": "有一次，我的单车坏了，爸爸三下两下就修理好了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w002",
+      "traditional": "不肯",
+      "simplified": "不肯",
+      "english": "was unwilling to",
+      "pinyin": "bù kěn",
+      "contextSentence": "可是有一次，「超人」卻不肯幫我了。",
+      "contextSentenceSimplified": "可是有一次，「超人」却不肯帮我了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w003",
+      "traditional": "扭計骰",
+      "simplified": "扭计骰",
+      "english": "Rubik's Cube",
+      "pinyin": "niǔ jì tóu",
+      "contextSentence": "那天，幾個同學來我家裏，我們一起比賽玩扭計骰，有一面我總是扭不好，便跑去爸爸的房間求他幫我快快扭好。",
+      "contextSentenceSimplified": "那天，几个同学来我家里，我们一起比赛玩扭计骰，有一面我总是扭不好，便跑去爸爸的房间求他帮我快快扭好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w004",
+      "traditional": "費了很多腦筋",
+      "simplified": "费了很多脑筋",
+      "english": "racked my brains a lot",
+      "pinyin": "fèi le hěn duō nǎo jīn",
+      "contextSentence": "」我後來費了很多腦筋才扭好扭計骰，但是卻是最後一名，因此悶悶不樂。",
+      "contextSentenceSimplified": "」我后来费了很多脑筋才扭好扭计骰，但是却是最后一名，因此闷闷不乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w005",
+      "traditional": "因此",
+      "simplified": "因此",
+      "english": "therefore",
+      "pinyin": "yīn cǐ",
+      "contextSentence": "」我後來費了很多腦筋才扭好扭計骰，但是卻是最後一名，因此悶悶不樂。",
+      "contextSentenceSimplified": "」我后来费了很多脑筋才扭好扭计骰，但是却是最后一名，因此闷闷不乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w006",
+      "traditional": "悶悶不樂",
+      "simplified": "闷闷不乐",
+      "english": "unhappy and glum",
+      "pinyin": "mèn mèn bù lè",
+      "contextSentence": "」我後來費了很多腦筋才扭好扭計骰，但是卻是最後一名，因此悶悶不樂。",
+      "contextSentenceSimplified": "」我后来费了很多脑筋才扭好扭计骰，但是却是最后一名，因此闷闷不乐。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w007",
+      "traditional": "撫摸",
+      "simplified": "抚摸",
+      "english": "stroked",
+      "pinyin": "fǔ mō",
+      "contextSentence": "爸爸撫摸着我的頭說：「如果我幫你完成，不是幫你說謊了嗎？",
+      "contextSentenceSimplified": "爸爸抚摸着我的头说：「如果我帮你完成，不是帮你说谎了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w008",
+      "traditional": "說謊",
+      "simplified": "说谎",
+      "english": "tell a lie",
+      "pinyin": "shuō huǎng",
+      "contextSentence": "爸爸撫摸着我的頭說：「如果我幫你完成，不是幫你說謊了嗎？",
+      "contextSentenceSimplified": "爸爸抚摸着我的头说：「如果我帮你完成，不是帮你说谎了吗？",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w009",
+      "traditional": "羨慕",
+      "simplified": "羡慕",
+      "english": "envy",
+      "pinyin": "xiàn mù",
+      "contextSentence": "爸爸繼續說：「你總是羨慕爸爸是『超人』，可是爸爸更希望你能夠成為一個誠實、正直的人。",
+      "contextSentenceSimplified": "爸爸继续说：「你总是羡慕爸爸是『超人』，可是爸爸更希望你能够成为一个诚实、正直的人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w010",
+      "traditional": "誠實",
+      "simplified": "诚实",
+      "english": "honest",
+      "pinyin": "chéng shí",
+      "contextSentence": "爸爸繼續說：「你總是羨慕爸爸是『超人』，可是爸爸更希望你能夠成為一個誠實、正直的人。",
+      "contextSentenceSimplified": "爸爸继续说：「你总是羡慕爸爸是『超人』，可是爸爸更希望你能够成为一个诚实、正直的人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w011",
+      "traditional": "正直",
+      "simplified": "正直",
+      "english": "upright",
+      "pinyin": "zhèng zhí",
+      "contextSentence": "爸爸繼續說：「你總是羨慕爸爸是『超人』，可是爸爸更希望你能夠成為一個誠實、正直的人。",
+      "contextSentenceSimplified": "爸爸继续说：「你总是羡慕爸爸是『超人』，可是爸爸更希望你能够成为一个诚实、正直的人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w012",
+      "traditional": "慚愧",
+      "simplified": "惭愧",
+      "english": "ashamed",
+      "pinyin": "cán kuì",
+      "contextSentence": "」我聽了，更加慚愧了。",
+      "contextSentenceSimplified": "」我听了，更加惭愧了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w013",
+      "traditional": "志在參與",
+      "simplified": "志在参与",
+      "english": "taking part is what matters",
+      "pinyin": "zhì zài cān yǔ",
+      "contextSentence": "你玩扭計骰的速度完全可以去參加比賽了，志在參與嘛！",
+      "contextSentenceSimplified": "你玩扭计骰的速度完全可以去参加比赛了，志在参与嘛！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w014",
+      "traditional": "喜笑顏開",
+      "simplified": "喜笑颜开",
+      "english": "beamed with joy",
+      "pinyin": "xǐ xiào yán kāi",
+      "contextSentence": "」得到爸爸的鼓勵，我終於喜笑顏開。",
+      "contextSentenceSimplified": "」得到爸爸的鼓励，我终于喜笑颜开。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w015",
+      "traditional": "配合",
+      "simplified": "配合",
+      "english": "cooperated with",
+      "pinyin": "pèi hé",
+      "contextSentence": "之後的幾天，爸爸都認真地配合我練習，看着他拿着手錶認真計時的樣子，我的心裏充滿了感動。",
+      "contextSentenceSimplified": "之后的几天，爸爸都认真地配合我练习，看着他拿着手表认真计时的样子，我的心里充满了感动。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w016",
+      "traditional": "優異獎",
+      "simplified": "优异奖",
+      "english": "merit award",
+      "pinyin": "yōu yì jiǎng",
+      "contextSentence": "扭計骰比賽中，我獲得了優異獎，雖然不是冠軍，但是我覺得很開心。",
+      "contextSentenceSimplified": "扭计骰比赛中，我获得了优异奖，虽然不是冠军，但是我觉得很开心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w017",
+      "traditional": "嚴格要求",
+      "simplified": "严格要求",
+      "english": "strict requirements",
+      "pinyin": "yán gé yāo qiú",
+      "contextSentence": "我的爸爸就是這樣一個對我嚴格要求，又能夠幫助我進步的人，我很尊敬他。",
+      "contextSentenceSimplified": "我的爸爸就是这样一个对我严格要求，又能够帮助我进步的人，我很尊敬他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch25_w018",
+      "traditional": "尊敬",
+      "simplified": "尊敬",
+      "english": "respect",
+      "pinyin": "zūn jìng",
+      "contextSentence": "我的爸爸就是這樣一個對我嚴格要求，又能夠幫助我進步的人，我很尊敬他。",
+      "contextSentenceSimplified": "我的爸爸就是这样一个对我严格要求，又能够帮助我进步的人，我很尊敬他。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter25/b04_ch25_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter25/b04_ch25_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter25/b04_ch25_p01_m.mp3",
+        "durationMs": 133848,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3072,
+            "text": "閱讀評估一第七十五頁",
+            "textSimplified": "阅读评估一第七十五页"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3072,
+            "endMs": 6408,
+            "text": "我的爸爸是我心目中的「超人」。",
+            "textSimplified": "我的爸爸是我心目中的「超人」。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 6408,
+            "endMs": 11880,
+            "text": "有一次，我的單車壞了，爸爸三下兩下就修理好了。",
+            "textSimplified": "有一次，我的单车坏了，爸爸三下两下就修理好了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 11880,
+            "endMs": 16632,
+            "text": "每當我遇到難題的時候，他都能幫我順利解決。",
+            "textSimplified": "每当我遇到难题的时候，他都能帮我顺利解决。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 16632,
+            "endMs": 20256,
+            "text": "可是有一次，「超人」卻不肯幫我了。",
+            "textSimplified": "可是有一次，「超人」却不肯帮我了。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 20256,
+            "endMs": 22272,
+            "text": "事情是這樣的。",
+            "textSimplified": "事情是这样的。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 22272,
+            "endMs": 33840,
+            "text": "那天，幾個同學來我家裏，我們一起比賽玩扭計骰，有一面我總是扭不好，便跑去爸爸的房間求他幫我快快扭好。",
+            "textSimplified": "那天，几个同学来我家里，我们一起比赛玩扭计骰，有一面我总是扭不好，便跑去爸爸的房间求他帮我快快扭好。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 33840,
+            "endMs": 37008,
+            "text": "可爸爸卻說：「我怎麼幫你啊？",
+            "textSimplified": "可爸爸却说：「我怎么帮你啊？"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 37008,
+            "endMs": 39336,
+            "text": "你們不是在比賽嗎？」",
+            "textSimplified": "你们不是在比赛吗？」"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 39336,
+            "endMs": 45240,
+            "text": "我生氣地說：「你還自稱是『超人』爸爸呢，連扭計骰都不會！」",
+            "textSimplified": "我生气地说：「你还自称是『超人』爸爸呢，连扭计骰都不会！」"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 45240,
+            "endMs": 52896,
+            "text": "我後來費了很多腦筋才扭好扭計骰，但是卻是最後一名，因此悶悶不樂。",
+            "textSimplified": "我后来费了很多脑筋才扭好扭计骰，但是却是最后一名，因此闷闷不乐。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 52896,
+            "endMs": 57768,
+            "text": "後來同學們都走了，我一個人坐在沙發上生氣。",
+            "textSimplified": "后来同学们都走了，我一个人坐在沙发上生气。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 57768,
+            "endMs": 63600,
+            "text": "爸爸撫摸着我的頭說：「如果我幫你完成，不是幫你說謊了嗎？」",
+            "textSimplified": "爸爸抚摸着我的头说：「如果我帮你完成，不是帮你说谎了吗？」"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 63600,
+            "endMs": 65472,
+            "text": "我低下了頭。",
+            "textSimplified": "我低下了头。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 65472,
+            "endMs": 74424,
+            "text": "爸爸繼續說：「你總是羨慕爸爸是『超人』，可是爸爸更希望你能夠成為一個誠實、正直的人。",
+            "textSimplified": "爸爸继续说：「你总是羡慕爸爸是『超人』，可是爸爸更希望你能够成为一个诚实、正直的人。"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 74424,
+            "endMs": 76656,
+            "text": "你能理解爸爸嗎？」",
+            "textSimplified": "你能理解爸爸吗？」"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 76656,
+            "endMs": 79512,
+            "text": "我聽了，更加慚愧了。",
+            "textSimplified": "我听了，更加惭愧了。"
+          },
+          {
+            "index": 17,
+            "paragraph": 6,
+            "startMs": 79512,
+            "endMs": 84552,
+            "text": "第二天，爸爸問我：「你要不要去報名參加比賽呀？」",
+            "textSimplified": "第二天，爸爸问我：「你要不要去报名参加比赛呀？」"
+          },
+          {
+            "index": 18,
+            "paragraph": 6,
+            "startMs": 84552,
+            "endMs": 86424,
+            "text": "我搖搖頭。",
+            "textSimplified": "我摇摇头。"
+          },
+          {
+            "index": 19,
+            "paragraph": 6,
+            "startMs": 86424,
+            "endMs": 90504,
+            "text": "爸爸說：「你還在為上次的事情生氣嗎？」",
+            "textSimplified": "爸爸说：「你还在为上次的事情生气吗？」"
+          },
+          {
+            "index": 20,
+            "paragraph": 6,
+            "startMs": 90504,
+            "endMs": 94296,
+            "text": "我說：「不是，我覺得自己很笨。」",
+            "textSimplified": "我说：「不是，我觉得自己很笨。」"
+          },
+          {
+            "index": 21,
+            "paragraph": 6,
+            "startMs": 94296,
+            "endMs": 99696,
+            "text": "爸爸說：「你啊，其實很聰明，因為你是『超人』的兒子啊！",
+            "textSimplified": "爸爸说：「你啊，其实很聪明，因为你是『超人』的儿子啊！"
+          },
+          {
+            "index": 22,
+            "paragraph": 6,
+            "startMs": 99696,
+            "endMs": 105384,
+            "text": "你玩扭計骰的速度完全可以去參加比賽了，志在參與嘛！」",
+            "textSimplified": "你玩扭计骰的速度完全可以去参加比赛了，志在参与嘛！」"
+          },
+          {
+            "index": 23,
+            "paragraph": 6,
+            "startMs": 105384,
+            "endMs": 109272,
+            "text": "得到爸爸的鼓勵，我終於喜笑顏開。",
+            "textSimplified": "得到爸爸的鼓励，我终于喜笑颜开。"
+          },
+          {
+            "index": 24,
+            "paragraph": 6,
+            "startMs": 109272,
+            "endMs": 119112,
+            "text": "之後的幾天，爸爸都認真地配合我練習，看着他拿着手錶認真計時的樣子，我的心裏充滿了感動。",
+            "textSimplified": "之后的几天，爸爸都认真地配合我练习，看着他拿着手表认真计时的样子，我的心里充满了感动。"
+          },
+          {
+            "index": 25,
+            "paragraph": 6,
+            "startMs": 119112,
+            "endMs": 126168,
+            "text": "扭計骰比賽中，我獲得了優異獎，雖然不是冠軍，但是我覺得很開心。",
+            "textSimplified": "扭计骰比赛中，我获得了优异奖，虽然不是冠军，但是我觉得很开心。"
+          },
+          {
+            "index": 26,
+            "paragraph": 8,
+            "startMs": 126168,
+            "endMs": 133848,
+            "text": "我的爸爸就是這樣一個對我嚴格要求，又能夠幫助我進步的人，我很尊敬他。",
+            "textSimplified": "我的爸爸就是这样一个对我严格要求，又能够帮助我进步的人，我很尊敬他。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter25/b04_ch25_p01_c.mp3",
+        "durationMs": 152376,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3192,
+            "text": "閱讀評估一第七十五頁",
+            "textSimplified": "阅读评估一第七十五页"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3192,
+            "endMs": 7416,
+            "text": "我的爸爸是我心目中的「超人」。",
+            "textSimplified": "我的爸爸是我心目中的「超人」。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 7416,
+            "endMs": 13632,
+            "text": "有一次，我的單車壞了，爸爸三下兩下就修理好了。",
+            "textSimplified": "有一次，我的单车坏了，爸爸三下两下就修理好了。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 13632,
+            "endMs": 19080,
+            "text": "每當我遇到難題的時候，他都能幫我順利解決。",
+            "textSimplified": "每当我遇到难题的时候，他都能帮我顺利解决。"
+          },
+          {
+            "index": 4,
+            "paragraph": 2,
+            "startMs": 19080,
+            "endMs": 23568,
+            "text": "可是有一次，「超人」卻不肯幫我了。",
+            "textSimplified": "可是有一次，「超人」却不肯帮我了。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 23568,
+            "endMs": 26064,
+            "text": "事情是這樣的。",
+            "textSimplified": "事情是这样的。"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 26064,
+            "endMs": 37464,
+            "text": "那天，幾個同學來我家裏，我們一起比賽玩扭計骰，有一面我總是扭不好，便跑去爸爸的房間求他幫我快快扭好。",
+            "textSimplified": "那天，几个同学来我家里，我们一起比赛玩扭计骰，有一面我总是扭不好，便跑去爸爸的房间求他帮我快快扭好。"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 37464,
+            "endMs": 41280,
+            "text": "可爸爸卻說：「我怎麼幫你啊？",
+            "textSimplified": "可爸爸却说：「我怎么帮你啊？"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 41280,
+            "endMs": 44520,
+            "text": "你們不是在比賽嗎？」",
+            "textSimplified": "你们不是在比赛吗？」"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 44520,
+            "endMs": 51408,
+            "text": "我生氣地說：「你還自稱是『超人』爸爸呢，連扭計骰都不會！」",
+            "textSimplified": "我生气地说：「你还自称是『超人』爸爸呢，连扭计骰都不会！」"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 51408,
+            "endMs": 58896,
+            "text": "我後來費了很多腦筋才扭好扭計骰，但是卻是最後一名，因此悶悶不樂。",
+            "textSimplified": "我后来费了很多脑筋才扭好扭计骰，但是却是最后一名，因此闷闷不乐。"
+          },
+          {
+            "index": 11,
+            "paragraph": 4,
+            "startMs": 58896,
+            "endMs": 64584,
+            "text": "後來同學們都走了，我一個人坐在沙發上生氣。",
+            "textSimplified": "后来同学们都走了，我一个人坐在沙发上生气。"
+          },
+          {
+            "index": 12,
+            "paragraph": 4,
+            "startMs": 64584,
+            "endMs": 71784,
+            "text": "爸爸撫摸着我的頭說：「如果我幫你完成，不是幫你說謊了嗎？」",
+            "textSimplified": "爸爸抚摸着我的头说：「如果我帮你完成，不是帮你说谎了吗？」"
+          },
+          {
+            "index": 13,
+            "paragraph": 4,
+            "startMs": 71784,
+            "endMs": 74112,
+            "text": "我低下了頭。",
+            "textSimplified": "我低下了头。"
+          },
+          {
+            "index": 14,
+            "paragraph": 4,
+            "startMs": 74112,
+            "endMs": 83040,
+            "text": "爸爸繼續說：「你總是羨慕爸爸是『超人』，可是爸爸更希望你能夠成為一個誠實、正直的人。",
+            "textSimplified": "爸爸继续说：「你总是羡慕爸爸是『超人』，可是爸爸更希望你能够成为一个诚实、正直的人。"
+          },
+          {
+            "index": 15,
+            "paragraph": 4,
+            "startMs": 83040,
+            "endMs": 86040,
+            "text": "你能理解爸爸嗎？」",
+            "textSimplified": "你能理解爸爸吗？」"
+          },
+          {
+            "index": 16,
+            "paragraph": 4,
+            "startMs": 86040,
+            "endMs": 89592,
+            "text": "我聽了，更加慚愧了。",
+            "textSimplified": "我听了，更加惭愧了。"
+          },
+          {
+            "index": 17,
+            "paragraph": 6,
+            "startMs": 89592,
+            "endMs": 96024,
+            "text": "第二天，爸爸問我：「你要不要去報名參加比賽呀？」",
+            "textSimplified": "第二天，爸爸问我：「你要不要去报名参加比赛呀？」"
+          },
+          {
+            "index": 18,
+            "paragraph": 6,
+            "startMs": 96024,
+            "endMs": 98184,
+            "text": "我搖搖頭。",
+            "textSimplified": "我摇摇头。"
+          },
+          {
+            "index": 19,
+            "paragraph": 6,
+            "startMs": 98184,
+            "endMs": 103344,
+            "text": "爸爸說：「你還在為上次的事情生氣嗎？」",
+            "textSimplified": "爸爸说：「你还在为上次的事情生气吗？」"
+          },
+          {
+            "index": 20,
+            "paragraph": 6,
+            "startMs": 103344,
+            "endMs": 108096,
+            "text": "我說：「不是，我覺得自己很笨。」",
+            "textSimplified": "我说：「不是，我觉得自己很笨。」"
+          },
+          {
+            "index": 21,
+            "paragraph": 6,
+            "startMs": 108096,
+            "endMs": 114744,
+            "text": "爸爸說：「你啊，其實很聰明，因為你是『超人』的兒子啊！",
+            "textSimplified": "爸爸说：「你啊，其实很聪明，因为你是『超人』的儿子啊！"
+          },
+          {
+            "index": 22,
+            "paragraph": 6,
+            "startMs": 114744,
+            "endMs": 121824,
+            "text": "你玩扭計骰的速度完全可以去參加比賽了，志在參與嘛！」",
+            "textSimplified": "你玩扭计骰的速度完全可以去参加比赛了，志在参与嘛！」"
+          },
+          {
+            "index": 23,
+            "paragraph": 6,
+            "startMs": 121824,
+            "endMs": 126360,
+            "text": "得到爸爸的鼓勵，我終於喜笑顏開。",
+            "textSimplified": "得到爸爸的鼓励，我终于喜笑颜开。"
+          },
+          {
+            "index": 24,
+            "paragraph": 6,
+            "startMs": 126360,
+            "endMs": 136512,
+            "text": "之後的幾天，爸爸都認真地配合我練習，看着他拿着手錶認真計時的樣子，我的心裏充滿了感動。",
+            "textSimplified": "之后的几天，爸爸都认真地配合我练习，看着他拿着手表认真计时的样子，我的心里充满了感动。"
+          },
+          {
+            "index": 25,
+            "paragraph": 6,
+            "startMs": 136512,
+            "endMs": 144336,
+            "text": "扭計骰比賽中，我獲得了優異獎，雖然不是冠軍，但是我覺得很開心。",
+            "textSimplified": "扭计骰比赛中，我获得了优异奖，虽然不是冠军，但是我觉得很开心。"
+          },
+          {
+            "index": 26,
+            "paragraph": 8,
+            "startMs": 144336,
+            "endMs": 152376,
+            "text": "我的爸爸就是這樣一個對我嚴格要求，又能夠幫助我進步的人，我很尊敬他。",
+            "textSimplified": "我的爸爸就是这样一个对我严格要求，又能够帮助我进步的人，我很尊敬他。"
+          }
+        ]
+      }
+    }
+  ]
+}
