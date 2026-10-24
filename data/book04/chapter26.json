@@ -1,0 +1,581 @@
+{
+  "bookId": "04",
+  "chapterId": "26",
+  "chapterTitle": "閱讀評估一：龍貓",
+  "chapterTitleSimplified": "阅读评估一：龙猫",
+  "passages": [
+    "我的表哥家養了一隻龍貓。龍貓其實學名叫做南美洲栗鼠，因為樣子圓滾滾，長得有點像宮崎駿動畫片裏的龍貓，所以被香港人改名叫做龍貓。\n\n表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。\n牠的性格非常溫順，就像一隻乖巧的小貓咪。表哥溫習的時候，牠總是默默地呆在一旁，吃着小零食。牠最喜歡吃甜的東西，有時候我會買些果脯餵牠，牠吃得津津有味呢！龍貓其實性格也有活潑的一面，牠高興的時候就喜歡跳來跳去，而且富有好奇心，對每件事物都要先嗅嗅，再咬一口。\n\n表哥告訴我龍貓屬於高原動物，不容易生病，而且牠很乾淨，沒有寄生蟲。最好玩的就是龍貓會自己洗澡，不用擔心照料問題。龍貓的毛很柔軟，而且不會掉毛，所以養起來很容易。龍貓很忠誠，一生只認一個主人，因此龍貓必須從小餵養，這樣長大後才不怕人。\n\n龍貓是很好照顧和打理的動物，比貓咪和狗狗都好\n養，非常適合工作繁忙，又需要人陪伴的朋友當做寵物。"
+  ],
+  "passagesSimplified": [
+    "我的表哥家养了一只龙猫。龙猫其实学名叫做南美洲栗鼠，因为样子圆滚滚，长得有点像宫崎骏动画片里的龙猫，所以被香港人改名叫做龙猫。\n\n表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。\n牠的性格非常温顺，就像一只乖巧的小猫咪。表哥温习的时候，牠总是默默地呆在一旁，吃着小零食。牠最喜欢吃甜的东西，有时候我会买些果脯喂牠，牠吃得津津有味呢！龙猫其实性格也有活泼的一面，牠高兴的时候就喜欢跳来跳去，而且富有好奇心，对每件事物都要先嗅嗅，再咬一口。\n\n表哥告诉我龙猫属于高原动物，不容易生病，而且牠很干净，没有寄生虫。最好玩的就是龙猫会自己洗澡，不用担心照料问题。龙猫的毛很柔软，而且不会掉毛，所以养起来很容易。龙猫很忠诚，一生只认一个主人，因此龙猫必须从小喂养，这样长大后才不怕人。\n\n龙猫是很好照顾和打理的动物，比猫咪和狗狗都好\n养，非常适合工作繁忙，又需要人陪伴的朋友当做宠物。"
+  ],
+  "vocab": [
+    {
+      "id": "b04_ch26_w001",
+      "traditional": "學名",
+      "simplified": "学名",
+      "english": "scientific name",
+      "pinyin": "xué míng",
+      "contextSentence": "龍貓其實學名叫做南美洲栗鼠，因為樣子圓滾滾，長得有點像宮崎駿動畫片裏的龍貓，所以被香港人改名叫做龍貓。",
+      "contextSentenceSimplified": "龙猫其实学名叫做南美洲栗鼠，因为样子圆滚滚，长得有点像宫崎骏动画片里的龙猫，所以被香港人改名叫做龙猫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w001_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w001_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w002",
+      "traditional": "栗鼠",
+      "simplified": "栗鼠",
+      "english": "chinchilla",
+      "pinyin": "lì shǔ",
+      "contextSentence": "龍貓其實學名叫做南美洲栗鼠，因為樣子圓滾滾，長得有點像宮崎駿動畫片裏的龍貓，所以被香港人改名叫做龍貓。",
+      "contextSentenceSimplified": "龙猫其实学名叫做南美洲栗鼠，因为样子圆滚滚，长得有点像宫崎骏动画片里的龙猫，所以被香港人改名叫做龙猫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w002_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w002_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w003",
+      "traditional": "圓滾滾",
+      "simplified": "圆滚滚",
+      "english": "round and chubby",
+      "pinyin": "yuán gǔn gǔn",
+      "contextSentence": "龍貓其實學名叫做南美洲栗鼠，因為樣子圓滾滾，長得有點像宮崎駿動畫片裏的龍貓，所以被香港人改名叫做龍貓。",
+      "contextSentenceSimplified": "龙猫其实学名叫做南美洲栗鼠，因为样子圆滚滚，长得有点像宫崎骏动画片里的龙猫，所以被香港人改名叫做龙猫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w003_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w003_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w004",
+      "traditional": "肥胖",
+      "simplified": "肥胖",
+      "english": "chubby",
+      "pinyin": "féi pàng",
+      "contextSentence": "表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。",
+      "contextSentenceSimplified": "表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w004_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w004_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w005",
+      "traditional": "毛茸茸",
+      "simplified": "毛茸茸",
+      "english": "fluffy",
+      "pinyin": "máo róng róng",
+      "contextSentence": "表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。",
+      "contextSentenceSimplified": "表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w005_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w005_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w006",
+      "traditional": "黑寶石",
+      "simplified": "黑宝石",
+      "english": "black gem",
+      "pinyin": "hēi bǎo shí",
+      "contextSentence": "表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。",
+      "contextSentenceSimplified": "表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w006_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w006_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w007",
+      "traditional": "機靈",
+      "simplified": "机灵",
+      "english": "clever",
+      "pinyin": "jī líng",
+      "contextSentence": "表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。",
+      "contextSentenceSimplified": "表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w007_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w007_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w008",
+      "traditional": "乖巧",
+      "simplified": "乖巧",
+      "english": "well-behaved",
+      "pinyin": "guāi qiǎo",
+      "contextSentence": "牠的性格非常溫順，就像一隻乖巧的小貓咪。",
+      "contextSentenceSimplified": "牠的性格非常温顺，就像一只乖巧的小猫咪。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w008_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w008_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w009",
+      "traditional": "默默地",
+      "simplified": "默默地",
+      "english": "quietly",
+      "pinyin": "mò mò dì",
+      "contextSentence": "表哥溫習的時候，牠總是默默地呆在一旁，吃着小零食。",
+      "contextSentenceSimplified": "表哥温习的时候，牠总是默默地呆在一旁，吃着小零食。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w009_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w009_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w010",
+      "traditional": "果脯",
+      "simplified": "果脯",
+      "english": "candied fruit",
+      "pinyin": "guǒ pú",
+      "contextSentence": "牠最喜歡吃甜的東西，有時候我會買些果脯餵牠，牠吃得津津有味呢！",
+      "contextSentenceSimplified": "牠最喜欢吃甜的东西，有时候我会买些果脯喂牠，牠吃得津津有味呢！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w010_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w010_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w011",
+      "traditional": "津津有味",
+      "simplified": "津津有味",
+      "english": "with relish",
+      "pinyin": "jīn jīn yǒu wèi",
+      "contextSentence": "牠最喜歡吃甜的東西，有時候我會買些果脯餵牠，牠吃得津津有味呢！",
+      "contextSentenceSimplified": "牠最喜欢吃甜的东西，有时候我会买些果脯喂牠，牠吃得津津有味呢！",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w011_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w011_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w012",
+      "traditional": "嗅嗅",
+      "simplified": "嗅嗅",
+      "english": "sniff",
+      "pinyin": "xiù xiù",
+      "contextSentence": "龍貓其實性格也有活潑的一面，牠高興的時候就喜歡跳來跳去，而且富有好奇心，對每件事物都要先嗅嗅，再咬一口。",
+      "contextSentenceSimplified": "龙猫其实性格也有活泼的一面，牠高兴的时候就喜欢跳来跳去，而且富有好奇心，对每件事物都要先嗅嗅，再咬一口。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w012_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w012_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w013",
+      "traditional": "高原",
+      "simplified": "高原",
+      "english": "highland",
+      "pinyin": "gāo yuán",
+      "contextSentence": "表哥告訴我龍貓屬於高原動物，不容易生病，而且牠很乾淨，沒有寄生蟲。",
+      "contextSentenceSimplified": "表哥告诉我龙猫属于高原动物，不容易生病，而且牠很干净，没有寄生虫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w013_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w013_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w014",
+      "traditional": "寄生蟲",
+      "simplified": "寄生虫",
+      "english": "parasite",
+      "pinyin": "jì shēng chóng",
+      "contextSentence": "表哥告訴我龍貓屬於高原動物，不容易生病，而且牠很乾淨，沒有寄生蟲。",
+      "contextSentenceSimplified": "表哥告诉我龙猫属于高原动物，不容易生病，而且牠很干净，没有寄生虫。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w014_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w014_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w015",
+      "traditional": "照料",
+      "simplified": "照料",
+      "english": "care",
+      "pinyin": "zhào liào",
+      "contextSentence": "最好玩的就是龍貓會自己洗澡，不用擔心照料問題。",
+      "contextSentenceSimplified": "最好玩的就是龙猫会自己洗澡，不用担心照料问题。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w015_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w015_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w016",
+      "traditional": "忠誠",
+      "simplified": "忠诚",
+      "english": "loyal",
+      "pinyin": "zhōng chéng",
+      "contextSentence": "龍貓很忠誠，一生只認一個主人，因此龍貓必須從小餵養，這樣長大後才不怕人。",
+      "contextSentenceSimplified": "龙猫很忠诚，一生只认一个主人，因此龙猫必须从小喂养，这样长大后才不怕人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w016_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w016_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w017",
+      "traditional": "餵養",
+      "simplified": "喂养",
+      "english": "raise",
+      "pinyin": "wèi yǎng",
+      "contextSentence": "龍貓很忠誠，一生只認一個主人，因此龍貓必須從小餵養，這樣長大後才不怕人。",
+      "contextSentenceSimplified": "龙猫很忠诚，一生只认一个主人，因此龙猫必须从小喂养，这样长大后才不怕人。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w017_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w017_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b04_ch26_w018",
+      "traditional": "打理",
+      "simplified": "打理",
+      "english": "manage",
+      "pinyin": "dǎ lǐ",
+      "contextSentence": "龍貓是很好照顧和打理的動物，比貓咪和狗狗都好\n養，非常適合工作繁忙，又需要人陪伴的朋友當做寵物。",
+      "contextSentenceSimplified": "龙猫是很好照顾和打理的动物，比猫咪和狗狗都好\n养，非常适合工作繁忙，又需要人陪伴的朋友当做宠物。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w018_m_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book04/chapter26/b04_ch26_w018_c_isolated.mp3",
+          "sentence": "audio/book04/chapter26/b04_ch26_w018_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book04/chapter26/b04_ch26_p01_m.mp3",
+        "durationMs": 102240,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3072,
+            "text": "我的表哥家養了一隻龍貓。",
+            "textSimplified": "我的表哥家养了一只龙猫。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 3072,
+            "endMs": 15000,
+            "text": "龍貓其實學名叫做南美洲栗鼠，因為樣子圓滾滾，長得有點像宮崎駿動畫片裏的龍貓，所以被香港人改名叫做龍貓。",
+            "textSimplified": "龙猫其实学名叫做南美洲栗鼠，因为样子圆滚滚，长得有点像宫崎骏动画片里的龙猫，所以被香港人改名叫做龙猫。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 15000,
+            "endMs": 31296,
+            "text": "表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。",
+            "textSimplified": "表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 31296,
+            "endMs": 36264,
+            "text": "牠的性格非常溫順，就像一隻乖巧的小貓咪。",
+            "textSimplified": "牠的性格非常温顺，就像一只乖巧的小猫咪。"
+          },
+          {
+            "index": 4,
+            "paragraph": 3,
+            "startMs": 36264,
+            "endMs": 42528,
+            "text": "表哥溫習的時候，牠總是默默地呆在一旁，吃着小零食。",
+            "textSimplified": "表哥温习的时候，牠总是默默地呆在一旁，吃着小零食。"
+          },
+          {
+            "index": 5,
+            "paragraph": 3,
+            "startMs": 42528,
+            "endMs": 49776,
+            "text": "牠最喜歡吃甜的東西，有時候我會買些果脯餵牠，牠吃得津津有味呢！",
+            "textSimplified": "牠最喜欢吃甜的东西，有时候我会买些果脯喂牠，牠吃得津津有味呢！"
+          },
+          {
+            "index": 6,
+            "paragraph": 3,
+            "startMs": 49776,
+            "endMs": 62040,
+            "text": "龍貓其實性格也有活潑的一面，牠高興的時候就喜歡跳來跳去，而且富有好奇心，對每件事物都要先嗅嗅，再咬一口。",
+            "textSimplified": "龙猫其实性格也有活泼的一面，牠高兴的时候就喜欢跳来跳去，而且富有好奇心，对每件事物都要先嗅嗅，再咬一口。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 62040,
+            "endMs": 70008,
+            "text": "表哥告訴我龍貓屬於高原動物，不容易生病，而且牠很乾淨，沒有寄生蟲。",
+            "textSimplified": "表哥告诉我龙猫属于高原动物，不容易生病，而且牠很干净，没有寄生虫。"
+          },
+          {
+            "index": 8,
+            "paragraph": 5,
+            "startMs": 70008,
+            "endMs": 75504,
+            "text": "最好玩的就是龍貓會自己洗澡，不用擔心照料問題。",
+            "textSimplified": "最好玩的就是龙猫会自己洗澡，不用担心照料问题。"
+          },
+          {
+            "index": 9,
+            "paragraph": 5,
+            "startMs": 75504,
+            "endMs": 81240,
+            "text": "龍貓的毛很柔軟，而且不會掉毛，所以養起來很容易。",
+            "textSimplified": "龙猫的毛很柔软，而且不会掉毛，所以养起来很容易。"
+          },
+          {
+            "index": 10,
+            "paragraph": 5,
+            "startMs": 81240,
+            "endMs": 90408,
+            "text": "龍貓很忠誠，一生只認一個主人，因此龍貓必須從小餵養，這樣長大後才不怕人。",
+            "textSimplified": "龙猫很忠诚，一生只认一个主人，因此龙猫必须从小喂养，这样长大后才不怕人。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 90408,
+            "endMs": 95952,
+            "text": "龍貓是很好照顧和打理的動物，比貓咪和狗狗都好",
+            "textSimplified": "龙猫是很好照顾和打理的动物，比猫咪和狗狗都好"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 95952,
+            "endMs": 102240,
+            "text": "養，非常適合工作繁忙，又需要人陪伴的朋友當做寵物。",
+            "textSimplified": "养，非常适合工作繁忙，又需要人陪伴的朋友当做宠物。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book04/chapter26/b04_ch26_p01_c.mp3",
+        "durationMs": 102768,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3456,
+            "text": "我的表哥家養了一隻龍貓。",
+            "textSimplified": "我的表哥家养了一只龙猫。"
+          },
+          {
+            "index": 1,
+            "paragraph": 0,
+            "startMs": 3456,
+            "endMs": 15456,
+            "text": "龍貓其實學名叫做南美洲栗鼠，因為樣子圓滾滾，長得有點像宮崎駿動畫片裏的龍貓，所以被香港人改名叫做龍貓。",
+            "textSimplified": "龙猫其实学名叫做南美洲栗鼠，因为样子圆滚滚，长得有点像宫崎骏动画片里的龙猫，所以被香港人改名叫做龙猫。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 15456,
+            "endMs": 30576,
+            "text": "表哥家的龍貓是灰色的，頭看上去像一隻肥胖版的灰老鼠，耳朵大大的很可愛，身上毛茸茸的，讓人想要把牠抱在手裏，黑寶石一般的眼睛透着機靈和調皮。",
+            "textSimplified": "表哥家的龙猫是灰色的，头看上去像一只肥胖版的灰老鼠，耳朵大大的很可爱，身上毛茸茸的，让人想要把牠抱在手里，黑宝石一般的眼睛透着机灵和调皮。"
+          },
+          {
+            "index": 3,
+            "paragraph": 3,
+            "startMs": 30576,
+            "endMs": 35856,
+            "text": "牠的性格非常溫順，就像一隻乖巧的小貓咪。",
+            "textSimplified": "牠的性格非常温顺，就像一只乖巧的小猫咪。"
+          },
+          {
+            "index": 4,
+            "paragraph": 3,
+            "startMs": 35856,
+            "endMs": 42312,
+            "text": "表哥溫習的時候，牠總是默默地呆在一旁，吃着小零食。",
+            "textSimplified": "表哥温习的时候，牠总是默默地呆在一旁，吃着小零食。"
+          },
+          {
+            "index": 5,
+            "paragraph": 3,
+            "startMs": 42312,
+            "endMs": 49920,
+            "text": "牠最喜歡吃甜的東西，有時候我會買些果脯餵牠，牠吃得津津有味呢！",
+            "textSimplified": "牠最喜欢吃甜的东西，有时候我会买些果脯喂牠，牠吃得津津有味呢！"
+          },
+          {
+            "index": 6,
+            "paragraph": 3,
+            "startMs": 49920,
+            "endMs": 61872,
+            "text": "龍貓其實性格也有活潑的一面，牠高興的時候就喜歡跳來跳去，而且富有好奇心，對每件事物都要先嗅嗅，再咬一口。",
+            "textSimplified": "龙猫其实性格也有活泼的一面，牠高兴的时候就喜欢跳来跳去，而且富有好奇心，对每件事物都要先嗅嗅，再咬一口。"
+          },
+          {
+            "index": 7,
+            "paragraph": 5,
+            "startMs": 61872,
+            "endMs": 70104,
+            "text": "表哥告訴我龍貓屬於高原動物，不容易生病，而且牠很乾淨，沒有寄生蟲。",
+            "textSimplified": "表哥告诉我龙猫属于高原动物，不容易生病，而且牠很干净，没有寄生虫。"
+          },
+          {
+            "index": 8,
+            "paragraph": 5,
+            "startMs": 70104,
+            "endMs": 76008,
+            "text": "最好玩的就是龍貓會自己洗澡，不用擔心照料問題。",
+            "textSimplified": "最好玩的就是龙猫会自己洗澡，不用担心照料问题。"
+          },
+          {
+            "index": 9,
+            "paragraph": 5,
+            "startMs": 76008,
+            "endMs": 82176,
+            "text": "龍貓的毛很柔軟，而且不會掉毛，所以養起來很容易。",
+            "textSimplified": "龙猫的毛很柔软，而且不会掉毛，所以养起来很容易。"
+          },
+          {
+            "index": 10,
+            "paragraph": 5,
+            "startMs": 82176,
+            "endMs": 90552,
+            "text": "龍貓很忠誠，一生只認一個主人，因此龍貓必須從小餵養，這樣長大後才不怕人。",
+            "textSimplified": "龙猫很忠诚，一生只认一个主人，因此龙猫必须从小喂养，这样长大后才不怕人。"
+          },
+          {
+            "index": 11,
+            "paragraph": 7,
+            "startMs": 90552,
+            "endMs": 96288,
+            "text": "龍貓是很好照顧和打理的動物，比貓咪和狗狗都好",
+            "textSimplified": "龙猫是很好照顾和打理的动物，比猫咪和狗狗都好"
+          },
+          {
+            "index": 12,
+            "paragraph": 8,
+            "startMs": 96288,
+            "endMs": 102768,
+            "text": "養，非常適合工作繁忙，又需要人陪伴的朋友當做寵物。",
+            "textSimplified": "养，非常适合工作繁忙，又需要人陪伴的朋友当做宠物。"
+          }
+        ]
+      }
+    }
+  ]
+}
