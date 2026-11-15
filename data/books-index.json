@@ -34,6 +34,13 @@
       "description": "Personal vocabulary notebook",
       "series": "Personal",
       "sortOrder": 0
+    },
+    {
+      "id": "100",
+      "title": "三下",
+      "description": "三下",
+      "series": "Unknown",
+      "sortOrder": 60
     }
   ]
 }
