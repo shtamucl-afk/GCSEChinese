@@ -1,0 +1,775 @@
+{
+  "bookId": "05",
+  "chapterId": "01",
+  "chapterTitle": "愛嘮叨的媽媽",
+  "chapterTitleSimplified": "爱唠叨的妈妈",
+  "passages": [
+    "三下 ：愛嘮叨的媽媽 （第六頁）\n\n我的媽媽很漂亮，大大的眼睛，高高的鼻子，加上一頭烏黑的秀髮。媽媽還煮得一手好菜，把我和爸爸都養得肥肥白白的。雖然媽媽千般好萬般好，但是，她也有個小缺點，那就是—愛嘮叨。\n\n去年暑假，我報名參加了學校舉辦的英語夏令營。從我報名那天開始，媽媽就不斷地詢問我夏令營的事：什麼時候去啊？住在哪兒呢？甚至帶隊的老師是誰，媽媽都一一詢問。唉，到最後，爸爸都忍不住皺着眉頭在旁邊說：『你都問了幾遍了？學校舉辦的夏令營很安全的，你不要太擔心。』我不耐煩地想：『我早就不是小孩啦，媽媽還一直這樣嘮叨，真是太嚕蘇啦！』\n\n出發當天，媽媽牽着我的手送我上車，反覆叮囑我注意的事項，聽到旁邊同學們的笑聲，我臉紅地說：『媽媽你別嘮叨了，我會照顧好自己的。』媽媽才點點頭和我說再見。\n\n在夏令營的每一天都很快樂，我們爬山玩水，邊玩樂邊學習。可是到了晚上，面對來勢洶洶的蚊子，大家都苦不堪言。\n這時，正在和蚊子羣戰的我突然想起了媽媽準備的蚊怕水，高興地翻出來噴上，並借給同學們。我內心不禁感動：『本來不準備帶蚊怕水，還多虧媽媽嘮叨着非要我帶上。』\n\n生活中這樣的小事還有很多，我也漸漸明白到：媽媽的嘮叨，是愛的嘮叨，字字句句都是對我的關心，媽媽的嘮叨，我想一直聽下去。"
+  ],
+  "passagesSimplified": [
+    "三下 ：爱唠叨的妈妈 （第六页）\n\n我的妈妈很漂亮，大大的眼睛，高高的鼻子，加上一头乌黑的秀发。妈妈还煮得一手好菜，把我和爸爸都养得肥肥白白的。虽然妈妈千般好万般好，但是，她也有个小缺点，那就是—爱唠叨。\n\n去年暑假，我报名参加了学校举办的英语夏令营。从我报名那天开始，妈妈就不断地询问我夏令营的事：什么时候去啊？住在哪儿呢？甚至带队的老师是谁，妈妈都一一询问。唉，到最后，爸爸都忍不住皱着眉头在旁边说：『你都问了几遍了？学校举办的夏令营很安全的，你不要太担心。』我不耐烦地想：『我早就不是小孩啦，妈妈还一直这样唠叨，真是太噜苏啦！』\n\n出发当天，妈妈牵着我的手送我上车，反复叮嘱我注意的事项，听到旁边同学们的笑声，我脸红地说：『妈妈你别唠叨了，我会照顾好自己的。』妈妈才点点头和我说再见。\n\n在夏令营的每一天都很快乐，我们爬山玩水，边玩乐边学习。可是到了晚上，面对来势汹汹的蚊子，大家都苦不堪言。\n这时，正在和蚊子群战的我突然想起了妈妈准备的蚊怕水，高兴地翻出来喷上，并借给同学们。我内心不禁感动：『本来不准备带蚊怕水，还多亏妈妈唠叨着非要我带上。』\n\n生活中这样的小事还有很多，我也渐渐明白到：妈妈的唠叨，是爱的唠叨，字字句句都是对我的关心，妈妈的唠叨，我想一直听下去。"
+  ],
+  "vocab": [
+    {
+      "id": "b05_ch01_w001",
+      "traditional": "秀髮",
+      "simplified": "秀发",
+      "english": "beautiful hair",
+      "pinyin": "xiù fà",
+      "contextSentence": "媽媽有一頭烏黑的秀髮。",
+      "contextSentenceSimplified": "妈妈有一头乌黑的秀发。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w001_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w001_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w001_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w001_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w002",
+      "traditional": "千般好萬般好",
+      "simplified": "千般好万般好",
+      "english": "wonderful in every way",
+      "pinyin": "qiān bān hǎo wàn bān hǎo",
+      "contextSentence": "媽媽千般好萬般好，就是愛嘮叨。",
+      "contextSentenceSimplified": "妈妈千般好万般好，就是爱唠叨。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w002_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w002_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w002_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w002_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w003",
+      "traditional": "嘮叨",
+      "simplified": "唠叨",
+      "english": "nagging",
+      "pinyin": "láo dāo",
+      "contextSentence": "媽媽總愛嘮叨，但那是對我的關心。",
+      "contextSentenceSimplified": "妈妈总爱唠叨，但那是对我的关心。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w003_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w003_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w003_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w003_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w004",
+      "traditional": "報名",
+      "simplified": "报名",
+      "english": "sign up",
+      "pinyin": "bào míng",
+      "contextSentence": "去年暑假，我報名參加學校的英語夏令營。",
+      "contextSentenceSimplified": "去年暑假，我报名参加学校的英语夏令营。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w004_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w004_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w004_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w004_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w005",
+      "traditional": "舉辦",
+      "simplified": "举办",
+      "english": "organize",
+      "pinyin": "jǔ bàn",
+      "contextSentence": "學校舉辦了英語夏令營。",
+      "contextSentenceSimplified": "学校举办了英语夏令营。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w005_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w005_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w005_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w005_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w006",
+      "traditional": "詢問",
+      "simplified": "询问",
+      "english": "ask about",
+      "pinyin": "xún wèn",
+      "contextSentence": "媽媽不斷詢問我夏令營的事。",
+      "contextSentenceSimplified": "妈妈不断询问我夏令营的事。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w006_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w006_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w006_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w006_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w007",
+      "traditional": "甚至",
+      "simplified": "甚至",
+      "english": "even",
+      "pinyin": "shèn zhì",
+      "contextSentence": "媽媽甚至連帶隊老師是誰都詢問。",
+      "contextSentenceSimplified": "妈妈甚至连带队老师是谁都询问。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w007_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w007_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w007_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w007_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w008",
+      "traditional": "皺着眉頭",
+      "simplified": "皱着眉头",
+      "english": "frowning",
+      "pinyin": "zhòu zhe méi tóu",
+      "contextSentence": "爸爸皺着眉頭說：「你問太多了。」",
+      "contextSentenceSimplified": "爸爸皱着眉头说：「你问太多了。」",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w008_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w008_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w008_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w008_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w009",
+      "traditional": "不耐煩",
+      "simplified": "不耐烦",
+      "english": "impatient",
+      "pinyin": "bù nài fán",
+      "contextSentence": "我不耐煩地說：「別再嘮叨了。」",
+      "contextSentenceSimplified": "我不耐烦地说：「别再唠叨了。」",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w009_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w009_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w009_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w009_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w010",
+      "traditional": "嚕蘇",
+      "simplified": "噜苏",
+      "english": "long-winded",
+      "pinyin": "lǔ sū",
+      "contextSentence": "媽媽一直嘮叨，我覺得太嚕蘇了。",
+      "contextSentenceSimplified": "妈妈一直唠叨，我觉得太噜苏了。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w010_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w010_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w010_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w010_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w011",
+      "traditional": "反覆",
+      "simplified": "反复",
+      "english": "repeatedly",
+      "pinyin": "fǎn fù",
+      "contextSentence": "媽媽反覆叮囑我注意安全。",
+      "contextSentenceSimplified": "妈妈反复叮嘱我注意安全。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w011_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w011_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w011_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w011_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w012",
+      "traditional": "叮囑",
+      "simplified": "叮嘱",
+      "english": "repeatedly reminded",
+      "pinyin": "dīng zhǔ",
+      "contextSentence": "媽媽叮囑我要照顧好自己。",
+      "contextSentenceSimplified": "妈妈叮嘱我要照顾好自己。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w012_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w012_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w012_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w012_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w013",
+      "traditional": "事項",
+      "simplified": "事项",
+      "english": "matters",
+      "pinyin": "shì xiàng",
+      "contextSentence": "老師說明了注意事項。",
+      "contextSentenceSimplified": "老师说明了注意事项。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w013_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w013_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w013_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w013_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w014",
+      "traditional": "來勢洶洶",
+      "simplified": "来势汹汹",
+      "english": "fierce and aggressive",
+      "pinyin": "lái shì xiōng xiōng",
+      "contextSentence": "晚上蚊子來勢洶洶，大家都睡不好。",
+      "contextSentenceSimplified": "晚上蚊子来势汹汹，大家都睡不好。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w014_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w014_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w014_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w014_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w015",
+      "traditional": "苦不堪言",
+      "simplified": "苦不堪言",
+      "english": "unbearable misery",
+      "pinyin": "kǔ bù kān yán",
+      "contextSentence": "蚊子太多，大家苦不堪言。",
+      "contextSentenceSimplified": "蚊子太多，大家苦不堪言。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w015_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w015_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w015_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w015_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w016",
+      "traditional": "羣戰",
+      "simplified": "群战",
+      "english": "fighting a swarm of mosquitoes",
+      "pinyin": "qún zhàn",
+      "contextSentence": "我正在和蚊子羣戰。",
+      "contextSentenceSimplified": "我正在和蚊子群战。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w016_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w016_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w016_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w016_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w017",
+      "traditional": "不禁",
+      "simplified": "不禁",
+      "english": "couldn't help but",
+      "pinyin": "bù jīn",
+      "contextSentence": "我內心不禁感動起來。",
+      "contextSentenceSimplified": "我内心不禁感动起来。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w017_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w017_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w017_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w017_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w018",
+      "traditional": "多虧",
+      "simplified": "多亏",
+      "english": "thanks to",
+      "pinyin": "duō kuī",
+      "contextSentence": "多虧媽媽準備了蚊怕水。",
+      "contextSentenceSimplified": "多亏妈妈准备了蚊怕水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w018_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w018_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w018_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w018_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w019",
+      "traditional": "非要",
+      "simplified": "非要",
+      "english": "insist on",
+      "pinyin": "fēi yào",
+      "contextSentence": "媽媽非要我帶上蚊怕水。",
+      "contextSentenceSimplified": "妈妈非要我带上蚊怕水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w019_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w019_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w019_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w019_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w020",
+      "traditional": "缺點",
+      "simplified": "缺点",
+      "english": "shortcoming",
+      "pinyin": "quē diǎn",
+      "contextSentence": "媽媽的小缺點就是愛嘮叨。",
+      "contextSentenceSimplified": "妈妈的小缺点就是爱唠叨。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w020_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w020_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w020_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w020_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w021",
+      "traditional": "夏令營",
+      "simplified": "夏令营",
+      "english": "summer camp",
+      "pinyin": "xià lìng yíng",
+      "contextSentence": "我在夏令營認識了許多朋友。",
+      "contextSentenceSimplified": "我在夏令营认识了许多朋友。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w021_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w021_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w021_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w021_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w022",
+      "traditional": "牽着",
+      "simplified": "牵着",
+      "english": "holding",
+      "pinyin": "qiān zhe",
+      "contextSentence": "媽媽牽着我的手送我上車。",
+      "contextSentenceSimplified": "妈妈牵着我的手送我上车。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w022_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w022_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w022_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w022_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w023",
+      "traditional": "翻出",
+      "simplified": "翻出",
+      "english": "took out",
+      "pinyin": "fān chū",
+      "contextSentence": "我從背包翻出蚊怕水。",
+      "contextSentenceSimplified": "我从背包翻出蚊怕水。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w023_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w023_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w023_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w023_c_sentence.mp3"
+        }
+      }
+    },
+    {
+      "id": "b05_ch01_w024",
+      "traditional": "噴上",
+      "simplified": "喷上",
+      "english": "spray on",
+      "pinyin": "pēn shàng",
+      "contextSentence": "我噴上蚊怕水後，蚊子不敢靠近。",
+      "contextSentenceSimplified": "我喷上蚊怕水后，蚊子不敢靠近。",
+      "audio": {
+        "mandarin": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w024_m_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w024_m_sentence.mp3"
+        },
+        "cantonese": {
+          "isolated": "audio/book05/chapter01/b05_ch01_w024_c_isolated.mp3",
+          "sentence": "audio/book05/chapter01/b05_ch01_w024_c_sentence.mp3"
+        }
+      }
+    }
+  ],
+  "passageAudio": [
+    {
+      "passageIndex": 0,
+      "mandarin": {
+        "file": "audio/book05/chapter01/b05_ch01_p01_m.mp3",
+        "durationMs": 122160,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 3816,
+            "text": "三下 ：愛嘮叨的媽媽 （第六頁）",
+            "textSimplified": "三下 ：爱唠叨的妈妈 （第六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 3816,
+            "endMs": 10920,
+            "text": "我的媽媽很漂亮，大大的眼睛，高高的鼻子，加上一頭烏黑的秀髮。",
+            "textSimplified": "我的妈妈很漂亮，大大的眼睛，高高的鼻子，加上一头乌黑的秀发。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 10920,
+            "endMs": 16560,
+            "text": "媽媽還煮得一手好菜，把我和爸爸都養得肥肥白白的。",
+            "textSimplified": "妈妈还煮得一手好菜，把我和爸爸都养得肥肥白白的。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 16560,
+            "endMs": 23688,
+            "text": "雖然媽媽千般好萬般好，但是，她也有個小缺點，那就是—愛嘮叨。",
+            "textSimplified": "虽然妈妈千般好万般好，但是，她也有个小缺点，那就是—爱唠叨。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 23688,
+            "endMs": 29040,
+            "text": "去年暑假，我報名參加了學校舉辦的英語夏令營。",
+            "textSimplified": "去年暑假，我报名参加了学校举办的英语夏令营。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 29040,
+            "endMs": 35856,
+            "text": "從我報名那天開始，媽媽就不斷地詢問我夏令營的事：什麼時候去啊？",
+            "textSimplified": "从我报名那天开始，妈妈就不断地询问我夏令营的事：什么时候去啊？"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 35856,
+            "endMs": 37728,
+            "text": "住在哪兒呢？",
+            "textSimplified": "住在哪儿呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 37728,
+            "endMs": 42240,
+            "text": "甚至帶隊的老師是誰，媽媽都一一詢問。",
+            "textSimplified": "甚至带队的老师是谁，妈妈都一一询问。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 42240,
+            "endMs": 49008,
+            "text": "唉，到最後，爸爸都忍不住皺着眉頭在旁邊說：『你都問了幾遍了？",
+            "textSimplified": "唉，到最后，爸爸都忍不住皱着眉头在旁边说：『你都问了几遍了？"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 49008,
+            "endMs": 53976,
+            "text": "學校舉辦的夏令營很安全的，你不要太擔心。』",
+            "textSimplified": "学校举办的夏令营很安全的，你不要太担心。』"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 53976,
+            "endMs": 61392,
+            "text": "我不耐煩地想：『我早就不是小孩啦，媽媽還一直這樣嘮叨，真是太嚕蘇啦！』",
+            "textSimplified": "我不耐烦地想：『我早就不是小孩啦，妈妈还一直这样唠叨，真是太噜苏啦！』"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 61392,
+            "endMs": 75480,
+            "text": "出發當天，媽媽牽着我的手送我上車，反覆叮囑我注意的事項，聽到旁邊同學們的笑聲，我臉紅地說：『媽媽你別嘮叨了，我會照顧好自己的。』",
+            "textSimplified": "出发当天，妈妈牵着我的手送我上车，反复叮嘱我注意的事项，听到旁边同学们的笑声，我脸红地说：『妈妈你别唠叨了，我会照顾好自己的。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 75480,
+            "endMs": 78840,
+            "text": "媽媽才點點頭和我說再見。",
+            "textSimplified": "妈妈才点点头和我说再见。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 78840,
+            "endMs": 85464,
+            "text": "在夏令營的每一天都很快樂，我們爬山玩水，邊玩樂邊學習。",
+            "textSimplified": "在夏令营的每一天都很快乐，我们爬山玩水，边玩乐边学习。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 85464,
+            "endMs": 91320,
+            "text": "可是到了晚上，面對來勢洶洶的蚊子，大家都苦不堪言。",
+            "textSimplified": "可是到了晚上，面对来势汹汹的蚊子，大家都苦不堪言。"
+          },
+          {
+            "index": 15,
+            "paragraph": 9,
+            "startMs": 91320,
+            "endMs": 101472,
+            "text": "這時，正在和蚊子羣戰的我突然想起了媽媽準備的蚊怕水，高興地翻出來噴上，並借給同學們。",
+            "textSimplified": "这时，正在和蚊子群战的我突然想起了妈妈准备的蚊怕水，高兴地翻出来喷上，并借给同学们。"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 101472,
+            "endMs": 108960,
+            "text": "我內心不禁感動：『本來不準備帶蚊怕水，還多虧媽媽嘮叨着非要我帶上。』",
+            "textSimplified": "我内心不禁感动：『本来不准备带蚊怕水，还多亏妈妈唠叨着非要我带上。』"
+          },
+          {
+            "index": 17,
+            "paragraph": 11,
+            "startMs": 108960,
+            "endMs": 122160,
+            "text": "生活中這樣的小事還有很多，我也漸漸明白到：媽媽的嘮叨，是愛的嘮叨，字字句句都是對我的關心，媽媽的嘮叨，我想一直聽下去。",
+            "textSimplified": "生活中这样的小事还有很多，我也渐渐明白到：妈妈的唠叨，是爱的唠叨，字字句句都是对我的关心，妈妈的唠叨，我想一直听下去。"
+          }
+        ]
+      },
+      "cantonese": {
+        "file": "audio/book05/chapter01/b05_ch01_p01_c.mp3",
+        "durationMs": 131040,
+        "sentences": [
+          {
+            "index": 0,
+            "paragraph": 0,
+            "startMs": 0,
+            "endMs": 4416,
+            "text": "三下 ：愛嘮叨的媽媽 （第六頁）",
+            "textSimplified": "三下 ：爱唠叨的妈妈 （第六页）"
+          },
+          {
+            "index": 1,
+            "paragraph": 2,
+            "startMs": 4416,
+            "endMs": 11856,
+            "text": "我的媽媽很漂亮，大大的眼睛，高高的鼻子，加上一頭烏黑的秀髮。",
+            "textSimplified": "我的妈妈很漂亮，大大的眼睛，高高的鼻子，加上一头乌黑的秀发。"
+          },
+          {
+            "index": 2,
+            "paragraph": 2,
+            "startMs": 11856,
+            "endMs": 17664,
+            "text": "媽媽還煮得一手好菜，把我和爸爸都養得肥肥白白的。",
+            "textSimplified": "妈妈还煮得一手好菜，把我和爸爸都养得肥肥白白的。"
+          },
+          {
+            "index": 3,
+            "paragraph": 2,
+            "startMs": 17664,
+            "endMs": 25752,
+            "text": "雖然媽媽千般好萬般好，但是，她也有個小缺點，那就是—愛嘮叨。",
+            "textSimplified": "虽然妈妈千般好万般好，但是，她也有个小缺点，那就是—爱唠叨。"
+          },
+          {
+            "index": 4,
+            "paragraph": 4,
+            "startMs": 25752,
+            "endMs": 31752,
+            "text": "去年暑假，我報名參加了學校舉辦的英語夏令營。",
+            "textSimplified": "去年暑假，我报名参加了学校举办的英语夏令营。"
+          },
+          {
+            "index": 5,
+            "paragraph": 4,
+            "startMs": 31752,
+            "endMs": 39336,
+            "text": "從我報名那天開始，媽媽就不斷地詢問我夏令營的事：什麼時候去啊？",
+            "textSimplified": "从我报名那天开始，妈妈就不断地询问我夏令营的事：什么时候去啊？"
+          },
+          {
+            "index": 6,
+            "paragraph": 4,
+            "startMs": 39336,
+            "endMs": 41592,
+            "text": "住在哪兒呢？",
+            "textSimplified": "住在哪儿呢？"
+          },
+          {
+            "index": 7,
+            "paragraph": 4,
+            "startMs": 41592,
+            "endMs": 46368,
+            "text": "甚至帶隊的老師是誰，媽媽都一一詢問。",
+            "textSimplified": "甚至带队的老师是谁，妈妈都一一询问。"
+          },
+          {
+            "index": 8,
+            "paragraph": 4,
+            "startMs": 46368,
+            "endMs": 53952,
+            "text": "唉，到最後，爸爸都忍不住皺着眉頭在旁邊說：『你都問了幾遍了？",
+            "textSimplified": "唉，到最后，爸爸都忍不住皱着眉头在旁边说：『你都问了几遍了？"
+          },
+          {
+            "index": 9,
+            "paragraph": 4,
+            "startMs": 53952,
+            "endMs": 59592,
+            "text": "學校舉辦的夏令營很安全的，你不要太擔心。』",
+            "textSimplified": "学校举办的夏令营很安全的，你不要太担心。』"
+          },
+          {
+            "index": 10,
+            "paragraph": 4,
+            "startMs": 59592,
+            "endMs": 68160,
+            "text": "我不耐煩地想：『我早就不是小孩啦，媽媽還一直這樣嘮叨，真是太嚕蘇啦！』",
+            "textSimplified": "我不耐烦地想：『我早就不是小孩啦，妈妈还一直这样唠叨，真是太噜苏啦！』"
+          },
+          {
+            "index": 11,
+            "paragraph": 6,
+            "startMs": 68160,
+            "endMs": 82248,
+            "text": "出發當天，媽媽牽着我的手送我上車，反覆叮囑我注意的事項，聽到旁邊同學們的笑聲，我臉紅地說：『媽媽你別嘮叨了，我會照顧好自己的。』",
+            "textSimplified": "出发当天，妈妈牵着我的手送我上车，反复叮嘱我注意的事项，听到旁边同学们的笑声，我脸红地说：『妈妈你别唠叨了，我会照顾好自己的。』"
+          },
+          {
+            "index": 12,
+            "paragraph": 6,
+            "startMs": 82248,
+            "endMs": 85872,
+            "text": "媽媽才點點頭和我說再見。",
+            "textSimplified": "妈妈才点点头和我说再见。"
+          },
+          {
+            "index": 13,
+            "paragraph": 8,
+            "startMs": 85872,
+            "endMs": 92520,
+            "text": "在夏令營的每一天都很快樂，我們爬山玩水，邊玩樂邊學習。",
+            "textSimplified": "在夏令营的每一天都很快乐，我们爬山玩水，边玩乐边学习。"
+          },
+          {
+            "index": 14,
+            "paragraph": 8,
+            "startMs": 92520,
+            "endMs": 99120,
+            "text": "可是到了晚上，面對來勢洶洶的蚊子，大家都苦不堪言。",
+            "textSimplified": "可是到了晚上，面对来势汹汹的蚊子，大家都苦不堪言。"
+          },
+          {
+            "index": 15,
+            "paragraph": 9,
+            "startMs": 99120,
+            "endMs": 109056,
+            "text": "這時，正在和蚊子羣戰的我突然想起了媽媽準備的蚊怕水，高興地翻出來噴上，並借給同學們。",
+            "textSimplified": "这时，正在和蚊子群战的我突然想起了妈妈准备的蚊怕水，高兴地翻出来喷上，并借给同学们。"
+          },
+          {
+            "index": 16,
+            "paragraph": 9,
+            "startMs": 109056,
+            "endMs": 117456,
+            "text": "我內心不禁感動：『本來不準備帶蚊怕水，還多虧媽媽嘮叨着非要我帶上。』",
+            "textSimplified": "我内心不禁感动：『本来不准备带蚊怕水，还多亏妈妈唠叨着非要我带上。』"
+          },
+          {
+            "index": 17,
+            "paragraph": 11,
+            "startMs": 117456,
+            "endMs": 131040,
+            "text": "生活中這樣的小事還有很多，我也漸漸明白到：媽媽的嘮叨，是愛的嘮叨，字字句句都是對我的關心，媽媽的嘮叨，我想一直聽下去。",
+            "textSimplified": "生活中这样的小事还有很多，我也渐渐明白到：妈妈的唠叨，是爱的唠叨，字字句句都是对我的关心，妈妈的唠叨，我想一直听下去。"
+          }
+        ]
+      }
+    }
+  ]
+}
