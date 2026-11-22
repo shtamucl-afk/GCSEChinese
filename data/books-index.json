@@ -29,18 +29,18 @@
       "sortOrder": 50
     },
     {
+      "id": "05",
+      "title": "三下",
+      "description": "閱讀理解",
+      "series": "Primary School Chinese",
+      "sortOrder": 60
+    },
+    {
       "id": "99",
       "title": "My Notebook",
       "description": "Personal vocabulary notebook",
       "series": "Personal",
       "sortOrder": 0
-    },
-    {
-      "id": "100",
-      "title": "三下",
-      "description": "三下",
-      "series": "Unknown",
-      "sortOrder": 60
     }
   ]
 }
